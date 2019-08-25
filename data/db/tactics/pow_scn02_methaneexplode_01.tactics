@@ -1,0 +1,39 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>Artillery</Weapon>
+        <Name>GenericInfoAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <PhysicsForceMax>2000</PhysicsForceMax>
+        <PhysicsForceMin>1400</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>true</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>27.700000000000003</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+        <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+        <MovingMaxDeviation>18</MovingMaxDeviation>
+        <MovingAccuracy>0</MovingAccuracy>
+        <MaxDeviation>18</MaxDeviation>
+        <Accuracy>0</Accuracy>
+        <MaxRange>92.25</MaxRange>
+        <MaxVelocityLead>2.46</MaxVelocityLead>
+        <ImpactEffect size="Medium">Rhinoshell</ImpactEffect>
+        <Projectile>fx_proj_artillery_01</Projectile>
+        <WeaponType>Explosive</WeaponType>
+        <DamagePerSecond>18000</DamagePerSecond>
+        <Name>Artillery</Name>
+    </Weapon>
+</TacticData>

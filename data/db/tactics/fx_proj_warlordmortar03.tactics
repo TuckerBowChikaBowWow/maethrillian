@@ -1,0 +1,35 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>PlasmaMortar</Weapon>
+        <Name>GenericInfoAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>3.1</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+        <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+        <MovingMaxDeviation>18</MovingMaxDeviation>
+        <MovingAccuracy>0</MovingAccuracy>
+        <MaxDeviation>6</MaxDeviation>
+        <Accuracy>0</Accuracy>
+        <MaxRange>61.5</MaxRange>
+        <MaxVelocityLead>2.46</MaxVelocityLead>
+        <ImpactEffect size="Medium">Tankshell</ImpactEffect>
+        <Projectile>vfx_episode2_units_warlordmortar3</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>0</DamagePerSecond>
+        <Name>PlasmaMortar</Name>
+    </Weapon>
+</TacticData>

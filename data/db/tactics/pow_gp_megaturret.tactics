@@ -1,0 +1,35 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>megaTurret</Weapon>
+        <Name>megaTurretAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <PhysicsForceMax>1500</PhysicsForceMax>
+        <PhysicsForceMin>1200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowDamageParts>
+        </ThrowDamageParts>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4.3</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <MaxRange>307.5</MaxRange>
+        <MaxVelocityLead>0</MaxVelocityLead>
+        <ImpactEffect size="Medium">LargeExplosionImpact</ImpactEffect>
+        <Projectile>pow_gp_megaTurret</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>20000</DamagePerSecond>
+        <AttackRate>1</AttackRate>
+        <Name>megaTurret</Name>
+    </Weapon>
+</TacticData>

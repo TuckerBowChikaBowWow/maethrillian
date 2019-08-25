@@ -1,0 +1,214 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>UngarrisonTeleport</Action>
+            <TargetType>TeleportDropoff</TargetType>
+            <Relation>Self</Relation>
+            <Ability>Ungarrison</Ability>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>GarrisonTeleport</Action>
+            <TargetType>TeleportPickup</TargetType>
+            <Relation>Self</Relation>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>RightWingmanAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>LeftWingmanAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>RightChaingunAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>LeftChaingunAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>GatherCollectables</Action>
+            <TargetType>Collectable</TargetType>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <PersistentAction>RightWingmanAttackAction</PersistentAction>
+        <PersistentAction>LeftWingmanAttackAction</PersistentAction>
+    </Tactic>
+    <Action>
+        <WorkRange>1.8450000000000002</WorkRange>
+        <WorkRate>1</WorkRate>
+        <Resource>Collectable</Resource>
+        <Anim>Gather</Anim>
+        <ActionType>Gather</ActionType>
+        <Name>GatherCollectables</Name>
+    </Action>
+    <Action>
+        <WorkRange>0</WorkRange>
+        <Anim>TeleportIn</Anim>
+        <ActionType>Ungarrison</ActionType>
+        <Name>UngarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <WorkRange>9.225</WorkRange>
+        <Anim>TeleportOut</Anim>
+        <ActionType>Garrison</ActionType>
+        <Name>GarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <DontCheckOrientTolerance>
+        </DontCheckOrientTolerance>
+        <Weapon>RightWingMan</Weapon>
+        <Anim>RocketAttackRight</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>RightWingmanAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <DontCheckOrientTolerance>
+        </DontCheckOrientTolerance>
+        <Weapon>LeftWingman</Weapon>
+        <Anim>RocketAttackLeft</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>LeftWingmanAttackAction</Name>
+    </Action>
+    <Action>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <LoopAttackAnim>
+        </LoopAttackAnim>
+        <Strafing turnRate="90" trackingSpeed="40" jitter="20">
+        </Strafing>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <Weapon>LeftChaingun</Weapon>
+        <Duration DurationSpread="0">2.3000000000000003</Duration>
+        <SlaveAttackAction>RightChaingunAttackAction</SlaveAttackAction>
+        <Anim>LeftChainGunAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>LeftChaingunAttackAction</Name>
+    </Action>
+    <Action>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <LoopAttackAnim>
+        </LoopAttackAnim>
+        <Strafing turnRate="90" trackingSpeed="40" jitter="20">
+        </Strafing>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <Duration DurationSpread="0">2.3000000000000003</Duration>
+        <Weapon>RightChaingun</Weapon>
+        <Anim>RightChainGunAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>RightChaingunAttackAction</Name>
+    </Action>
+    <Weapon>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="Infantry">2</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="Aircraft">4</TargetPriority>
+        <TargetPriority type="GroundVehicle">5</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PostAttackCooldownMax>2</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>2</PreAttackCooldownMax>
+        <PreAttackCooldownMin>1</PreAttackCooldownMin>
+        <PhysicsForceMax>1100</PhysicsForceMax>
+        <PhysicsForceMin>900</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <Accuracy>1</Accuracy>
+        <Hardpoint>RightWingmanTurret</Hardpoint>
+        <MaxRange>45</MaxRange>
+        <MaxVelocityLead>2.46</MaxVelocityLead>
+        <ImpactEffect size="Medium">MissileImpact</ImpactEffect>
+        <Projectile>fx_proj_missile_01</Projectile>
+        <WeaponType>HornetChainGun</WeaponType>
+        <DamagePerSecond>45</DamagePerSecond>
+        <Name>RightWingMan</Name>
+    </Weapon>
+    <Weapon>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="Infantry">2</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="Aircraft">4</TargetPriority>
+        <TargetPriority type="GroundVehicle">5</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PostAttackCooldownMax>2</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>2</PreAttackCooldownMax>
+        <PreAttackCooldownMin>1</PreAttackCooldownMin>
+        <PhysicsForceMax>1100</PhysicsForceMax>
+        <PhysicsForceMin>900</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <Accuracy>1</Accuracy>
+        <Hardpoint>LeftWingmanTurret</Hardpoint>
+        <MaxRange>45</MaxRange>
+        <MaxVelocityLead>2.46</MaxVelocityLead>
+        <ImpactEffect size="Medium">MissileImpact</ImpactEffect>
+        <Projectile>fx_proj_missile_01</Projectile>
+        <WeaponType>HornetChainGun</WeaponType>
+        <DamagePerSecond>45</DamagePerSecond>
+        <Name>LeftWingman</Name>
+    </Weapon>
+    <Weapon>
+        <PostAttackCooldownMax>2</PostAttackCooldownMax>
+        <PostAttackCooldownMin>2</PostAttackCooldownMin>
+        <TargetPriority type="Building">5</TargetPriority>
+        <TargetPriority type="Infantry">6</TargetPriority>
+        <TargetPriority type="TurretBuilding">7</TargetPriority>
+        <TargetPriority type="Aircraft">8</TargetPriority>
+        <TargetPriority type="GroundVehicle">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>0.1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>0.1</Accuracy>
+        <MaxRange>40</MaxRange>
+        <Hardpoint>RightChaingun</Hardpoint>
+        <MaxVelocityLead>0</MaxVelocityLead>
+        <ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_chainGunhornetslave_01</Projectile>
+        <WeaponType>HornetChainGun</WeaponType>
+        <DamagePerSecond>0</DamagePerSecond>
+        <AttackRate>0.125</AttackRate>
+        <Name>RightChaingun</Name>
+    </Weapon>
+    <Weapon>
+        <PostAttackCooldownMax>2</PostAttackCooldownMax>
+        <PostAttackCooldownMin>2</PostAttackCooldownMin>
+        <TargetPriority type="Building">5</TargetPriority>
+        <TargetPriority type="Infantry">6</TargetPriority>
+        <TargetPriority type="TurretBuilding">7</TargetPriority>
+        <TargetPriority type="Aircraft">8</TargetPriority>
+        <TargetPriority type="GroundVehicle">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>0.1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>0.1</Accuracy>
+        <MaxRange>40</MaxRange>
+        <Hardpoint>LeftChaingun</Hardpoint>
+        <MaxVelocityLead>0</MaxVelocityLead>
+        <ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_chainGunhornet_01</Projectile>
+        <WeaponType>HornetChaingun</WeaponType>
+        <DamagePerSecond>210</DamagePerSecond>
+        <AttackRate>0.125</AttackRate>
+        <Name>LeftChaingun</Name>
+    </Weapon>
+</TacticData>

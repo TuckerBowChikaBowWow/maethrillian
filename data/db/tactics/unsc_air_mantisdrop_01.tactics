@@ -1,0 +1,30 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>Artillery</Weapon>
+        <Name>GenericInfoAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>13</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <MaxRange>92.25</MaxRange>
+        <Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">5.0f</Daze>
+        <ImpactEffect size="Large">LargeExplosionImpact</ImpactEffect>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <Projectile>unsc_air_mantisdrop_01</Projectile>
+        <WeaponType>leaderpower</WeaponType>
+        <DamagePerSecond>2500</DamagePerSecond>
+        <Name>Artillery</Name>
+    </Weapon>
+</TacticData>

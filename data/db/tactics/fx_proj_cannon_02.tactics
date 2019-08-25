@@ -1,0 +1,35 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>Cannon</Weapon>
+        <Name>GenericInfoAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>2.46</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+        <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+        <MovingMaxDeviation>6</MovingMaxDeviation>
+        <MovingAccuracy>0</MovingAccuracy>
+        <MaxDeviation>4</MaxDeviation>
+        <Accuracy>0.33</Accuracy>
+        <MaxRange>30.75</MaxRange>
+        <MaxVelocityLead>4.92</MaxVelocityLead>
+        <ImpactEffect size="Medium">Tankshell</ImpactEffect>
+        <Projectile>fx_proj_cannon_02</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>0</DamagePerSecond>
+        <Name>Cannon</Name>
+    </Weapon>
+</TacticData>

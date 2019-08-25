@@ -1,0 +1,35 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>Brutegun</Weapon>
+        <Name>GenericInfoAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>1.23</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+        <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+        <MovingMaxDeviation>12</MovingMaxDeviation>
+        <MovingAccuracy>0</MovingAccuracy>
+        <MaxDeviation>8</MaxDeviation>
+        <Accuracy>0</Accuracy>
+        <MaxRange>21.525000000000002</MaxRange>
+        <MaxVelocityLead>4.92</MaxVelocityLead>
+        <ImpactEffect size="Medium">Tankshell</ImpactEffect>
+        <Projectile>fx_proj_bruteGun_01</Projectile>
+        <WeaponType>Explosive</WeaponType>
+        <DamagePerSecond>0</DamagePerSecond>
+        <Name>Brutegun</Name>
+    </Weapon>
+</TacticData>

@@ -1,0 +1,264 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>StandardGunAttackActionJohnson1</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>MissileLauncherAttackActionJohnson1</Action>
+            <TargetType>Flying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>StandardGunAttackActionJohnson</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>MissileLauncherAttackActionJohnson</Action>
+            <TargetType>Flying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>StandardGunAttackAction</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>MissileLauncherAttackAction</Action>
+            <TargetType>Flying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <PersistentAction>ChillAura</PersistentAction>
+    </Tactic>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <ProtoObject>vfx_dlc4_units_cryoauratierdefence</ProtoObject>
+        <SpecificData>
+            <Relations>
+                <Relation>Enemy</Relation>
+            </Relations>
+            <ExcludeTargetTypes>
+                <Type>DontChill</Type>
+                <Type>BasicAircraft</Type>
+                <Type>Aircraft</Type>
+            </ExcludeTargetTypes>
+            <TargetTypes>
+                <Type>TurretBuilding</Type>
+                <Type>CryoBuilding</Type>
+                <Type>Infantry</Type>
+                <Type>GroundVehicle</Type>
+            </TargetTypes>
+            <BuffParams BuffType="ChillAura" ChillOverTime="10.0f">1.0f</BuffParams>
+        </SpecificData>
+        <WorkRange>25</WorkRange>
+        <ActionType>AreaBuff</ActionType>
+        <Name>ChillAura</Name>
+    </Action>
+    <Action>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>StandardGunJohnson1</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>StandardGunAttackActionJohnson1</Name>
+    </Action>
+    <Action>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>MissileLauncherJohnson1</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>MissileLauncherAttackActionJohnson1</Name>
+    </Action>
+    <Action>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>StandardGunJohnson</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>StandardGunAttackActionJohnson</Name>
+    </Action>
+    <Action>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>MissileLauncherJohnson</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>MissileLauncherAttackActionJohnson</Name>
+    </Action>
+    <Action>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>StandardGun</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>StandardGunAttackAction</Name>
+    </Action>
+    <Action>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>MissileLauncher</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>MissileLauncherAttackAction</Name>
+    </Action>
+    <Weapon>
+        <StartDisabled>
+        </StartDisabled>
+        <LifeStealRatio shield="false">0.75</LifeStealRatio>
+        <UseGroupRange>
+        </UseGroupRange>
+        <TargetPriority type="building">1</TargetPriority>
+        <TargetPriority type="Turretbuilding">1</TargetPriority>
+        <TargetPriority type="GroundVehicle">4</TargetPriority>
+        <TargetPriority type="Infantry">4</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>50</MaxVelocityLead>
+        <ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_missile_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>220</DamagePerSecond>
+        <AttackRate>6</AttackRate>
+        <Name>StandardGunJohnson1</Name>
+    </Weapon>
+    <Weapon>
+        <StartDisabled>
+        </StartDisabled>
+        <LifeStealRatio shield="false">0.75</LifeStealRatio>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>14</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>2</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <UseGroupRange>
+        </UseGroupRange>
+        <TargetPriority type="Flying">10</TargetPriority>
+        <TargetPriority type="Aircraft">10</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>50</MaxVelocityLead>
+        <ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
+        <Projectile>fx_proj_missile_01</Projectile>
+        <WeaponType>AntiAir</WeaponType>
+        <DamagePerSecond>194</DamagePerSecond>
+        <AttackRate>6</AttackRate>
+        <Name>MissileLauncherJohnson1</Name>
+    </Weapon>
+    <Weapon>
+        <StartDisabled>
+        </StartDisabled>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <UseGroupRange>
+        </UseGroupRange>
+        <TargetPriority type="building">1</TargetPriority>
+        <TargetPriority type="Turretbuilding">1</TargetPriority>
+        <TargetPriority type="GroundVehicle">4</TargetPriority>
+        <TargetPriority type="Infantry">4</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>50</MaxVelocityLead>
+        <ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_missile_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>220</DamagePerSecond>
+        <AttackRate>6</AttackRate>
+        <Name>StandardGunJohnson</Name>
+    </Weapon>
+    <Weapon>
+        <StartDisabled>
+        </StartDisabled>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>14</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>2</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <UseGroupRange>
+        </UseGroupRange>
+        <TargetPriority type="Flying">10</TargetPriority>
+        <TargetPriority type="Aircraft">10</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>50</MaxVelocityLead>
+        <ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
+        <Projectile>fx_proj_missile_01</Projectile>
+        <WeaponType>AntiAir</WeaponType>
+        <DamagePerSecond>194</DamagePerSecond>
+        <AttackRate>6</AttackRate>
+        <Name>MissileLauncherJohnson</Name>
+    </Weapon>
+    <Weapon>
+        <UseGroupRange>
+        </UseGroupRange>
+        <TargetPriority type="building">1</TargetPriority>
+        <TargetPriority type="Turretbuilding">1</TargetPriority>
+        <TargetPriority type="GroundVehicle">4</TargetPriority>
+        <TargetPriority type="Infantry">4</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>50</MaxVelocityLead>
+        <ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_missile_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>220</DamagePerSecond>
+        <AttackRate>6</AttackRate>
+        <Name>StandardGun</Name>
+    </Weapon>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>14</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>2</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <UseGroupRange>
+        </UseGroupRange>
+        <TargetPriority type="Flying">10</TargetPriority>
+        <TargetPriority type="Aircraft">10</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>50</MaxVelocityLead>
+        <ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
+        <Projectile>fx_proj_missile_01</Projectile>
+        <WeaponType>AntiAir</WeaponType>
+        <DamagePerSecond>176</DamagePerSecond>
+        <AttackRate>6</AttackRate>
+        <Name>MissileLauncher</Name>
+    </Weapon>
+</TacticData>

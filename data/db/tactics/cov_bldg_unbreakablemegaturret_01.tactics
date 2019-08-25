@@ -1,0 +1,254 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>megaTurretAttackAction</Action>
+            <TargetsGround>
+            </TargetsGround>
+        </TargetRule>
+        <TargetRule>
+            <Action>MegaCannonAttack</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>ScorchMegaCannonAttack</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <PersistentAction>ShieldAction</PersistentAction>
+    </Tactic>
+    <Action>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>megaTurret</Weapon>
+        <Anim>MegaTurretAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>megaTurretAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <ProtoObject>cov_wraithshield</ProtoObject>
+        <ActionType>EnergyShield</ActionType>
+        <Name>ShieldAction</Name>
+    </Action>
+    <Action>
+        <AllowDuplicate>
+        </AllowDuplicate>
+        <DeliveryDelay>14</DeliveryDelay>
+        <DeliveryType>Building</DeliveryType>
+        <Hardpoint2>Building</Hardpoint2>
+        <Hardpoint>Spirit</Hardpoint>
+        <ActionType>AnimDeliver</ActionType>
+        <Name>DeliverBuilding</Name>
+    </Action>
+    <Action>
+        <SlaveAttackAction>TargetingLaserAction</SlaveAttackAction>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>MegaCannon</Weapon>
+        <Anim>MegaTurretAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>MegaCannonAttack</Name>
+    </Action>
+    <Action>
+        <SlaveAttackAction>TargetingLaserAction</SlaveAttackAction>
+        <StartDisabled>
+        </StartDisabled>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>ScorchMegaCannon</Weapon>
+        <Anim>MegaTurretAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>ScorchMegaCannonAttack</Name>
+    </Action>
+    <Action>
+        <LoopAttackAnim>
+        </LoopAttackAnim>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <Strafing maxDistance="301" turnRate="180" trackingSpeed="20" jitter="0">
+        </Strafing>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <Weapon>TargetingLaser</Weapon>
+        <Anim>LaserAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>TargetingLaserAction</Name>
+    </Action>
+    <Weapon>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">2</TargetPriority>
+        <TargetPriority type="GroundVehicle">6</TargetPriority>
+        <TargetPriority type="Infantry">8</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <TargetPriority type="FloodTentacleBlocker">12</TargetPriority>
+        <TargetPriority type="FloodBoss">14</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <PhysicsForceMax>1500</PhysicsForceMax>
+        <PhysicsForceMin>1200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowDamageParts>
+        </ThrowDamageParts>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>12.3</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+        <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+        <MaxDeviation>100</MaxDeviation>
+        <Accuracy>0.25</Accuracy>
+        <MaxRange>3075</MaxRange>
+        <MaxVelocityLead>0</MaxVelocityLead>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="1" yawpitchstrength="1.5" rollstrength="0.6" rotationfrequency="3" translationstrength="0" translationfrequency="6">
+        </ImpactAdvancedCameraShake>
+        <ImpactEffect size="Large" alwaysHorizontal="true" doShockwaveAction="true">megaTurretImpact3</ImpactEffect>
+        <Projectile>vfx_episode2_units_megaturretprojectile3</Projectile>
+        <WeaponType>MegaTurretCampaignBlocker</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>8400</DamagePerSecond>
+        <AttackRate>1</AttackRate>
+        <Name>megaTurret</Name>
+    </Weapon>
+    <Weapon>
+        <Hardpoint>Laser</Hardpoint>
+        <MaxRange>301</MaxRange>
+        <MaxVelocityLead>99</MaxVelocityLead>
+        <Projectile>vfx_episode2_units_megaturretBeam</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>0</DamagePerSecond>
+        <AttackRate>0.1</AttackRate>
+        <Name>TargetingLaser</Name>
+    </Weapon>
+    <Weapon>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">2</TargetPriority>
+        <TargetPriority type="GroundVehicle">6</TargetPriority>
+        <TargetPriority type="Infantry">8</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PhysicsForceMax>200</PhysicsForceMax>
+        <PhysicsForceMin>100</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>10</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <Hardpoint>Turret</Hardpoint>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>25</DamageRatio>
+                <Radius>22</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>17</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>12</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+        <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+        <MaxDeviation>5</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MinRange>30</MinRange>
+        <MaxRange>300</MaxRange>
+        <MaxVelocityLead>12.3</MaxVelocityLead>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="1" yawpitchstrength="3.5" rollstrength="1.6" rotationfrequency="3" translationstrength="0" translationfrequency="6">
+        </ImpactAdvancedCameraShake>
+        <ImpactEffect size="Large" alwaysHorizontal="true" doShockwaveAction="true">megaTurretImpact2</ImpactEffect>
+        <Projectile>fx_proj_MegaTurretProjectile2</Projectile>
+        <WeaponType>MegaTurret</WeaponType>
+        <PostAttackCooldownMax>7</PostAttackCooldownMax>
+        <PostAttackCooldownMin>6</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.8</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <DamagePerSecond>200</DamagePerSecond>
+        <AttackRate>5</AttackRate>
+        <Name>ScorchMegaCannon</Name>
+    </Weapon>
+    <Weapon>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">2</TargetPriority>
+        <TargetPriority type="GroundVehicle">6</TargetPriority>
+        <TargetPriority type="Infantry">8</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PhysicsForceMax>200</PhysicsForceMax>
+        <PhysicsForceMin>100</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>10</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <Hardpoint>Turret</Hardpoint>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>25</DamageRatio>
+                <Radius>22</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>17</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>12</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+        <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+        <MaxDeviation>5</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MinRange>50</MinRange>
+        <MaxRange>300</MaxRange>
+        <MaxVelocityLead>12.3</MaxVelocityLead>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="1" yawpitchstrength="2" rollstrength="0.8" rotationfrequency="3" translationstrength="0" translationfrequency="6">
+        </ImpactAdvancedCameraShake>
+        <ImpactEffect size="Medium" alwaysHorizontal="true">megaTurretImpact1</ImpactEffect>
+        <Projectile>fx_proj_MegaTurretProjectile1</Projectile>
+        <WeaponType>MegaTurret</WeaponType>
+        <PostAttackCooldownMax>7</PostAttackCooldownMax>
+        <PostAttackCooldownMin>6</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.8</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <DamagePerSecond>200</DamagePerSecond>
+        <AttackRate>5</AttackRate>
+        <Name>MegaCannon</Name>
+    </Weapon>
+</TacticData>

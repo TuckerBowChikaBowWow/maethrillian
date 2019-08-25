@@ -1,0 +1,21 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>CloakArea</PersistentAction>
+    </Tactic>
+    <Action>
+        <WorkRange>50</WorkRange>
+        <CloakAreaTarget>ParentUnit</CloakAreaTarget>
+        <ActionType>UnitCloakArea</ActionType>
+        <Name>CloakArea</Name>
+    </Action>
+    <Action>
+        <AllowDuplicate>
+        </AllowDuplicate>
+        <DeliveryDelay>15.5</DeliveryDelay>
+        <DeliveryType>Building</DeliveryType>
+        <Hardpoint2>Building</Hardpoint2>
+        <Hardpoint>Spirit</Hardpoint>
+        <ActionType>AnimDeliver</ActionType>
+        <Name>DeliverBuilding</Name>
+    </Action>
+</TacticData>

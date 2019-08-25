@@ -1,0 +1,24 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>PlasmaCannon</Weapon>
+        <Name>GenericInfoAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+        <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+        <MovingMaxDeviation>1.5</MovingMaxDeviation>
+        <MovingAccuracy>0</MovingAccuracy>
+        <MaxDeviation>1</MaxDeviation>
+        <Accuracy>0.33</Accuracy>
+        <MaxRange>21.525000000000002</MaxRange>
+        <MaxVelocityLead>9.84</MaxVelocityLead>
+        <ImpactEffect size="Medium">smallGreenPlasma</ImpactEffect>
+        <Projectile>fx_proj_plasmaCannon_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>0</DamagePerSecond>
+        <Name>PlasmaCannon</Name>
+    </Weapon>
+</TacticData>

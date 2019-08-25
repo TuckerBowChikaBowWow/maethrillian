@@ -1,0 +1,45 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>ChillAura</PersistentAction>
+        <PersistentAction>BaseChild</PersistentAction>
+    </Tactic>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <ProtoObject>vfx_dlc4_units_cryoauratierdefence</ProtoObject>
+        <SpecificData>
+            <Relations>
+                <Relation>Enemy</Relation>
+            </Relations>
+            <ExcludeTargetTypes>
+                <Type>DontChill</Type>
+                <Type>BasicAircraft</Type>
+                <Type>Aircraft</Type>
+            </ExcludeTargetTypes>
+            <TargetTypes>
+                <Type>TurretBuilding</Type>
+                <Type>CryoBuilding</Type>
+                <Type>Infantry</Type>
+                <Type>GroundVehicle</Type>
+            </TargetTypes>
+            <BuffParams BuffType="ChillAura" SlowModifier="0.5" ChillOverTime="20.0f">1.0f</BuffParams>
+        </SpecificData>
+        <WorkRange>25</WorkRange>
+        <ActionType>AreaBuff</ActionType>
+        <Name>ChillAura</Name>
+    </Action>
+    <Action>
+        <ActionType>BaseChild</ActionType>
+        <Name>BaseChild</Name>
+    </Action>
+    <Action>
+        <AllowDuplicate>
+        </AllowDuplicate>
+        <DeliveryDelay>5</DeliveryDelay>
+        <DeliveryType>Building</DeliveryType>
+        <Hardpoint2>Building</Hardpoint2>
+        <Hardpoint>Pelican</Hardpoint>
+        <ActionType>AnimDeliver</ActionType>
+        <Name>DeliverBuilding</Name>
+    </Action>
+</TacticData>

@@ -1,0 +1,79 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>FuelRodAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>ShadePlasmaAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>FuelRod</Weapon>
+        <Anim>ShadePlasmaAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>FuelRodAttackAction</Name>
+    </Action>
+    <Action>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>ShadePlasma</Weapon>
+        <Anim>ShadePlasmaAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>ShadePlasmaAttackAction</Name>
+    </Action>
+    <Weapon>
+        <Hardpoint>Turret</Hardpoint>
+        <UseGroupRange>
+        </UseGroupRange>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="Infantry">8</TargetPriority>
+        <TargetPriority type="GroundVehicle">10</TargetPriority>
+        <PhysicsForceMax>600</PhysicsForceMax>
+        <PhysicsForceMin>400</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>1.8</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>0.1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>0.1</Accuracy>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>12.3</MaxVelocityLead>
+        <ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+        <Projectile>fx_proj_fuelRod_01</Projectile>
+        <WeaponType>ArmorPiercing</WeaponType>
+        <DamagePerSecond>75.5</DamagePerSecond>
+        <AttackRate>4</AttackRate>
+        <Name>FuelRod</Name>
+    </Weapon>
+    <Weapon>
+        <TargetPriority type="Aircraft">5</TargetPriority>
+        <TargetPriority type="Infantry">10</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>18.45</MaxVelocityLead>
+        <ImpactEffect size="Medium">cov_shadeplasma_01</ImpactEffect>
+        <Projectile>fx_proj_shadeplasma_01</Projectile>
+        <WeaponType>SmallArms</WeaponType>
+        <DamagePerSecond>216</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>ShadePlasma</Name>
+    </Weapon>
+</TacticData>

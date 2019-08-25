@@ -1,0 +1,21 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>HQAnimTeleport</PersistentAction>
+    </Tactic>
+    <Action>
+        <Duration>33.667</Duration>
+        <Hardpoint>Teleporter</Hardpoint>
+        <ActionType>HQAnimTeleport</ActionType>
+        <Name>HQAnimTeleport</Name>
+    </Action>
+    <Action>
+        <AllowDuplicate>
+        </AllowDuplicate>
+        <DeliveryDelay>0</DeliveryDelay>
+        <DeliveryType>Building</DeliveryType>
+        <Hardpoint2>Building</Hardpoint2>
+        <Hardpoint>Spirit</Hardpoint>
+        <ActionType>AnimDeliver</ActionType>
+        <Name>DeliverBuilding</Name>
+    </Action>
+</TacticData>

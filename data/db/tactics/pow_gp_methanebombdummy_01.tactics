@@ -1,0 +1,34 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>AreaDebuff</PersistentAction>
+        <PersistentAction>AreaBuff</PersistentAction>
+    </Tactic>
+    <Action>
+        <SpecificData>
+            <Relations>
+                <Relation>Enemy</Relation>
+            </Relations>
+            <TargetTypes>
+                <Type>Military</Type>
+            </TargetTypes>
+            <BuffParams BuffType="MethaneDebuff" DamageMitigationScalar="1.2" SlowModifier="0.8">1.0f</BuffParams>
+        </SpecificData>
+        <WorkRange>16</WorkRange>
+        <ActionType>AreaBuff</ActionType>
+        <Name>AreaDebuff</Name>
+    </Action>
+    <Action>
+        <SpecificData>
+            <Relations>
+                <Relation>Ally</Relation>
+            </Relations>
+            <TargetTypes>
+                <Type>Grunt</Type>
+            </TargetTypes>
+            <BuffParams BuffType="MethaneBuff" DamageMitigationScalar="0.8" DamageDealtModifier="1.2">1.0f</BuffParams>
+        </SpecificData>
+        <WorkRange>16</WorkRange>
+        <ActionType>AreaBuff</ActionType>
+        <Name>AreaBuff</Name>
+    </Action>
+</TacticData>

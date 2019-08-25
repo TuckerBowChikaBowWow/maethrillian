@@ -1,0 +1,32 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>Artillery</Weapon>
+        <Name>GenericInfoAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>7</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <MaxRange>92.25</MaxRange>
+        <Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
+        <Slow TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Slow>
+        <ImpactEffect size="Medium">ODSTUnitPod</ImpactEffect>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="1" yawpitchstrength="4" rollstrength="2" rotationfrequency="8" translationstrength="0" translationfrequency="6">
+        </ImpactAdvancedCameraShake>
+        <Projectile>pow_proj_rmsupplydrop</Projectile>
+        <WeaponType>leaderpower</WeaponType>
+        <DamagePerSecond>300</DamagePerSecond>
+        <Name>Artillery</Name>
+    </Weapon>
+</TacticData>

@@ -1,0 +1,49 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>rmExplosion</Weapon>
+        <Name>rmAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Action>
+        <Weapon>rmDamageOverTime</Weapon>
+        <Name>rmDamageOverTimeAction</Name>
+    </Action>
+    <Weapon>
+        <PhysicsForceMax>800</PhysicsForceMax>
+        <PhysicsForceMin>300</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <ImpactEffect size="Medium" doShockwaveAction="true">rmSiphonImpact</ImpactEffect>
+        <ImpactCameraShake duration="0.2" strength="0.15">
+        </ImpactCameraShake>
+        <Projectile>pow_proj_rmDOT_03</Projectile>
+        <WeaponType>leaderpower</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>0</DamagePerSecond>
+        <Name>rmExplosion</Name>
+    </Weapon>
+    <Weapon>
+        <DOTEffect small="vfx_RMvfx_Powers_rmSiphonPoolDamage" medium="vfx_RMvfx_Powers_rmSiphonPoolDamage" large="vfx_RMvfx_Powers_rmSiphonPoolDamage">vfx_RMvfx_Powers_rmSiphonPoolDamage</DOTEffect>
+        <AOERadius>32</AOERadius>
+        <Shockwave duration="12">
+        </Shockwave>
+        <ReapplyDamageOverArea>
+        </ReapplyDamageOverArea>
+        <DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+        <DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+        <PhysicsForceMax>2000</PhysicsForceMax>
+        <PhysicsForceMin>1500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <ThrowDamageParts>
+        </ThrowDamageParts>
+        <ThrowUnits>
+        </ThrowUnits>
+        <WeaponType>leaderpower</WeaponType>
+        <DamagePerSecond>180</DamagePerSecond>
+        <Name>rmDamageOverTime</Name>
+    </Weapon>
+</TacticData>

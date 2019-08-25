@@ -1,0 +1,141 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>JumpAttackAction</Action>
+            <Relation>Enemy</Relation>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <TargetsGround>
+            </TargetsGround>
+            <Action>JumpAttackAction</Action>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>MeleeAttackAction</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>AssaultRifleAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <LandingDelay>0.4</LandingDelay>
+        <VelocityScalar>35</VelocityScalar>
+        <MaxRelativeHeight>12</MaxRelativeHeight>
+        <MinRelativeHeight>8</MinRelativeHeight>
+        <MaxDistance>40</MaxDistance>
+        <Weapon>JumpAttackHammer</Weapon>
+        <EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.45">LeapLanding</EndAnim>
+        <Anim>LeapArc</Anim>
+        <StartAnim noInterrupt="true" motionExtraction="true">LeapTakeOff</StartAnim>
+        <ActionType>JumpAttack</ActionType>
+        <Name>JumpAttackAction</Name>
+    </Action>
+    <Action>
+        <FindBetterAction>
+        </FindBetterAction>
+        <MoveAnim>SecondaryAttackMove</MoveAnim>
+        <Strafing turnRate="180" trackingSpeed="60">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>MeleeAttack</Weapon>
+        <Anim>SecondaryAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>MeleeAttackAction</Name>
+    </Action>
+    <Action>
+        <FindBetterAction>
+        </FindBetterAction>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Strafing turnRate="180" trackingSpeed="60">
+        </Strafing>
+        <Weapon>AssaultRifle</Weapon>
+        <MoveAnim>AttackMove</MoveAnim>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>AssaultRifleAttackAction</Name>
+    </Action>
+    <Weapon>
+        <Filter>Medium</Filter>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>Torso</Hardpoint>
+        <PhysicsForceMax>400</PhysicsForceMax>
+        <PhysicsForceMin>200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MinRange>0</MinRange>
+        <MaxRange>1.8450000000000002</MaxRange>
+        <WeaponType>Melee</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>400</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>JumpAttackHammer</Name>
+    </Weapon>
+    <Weapon>
+        <PostAttackCooldownMax>0.1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0.1</PreAttackCooldownMin>
+        <Filter>Medium</Filter>
+        <Hardpoint>Torso</Hardpoint>
+        <TargetPriority type="Building">5</TargetPriority>
+        <TargetPriority type="TurretBuilding">10</TargetPriority>
+        <TargetPriority type="groundVehicle">15</TargetPriority>
+        <TargetPriority type="Infantry">20</TargetPriority>
+        <PhysicsForceMax>400</PhysicsForceMax>
+        <PhysicsForceMin>200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MaxRange>4</MaxRange>
+        <WeaponType>Melee</WeaponType>
+        <DamagePerSecond>150</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>MeleeAttack</Name>
+    </Weapon>
+    <Weapon>
+        <Filter>Light</Filter>
+        <PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>Torso</Hardpoint>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">4</TargetPriority>
+        <TargetPriority type="Infantry">7</TargetPriority>
+        <VisualAmmo>8</VisualAmmo>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>40</MaxRange>
+        <MaxVelocityLead>40</MaxVelocityLead>
+        <ImpactEffect size="Small">SmallBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_rifle_01</Projectile>
+        <WeaponType>AASmallArms</WeaponType>
+        <DamagePerSecond>22</DamagePerSecond>
+        <AttackRate>1</AttackRate>
+        <Name>AssaultRifle</Name>
+    </Weapon>
+</TacticData>

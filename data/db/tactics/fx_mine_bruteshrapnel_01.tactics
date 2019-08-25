@@ -1,0 +1,57 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>ExplosiveManager</PersistentAction>
+        <PersistentAction>StealthManager</PersistentAction>
+    </Tactic>
+    <Action>
+        <Weapon>BruteShrapnelMine</Weapon>
+        <ChargeType>Shrapnel</ChargeType>
+        <WorkRange>5</WorkRange>
+        <FuseType>Proximity</FuseType>
+        <ActionType>ExplosiveManager</ActionType>
+        <Name>ExplosiveManager</Name>
+    </Action>
+    <Action>
+        <RechargeDelay>3</RechargeDelay>
+        <StealthType>Cloak</StealthType>
+        <ActionType>StealthManager</ActionType>
+        <Name>StealthManager</Name>
+    </Action>
+    <Weapon>
+        <Apply>3</Apply>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>25</DamageRatio>
+                <Radius>16</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>12</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>8</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <Slow TargetType="NonFlying" MovementModifier="0.4" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3</Slow>
+        <ImpactEffect size="Medium">BruteMineExplosion</ImpactEffect>
+        <WeaponType>Grenade</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>850</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>BruteShrapnelMine</Name>
+    </Weapon>
+</TacticData>

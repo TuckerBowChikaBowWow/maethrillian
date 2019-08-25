@@ -1,0 +1,30 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>AnimDeliver2</PersistentAction>
+        <PersistentAction>AnimDeliver1</PersistentAction>
+    </Tactic>
+    <Action>
+        <DeliveryType>Infantry</DeliveryType>
+        <Weapon>InfantryDelivery</Weapon>
+        <ActionType>AnimDeliver</ActionType>
+        <Name>AnimDeliver2</Name>
+    </Action>
+    <Action>
+        <DeliveryType>Vehicles</DeliveryType>
+        <Weapon>VehicleDelivery</Weapon>
+        <ActionType>AnimDeliver</ActionType>
+        <Name>AnimDeliver1</Name>
+    </Action>
+    <Weapon>
+        <Hardpoint>hqmagicdoor</Hardpoint>
+        <Name>MagicDoor</Name>
+    </Weapon>
+    <Weapon>
+        <Hardpoint>hqinfantrydrop</Hardpoint>
+        <Name>InfantryDelivery</Name>
+    </Weapon>
+    <Weapon>
+        <Hardpoint>hqtankdrop</Hardpoint>
+        <Name>VehicleDelivery</Name>
+    </Weapon>
+</TacticData>

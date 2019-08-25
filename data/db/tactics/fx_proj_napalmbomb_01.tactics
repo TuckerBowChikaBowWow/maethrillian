@@ -1,0 +1,27 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>Bomb</Weapon>
+        <Name>GenericInfoAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>true</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4.9</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <MaxRange>3.6900000000000004</MaxRange>
+        <MaxVelocityLead>7.380000000000001</MaxVelocityLead>
+        <ImpactEffect size="Medium">TankShell</ImpactEffect>
+        <Projectile>fx_proj_napalmBomb_01</Projectile>
+        <WeaponType>Fire</WeaponType>
+        <DamagePerSecond>0</DamagePerSecond>
+        <Name>Bomb</Name>
+    </Weapon>
+</TacticData>

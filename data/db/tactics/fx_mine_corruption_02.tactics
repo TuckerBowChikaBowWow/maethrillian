@@ -1,0 +1,147 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>ExplosiveManager2</PersistentAction>
+        <PersistentAction>ExplosiveManager</PersistentAction>
+        <PersistentAction>StealthManager</PersistentAction>
+    </Tactic>
+    <Action>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <Weapon>CorruptionMine</Weapon>
+        <WorkRange>24</WorkRange>
+        <FuseType>Proximity</FuseType>
+        <ActionType>ExplosiveManager</ActionType>
+        <Name>ExplosiveManager</Name>
+    </Action>
+    <Action>
+        <ExplodeOnDeath>
+        </ExplodeOnDeath>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <Weapon>CorruptionMineReduced</Weapon>
+        <WorkRange>0</WorkRange>
+        <FuseType>Proximity</FuseType>
+        <ActionType>ExplosiveManager</ActionType>
+        <Name>ExplosiveManager2</Name>
+    </Action>
+    <Action>
+        <MaxCharge>200</MaxCharge>
+        <WorkRange>22</WorkRange>
+        <RechargeDelay>4</RechargeDelay>
+        <StartOnCooldown>
+        </StartOnCooldown>
+        <StealthType>Cloak</StealthType>
+        <ActionType>StealthManager</ActionType>
+        <Name>StealthManager</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <Weapon>RM_CorruptionDamageOverTime</Weapon>
+        <Name>RM_CorruptionDamageOverTimeAction</Name>
+    </Action>
+    <Action>
+        <Weapon>CorruptionDamageOverTime</Weapon>
+        <Name>CorruptionDamageOverTimeAction</Name>
+    </Action>
+    <Weapon>
+        <PhysicsForceMax>700</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <Apply>1.5</Apply>
+        <WeaponType>Mines</WeaponType>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>32</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <ImpactEffect size="Large" doShockwaveAction="true">CorruptionXLMine</ImpactEffect>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>150</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>CorruptionMineReduced</Name>
+    </Weapon>
+    <Weapon>
+        <PhysicsForceMax>700</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <Apply>6</Apply>
+        <WeaponType>Mines</WeaponType>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>32</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <ImpactEffect size="Large" doShockwaveAction="true">CorruptionXLMine</ImpactEffect>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>5000</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>CorruptionMine</Name>
+    </Weapon>
+    <Weapon>
+        <Buff targetType="GroundVehicle" buffType="CorruptionDebuff" slowModifier="0.55">0.5</Buff>
+        <Buff targetType="Infantry" buffType="CorruptionDebuff" slowModifier="0.75">0.5</Buff>
+        <Corruption overlap="1.1f">
+        </Corruption>
+        <AOERadius>40</AOERadius>
+        <Shockwave duration="45">
+        </Shockwave>
+        <ReapplyDamageOverArea>
+        </ReapplyDamageOverArea>
+        <DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+        <DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+        <PhysicsForceMax>2000</PhysicsForceMax>
+        <PhysicsForceMin>1500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <ThrowDamageParts>
+        </ThrowDamageParts>
+        <ThrowUnits>
+        </ThrowUnits>
+        <WeaponType>Corruption</WeaponType>
+        <DamagePerSecond>110</DamagePerSecond>
+        <Name>RM_CorruptionDamageOverTime</Name>
+    </Weapon>
+    <Weapon>
+        <Buff targetType="GroundVehicle" buffType="CorruptionDebuff" slowModifier="0.65">0.5</Buff>
+        <Buff targetType="Infantry" buffType="CorruptionDebuff" slowModifier="0.8">0.5</Buff>
+        <Corruption overlap="1.1f">
+        </Corruption>
+        <AOERadius>40</AOERadius>
+        <Shockwave duration="90">
+        </Shockwave>
+        <ReapplyDamageOverArea>
+        </ReapplyDamageOverArea>
+        <DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+        <DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+        <PhysicsForceMax>2000</PhysicsForceMax>
+        <PhysicsForceMin>1500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <ThrowDamageParts>
+        </ThrowDamageParts>
+        <ThrowUnits>
+        </ThrowUnits>
+        <WeaponType>Corruption</WeaponType>
+        <DamagePerSecond>110</DamagePerSecond>
+        <Name>CorruptionDamageOverTime</Name>
+    </Weapon>
+</TacticData>

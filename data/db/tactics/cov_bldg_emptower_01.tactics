@@ -1,0 +1,61 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>AreaBuff</PersistentAction>
+        <PersistentAction>EMPWeaponAction</PersistentAction>
+        <TargetRule>
+            <Action>EMPWeaponAction</Action>
+            <TargetType>Forerunner</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <ProtoObject>fx_nanobots02</ProtoObject>
+        <WorkRange>45</WorkRange>
+        <ActionType>AreaBuff</ActionType>
+        <Name>AreaBuff</Name>
+    </Action>
+    <Action>
+        <ForceAttachmentAnim>
+        </ForceAttachmentAnim>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>EMPWeapon</Weapon>
+        <Anim>PulseAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>EMPWeaponAction</Name>
+    </Action>
+    <Weapon>
+        <Daze TargetType="Forerunner" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">1.5f</Daze>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="Infantry">2</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="Aircraft">4</TargetPriority>
+        <TargetPriority type="GroundVehicle">5</TargetPriority>
+        <AlwaysReplaceTargetWithItsPosition>
+        </AlwaysReplaceTargetWithItsPosition>
+        <AOEData>
+            <Hitbox>
+                <IgnoreY>false</IgnoreY>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>45</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>PlasmaCannonLeftTurret</Hardpoint>
+        <MovingMaxDeviation>4.5</MovingMaxDeviation>
+        <MovingAccuracy>0</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>0.1</Accuracy>
+        <MaxVelocityLead>40</MaxVelocityLead>
+        <Projectile>fx_proj_empweapon_01</Projectile>
+        <MaxRange>45</MaxRange>
+        <WeaponType>Grenade</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>0</DamagePerSecond>
+        <AttackRate>1</AttackRate>
+        <Name>EMPWeapon</Name>
+    </Weapon>
+</TacticData>

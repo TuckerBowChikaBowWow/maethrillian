@@ -1,0 +1,47 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>GatherSupplies</PersistentAction>
+    </Tactic>
+    <Action>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>LightCannon1</Weapon>
+        <Anim>MachinegunAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>LightCannon1AttackAction</Name>
+    </Action>
+    <Action>
+        <ShareResourcesWithTeam>
+        </ShareResourcesWithTeam>
+        <WorkRange>0.615</WorkRange>
+        <WorkRate>0.25</WorkRate>
+        <Resource>Power</Resource>
+        <Anim>Gather</Anim>
+        <ActionType>Gather</ActionType>
+        <Name>GatherSupplies</Name>
+    </Action>
+    <Weapon>
+        <TargetPriority type="building">1</TargetPriority>
+        <TargetPriority type="Turretbuilding">3</TargetPriority>
+        <TargetPriority type="Aircraft">8</TargetPriority>
+        <TargetPriority type="GroundVehicle">8</TargetPriority>
+        <TargetPriority type="Infantry">8</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+        <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+        <MovingMaxDeviation>1.5</MovingMaxDeviation>
+        <MovingAccuracy>0</MovingAccuracy>
+        <MaxDeviation>5</MaxDeviation>
+        <Accuracy>0.5</Accuracy>
+        <MaxRange>46.125</MaxRange>
+        <MaxVelocityLead>18.45</MaxVelocityLead>
+        <ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
+        <Projectile>fx_proj_lightCannon_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>187</DamagePerSecond>
+        <AttackRate>0.25</AttackRate>
+        <Name>LightCannon1</Name>
+    </Weapon>
+</TacticData>

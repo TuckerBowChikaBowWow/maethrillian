@@ -1,0 +1,217 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>UngarrisonTeleport</Action>
+            <TargetType>TeleportDropoff</TargetType>
+            <Relation>Self</Relation>
+            <Ability>Ungarrison</Ability>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>GarrisonTeleport</Action>
+            <TargetType>TeleportPickup</TargetType>
+            <Relation>Self</Relation>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>GatherCollectables</Action>
+            <TargetType>Collectable</TargetType>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>SeismicDropWeaponAction</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>SeismicDropWeaponActionAir</Action>
+            <TargetType>Flying</TargetType>
+            <Relation>Enemy</Relation>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>CryoRayUpgradeAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>CryoRayAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <WorkRange>1.8450000000000002</WorkRange>
+        <WorkRate>1</WorkRate>
+        <Resource>Collectable</Resource>
+        <Anim>Gather</Anim>
+        <ActionType>Gather</ActionType>
+        <Name>GatherCollectables</Name>
+    </Action>
+    <Action>
+        <WorkRange>0</WorkRange>
+        <Anim>TeleportIn</Anim>
+        <ActionType>Ungarrison</ActionType>
+        <Name>UngarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <WorkRange>9.225</WorkRange>
+        <Anim>TeleportOut</Anim>
+        <ActionType>Garrison</ActionType>
+        <Name>GarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <LoopAttackAnim>
+        </LoopAttackAnim>
+        <Strafing turnRate="90" trackingSpeed="40" jitter="20">
+        </Strafing>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <Weapon>CryoRayUpgrade</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>CryoRayUpgradeAttackAction</Name>
+    </Action>
+    <Action>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <LoopAttackAnim>
+        </LoopAttackAnim>
+        <Strafing turnRate="90" trackingSpeed="40" jitter="20">
+        </Strafing>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <Weapon>CryoRay</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>CryoRayAttackAction</Name>
+    </Action>
+    <Action>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>SeismicDropWeaponAir</Weapon>
+        <Anim>SeismicDrop</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>SeismicDropWeaponActionAir</Name>
+    </Action>
+    <Action>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>SeismicDropWeapon</Weapon>
+        <Anim>SeismicDrop</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>SeismicDropWeaponAction</Name>
+    </Action>
+    <Weapon>
+        <Chill Amount="5" TargetType="TurretBuilding" SingleTarget="true">
+        </Chill>
+        <Chill Amount="4" TargetType="CryoBuilding" SingleTarget="true">
+        </Chill>
+        <Chill Amount="9" TargetType="Unit" SingleTarget="true">
+        </Chill>
+        <TargetPriority type="Building">5</TargetPriority>
+        <TargetPriority type="Infantry">6</TargetPriority>
+        <TargetPriority type="TurretBuilding">7</TargetPriority>
+        <TargetPriority type="Aircraft">9</TargetPriority>
+        <TargetPriority type="GroundVehicle">10</TargetPriority>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>0.1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>0.1</Accuracy>
+        <MaxRange>50</MaxRange>
+        <Hardpoint>CryoRay</Hardpoint>
+        <MaxVelocityLead>0</MaxVelocityLead>
+        <ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_pegasus_cryobeamupgrade</Projectile>
+        <WeaponType>ChainGun</WeaponType>
+        <DamagePerSecond>60</DamagePerSecond>
+        <AttackRate>0.125</AttackRate>
+        <Name>CryoRayUpgrade</Name>
+    </Weapon>
+    <Weapon>
+        <Chill Amount="2.5" TargetType="TurretBuilding" SingleTarget="true">
+        </Chill>
+        <Chill Amount="2.5" TargetType="CryoBuilding" SingleTarget="true">
+        </Chill>
+        <Chill Amount="6" TargetType="Unit" SingleTarget="true">
+        </Chill>
+        <TargetPriority type="Building">5</TargetPriority>
+        <TargetPriority type="Infantry">6</TargetPriority>
+        <TargetPriority type="TurretBuilding">7</TargetPriority>
+        <TargetPriority type="Aircraft">9</TargetPriority>
+        <TargetPriority type="GroundVehicle">10</TargetPriority>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>0.1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>0.1</Accuracy>
+        <MaxRange>50</MaxRange>
+        <Hardpoint>CryoRay</Hardpoint>
+        <MaxVelocityLead>0</MaxVelocityLead>
+        <ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_pegasus_cryobeam</Projectile>
+        <WeaponType>ChainGun</WeaponType>
+        <DamagePerSecond>40</DamagePerSecond>
+        <AttackRate>0.125</AttackRate>
+        <Name>CryoRay</Name>
+    </Weapon>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <IgnoreY>false</IgnoreY>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>10</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <Shatter TargetType="Flying">
+        </Shatter>
+        <MaxRange>50</MaxRange>
+        <ImpactEffect size="Medium" alwaysHorizontal="true">SeismicDropAir</ImpactEffect>
+        <Projectile>fx_proj_pegasus_seismicdrop_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>100</DamagePerSecond>
+        <AttackRate>30</AttackRate>
+        <Name>SeismicDropWeaponAir</Name>
+    </Weapon>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <IgnoreY>true</IgnoreY>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>10</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <Shatter TargetType="TurretBuilding">
+        </Shatter>
+        <Shatter TargetType="Building">
+        </Shatter>
+        <Shatter TargetType="GroundVehicle">
+        </Shatter>
+        <Shatter TargetType="Infantry">
+        </Shatter>
+        <MaxRange>50</MaxRange>
+        <ImpactEffect size="Medium" alwaysHorizontal="true">SeismicDrop</ImpactEffect>
+        <Projectile>fx_proj_pegasus_seismicdrop_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>100</DamagePerSecond>
+        <AttackRate>30</AttackRate>
+        <Name>SeismicDropWeapon</Name>
+    </Weapon>
+</TacticData>

@@ -1,0 +1,26 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>Flamethrower</Weapon>
+        <Name>GenericInfoAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>1.9000000000000001</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <MaxRange>7.380000000000001</MaxRange>
+        <MaxVelocityLead>2.46</MaxVelocityLead>
+        <Projectile>fx_flameThrower_01</Projectile>
+        <WeaponType>Fire</WeaponType>
+        <DamagePerSecond>0</DamagePerSecond>
+        <Name>Flamethrower</Name>
+    </Weapon>
+</TacticData>

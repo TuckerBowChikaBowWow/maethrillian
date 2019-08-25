@@ -1,0 +1,42 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>ScatterBomb</Weapon>
+        <Name>ScatterBombAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <PhysicsForceMax>800</PhysicsForceMax>
+        <PhysicsForceMin>300</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <AOEData>
+            <Hitbox>
+                <IgnoreY>true</IgnoreY>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>60</DamageRatio>
+                <Radius>10</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <IgnoreY>true</IgnoreY>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>7</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <ImpactEffect size="Medium">enduringSalvoImpact</ImpactEffect>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.1" fadeout="0.3" yawpitchstrength="3" rollstrength="1.5" rotationfrequency="8" translationstrength="2" translationfrequency="3">
+        </ImpactAdvancedCameraShake>
+        <Projectile>pow_proj_rmreturned_plasma_01</Projectile>
+        <WeaponType>leaderpower</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>750</DamagePerSecond>
+        <Name>ScatterBomb</Name>
+    </Weapon>
+</TacticData>

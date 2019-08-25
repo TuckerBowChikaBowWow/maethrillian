@@ -1,0 +1,110 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>StandardGunAttackAction</Action>
+            <TargetType>Flying</TargetType>
+            <TargetType>TurretBuilding</TargetType>
+            <TargetType>Building</TargetType>
+            <TargetType>Infantry</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>RailgunAttackAction</Action>
+            <TargetType>GroundVehicle</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <PersistentAction>ChillAura</PersistentAction>
+    </Tactic>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <ProtoObject>vfx_dlc4_units_cryoauratierdefence</ProtoObject>
+        <SpecificData>
+            <Relations>
+                <Relation>Enemy</Relation>
+            </Relations>
+            <ExcludeTargetTypes>
+                <Type>DontChill</Type>
+                <Type>BasicAircraft</Type>
+                <Type>Aircraft</Type>
+            </ExcludeTargetTypes>
+            <TargetTypes>
+                <Type>TurretBuilding</Type>
+                <Type>CryoBuilding</Type>
+                <Type>Infantry</Type>
+                <Type>GroundVehicle</Type>
+            </TargetTypes>
+            <BuffParams BuffType="ChillAura" ChillOverTime="10.0f">1.0f</BuffParams>
+        </SpecificData>
+        <WorkRange>25</WorkRange>
+        <ActionType>AreaBuff</ActionType>
+        <Name>ChillAura</Name>
+    </Action>
+    <Action>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>StandardGun</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>StandardGunAttackAction</Name>
+    </Action>
+    <Action>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>Railgun</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>RailgunAttackAction</Name>
+    </Action>
+    <Weapon>
+        <UseGroupRange>
+        </UseGroupRange>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">1</TargetPriority>
+        <TargetPriority type="Flying">4</TargetPriority>
+        <TargetPriority type="Infantry">4</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>5</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>3</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MinRange>0</MinRange>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>20</MaxVelocityLead>
+        <ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_gaussCannon_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>200</DamagePerSecond>
+        <AttackRate>5</AttackRate>
+        <Name>StandardGun</Name>
+    </Weapon>
+    <Weapon>
+        <UseGroupRange>
+        </UseGroupRange>
+        <TargetPriority type="GroundVehicle">10</TargetPriority>
+        <PhysicsForceMax>800</PhysicsForceMax>
+        <PhysicsForceMin>600</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <Hardpoint>Turret</Hardpoint>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>5</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>3</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MinRange>0</MinRange>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>20</MaxVelocityLead>
+        <ImpactEffect size="Medium">GaussImpact</ImpactEffect>
+        <Projectile>fx_proj_gaussCannon_01</Projectile>
+        <WeaponType>AntiVehicle</WeaponType>
+        <DamagePerSecond>160</DamagePerSecond>
+        <AttackRate>5</AttackRate>
+        <Name>Railgun</Name>
+    </Weapon>
+</TacticData>

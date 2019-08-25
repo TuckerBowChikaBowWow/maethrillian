@@ -1,0 +1,85 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>ActionDrone</PersistentAction>
+        <PersistentAction>MedicHeal</PersistentAction>
+        <TargetRule>
+            <Action>UngarrisonTeleport</Action>
+            <TargetType>TeleportDropoff</TargetType>
+            <Relation>Self</Relation>
+            <Ability>Ungarrison</Ability>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>GarrisonTeleport</Action>
+            <TargetType>TeleportPickup</TargetType>
+            <Relation>Self</Relation>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>AssaultRifleAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <WorkRange>0</WorkRange>
+        <Anim>TeleportIn</Anim>
+        <ActionType>Ungarrison</ActionType>
+        <Name>UngarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <WorkRange>9.225</WorkRange>
+        <Anim>TeleportOut</Anim>
+        <ActionType>Garrison</ActionType>
+        <Name>GarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <TargetOfTarget>
+        </TargetOfTarget>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>AssaultRifle</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>AssaultRifleAttackAction</Name>
+    </Action>
+    <Action>
+        <FindBetterAction>
+        </FindBetterAction>
+        <ProtoObject>fx_unschealbeam</ProtoObject>
+        <HealTarget>
+        </HealTarget>
+        <CombatIdleDuration>7</CombatIdleDuration>
+        <MinIdleDuration>0</MinIdleDuration>
+        <WorkRate>100</WorkRate>
+        <ActionType>Heal</ActionType>
+        <Name>MedicHeal</Name>
+    </Action>
+    <Action>
+        <Vivacity>1</Vivacity>
+        <ActionType>Drone</ActionType>
+        <Name>ActionDrone</Name>
+    </Action>
+    <Weapon>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="Flying">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">6</TargetPriority>
+        <TargetPriority type="Infantry">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>35</MaxRange>
+        <MaxVelocityLead>40</MaxVelocityLead>
+        <ImpactEffect size="Small">SmallBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_machinegun_01</Projectile>
+        <WeaponType>SmallArms</WeaponType>
+        <DamagePerSecond>20</DamagePerSecond>
+        <AttackRate>1</AttackRate>
+        <Name>AssaultRifle</Name>
+    </Weapon>
+</TacticData>

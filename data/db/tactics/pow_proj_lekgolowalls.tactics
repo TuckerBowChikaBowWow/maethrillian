@@ -1,0 +1,33 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>LotusMinePod</Weapon>
+        <Name>LotusMinePodAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <PhysicsForceMax>800</PhysicsForceMax>
+        <PhysicsForceMin>300</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <ImpactEffect size="Medium">LekgoloWallsImpact</ImpactEffect>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="0.5" yawpitchstrength="1" rollstrength="0.8" rotationfrequency="3" translationstrength="0" translationfrequency="6">
+        </ImpactAdvancedCameraShake>
+        <Projectile>vfx_dlc3_powers_trails_lekgolowallstrail</Projectile>
+        <WeaponType>Explosive</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>150</DamagePerSecond>
+        <Name>LotusMinePod</Name>
+    </Weapon>
+</TacticData>

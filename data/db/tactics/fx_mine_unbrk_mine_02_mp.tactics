@@ -1,0 +1,95 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>ExplosiveManager2</PersistentAction>
+        <PersistentAction>ExplosiveManager</PersistentAction>
+        <PersistentAction>StealthManager</PersistentAction>
+    </Tactic>
+    <Action>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <Weapon>PlasmaMine</Weapon>
+        <WorkRange>11</WorkRange>
+        <FuseType>Proximity</FuseType>
+        <ActionType>ExplosiveManager</ActionType>
+        <Name>ExplosiveManager</Name>
+    </Action>
+    <Action>
+        <ExplodeOnDeath>
+        </ExplodeOnDeath>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <Weapon>PlasmaMineReduced</Weapon>
+        <WorkRange>0</WorkRange>
+        <FuseType>Proximity</FuseType>
+        <ActionType>ExplosiveManager</ActionType>
+        <Name>ExplosiveManager2</Name>
+    </Action>
+    <Action>
+        <MaxCharge>200</MaxCharge>
+        <WorkRange>22</WorkRange>
+        <RechargeDelay>6</RechargeDelay>
+        <StartOnCooldown>
+        </StartOnCooldown>
+        <StealthType>Cloak</StealthType>
+        <ActionType>StealthManager</ActionType>
+        <Name>StealthManager</Name>
+    </Action>
+    <Weapon>
+        <Buff TargetType="Unit" BuffType="PaintTarget" DamageMitigationScalar="1.3" slowModifier="0.7000000000000001">6.0f</Buff>
+        <PhysicsForceMax>700</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <Apply>2</Apply>
+        <WeaponType>Mines</WeaponType>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>19</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="0.9" yawpitchstrength="2.5" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4">
+        </ImpactAdvancedCameraShake>
+        <ImpactEffect size="Medium">PlasmaMineExplosion02</ImpactEffect>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>600</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>PlasmaMineReduced</Name>
+    </Weapon>
+    <Weapon>
+        <Buff TargetType="Unit" BuffType="PaintTarget" DamageMitigationScalar="1.3" slowModifier="0.7000000000000001">20.0f</Buff>
+        <PhysicsForceMax>700</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <Apply>7</Apply>
+        <WeaponType>Mines</WeaponType>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>24</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="0.9" yawpitchstrength="2.5" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4">
+        </ImpactAdvancedCameraShake>
+        <ImpactEffect size="Medium">PlasmaMineExplosion02</ImpactEffect>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>3500</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>PlasmaMine</Name>
+    </Weapon>
+</TacticData>

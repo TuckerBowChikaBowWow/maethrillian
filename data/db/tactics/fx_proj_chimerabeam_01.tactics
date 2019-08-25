@@ -1,0 +1,29 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>chimeraBeam</Weapon>
+        <Name>GenericInfoAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>2.5</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MaxRange>46.125</MaxRange>
+        <MaxVelocityLead>2.46</MaxVelocityLead>
+        <ImpactEffect size="Medium">Tankshell</ImpactEffect>
+        <Projectile>fx_proj_chimeraBeam_01</Projectile>
+        <WeaponType>Beam</WeaponType>
+        <DamagePerSecond>0</DamagePerSecond>
+        <Name>chimeraBeam</Name>
+    </Weapon>
+</TacticData>

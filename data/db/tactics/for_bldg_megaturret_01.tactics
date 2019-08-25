@@ -1,0 +1,60 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>megaTurretAttackAction</Action>
+            <TargetsGround>
+            </TargetsGround>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>megaTurret</Weapon>
+        <Anim>MegaTurretAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>megaTurretAttackAction</Name>
+    </Action>
+    <Weapon>
+        <PostAttackCooldownMax>10</PostAttackCooldownMax>
+        <PostAttackCooldownMin>9</PostAttackCooldownMin>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">2</TargetPriority>
+        <TargetPriority type="GroundVehicle">3</TargetPriority>
+        <TargetPriority type="Infantry">3</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <PhysicsForceMax>1500</PhysicsForceMax>
+        <PhysicsForceMin>1200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowDamageParts>
+        </ThrowDamageParts>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>true</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>25</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+        <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+        <MaxDeviation>100</MaxDeviation>
+        <Accuracy>0.25</Accuracy>
+        <MinRange>0</MinRange>
+        <MaxRange>9999</MaxRange>
+        <MaxVelocityLead>0</MaxVelocityLead>
+        <ImpactEffect size="Large">LargeExplosionImpact</ImpactEffect>
+        <Projectile>pow_gp_megaTurret</Projectile>
+        <WeaponType>LeaderPower</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>4000</DamagePerSecond>
+        <AttackRate>1</AttackRate>
+        <Name>megaTurret</Name>
+    </Weapon>
+</TacticData>

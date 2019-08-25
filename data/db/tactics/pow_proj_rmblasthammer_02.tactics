@@ -1,0 +1,23 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>rmExplosion</Weapon>
+        <Name>rmAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <PhysicsForceMax>800</PhysicsForceMax>
+        <PhysicsForceMin>300</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <ImpactCameraShake duration="0.2" strength="0.15">
+        </ImpactCameraShake>
+        <Projectile>pow_proj_rmDOT_02</Projectile>
+        <WeaponType>leaderpower</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>1500</DamagePerSecond>
+        <Name>rmExplosion</Name>
+    </Weapon>
+</TacticData>

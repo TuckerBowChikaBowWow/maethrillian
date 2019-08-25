@@ -1,0 +1,145 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>LightCannon3AttackAction</Action>
+            <TargetType>Flying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>LightCannon2AttackAction</Action>
+            <TargetType>Flying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>LightCannon1AttackAction</Action>
+            <TargetType>Flying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <SlaveAttackAction>MissileLauncherAttackAction</SlaveAttackAction>
+        <Weapon>LightCannon3</Weapon>
+        <Anim>MachinegunAttack3</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>LightCannon3AttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <SlaveAttackAction>MissileLauncherAttackAction</SlaveAttackAction>
+        <Weapon>LightCannon2</Weapon>
+        <Anim>MachinegunAttack2</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>LightCannon2AttackAction</Name>
+    </Action>
+    <Action>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <SlaveAttackAction>MissileLauncherAttackAction</SlaveAttackAction>
+        <Weapon>LightCannon1</Weapon>
+        <Anim>MachinegunAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>LightCannon1AttackAction</Name>
+    </Action>
+    <Action>
+        <Weapon>MissileLauncher</Weapon>
+        <Anim>AddOnAttack</Anim>
+        <ActionType>SlaveTurretAttack</ActionType>
+        <Name>MissileLauncherAttackAction</Name>
+    </Action>
+    <Weapon>
+        <UseGroupRange>
+        </UseGroupRange>
+        <TargetPriority type="building">1</TargetPriority>
+        <TargetPriority type="Turretbuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">8</TargetPriority>
+        <TargetPriority type="Infantry">8</TargetPriority>
+        <TargetPriority type="Aircraft">10</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>1.5</MovingMaxDeviation>
+        <MovingAccuracy>0</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>0.1</Accuracy>
+        <MaxRange>46.125</MaxRange>
+        <MaxVelocityLead>18.45</MaxVelocityLead>
+        <ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
+        <Projectile>fx_proj_lightCannon_01</Projectile>
+        <WeaponType>AntiAir</WeaponType>
+        <DamagePerSecond>400</DamagePerSecond>
+        <AttackRate>0.25</AttackRate>
+        <Name>LightCannon3</Name>
+    </Weapon>
+    <Weapon>
+        <UseGroupRange>
+        </UseGroupRange>
+        <TargetPriority type="building">1</TargetPriority>
+        <TargetPriority type="Turretbuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">8</TargetPriority>
+        <TargetPriority type="Infantry">8</TargetPriority>
+        <TargetPriority type="Aircraft">10</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>1.5</MovingMaxDeviation>
+        <MovingAccuracy>0</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>0.1</Accuracy>
+        <MaxRange>46.125</MaxRange>
+        <MaxVelocityLead>18.45</MaxVelocityLead>
+        <ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
+        <Projectile>fx_proj_lightCannon_01</Projectile>
+        <WeaponType>AntiAir</WeaponType>
+        <DamagePerSecond>400</DamagePerSecond>
+        <AttackRate>0.25</AttackRate>
+        <Name>LightCannon2</Name>
+    </Weapon>
+    <Weapon>
+        <UseGroupRange>
+        </UseGroupRange>
+        <TargetPriority type="building">1</TargetPriority>
+        <TargetPriority type="Turretbuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">8</TargetPriority>
+        <TargetPriority type="Infantry">8</TargetPriority>
+        <TargetPriority type="Aircraft">10</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>1.5</MovingMaxDeviation>
+        <MovingAccuracy>0</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>0.1</Accuracy>
+        <MaxRange>46.125</MaxRange>
+        <MaxVelocityLead>18.45</MaxVelocityLead>
+        <ImpactEffect size="Small">unsc_rifle_01</ImpactEffect>
+        <Projectile>fx_proj_lightCannon_01</Projectile>
+        <WeaponType>AntiAir</WeaponType>
+        <DamagePerSecond>400</DamagePerSecond>
+        <AttackRate>0.25</AttackRate>
+        <Name>LightCannon1</Name>
+    </Weapon>
+    <Weapon>
+        <UseGroupRange>
+        </UseGroupRange>
+        <Dodgeable>
+        </Dodgeable>
+        <TargetPriority type="Flying">10</TargetPriority>
+        <TargetPriority type="Aircraft">10</TargetPriority>
+        <Hardpoint>AddOnTurret</Hardpoint>
+        <MaxRange>46.125</MaxRange>
+        <MaxVelocityLead>6.15</MaxVelocityLead>
+        <ImpactEffect size="Medium">Tankshell</ImpactEffect>
+        <Projectile>fx_proj_missile_01</Projectile>
+        <WeaponType>AntiAir</WeaponType>
+        <DamagePerSecond>250</DamagePerSecond>
+        <AttackRate>0.25</AttackRate>
+        <Name>MissileLauncher</Name>
+    </Weapon>
+</TacticData>

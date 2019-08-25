@@ -1,0 +1,26 @@
+<TacticData>
+    <Tactic>
+        <PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
+        <PersistentAction>GatherSupplies</PersistentAction>
+    </Tactic>
+    <Action>
+        <ActionType>SquadActionGather</ActionType>
+        <Name>GatherSuppliesSquad</Name>
+    </Action>
+    <Action>
+        <DecaptureRate>1</DecaptureRate>
+        <CaptureRate>1</CaptureRate>
+        <ActionType>CaptureFade</ActionType>
+        <Name>CaptureFade</Name>
+    </Action>
+    <Action>
+        <ShareResourcesWithTeam>
+        </ShareResourcesWithTeam>
+        <WorkRange>0.615</WorkRange>
+        <WorkRate>2.5</WorkRate>
+        <Resource>Supplies</Resource>
+        <Anim>Gather</Anim>
+        <ActionType>Gather</ActionType>
+        <Name>GatherSupplies</Name>
+    </Action>
+</TacticData>

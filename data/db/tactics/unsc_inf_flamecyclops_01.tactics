@@ -1,0 +1,663 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <TargetsGround>
+            </TargetsGround>
+            <Action>OrbitalLanding</Action>
+            <Ability>OrbitalLanding</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>UngarrisonTeleport</Action>
+            <TargetType>TeleportDropoff</TargetType>
+            <Relation>Self</Relation>
+            <Ability>Ungarrison</Ability>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>GarrisonTeleport</Action>
+            <TargetType>TeleportPickup</TargetType>
+            <Relation>Self</Relation>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>RepairOther</Action>
+            <TargetState>Damaged</TargetState>
+            <TargetType>CyclopsRepairable</TargetType>
+            <Relation>Ally</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>GatherPower</Action>
+            <TargetType>Resource_Power</TargetType>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>GatherSupplies</Action>
+            <TargetType>Resource_Supplies</TargetType>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>UngarrisonPelican</Action>
+            <TargetType>transport</TargetType>
+            <Relation>Ally</Relation>
+            <Ability>Ungarrison</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>GarrisonPelican</Action>
+            <TargetType>transport</TargetType>
+            <Relation>Ally</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>Capture</Action>
+            <TargetState>Capturable</TargetState>
+            <TargetType>CapturePoint</TargetType>
+            <Relation>Neutral</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>Capture</Action>
+            <TargetState>Capturable</TargetState>
+            <TargetType>CapturePoint</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>Capture</Action>
+            <TargetState>Capturable</TargetState>
+            <TargetType>CapturePoint</TargetType>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Normal</SquadMode>
+            <Action>UpgradedFlamewallAction</Action>
+            <IgnoreOtherTargetsWhileTargetingGround>
+            </IgnoreOtherTargetsWhileTargetingGround>
+            <TargetsGround>
+            </TargetsGround>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Normal</SquadMode>
+            <Action>FlamewallAction</Action>
+            <IgnoreOtherTargetsWhileTargetingGround>
+            </IgnoreOtherTargetsWhileTargetingGround>
+            <TargetsGround>
+            </TargetsGround>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>FlamerBuildingAttackAction</Action>
+            <TargetType>TurretBuilding</TargetType>
+            <TargetType>Building</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>FlamerInfantryAttackAction</Action>
+            <TargetType>Infantry</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>FlamerAttackAction</Action>
+            <TargetType>GroundVehicle</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>GatherCollectables</Action>
+            <TargetType>Collectable</TargetType>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>Garrison</Action>
+            <TargetType>GaiaGarrison</TargetType>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>Garrison</Action>
+            <TargetType>Garrison</TargetType>
+            <Relation>Ally</Relation>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <EndAnim noInterrupt="true" motionExtraction="false">OrbitalLanding</EndAnim>
+        <Anim noInterrupt="true">OrbitalDropLoop</Anim>
+        <VelocityScalar>30</VelocityScalar>
+        <MaxDistance>70</MaxDistance>
+        <MaxJumpAnimDuration>15.0f</MaxJumpAnimDuration>
+        <Weapon>OrbitalLandingWeapon</Weapon>
+        <ActionType>JumpLandOnly</ActionType>
+        <Name>OrbitalLanding</Name>
+    </Action>
+    <Action>
+        <WorkRange>4</WorkRange>
+        <WorkRate>1</WorkRate>
+        <Resource>Collectable</Resource>
+        <Anim>Gather</Anim>
+        <ActionType>Gather</ActionType>
+        <Name>GatherCollectables</Name>
+    </Action>
+    <Action>
+        <WorkRange>0</WorkRange>
+        <Anim>TeleportIn</Anim>
+        <ActionType>Ungarrison</ActionType>
+        <Name>UngarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <WorkRange>9.225</WorkRange>
+        <Anim>TeleportOut</Anim>
+        <ActionType>Garrison</ActionType>
+        <Name>GarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <WorkRange>4</WorkRange>
+        <DecaptureRate>0.9</DecaptureRate>
+        <CaptureRate>0.6</CaptureRate>
+        <Anim>Gather</Anim>
+        <ActionType>Capture</ActionType>
+        <Name>Capture</Name>
+    </Action>
+    <Action>
+        <WorkRange>0</WorkRange>
+        <Anim>PelicanUngarrison</Anim>
+        <ActionType>Ungarrison</ActionType>
+        <Name>UngarrisonPelican</Name>
+    </Action>
+    <Action>
+        <WorkRange>8.610001</WorkRange>
+        <Anim>PelicanGarrison</Anim>
+        <ActionType>Garrison</ActionType>
+        <Name>GarrisonPelican</Name>
+    </Action>
+    <Action>
+        <WorkRange>3.075</WorkRange>
+        <ActionType>Garrison</ActionType>
+        <Name>Garrison</Name>
+    </Action>
+    <Action>
+        <RestrictedAutoTarget>true</RestrictedAutoTarget>
+        <WorkRange>4</WorkRange>
+        <WorkRate>0.5</WorkRate>
+        <Resource>Power</Resource>
+        <Anim>Gather</Anim>
+        <ActionType>Gather</ActionType>
+        <Name>GatherPower</Name>
+    </Action>
+    <Action>
+        <RestrictedAutoTarget>true</RestrictedAutoTarget>
+        <WorkRange>4</WorkRange>
+        <WorkRate>4</WorkRate>
+        <Resource>Supplies</Resource>
+        <Anim>Gather</Anim>
+        <ActionType>Gather</ActionType>
+        <Name>GatherSupplies</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <LoopAttackAnim>
+        </LoopAttackAnim>
+        <DisableAttackWaitTimer>
+        </DisableAttackWaitTimer>
+        <Duration DurationSpread="0">8</Duration>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <Strafing turnRate="100" trackingSpeed="40">
+        </Strafing>
+        <Weapon>UpgradedFirewall</Weapon>
+        <EndAnim>FlameWallPostFire</EndAnim>
+        <Anim>FlamewallTier3</Anim>
+        <StartAnim>FlameWallPreFire</StartAnim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>UpgradedFlamewallAction</Name>
+    </Action>
+    <Action>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <LoopAttackAnim>
+        </LoopAttackAnim>
+        <DisableAttackWaitTimer>
+        </DisableAttackWaitTimer>
+        <Duration DurationSpread="0">7</Duration>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <Strafing turnRate="100" trackingSpeed="40">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>Firewall</Weapon>
+        <EndAnim>FlameWallPostFire</EndAnim>
+        <Anim>Flamewall</Anim>
+        <StartAnim>FlameWallPreFire</StartAnim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>FlamewallAction</Name>
+    </Action>
+    <Action>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Duration DurationSpread="0">3.5</Duration>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <Strafing turnRate="120" trackingSpeed="40">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>AntiBuildingFlamethrower</Weapon>
+        <MoveAnim>JogAttack</MoveAnim>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>FlamerBuildingAttackAction</Name>
+    </Action>
+    <Action>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <Duration DurationSpread="0">3.5</Duration>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <Strafing turnRate="120" trackingSpeed="40">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>AntiInfantryFlamethrower</Weapon>
+        <MoveAnim>JogAttack</MoveAnim>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>FlamerInfantryAttackAction</Name>
+    </Action>
+    <Action>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <Duration DurationSpread="0">3.5</Duration>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <Strafing turnRate="120" trackingSpeed="40">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>Flamethrower</Weapon>
+        <MoveAnim>JogAttack</MoveAnim>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>FlamerAttackAction</Name>
+    </Action>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>200</DamageRatio>
+                <Radius>12</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <PhysicsForceMax>400</PhysicsForceMax>
+        <PhysicsForceMin>200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MaxRange>1.8450000000000002</MaxRange>
+        <WeaponType>LeaderPower</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>0</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>OrbitalLandingWeapon</Name>
+    </Weapon>
+    <Weapon>
+        <AlwaysReplaceTargetWithItsPosition>
+        </AlwaysReplaceTargetWithItsPosition>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>70</Width>
+                <Length>13</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Width>79</Width>
+                <Length>ReachTarget</Length>
+                <Type>Cone</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>76</Width>
+                <Length>ReachTarget</Length>
+                <Type>Cone</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>9</Width>
+                <Length>ReachTarget</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>Flamewall</Hardpoint>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <ForceExactRange>
+        </ForceExactRange>
+        <MaxRange>45</MaxRange>
+        <ImpactEffect size="Medium">CyclopsUpgradeImpact</ImpactEffect>
+        <Projectile>fx_proj_flamewallbeam_02</Projectile>
+        <WeaponType>LeaderPowerScatterBomb</WeaponType>
+        <DamagePerSecond>850</DamagePerSecond>
+        <Name>UpgradedFirewall</Name>
+    </Weapon>
+    <Weapon>
+        <AlwaysReplaceTargetWithItsPosition>
+        </AlwaysReplaceTargetWithItsPosition>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>40</Width>
+                <Length>9</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Width>53</Width>
+                <Length>ReachTarget</Length>
+                <Type>Cone</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>50</Width>
+                <Length>ReachTarget</Length>
+                <Type>Cone</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>9</Width>
+                <Length>ReachTarget</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>Flamewall</Hardpoint>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <ForceExactRange>
+        </ForceExactRange>
+        <MaxRange>45</MaxRange>
+        <ImpactEffect size="Medium">CyclopsUpgradeImpact</ImpactEffect>
+        <Projectile>fx_proj_flamewallbeam_01</Projectile>
+        <WeaponType>LeaderPowerScatterBomb</WeaponType>
+        <DamagePerSecond>800</DamagePerSecond>
+        <Name>Firewall</Name>
+    </Weapon>
+    <Weapon>
+        <PostAttackCooldownMax>1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.25</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>Torso</Hardpoint>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>3</Width>
+                <Length>ReachTarget</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>Torso</Hardpoint>
+        <TargetPriority type="Aircraft">-1</TargetPriority>
+        <TargetPriority type="Building">3</TargetPriority>
+        <TargetPriority type="TurretBuilding">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">7</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <MaxRange>35</MaxRange>
+        <MaxVelocityLead>15</MaxVelocityLead>
+        <Projectile>fx_proj_FlameCyclopsBeam_01</Projectile>
+        <WeaponType>Hero</WeaponType>
+        <DamagePerSecond>580</DamagePerSecond>
+        <AttackRate>0.1</AttackRate>
+        <Name>AntiBuildingFlamethrower2</Name>
+    </Weapon>
+    <Weapon>
+        <PostAttackCooldownMax>1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.25</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>Torso</Hardpoint>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>3</Width>
+                <Length>ReachTarget</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>Torso</Hardpoint>
+        <TargetPriority type="Aircraft">-1</TargetPriority>
+        <TargetPriority type="Building">3</TargetPriority>
+        <TargetPriority type="TurretBuilding">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">7</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <MaxRange>35</MaxRange>
+        <MaxVelocityLead>15</MaxVelocityLead>
+        <Projectile>fx_proj_FlameCyclopsBeam_01</Projectile>
+        <WeaponType>Hero</WeaponType>
+        <DamagePerSecond>580</DamagePerSecond>
+        <AttackRate>0.1</AttackRate>
+        <Name>AntiBuildingFlamethrower</Name>
+    </Weapon>
+    <Weapon>
+        <PostAttackCooldownMax>1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.25</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>Torso</Hardpoint>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>3</Width>
+                <Length>ReachTarget</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>Torso</Hardpoint>
+        <TargetPriority type="Aircraft">-1</TargetPriority>
+        <TargetPriority type="Building">3</TargetPriority>
+        <TargetPriority type="TurretBuilding">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">7</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <MaxRange>35</MaxRange>
+        <MaxVelocityLead>15</MaxVelocityLead>
+        <Projectile>fx_proj_FlameCyclopsBeam_01</Projectile>
+        <WeaponType>Hero</WeaponType>
+        <DamagePerSecond>675</DamagePerSecond>
+        <AttackRate>0.1</AttackRate>
+        <Name>AntiInfantryFlamethrower2</Name>
+    </Weapon>
+    <Weapon>
+        <PostAttackCooldownMax>1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.25</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>Torso</Hardpoint>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>3</Width>
+                <Length>ReachTarget</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>Torso</Hardpoint>
+        <TargetPriority type="Aircraft">-1</TargetPriority>
+        <TargetPriority type="Building">3</TargetPriority>
+        <TargetPriority type="TurretBuilding">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">7</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <MaxRange>35</MaxRange>
+        <MaxVelocityLead>15</MaxVelocityLead>
+        <Projectile>fx_proj_FlameCyclopsBeam_01</Projectile>
+        <WeaponType>Hero</WeaponType>
+        <DamagePerSecond>675</DamagePerSecond>
+        <AttackRate>0.1</AttackRate>
+        <Name>AntiInfantryFlamethrower</Name>
+    </Weapon>
+    <Weapon>
+        <PostAttackCooldownMax>1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.25</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>Torso</Hardpoint>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>3</Width>
+                <Length>ReachTarget</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>Torso</Hardpoint>
+        <TargetPriority type="Aircraft">-1</TargetPriority>
+        <TargetPriority type="Building">3</TargetPriority>
+        <TargetPriority type="TurretBuilding">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">7</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <MaxRange>35</MaxRange>
+        <MaxVelocityLead>15</MaxVelocityLead>
+        <Projectile>fx_proj_FlameCyclopsBeam_01</Projectile>
+        <WeaponType>Hero</WeaponType>
+        <DamagePerSecond>580</DamagePerSecond>
+        <AttackRate>0.1</AttackRate>
+        <Name>Flamethrower2</Name>
+    </Weapon>
+    <Weapon>
+        <PostAttackCooldownMax>1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.25</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>Torso</Hardpoint>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>3</Width>
+                <Length>ReachTarget</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>Torso</Hardpoint>
+        <TargetPriority type="Aircraft">-1</TargetPriority>
+        <TargetPriority type="Building">3</TargetPriority>
+        <TargetPriority type="TurretBuilding">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">7</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <MaxRange>35</MaxRange>
+        <MaxVelocityLead>15</MaxVelocityLead>
+        <Projectile>fx_proj_FlameCyclopsBeam_01</Projectile>
+        <WeaponType>Hero</WeaponType>
+        <DamagePerSecond>580</DamagePerSecond>
+        <AttackRate>0.1</AttackRate>
+        <Name>Flamethrower</Name>
+    </Weapon>
+</TacticData>

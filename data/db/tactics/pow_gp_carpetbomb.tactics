@@ -1,0 +1,40 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>bombingRun</Weapon>
+        <Name>bombingRunAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <PhysicsForceMax>700</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>true</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4.9</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+        <AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>0.33</MovingAccuracy>
+        <MaxDeviation>2</MaxDeviation>
+        <Accuracy>0.33</Accuracy>
+        <MaxRange>6.15</MaxRange>
+        <ImpactEffect size="Medium">Tankshell</ImpactEffect>
+        <Projectile>pow_gp_carpetbomb</Projectile>
+        <WeaponType>LeaderPower</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>0</DamagePerSecond>
+        <Name>bombingRun</Name>
+    </Weapon>
+</TacticData>

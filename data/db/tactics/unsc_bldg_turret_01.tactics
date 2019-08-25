@@ -1,0 +1,92 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>LightCannon1AttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <PersistentAction>ChillAura</PersistentAction>
+        <PersistentAction>ShieldAction</PersistentAction>
+    </Tactic>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <ProtoObject>vfx_dlc4_units_cryoauratierdefence</ProtoObject>
+        <SpecificData>
+            <Relations>
+                <Relation>Enemy</Relation>
+            </Relations>
+            <ExcludeTargetTypes>
+                <Type>DontChill</Type>
+                <Type>BasicAircraft</Type>
+                <Type>Aircraft</Type>
+            </ExcludeTargetTypes>
+            <TargetTypes>
+                <Type>TurretBuilding</Type>
+                <Type>CryoBuilding</Type>
+                <Type>Infantry</Type>
+                <Type>GroundVehicle</Type>
+            </TargetTypes>
+            <BuffParams BuffType="ChillAura" ChillOverTime="10.0f">1.0f</BuffParams>
+        </SpecificData>
+        <WorkRange>25</WorkRange>
+        <ActionType>AreaBuff</ActionType>
+        <Name>ChillAura</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <ProtoObject>cov_wraithshield</ProtoObject>
+        <ActionType>EnergyShield</ActionType>
+        <Name>ShieldAction</Name>
+    </Action>
+    <Action>
+        <AllowDuplicate>
+        </AllowDuplicate>
+        <DeliveryDelay>10</DeliveryDelay>
+        <DeliveryType>Building</DeliveryType>
+        <Hardpoint2>Building</Hardpoint2>
+        <Hardpoint>Pelican</Hardpoint>
+        <ActionType>AnimDeliver</ActionType>
+        <Name>DeliverBuilding</Name>
+    </Action>
+    <Action>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <Strafing maxDistance="15" turnRate="90" trackingSpeed="40" jitter="20">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>LightCannon1</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>LightCannon1AttackAction</Name>
+    </Action>
+    <Weapon>
+        <PostAttackCooldownMax>0.6</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.2</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <UseGroupRange>
+        </UseGroupRange>
+        <TargetPriority type="building">1</TargetPriority>
+        <TargetPriority type="Turretbuilding">1</TargetPriority>
+        <TargetPriority type="Aircraft">4</TargetPriority>
+        <TargetPriority type="GroundVehicle">4</TargetPriority>
+        <TargetPriority type="Infantry">4</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>1.5</MovingMaxDeviation>
+        <MovingAccuracy>0</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>0.1</Accuracy>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>18.45</MaxVelocityLead>
+        <ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_machinegun_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>200</DamagePerSecond>
+        <AttackRate>0.25</AttackRate>
+        <Name>LightCannon1</Name>
+    </Weapon>
+</TacticData>

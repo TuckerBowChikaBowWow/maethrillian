@@ -1,0 +1,38 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>RepairOther</Action>
+            <TargetType>environment_tools_objects_m02emitterrec01</TargetType>
+            <Relation>Ally</Relation>
+        </TargetRule>
+        <PersistentAction>RepairOther</PersistentAction>
+        <PersistentAction>PersistentCollisionAttack</PersistentAction>
+    </Tactic>
+    <Action>
+        <SpecificData>
+            <HealingPoints>
+                <HealingPoint>
+                    <UseMainHealingTargetWhenAvailable>
+                    </UseMainHealingTargetWhenAvailable>
+                    <HealOnTheMove>
+                    </HealOnTheMove>
+                    <AutoReapairOn>
+                    </AutoReapairOn>
+                    <TargetType>environment_tools_objects_m02emitterrec01</TargetType>
+                    <MaxHealingDistance>800</MaxHealingDistance>
+                    <BoneName>GrannyRootBone_target_pos</BoneName>
+                    <HealingBeamProto>vfx_dlc4_environmentalvfx_ForerunnerBeam</HealingBeamProto>
+                </HealingPoint>
+            </HealingPoints>
+        </SpecificData>
+        <AutoRepair AutoRepairIgnoreTargetHealth="true" AutoRepairNeverChangeTarget="true" AutoRepairIdleTime="0" AutoRepairSearchDistance="800">
+        </AutoRepair>
+        <AllowReinforce>
+        </AllowReinforce>
+        <WorkRate>0.0000010000003385357559</WorkRate>
+        <WorkRange>800</WorkRange>
+        <Anim>Repair</Anim>
+        <ActionType>RepairOther</ActionType>
+        <Name>RepairOther</Name>
+    </Action>
+</TacticData>

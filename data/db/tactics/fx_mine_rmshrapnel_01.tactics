@@ -1,0 +1,50 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>ExplosiveManager</PersistentAction>
+    </Tactic>
+    <Action>
+        <Weapon>ShrapnelMine</Weapon>
+        <ChargeType>Shrapnel</ChargeType>
+        <WorkRange>11</WorkRange>
+        <FuseType>Proximity</FuseType>
+        <ActionType>ExplosiveManager</ActionType>
+        <Name>ExplosiveManager</Name>
+    </Action>
+    <Weapon>
+        <Apply>6</Apply>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <TargetType>NonFlying</TargetType>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>16</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>12</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <TargetType>NonFlying</TargetType>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>8</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <Slow TargetType="NonFlying" MovementModifier="0.4" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">5</Slow>
+        <ImpactEffect size="Medium">rmShrapnelMineExplosion</ImpactEffect>
+        <WeaponType>Grenade</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>850</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>ShrapnelMine</Name>
+    </Weapon>
+</TacticData>

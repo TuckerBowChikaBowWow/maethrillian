@@ -1,0 +1,95 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>ExplosiveManager2</PersistentAction>
+        <PersistentAction>ExplosiveManager</PersistentAction>
+        <PersistentAction>StealthManager</PersistentAction>
+    </Tactic>
+    <Action>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <Weapon>StasisMine2</Weapon>
+        <WorkRange>10</WorkRange>
+        <FuseType>Proximity</FuseType>
+        <ActionType>ExplosiveManager</ActionType>
+        <Name>ExplosiveManager</Name>
+    </Action>
+    <Action>
+        <ExplodeOnDeath>
+        </ExplodeOnDeath>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <Weapon>StasisMine2Reduced</Weapon>
+        <WorkRange>0</WorkRange>
+        <FuseType>Proximity</FuseType>
+        <ActionType>ExplosiveManager</ActionType>
+        <Name>ExplosiveManager2</Name>
+    </Action>
+    <Action>
+        <MaxCharge>200</MaxCharge>
+        <WorkRange>22</WorkRange>
+        <RechargeDelay>4</RechargeDelay>
+        <StartOnCooldown>
+        </StartOnCooldown>
+        <StealthType>Cloak</StealthType>
+        <ActionType>StealthManager</ActionType>
+        <Name>StealthManager</Name>
+    </Action>
+    <Weapon>
+        <Buff TargetType="Military" BuffType="ArbiterStasis">5.0f</Buff>
+        <PhysicsForceMax>700</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <Apply>1.5</Apply>
+        <WeaponType>Mines</WeaponType>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>10</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="0.9" yawpitchstrength="2.5" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4">
+        </ImpactAdvancedCameraShake>
+        <ImpactEffect size="Medium">MassStasisMine2</ImpactEffect>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>900</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>StasisMine2Reduced</Name>
+    </Weapon>
+    <Weapon>
+        <Buff TargetType="Military" BuffType="ArbiterStasis">10.0f</Buff>
+        <PhysicsForceMax>700</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <Apply>6</Apply>
+        <WeaponType>Mines</WeaponType>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>24</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="0.9" yawpitchstrength="2.5" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4">
+        </ImpactAdvancedCameraShake>
+        <ImpactEffect size="Medium">MassStasisMine2</ImpactEffect>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>2000</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>StasisMine2</Name>
+    </Weapon>
+</TacticData>

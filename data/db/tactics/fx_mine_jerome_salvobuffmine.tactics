@@ -1,0 +1,19 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>AreaBuff</PersistentAction>
+    </Tactic>
+    <Action>
+        <SpecificData>
+            <Relations>
+                <Relation>Ally</Relation>
+            </Relations>
+            <TargetTypes>
+                <Type>Military</Type>
+            </TargetTypes>
+            <BuffParams BuffType="Inspire" DamageMitigationScalar="0.88" DamageDealtModifier="1.12">15.0f</BuffParams>
+        </SpecificData>
+        <WorkRange>32</WorkRange>
+        <ActionType>AreaBuff</ActionType>
+        <Name>AreaBuff</Name>
+    </Action>
+</TacticData>

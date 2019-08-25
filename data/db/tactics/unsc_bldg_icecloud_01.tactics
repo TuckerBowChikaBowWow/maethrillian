@@ -1,0 +1,27 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>ChillAura</PersistentAction>
+    </Tactic>
+    <Action>
+        <SpecificData>
+            <Relations>
+                <Relation>Enemy</Relation>
+            </Relations>
+            <ExcludeTargetTypes>
+                <Type>DontChill</Type>
+                <Type>BasicAircraft</Type>
+                <Type>Aircraft</Type>
+            </ExcludeTargetTypes>
+            <TargetTypes>
+                <Type>TurretBuilding</Type>
+                <Type>CryoBuilding</Type>
+                <Type>Infantry</Type>
+                <Type>GroundVehicle</Type>
+            </TargetTypes>
+            <BuffParams BuffType="ChillAura" ChillOverTime="8.0f">1.0f</BuffParams>
+        </SpecificData>
+        <WorkRange>22</WorkRange>
+        <ActionType>AreaBuff</ActionType>
+        <Name>ChillAura</Name>
+    </Action>
+</TacticData>

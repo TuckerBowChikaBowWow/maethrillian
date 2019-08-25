@@ -1,0 +1,33 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>PlasmaMinePod</Weapon>
+        <Name>PlasmaMinePodAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <PhysicsForceMax>800</PhysicsForceMax>
+        <PhysicsForceMin>300</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>7</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <ImpactEffect size="Medium">LotusMineImpact</ImpactEffect>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="0.3" yawpitchstrength="0.8" rollstrength="0.6" rotationfrequency="18" translationstrength="0" translationfrequency="6">
+        </ImpactAdvancedCameraShake>
+        <Projectile>pow_proj_rmplasmaminepod_01</Projectile>
+        <WeaponType>Explosive</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>300</DamagePerSecond>
+        <Name>PlasmaMinePod</Name>
+    </Weapon>
+</TacticData>

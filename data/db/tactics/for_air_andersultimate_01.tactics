@@ -1,0 +1,362 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <TargetsGround>
+            </TargetsGround>
+            <Action>OrbitalLanding</Action>
+            <Ability>OrbitalLanding</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>UngarrisonHotDrop</Action>
+            <TargetType>HotDropPickup</TargetType>
+            <Relation>Self</Relation>
+            <Ability>Ungarrison</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>GarrisonHotDrop</Action>
+            <TargetType>HotDropPickup</TargetType>
+            <Relation>Self</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>UngarrisonTeleport</Action>
+            <TargetType>TeleportDropoff</TargetType>
+            <Relation>Self</Relation>
+            <Ability>Ungarrison</Ability>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>GarrisonTeleport</Action>
+            <TargetType>TeleportPickup</TargetType>
+            <Relation>Self</Relation>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>BeamLeftAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>BeamRightAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>AirSuperSentinelBeamAttackAction</Action>
+            <TargetType>Flying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>SuperSentinelBeamAttackAction</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <TargetType>NonFlying</TargetType>
+            <Action>GraviticPulseAttackAction</Action>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <PersistentAction>BeamLeftAttackAction</PersistentAction>
+        <PersistentAction>BeamRightAttackAction</PersistentAction>
+    </Tactic>
+    <Action>
+        <WorkRange>0</WorkRange>
+        <Anim>HotDropDown</Anim>
+        <ActionType>Ungarrison</ActionType>
+        <Name>UngarrisonHotDrop</Name>
+    </Action>
+    <Action>
+        <WorkRange>9.225</WorkRange>
+        <Anim>HotDropUp</Anim>
+        <ActionType>Garrison</ActionType>
+        <Name>GarrisonHotDrop</Name>
+    </Action>
+    <Action>
+        <WorkRange>0</WorkRange>
+        <Anim>Idle</Anim>
+        <ActionType>Ungarrison</ActionType>
+        <Name>UngarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <WorkRange>9.225</WorkRange>
+        <Anim>Idle</Anim>
+        <ActionType>Garrison</ActionType>
+        <Name>GarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <CanOrientOwner>true</CanOrientOwner>
+        <ForceAttachmentAnim>
+        </ForceAttachmentAnim>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <Weapon>GraviticPulse</Weapon>
+        <Anim noInterrupt="true">Attack_Gravatic_Pulse</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>GraviticPulseAttackAction</Name>
+    </Action>
+    <Action>
+        <CanOrientOwner>true</CanOrientOwner>
+        <Weapon>AirSuperSentinelBeam</Weapon>
+        <Anim>Attack_Super_Beam</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>AirSuperSentinelBeamAttackAction</Name>
+    </Action>
+    <Action>
+        <CanOrientOwner>true</CanOrientOwner>
+        <Weapon>SuperSentinelBeam</Weapon>
+        <Anim>Attack_Super_Beam</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>SuperSentinelBeamAttackAction</Name>
+    </Action>
+    <Action>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <LoopAttackAnim>
+        </LoopAttackAnim>
+        <Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20">
+        </Strafing>
+        <Beam collideWithUnits="false" collideWithTerrain="true">
+        </Beam>
+        <Duration DurationSpread="0.5">3</Duration>
+        <CanOrientOwner>false</CanOrientOwner>
+        <Weapon>BeamLeft</Weapon>
+        <Anim>AttackLeft</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>BeamLeftAttackAction</Name>
+    </Action>
+    <Action>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <LoopAttackAnim>
+        </LoopAttackAnim>
+        <Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20">
+        </Strafing>
+        <Beam collideWithUnits="false" collideWithTerrain="true">
+        </Beam>
+        <Duration DurationSpread="0.5">3</Duration>
+        <CanOrientOwner>false</CanOrientOwner>
+        <Weapon>BeamRight</Weapon>
+        <Anim>AttackRight</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>BeamRightAttackAction</Name>
+    </Action>
+    <Action>
+        <EndAnim noInterrupt="true" motionExtraction="true">OrbitalLanding</EndAnim>
+        <Anim noInterrupt="true">OrbitalDropLoop</Anim>
+        <VelocityScalar>30</VelocityScalar>
+        <MaxDistance>50</MaxDistance>
+        <MaxJumpAnimDuration>15.0f</MaxJumpAnimDuration>
+        <Weapon>OrbitalLandingWeapon</Weapon>
+        <ActionType>JumpLandOnly</ActionType>
+        <Name>OrbitalLanding</Name>
+    </Action>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>1</DamageRatio>
+                <Radius>4</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <PhysicsForceMax>400</PhysicsForceMax>
+        <PhysicsForceMin>200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MaxRange>1.8450000000000002</MaxRange>
+        <WeaponType>LeaderPower</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>0</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>OrbitalLandingWeapon</Name>
+    </Weapon>
+    <Weapon>
+        <PhysicsForceMax>400</PhysicsForceMax>
+        <PhysicsForceMin>200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>25</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>75</DamageRatio>
+                <Radius>12</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <TargetPriority type="TurretBuilding">2</TargetPriority>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="Infantry">3</TargetPriority>
+        <TargetPriority type="Flying">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">3</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <Accuracy>1</Accuracy>
+        <MaxRange>75</MaxRange>
+        <Hardpoint>Head</Hardpoint>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="1" yawpitchstrength="5" rollstrength="3" rotationfrequency="15" translationstrength="0" translationfrequency="6">
+        </ImpactAdvancedCameraShake>
+        <ImpactEffect size="Large">RetreiverGraviticPulseImpact</ImpactEffect>
+        <Projectile>fx_proj_retrieversuperbeam_01</Projectile>
+        <WeaponType>Ultimates</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>6000</DamagePerSecond>
+        <AttackRate>0.1</AttackRate>
+        <Name>GraviticPulse</Name>
+    </Weapon>
+    <Weapon>
+        <RequirePreciseAiming>
+        </RequirePreciseAiming>
+        <PostAttackCooldownMax>4.5</PostAttackCooldownMax>
+        <PostAttackCooldownMin>4</PostAttackCooldownMin>
+        <PhysicsForceMax>400</PhysicsForceMax>
+        <PhysicsForceMin>200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>10</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">2</TargetPriority>
+        <TargetPriority type="Infantry">6</TargetPriority>
+        <TargetPriority type="Flying">7</TargetPriority>
+        <TargetPriority type="GroundVehicle">8</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <MovingMaxDeviation>4.5</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>3</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>75</MaxRange>
+        <MaxVelocityLead>9.84</MaxVelocityLead>
+        <Hardpoint>Head</Hardpoint>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="0.7000000000000001" yawpitchstrength="1.5" rollstrength="0.5" rotationfrequency="10" translationstrength="0" translationfrequency="6">
+        </ImpactAdvancedCameraShake>
+        <ImpactEffect size="Medium">RetreiverSuperBeamAir</ImpactEffect>
+        <Projectile>fx_proj_retrieversuperbeam_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>600</DamagePerSecond>
+        <AttackRate>0.1</AttackRate>
+        <Name>AirSuperSentinelBeam</Name>
+    </Weapon>
+    <Weapon>
+        <RequirePreciseAiming>
+        </RequirePreciseAiming>
+        <PostAttackCooldownMax>4.5</PostAttackCooldownMax>
+        <PostAttackCooldownMin>4</PostAttackCooldownMin>
+        <PhysicsForceMax>400</PhysicsForceMax>
+        <PhysicsForceMin>200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>10</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">2</TargetPriority>
+        <TargetPriority type="Infantry">6</TargetPriority>
+        <TargetPriority type="Flying">7</TargetPriority>
+        <TargetPriority type="GroundVehicle">8</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <MovingMaxDeviation>4.5</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>3</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>75</MaxRange>
+        <MaxVelocityLead>9.84</MaxVelocityLead>
+        <Hardpoint>Head</Hardpoint>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="0.7000000000000001" yawpitchstrength="1.5" rollstrength="0.5" rotationfrequency="10" translationstrength="0" translationfrequency="6">
+        </ImpactAdvancedCameraShake>
+        <ImpactEffect size="Medium">RetreiverSuperBeam</ImpactEffect>
+        <Projectile>fx_proj_retrieversuperbeam_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>600</DamagePerSecond>
+        <AttackRate>0.1</AttackRate>
+        <Name>SuperSentinelBeam</Name>
+    </Weapon>
+    <Weapon>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">2</TargetPriority>
+        <TargetPriority type="Infantry">3</TargetPriority>
+        <TargetPriority type="Flying">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">4</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PostAttackCooldownMax>1.7000000000000002</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1.3</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>RightTurret</Hardpoint>
+        <MovingMaxDeviation>4.5</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>3</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>75</MaxRange>
+        <MaxVelocityLead>9.84</MaxVelocityLead>
+        <ImpactEffect size="Medium">RetreiverSmallLaserBeam</ImpactEffect>
+        <Projectile>fx_proj_retrieversmallbeam_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>300</DamagePerSecond>
+        <AttackRate>100</AttackRate>
+        <Name>BeamRight</Name>
+    </Weapon>
+    <Weapon>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">2</TargetPriority>
+        <TargetPriority type="Infantry">3</TargetPriority>
+        <TargetPriority type="Flying">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">4</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PostAttackCooldownMax>1.7000000000000002</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1.3</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>LeftTurret</Hardpoint>
+        <MovingMaxDeviation>4.5</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>3</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>75</MaxRange>
+        <MaxVelocityLead>9.84</MaxVelocityLead>
+        <ImpactEffect size="Medium">RetreiverSmallLaserBeam</ImpactEffect>
+        <Projectile>fx_proj_retrieversmallbeam_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>300</DamagePerSecond>
+        <AttackRate>100</AttackRate>
+        <Name>BeamLeft</Name>
+    </Weapon>
+</TacticData>

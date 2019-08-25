@@ -1,0 +1,76 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <TargetsGround>
+            </TargetsGround>
+            <Action>OrbitalLanding</Action>
+            <Ability>OrbitalLanding</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>ShadePlasmaAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <EndAnim noInterrupt="true" motionExtraction="false">OrbitalLanding</EndAnim>
+        <Anim noInterrupt="true">OrbitalDropLoop</Anim>
+        <VelocityScalar>30</VelocityScalar>
+        <MaxDistance>70</MaxDistance>
+        <MaxJumpAnimDuration>15.0f</MaxJumpAnimDuration>
+        <Weapon>OrbitalLandingWeapon</Weapon>
+        <ActionType>JumpLandOnly</ActionType>
+        <Name>OrbitalLanding</Name>
+    </Action>
+    <Action>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>ShadePlasma</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>ShadePlasmaAttackAction</Name>
+    </Action>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>8</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <PhysicsForceMax>400</PhysicsForceMax>
+        <PhysicsForceMin>200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MaxRange>1.8450000000000002</MaxRange>
+        <WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>0</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>OrbitalLandingWeapon</Name>
+    </Weapon>
+    <Weapon>
+        <PostAttackCooldownMax>0.3</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.2</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <TargetPriority type="TurretBuilding">2</TargetPriority>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="Aircraft">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">6</TargetPriority>
+        <TargetPriority type="Infantry">6</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <MaxRange>55</MaxRange>
+        <MaxVelocityLead>35</MaxVelocityLead>
+        <ImpactEffect size="Medium">SmallPlasmaExplosion</ImpactEffect>
+        <Projectile>fx_proj_shadeplasma_01</Projectile>
+        <WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+        <DamagePerSecond>100</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>ShadePlasma</Name>
+    </Weapon>
+</TacticData>

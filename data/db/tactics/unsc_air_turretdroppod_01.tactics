@@ -1,0 +1,32 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>Artillery</Weapon>
+        <Name>GenericInfoAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <WeaponType>LeaderPower</WeaponType>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>10</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
+        <ImpactEffect size="Medium">ODSTUnitPod</ImpactEffect>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="0.8" yawpitchstrength="2" rollstrength="1" rotationfrequency="4" translationstrength="0" translationfrequency="6">
+        </ImpactAdvancedCameraShake>
+        <Projectile>unsc_air_turretpod_01</Projectile>
+        <WeaponType>leaderpower</WeaponType>
+        <DamagePerSecond>400</DamagePerSecond>
+        <Name>Artillery</Name>
+    </Weapon>
+</TacticData>

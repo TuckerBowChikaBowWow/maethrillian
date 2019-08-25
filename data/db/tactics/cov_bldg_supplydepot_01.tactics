@@ -1,0 +1,27 @@
+<TacticData>
+    <Tactic>
+        <PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
+    </Tactic>
+    <Action>
+        <ActionType>SquadActionGather</ActionType>
+        <Name>GatherSuppliesSquad</Name>
+    </Action>
+    <Action>
+        <WorkRange>0.615</WorkRange>
+        <WorkRate>2.7</WorkRate>
+        <Resource>Supplies</Resource>
+        <Anim>Gather</Anim>
+        <ActionType>Gather</ActionType>
+        <Name>GatherSupplies</Name>
+    </Action>
+    <Action>
+        <AllowDuplicate>
+        </AllowDuplicate>
+        <DeliveryDelay>3.5</DeliveryDelay>
+        <DeliveryType>Building</DeliveryType>
+        <Hardpoint2>Building</Hardpoint2>
+        <Hardpoint>Spirit</Hardpoint>
+        <ActionType>AnimDeliver</ActionType>
+        <Name>DeliverBuilding</Name>
+    </Action>
+</TacticData>

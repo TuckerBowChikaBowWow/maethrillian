@@ -1,0 +1,44 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>ExplosiveManager</PersistentAction>
+    </Tactic>
+    <Action>
+        <ProjectileInvokePower>Unbrk_LichAssaultBase</ProjectileInvokePower>
+        <ExplodeOnDeath>
+        </ExplodeOnDeath>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <Weapon>PlasmaMine</Weapon>
+        <WorkRange>0</WorkRange>
+        <FuseType>Proximity</FuseType>
+        <ActionType>ExplosiveManager</ActionType>
+        <Name>ExplosiveManager</Name>
+    </Action>
+    <Weapon>
+        <PhysicsForceMax>700</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <Apply>8</Apply>
+        <WeaponType>Basic</WeaponType>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>18</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="0.7000000000000001" yawpitchstrength="2" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4">
+        </ImpactAdvancedCameraShake>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>0</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>PlasmaMine</Name>
+    </Weapon>
+</TacticData>

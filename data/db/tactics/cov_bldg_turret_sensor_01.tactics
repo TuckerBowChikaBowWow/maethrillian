@@ -1,0 +1,19 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>BaseChild</PersistentAction>
+    </Tactic>
+    <Action>
+        <ActionType>BaseChild</ActionType>
+        <Name>BaseChild</Name>
+    </Action>
+    <Action>
+        <AllowDuplicate>
+        </AllowDuplicate>
+        <DeliveryDelay>0.5</DeliveryDelay>
+        <DeliveryType>Building</DeliveryType>
+        <Hardpoint2>Building</Hardpoint2>
+        <Hardpoint>Spirit</Hardpoint>
+        <ActionType>AnimDeliver</ActionType>
+        <Name>DeliverBuilding</Name>
+    </Action>
+</TacticData>

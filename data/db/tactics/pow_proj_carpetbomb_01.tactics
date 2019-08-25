@@ -1,0 +1,36 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>CarpetBomb</Weapon>
+        <Name>CarpetBombingAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+        <DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+        <PhysicsForceMax>1200</PhysicsForceMax>
+        <PhysicsForceMin>800</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>70</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>50</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>true</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>6.15</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <ImpactCameraShake duration="0.2" strength="0.2">
+        </ImpactCameraShake>
+        <Projectile>pow_proj_cleansing_01</Projectile>
+        <WeaponType>LeaderPower</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>3500</DamagePerSecond>
+        <Name>CarpetBomb</Name>
+    </Weapon>
+</TacticData>

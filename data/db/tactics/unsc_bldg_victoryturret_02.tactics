@@ -1,0 +1,79 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>InspireAura</PersistentAction>
+        <TargetRule>
+            <Action>LightCannon1AttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <PersistentAction>ShieldAction</PersistentAction>
+    </Tactic>
+    <Action>
+        <ProtoObject>vfx_dlc2_units_spartanleaderinspire</ProtoObject>
+        <SpecificData>
+            <Relations>
+                <Relation>Ally</Relation>
+            </Relations>
+            <ExcludeTargetTypes>
+                <Type>Drone</Type>
+                <Type>Mine</Type>
+            </ExcludeTargetTypes>
+            <TargetTypes>
+                <Type>Building</Type>
+                <Type>Military</Type>
+            </TargetTypes>
+            <BuffParams BuffType="Inspire" DamageMitigationScalar="0.88" DamageDealtModifier="1.12" BuffActivateFX="vfx_dlc2_units_spartanleaderinspireunit">
+                <Duration>1.0f</Duration>
+                <BuffActivateFXOverrides>
+                    <Override UnitType="Flying" BuffFX="vfx_dlc2_units_spartanleaderinspireunitflying">
+                    </Override>
+                </BuffActivateFXOverrides>
+            </BuffParams>
+        </SpecificData>
+        <WorkRange>20</WorkRange>
+        <ActionType>AreaBuff</ActionType>
+        <Name>InspireAura</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <ProtoObject>cov_wraithshield</ProtoObject>
+        <ActionType>EnergyShield</ActionType>
+        <Name>ShieldAction</Name>
+    </Action>
+    <Action>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <Strafing maxDistance="15" turnRate="90" trackingSpeed="40" jitter="20">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>LightCannon1</Weapon>
+        <Anim SoundLoopStartEvent="PLAY_SFX_3D_WPN_UNSC_WarthogTurretFire" SoundLoopEndEvent="STOP_SFX_3D_WPN_UNSC_WarthogTurretFire">Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>LightCannon1AttackAction</Name>
+    </Action>
+    <Weapon>
+        <UseGroupRange>
+        </UseGroupRange>
+        <TargetPriority type="building">1</TargetPriority>
+        <TargetPriority type="Turretbuilding">1</TargetPriority>
+        <TargetPriority type="Aircraft">4</TargetPriority>
+        <TargetPriority type="GroundVehicle">4</TargetPriority>
+        <TargetPriority type="Infantry">4</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>1.5</MovingMaxDeviation>
+        <MovingAccuracy>0</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>0.1</Accuracy>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>18.45</MaxVelocityLead>
+        <ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_machinegun_01</Projectile>
+        <WeaponType>leaderpower</WeaponType>
+        <DamagePerSecond>500</DamagePerSecond>
+        <AttackRate>0.25</AttackRate>
+        <Name>LightCannon1</Name>
+    </Weapon>
+</TacticData>

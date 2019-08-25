@@ -1,0 +1,27 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>MegaTurretMortarShockwave</Weapon>
+        <Name>GenericInfoAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <AOERadius>20</AOERadius>
+        <Shockwave duration="7">
+        </Shockwave>
+        <ReapplyDamageOverArea>
+        </ReapplyDamageOverArea>
+        <PhysicsForceMax>2000</PhysicsForceMax>
+        <PhysicsForceMin>1500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <ThrowDamageParts>
+        </ThrowDamageParts>
+        <ThrowUnits>
+        </ThrowUnits>
+        <WeaponType>MegaTurret</WeaponType>
+        <DamagePerSecond>80</DamagePerSecond>
+        <Name>MegaTurretMortarShockwave</Name>
+    </Weapon>
+</TacticData>

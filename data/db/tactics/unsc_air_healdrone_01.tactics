@@ -1,0 +1,83 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>RepairOther</PersistentAction>
+        <PersistentAction>ActionDrone</PersistentAction>
+        <PersistentAction>MedicHeal</PersistentAction>
+        <TargetRule>
+            <Action>UngarrisonTeleport</Action>
+            <TargetType>TeleportDropoff</TargetType>
+            <Relation>Self</Relation>
+            <Ability>Ungarrison</Ability>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>GarrisonTeleport</Action>
+            <TargetType>TeleportPickup</TargetType>
+            <Relation>Self</Relation>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <WorkRange>0</WorkRange>
+        <Anim>TeleportIn</Anim>
+        <ActionType>Ungarrison</ActionType>
+        <Name>UngarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <WorkRange>9.225</WorkRange>
+        <Anim>TeleportOut</Anim>
+        <ActionType>Garrison</ActionType>
+        <Name>GarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <Vivacity>1</Vivacity>
+        <ActionType>Drone</ActionType>
+        <Name>ActionDrone</Name>
+    </Action>
+    <Action>
+        <SpecificData>
+            <HealingPoints>
+                <HealingPoint>
+                    <HealOnTheMove>
+                    </HealOnTheMove>
+                    <UseMainHealingTargetWhenAvailable>
+                    </UseMainHealingTargetWhenAvailable>
+                    <MaxHealingDistance>30</MaxHealingDistance>
+                    <BoneName>bone_vfx_MuzzlePoint</BoneName>
+                    <HealingBeamProto>fx_unschealbeam</HealingBeamProto>
+                </HealingPoint>
+            </HealingPoints>
+        </SpecificData>
+        <AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="30" AutoRepairNoFX="false">
+        </AutoRepair>
+        <AllowReinforce>
+        </AllowReinforce>
+        <WorkRate>0.15</WorkRate>
+        <WorkRange>30</WorkRange>
+        <Anim>Attack</Anim>
+        <ActionType>RepairOther</ActionType>
+        <Name>RepairOther</Name>
+    </Action>
+    <Weapon>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">6</TargetPriority>
+        <TargetPriority type="Infantry">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>40</MaxRange>
+        <MaxVelocityLead>6.15</MaxVelocityLead>
+        <ImpactEffect size="Small">SmallBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_machinegun_01</Projectile>
+        <WeaponType>SmallArms</WeaponType>
+        <DamagePerSecond>40</DamagePerSecond>
+        <AttackRate>1</AttackRate>
+        <Name>AssaultRifle</Name>
+    </Weapon>
+</TacticData>

@@ -1,0 +1,66 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Relation>Enemy</Relation>
+            <Action>DisruptionField</Action>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <TargetsGround>
+            </TargetsGround>
+            <Action>DisruptionField</Action>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Relation>Ally</Relation>
+            <Action>DisruptionField</Action>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Relation>Self</Relation>
+            <Action>DisruptionField</Action>
+            <Ability>Command</Ability>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <Weapon>DeflectionShield</Weapon>
+        <Name>DeflectionShieldAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Action>
+        <ProtoObject>pow_proj_UnscDeflectionShield</ProtoObject>
+        <WorkRate>0.6</WorkRate>
+        <WorkRange>35</WorkRange>
+        <Duration>10</Duration>
+        <ActionType>DisruptionField</ActionType>
+        <Name>DisruptionField</Name>
+    </Action>
+    <Weapon>
+        <Buff TargetType="Military" BuffType="VortexDebuff" DamageMitigationScalar="0.8">15.0f</Buff>
+        <Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false">0.5f</Daze>
+        <PhysicsForceMax>800</PhysicsForceMax>
+        <PhysicsForceMin>300</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>12</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <ImpactCameraShake duration="0.2" strength="0.15">
+        </ImpactCameraShake>
+        <Projectile>pow_proj_UnscDeflectionShield</Projectile>
+        <WeaponType>leaderPower</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>0</DamagePerSecond>
+        <Name>DeflectionShield</Name>
+    </Weapon>
+</TacticData>

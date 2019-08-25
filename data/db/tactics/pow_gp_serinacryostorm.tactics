@@ -1,0 +1,72 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>OrbitalBombardmentShockwave</Weapon>
+        <Name>OrbitalBombardmentShockwaveAction</Name>
+    </Action>
+    <Action>
+        <Weapon>OrbitalBombardment</Weapon>
+        <Name>OrbitalBombardmentAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <PhysicsForceMax>2000</PhysicsForceMax>
+        <PhysicsForceMin>1600</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <ThrowDamageParts>
+        </ThrowDamageParts>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <IgnoreY>true</IgnoreY>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>12</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <ImpactEffect size="Large">CryoMine_01</ImpactEffect>
+        <Projectile>pow_gp_SerinaCryoBlastLVL1</Projectile>
+        <WeaponType>LeaderPower</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <Chill Amount="30" TargetType="TurretBuilding">
+        </Chill>
+        <Chill Amount="30" TargetType="CryoBuilding">
+        </Chill>
+        <Chill Amount="50" TargetType="GroundVehicle">
+        </Chill>
+        <Chill Amount="50" TargetType="Infantry" SingleTarget="true">
+        </Chill>
+        <Chill Amount="50" TargetType="BasicAirCraft">
+        </Chill>
+        <Chill Amount="50" TargetType="AirCraft">
+        </Chill>
+        <DamagePerSecond>150</DamagePerSecond>
+        <Name>OrbitalBombardment</Name>
+    </Weapon>
+    <Weapon>
+        <Shockwave>
+        </Shockwave>
+        <DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+        <DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+        <PhysicsForceMax>1200</PhysicsForceMax>
+        <PhysicsForceMin>1000</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <ThrowDamageParts>
+        </ThrowDamageParts>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEDamageFactor>0.615</AOEDamageFactor>
+        <AOEDistanceFactor>0.20295</AOEDistanceFactor>
+        <AOERadius>14</AOERadius>
+        <WeaponType>leaderpower</WeaponType>
+        <DamagePerSecond>1</DamagePerSecond>
+        <Name>OrbitalBombardmentShockwave</Name>
+    </Weapon>
+</TacticData>

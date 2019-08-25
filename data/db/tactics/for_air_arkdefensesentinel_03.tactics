@@ -1,0 +1,32 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>BeamCannonAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <Weapon>BeamCannon</Weapon>
+        <Anim>RangedAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>BeamCannonAttackAction</Name>
+    </Action>
+    <Weapon>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="Infantry">5</TargetPriority>
+        <TargetPriority type="Aircraft">6</TargetPriority>
+        <TargetPriority type="GroundVehicle">8</TargetPriority>
+        <OverridesRevive>
+        </OverridesRevive>
+        <MaxRange>58</MaxRange>
+        <MaxVelocityLead>7.380000000000001</MaxVelocityLead>
+        <ImpactEffect size="Medium">SentinelBeamImpact</ImpactEffect>
+        <Hardpoint>BeamTurret</Hardpoint>
+        <Projectile>fx_proj_beam_01</Projectile>
+        <WeaponType>LeaderPower</WeaponType>
+        <DamagePerSecond>115</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>BeamCannon</Name>
+    </Weapon>
+</TacticData>

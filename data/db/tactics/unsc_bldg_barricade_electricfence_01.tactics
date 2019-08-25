@@ -1,0 +1,51 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>ShockWeaponAction</PersistentAction>
+        <TargetRule>
+            <Action>ShockWeaponAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <Weapon>ShockWeapon</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>ShockWeaponAction</Name>
+    </Action>
+    <Weapon>
+        <Daze TargetType="Military" MovementModifier="0.5" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">6.0f</Daze>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="Infantry">2</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="Aircraft">4</TargetPriority>
+        <TargetPriority type="GroundVehicle">5</TargetPriority>
+        <AlwaysReplaceTargetWithItsPosition>
+        </AlwaysReplaceTargetWithItsPosition>
+        <AOEData>
+            <Hitbox>
+                <IgnoreY>false</IgnoreY>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>AttackerOrigin</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>35</Width>
+                <Length>8</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>Weapon</Hardpoint>
+        <MovingMaxDeviation>4.5</MovingMaxDeviation>
+        <MovingAccuracy>0</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>0.1</Accuracy>
+        <MaxVelocityLead>40</MaxVelocityLead>
+        <ImpactEffect size="Large">LargeEMPImpact</ImpactEffect>
+        <Projectile>fx_proj_grizzile_01</Projectile>
+        <MaxRange>45</MaxRange>
+        <WeaponType>Grenade</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>1000</DamagePerSecond>
+        <AttackRate>2</AttackRate>
+        <Name>ShockWeapon</Name>
+    </Weapon>
+</TacticData>

@@ -1,0 +1,118 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>JumpAttackAction</Action>
+            <Relation>Enemy</Relation>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <TargetsGround>
+            </TargetsGround>
+            <Action>JumpAttackAction</Action>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>CryoSprayAttackAction1</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <LandingDelay>0.4</LandingDelay>
+        <VelocityScalar>35</VelocityScalar>
+        <MaxRelativeHeight>12</MaxRelativeHeight>
+        <MinRelativeHeight>8</MinRelativeHeight>
+        <MaxDistance>40</MaxDistance>
+        <Weapon>JumpAttackHammer</Weapon>
+        <EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.45">LeapLanding</EndAnim>
+        <Anim>LeapArc</Anim>
+        <StartAnim noInterrupt="true" motionExtraction="true">LeapTakeOff</StartAnim>
+        <ActionType>JumpAttack</ActionType>
+        <Name>JumpAttackAction</Name>
+    </Action>
+    <Action>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <Strafing turnRate="120" trackingSpeed="40">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>CryoSpray</Weapon>
+        <MoveAnim>AttackMove</MoveAnim>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>CryoSprayAttackAction1</Name>
+    </Action>
+    <Weapon>
+        <Filter>Medium</Filter>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>Torso</Hardpoint>
+        <PhysicsForceMax>400</PhysicsForceMax>
+        <PhysicsForceMin>200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MinRange>0</MinRange>
+        <MaxRange>1.8450000000000002</MaxRange>
+        <WeaponType>Melee</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>400</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>JumpAttackHammer</Name>
+    </Weapon>
+    <Weapon>
+        <Chill Amount="1" TargetType="Building">
+        </Chill>
+        <Chill Amount="1.5" TargetType="Unit">
+        </Chill>
+        <PostAttackCooldownMax>1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.25</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>2</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>3</Width>
+                <Length>ReachTarget</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>Torso</Hardpoint>
+        <TargetPriority type="Building">3</TargetPriority>
+        <TargetPriority type="TurretBuilding">5</TargetPriority>
+        <TargetPriority type="Infantry">10</TargetPriority>
+        <MaxRange>20</MaxRange>
+        <MaxVelocityLead>15</MaxVelocityLead>
+        <WeaponType>AntiBuildingFire</WeaponType>
+        <Projectile>fx_proj_cryobeam_01</Projectile>
+        <DOTduration>1</DOTduration>
+        <DOTrate>6.800000000000001</DOTrate>
+        <DamagePerSecond>24</DamagePerSecond>
+        <AttackRate>0.25</AttackRate>
+        <Name>CryoSpray</Name>
+    </Weapon>
+</TacticData>

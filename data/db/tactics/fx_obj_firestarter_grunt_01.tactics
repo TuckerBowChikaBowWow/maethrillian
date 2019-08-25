@@ -1,0 +1,61 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <Weapon>DAOTweapon</Weapon>
+        <Name>GenericInfoAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Action>
+        <Weapon>AirToAirMissileLauncher</Weapon>
+        <Name>GenericInfoAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <AOERadius>15</AOERadius>
+        <Shockwave duration="10">
+        </Shockwave>
+        <ReapplyDamageOverArea>
+        </ReapplyDamageOverArea>
+        <ImpactEffect size="Large" doShockwaveAction="true">FirestarterGrunt</ImpactEffect>
+        <Projectile>fx_obj_firestarter_grunt</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>1000</DamagePerSecond>
+        <Name>DAOTweapon</Name>
+    </Weapon>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>25</DamageRatio>
+                <Radius>16</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>12</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>8</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <ImpactEffect size="Large">FirestarterGrunt</ImpactEffect>
+        <Projectile>fx_obj_firestarter_grunt</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>1000</DamagePerSecond>
+        <Name>AirToAirMissileLauncher</Name>
+    </Weapon>
+</TacticData>

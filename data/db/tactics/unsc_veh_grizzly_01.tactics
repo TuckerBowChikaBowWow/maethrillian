@@ -1,0 +1,425 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>LeftMissilePodAttackAction</PersistentAction>
+        <PersistentAction>RightMissilePodAttackAction</PersistentAction>
+        <PersistentAction>CollisionAttack</PersistentAction>
+        <TargetRule>
+            <Action>UngarrisonTeleport</Action>
+            <TargetType>TeleportDropoff</TargetType>
+            <Relation>Self</Relation>
+            <Ability>Ungarrison</Ability>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>GarrisonTeleport</Action>
+            <TargetType>TeleportPickup</TargetType>
+            <Relation>Self</Relation>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>UngarrisonPelican</Action>
+            <TargetType>unsc_air_pelican_01</TargetType>
+            <Relation>Self</Relation>
+            <Ability>Ungarrison</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>UngarrisonPelican</Action>
+            <TargetType>transport</TargetType>
+            <Relation>Ally</Relation>
+            <Ability>Ungarrison</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>GarrisonPelican</Action>
+            <TargetType>transport</TargetType>
+            <Relation>Ally</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Normal</SquadMode>
+            <Action>specialAttackAction</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Normal</SquadMode>
+            <Action>LeftMissilePodAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Normal</SquadMode>
+            <Action>RightMissilePodAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Normal</SquadMode>
+            <Action>RightMachinegunAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>GatherCollectables</Action>
+            <TargetType>Collectable</TargetType>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <WorkRange>4</WorkRange>
+        <WorkRate>1</WorkRate>
+        <Resource>Collectable</Resource>
+        <Anim>Gather</Anim>
+        <ActionType>Gather</ActionType>
+        <Name>GatherCollectables</Name>
+    </Action>
+    <Action>
+        <WorkRange>0</WorkRange>
+        <Anim>TeleportIn</Anim>
+        <ActionType>Ungarrison</ActionType>
+        <Name>UngarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <WorkRange>9.225</WorkRange>
+        <Anim>TeleportOut</Anim>
+        <ActionType>Garrison</ActionType>
+        <Name>GarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <WorkRange>0</WorkRange>
+        <Anim>PelicanUngarrison</Anim>
+        <ActionType>Ungarrison</ActionType>
+        <Name>UngarrisonPelican</Name>
+    </Action>
+    <Action>
+        <WorkRange>3.075</WorkRange>
+        <ActionType>Garrison</ActionType>
+        <Name>Garrison</Name>
+    </Action>
+    <Action>
+        <WorkRange>8.610001</WorkRange>
+        <Anim>PelicanGarrison</Anim>
+        <ActionType>Garrison</ActionType>
+        <Name>GarrisonPelican</Name>
+    </Action>
+    <Action>
+        <ForceAttachmentAnim>
+        </ForceAttachmentAnim>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <Weapon>specialAttack</Weapon>
+        <Anim>SpecialCannonAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>specialAttackAction</Name>
+    </Action>
+    <Action>
+        <Strafing maxDistance="20" turnRate="90" trackingSpeed="40" jitter="20">
+        </Strafing>
+        <SlaveAttackAction>LeftMachinegunAttackAction</SlaveAttackAction>
+        <SlaveAttackAction>LeftCannonAttackAction</SlaveAttackAction>
+        <Weapon>RightMachinegun</Weapon>
+        <Anim SoundLoopStartEvent="PLAY_SFX_3D_WPN_UNSC_GrizzlyTurretLoop" SoundLoopEndEvent="STOP_SFX_3D_WPN_UNSC_GrizzlyTurretLoop">RightMachinegunAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>RightMachinegunAttackAction</Name>
+    </Action>
+    <Action>
+        <Strafing maxDistance="20" turnRate="90" trackingSpeed="40" jitter="20">
+        </Strafing>
+        <Weapon>LeftMachinegun</Weapon>
+        <Anim SoundLoopStartEvent="PLAY_SFX_3D_WPN_UNSC_GrizzlyTurretLoop" SoundLoopEndEvent="STOP_SFX_3D_WPN_UNSC_GrizzlyTurretLoop">LeftMachinegunAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>LeftMachinegunAttackAction</Name>
+    </Action>
+    <Action>
+        <CanOrientOwner>false</CanOrientOwner>
+        <DontCheckOrientTolerance>
+        </DontCheckOrientTolerance>
+        <Weapon>LeftMissilePod</Weapon>
+        <Anim>LeftMissileAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>LeftMissilePodAttackAction</Name>
+    </Action>
+    <Action>
+        <CanOrientOwner>false</CanOrientOwner>
+        <DontCheckOrientTolerance>
+        </DontCheckOrientTolerance>
+        <Weapon>RightMissilePod</Weapon>
+        <Anim>RightMissileAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>RightMissilePodAttackAction</Name>
+    </Action>
+    <Action>
+        <ForceAttachmentAnim>
+        </ForceAttachmentAnim>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>LeftCannon</Weapon>
+        <Anim>LeftCannonAttack</Anim>
+        <SlaveAttackAction>RightCannonAttackAction</SlaveAttackAction>
+        <ActionType>RangedAttack</ActionType>
+        <Name>LeftCannonAttackAction</Name>
+    </Action>
+    <Action>
+        <ForceAttachmentAnim>
+        </ForceAttachmentAnim>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>RightCannon</Weapon>
+        <Anim>RightCannonAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>RightCannonAttackAction</Name>
+    </Action>
+    <Weapon>
+        <Filter>Heavy</Filter>
+        <ProjectileLaunchDirY>
+        </ProjectileLaunchDirY>
+        <PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+        <PhysicsForceMax>600</PhysicsForceMax>
+        <PhysicsForceMin>400</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>12</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>6</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <ProximityFuse>0.5f</ProximityFuse>
+        <TargetOffsetZ>0.2f</TargetOffsetZ>
+        <TargetOffsetY>4.0f</TargetOffsetY>
+        <Hardpoint>Special</Hardpoint>
+        <AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+        <AccuracyDistanceFactor>1</AccuracyDistanceFactor>
+        <MovingMaxDeviation>10</MovingMaxDeviation>
+        <MovingAccuracy>0.01</MovingAccuracy>
+        <MaxDeviation>15</MaxDeviation>
+        <Accuracy>0.01</Accuracy>
+        <MaxRange>90</MaxRange>
+        <MinRange>3</MinRange>
+        <MaxVelocityLead>12.3</MaxVelocityLead>
+        <ImpactEffect size="Medium" alwaysHorizontal="true">UNSCAntiAirExplosion</ImpactEffect>
+        <Projectile>fx_proj_jerome_mech_missile_01</Projectile>
+        <WeaponType>Explosive</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>3350</DamagePerSecond>
+        <AttackRate>30</AttackRate>
+        <Name>specialAttack</Name>
+    </Weapon>
+    <Weapon>
+        <Filter>Heavy</Filter>
+        <PostAttackCooldownMax>2</PostAttackCooldownMax>
+        <PostAttackCooldownMin>2</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>1</PreAttackCooldownMin>
+        <WaitForParent>
+        </WaitForParent>
+        <TargetPriority type="Flying">-1</TargetPriority>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="Infantry">3</TargetPriority>
+        <TargetPriority type="TurretBuilding">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+        <PhysicsForceMax>1200</PhysicsForceMax>
+        <PhysicsForceMin>800</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <Hardpoint>RightCannon</Hardpoint>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4.92</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>7</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>5</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>60</MaxRange>
+        <MaxVelocityLead>12.3</MaxVelocityLead>
+        <ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>
+        <Projectile>fx_proj_cannon_03</Projectile>
+        <WeaponType>GrizzlyExplosive</WeaponType>
+        <DamagePerSecond>120</DamagePerSecond>
+        <AttackRate>3</AttackRate>
+        <Name>RightCannon</Name>
+    </Weapon>
+    <Weapon>
+        <PostAttackCooldownMax>2</PostAttackCooldownMax>
+        <PostAttackCooldownMin>2</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>1</PreAttackCooldownMin>
+        <Filter>Heavy</Filter>
+        <SlaveAttackDelay>1</SlaveAttackDelay>
+        <TargetPriority type="Flying">-1</TargetPriority>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="Infantry">3</TargetPriority>
+        <TargetPriority type="TurretBuilding">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+        <PhysicsForceMax>1200</PhysicsForceMax>
+        <PhysicsForceMin>800</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <Hardpoint>LeftCannon</Hardpoint>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4.92</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>7</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>5</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>60</MaxRange>
+        <MaxVelocityLead>12.3</MaxVelocityLead>
+        <ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>
+        <Projectile>fx_proj_cannon_03</Projectile>
+        <WeaponType>GrizzlyExplosive</WeaponType>
+        <DamagePerSecond>120</DamagePerSecond>
+        <AttackRate>3</AttackRate>
+        <Name>LeftCannon</Name>
+    </Weapon>
+    <Weapon>
+        <Filter>Heavy</Filter>
+        <PostAttackCooldownMax>3.5</PostAttackCooldownMax>
+        <PostAttackCooldownMin>2</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>RightMissilePod</Hardpoint>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="Infantry">4</TargetPriority>
+        <TargetPriority type="GroundVehicle">7</TargetPriority>
+        <TargetPriority type="Flying">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>6</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>4</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>70</MaxRange>
+        <MaxVelocityLead>9.225</MaxVelocityLead>
+        <ImpactEffect size="Medium">GrizzileExplosion</ImpactEffect>
+        <Projectile>fx_proj_grizzile_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>45</DamagePerSecond>
+        <AttackRate>0.25</AttackRate>
+        <Name>RightMissilePod</Name>
+    </Weapon>
+    <Weapon>
+        <Filter>Heavy</Filter>
+        <PostAttackCooldownMax>3.5</PostAttackCooldownMax>
+        <PostAttackCooldownMin>2</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>LeftMissilePod</Hardpoint>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="Infantry">4</TargetPriority>
+        <TargetPriority type="GroundVehicle">7</TargetPriority>
+        <TargetPriority type="Flying">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>6</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>4</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>70</MaxRange>
+        <MaxVelocityLead>9.225</MaxVelocityLead>
+        <ImpactEffect size="Medium">GrizzileExplosion</ImpactEffect>
+        <Projectile>fx_proj_grizzile_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>45</DamagePerSecond>
+        <AttackRate>0.25</AttackRate>
+        <Name>LeftMissilePod</Name>
+    </Weapon>
+    <Weapon>
+        <Filter>Heavy</Filter>
+        <PostAttackCooldownMax>2</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>RightMG</Hardpoint>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">4</TargetPriority>
+        <TargetPriority type="Flying">5</TargetPriority>
+        <TargetPriority type="Infantry">7</TargetPriority>
+        <TargetPriority type="GroundVehicle">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>6</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>4</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>60</MaxRange>
+        <MaxVelocityLead>9.225</MaxVelocityLead>
+        <ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_machineGun_01</Projectile>
+        <WeaponType>SmallArms</WeaponType>
+        <DamagePerSecond>80</DamagePerSecond>
+        <AttackRate>0.25</AttackRate>
+        <Name>RightMachinegun</Name>
+    </Weapon>
+    <Weapon>
+        <Filter>Heavy</Filter>
+        <PostAttackCooldownMax>2</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>LeftMG</Hardpoint>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">4</TargetPriority>
+        <TargetPriority type="Flying">5</TargetPriority>
+        <TargetPriority type="Infantry">7</TargetPriority>
+        <TargetPriority type="GroundVehicle">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>6</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>4</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>60</MaxRange>
+        <MaxVelocityLead>9.225</MaxVelocityLead>
+        <ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+        <Projectile>fx_proj_machineGun_01</Projectile>
+        <WeaponType>SmallArms</WeaponType>
+        <DamagePerSecond>80</DamagePerSecond>
+        <AttackRate>0.25</AttackRate>
+        <Name>LeftMachinegun</Name>
+    </Weapon>
+</TacticData>

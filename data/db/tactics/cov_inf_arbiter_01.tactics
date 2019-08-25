@@ -1,0 +1,586 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>UngarrisonTeleport</Action>
+            <TargetType>TeleportDropoff</TargetType>
+            <Relation>Self</Relation>
+            <Ability>Ungarrison</Ability>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>GarrisonTeleport</Action>
+            <TargetType>TeleportPickup</TargetType>
+            <Relation>Self</Relation>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>UngarrisonSpirit</Action>
+            <TargetType>transport</TargetType>
+            <Relation>Ally</Relation>
+            <Ability>Ungarrison</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>GarrisonSpirit</Action>
+            <TargetType>transport</TargetType>
+            <Relation>Ally</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>UngarrisonHotDrop</Action>
+            <TargetType>HotDropPickup</TargetType>
+            <Relation>Self</Relation>
+            <Ability>Ungarrison</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>GarrisonHotDrop</Action>
+            <TargetType>HotDropPickup</TargetType>
+            <Relation>Self</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>GatherPower</Action>
+            <TargetType>Resource_Power</TargetType>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>GatherSupplies</Action>
+            <TargetType>Resource_Supplies</TargetType>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>Garrison</Action>
+            <TargetType>GaiaGarrison</TargetType>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>Garrison</Action>
+            <TargetType>Garrison</TargetType>
+            <Relation>Ally</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Rage</SquadMode>
+            <Action>RageSwordBuildingLifeStealAttackAction</Action>
+            <TargetType>Building</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Rage</SquadMode>
+            <Action>RageSwordBuildingLifeStealAttackAction</Action>
+            <TargetType>TurretBuilding</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Rage</SquadMode>
+            <Action>RageSwordAirLifeStealAttackAction</Action>
+            <TargetType>Flying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Rage</SquadMode>
+            <Action>RageSwordLifeStealAttackAction</Action>
+            <TargetType>GroundVehicle</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Rage</SquadMode>
+            <Action>RageSwordLifeStealAttackAction</Action>
+            <TargetType>Infantry</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Rage</SquadMode>
+            <Action>RageSwordBuildingAttackAction</Action>
+            <TargetType>Building</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Rage</SquadMode>
+            <Action>RageSwordBuildingAttackAction</Action>
+            <TargetType>TurretBuilding</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Rage</SquadMode>
+            <Action>RageSwordAirAttackAction</Action>
+            <TargetType>Flying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Rage</SquadMode>
+            <Action>RageSwordAttackAction</Action>
+            <TargetType>GroundVehicle</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Rage</SquadMode>
+            <Action>RageSwordAttackAction</Action>
+            <TargetType>Infantry</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Normal</SquadMode>
+            <Action>SwordAttackAction</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>Capture</Action>
+            <TargetState>Capturable</TargetState>
+            <TargetType>CapturePoint</TargetType>
+            <Relation>Neutral</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>Capture</Action>
+            <TargetState>Capturable</TargetState>
+            <TargetType>CapturePoint</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>Capture</Action>
+            <TargetState>Capturable</TargetState>
+            <TargetType>CapturePoint</TargetType>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>GatherCollectables</Action>
+            <TargetType>Collectable</TargetType>
+            <GaiaOwned>
+            </GaiaOwned>
+        </TargetRule>
+        <TargetRule>
+            <Action>RageStateCreate</Action>
+            <Relation>Enemy</Relation>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>RageStateCreate</Action>
+            <Relation>Self</Relation>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>RageStateCreate</Action>
+            <TargetsGround>
+            </TargetsGround>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <PersistentSquadAction>FiendishReturn</PersistentSquadAction>
+        <PersistentAction>RageBuff</PersistentAction>
+        <PersistentAction>ShieldAction</PersistentAction>
+    </Tactic>
+    <Action>
+        <ProtoObject>cov_locustshield</ProtoObject>
+        <ActionType>EnergyShield</ActionType>
+        <Name>ShieldAction</Name>
+    </Action>
+    <Action>
+        <WorkRange>4</WorkRange>
+        <WorkRate>1</WorkRate>
+        <Resource>Collectable</Resource>
+        <Anim>Gather</Anim>
+        <ActionType>Gather</ActionType>
+        <Name>GatherCollectables</Name>
+    </Action>
+    <Action>
+        <WorkRange>0</WorkRange>
+        <Anim>TeleportIn</Anim>
+        <ActionType>Ungarrison</ActionType>
+        <Name>UngarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <WorkRange>15</WorkRange>
+        <Anim>TeleportOut</Anim>
+        <ActionType>Garrison</ActionType>
+        <Name>GarrisonTeleport</Name>
+    </Action>
+    <Action>
+        <WorkRange>0</WorkRange>
+        <Anim>HotDropDown</Anim>
+        <ActionType>Ungarrison</ActionType>
+        <Name>UngarrisonHotDrop</Name>
+    </Action>
+    <Action>
+        <WorkRange>15</WorkRange>
+        <Anim>HotDropUp</Anim>
+        <ActionType>Garrison</ActionType>
+        <Name>GarrisonHotDrop</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <WorkRate>0.09000000000000001</WorkRate>
+        <ActionType>ReflectDamage</ActionType>
+        <Name>FiendishReturn</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <AffectsOnlySelf>
+        </AffectsOnlySelf>
+        <ProtoObject>vfx_dlc2_units_arbiterreflect</ProtoObject>
+        <SpecificData>
+            <PauseWhenGarrisonedAndInvulnerable>
+            </PauseWhenGarrisonedAndInvulnerable>
+            <Relations>
+                <Relation>Self</Relation>
+            </Relations>
+            <TargetTypes>
+                <Type>NonFlying</Type>
+            </TargetTypes>
+            <BuffParams BuffType="AdvancedOptics" MaximumVelocity="1">0.3f</BuffParams>
+        </SpecificData>
+        <WorkRange>0</WorkRange>
+        <Duration>1</Duration>
+        <ActionType>AreaBuff</ActionType>
+        <Name>RageBuff</Name>
+    </Action>
+    <Action>
+        <WorkRange>0</WorkRange>
+        <Anim>HotDropDown</Anim>
+        <ActionType>Ungarrison</ActionType>
+        <Name>UngarrisonSpirit</Name>
+    </Action>
+    <Action>
+        <WorkRange>13</WorkRange>
+        <Anim>HotDropUp</Anim>
+        <ActionType>Garrison</ActionType>
+        <Name>GarrisonSpirit</Name>
+    </Action>
+    <Action>
+        <WorkRange>5</WorkRange>
+        <ActionType>Garrison</ActionType>
+        <Name>Garrison</Name>
+    </Action>
+    <Action>
+        <WorkRange>4</WorkRange>
+        <DecaptureRate>0.9</DecaptureRate>
+        <CaptureRate>0.6</CaptureRate>
+        <Anim>Capture</Anim>
+        <ActionType>Capture</ActionType>
+        <Name>Capture</Name>
+    </Action>
+    <Action>
+        <RestrictedAutoTarget>true</RestrictedAutoTarget>
+        <WorkRange>4</WorkRange>
+        <WorkRate>2</WorkRate>
+        <Resource>Power</Resource>
+        <Anim>Gather</Anim>
+        <ActionType>Gather</ActionType>
+        <Name>GatherPower</Name>
+    </Action>
+    <Action>
+        <RestrictedAutoTarget>true</RestrictedAutoTarget>
+        <WorkRange>4</WorkRange>
+        <WorkRate>2</WorkRate>
+        <Resource>Supplies</Resource>
+        <Anim>Gather</Anim>
+        <ActionType>Gather</ActionType>
+        <Name>GatherSupplies</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <SquadMode>Rage</SquadMode>
+        <Strafing turnRate="180" trackingSpeed="60">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>RageSwordBuildingLifeSteal</Weapon>
+        <Anim noInterrupt="true">RageAttack</Anim>
+        <ActionType>HandAttack</ActionType>
+        <Name>RageSwordBuildingLifeStealAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <SquadMode>Rage</SquadMode>
+        <Strafing turnRate="180" trackingSpeed="60">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>RageSwordAirLifesteal</Weapon>
+        <Anim>AirAttack</Anim>
+        <ActionType>HandAttack</ActionType>
+        <Name>RageSwordAirLifeStealAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <SquadMode>Rage</SquadMode>
+        <Strafing turnRate="180" trackingSpeed="60">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>RageSwordLifeSteal</Weapon>
+        <Anim noInterrupt="true">RageAttack</Anim>
+        <ActionType>HandAttack</ActionType>
+        <Name>RageSwordLifeStealAttackAction</Name>
+    </Action>
+    <Action>
+        <SquadMode>Rage</SquadMode>
+        <Strafing turnRate="180" trackingSpeed="60">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>RageSwordBuilding</Weapon>
+        <Anim noInterrupt="true">RageAttack</Anim>
+        <ActionType>HandAttack</ActionType>
+        <Name>RageSwordBuildingAttackAction</Name>
+    </Action>
+    <Action>
+        <SquadMode>Rage</SquadMode>
+        <Strafing turnRate="180" trackingSpeed="60">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>RageSwordAir</Weapon>
+        <Anim>AirAttack</Anim>
+        <ActionType>HandAttack</ActionType>
+        <Name>RageSwordAirAttackAction</Name>
+    </Action>
+    <Action>
+        <SquadMode>Rage</SquadMode>
+        <Strafing turnRate="180" trackingSpeed="60">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>RageSword</Weapon>
+        <Anim noInterrupt="true">RageAttack</Anim>
+        <ActionType>HandAttack</ActionType>
+        <Name>RageSwordAttackAction</Name>
+    </Action>
+    <Action>
+        <SquadMode>Normal</SquadMode>
+        <Strafing turnRate="180" trackingSpeed="60">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>Sword</Weapon>
+        <Anim noInterrupt="true">Attack</Anim>
+        <ActionType>HandAttack</ActionType>
+        <Name>SwordAttackAction</Name>
+    </Action>
+    <Action>
+        <SquadMode>Rage</SquadMode>
+        <ActionType>ChangeMode</ActionType>
+        <Name>RageStateCreate</Name>
+    </Action>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>1</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <LifeStealRatio shield="false">0.4</LifeStealRatio>
+        <PostAttackCooldownMax>0.1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Filter>Medium</Filter>
+        <TargetPriority type="Flying">1</TargetPriority>
+        <TargetPriority type="Building">2</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">6</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PhysicsForceMax>800</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MaxRange>2.5</MaxRange>
+        <WeaponType>HeroMelee</WeaponType>
+        <DamagePerSecond>1100</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>RageSwordBuildingLifeSteal</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.4</LifeStealRatio>
+        <PostAttackCooldownMax>0.1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Filter>Medium</Filter>
+        <TargetPriority type="Flying">1</TargetPriority>
+        <TargetPriority type="Building">2</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">6</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PhysicsForceMax>800</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MaxRange>2</MaxRange>
+        <WeaponType>HeroMelee</WeaponType>
+        <DamagePerSecond>800</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>RageSwordAirLifesteal</Name>
+    </Weapon>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>2</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <LifeStealRatio shield="false">0.4</LifeStealRatio>
+        <PostAttackCooldownMax>0.1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Filter>Medium</Filter>
+        <TargetPriority type="Flying">1</TargetPriority>
+        <TargetPriority type="Building">2</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">6</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PhysicsForceMax>800</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MaxRange>2.5</MaxRange>
+        <WeaponType>HeroMelee</WeaponType>
+        <DamagePerSecond>800</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>RageSwordLifeSteal</Name>
+    </Weapon>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>1</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <PostAttackCooldownMax>0.1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Filter>Medium</Filter>
+        <TargetPriority type="Flying">1</TargetPriority>
+        <TargetPriority type="Building">2</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">6</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PhysicsForceMax>800</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MaxRange>2.5</MaxRange>
+        <WeaponType>HeroMelee</WeaponType>
+        <DamagePerSecond>1100</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>RageSwordBuilding</Name>
+    </Weapon>
+    <Weapon>
+        <PostAttackCooldownMax>0.1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Filter>Medium</Filter>
+        <TargetPriority type="Flying">1</TargetPriority>
+        <TargetPriority type="Building">2</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">6</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PhysicsForceMax>800</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MaxRange>2</MaxRange>
+        <WeaponType>HeroMelee</WeaponType>
+        <DamagePerSecond>800</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>RageSwordAir</Name>
+    </Weapon>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>2</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <PostAttackCooldownMax>0.1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Filter>Medium</Filter>
+        <TargetPriority type="Flying">1</TargetPriority>
+        <TargetPriority type="Building">2</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">6</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PhysicsForceMax>800</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MaxRange>2.5</MaxRange>
+        <WeaponType>HeroMelee</WeaponType>
+        <DamagePerSecond>800</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>RageSword</Name>
+    </Weapon>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>2</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <PostAttackCooldownMax>0.1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Filter>Medium</Filter>
+        <TargetPriority type="Building">2</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">6</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <PhysicsForceMax>800</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MaxRange>2.5</MaxRange>
+        <WeaponType>HeroMelee</WeaponType>
+        <DamagePerSecond>580</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>Sword</Name>
+    </Weapon>
+</TacticData>

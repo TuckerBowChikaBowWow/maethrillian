@@ -1,0 +1,19 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>AirTrafficControl</PersistentAction>
+    </Tactic>
+    <Action>
+        <AllowDuplicate>
+        </AllowDuplicate>
+        <DeliveryDelay>0</DeliveryDelay>
+        <DeliveryType>Building</DeliveryType>
+        <Hardpoint2>Building</Hardpoint2>
+        <Hardpoint>Pelican</Hardpoint>
+        <ActionType>AnimDeliver</ActionType>
+        <Name>DeliverBuilding</Name>
+    </Action>
+    <Action>
+        <ActionType>AirTrafficControl</ActionType>
+        <Name>AirTrafficControl</Name>
+    </Action>
+</TacticData>

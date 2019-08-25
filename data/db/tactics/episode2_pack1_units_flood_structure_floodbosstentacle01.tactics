@@ -1,0 +1,72 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <ForceFilterTargetTypeDuringTargetsGround>
+            </ForceFilterTargetTypeDuringTargetsGround>
+            <IgnoreOtherTargetsWhileTargetingGround>
+            </IgnoreOtherTargetsWhileTargetingGround>
+            <TargetsGround>
+            </TargetsGround>
+            <Action>SlamAttackAction</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+    </Tactic>
+    <Action>
+        <ForceAttachmentAnim>
+        </ForceAttachmentAnim>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <Weapon>SlamWeapon</Weapon>
+        <Anim noInterrupt="true">SlamAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>SlamAttackAction</Name>
+    </Action>
+    <Weapon>
+        <AlwaysReplaceTargetWithItsPosition>
+        </AlwaysReplaceTargetWithItsPosition>
+        <PhysicsForceMax>200</PhysicsForceMax>
+        <PhysicsForceMin>100</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Width>15</Width>
+                <Length>50</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+        </AOEData>
+        <PostAttackCooldownMax>0.6</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.2</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <TargetPriority type="Flying">-1</TargetPriority>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">1</TargetPriority>
+        <TargetPriority type="GroundVehicle">3</TargetPriority>
+        <TargetPriority type="Infantry">3</TargetPriority>
+        <Hardpoint>FloodBossTentacle</Hardpoint>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>1.5</MovingMaxDeviation>
+        <MovingAccuracy>0</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>0.1</Accuracy>
+        <MaxRange>45</MaxRange>
+        <MaxVelocityLead>18.45</MaxVelocityLead>
+        <Projectile>fx_proj_bruteshockdummy_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>1500</DamagePerSecond>
+        <AttackRate>6.5</AttackRate>
+        <Name>SlamWeapon</Name>
+    </Weapon>
+</TacticData>

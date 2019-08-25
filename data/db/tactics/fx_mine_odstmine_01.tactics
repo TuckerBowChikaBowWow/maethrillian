@@ -1,0 +1,41 @@
+<TacticData>
+    <Tactic>
+        <PersistentAction>ExplosiveManager</PersistentAction>
+    </Tactic>
+    <Action>
+        <Weapon>ODSTMine</Weapon>
+        <ChargeType>Shrapnel</ChargeType>
+        <WorkRange>7</WorkRange>
+        <FuseType>Proximity</FuseType>
+        <ActionType>ExplosiveManager</ActionType>
+        <Name>ExplosiveManager</Name>
+    </Action>
+    <Action>
+        <RechargeDelay>3</RechargeDelay>
+        <StealthType>Cloak</StealthType>
+        <ActionType>StealthManager</ActionType>
+        <Name>StealthManager</Name>
+    </Action>
+    <Weapon>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>14</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <Apply>4</Apply>
+        <Daze TargetType="NonFlying" MovementModifier="0.4" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
+        <Slow TargetType="NonFlying" MovementModifier="0.4" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Slow>
+        <ImpactEffect size="Medium">ODSTMineExplosion</ImpactEffect>
+        <WeaponType>Demolition</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>2800</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>ODSTMine</Name>
+    </Weapon>
+</TacticData>

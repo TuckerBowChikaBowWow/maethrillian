@@ -1,0 +1,61 @@
+<TacticData>
+    <Tactic>
+        <TargetRule>
+            <Action>ForerunnerBeamAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>ForerunnerBeamAttackAction</Action>
+            <TargetType>UberUnit</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <PersistentAction>ShieldAction</PersistentAction>
+    </Tactic>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <ProtoObject>cov_wraithshield</ProtoObject>
+        <ActionType>EnergyShield</ActionType>
+        <Name>ShieldAction</Name>
+    </Action>
+    <Action>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20">
+        </Strafing>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <Weapon>ForerunnerBeam</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>ForerunnerBeamAttackAction</Name>
+    </Action>
+    <Weapon>
+        <PostAttackCooldownMax>1.4000000000000001</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1.1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.3</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>Turret</Hardpoint>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="Infantry">10</TargetPriority>
+        <TargetPriority type="Aircraft">8</TargetPriority>
+        <TargetPriority type="GroundVehicle">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>4.5</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>3</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>18.45</MaxVelocityLead>
+        <ImpactEffect size="Medium">RetreiverSmallLaserBeam</ImpactEffect>
+        <Projectile>fx_proj_retrieversmallbeam_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>200</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>ForerunnerBeam</Name>
+    </Weapon>
+</TacticData>

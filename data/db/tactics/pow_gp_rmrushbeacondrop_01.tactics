@@ -1,0 +1,33 @@
+<TacticData>
+    <Tactic>
+    </Tactic>
+    <Action>
+        <ProjectileInvokePower>RM_Unbrk_LichAssault</ProjectileInvokePower>
+        <Weapon>OrbitalBombardment</Weapon>
+        <Name>OrbitalBombardmentAttackAction</Name>
+        <Default>true</Default>
+    </Action>
+    <Weapon>
+        <WeaponType>LeaderPower</WeaponType>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>10</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
+        <ImpactEffect size="Medium">ODSTUnitPod</ImpactEffect>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="0.6" yawpitchstrength="1.5" rollstrength="1" rotationfrequency="18" translationstrength="0" translationfrequency="6">
+        </ImpactAdvancedCameraShake>
+        <Projectile>pow_gp_rmrushbeacondrop_01</Projectile>
+        <WeaponType>leaderpower</WeaponType>
+        <DamagePerSecond>400</DamagePerSecond>
+        <Name>OrbitalBombardment</Name>
+    </Weapon>
+</TacticData>
