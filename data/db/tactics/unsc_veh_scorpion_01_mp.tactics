@@ -279,15 +279,15 @@
         <ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>
         <Projectile>fx_proj_cannon_03</Projectile>
         <WeaponType>ScorpionExplosive</WeaponType>
-        <DamagePerSecond>200</DamagePerSecond>
+        <DamagePerSecond>300</DamagePerSecond>
         <AttackRate>3</AttackRate>
         <Name>Cannon</Name>
     </Weapon>
     <Weapon>
         <Filter>Heavy</Filter>
-        <PostAttackCooldownMax>2</PostAttackCooldownMax>
-        <PostAttackCooldownMin>1.2</PostAttackCooldownMin>
-        <PreAttackCooldownMax>0.4</PreAttackCooldownMax>
+        <PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1.5</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0</PreAttackCooldownMax>
         <PreAttackCooldownMin>0</PreAttackCooldownMin>
         <Hardpoint>MGTurret</Hardpoint>
         <TargetPriority type="Building">3</TargetPriority>
