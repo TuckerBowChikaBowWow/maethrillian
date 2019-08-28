@@ -267,9 +267,9 @@
         <Name>SprintSuicideBomb</Name>
     </Action>
     <Weapon>
-        <PostAttackCooldownMax>1.4000000000000001</PostAttackCooldownMax>
-        <PostAttackCooldownMin>0.9</PostAttackCooldownMin>
-        <PreAttackCooldownMax>0.3</PreAttackCooldownMax>
+        <PostAttackCooldownMax>1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0</PreAttackCooldownMax>
         <PreAttackCooldownMin>0</PreAttackCooldownMin>
         <TargetPriority type="Building">1</TargetPriority>
         <TargetPriority type="TurretBuilding">3</TargetPriority>
@@ -280,12 +280,12 @@
         <Hardpoint>Torso</Hardpoint>
         <Corruption overlap="0.3f">
         </Corruption>
-        <AOERadius>5</AOERadius>
+        <AOERadius>8</AOERadius>
         <AOEData>
             <Hitbox>
                 <FriendlyFire>false</FriendlyFire>
                 <Origin>Target</Origin>
-                <DamageRatio>55</DamageRatio>
+                <DamageRatio>50</DamageRatio>
                 <Radius>8</Radius>
                 <Type>Circle</Type>
             </Hitbox>
@@ -317,16 +317,16 @@
         <ImpactEffect doShockwaveAction="true">CorruptionSmallExp</ImpactEffect>
         <Projectile>fx_proj_bruteshot_corrupted_mp</Projectile>
         <WeaponType>CorruptedGrenadier</WeaponType>
-        <DamagePerSecond>42</DamagePerSecond>
+        <DamagePerSecond>55</DamagePerSecond>
         <Corruption>
         </Corruption>
         <AttackRate>4</AttackRate>
         <Name>AOEBrutegun3</Name>
     </Weapon>
     <Weapon>
-        <PostAttackCooldownMax>1.4000000000000001</PostAttackCooldownMax>
-        <PostAttackCooldownMin>0.9</PostAttackCooldownMin>
-        <PreAttackCooldownMax>0.3</PreAttackCooldownMax>
+        <PostAttackCooldownMax>5</PostAttackCooldownMax>
+        <PostAttackCooldownMin>5</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0</PreAttackCooldownMax>
         <PreAttackCooldownMin>0</PreAttackCooldownMin>
         <TargetPriority type="Building">1</TargetPriority>
         <TargetPriority type="TurretBuilding">3</TargetPriority>
@@ -369,14 +369,14 @@
         <ImpactEffect size="small">BruteGrenadierImpact2</ImpactEffect>
         <Projectile>fx_proj_brutegrenadier_02</Projectile>
         <WeaponType>CorruptedGrenadier</WeaponType>
-        <DamagePerSecond>35</DamagePerSecond>
+        <DamagePerSecond>45</DamagePerSecond>
         <AttackRate>4</AttackRate>
         <Name>AOEBrutegun2</Name>
     </Weapon>
     <Weapon>
-        <PostAttackCooldownMax>1.4000000000000001</PostAttackCooldownMax>
-        <PostAttackCooldownMin>0.9</PostAttackCooldownMin>
-        <PreAttackCooldownMax>0.3</PreAttackCooldownMax>
+        <PostAttackCooldownMax>1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0</PreAttackCooldownMax>
         <PreAttackCooldownMin>0</PreAttackCooldownMin>
         <TargetPriority type="Building">1</TargetPriority>
         <TargetPriority type="TurretBuilding">1</TargetPriority>
@@ -389,7 +389,7 @@
             <Hitbox>
                 <FriendlyFire>false</FriendlyFire>
                 <Origin>Target</Origin>
-                <DamageRatio>45</DamageRatio>
+                <DamageRatio>50</DamageRatio>
                 <Radius>8</Radius>
                 <Type>Circle</Type>
             </Hitbox>
@@ -419,7 +419,7 @@
         <ImpactEffect size="small">BruteGrenadierImpact</ImpactEffect>
         <Projectile>fx_proj_brutegrenadier_01</Projectile>
         <WeaponType>CorruptedGrenadier</WeaponType>
-        <DamagePerSecond>28</DamagePerSecond>
+        <DamagePerSecond>35</DamagePerSecond>
         <AttackRate>4</AttackRate>
         <Name>AOEBrutegun</Name>
     </Weapon>
