@@ -66,6 +66,23 @@
             <Relation>Enemy</Relation>
             <Ability>Command</Ability>
         </TargetRule>
+         <TargetRule>
+            <AutoTargetSquadMode>Normal</AutoTargetSquadMode>
+            <Action>ExplosivePlasmaCannonRightSiphonAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <AutoTargetSquadMode>Normal</AutoTargetSquadMode>
+            <Action>PlasmaCannonRightSiphonAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>RamAttackSiphon</Action>
+            <TargetType>Infantry</TargetType>
+            <TargetType>GroundVehicle</TargetType>
+            <Relation>Enemy</Relation>
+            <Ability>Command</Ability>
+        </TargetRule>
         <TargetRule>
             <Action>GatherCollectables</Action>
             <TargetType>Collectable</TargetType>
@@ -181,6 +198,47 @@
         <Anim>Attack_Left</Anim>
         <ActionType>RangedAttack</ActionType>
         <Name>PlasmaCannonLeftAttackAction</Name>
+    </Action>
+     <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <Weapon>RamSiphon</Weapon>
+        <ActionType>RangedAttack</ActionType>
+        <Name>RamAttackSiphon</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <SlaveAttackAction>ExplosivePlasmaCannonLeftSiphonAttackAction</SlaveAttackAction>
+        <Weapon>ExplosivePlasmaCannonRightSiphon</Weapon>
+        <Anim>Exp_Attack_Right</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>ExplosivePlasmaCannonRightSiphonAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <Weapon>ExplosivePlasmaCannonLeftSiphon</Weapon>
+        <Anim>Exp_Attack_Left</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>ExplosivePlasmaCannonLeftSiphonAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <SlaveAttackAction>PlasmaCannonLeftSiphonAttackAction</SlaveAttackAction>
+        <Weapon>PlasmaCannonRightSiphon</Weapon>
+        <Anim>Attack_Right</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>PlasmaCannonRightSiphonAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <Weapon>PlasmaCannonLeftSiphon</Weapon>
+        <Anim>Attack_Left</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>PlasmaCannonLeftSiphonAttackAction</Name>
     </Action>
     <Weapon>
         <Filter>Medium</Filter>
@@ -378,5 +436,185 @@
         <DamagePerSecond>55</DamagePerSecond>
         <AttackRate>0.5</AttackRate>
         <Name>PlasmaCannonLeft</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <MaxInfantrySquadsPerRam>6</MaxInfantrySquadsPerRam>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>25</DamageRatio>
+                <Radius>10</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <Filter>Medium</Filter>
+        <ReflectDamageFactor>1</ReflectDamageFactor>
+        <MaxDamagePerRam>2000</MaxDamagePerRam>
+        <Slow TargetType="NonFlying" MovementModifier="0.4" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="0.7000000000000001" yawpitchstrength="3.5" rollstrength="1.5" rotationfrequency="5" translationstrength="0" translationfrequency="6">
+        </ImpactAdvancedCameraShake>
+        <ImpactEffect size="medium">RamImpact</ImpactEffect>
+        <PhysicsForceMax>1400</PhysicsForceMax>
+        <PhysicsForceMin>1000</PhysicsForceMin>
+        <PhysicsLaunchAxial>
+        </PhysicsLaunchAxial>
+        <PhysicsLaunchAngleMax>30</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <FlailThrownUnits>
+        </FlailThrownUnits>
+        <ThrowUnits>
+        </ThrowUnits>
+        <DamagePerSecond>650</DamagePerSecond>
+        <WeaponType>WarthogRam</WeaponType>
+        <Name>RamSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <PostAttackCooldownMax>0.5</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.3</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0.3</PreAttackCooldownMin>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="GroundVehicle">3</TargetPriority>
+        <TargetPriority type="Aircraft">5</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>75</DamageRatio>
+                <Radius>6</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>2</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>0.1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <Hardpoint>PlasmaTurretRight</Hardpoint>
+        <MaxRange>35</MaxRange>
+        <MaxVelocityLead>40</MaxVelocityLead>
+        <ImpactEffect size="Medium">ExplosiveSpikeImpact</ImpactEffect>
+        <Projectile>fx_proj_bruteGun_02</Projectile>
+        <WeaponType>SmallArmsScouts</WeaponType>
+        <DamagePerSecond>65</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>ExplosivePlasmaCannonRightSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <PostAttackCooldownMax>0.5</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.3</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0.3</PreAttackCooldownMin>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="GroundVehicle">3</TargetPriority>
+        <TargetPriority type="Aircraft">5</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>75</DamageRatio>
+                <Radius>6</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>2</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>0.1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <Hardpoint>PlasmaTurretLeft</Hardpoint>
+        <MaxRange>35</MaxRange>
+        <MaxVelocityLead>40</MaxVelocityLead>
+        <ImpactEffect size="Medium">ExplosiveSpikeImpact</ImpactEffect>
+        <Projectile>fx_proj_bruteGun_02</Projectile>
+        <WeaponType>SmallArmsScouts</WeaponType>
+        <DamagePerSecond>65</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>ExplosivePlasmaCannonLeftSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <PostAttackCooldownMax>0.5</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.3</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0.3</PreAttackCooldownMin>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="GroundVehicle">3</TargetPriority>
+        <TargetPriority type="Aircraft">5</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <Hardpoint>PlasmaTurretRight</Hardpoint>
+        <MaxRange>35</MaxRange>
+        <MaxVelocityLead>40</MaxVelocityLead>
+        <ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
+        <Projectile>fx_proj_bruteGun_01</Projectile>
+        <WeaponType>SmallArmsScouts</WeaponType>
+        <DamagePerSecond>55</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>PlasmaCannonRightSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <PostAttackCooldownMax>0.5</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.3</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0.3</PreAttackCooldownMin>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="GroundVehicle">3</TargetPriority>
+        <TargetPriority type="Aircraft">5</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <Hardpoint>PlasmaTurretLeft</Hardpoint>
+        <MaxRange>35</MaxRange>
+        <MaxVelocityLead>40</MaxVelocityLead>
+        <ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
+        <Projectile>fx_proj_bruteGun_01</Projectile>
+        <WeaponType>SmallArmsScouts</WeaponType>
+        <DamagePerSecond>55</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>PlasmaCannonLeftSiphon</Name>
     </Weapon>
 </TacticData>

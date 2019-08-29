@@ -1,6 +1,7 @@
 <TacticData>
     <Tactic>
         <PersistentAction>PlasmaTorpedoAttackAction</PersistentAction>
+        <PersistentAction>PlasmaTorpedoSiphonAttackAction</PersistentAction>
         <TargetRule>
             <Action>UngarrisonTeleport</Action>
             <TargetType>TeleportDropoff</TargetType>
@@ -36,6 +37,15 @@
             <Action>PlasmaCannonAttackAction</Action>
             <Relation>Enemy</Relation>
         </TargetRule>
+        <TargetRule>
+            <Action>PlasmaTorpedoSiphonAttackAction</Action>
+            <Relation>Enemy</Relation>
+            <TargetType>Flying</TargetType>
+        </TargetRule>
+        <TargetRule>
+            <Action>PlasmaCannonSiphonAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
     </Tactic>
     <Action>
         <WorkRange>0</WorkRange>
@@ -60,6 +70,35 @@
         <Anim>HotDropUp</Anim>
         <ActionType>Garrison</ActionType>
         <Name>GarrisonHotDrop</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <Weapon>PlasmaTorpedoSiphon</Weapon>
+        <Anim>PlasmaTorpedoAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>PlasmaTorpedoSiphonAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <SlaveAttackAction>FuelRodCannonAttackAction</SlaveAttackAction>
+        <Weapon>PlasmaCannonSiphon</Weapon>
+        <Anim SoundLoopStartEvent="PLAY_SFX_3D_WPN_BAN_BansheePlasmaLoop" SoundLoopEndEvent="STOP_SFX_3D_WPN_BAN_BansheePlasmaLoop">PlasmaCannonAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>PlasmaCannonSiphonAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <ForceAttachmentAnim>
+        </ForceAttachmentAnim>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>FuelRodCannonSiphon</Weapon>
+        <Anim>FuelRodAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>FuelRodCannonSiphonAttackAction</Name>
     </Action>
     <Action>
         <StartDisabled>
@@ -174,5 +213,77 @@
         <DamagePerSecond>120</DamagePerSecond>
         <AttackRate>0.5</AttackRate>
         <Name>PlasmaCannon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <PostAttackCooldownMax>1.2</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1.2</PreAttackCooldownMax>
+        <PreAttackCooldownMin>1</PreAttackCooldownMin>
+        <TargetPriority type="Unit">1</TargetPriority>
+        <Filter>Medium</Filter>
+        <CausePhysicsExplosion particle="Null" victimType="GroundVehicle">
+        </CausePhysicsExplosion>
+        <PhysicsForceMax>600</PhysicsForceMax>
+        <PhysicsForceMin>400</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>6</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>4</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>50</MaxRange>
+        <MaxVelocityLead>20</MaxVelocityLead>
+        <Hardpoint>FuelRodCannon</Hardpoint>
+        <ImpactEffect size="Medium">FuelRodCannonAirImpact</ImpactEffect>
+        <Projectile>fx_proj_fuelRod_01</Projectile>
+        <WeaponType>BansheeFuelRod</WeaponType>
+        <DamagePerSecond>45</DamagePerSecond>
+        <AttackRate>4</AttackRate>
+        <Name>FuelRodCannonSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <PostAttackCooldownMax>1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.5</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0.5</PreAttackCooldownMin>
+        <TargetPriority type="Flying">10</TargetPriority>
+        <Filter>Medium</Filter>
+        <Hardpoint>TorpedoLauncher</Hardpoint>
+        <MaxRange>60</MaxRange>
+        <ImpactEffect size="Medium" alwaysHorizontal="true">MediumPlasmaExplosion</ImpactEffect>
+        <Projectile>fx_proj_plasmaTorpedo_01</Projectile>
+        <WeaponType>Basic</WeaponType>
+        <DamagePerSecond>65</DamagePerSecond>
+        <AttackRate>3</AttackRate>
+        <Name>PlasmaTorpedoSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <TargetPriority type="Building">3</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="Infantry">5</TargetPriority>
+        <TargetPriority type="Flying">7</TargetPriority>
+        <TargetPriority type="GroundVehicle">7</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <Filter>Medium</Filter>
+        <PostAttackCooldownMax>1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Hardpoint>PlasmaCannon</Hardpoint>
+        <MaxRange>45</MaxRange>
+        <MaxVelocityLead>40</MaxVelocityLead>
+        <ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
+        <Projectile>fx_proj_plasmaCannon_01</Projectile>
+        <WeaponType>BansheeChaingun</WeaponType>
+        <DamagePerSecond>120</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>PlasmaCannonSiphon</Name>
     </Weapon>
 </TacticData>
