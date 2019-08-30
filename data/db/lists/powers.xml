@@ -34232,55 +34232,25 @@
             <PowerType>TechScript</PowerType>
         </Attributes>
     </Power>
-    <Power name="CovBoundlessLeech">
+   <Power name="CovBoundlessLeech">
         <Attributes>
-            <DataLevel level="0">
-                <Data type="float" name="LeechPercent">0.015000000000000001</Data>
-                <Data type="objecttype" name="FilterType">BasicInfantry</Data>
-                <Data type="bool" name="AffectsAllByFilterType">true</Data>
-                <Data type="bool" name="BuffDurationInfinite">true</Data>
-            </DataLevel>
-            <DataLevel level="0">
-                <Data type="float" name="LeechPercent">0.01</Data>
-                <Data type="objecttype" name="FilterType">Hero</Data>
-                <Data type="bool" name="AffectsAllByFilterType">true</Data>
-                <Data type="bool" name="BuffDurationInfinite">true</Data>
-            </DataLevel>
-            <DataLevel level="0">
-                <Data type="float" name="LeechPercent">0.015000000000000001</Data>
-                <Data type="objecttype" name="FilterType">BasicAircraft</Data>
-                <Data type="bool" name="AffectsAllByFilterType">true</Data>
-                <Data type="bool" name="BuffDurationInfinite">true</Data>
-            </DataLevel>
-            <DataLevel level="0">
-                <Data type="float" name="LeechPercent">0.025</Data>
-                <Data type="objecttype" name="FilterType">UberUnit</Data>
-                <Data type="objecttype" name="FilterType">BasicVehicle</Data>
-                <Data type="bool" name="AffectsAllByFilterType">true</Data>
-                <Data type="bool" name="BuffDurationInfinite">true</Data>
-            </DataLevel>
-            <FlashUI>
-                <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
-                <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
-            </FlashUI>
-            <NotAffectedByCeasefire>
-            </NotAffectedByCeasefire>
-            <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
-            <LeaderPower>
-            </LeaderPower>
-            <PrereqTextID>252</PrereqTextID>
-            <RolloverTextID>5013</RolloverTextID>
-            <DisplayNameID>5012</DisplayNameID>
-            <Cost Supplies="0" Power="0">
-            </Cost>
-            <ProcBuffName>BoundlessLeechProc</ProcBuffName>
-            <ProcOnSquadSpawned>
-            </ProcOnSquadSpawned>
-            <ProcOnPowerGranted>
-            </ProcOnPowerGranted>
-            <TechScript>_POWER_BoundlessLeech</TechScript>
-            <AIPowerUseType>Passive</AIPowerUseType>
             <PowerType>TechScript</PowerType>
+            <AIPowerUseType>Passive</AIPowerUseType>
+            <TechScript>_POWER_CovBoundlessLeech</TechScript>
+            <ProcOnPowerGranted />
+            <ProcOnSquadSpawned />
+            <ProcBuffName>BoundlessLeechProc</ProcBuffName>
+            <Cost Supplies="0" Power="0" />
+            <DisplayNameID>5012</DisplayNameID>
+            <RolloverTextID>5013</RolloverTextID>
+            <PrereqTextID>252</PrereqTextID>
+            <LeaderPower />
+            <NotAffectedByCeasefire />
+            <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+            <FlashUI>
+                <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+                <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+            </FlashUI>
         </Attributes>
     </Power>
     <Power name="RMBombingRun">

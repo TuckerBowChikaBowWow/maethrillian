@@ -146,6 +146,23 @@
             <TargetType>Garrison</TargetType>
             <Relation>Ally</Relation>
         </TargetRule>
+        <TargetRule>
+            <SquadMode>Normal</SquadMode>
+            <Action>BrutegunSiphonAttackAction</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Normal</SquadMode>
+            <Action>AirBrutegunSiphonAttackAction</Action>
+            <TargetType>Flying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Cover</SquadMode>
+            <Action>InCoverBrutegunSiphonAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
     </Tactic>
     <Action>
         <WorkRange>4</WorkRange>
@@ -305,6 +322,47 @@
         <ActionType>RangedAttack</ActionType>
         <Name>InCoverBrutegunAttackAction</Name>
     </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <Strafing turnRate="180" trackingSpeed="60">
+        </Strafing>
+        <UsesAmmo>
+        </UsesAmmo>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>BrutegunSiphon</Weapon>
+        <ReloadAnim>Reload</ReloadAnim>
+        <MoveAnim>AttackJog</MoveAnim>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>BrutegunSiphonAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <Strafing turnRate="180" trackingSpeed="60">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>AirBrutegunSiphon</Weapon>
+        <ReloadAnim>Reload</ReloadAnim>
+        <MoveAnim>AttackJog</MoveAnim>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>AirBrutegunSiphonAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>InCoverBrutegunSiphon</Weapon>
+        <ReloadAnim>Reload</ReloadAnim>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>InCoverBrutegunSiphonAttackAction</Name>
+    </Action>
     <Weapon>
         <MovingMaxDeviation>0</MovingMaxDeviation>
         <MovingAccuracy>1</MovingAccuracy>
@@ -441,5 +499,87 @@
         <DamagePerSecond>22</DamagePerSecond>
         <AttackRate>2</AttackRate>
         <Name>InCoverBrutegun</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <Hardpoint>Torso</Hardpoint>
+        <VisualAmmo>4</VisualAmmo>
+        <PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <TargetPriority type="Flying">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>45</MaxRange>
+        <MaxVelocityLead>40</MaxVelocityLead>
+        <ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
+        <Projectile>fx_proj_bruteGun_01</Projectile>
+        <WeaponType>AASmallArms</WeaponType>
+        <DamagePerSecond>22</DamagePerSecond>
+        <AttackRate>2</AttackRate>
+        <Name>AirBrutegunSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <Hardpoint>Torso</Hardpoint>
+        <VisualAmmo>4</VisualAmmo>
+        <PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">4</TargetPriority>
+        <TargetPriority type="Infantry">7</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>25</MaxRange>
+        <MaxVelocityLead>40</MaxVelocityLead>
+        <ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
+        <Projectile>fx_proj_bruteGun_01</Projectile>
+        <WeaponType>AASmallArms</WeaponType>
+        <DamagePerSecond>22</DamagePerSecond>
+        <AttackRate>2</AttackRate>
+        <Name>BrutegunSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <Hardpoint>Torso</Hardpoint>
+        <VisualAmmo>4</VisualAmmo>
+        <PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">4</TargetPriority>
+        <TargetPriority type="Infantry">7</TargetPriority>
+        <TargetPriority type="Flying">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>40</MaxRange>
+        <MaxVelocityLead>40</MaxVelocityLead>
+        <ImpactEffect size="small">SpikerImpact</ImpactEffect>
+        <Projectile>fx_proj_bruteGun_01</Projectile>
+        <WeaponType>AASmallArms</WeaponType>
+        <DamagePerSecond>22</DamagePerSecond>
+        <AttackRate>2</AttackRate>
+        <Name>InCoverBrutegunSiphon</Name>
     </Weapon>
 </TacticData>

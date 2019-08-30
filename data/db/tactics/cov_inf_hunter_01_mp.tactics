@@ -79,6 +79,16 @@
             <Relation>Enemy</Relation>
         </TargetRule>
         <TargetRule>
+            <Action>BeamCannonSiphonAttackAction</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>FuelRodCannonSiphonAttackAction</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
             <Action>GatherCollectables</Action>
             <TargetType>Collectable</TargetType>
             <GaiaOwned>
@@ -172,6 +182,8 @@
         <Name>Garrison</Name>
     </Action>
     <Action>
+        <StartDisabled>
+        </StartDisabled>
         <LoopAttackAnim>
         </LoopAttackAnim>
         <Duration DurationSpread="0.5">3</Duration>
@@ -203,6 +215,43 @@
         <Anim>FuelRodAttack</Anim>
         <ActionType>RangedAttack</ActionType>
         <Name>FuelRodCannonAttackAction</Name>
+    </Action>
+     <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <LoopAttackAnim>
+        </LoopAttackAnim>
+        <Duration DurationSpread="0.5">3</Duration>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <Strafing turnRate="180" trackingSpeed="60" jitter="0">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>BeamCannonSiphon</Weapon>
+        <MoveAnim>BeamJogAttack</MoveAnim>
+        <Anim>BeamAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>BeamCannonSiphonAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <Strafing turnRate="180" trackingSpeed="60">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>FuelRodCannonSiphon</Weapon>
+        <WalkRightAnim>CombatWalkRightFuelRodAttack</WalkRightAnim>
+        <WalkLeftAnim>CombatWalkLeftFuelRodAttack</WalkLeftAnim>
+        <WalkBackAnim>CombatWalkBackFuelRodAttack</WalkBackAnim>
+        <WalkForwardAnim>CombatWalkForwardFuelRodAttack</WalkForwardAnim>
+        <MoveAnim>JogAttack</MoveAnim>
+        <Anim>FuelRodAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>FuelRodCannonSiphonAttackAction</Name>
     </Action>
     <Weapon>
         <PostAttackCooldownMax>0.9</PostAttackCooldownMax>
@@ -291,5 +340,95 @@
         <DamagePerSecond>90</DamagePerSecond>
         <AttackRate>4</AttackRate>
         <Name>FuelRodCannon</Name>
+    </Weapon>
+     <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <PostAttackCooldownMax>0.9</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.6</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.6</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Filter>Medium</Filter>
+        <CausePhysicsExplosion particle="Null" victimType="GroundVehicle">
+        </CausePhysicsExplosion>
+        <Hardpoint>Torso</Hardpoint>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">10</TargetPriority>
+        <PhysicsForceMax>2000</PhysicsForceMax>
+        <PhysicsForceMin>1250</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>1</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>25</DamageRatio>
+                <Width>3</Width>
+                <Length>ReachTarget</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>0</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>0</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>60</MaxRange>
+        <MaxVelocityLead>40</MaxVelocityLead>
+        <ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+        <Projectile>fx_hunterbeam</Projectile>
+        <WeaponType>AntiVehicle</WeaponType>
+        <DamagePerSecond>104</DamagePerSecond>
+        <AttackRate>4</AttackRate>
+        <Name>BeamCannonSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <Filter>Medium</Filter>
+        <CausePhysicsExplosion particle="Null" victimType="GroundVehicle">
+        </CausePhysicsExplosion>
+        <Hardpoint>Torso</Hardpoint>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">10</TargetPriority>
+        <PhysicsForceMax>2000</PhysicsForceMax>
+        <PhysicsForceMin>1250</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>3</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>0</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>0</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MaxRange>60</MaxRange>
+        <MaxVelocityLead>40</MaxVelocityLead>
+        <ImpactEffect size="Medium">FuelRodCannonAirImpact</ImpactEffect>
+        <Projectile>fx_proj_fuelRod_01</Projectile>
+        <WeaponType>AntiVehicle</WeaponType>
+        <DamagePerSecond>90</DamagePerSecond>
+        <AttackRate>4</AttackRate>
+        <Name>FuelRodCannonSiphon</Name>
     </Weapon>
 </TacticData>

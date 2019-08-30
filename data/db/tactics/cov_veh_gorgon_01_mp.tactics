@@ -38,6 +38,38 @@
             <Relation>Ally</Relation>
         </TargetRule>
         <TargetRule>
+            <Action>AutocannonSiphonAttackAction</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>MissileAttackSiphonRightAction</Action>
+            <TargetType>Flying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <Action>LongBoostJumpSiphon</Action>
+            <Relation>Enemy</Relation>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <TargetsGround>
+            </TargetsGround>
+            <Action>LongBoostJumpSiphon</Action>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>BoostJumpSiphon</Action>
+            <Relation>Enemy</Relation>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <TargetsGround>
+            </TargetsGround>
+            <Action>BoostJumpSiphon</Action>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
             <Action>AutocannonAttackAction</Action>
             <TargetType>NonFlying</TargetType>
             <Relation>Enemy</Relation>
@@ -75,6 +107,7 @@
             <Action>BoostJump</Action>
             <Ability>Command</Ability>
         </TargetRule>
+        <PersistentAction>AutocannonSiphonAttackAction</PersistentAction>
         <PersistentAction>AutocannonAttackAction</PersistentAction>
         <PersistentAction>ShieldAction</PersistentAction>
         <PersistentAction>PersistentCollisionAttack</PersistentAction>
@@ -144,6 +177,73 @@
         <WorkRange>3.075</WorkRange>
         <ActionType>Garrison</ActionType>
         <Name>Garrison</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <VelocityScalar>45</VelocityScalar>
+        <MinRelativeHeight>27</MinRelativeHeight>
+        <MaxRelativeHeight>29</MaxRelativeHeight>
+        <MaxDistance>175</MaxDistance>
+        <Weapon>BoostJumpSiphon</Weapon>
+        <EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.8">BoostJumpLand</EndAnim>
+        <Anim>BoostJumpArc</Anim>
+        <StartAnim noInterrupt="true" motionExtraction="true">BoostJumpTakeOff</StartAnim>
+        <ActionType>JumpAttack</ActionType>
+        <Name>LongBoostJumpSiphon</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <VelocityScalar>45</VelocityScalar>
+        <MinRelativeHeight>27</MinRelativeHeight>
+        <MaxRelativeHeight>29</MaxRelativeHeight>
+        <MaxDistance>100</MaxDistance>
+        <Weapon>BoostJumpSiphon</Weapon>
+        <EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.8">BoostJumpLand</EndAnim>
+        <Anim>BoostJumpArc</Anim>
+        <StartAnim noInterrupt="true" motionExtraction="true">BoostJumpTakeOff</StartAnim>
+        <ActionType>JumpAttack</ActionType>
+        <Name>BoostJumpSiphon</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <OrientOwnerToTargetWhileNotMoving>
+        </OrientOwnerToTargetWhileNotMoving>
+        <DontCheckOrientTolerance>
+        </DontCheckOrientTolerance>
+        <CanOrientOwner>true</CanOrientOwner>
+        <ForceAttachmentAnim>
+        </ForceAttachmentAnim>
+        <Weapon>RocketLauncher_RightSiphon</Weapon>
+        <Anim>MissileAttackRight</Anim>
+        <SlaveAttackAction>MissileAttackLeftSiphonAction</SlaveAttackAction>
+        <ActionType>RangedAttack</ActionType>
+        <Name>MissileAttackRightSiphonAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <OrientOwnerToTargetWhileNotMoving>
+        </OrientOwnerToTargetWhileNotMoving>
+        <DontCheckOrientTolerance>
+        </DontCheckOrientTolerance>
+        <ForceAttachmentAnim>
+        </ForceAttachmentAnim>
+        <Weapon>RocketLauncher_LeftSiphon</Weapon>
+        <Anim>MissileAttackLeft</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>MissileAttackLeftSiphonAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <CanOrientOwner>true</CanOrientOwner>
+        <Weapon>AutocannonSiphon</Weapon>
+        <Anim>CannonAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>AutocannonSiphonAttackAction</Name>
     </Action>
     <Action>
         <VelocityScalar>45</VelocityScalar>
@@ -331,5 +431,139 @@
         <DamagePerSecond>88</DamagePerSecond>
         <AttackRate>0.5</AttackRate>
         <Name>RocketLauncher_Left</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>8</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>AutocannonTurret</Hardpoint>
+        <PhysicsForceMax>400</PhysicsForceMax>
+        <PhysicsForceMin>200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MinRange>0</MinRange>
+        <MaxRange>1.8450000000000002</MaxRange>
+        <WeaponType>Basic</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <ImpactEffect size="Medium">GorgonImpact</ImpactEffect>
+        <DamagePerSecond>650</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>BoostJumpSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <TargetPriority type="Aircraft">1</TargetPriority>
+        <TargetPriority type="Building">3</TargetPriority>
+        <TargetPriority type="TurretBuilding">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">7</TargetPriority>
+        <TargetPriority type="Infantry">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>2</MovingMaxDeviation>
+        <MovingAccuracy>0.1</MovingAccuracy>
+        <MaxDeviation>1.5</MaxDeviation>
+        <Accuracy>0.1</Accuracy>
+        <Hardpoint>AutocannonTurret</Hardpoint>
+        <MaxRange>35</MaxRange>
+        <MaxVelocityLead>30</MaxVelocityLead>
+        <ImpactEffect size="Medium">PlasmaPistolImpact</ImpactEffect>
+        <Projectile>fx_proj_plasmaPistol_01</Projectile>
+        <WeaponType>ReaverAutocannon</WeaponType>
+        <DamagePerSecond>200</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>AutocannonSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>15</DamageRatio>
+                <Radius>7</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4.5</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <PostAttackCooldownMax>2</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1.7000000000000002</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1.3</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <ProjectileLaunchDirY>
+        </ProjectileLaunchDirY>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">5</TargetPriority>
+        <TargetPriority type="Infantry">7</TargetPriority>
+        <TargetPriority type="Aircraft">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <Hardpoint>RocketLauncher_Right</Hardpoint>
+        <TargetPriority type="Flying">10</TargetPriority>
+        <MaxRange>70</MaxRange>
+        <MaxVelocityLead>6.15</MaxVelocityLead>
+        <ImpactEffect size="Medium">BanishedMissileExplosion</ImpactEffect>
+        <Projectile>fx_proj_rocket_01_mp</Projectile>
+        <WeaponType>AntiAir</WeaponType>
+        <DamagePerSecond>88</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>RocketLauncher_RightSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>15</DamageRatio>
+                <Radius>7</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4.5</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <PostAttackCooldownMax>2</PostAttackCooldownMax>
+        <PostAttackCooldownMin>1.7000000000000002</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1.3</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <ProjectileLaunchDirY>
+        </ProjectileLaunchDirY>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">5</TargetPriority>
+        <TargetPriority type="Infantry">7</TargetPriority>
+        <TargetPriority type="Aircraft">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <Hardpoint>RocketLauncher_Left</Hardpoint>
+        <TargetPriority type="Flying">10</TargetPriority>
+        <MaxRange>70</MaxRange>
+        <MaxVelocityLead>6.15</MaxVelocityLead>
+        <Projectile>fx_proj_rocket_01_mp</Projectile>
+        <WeaponType>AntiAir</WeaponType>
+        <DamagePerSecond>88</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>RocketLauncher_LeftSiphon</Name>
     </Weapon>
 </TacticData>
