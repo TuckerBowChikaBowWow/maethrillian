@@ -47,5 +47,4 @@ cat >${PKG_FILE_MANIFEST} <<EOF
 EOF
 echo "[ OK   ] Create manifest"
 
-cd ${PKG_BUILD_DIR} && zip -r ${PKG_ARCHIVE} GTS
-echo "[ OK   ] Create archive"
+rm -rf ${PKG_DIFF_DIR}

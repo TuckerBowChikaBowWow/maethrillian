@@ -10,6 +10,6 @@ jobs:
   container: ancilla
   steps:
   - script: ./scripts/package.sh
-  - upload: build/maethrillian.zip
-    artifact: maethrillian.zip
+  - upload: build
+    artifact: maethrillian
 
