@@ -938,6 +938,63 @@
             <PowerType>Gunship</PowerType>
         </Attributes>
     </Power>
+	<Power name="UnscVehicleDropIzy1">
+        <Attributes>
+            <DataLevel level="0">
+                <Data type="unitdrops" name="UnitDrops">
+                    <Drop>
+                        <VeterancyLevel>1</VeterancyLevel>
+                        <ProtoSquadID>unsc_veh_warthog_01</ProtoSquadID>
+                    </Drop>
+                    <Drop>
+                        <VeterancyLevel>1</VeterancyLevel>
+                        <ProtoSquadID>unsc_veh_warthog_01</ProtoSquadID>
+                    </Drop>
+                </Data>
+                <Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_VehicleDrop_I</Data>
+                <Data type="protoobject" name="Gunship">unsc_air_pelicantransport_01</Data>
+                <Data type="float" name="WaitDuration">0.5</Data>
+                <Data type="int" name="NumGunships">1</Data>
+                <Data type="sound" name="HudStopEnvSound">
+                </Data>
+                <Data type="sound" name="HudStartEnvSound">
+                </Data>
+                <Data type="sound" name="HudLastFireSound">
+                </Data>
+                <Data type="sound" name="HudFireSound">
+                </Data>
+                <Data type="sound" name="HudAbortSound">
+                </Data>
+                <Data type="sound" name="HudUpSound">
+                </Data>
+            </DataLevel>
+            <FlashUI>
+                <CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+                <CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+            </FlashUI>
+            <CameraEnableUserZoom>false</CameraEnableUserZoom>
+            <CameraEnableUserYaw>false</CameraEnableUserYaw>
+            <CameraEnableUserScroll>true</CameraEnableUserScroll>
+            <CameraPitchMax>55</CameraPitchMax>
+            <CameraPitchMin>55</CameraPitchMin>
+            <CameraZoomMax>150</CameraZoomMax>
+            <CameraZoomMin>150</CameraZoomMin>
+            <IconLocation>2</IconLocation>
+            <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+            <PrereqTextID>5011</PrereqTextID>
+            <RolloverTextID>5011</RolloverTextID>
+            <DisplayNameID>5010</DisplayNameID>
+            <ShowTransportArrows>true</ShowTransportArrows>
+            <Decal>Drop</Decal>
+            <UIRadius>5</UIRadius>
+            <AutoRecharge>40000</AutoRecharge>
+            <Cost Supplies="1200" Power="0">
+            </Cost>
+            <Pop type="Unit">8</Pop>
+            <AIPowerUseType>TurretDrop</AIPowerUseType>
+            <PowerType>Gunship</PowerType>
+        </Attributes>
+    </Power>
     <Power name="UNSCVehicleAdrenaline2">
         <Attributes>
             <FlashUI>
