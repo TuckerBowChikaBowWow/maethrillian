@@ -24,6 +24,15 @@
             <Relation>Enemy</Relation>
         </TargetRule>
         <TargetRule>
+            <Action>chimeraBeamSiphonAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Normal</SquadMode>
+            <Action>OverburnSiphonAttackAction</Action>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
             <Action>UngarrisonHotDrop</Action>
             <TargetType>HotDropPickup</TargetType>
             <Relation>Self</Relation>
@@ -86,6 +95,42 @@
         <Anim>OverburnAttack</Anim>
         <ActionType>RangedAttack</ActionType>
         <Name>OverburnAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <LoopAttackAnim>
+        </LoopAttackAnim>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <Strafing maxDistance="45" turnRate="90" trackingSpeed="25" jitter="20">
+        </Strafing>
+        <Weapon>OverburnBeamSiphon</Weapon>
+        <Anim>OverburnAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>OverburnSiphonAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <LoopAttackAnim>
+        </LoopAttackAnim>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Beam collideWithUnits="false" collideWithTerrain="false">
+        </Beam>
+        <Strafing maxDistance="45" turnRate="180" trackingSpeed="40" jitter="20">
+        </Strafing>
+        <Weapon>chimeraBeamSiphon</Weapon>
+        <Anim>BeamAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>chimeraBeamSiphonAttackAction</Name>
     </Action>
     <Action>
         <WorkRange>0</WorkRange>
@@ -276,5 +321,81 @@
         <DamagePerSecond>200</DamagePerSecond>
         <AttackRate>0.1</AttackRate>
         <Name>chimeraBeam</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <TargetPriority type="Flying">1</TargetPriority>
+        <TargetPriority type="GroundVehicle">2</TargetPriority>
+        <TargetPriority type="Infantry">3</TargetPriority>
+        <TargetPriority type="Building">7</TargetPriority>
+        <TargetPriority type="TurretBuilding">10</TargetPriority>
+        <PhysicsForceMax>600</PhysicsForceMax>
+        <PhysicsForceMin>300</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4.92</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <Hardpoint>Head</Hardpoint>
+        <MaxRange>100</MaxRange>
+        <MaxVelocityLead>2.46</MaxVelocityLead>
+        <ImpactEffect size="Medium">Tankshell</ImpactEffect>
+        <Projectile>fx_proj_overdrivebeam_01</Projectile>
+        <WeaponType>Beam</WeaponType>
+        <DamagePerSecond>283.5</DamagePerSecond>
+        <AttackRate>0.1</AttackRate>
+        <Name>OverburnBeamSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <TargetPriority type="Flying">1</TargetPriority>
+        <TargetPriority type="GroundVehicle">2</TargetPriority>
+        <TargetPriority type="Infantry">3</TargetPriority>
+        <TargetPriority type="Building">7</TargetPriority>
+        <TargetPriority type="TurretBuilding">10</TargetPriority>
+        <PhysicsForceMax>600</PhysicsForceMax>
+        <PhysicsForceMin>300</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>2</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Attacker</Origin>
+                <DamageRatio>25</DamageRatio>
+                <Width>3</Width>
+                <Length>ReachTarget</Length>
+                <Type>Segment</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <Hardpoint>Head</Hardpoint>
+        <MaxRange>100</MaxRange>
+        <MaxVelocityLead>2.46</MaxVelocityLead>
+        <ImpactEffect size="Medium">Tankshell</ImpactEffect>
+        <Projectile>fx_proj_chimeraBeam_01</Projectile>
+        <WeaponType>Beam</WeaponType>
+        <DamagePerSecond>200</DamagePerSecond>
+        <AttackRate>0.1</AttackRate>
+        <Name>chimeraBeamSiphon</Name>
     </Weapon>
 </TacticData>

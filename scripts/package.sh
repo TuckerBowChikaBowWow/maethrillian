@@ -10,7 +10,7 @@ PKG_BUILD_DIR="${ROOT_DIR}/build"
 PKG_DIFF_DIR="${PKG_BUILD_DIR}/diff"
 PKG_BUNDLE_DIR="${PKG_BUILD_DIR}/GTS/${GAME_VERSION}_active"
 
-PKG_DATA_EXTENSIONS='\.xml$|\.cfg$|\.ddx$'
+PKG_DATA_EXTENSIONS='\.xml$|\.cfg$|\.ddx$|\.tactics$'
 PKG_DATA_FILES=$(git diff --name-only HEAD ${PKG_BASE_COMMIT} | egrep ${PKG_DATA_EXTENSIONS})
 
 PKG_FILE_NAME="maethrillian.pkg"
@@ -47,5 +47,4 @@ cat >${PKG_FILE_MANIFEST} <<EOF
 EOF
 echo "[ OK   ] Create manifest"
 
-cd ${PKG_BUILD_DIR} && zip -r ${PKG_ARCHIVE} GTS
-echo "[ OK   ] Create archive"
+rm -rf ${PKG_DIFF_DIR}

@@ -47,6 +47,28 @@
             <Ability>Command</Ability>
         </TargetRule>
         <TargetRule>
+            <Action>LongRangeJumpSiphonAttackAction</Action>
+            <Relation>Enemy</Relation>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <TargetsGround>
+            </TargetsGround>
+            <Action>LongRangeJumpSiphonAttackAction</Action>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <Action>JumpSiphonAttackAction</Action>
+            <Relation>Enemy</Relation>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
+            <TargetsGround>
+            </TargetsGround>
+            <Action>JumpSiphonAttackAction</Action>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
             <Action>UngarrisonTeleport</Action>
             <TargetType>TeleportDropoff</TargetType>
             <Relation>Self</Relation>
@@ -113,6 +135,12 @@
         <TargetRule>
             <SquadMode>Normal</SquadMode>
             <Action>HammerAttackAction</Action>
+            <TargetType>NonFlying</TargetType>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+         <TargetRule>
+            <SquadMode>Normal</SquadMode>
+            <Action>HammerSiphonAttackAction</Action>
             <TargetType>NonFlying</TargetType>
             <Relation>Enemy</Relation>
         </TargetRule>
@@ -290,6 +318,40 @@
         <Name>JumpAttackAction</Name>
     </Action>
     <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <JumpArcInitialSpeed>0.25</JumpArcInitialSpeed>
+        <JumpArcLerpWindow>0.2</JumpArcLerpWindow>
+        <LandingDelay>0.4</LandingDelay>
+        <VelocityScalar>40</VelocityScalar>
+        <MaxRelativeHeight>29</MaxRelativeHeight>
+        <MinRelativeHeight>27</MinRelativeHeight>
+        <MaxDistance>250</MaxDistance>
+        <Weapon>JumpAttackHammerSiphon</Weapon>
+        <EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.45">JumpAttackLand</EndAnim>
+        <Anim>JumpAttackArc</Anim>
+        <StartAnim noInterrupt="true" motionExtraction="true">JumpAttackTakeOff</StartAnim>
+        <ActionType>JumpAttack</ActionType>
+        <Name>LongRangeJumpSiphonAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <JumpArcInitialSpeed>0.25</JumpArcInitialSpeed>
+        <JumpArcLerpWindow>0.2</JumpArcLerpWindow>
+        <LandingDelay>0.4</LandingDelay>
+        <VelocityScalar>40</VelocityScalar>
+        <MaxRelativeHeight>29</MaxRelativeHeight>
+        <MinRelativeHeight>27</MinRelativeHeight>
+        <MaxDistance>120</MaxDistance>
+        <Weapon>JumpAttackHammerSiphon</Weapon>
+        <EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.45">JumpAttackLand</EndAnim>
+        <Anim>JumpAttackArc</Anim>
+        <StartAnim noInterrupt="true" motionExtraction="true">JumpAttackTakeOff</StartAnim>
+        <ActionType>JumpAttack</ActionType>
+        <Name>JumpSiphonAttackAction</Name>
+    </Action>
+    <Action>
         <RestrictedAutoTarget>true</RestrictedAutoTarget>
         <WorkRange>4</WorkRange>
         <WorkRate>4</WorkRate>
@@ -338,6 +400,40 @@
         <Anim noInterrupt="true">MeleeAttack</Anim>
         <ActionType>HandAttack</ActionType>
         <Name>HammerAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <Fatality attacker="fatality_jpbrute01_v_spartan02_attacker_01" target="fatality_jpbrute01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_spartan02_attacker_01" target="fatality_jpbrute01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_spartan_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_sniper01_attacker_01" target="fatality_jpbrute01_v_sniper01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_sniper_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_odst01_attacker_01" target="fatality_jpbrute01_v_odst01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_odst_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_fmarine01_attacker_01" target="fatality_jpbrute01_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_femalemarine_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_fmarine01_attacker_01" target="fatality_jpbrute01_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_femalemarine_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_flamer01_attacker_01" target="fatality_jpbrute01_v_flamer01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_flamemarine_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_marine01_attacker_01" target="fatality_jpbrute01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_malemarine_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_marine01_attacker_01" target="fatality_jpbrute01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_marine_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_marine01_attacker_01" target="fatality_jpbrute01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_engineer_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_marine01_attacker_01" target="fatality_jpbrute01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_engineer_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_spartan05_attacker_01" target="fatality_jpbrute01_v_spartan05_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanMG_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_spartan04_attacker_01" target="fatality_jpbrute01_v_spartan04_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanSniper_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_spartan03_attacker_01" target="fatality_jpbrute01_v_spartan03_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanRocket_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_spartan05_attacker_01" target="fatality_jpbrute01_v_spartan05_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_chaingun_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_spartan04_attacker_01" target="fatality_jpbrute01_v_spartan04_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_laser_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_jpbrute01_attacker_01" target="fatality_jpbrute01_v_jpbrute01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteJumpPack_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_spartan03_attacker_01" target="fatality_jpbrute01_v_spartan03_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_rocket_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_eliteranger01_attacker_01" target="fatality_jpbrute01_v_eliteranger01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_jackal_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_brute01_attacker_01" target="fatality_jpbrute01_v_brute01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteLeader_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_elitehon01_attacker_01" target="fatality_jpbrute01_v_elitehon01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_eliteCommando_01</Fatality>
+        <Fatality attacker="fatality_jpbrute01_v_brutehon01_attacker_01" target="fatality_jpbrute01_v_brutehon01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteHonour_01</Fatality>
+        <Strafing turnRate="180" trackingSpeed="60">
+        </Strafing>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>HammerSiphon</Weapon>
+        <Anim noInterrupt="true">MeleeAttack</Anim>
+        <ActionType>HandAttack</ActionType>
+        <Name>HammerSiphonAttackAction</Name>
     </Action>
     <Weapon>
         <Filter>Medium</Filter>
@@ -479,5 +575,68 @@
         <DamagePerSecond>320</DamagePerSecond>
         <AttackRate>0.5</AttackRate>
         <Name>Hammer</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <Filter>Medium</Filter>
+        <Daze TargetType="nonflying" MovementModifier="0.15" AOEEffect="true" SmartTargeting="false">4.0f</Daze>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>10</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <Hardpoint>Torso</Hardpoint>
+        <PhysicsForceMax>400</PhysicsForceMax>
+        <PhysicsForceMin>200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MinRange>0</MinRange>
+        <MaxRange>1.8450000000000002</MaxRange>
+        <WeaponType>Melee</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <ImpactEffect size="Medium">BlisterBackArtilleryImpact</ImpactEffect>
+        <DamagePerSecond>500</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>JumpAttackHammerSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <AOEData>
+            <Hitbox>
+                <TargetType>NonFlying</TargetType>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>2</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <PostAttackCooldownMax>0.1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0.1</PostAttackCooldownMin>
+        <Filter>Medium</Filter>
+        <Hardpoint>Torso</Hardpoint>
+        <TargetPriority type="Building">5</TargetPriority>
+        <TargetPriority type="TurretBuilding">10</TargetPriority>
+        <TargetPriority type="groundVehicle">15</TargetPriority>
+        <TargetPriority type="Infantry">20</TargetPriority>
+        <PhysicsForceMax>400</PhysicsForceMax>
+        <PhysicsForceMin>200</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <MaxRange>2</MaxRange>
+        <WeaponType>Melee</WeaponType>
+        <DamagePerSecond>320</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>HammerSiphon</Name>
     </Weapon>
 </TacticData>

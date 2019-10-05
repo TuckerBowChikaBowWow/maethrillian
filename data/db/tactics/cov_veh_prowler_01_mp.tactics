@@ -58,6 +58,17 @@
             <GaiaOwned>
             </GaiaOwned>
         </TargetRule>
+        <TargetRule>
+            <SquadMode>Normal</SquadMode>
+            <Action>ShadeTurretSiphonAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Normal</SquadMode>
+            <Action>ArtillerySiphonAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <PersistentAction>ShadeTurretSiphonAttackAction</PersistentAction>
         <PersistentAction>ShadeTurretAttackAction</PersistentAction>
         <PersistentAction>PersonalCloak</PersistentAction>
     </Tactic>
@@ -104,6 +115,32 @@
         <StealthType>Cloak</StealthType>
         <ActionType>StealthManager</ActionType>
         <Name>PersonalCloak</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <DontCheckOrientTolerance>
+        </DontCheckOrientTolerance>
+        <CanOrientOwner>false</CanOrientOwner>
+        <Weapon>ShadeTurretSiphon</Weapon>
+        <Anim>PeashootAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>ShadeTurretSiphonAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <ForceAttachmentAnim>
+        </ForceAttachmentAnim>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <PersistBetweenOpps>
+        </PersistBetweenOpps>
+        <CanOrientOwner>false</CanOrientOwner>
+        <Weapon>ArtillerySiphon</Weapon>
+        <Anim>Attack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>ArtillerySiphonAttackAction</Name>
     </Action>
     <Action>
         <DontCheckOrientTolerance>
@@ -153,6 +190,7 @@
         <Name>Artillery</Name>
     </Weapon>
     <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
         <AOEData>
             <Hitbox>
                 <FriendlyFire>false</FriendlyFire>
@@ -192,5 +230,70 @@
         <DamagePerSecond>36</DamagePerSecond>
         <AttackRate>0.5</AttackRate>
         <Name>ShadeTurret</Name>
+        <PreAttackCooldownMax>0.7000000000000001</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0.5</PreAttackCooldownMin>
+        <TargetPriority type="Building">3</TargetPriority>
+        <TargetPriority type="Flying">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">7</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <Hardpoint>Turret</Hardpoint>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>4.5</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>3</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <MinRange>0</MinRange>
+        <MaxRange>35</MaxRange>
+        <MaxVelocityLead>22</MaxVelocityLead>
+        <ImpactEffect size="Small">SmallPlasmaExplosion</ImpactEffect>
+        <Projectile>fx_proj_shadeplasma_01</Projectile>
+        <WeaponType>MediumArms</WeaponType>
+        <DamagePerSecond>104</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>ArtillerySiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>70</DamageRatio>
+                <Radius>7</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>1</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <Slow TargetType="Unit" MovementModifier="0.5" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">2.2f</Slow>
+        <PostAttackCooldownMax>5.7</PostAttackCooldownMax>
+        <PostAttackCooldownMin>4</PostAttackCooldownMin>
+        <PreAttackCooldownMax>1.2</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <ProjectileLaunchDirY>
+        </ProjectileLaunchDirY>
+        <TargetPriority type="Aircraft">3</TargetPriority>
+        <TargetPriority type="Flying">3</TargetPriority>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="Infantry">5</TargetPriority>
+        <TargetPriority type="GroundVehicle">5</TargetPriority>
+        <TargetPriority type="TurretBuilding">1</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <Hardpoint>ShadeTurret</Hardpoint>
+        <MaxRange>65</MaxRange>
+        <MaxVelocityLead>18.45</MaxVelocityLead>
+        <ImpactEffect size="Medium">BanishedMissileExplosion</ImpactEffect>
+        <Projectile>fx_proj_rocket_01</Projectile>
+        <WeaponType>MediumArms</WeaponType>
+        <DamagePerSecond>36</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>ShadeTurretSiphon</Name>
     </Weapon>
 </TacticData>

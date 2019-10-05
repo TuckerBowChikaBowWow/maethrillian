@@ -66,6 +66,20 @@
             <Ability>Command</Ability>
         </TargetRule>
         <TargetRule>
+            <Action>PlasmaCannonRightSiphonAttackAction</Action>
+            <Relation>Enemy</Relation>
+        </TargetRule>
+        <TargetRule>
+            <SquadMode>Normal</SquadMode>
+            <Action>ScorchMortarSiphonAttackAction</Action>
+            <TargetType>NonFlying</TargetType>
+            <IgnoreOtherTargetsWhileTargetingGround>
+            </IgnoreOtherTargetsWhileTargetingGround>
+            <TargetsGround>
+            </TargetsGround>
+            <Ability>Command</Ability>
+        </TargetRule>
+        <TargetRule>
             <Action>GatherCollectables</Action>
             <TargetType>Collectable</TargetType>
             <GaiaOwned>
@@ -176,6 +190,50 @@
         <Anim>PlasmaMortarAttack</Anim>
         <ActionType>RangedAttack</ActionType>
         <Name>PlasmaMortarAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <ForceAttachmentAnim>
+        </ForceAttachmentAnim>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <Weapon>ScorchMortarSiphon</Weapon>
+        <Anim>ScorchPlasmaMortarAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>ScorchMortarASiphonttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <Weapon>PlasmaCannonRightSiphon</Weapon>
+        <Anim>PlasmaCannonRightAttack</Anim>
+        <SlaveAttackAction>PlasmaMortarSiphonAttackAction</SlaveAttackAction>
+        <SlaveAttackAction>PlasmaCannonLeftSiphonAttackAction</SlaveAttackAction>
+        <ActionType>RangedAttack</ActionType>
+        <Name>PlasmaCannonRightSiphonAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <Weapon>PlasmaCannonLeftSiphon</Weapon>
+        <Anim>PlasmaCannonLeftAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>PlasmaCannonLeftSiphonAttackAction</Name>
+    </Action>
+    <Action>
+        <StartDisabled>
+        </StartDisabled>
+        <ForceAttachmentAnim>
+        </ForceAttachmentAnim>
+        <FullBodyAttackAnim>
+        </FullBodyAttackAnim>
+        <Weapon>PlasmaMortarSiphon</Weapon>
+        <Anim>PlasmaMortarAttack</Anim>
+        <ActionType>RangedAttack</ActionType>
+        <Name>PlasmaMortarSiphonAttackAction</Name>
     </Action>
     <Weapon>
         <Filter>Heavy</Filter>
@@ -373,5 +431,158 @@
         <DamagePerSecond>85</DamagePerSecond>
         <AttackRate>0.5</AttackRate>
         <Name>PlasmaCannonLeft</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <Filter>Heavy</Filter>
+        <ImpactEffect doShockwaveAction="true">PlasmaBurn</ImpactEffect>
+        <AOERadius>14</AOERadius>
+        <PhysicsForceMax>700</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <TargetPriority type="Flying">-1</TargetPriority>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">8</TargetPriority>
+        <TargetPriority type="Infantry">10</TargetPriority>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>10</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>6</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>0</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>0</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <Hardpoint>PlasmaMortarTurret</Hardpoint>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>30.225</MaxVelocityLead>
+        <Projectile>fx_proj_plasmaMortar_02</Projectile>
+        <WeaponType>WraithExplosive</WeaponType>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <DamagePerSecond>950</DamagePerSecond>
+        <AttackRate>5</AttackRate>
+        <Name>ScorchMortarSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <Filter>Heavy</Filter>
+        <PhysicsForceMax>700</PhysicsForceMax>
+        <PhysicsForceMin>500</PhysicsForceMin>
+        <PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+        <PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+        <ThrowUnits>
+        </ThrowUnits>
+        <TargetPriority type="Flying">-1</TargetPriority>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">8</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <AOEData>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>50</DamageRatio>
+                <Radius>10</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>75</DamageRatio>
+                <Radius>6</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+            <Hitbox>
+                <FriendlyFire>false</FriendlyFire>
+                <Origin>Target</Origin>
+                <DamageRatio>100</DamageRatio>
+                <Radius>4</Radius>
+                <Type>Circle</Type>
+            </Hitbox>
+        </AOEData>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <MovingMaxDeviation>0</MovingMaxDeviation>
+        <MovingAccuracy>1</MovingAccuracy>
+        <MaxDeviation>0</MaxDeviation>
+        <Accuracy>1</Accuracy>
+        <Hardpoint>PlasmaMortarTurret</Hardpoint>
+        <MaxRange>85</MaxRange>
+        <MaxVelocityLead>30.225</MaxVelocityLead>
+        <ImpactEffect size="Medium" alwaysHorizontal="true">MediumPlasmaExplosion</ImpactEffect>
+        <Projectile>fx_proj_plasmaMortar_01</Projectile>
+        <WeaponType>WraithExplosive</WeaponType>
+        <DamagePerSecond>190</DamagePerSecond>
+        <AttackRate>5</AttackRate>
+        <Name>PlasmaMortarSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <PostAttackCooldownMax>1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Filter>Heavy</Filter>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">5</TargetPriority>
+        <TargetPriority type="Flying">7</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <Hardpoint>PlasmaCannonRightTurret</Hardpoint>
+        <MaxRange>60</MaxRange>
+        <MaxVelocityLead>17</MaxVelocityLead>
+        <ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
+        <Projectile>fx_proj_plasmaCannon_01</Projectile>
+        <WeaponType>SmallArms</WeaponType>
+        <DamagePerSecond>85</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>PlasmaCannonRightSiphon</Name>
+    </Weapon>
+    <Weapon>
+        <LifeStealRatio shield="false">0.5</LifeStealRatio>
+        <PostAttackCooldownMax>1</PostAttackCooldownMax>
+        <PostAttackCooldownMin>0</PostAttackCooldownMin>
+        <PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+        <PreAttackCooldownMin>0</PreAttackCooldownMin>
+        <Filter>Heavy</Filter>
+        <TargetPriority type="Building">1</TargetPriority>
+        <TargetPriority type="TurretBuilding">3</TargetPriority>
+        <TargetPriority type="GroundVehicle">5</TargetPriority>
+        <TargetPriority type="Flying">7</TargetPriority>
+        <TargetPriority type="Infantry">9</TargetPriority>
+        <TargetPriority type="PaintTarget">10</TargetPriority>
+        <EnableHeightBonusDamage>
+        </EnableHeightBonusDamage>
+        <Hardpoint>PlasmaCannonLeftTurret</Hardpoint>
+        <MaxRange>60</MaxRange>
+        <MaxVelocityLead>17</MaxVelocityLead>
+        <ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
+        <Projectile>fx_proj_plasmaCannon_01</Projectile>
+        <WeaponType>SmallArms</WeaponType>
+        <DamagePerSecond>85</DamagePerSecond>
+        <AttackRate>0.5</AttackRate>
+        <Name>PlasmaCannonLeftSiphon</Name>
     </Weapon>
 </TacticData>
