@@ -11072,8 +11072,8 @@
                 <Data type="float" name="MaxBeamDistance">70</Data>
                 <Data type="float" name="TickLength">0.2</Data>
                 <Data type="float" name="CommandInterval">0.2</Data>
-                <Data type="float" name="MaxBeamSpeed">17</Data>
-                <Data type="float" name="Duration">5</Data>
+                <Data type="float" name="MaxBeamSpeed">20</Data>
+                <Data type="float" name="Duration">7</Data>
                 <Data type="bool" name="UsePlayerWaypoints">false</Data>
                 <Data type="int" name="NumPlayerWaypoints">3</Data>
                 <Data type="sound" name="FiredSound">
@@ -11113,8 +11113,8 @@
                 <Data type="float" name="MaxBeamDistance">70</Data>
                 <Data type="float" name="TickLength">0.2</Data>
                 <Data type="float" name="CommandInterval">0.2</Data>
-                <Data type="float" name="MaxBeamSpeed">19.5</Data>
-                <Data type="float" name="Duration">6.5</Data>
+                <Data type="float" name="MaxBeamSpeed">22</Data>
+                <Data type="float" name="Duration">8</Data>
                 <Data type="bool" name="UsePlayerWaypoints">false</Data>
                 <Data type="int" name="NumPlayerWaypoints">3</Data>
                 <Data type="sound" name="FiredSound">
@@ -11153,8 +11153,8 @@
                 <Data type="float" name="MaxBeamDistance">70</Data>
                 <Data type="float" name="TickLength">0.2</Data>
                 <Data type="float" name="CommandInterval">0.2</Data>
-                <Data type="float" name="MaxBeamSpeed">22</Data>
-                <Data type="float" name="Duration">8</Data>
+                <Data type="float" name="MaxBeamSpeed">24</Data>
+                <Data type="float" name="Duration">9</Data>
                 <Data type="bool" name="UsePlayerWaypoints">false</Data>
                 <Data type="int" name="NumPlayerWaypoints">3</Data>
                 <Data type="sound" name="FiredSound">
@@ -15724,7 +15724,7 @@
             <PowerType>UnitDrop</PowerType>
             <AIPowerUseType>MineDrop</AIPowerUseType>
             <SoundName>PlasmaMine</SoundName>
-            <Cost Supplies="40" Power="40">
+            <Cost Supplies="60" Power="60">
             </Cost>
             <AutoRecharge>90000</AutoRecharge>
             <UIRadius>6</UIRadius>
@@ -15781,7 +15781,7 @@
             <PowerType>UnitDrop</PowerType>
             <AIPowerUseType>MineDrop</AIPowerUseType>
             <SoundName>PlasmaMine</SoundName>
-            <Cost Supplies="60" Power="60">
+            <Cost Supplies="110" Power="110">
             </Cost>
             <AutoRecharge>90000</AutoRecharge>
             <UIRadius>6</UIRadius>
@@ -16474,10 +16474,10 @@
                 <Data type="bool" name="AffectsAllByFilterType">true</Data>
                 <Data type="objecttype" name="FilterType">BasicInfantry</Data>
                 <Data type="objecttype" name="FilterExcludeType">GruntSwarm</Data>
-                <Data type="float" name="BuffDuration">120</Data>
+                <Data type="float" name="BuffDuration">150</Data>
                 <Data type="bool" name="AffectsEnemies">false</Data>
                 <Data type="bool" name="AffectsSelfOnly">true</Data>
-                <Data type="int" name="MaxProcsAllUnits">12</Data>
+                <Data type="int" name="MaxProcsAllUnits">15</Data>
                 <Data type="protoobject" name="CastVfx">vfx_dlc5_powers_infrecyclingcast</Data>
                 <Data type="protoobject" name="BuffProcFX">vfx_dlc5_powers_infrecycling</Data>
                 <Data type="protoobject" name="BuffProcFX2">vfx_dlc5_powers_infrecyclingreverse</Data>
@@ -17321,7 +17321,7 @@
             <Pop type="Unit">16</Pop>
             <Cost Supplies="800" Power="250">
             </Cost>
-            <AutoRecharge>165000</AutoRecharge>
+            <AutoRecharge>200000</AutoRecharge>
             <UIRadius>12</UIRadius>
             <Decal>AoE_Medium</Decal>
             <ShowTransportArrows>true</ShowTransportArrows>
@@ -17390,7 +17390,7 @@
             <Pop type="Unit">26</Pop>
             <Cost Supplies="1300" Power="320">
             </Cost>
-            <AutoRecharge>165000</AutoRecharge>
+            <AutoRecharge>200000</AutoRecharge>
             <UIRadius>22</UIRadius>
             <Decal>AoE_Medium</Decal>
             <ShowTransportArrows>true</ShowTransportArrows>
