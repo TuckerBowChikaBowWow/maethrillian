@@ -7049,7 +7049,7 @@
         <Attributes>
             <PowerType>TechScript</PowerType>
             <AIPowerUseType>Passive</AIPowerUseType>
-            <TechScript>_POWER_BoundlessLeech</TechScript>
+            <TechScript>_POWER_CovBoundlessLeech</TechScript>
             <ProcOnPowerGranted>
             </ProcOnPowerGranted>
             <ProcOnSquadSpawned>
@@ -7062,38 +7062,13 @@
             <PrereqTextID>252</PrereqTextID>
             <LeaderPower>
             </LeaderPower>
-            <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
             <NotAffectedByCeasefire>
             </NotAffectedByCeasefire>
+            <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
             <FlashUI>
                 <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
                 <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
             </FlashUI>
-            <DataLevel level="0">
-                <Data type="bool" name="BuffDurationInfinite">true</Data>
-                <Data type="bool" name="AffectsAllByFilterType">true</Data>
-                <Data type="objecttype" name="FilterType">BasicVehicle</Data>
-                <Data type="objecttype" name="FilterType">UberUnit</Data>
-                <Data type="float" name="LeechPercent">0.025</Data>
-            </DataLevel>
-            <DataLevel level="0">
-                <Data type="bool" name="BuffDurationInfinite">true</Data>
-                <Data type="bool" name="AffectsAllByFilterType">true</Data>
-                <Data type="objecttype" name="FilterType">BasicAircraft</Data>
-                <Data type="float" name="LeechPercent">0.015000000000000001</Data>
-            </DataLevel>
-            <DataLevel level="0">
-                <Data type="bool" name="BuffDurationInfinite">true</Data>
-                <Data type="bool" name="AffectsAllByFilterType">true</Data>
-                <Data type="objecttype" name="FilterType">Hero</Data>
-                <Data type="float" name="LeechPercent">0.01</Data>
-            </DataLevel>
-            <DataLevel level="0">
-                <Data type="bool" name="BuffDurationInfinite">true</Data>
-                <Data type="bool" name="AffectsAllByFilterType">true</Data>
-                <Data type="objecttype" name="FilterType">BasicInfantry</Data>
-                <Data type="float" name="LeechPercent">0.015000000000000001</Data>
-            </DataLevel>
         </Attributes>
     </Power>
     <Power name="CovBoundlessRage">
