@@ -1,0 +1,55 @@
+<TacticData>
+    <Action>
+        <Name>orbitaleye_targetpaint</Name>
+        <ActionType>AreaBuff</ActionType>
+        <WorkRange>60</WorkRange>
+        <SpecificData>
+            <BuffParams BuffType="VortexDebuff" DamageMitigationScalar="1.3">0.5f</BuffParams>
+            <TargetTypes>
+                <Type>Military</Type>
+            </TargetTypes>
+            <Relations>
+                <Relation>Enemy</Relation>
+                <Relation>Neutral</Relation>
+            </Relations>
+        </SpecificData>
+        <ProtoObject>vfx_dlc2_units_masterchiefinspire</ProtoObject>
+    </Action>
+    <Action>
+        <Name>orbitaleye_targetpaintBuilding</Name>
+        <ActionType>AreaBuff</ActionType>
+        <WorkRange>60</WorkRange>
+        <SpecificData>
+            <BuffParams BuffType="VortexDebuff" DamageMitigationScalar="1.1">0.5f</BuffParams>
+            <TargetTypes>
+                <Type>Building</Type>
+            </TargetTypes>
+            <Relations>
+                <Relation>Enemy</Relation>
+                <Relation>Neutral</Relation>
+            </Relations>
+        </SpecificData>
+        <ProtoObject>vfx_dlc2_units_masterchiefinspire</ProtoObject>
+    </Action>
+    <Action>
+        <Name>slow</Name>
+        <ActionType>AreaBuff</ActionType>
+        <WorkRange>60</WorkRange>
+        <SpecificData>
+            <BuffParams BuffType="MethaneDebuff" SlowModifier="0.6">1.0f</BuffParams>
+            <TargetTypes>
+                <Type>Military</Type>
+            </TargetTypes>
+            <Relations>
+                <Relation>Enemy</Relation>
+                <Relation>Neutral</Relation>
+            </Relations>
+        </SpecificData>
+        <ProtoObject>vfx_dlc2_units_masterchiefinspire</ProtoObject>
+    </Action>
+    <Tactic>
+        <PersistentAction>orbitaleye_targetpaint</PersistentAction>
+        <PersistentAction>orbitaleye_targetpaintBuilding</PersistentAction>
+        <PersistentAction>slow</PersistentAction>
+    </Tactic>
+</TacticData>

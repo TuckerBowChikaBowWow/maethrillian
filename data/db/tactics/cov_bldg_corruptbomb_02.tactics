@@ -1,0 +1,26 @@
+<TacticData>
+    <Weapon>
+        <Name>PlasmaMine</Name>
+        <AttackRate>0.5</AttackRate>
+        <DamagePerSecond>0</DamagePerSecond>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <WeaponType>Basic</WeaponType>
+        <Apply>0.5</Apply>
+    </Weapon>
+    <Action>
+        <Name>ExplosiveManager</Name>
+        <ActionType>ExplosiveManager</ActionType>
+        <FuseType>Proximity</FuseType>
+        <WorkRange>0</WorkRange>
+        <Weapon>PlasmaMine</Weapon>
+        <DontAutoRestart>
+        </DontAutoRestart>
+        <ExplodeOnDeath>
+        </ExplodeOnDeath>
+        <ProjectileInvokePower>CorruptBomb2</ProjectileInvokePower>
+    </Action>
+    <Tactic>
+        <PersistentAction>ExplosiveManager</PersistentAction>
+    </Tactic>
+</TacticData>

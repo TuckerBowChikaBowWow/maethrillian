@@ -1,0 +1,30 @@
+<TacticData>
+    <Action>
+        <Name>TrainedSquadDoor</Name>
+        <ActionType>TrainedSquadDoor</ActionType>
+        <Hardpoint>Door</Hardpoint>
+    </Action>
+    <Action>
+        <Name>Base</Name>
+        <ActionType>Base</ActionType>
+    </Action>
+    <Action>
+        <Name>AreaBuff2</Name>
+        <ActionType>AreaBuff</ActionType>
+        <WorkRange>60</WorkRange>
+        <SpecificData>
+            <BuffParams BuffType="ForgehogHeavyMetal" SlowModifier="1.5" DamageMitigationScalar="0.8">0.5f</BuffParams>
+            <TargetTypes>
+            </TargetTypes>
+            <Relations>
+                <Relation>Ally</Relation>
+            </Relations>
+        </SpecificData>
+        <ProtoObject>vfx_episode2_building_floodhiveaura</ProtoObject>
+    </Action>
+    <Tactic>
+        <PersistentAction>TrainedSquadDoor</PersistentAction>
+        <PersistentAction>Base</PersistentAction>
+        <PersistentAction>AreaBuff2</PersistentAction>
+    </Tactic>
+</TacticData>

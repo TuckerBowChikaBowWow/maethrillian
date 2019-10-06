@@ -1,0 +1,97 @@
+<TacticData>
+    <Weapon>
+        <Name>OrbitalBombardmentShockwave</Name>
+        <AllowFriendlyFire>
+        </AllowFriendlyFire>
+        <DamagePerSecond>1</DamagePerSecond>
+        <WeaponType>leaderpower</WeaponType>
+        <AOERadius>40</AOERadius>
+        <AOEDistanceFactor>0.20295</AOEDistanceFactor>
+        <AOEDamageFactor>0.615</AOEDamageFactor>
+        <ThrowUnits>
+        </ThrowUnits>
+        <ThrowDamageParts>
+        </ThrowDamageParts>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsForceMin>1000</PhysicsForceMin>
+        <PhysicsForceMax>1200</PhysicsForceMax>
+        <DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
+        <DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
+        <Shockwave>
+        </Shockwave>
+    </Weapon>
+    <Weapon>
+        <Name>OrbitalBombardment</Name>
+        <DamagePerSecond>0</DamagePerSecond>
+        <UseDPSasDPA>
+        </UseDPSasDPA>
+        <WeaponType>LeaderPower</WeaponType>
+        <Projectile>pow_gp_arbiter_MassStasis_01</Projectile>
+        <ImpactEffect size="Large">MassStasis3</ImpactEffect>
+        <AllowFriendlyFire>
+        </AllowFriendlyFire>
+        <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="1" yawpitchstrength="2" rollstrength="1" rotationfrequency="2" translationstrength="0" translationfrequency="6">
+        </ImpactAdvancedCameraShake>
+        <ImpactCameraEffect>
+            <ColorTransformFactor>
+                <Value time="0">0.6</Value>
+                <Value time="0.3">0.3</Value>
+                <Value time="0.6">0</Value>
+            </ColorTransformFactor>
+            <BlurFactor>
+                <Value time="0">0.6</Value>
+                <Value time="0.3">0.6</Value>
+                <Value time="0.6">0</Value>
+            </BlurFactor>
+            <ColorTransformR>
+                <Value time="0">0.9,0,0</Value>
+            </ColorTransformR>
+            <ColorTransformG>
+                <Value time="0">0,0.9,0</Value>
+            </ColorTransformG>
+            <ColorTransformB>
+                <Value time="0">0,0,1</Value>
+            </ColorTransformB>
+            <BlurXY>
+            </BlurXY>
+            <RadialBlurFactor use3DPos="true">
+                <Value time="0">0.1,0.2</Value>
+                <Value time="0.3">0.2,0.2</Value>
+                <Value time="0.6">0,0</Value>
+            </RadialBlurFactor>
+            <FOV>
+            </FOV>
+        </ImpactCameraEffect>
+        <AOEData>
+            <Hitbox>
+                <Type>Circle</Type>
+                <Radius>40</Radius>
+                <DamageRatio>100</DamageRatio>
+                <Origin>Target</Origin>
+                <FriendlyFire>true</FriendlyFire>
+                <IgnoreY>true</IgnoreY>
+            </Hitbox>
+        </AOEData>
+        <ThrowUnits>
+        </ThrowUnits>
+        <ThrowDamageParts>
+        </ThrowDamageParts>
+        <PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+        <PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+        <PhysicsForceMin>1600</PhysicsForceMin>
+        <PhysicsForceMax>2000</PhysicsForceMax>
+    </Weapon>
+    <Action>
+        <Default>true</Default>
+        <Name>OrbitalBombardmentAttackAction</Name>
+        <Weapon>OrbitalBombardment</Weapon>
+        <ProjectileInvokePower>MassStasisProjectileEffect</ProjectileInvokePower>
+    </Action>
+    <Action>
+        <Name>OrbitalBombardmentShockwaveAction</Name>
+        <Weapon>OrbitalBombardmentShockwave</Weapon>
+    </Action>
+    <Tactic>
+    </Tactic>
+</TacticData>

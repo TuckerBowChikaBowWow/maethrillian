@@ -1,0 +1,15 @@
+resources:
+    containers:
+    - container: ancilla
+      image: ankoh/ancilla:azureci
+
+jobs:
+- job: package
+  pool:
+    vmImage: 'ubuntu-latest'
+  container: ancilla
+  steps:
+  - script: ./scripts/package.sh
+  - upload: build
+    artifact: maethrillian
+
