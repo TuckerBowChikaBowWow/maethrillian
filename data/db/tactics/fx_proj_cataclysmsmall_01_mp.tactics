@@ -17,7 +17,7 @@
         </ReapplyDamageOverArea>
         <Shockwave duration="20">
         </Shockwave>
-        <AOERadius>32</AOERadius>
+        <AOERadius>6</AOERadius>
         <Corruption overlap="0.5f" isCataclysm="true">
         </Corruption>
         <Buff targetType="Unit" buffType="CorruptionDebuff" BuffActivateFX="vfx_episode2_units_cataclysmunit" slowModifier="0.65">1</Buff>
@@ -33,7 +33,7 @@
         <AOEData>
             <Hitbox>
                 <Type>Circle</Type>
-                <Radius>32</Radius>
+                <Radius>6</Radius>
                 <DamageRatio>100</DamageRatio>
                 <Origin>Target</Origin>
                 <FriendlyFire>false</FriendlyFire>
