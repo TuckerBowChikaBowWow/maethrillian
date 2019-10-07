@@ -157,6 +157,100 @@
 		<Hardpoint>Torso</Hardpoint>
 		<LifeStealRatio shield="false">0.5</LifeStealRatio>
 	</Weapon>
+	<Weapon>
+		<Name>ThrownBruteShrapnelMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0.100000001</DamagePerSecond>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_grenade_02</Projectile>
+		<ImpactEffect size="Small">BruteMineImpact</ImpactEffect>
+		<Mine>fx_mine_BruteShrapnel_01_MP</Mine>
+		<MaxRange>45</MaxRange>
+		<AlwaysReplaceTargetWithItsPosition />
+		<MaxPlantRange>46</MaxPlantRange>
+	</Weapon>
+	<Weapon>
+		<Name>EnemyThrownBruteShrapnelMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0.100000001</DamagePerSecond>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_grenade_02</Projectile>
+		<ImpactEffect size="Small">BruteMineImpact</ImpactEffect>
+		<Mine>fx_mine_BruteShrapnel_01_MP</Mine>
+		<MaxRange>45</MaxRange>
+		<MaxPlantRange>46</MaxPlantRange>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+	</Weapon>
+	<Weapon>
+		<Name>RM_ThrownBruteShrapnelMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0.100000001</DamagePerSecond>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_grenade_03</Projectile>
+		<ImpactEffect size="Small">BruteMineImpact</ImpactEffect>
+		<Mine>fx_mine_BruteShrapnel_01_RM</Mine>
+		<MaxRange>45</MaxRange>
+		<AlwaysReplaceTargetWithItsPosition />
+		<MaxPlantRange>46</MaxPlantRange>
+	</Weapon>
+	<Weapon>
+		<Name>RM_EnemyThrownBruteShrapnelMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0.100000001</DamagePerSecond>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_grenade_03</Projectile>
+		<ImpactEffect size="Small">BruteMineImpact</ImpactEffect>
+		<Mine>fx_mine_BruteShrapnel_01_RM</Mine>
+		<MaxRange>45</MaxRange>
+		<MaxPlantRange>46</MaxPlantRange>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+	</Weapon>
+	<Action>
+		<Name>MineAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Mine</Anim>
+		<Weapon>ThrownBruteShrapnelMine</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+	</Action>
+	<Action>
+		<Name>EnemyMineAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Mine</Anim>
+		<Weapon>EnemyThrownBruteShrapnelMine</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+	</Action>
+	<Action>
+		<Name>RM_MineAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Mine</Anim>
+		<Weapon>RM_ThrownBruteShrapnelMine</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RM_EnemyMineAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Mine</Anim>
+		<Weapon>RM_EnemyThrownBruteShrapnelMine</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+		<StartDisabled />
+	</Action>
 	<Action>
 		<Name>InCoverBrutegunSiphonAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -375,6 +469,48 @@
 			<Relation>Self</Relation>
 			<TargetType>TeleportDropoff</TargetType>
 			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>MineAttackAction</Action>
+			<Relation>Self</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>MineAttackAction</Action>
+			<Relation>Ally</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>EnemyMineAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<Relation>Enemy</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>EnemyMineAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>RM_MineAttackAction</Action>
+			<Relation>Self</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>RM_MineAttackAction</Action>
+			<Relation>Ally</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>RM_EnemyMineAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<Relation>Enemy</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>RM_EnemyMineAttackAction</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>
