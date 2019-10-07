@@ -1002,7 +1002,7 @@
         <Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
     </Squad>
     <Squad name="cov_inf_bruteJumpPack_01_mp" parent_element="cov_inf_bruteJumpPack_01_base" dbid="1887980785101941783">
-        <BuildPoints>15</BuildPoints>
+        <BuildPoints>17</BuildPoints>
         <Cost ResourceType="Supplies">90</Cost>
         <Cost ResourceType="Power">50</Cost>
         <Cost ResourceType="HQLevel">0</Cost>
@@ -8640,6 +8640,16 @@
         <Counters>ODST_01</Counters>
     </Squad>
     <Squad name="unsc_inf_heroodst_01_mp" formationType="Flock" parent_element="unsc_inf_heroodst_01" dbid="16332387055744031903">
+        <Units>
+            <Unit count="1" role="leader">unsc_inf_heroodstRocket_01_mp</Unit>
+            <Unit count="3" role="normal">unsc_inf_heroodst_01_mp</Unit>
+            <Unit count="1" role="normal">unsc_inf_heroodstsniper_01_mp</Unit>
+        </Units>
+        <Pop Type="Spartan">1</Pop>
+        <Cost ResourceType="Supplies">300</Cost>
+        <Cost ResourceType="Power">275</Cost>
+        <Cost ResourceType="HQLevel">1</Cost>
+        <BuildPoints>45</BuildPoints>
     </Squad>
     <Squad name="unsc_inf_johnson_hero_01" dbid="15268622866869143349">
         <HealValue>1.3</HealValue>
@@ -9751,6 +9761,51 @@
         <Counters>Colossus_01</Counters>
         <FrozenThreshold>300</FrozenThreshold>
         <ChillDecayPerSecond>60</ChillDecayPerSecond>
+    </Squad>
+    <Squad name="unsc_veh_johnson_colossus_01_base" dbid="7513027710664995034">
+        <CombatRank>7</CombatRank>
+        <HealValue>2.75</HealValue>
+        <SubSelectSort>450</SubSelectSort>
+        <LeashDistance>0</LeashDistance>
+        <LeashDeadzone>12.6000004</LeashDeadzone>
+        <LeashRecallDelay>2500</LeashRecallDelay>
+        <MinimapIcon size="8">Square</MinimapIcon>
+        <AIAttackRank>10</AIAttackRank>
+        <UnlockableActiveAbilityType>Stomp</UnlockableActiveAbilityType>
+        <HPBar offset="0,14,0">UNSC_Health</HPBar>
+        <AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+        <VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+        <Pop Type="Unit">9</Pop>
+        <Cost ResourceType="Supplies">750</Cost>
+        <Cost ResourceType="Power">120</Cost>
+        <Cost ResourceType="HQLevel">3</Cost>
+        <BuildPoints>42</BuildPoints>
+        <Units>
+            <Unit count="1" role="normal">unsc_veh_johnson_colossus_01</Unit>
+        </Units>
+        <Flag>Chatter</Flag>
+        <Flag>Repairable</Flag>
+        <Flag>KBAware</Flag>
+        <Flag>UseNameForSelectionDecal</Flag>
+        <Flag>UseNameForSelectionIcon</Flag>
+        <Flag>UseNameForMenuIcon</Flag>
+        <Selection>
+            <ConformToTerrain>true</ConformToTerrain>
+            <AlignToCamera>true</AlignToCamera>
+            <StencilType>All</StencilType>
+            <WriteToMergeStencil>True</WriteToMergeStencil>
+        </Selection>
+        <Birth>IncomingAnim</Birth>
+        <TurnRadius min="0.5" max="8" />
+        <AvoidanceMass>Heavy</AvoidanceMass>
+        <Counters>Colossus_01</Counters>
+        <FrozenThreshold>300</FrozenThreshold>
+        <ChillDecayPerSecond>60</ChillDecayPerSecond>
+    </Squad>
+    <Squad name="unsc_veh_johnson_colossus_01_mp" parent_element="unsc_veh_johnson_colossus_01_base" dbid="14868374840075873018">
+        <Cost ResourceType="Supplies">1750</Cost>
+        <Cost ResourceType="Power">120</Cost>
+        <Cost ResourceType="HQLevel">3</Cost>
     </Squad>
     <Squad name="unsc_veh_johnson_mantis_01" parent_element="unsc_veh_johnson_mantis_01_sp" dbid="9249260601064486921">
         <Flag>UseNameForSelectionDecal</Flag>
