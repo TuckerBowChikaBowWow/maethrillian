@@ -210,6 +210,155 @@
 		<Weapon>StompAttackWeapon</Weapon>
 		<TrampleAttack />
 	</Action>
+	<Weapon>
+		<Name>ShadeTurretSiphon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>290</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_rocket_01</Projectile>
+		<ImpactEffect size="Medium">BanishedMissileExplosion</ImpactEffect>
+		<MaxVelocityLead>18.4500008</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Hardpoint>ShadeTurret</Hardpoint>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<TargetPriority type="Flying">9</TargetPriority>
+		<TargetPriority type="Aircraft">9</TargetPriority>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<LifeStealRatio shield="false">0.2</LifeStealRatio>
+	</Weapon>
+	<Weapon>
+		<Name>scarabBeamSiphon</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>1500</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_scarabBeam_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MinRange>6</MinRange>
+		<MaxRange>60</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>900</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<TargetPriority type="Flying">2</TargetPriority>
+		<LifeStealRatio shield="false">0.2</LifeStealRatio>
+	</Weapon>
+	<Weapon>
+		<Name>StompAttackWeaponSiphon</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>600</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<UseDPSasDPA />
+		<ImpactEffect size="Medium">ScarabStomp</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>900</PhysicsForceMax>
+		<LifeStealRatio shield="false">0.2</LifeStealRatio>
+	</Weapon>
+	<Weapon>
+		<Name>RamSiphon</Name>
+		<WeaponType>WarthogRam</WeaponType>
+		<MaxRange>3.07500005</MaxRange>
+		<AOERadius>24.6000004</AOERadius>
+		<ThrowUnits />
+		<FlailThrownUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>30</PhysicsLaunchAngleMax>
+		<PhysicsLaunchAxial />
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>1400</PhysicsForceMax>
+		<ImpactCameraShake duration="0.400000006" strength="0.379999995" />
+		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
+		<MaxDamagePerRam>2000</MaxDamagePerRam>
+		<ReflectDamageFactor>0</ReflectDamageFactor>
+		<Filter>Medium</Filter>
+		<LifeStealRatio shield="false">0.2</LifeStealRatio>
+	</Weapon>
+	<Action>
+		<Name>ShadeTurretSiphonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ShadeTurretFire</Anim>
+		<Weapon>ShadeTurretSiphon</Weapon>
+		<DontCheckOrientTolerance />
+		<StartAnim noInterrupt="true">ShadeTurretOpen</StartAnim>
+		<EndAnim>ShadeTurretClose</EndAnim>
+		<CombatIdleAnimOverride>ShadeTurretCombatIdle</CombatIdleAnimOverride>
+		<CombatIdleDuration>2.5</CombatIdleDuration>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>scarabBeamSiphonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttack</Anim>
+		<Weapon>scarabBeamSiphon</Weapon>
+		<Strafing maxDistance="45" turnRate="90" trackingSpeed="25" jitter="20" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<CanOrientOwner>true</CanOrientOwner>
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+		<PersistBetweenOpps />
+		<LoopAttackAnim />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RamSiphonAttack</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>RamSiphon</Weapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>StompSiphonAttack</Name>
+		<ActionType>CollisionAttack</ActionType>
+		<Weapon>StompAttackWeaponSiphon</Weapon>
+		<TrampleAttack />
+		<StartDisabled />
+	</Action>
 	<Action>
 		<Name>GarrisonTeleport</Name>
 		<ActionType>Garrison</ActionType>
@@ -231,6 +380,7 @@
 		<WorkRange>4</WorkRange>
 	</Action>
 	<Tactic>
+		<PersistentAction>ShadeTurretSiphonAttackAction</PersistentAction>
 		<PersistentAction>ShadeTurretAttackAction</PersistentAction>
 		<PersistentAction>PersistentCollisionAttack</PersistentAction>
 		<TargetRule>
@@ -257,6 +407,14 @@
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
 			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>ShadeTurretSiphonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>scarabBeamSiphonAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
