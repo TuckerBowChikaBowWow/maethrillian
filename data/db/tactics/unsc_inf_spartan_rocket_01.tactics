@@ -2,7 +2,7 @@
     <Weapon>
         <Name>RocketLauncher</Name>
         <AttackRate>0.5</AttackRate>
-        <DamagePerSecond>550</DamagePerSecond>
+        <DamagePerSecond>525</DamagePerSecond>
         <WeaponType>Hero</WeaponType>
         <Projectile>fx_proj_engmissile_01</Projectile>
         <ImpactEffect size="Medium" alwaysHorizontal="true">MissileImpact</ImpactEffect>
@@ -20,15 +20,15 @@
         <AOEData>
             <Hitbox>
                 <Type>Circle</Type>
-                <Radius>5</Radius>
+                <Radius>4</Radius>
                 <DamageRatio>100</DamageRatio>
                 <Origin>Target</Origin>
                 <FriendlyFire>false</FriendlyFire>
             </Hitbox>
             <Hitbox>
                 <Type>Circle</Type>
-                <Radius>8</Radius>
-                <DamageRatio>25</DamageRatio>
+                <Radius>6</Radius>
+                <DamageRatio>20</DamageRatio>
                 <Origin>Target</Origin>
                 <FriendlyFire>false</FriendlyFire>
             </Hitbox>
@@ -43,7 +43,7 @@
     <Weapon>
         <Name>AntiAircraftRocketLauncher</Name>
         <AttackRate>0.5</AttackRate>
-        <DamagePerSecond>660</DamagePerSecond>
+        <DamagePerSecond>600</DamagePerSecond>
         <WeaponType>Hero</WeaponType>
         <Projectile>fx_proj_engmissile_01</Projectile>
         <ImpactEffect size="Medium" alwaysHorizontal="true">MissileImpact</ImpactEffect>
@@ -61,15 +61,15 @@
         <AOEData>
             <Hitbox>
                 <Type>Circle</Type>
-                <Radius>5</Radius>
+                <Radius>4</Radius>
                 <DamageRatio>100</DamageRatio>
                 <Origin>Target</Origin>
                 <FriendlyFire>false</FriendlyFire>
             </Hitbox>
             <Hitbox>
                 <Type>Circle</Type>
-                <Radius>10</Radius>
-                <DamageRatio>25</DamageRatio>
+                <Radius>6</Radius>
+                <DamageRatio>20</DamageRatio>
                 <Origin>Target</Origin>
                 <FriendlyFire>false</FriendlyFire>
             </Hitbox>

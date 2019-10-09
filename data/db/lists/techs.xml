@@ -1436,6 +1436,12 @@
             <Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_sniper_02">
                 <Target type="ProtoSquad">unsc_inf_Sniper_01</Target>
             </Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_Sniper_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_Sniper_01</Target>
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_Sniper_upgrade1" type="Normal">
@@ -5427,7 +5433,8 @@
         <ResearchPoints>0</ResearchPoints>
         <Status>UNOBTAINABLE</Status>
         <Flag>Shadow</Flag>
-        <Effects>\<Effect type="UnlockableGodPower" tier="1">CovSkitterer</Effect>
+        <Effects>
+			<Effect type="UnlockableGodPower" tier="1">CovSkitterer</Effect>
             <Effect type="UnlockableGodPower" tier="1">LekgoloWalls1</Effect>
             <Effect type="UnlockableGodPower" tier="1" prereq="LekgoloWalls1">LekgoloWalls2</Effect>
             <Effect type="UnlockableGodPower" tier="2">LekgoloWormBuff1</Effect>
@@ -10847,8 +10854,8 @@
         <PrereqTextID>233</PrereqTextID>
         <Prereqs>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">1000</Cost>
+        <Cost resourcetype="Supplies">300</Cost>
+        <Cost resourcetype="Power">600</Cost>
         <Cost resourcetype="HQLevel">3</Cost>
         <ResearchPoints>50</ResearchPoints>
         <Status>OBTAINABLE</Status>
@@ -13033,6 +13040,9 @@
             <Effect type="Data" amount="1" subtype="ActionEnable" action="AOEBrutegun2AttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_brutegrenadier_01</Target>
             </Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AOEBrutegun2AVAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutegrenadier_01</Target>
+            </Effect>
             <Effect type="SquadCounter" NewCounterName="BruteGrenadier_02">
                 <Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
             </Effect>
@@ -13053,7 +13063,13 @@
             <Effect type="Data" amount="0" subtype="ActionEnable" action="AOEBrutegun2AttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_brutegrenadier_01</Target>
             </Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AOEBrutegun2AVAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutegrenadier_01</Target>
+            </Effect>
             <Effect type="Data" amount="1" subtype="ActionEnable" action="AOEBrutegun3AttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutegrenadier_01</Target>
+            </Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AOEBrutegun3AVAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_brutegrenadier_01</Target>
             </Effect>
             <Effect type="SquadCounter" NewCounterName="BruteGrenadier_03">
