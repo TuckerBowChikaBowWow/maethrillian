@@ -223,6 +223,58 @@
 			</CleansingBeams>
 		</SpecificData>
 	</Action>
+	<Weapon>
+		<Name>HammerSiphon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>850</DamagePerSecond>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<WeaponType>Hero</WeaponType>
+		<MaxRange>3</MaxRange>
+		<Hardpoint>Torso</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PullUnits />
+		<MinPullRange>22</MinPullRange>
+		<MaxPullRange>75</MaxPullRange>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+	</Weapon>
+	<Action>
+		<Name>HammerSiphonAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim noInterrupt="true">Attack</Anim>
+		<Weapon>HammerSiphon</Weapon>
+		<FullBodyAttackAnim />
+		<InvalidTarget>UberUnit</InvalidTarget>
+		<ReactionAnim>Flail</ReactionAnim>
+		<VelocityScalar>22</VelocityScalar>
+		<FollowTarget />
+		<FollowDistance>10</FollowDistance>
+		<MinRelativeHeight>6</MinRelativeHeight>
+		<MaxRelativeHeight>9</MaxRelativeHeight>
+		<Chargable />
+		<ProtoObject bone="bone_vfx_PullPoint">fx_decimuspullbeam</ProtoObject>
+		<Strafing maxDistance="15" turnRate="90" trackingSpeed="40" />
+		<StartDisabled />
+	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
 		<ActionType>Gather</ActionType>
@@ -327,6 +379,12 @@
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
 			<Action>HammerAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>HammerSiphonAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>

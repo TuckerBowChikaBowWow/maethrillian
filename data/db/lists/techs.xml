@@ -4150,6 +4150,500 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="_POWER_CovBoundlessLeech" type="Normal">
+        <DBID>1963</DBID>
+        <DisplayNameID>26016</DisplayNameID>
+        <RolloverTextID>26016</RolloverTextID>
+        <PrereqTextID>26016</PrereqTextID>
+        <ResearchPoints>0</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Effects>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverBrutegunAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteLeader_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverBrutegunSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteLeader_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="AirBrutegunAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteLeader_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="AirBrutegunSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteLeader_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="BrutegunAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteLeader_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="BrutegunSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteLeader_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverBrutegunAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutesubleader_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverBrutegunSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutesubleader_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="AirBrutegunAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutesubleader_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="AirBrutegunSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutesubleader_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="BrutegunAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutesubleader_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="BrutegunSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutesubleader_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverPlasmaPistolAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_grunt_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverPlasmaPistolSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_grunt_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="AirPlasmaPistolAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_grunt_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="AirPlasmaPistolSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_grunt_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaPistolAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_grunt_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="PlasmaPistolSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_grunt_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="BlisterbackArtilleryFireAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_air_blisterback_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="BlisterbackArtillerySiphonFireAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_air_blisterback_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_air_blisterback_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="PlasmaCannonSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_air_blisterback_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="CarbineRifleAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_jackal_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="CarbineRifleSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_jackal_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="JumpAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutejumppack_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="JumpSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutejumppack_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="HammerAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutejumppack_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="HammerSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutejumppack_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="ShadeTurretAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_scarab_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ShadeTurretSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_scarab_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="scarabBeamAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_scarab_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="scarabBeamSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_scarab_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="StompAttack" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_scarab_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="StompSiphonAttack" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_scarab_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="OverburnAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_locust_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="OverburnSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_locust_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="chimeraBeamAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_locust_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="chimeraBeamSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_locust_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="ShadeTurretAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_prowler_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ShadeTurretSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_prowler_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="ArtilleryAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_prowler_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ArtillerySiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_prowler_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="BoostJump" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_gorgon_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="BoostJumpSiphon" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_gorgon_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="LongBoostJump" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_gorgon_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="LongBoostJumpSiphon" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_gorgon_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="MissileAttackRightAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_gorgon_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="MissileAttackRightSiphonAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_gorgon_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="MissileAttackLeftAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_gorgon_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="MissileAttackLeftSiphonAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_gorgon_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="AutocannonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_gorgon_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="AutocannonSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_gorgon_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="HammerAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_mpdecimus_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="HammerSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_mpdecimus_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="cov_bruteHonoursiphon_upgrade0" type="Normal">
+    <Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>27806</DisplayNameID>
+        <RolloverTextID>27807</RolloverTextID>
+        <PrereqTextID>243</PrereqTextID>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Prereqs>
+            <TechStatus status="Active">cov_basic</TechStatus>
+            <TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+        </Prereqs>
+        <Effects>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="HammerSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="HammerAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="SelfHammerShockwaveSiphonAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="SelfHammerShockwaveAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="HammerShockwaveSiphonAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="HammerShockwaveAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="cov_bruteHonoursiphon_upgrade1" type="Normal">
+        <Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>27806</DisplayNameID>
+        <RolloverTextID>27807</RolloverTextID>
+        <PrereqTextID>243</PrereqTextID>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Prereqs>
+            <TechStatus status="Active">cov_bruteHonour_upgrade1</TechStatus>
+            <TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+        </Prereqs>
+        <Effects>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="PullHammerSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="PullHammerAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="HammerSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="cov_bruteHonoursiphon_upgrade2" type="Normal">
+        <Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>27808</DisplayNameID>
+        <RolloverTextID>27809</RolloverTextID>
+        <PrereqTextID>243</PrereqTextID>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Prereqs>
+            <TechStatus status="Active">cov_bruteHonour_upgrade2</TechStatus>
+            <TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+        </Prereqs>
+        <Effects>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="StunningPullHammerSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="StunningPullHammerAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="PullHammerSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="cov_bruteHonoursiphon_upgrade3" type="Normal">
+        <Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>27810</DisplayNameID>
+        <RolloverTextID>27811</RolloverTextID>
+        <PrereqTextID>243</PrereqTextID>
+        <ResearchPoints>35</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Prereqs>
+            <TechStatus status="Active">cov_bruteHonour_upgrade3</TechStatus>
+            <TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+        </Prereqs>
+        <Effects>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="HealingStunningPullHammerSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="HealingStunningPullHammerAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="StunningPullHammerSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="cov_huntersiphon_upgrade0" type="Normal">
+    	<Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>22376</DisplayNameID>
+        <RolloverTextID>22377</RolloverTextID>
+        <PrereqTextID>244</PrereqTextID>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Prereqs>
+            <TechStatus status="Active">cov_basic</TechStatus>
+            <TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+        </Prereqs>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Effects>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="FuelRodCannonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_hunter_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="FuelRodCannonSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_hunter_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="cov_huntersiphon_upgrade1" type="Normal">
+        <Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>22376</DisplayNameID>
+        <RolloverTextID>22377</RolloverTextID>
+        <PrereqTextID>244</PrereqTextID>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Prereqs>
+            <TechStatus status="Active">cov_hunter_upgrade1</TechStatus>
+            <TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+        </Prereqs>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Effects>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="BeamCannonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_hunter_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="FuelRodCannonSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_hunter_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="BeamCannonSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_hunter_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+	<Tech name="cov_bruteChoppersiphon_upgrade0" type="Normal">
+   		<Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>22386</DisplayNameID>
+        <RolloverTextID>22387</RolloverTextID>
+        <PrereqTextID>243</PrereqTextID>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Prereqs>
+            <TechStatus status="Active">cov_basic</TechStatus>
+            <TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+        </Prereqs>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Effects>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonLeftAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonRightAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="PlasmaCannonLeftSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="PlasmaCannonRightSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="RamAttack" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="RamSiphonAttack" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="cov_bruteChoppersiphon_upgrade1" type="Normal">
+        <Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>22386</DisplayNameID>
+        <RolloverTextID>22387</RolloverTextID>
+        <PrereqTextID>243</PrereqTextID>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Prereqs>
+            <TechStatus status="Active">cov_bruteChopper_upgrade4</TechStatus>
+            <TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+        </Prereqs>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Effects>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="ExplosivePlasmaCannonRightAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="ExplosivePlasmaCannonLeftAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonLeftSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonRightSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ExplosivePlasmaCannonRightSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ExplosivePlasmaCannonLeftSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+	<Tech name="cov_wraithsiphon_upgrade0" type="Normal">
+   		<Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>1102</DisplayNameID>
+        <RolloverTextID>1103</RolloverTextID>
+        <PrereqTextID>231</PrereqTextID>
+        <Prereqs>
+            <TechStatus status="Active">cov_basic</TechStatus>
+            <TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+        </Prereqs>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Effects>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonRightAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_wraith_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="PlasmaCannonSiphonRightAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_wraith_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonLeftAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_wraith_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="PlasmaCannonLeftSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_wraith_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="cov_wraithsiphon_upgrade1" type="Normal">
+        <Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>1102</DisplayNameID>
+        <RolloverTextID>1103</RolloverTextID>
+        <PrereqTextID>231</PrereqTextID>
+        <Prereqs>
+            <TechStatus status="Active">cov_wraith_upgrade1</TechStatus>
+            <TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+        </Prereqs>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Effects>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="ScorchMortarAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_wraith_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ScorchMortarSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_wraith_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+	<Tech name="cov_bansheesiphon_upgrade0" type="Normal">
+   		<Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>1092</DisplayNameID>
+        <RolloverTextID>1093</RolloverTextID>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Prereqs>
+            <TechStatus status="Active">cov_basic</TechStatus>
+            <TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+        </Prereqs>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Effects>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="FuelRodCannonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_air_banshee_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_air_banshee_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="FuelRodCannonSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_air_banshee_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="PlasmaCannonSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_air_banshee_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="cov_bansheesiphon_upgrade1" type="Normal">
+        <Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>1092</DisplayNameID>
+        <RolloverTextID>1093</RolloverTextID>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Prereqs>
+            <TechStatus status="Active">cov_banshee_upgrade1</TechStatus>
+            <TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+        </Prereqs>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Effects>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaTorpedoAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_air_banshee_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="PlasmaTorpedoSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_air_banshee_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
 	<Tech name="covenant_LeaderDecimus" type="Normal">
 		<DBID>2104</DBID>
 		<ResearchPoints>0</ResearchPoints>
