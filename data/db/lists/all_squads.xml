@@ -2793,12 +2793,14 @@
 	</Squad>
 	<Squad name="cov_veh_wraith_01_fromlich" dbid="5026051648233509920" parent_element="cov_veh_wraith_01">
 		<BuildPoints>20</BuildPoints>
+		<Cost ResourceType="Supplies">500</Cost>
+		<Cost ResourceType="Power">90</Cost>
 		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
 	<Squad name="cov_veh_wraith_01_mp" parent_element="cov_veh_wraith_01_base" dbid="7645627556186799249">
 		<BuildPoints>31</BuildPoints>
-		<Cost ResourceType="Supplies">550</Cost>
-		<Cost ResourceType="Power">75</Cost>
+		<Cost ResourceType="Supplies">500</Cost>
+		<Cost ResourceType="Power">90</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
 		<HealValue>2</HealValue>
 		<FrozenThreshold>300</FrozenThreshold>
