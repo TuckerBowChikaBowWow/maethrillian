@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetRenderTargets group="UIDecalStencil">
+		<Target name="Depth" />
+	</SetRenderTargets>
+	<SetStencilRef group="UIDecalStencil">
+		<StencilRef value="255" />
+	</SetStencilRef>
+	<DrawRenderItems group="UIDecalStencil">
+		<Priority type="UIDecalStencil" />
+		<DrawRenderItem />
+	</DrawRenderItems>
+	<Include file="renderPasses_SetupTileLightingForPass.xml" />
+	<Include file="renderPasses_SetupAlphaTypePass.xml" />
+	<SetRenderTargets group="PreAlpha">
+		<Target name="LightAccumulation" />
+		<Target name="Depth" />
+	</SetRenderTargets>
+	<DrawRenderItems group="PreAlpha">
+		<Priority type="PreAlpha" />
+		<DrawRenderItem />
+	</DrawRenderItems>
+	<DrawRenderItems group="AlphaDecal">
+		<Priority type="AlphaDecal" />
+		<DrawRenderItem />
+	</DrawRenderItems>
+	<SetStencilRef group="UIDecals">
+		<StencilRef value="255" />
+	</SetStencilRef>
+	<DrawRenderItems group="UIDecals">
+		<Priority type="UIDecal" />
+		<DrawRenderItem />
+	</DrawRenderItems>
+	<DrawRenderItems group="Alpha">
+		<Priority type="Alpha" />
+		<DrawRenderItem />
+	</DrawRenderItems>
+	<GPUParticle group="Alpha">
+		<Render value="true" />
+	</GPUParticle>
+</RenderPasses>

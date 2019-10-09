@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetRenderTargets group="SSR">
+		<Target name="ScreenSpaceRefl" />
+	</SetRenderTargets>
+	<SetViewport group="SSR">
+		<Coords x="0" y="0" relativeWidth="0.5" relativeHeight="0.5" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetTexture group="SSR">
+		<Target name="LightAccumulation" />
+		<Shader type="Pixel" />
+		<Index index="8" />
+	</SetTexture>
+	<SamplerState group="SSR">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="1" />
+	</SamplerState>
+	<SamplerState group="SSR">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Point" mag="Point" mip="Point" />
+		<Index index="7" />
+	</SamplerState>
+	<SamplerState group="SSR">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="8" />
+	</SamplerState>
+	<DrawNoVertexBuffer group="SSR">
+		<Primitive type="TriList" count="1" />
+	</DrawNoVertexBuffer>
+	<SamplerState group="SSR">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="0" />
+	</SamplerState>
+	<BlurMips group="SSR">
+		<Target name="ScreenSpaceRefl" />
+		<IntermediateTarget name="ScreenSpaceReflTemp" />
+		<HorzShader name="BlurSSR_H" />
+		<VertShader name="BlurSSR_V" />
+	</BlurMips>
+	<UnsetTexture group="LightingDeferred">
+		<Shader type="Pixel" />
+		<Index index="8" />
+	</UnsetTexture>
+	<SetViewport group="Reflection">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetRenderTargets group="Reflection">
+		<Target name="LightAccumulation" />
+	</SetRenderTargets>
+	<SetTexture group="Reflection">
+		<Target name="GBufferRT0" />
+		<Shader type="Pixel" />
+		<Index index="0" />
+	</SetTexture>
+	<SetTexture group="Reflection">
+		<Target name="AO_Depth_ShadowMask" />
+		<Shader type="Pixel" />
+		<Index index="5" />
+	</SetTexture>
+	<SamplerState group="Reflection">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Comparison function="LessEqual" enabled="1" />
+		<Index index="5" />
+	</SamplerState>
+	<SamplerState group="Reflection">
+		<Address u="Wrap" v="Wrap" w="Wrap" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="6" />
+	</SamplerState>
+	<SamplerState group="Reflection">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="12" />
+	</SamplerState>
+	<BindIBLData group="Reflection">
+		<GlobalIBLTex shaderType="Pixel" textureIndex="6" />
+		<GlobalIBLSHCoeffs shaderType="Pixel" textureIndex="10" />
+		<BRDFTexture shaderType="Pixel" textureIndex="12" />
+	</BindIBLData>
+	<SetTexture group="Reflection">
+		<Target name="ScreenSpaceRefl" />
+		<Shader type="Pixel" />
+		<Index index="9" />
+	</SetTexture>
+	<SamplerState group="Reflection">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="9" />
+	</SamplerState>
+	<SetTexture group="Reflection">
+		<Target name="AO_Depth_ShadowMask" />
+		<Shader type="Pixel" />
+		<Index index="5" />
+	</SetTexture>
+	<SetShader group="Reflection">
+		<Shader name="Reflection" />
+	</SetShader>
+	<DrawNoVertexBuffer group="Reflection">
+		<Primitive type="TriList" count="1" />
+	</DrawNoVertexBuffer>
+	<UnsetTexture group="Reflection">
+		<Shader type="Pixel" />
+		<Index index="9" />
+	</UnsetTexture>
+</RenderPasses>

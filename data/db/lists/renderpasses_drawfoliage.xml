@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<ConditionalPass group="DrawFoliage">
+		<If condition="FoliageEnabled">
+			<SamplerState group="DrawFoliage">
+				<Address u="Clamp" v="Clamp" w="Clamp" />
+				<Filter min="Linear" mag="Linear" mip="Linear" />
+				<Index index="12" />
+				<Shader type="Vertex" />
+			</SamplerState>
+			<SetTexture group="DrawFoliage">
+				<RenderGlobal name="FoliageForceMap" />
+				<Shader type="Vertex" />
+				<Index index="12" />
+			</SetTexture>
+			<DrawFoliage group="DrawFoliage" />
+		</If>
+	</ConditionalPass>
+</RenderPasses>

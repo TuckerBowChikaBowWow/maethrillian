@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetRenderTargets group="ModelTracker">
+		<Target name="GBufferRT1" />
+		<Target name="Depth" />
+	</SetRenderTargets>
+	<SetViewport group="ModelTracker">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<Clear group="ModelTracker">
+		<Target name="GBufferRT1" />
+		<Color r="255" g="255" b="255" a="255" />
+	</Clear>
+	<DrawRenderItems group="ModelTracker">
+		<Priority begin="Solid" end="SolidUnitOccluder" />
+		<RenderItemExecutionParams>
+			<BindShaders value="false" />
+		</RenderItemExecutionParams>
+		<SetShader>
+			<SkinnedShader name="SkinnedModelTracker" />
+			<Shader name="ModelTracker" />
+		</SetShader>
+		<DrawRenderItem />
+	</DrawRenderItems>
+	<UpdateModelTracker>
+		<Target name="GBufferRT1" />
+	</UpdateModelTracker>
+</RenderPasses>

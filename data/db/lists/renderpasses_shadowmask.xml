@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetViewport group="ShadowMask">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetRenderTargets group="ShadowMask">
+		<Target name="AO_Depth_ShadowMask" />
+	</SetRenderTargets>
+	<SetTexture group="ShadowMask">
+		<Target name="GBufferRT0" />
+		<Shader type="Pixel" />
+		<Index index="0" />
+	</SetTexture>
+	<SamplerState group="ShadowMask">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="0" />
+	</SamplerState>
+	<SetTexture group="ShadowMask">
+		<Target name="GBufferRT1" />
+		<Shader type="Pixel" />
+		<Index index="1" />
+	</SetTexture>
+	<SamplerState group="ShadowMask">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="1" />
+	</SamplerState>
+	<SetTexture group="ShadowMask">
+		<Target name="GBufferRT2" />
+		<Shader type="Pixel" />
+		<Index index="2" />
+	</SetTexture>
+	<SamplerState group="ShadowMask">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="2" />
+	</SamplerState>
+	<SetTexture group="ShadowMask">
+		<Target name="GBufferRT3" />
+		<Shader type="Pixel" />
+		<Index index="3" />
+	</SetTexture>
+	<SamplerState group="ShadowMask">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="3" />
+	</SamplerState>
+	<SetTexture group="ShadowMask">
+		<Target name="DepthCopy" />
+		<Shader type="Pixel" />
+		<Index index="7" />
+	</SetTexture>
+	<SamplerState group="ShadowMask">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="7" />
+	</SamplerState>
+	<SetTexture group="ShadowMask">
+		<Target name="DirectionalLightDepth" />
+		<Shader type="Pixel" />
+		<Index index="5" />
+	</SetTexture>
+	<SamplerState group="ShadowMask">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Comparison function="LessEqual" enabled="1" />
+		<Index index="5" />
+	</SamplerState>
+	<SetTexture group="ShadowMask">
+		<Target name="AlphaShadowAccum" />
+		<Shader type="Pixel" />
+		<Index index="14" />
+	</SetTexture>
+	<SamplerState group="ShadowMask">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="14" />
+	</SamplerState>
+	<SetShadowMaskShader group="ShadowMask" />
+	<DrawNoVertexBuffer group="ShadowMask">
+		<Primitive type="TriList" count="1" />
+	</DrawNoVertexBuffer>
+</RenderPasses>

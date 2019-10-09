@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetViewport group="LightingPrologueReflection">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetRenderTargets group="LightingPrologueReflection">
+		<ParamTarget value="True" />
+	</SetRenderTargets>
+	<Clear group="LightingPrologueReflection">
+		<Flags flags="Color" />
+		<Color r="0" g="0" b="0" a="0" />
+	</Clear>
+	<SetTexture group="LightingPrologueReflection">
+		<Target name="GBufferRT0" />
+		<Shader type="Pixel" />
+		<Index index="0" />
+	</SetTexture>
+	<SamplerState group="LightingPrologueReflection">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="0" />
+	</SamplerState>
+	<SetTexture group="LightingPrologueReflection">
+		<Target name="GBufferRT1" />
+		<Shader type="Pixel" />
+		<Index index="1" />
+	</SetTexture>
+	<SamplerState group="LightingPrologueReflection">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="1" />
+	</SamplerState>
+	<SetTexture group="LightingPrologueReflection">
+		<Target name="GBufferRT2" />
+		<Shader type="Pixel" />
+		<Index index="2" />
+	</SetTexture>
+	<SamplerState group="LightingPrologueReflection">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="2" />
+	</SamplerState>
+	<SetTexture group="LightingPrologueReflection">
+		<Target name="GBufferRT3" />
+		<Shader type="Pixel" />
+		<Index index="3" />
+	</SetTexture>
+	<SamplerState group="LightingPrologueReflection">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="3" />
+	</SamplerState>
+	<SetTexture group="LightingPrologueReflection">
+		<Target name="DepthCopy" />
+		<Shader type="Pixel" />
+		<Index index="7" />
+	</SetTexture>
+	<SamplerState group="LightingPrologueReflection">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="7" />
+	</SamplerState>
+	<UnsetTexture group="LightingDeferredReflection">
+		<Shader type="Pixel" />
+		<Index index="0" />
+	</UnsetTexture>
+	<UnsetTexture group="LightingDeferredReflection">
+		<Shader type="Pixel" />
+		<Index index="1" />
+	</UnsetTexture>
+	<UnsetTexture group="LightingDeferredReflection">
+		<Shader type="Pixel" />
+		<Index index="2" />
+	</UnsetTexture>
+	<UnsetTexture group="LightingDeferredReflection">
+		<Shader type="Pixel" />
+		<Index index="3" />
+	</UnsetTexture>
+	<UnsetTexture group="LightingDeferredReflection">
+		<Shader type="Pixel" />
+		<Index index="7" />
+	</UnsetTexture>
+	<UnsetTexture group="LightingDeferredReflection">
+		<Shader type="Pixel" />
+		<Index index="5" />
+	</UnsetTexture>
+</RenderPasses>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<StaticConditionalPass group="PostProcessing">
+		<If condition="PlatformDX12">
+			<PrepareTonemapping group="PostProcessing">
+				<HistogramSource name="Downsampled2x2" />
+				<HistogramTarget name="HistogramDX12" />
+			</PrepareTonemapping>
+		</If>
+		<Else>
+			<PrepareTonemapping group="PostProcessing">
+				<HistogramSource name="Downsampled2x2" />
+				<HistogramTarget name="Histogram" />
+			</PrepareTonemapping>
+		</Else>
+	</StaticConditionalPass>
+</RenderPasses>

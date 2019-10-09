@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetBackbufferRenderTarget group="Debug">
+		<UseRealHDRBackBuffer value="true" />
+	</SetBackbufferRenderTarget>
+	<SetViewport group="Debug">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissorRect group="Debug">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+	</SetScissorRect>
+	<SetBackbufferRenderTarget group="Debug">
+		<CustomDepthTarget name="Depth" />
+	</SetBackbufferRenderTarget>
+	<DebugPrimitives group="Debug" />
+	<SetBackbufferRenderTarget group="Debug" />
+	<DebugDrawObjects group="Debug" />
+	<MicroProfile group="Debug" />
+	<DebugDrawIMGUI group="Debug" />
+	<SetViewport group="Debug">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissorRect group="Debug">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+	</SetScissorRect>
+	<Cursor group="Debug" />
+</RenderPasses>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<ConditionalPriorityPass group="AlphaDepth">
+		<If condition="AlphaDepth">
+			<SetRenderTargets group="AlphaDepth">
+				<Target name="Depth" />
+			</SetRenderTargets>
+			<SetBoneBuffer />
+			<DrawRenderItems group="AlphaDepth">
+				<Priority type="AlphaDepth" />
+				<DrawRenderItem />
+			</DrawRenderItems>
+			<Include file="renderPasses_CopyDepth.xml" />
+			<SetRenderTargets group="AlphaDepth">
+				<Target name="LightAccumulation" />
+				<Target name="Depth" />
+			</SetRenderTargets>
+		</If>
+	</ConditionalPriorityPass>
+</RenderPasses>

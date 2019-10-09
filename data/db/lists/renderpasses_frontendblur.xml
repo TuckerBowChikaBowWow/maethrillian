@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetViewport group="FrontEndBlur">
+		<Coords x="0" y="0" width="480" height="270" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetRenderTargets group="FrontEndBlur">
+		<Target name="UIBlurDownsample4x4" />
+	</SetRenderTargets>
+	<SetTexture group="FrontEndBlur">
+		<Target name="GBufferRT0" />
+		<Shader type="Pixel" />
+		<Index index="0" />
+	</SetTexture>
+	<SetShader group="FrontEndBlur">
+		<Shader name="UIBlurDownsample" />
+	</SetShader>
+	<DrawNoVertexBuffer group="FrontEndBlur">
+		<Primitive type="TriList" count="1" />
+	</DrawNoVertexBuffer>
+	<UnsetRenderTarget group="FrontEndBlur" />
+	<WidthIndependentGaussian group="FrontEndBlur">
+		<BlurSource name="UIBlurDownsample4x4" />
+		<BlurIntermediate name="UIBlurIntermediate" />
+		<BlurOutput name="UIBlurOutput" />
+		<RenderGlobalKernalSize name="FrontEndBlurKernalSize" />
+	</WidthIndependentGaussian>
+	<SetViewport group="FrontEndBlur">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetBackbufferRenderTarget group="FrontEndBlur" />
+	<SetTexture group="FrontEndBlur">
+		<Target name="UIBlurOutput" />
+		<Shader type="Pixel" />
+		<Index index="0" />
+	</SetTexture>
+	<ConditionalPass group="FrontEndBlur">
+		<If condition="HDREnabled">
+			<SetShader group="FrontEndBlur">
+				<Shader name="PassThroughMRT2" />
+			</SetShader>
+		</If>
+		<Else>
+			<SetShader group="FrontEndBlur">
+				<Shader name="UIBlurUpsample" />
+			</SetShader>
+		</Else>
+	</ConditionalPass>
+	<DrawNoVertexBuffer group="FrontEndBlur">
+		<Primitive type="TriList" count="1" />
+	</DrawNoVertexBuffer>
+</RenderPasses>

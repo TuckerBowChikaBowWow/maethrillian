@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<DrawRenderItems group="SolidUnitOccludee">
+		<Priority type="SolidUnitOccludee" />
+		<DrawRenderItem />
+	</DrawRenderItems>
+	<DrawRenderItems group="SolidUnitOccluder">
+		<Priority type="SolidUnitOccluder" />
+		<DrawRenderItem />
+	</DrawRenderItems>
+	<DrawRenderItems group="Solid">
+		<Priority type="Solid" />
+		<DrawRenderItem />
+	</DrawRenderItems>
+</RenderPasses>

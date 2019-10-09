@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<ConditionalPass group="HDRCalibration">
+		<If condition="HDRCalibrationEnabled">
+			<SetBackbufferRenderTarget group="HDRCalibration">
+				<UseRealHDRBackBuffer value="true" />
+			</SetBackbufferRenderTarget>
+			<HDRCalibrationOverlay group="HDRCalibration" />
+		</If>
+	</ConditionalPass>
+</RenderPasses>

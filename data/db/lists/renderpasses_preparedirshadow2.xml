@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetBoneBuffer />
+	<SetRenderTargets group="PrepareDir">
+		<Target name="DirectionalLightDepth" />
+	</SetRenderTargets>
+	<SetViewport group="PrepareDir">
+		<Coords renderGlobalX="DirectionalShadowMapRes" y="0" renderGlobalWidth="DirectionalShadowMapRes" renderGlobalHeight="DirectionalShadowMapRes" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissorRect group="AlphaShadows">
+		<Coords renderGlobalX="DirectionalShadowMapRes" y="0" renderGlobalWidth="DirectionalShadowMapRes" renderGlobalHeight="DirectionalShadowMapRes" />
+	</SetScissorRect>
+	<InvalidateShaders />
+</RenderPasses>

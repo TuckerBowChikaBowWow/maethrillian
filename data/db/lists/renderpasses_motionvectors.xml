@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetRenderTargets group="MotionVectors">
+		<Target name="MotionVectors" />
+	</SetRenderTargets>
+	<SetTexture group="MotionVectors">
+		<Target name="DepthCopy" />
+		<Shader type="Pixel" />
+		<Index index="7" />
+	</SetTexture>
+	<SamplerState group="MotionVectors">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Point" mag="Point" mip="Point" />
+		<Index index="7" />
+	</SamplerState>
+	<SetViewport group="MotionVectors">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissor group="MotionVectors">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+	</SetScissor>
+	<SetShader>
+		<Shader name="FullScreenCameraVelocity" />
+	</SetShader>
+	<DrawNoVertexBuffer group="MotionVectors">
+		<Primitive type="TriList" count="1" />
+	</DrawNoVertexBuffer>
+	<SetRenderTargets group="MotionVectors">
+		<Target name="MotionVectors" />
+		<Target name="Depth" />
+	</SetRenderTargets>
+	<SetViewport group="MotionVectors">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissor group="MotionVectors">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+	</SetScissor>
+	<SetShader>
+		<Shader name="TempNonSkinnedVel" />
+	</SetShader>
+	<DrawRenderItems group="MotionVectors">
+		<Priority begin="Solid" end="SolidUnits" />
+		<RenderItemExecutionParams>
+			<BindShaders value="false" />
+			<BindDepthStencilState value="false" />
+			<BindBlendState value="false" />
+			<BindRasterizerState value="false" />
+		</RenderItemExecutionParams>
+		<SetShader>
+			<SkinnedShader name="TempSkinnedVel" />
+			<Shader name="TempNonSkinnedVel" />
+		</SetShader>
+		<DrawRenderItem />
+	</DrawRenderItems>
+</RenderPasses>

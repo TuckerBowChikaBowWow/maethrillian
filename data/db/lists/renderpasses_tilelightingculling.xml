@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetTileLightingConstantBuffer>
+		<ComputeOnly value="true" />
+	</SetTileLightingConstantBuffer>
+	<SetResourceView>
+		<RenderGlobal name="TileLightingTileBuffer" />
+		<Shader type="Compute" />
+		<Index index="1" />
+		<ReadWrite value="true" />
+	</SetResourceView>
+	<SetShader group="TileLighting">
+		<Shader name="TileLightingCulling" />
+	</SetShader>
+	<ComputeDispatch>
+		<RenderGlobalGroupCount x="TileLightingNumTiles" y="TileLightingNumTiles" />
+		<GroupCount z="1" />
+	</ComputeDispatch>
+	<ResourceBarrier>
+		<RenderGlobal name="TileLightingTileBuffer" />
+	</ResourceBarrier>
+</RenderPasses>

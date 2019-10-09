@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetResourceView>
+		<RenderGlobal name="MacroAORV" />
+		<Shader type="Compute" />
+		<Index index="0" />
+		<ReadWrite value="true" />
+	</SetResourceView>
+	<SetTexture>
+		<RenderGlobal name="TerrainHeightfield" />
+		<Shader type="Compute" />
+		<Index index="0" />
+	</SetTexture>
+	<SetTexture>
+		<RenderGlobal name="TerrainNormals" />
+		<Shader type="Compute" />
+		<Index index="1" />
+	</SetTexture>
+	<SetTexture>
+		<RenderGlobal name="TerrainAlpha" />
+		<Shader type="Compute" />
+		<Index index="2" />
+	</SetTexture>
+	<SetTexture>
+		<RenderGlobal name="TerrainAlbedo" />
+		<Shader type="Compute" />
+		<Index index="3" />
+	</SetTexture>
+	<SamplerState>
+		<Address u="Wrap" v="Wrap" w="Wrap" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="0" />
+		<Shader type="Compute" />
+	</SamplerState>
+	<SetShader>
+		<Shader name="MacroAmbientOcclusion" />
+	</SetShader>
+	<ComputeDispatch>
+		<RenderGlobalGroupCount x="MacroAOComputeGroupX" y="MacroAOComputeGroupY" />
+		<GroupCount z="1" />
+	</ComputeDispatch>
+	<ResourceBarrier>
+		<RenderGlobal name="MacroAORV" />
+	</ResourceBarrier>
+	<UnsetResourceView>
+		<Shader type="Compute" />
+		<Index index="0" />
+		<ReadWrite value="true" />
+	</UnsetResourceView>
+</RenderPasses>

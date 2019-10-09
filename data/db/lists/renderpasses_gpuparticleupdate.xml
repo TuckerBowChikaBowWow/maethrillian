@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SamplerState group="GPUParticle">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="0" />
+		<Shader type="Compute" />
+	</SamplerState>
+	<SamplerState group="GPUParticle">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Point" mag="Point" mip="Point" />
+		<Index index="1" />
+		<Shader type="Compute" />
+	</SamplerState>
+	<SamplerState group="GPUParticle">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="7" />
+		<Shader type="Compute" />
+	</SamplerState>
+	<SetTexture group="GPUParticle">
+		<Shader type="Compute" />
+		<Target name="GBufferRT1" />
+		<Index index="2" />
+	</SetTexture>
+	<SetTexture group="GPUParticle">
+		<Shader type="Compute" />
+		<Target name="DepthCopy" />
+		<Index index="7" />
+	</SetTexture>
+	<GPUParticle group="GPUParticle">
+		<Update value="true" />
+	</GPUParticle>
+	<UnsetTexture group="GPUParticle">
+		<Shader type="Compute" />
+		<Index index="3" />
+	</UnsetTexture>
+</RenderPasses>

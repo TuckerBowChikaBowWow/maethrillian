@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetViewport group="PostProcessing">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissorRect group="PostProcessing">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+	</SetScissorRect>
+	<ConditionalPass group="PostProcessing">
+		<If condition="HDREnabled">
+			<ConditionalPass group="Postprocessing">
+				<If condition="SMAAEnabled">
+					<SetRenderTargets group="PostProcessing">
+						<Target name="PostProcessFinal" />
+						<Target name="PostProcessFinalHDRPreAA" />
+					</SetRenderTargets>
+				</If>
+				<Else>
+					<SetRenderTargets group="PostProcessing">
+						<Target name="PostProcessFinal" />
+						<Target name="PostProcessFinalHDR" />
+					</SetRenderTargets>
+				</Else>
+			</ConditionalPass>
+		</If>
+		<Else>
+			<SetRenderTargets group="PostProcessing">
+				<Target name="PostProcessFinal" />
+			</SetRenderTargets>
+		</Else>
+	</ConditionalPass>
+	<SetTexture group="PostProcessing">
+		<Target name="LightAccumulation" />
+		<Shader type="Pixel" />
+		<Index index="0" />
+	</SetTexture>
+	<SamplerState group="PostProcessing">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="0" />
+	</SamplerState>
+	<SetTexture group="PostProcessing">
+		<Target name="DistortionTarget" />
+		<Shader type="Pixel" />
+		<Index index="1" />
+	</SetTexture>
+	<SamplerState group="PostProcessing">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="1" />
+	</SamplerState>
+	<SetTexture group="PostProcessing">
+		<Target name="Bloom4x4" />
+		<Shader type="Pixel" />
+		<Index index="2" />
+	</SetTexture>
+	<SamplerState group="PostProcessing">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="2" />
+	</SamplerState>
+	<SetTexture group="PostProcessing">
+		<RenderGlobal name="SceneLUT" />
+		<Shader type="Pixel" />
+		<Index index="3" />
+	</SetTexture>
+	<SetTexture group="PostProcessing">
+		<Target name="BlurWideOutput" />
+		<Shader type="Pixel" />
+		<Index index="4" />
+	</SetTexture>
+	<SamplerState group="PostProcessing">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="4" />
+	</SamplerState>
+	<SamplerState group="PostProcessing">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="3" />
+	</SamplerState>
+	<SetPostProcessingShader group="PostProcessing" />
+	<SetTexture group="PostProcessing">
+		<RenderGlobal name="TonemapData" />
+		<Shader type="Pixel" />
+		<Index index="5" />
+	</SetTexture>
+	<SetTexture group="PostProcessing">
+		<Target name="VisibilityTextureCurr" />
+		<Shader type="Pixel" />
+		<Index index="11" />
+	</SetTexture>
+	<SamplerState group="PostProcessing">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="11" />
+	</SamplerState>
+	<SetTexture group="PostProcessing">
+		<Target name="VisibilityTexturePrev" />
+		<Shader type="Pixel" />
+		<Index index="13" />
+	</SetTexture>
+	<SamplerState group="PostProcessing">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="13" />
+	</SamplerState>
+	<SetTexture group="PostProcessing">
+		<Target name="DepthCopy" />
+		<Shader type="Pixel" />
+		<Index index="7" />
+	</SetTexture>
+	<SamplerState group="PostProcessing">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Point" mag="Point" mip="Point" />
+		<Index index="7" />
+	</SamplerState>
+	<SetTexture group="PostProcessing">
+		<RenderGlobal name="PlayableBoundaryTexture" />
+		<Shader type="Pixel" />
+		<Index index="14" />
+	</SetTexture>
+	<SamplerState group="PostProcessing">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="14" />
+	</SamplerState>
+	<DrawNoVertexBuffer group="PostProcessing">
+		<Primitive type="TriList" count="1" />
+	</DrawNoVertexBuffer>
+	<SetTexture group="Lensflares">
+		<Target name="DepthCopy" />
+		<Shader type="Compute" />
+		<Index index="7" />
+	</SetTexture>
+	<SamplerState group="Lensflares">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Point" mag="Point" mip="Point" />
+		<Index index="7" />
+		<Shader type="Compute" />
+	</SamplerState>
+	<SetTexture group="Lensflares">
+		<Target name="VisibilityTextureCurr" />
+		<Shader type="Compute" />
+		<Index index="11" />
+	</SetTexture>
+	<SamplerState group="Lensflares">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Shader type="Compute" />
+		<Index index="11" />
+	</SamplerState>
+	<SetTexture group="Lensflares">
+		<Target name="VisibilityTexturePrev" />
+		<Shader type="Compute" />
+		<Index index="13" />
+	</SetTexture>
+	<SamplerState group="Lensflares">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Shader type="Compute" />
+		<Index index="13" />
+	</SamplerState>
+	<LensFlareRender group="Lensflares" />
+	<ConditionalPass group="PostProcessing">
+		<If condition="SMAAEnabled" />
+		<Else>
+			<SetBackbufferRenderTarget group="PostProcessing" />
+			<SetTexture group="PostProcessing">
+				<Target name="PostProcessFinal" />
+				<Shader type="Pixel" />
+				<Index index="0" />
+			</SetTexture>
+			<SamplerState group="PostProcessing">
+				<Address u="Clamp" v="Clamp" w="Clamp" />
+				<Filter min="Point" mag="Point" mip="Point" />
+				<Index index="0" />
+			</SamplerState>
+			<SetShader group="PostProcessing">
+				<Shader name="PassThrough8bpc" />
+			</SetShader>
+			<DrawNoVertexBuffer group="PostProcessing">
+				<Primitive type="TriList" count="1" />
+			</DrawNoVertexBuffer>
+		</Else>
+	</ConditionalPass>
+</RenderPasses>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<SoundInfo>
+	<SoundBanks>
+		<StaticBank>robovoice.bnk</StaticBank>
+		<StaticBank>vog.bnk</StaticBank>
+		<StaticBank>stop.bnk</StaticBank>
+		<StaticBank>ai_coach.bnk</StaticBank>
+		<StaticBank>ai_coach_cov.bnk</StaticBank>
+		<StaticBank>unit_efforts.bnk</StaticBank>
+		<StaticBank>chatter.bnk</StaticBank>
+		<StaticBank>music.bnk</StaticBank>
+		<PregameBank>pre_load_music.bnk</PregameBank>
+		<StaticBank>Assault_Rifle.bnk</StaticBank>
+		<StaticBank>static.bnk</StaticBank>
+		<StaticBank>UNSC_Foley.bnk</StaticBank>
+		<StaticBank>Generic_Foley.bnk</StaticBank>
+	</SoundBanks>
+	<Sounds>
+		<Cue name="SoundHotkeyBase" />
+		<Cue name="SoundHotkeyNode" />
+		<Cue name="SoundFlare" />
+		<Cue name="SoundFlareLook" />
+		<Cue name="SoundAttackNotificationUNSCSev1" />
+		<Cue name="SoundAttackNotificationUNSCBaseSev1" />
+		<Cue name="SoundAttackNotificationCovSev1" />
+		<Cue name="SoundAttackNotificationCovBaseSev1" />
+		<Cue name="SoundPlayerResigned" />
+		<Cue name="SoundPlaybackDone" />
+		<Cue name="SoundGroupSelect1" />
+		<Cue name="SoundGroupSelect2" />
+		<Cue name="SoundGroupSelect3" />
+		<Cue name="SoundGroupSelect4" />
+		<Cue name="SoundGroupCreate1" />
+		<Cue name="SoundGroupCreate2" />
+		<Cue name="SoundGroupCreate3" />
+		<Cue name="SoundGroupCreate4" />
+		<Cue name="SoundBattleLost" />
+		<Cue name="SoundBattleWon" />
+		<Cue name="SoundWinningBattle" />
+		<Cue name="SoundLosingBattle" />
+		<Cue name="SoundStopAll" />
+		<Cue name="SoundStopAllExceptMusic" />
+		<Cue name="SoundTributeReceived" />
+		<Cue name="SoundLocalMilitary" />
+		<Cue name="SoundGlobalMilitary" />
+		<Cue name="SoundObjectiveOnDisplay" />
+		<Cue name="SoundMusicSwitchHarvest" />
+		<Cue name="SoundMusicSwitchArcadia" />
+		<Cue name="SoundMusicSwitchSWI" />
+		<Cue name="SoundMusicSwitchSWE" />
+		<Cue name="StartBlur" />
+		<Cue name="SoundMuteMusic" />
+		<Cue name="SoundUnmuteMusic" />
+		<Cue name="SoundDeflect" />
+		<Cue name="SoundMusicPlayPreGame" />
+		<Cue name="SoundMusicStopPreGame" />
+		<Cue name="SoundMusicSetStateMainTheme" />
+		<Cue name="SoundMusicSetStateCampaignMenu" />
+		<Cue name="SoundMusicSetStateSkirmishMenu" />
+		<Cue name="SoundMusicPlayInGame" />
+		<Cue name="SoundMusicStopInGame" />
+		<Cue name="SoundMusicGameWon" />
+		<Cue name="SoundMusicGameLost" />
+		<Cue name="SoundMusicStopPostGame" />
+		<Cue name="SoundVOGNeedSupplies" />
+		<Cue name="SoundVOGNeedReactors" />
+		<Cue name="SoundVOGNeedPop" />
+		<Cue name="SoundVOGHeroDownForge" />
+		<Cue name="SoundVOGHeroDownAnders" />
+		<Cue name="SoundVOGHeroDownSpartan" />
+		<Cue name="SoundVOGHeroReviveForge" />
+		<Cue name="SoundVOGHeroReviveAnders" />
+		<Cue name="SoundVOGHeroReviveSpartan" />
+		<Cue name="SoundVOGBaseDestroyed" />
+		<Cue name="SoundVOGLoss" />
+		<Cue name="SoundVOGLossTeam" />
+		<Cue name="SoundVOGWin" />
+		<Cue name="SoundVOGWinTeam" />
+		<Cue name="SoundMusicSetStateSPCLost" />
+	</Sounds>
+	<PainRate>0.0299999993</PainRate>
+	<ListenerDistance>75</ListenerDistance>
+	<FogRTPCFadeIn>0.0199999996</FogRTPCFadeIn>
+	<FogRTPCFadeOut>0.0199999996</FogRTPCFadeOut>
+	<EnginePitchChangeRate>0.0199999996</EnginePitchChangeRate>
+	<MaxPitchChangePerFrame>1</MaxPitchChangePerFrame>
+	<MaxChatterTime type="idle">55</MaxChatterTime>
+	<MinChatterTime type="idle">40</MinChatterTime>
+	<MaxChatterTime type="move">100</MaxChatterTime>
+	<MinChatterTime type="move">0</MinChatterTime>
+	<MaxChatterTime type="moveAttack">20</MaxChatterTime>
+	<MinChatterTime type="moveAttack">0</MinChatterTime>
+	<MaxChatterTime type="attack">40</MaxChatterTime>
+	<MinChatterTime type="attack">0</MinChatterTime>
+	<GlobalMaxChatterTime type="idle">45</GlobalMaxChatterTime>
+	<GlobalMinChatterTime type="idle">30</GlobalMinChatterTime>
+	<GlobalMaxChatterTime type="move">40</GlobalMaxChatterTime>
+	<GlobalMinChatterTime type="move">10</GlobalMinChatterTime>
+	<GlobalMaxChatterTime type="moveAttack">10</GlobalMaxChatterTime>
+	<GlobalMinChatterTime type="moveAttack">2</GlobalMinChatterTime>
+	<GlobalMaxChatterTime type="attack">10</GlobalMaxChatterTime>
+	<GlobalMinChatterTime type="attack">5</GlobalMinChatterTime>
+	<TimeToIdleChat>5</TimeToIdleChat>
+	<ChatterChance type="MoveChatter">
+		<Total>1</Total>
+		<Specific>0.400000006</Specific>
+	</ChatterChance>
+	<ChatterChance type="IdleChatter">
+		<Total>1</Total>
+		<Specific>0.25</Specific>
+	</ChatterChance>
+	<ChatterChance type="AttackChatter">
+		<Total>1</Total>
+		<Specific>0.100000001</Specific>
+	</ChatterChance>
+	<ChatterChance type="KilledEnemy">
+		<Total>0.200000003</Total>
+		<Specific>0.300000012</Specific>
+	</ChatterChance>
+	<ChatterChance type="AllyKilled">
+		<Total>0.200000003</Total>
+		<Specific>0.600000024</Specific>
+	</ChatterChance>
+	<ChatterChance type="ReactDeath">
+		<Total>1</Total>
+		<Specific>0.600000024</Specific>
+	</ChatterChance>
+	<ChatterChance type="ReactBirth">
+		<Total>1</Total>
+	</ChatterChance>
+	<ChatterChance type="ReactJoinBattle">
+		<Total>0.75</Total>
+	</ChatterChance>
+	<ChatterChance type="ReactHotDrop">
+		<Total>1</Total>
+	</ChatterChance>
+	<ChatterChance type="Cheer">
+		<Total>0.600000024</Total>
+	</ChatterChance>
+	<AlertInfo>
+		<AttackSev1Value>10</AttackSev1Value>
+		<AttackSev2Value>50</AttackSev2Value>
+	</AlertInfo>
+	<Music>
+		<WorldIntro switchTimer="5000">set_state_world_intros</WorldIntro>
+		<StandardCue switchTimer="500">set_state_standard</StandardCue>
+		<BattleWon switchTimer="500">set_state_battle_won</BattleWon>
+		<BattleLost switchTimer="500">set_state_battle_lost</BattleLost>
+		<BattleMusicCue sev="1" commandedAllyValue="9" commandedEnemyValue="0" switchTimer="10000">
+			<Cue>set_state_battle_a</Cue>
+			<Cue>set_state_battle_b</Cue>
+			<Cue>set_state_battle_c</Cue>
+		</BattleMusicCue>
+		<MaxTargetDist>150</MaxTargetDist>
+		<StandardTimer>70000</StandardTimer>
+		<BattleEndedWaitTimer>3000</BattleEndedWaitTimer>
+	</Music>
+</SoundInfo>

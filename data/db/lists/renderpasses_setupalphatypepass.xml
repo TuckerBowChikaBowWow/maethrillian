@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetTexture group="AlphaSetup">
+		<RenderGlobal name="TerrainHeightfield" />
+		<Shader type="Vertex" />
+		<Index index="8" />
+	</SetTexture>
+	<SamplerState group="AlphaSetup">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="8" />
+		<Shader type="Vertex" />
+	</SamplerState>
+	<SetTexture group="AlphaSetup">
+		<Target name="DepthCopy" />
+		<Shader type="Pixel" />
+		<Index index="7" />
+	</SetTexture>
+	<SamplerState group="AlphaSetup">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="7" />
+	</SamplerState>
+	<SetTextureMultiStage group="AlphaSetup">
+		<Target name="DirectionalLightDepth" />
+		<Shader type="Vertex" index="5" />
+		<Shader type="Pixel" index="5" />
+	</SetTextureMultiStage>
+	<SamplerState group="AlphaSetup">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Comparison function="LessEqual" enabled="1" />
+		<Shader type="Vertex" />
+		<Index index="5" />
+	</SamplerState>
+	<SamplerState group="AlphaSetup">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Comparison function="LessEqual" enabled="1" />
+		<Shader type="Pixel" />
+		<Index index="5" />
+	</SamplerState>
+	<SetTexture group="AlphaSetup">
+		<Target name="AlphaShadowAccum" />
+		<Shader type="Pixel" />
+		<Index index="14" />
+	</SetTexture>
+	<SamplerState group="AlphaSetup">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="14" />
+	</SamplerState>
+	<SetTexture group="AlphaSetup">
+		<RenderGlobal name="AccumulatedVolumeFog" />
+		<Shader type="Pixel" />
+		<Index index="11" />
+	</SetTexture>
+	<SamplerState group="AlphaSetup">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="11" />
+	</SamplerState>
+	<BindIBLData group="AlphaSetup">
+		<GlobalIBLTex shaderType="Pixel" textureIndex="6" />
+		<GlobalIBLSHCoeffs shaderType="Pixel" textureIndex="10" />
+		<BRDFTexture shaderType="Pixel" textureIndex="12" />
+	</BindIBLData>
+	<SamplerState group="AlphaSetup">
+		<Address u="Wrap" v="Wrap" w="Wrap" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="6" />
+	</SamplerState>
+	<SamplerState group="Reflection">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="12" />
+	</SamplerState>
+</RenderPasses>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<PrepareTerrainRender group="Terrain" />
+	<DrawRenderItems group="Terrain">
+		<Priority type="Terrain" />
+		<DrawRenderItem />
+	</DrawRenderItems>
+	<DrawRenderItems group="Terrain">
+		<Priority type="TerrainBlend" />
+		<DrawRenderItem />
+	</DrawRenderItems>
+</RenderPasses>

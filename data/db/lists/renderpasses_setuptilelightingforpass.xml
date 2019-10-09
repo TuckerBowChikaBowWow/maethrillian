@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetTileLightingConstantBuffer group="SetupTileRendering" />
+	<SetTextureMultiStage group="SetupTileRendering">
+		<Target name="SpotLightDepth" />
+		<Shader type="Pixel" index="13" />
+		<Shader type="Vertex" index="13" />
+		<Shader type="Compute" index="13" />
+	</SetTextureMultiStage>
+	<SamplerState group="SetupTileRendering">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Comparison function="LessEqual" enabled="1" />
+		<Shader type="Pixel" />
+		<Index index="13" />
+	</SamplerState>
+	<SamplerState group="SetupTileRendering">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Comparison function="LessEqual" enabled="1" />
+		<Shader type="Vertex" />
+		<Index index="13" />
+	</SamplerState>
+	<SamplerState group="SetupTileRendering">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Comparison function="LessEqual" enabled="1" />
+		<Shader type="Compute" />
+		<Index index="13" />
+	</SamplerState>
+	<SetTextureMultiStage group="SetupTileRendering">
+		<RenderGlobal name="TileLightingTileBuffer" />
+		<Shader type="Pixel" index="15" />
+		<Shader type="Vertex" index="15" />
+		<Shader type="Compute" index="15" />
+	</SetTextureMultiStage>
+	<SamplerState group="SetupTileRendering">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Point" mag="Point" mip="Point" />
+		<Shader type="Pixel" />
+		<Index index="15" />
+	</SamplerState>
+	<SamplerState group="SetupTileRendering">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Point" mag="Point" mip="Point" />
+		<Shader type="Vertex" />
+		<Index index="15" />
+	</SamplerState>
+	<SamplerState group="SetupTileRendering">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Point" mag="Point" mip="Point" />
+		<Shader type="Compute" />
+		<Index index="15" />
+	</SamplerState>
+</RenderPasses>

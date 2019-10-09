@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SamplerState group="UpdateFoliage">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="0" />
+		<Shader type="Compute" />
+	</SamplerState>
+	<SetTexture group="UpdateFoliage">
+		<RenderGlobal name="TerrainHeightfield" />
+		<Shader type="Compute" />
+		<Index index="6" />
+	</SetTexture>
+	<SetTexture group="UpdateFoliage">
+		<RenderGlobal name="TerrainAlbedo" />
+		<Shader type="Compute" />
+		<Index index="7" />
+	</SetTexture>
+	<SetTexture group="UpdateFoliage">
+		<RenderGlobal name="TerrainNormals" />
+		<Shader type="Compute" />
+		<Index index="8" />
+	</SetTexture>
+	<UpdateFoliage group="UpdateFoliage" />
+</RenderPasses>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetTexture group="VolumeFog">
+		<Target name="DirectionalLightDepth" />
+		<Shader type="Compute" />
+		<Index index="5" />
+	</SetTexture>
+	<SamplerState group="VolumeFog">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Comparison function="LessEqual" enabled="1" />
+		<Shader type="Compute" />
+		<Index index="5" />
+	</SamplerState>
+	<SetTileLightingConstantBuffer group="VolumeFog">
+		<ComputeOnly value="true" />
+	</SetTileLightingConstantBuffer>
+	<SetTexture group="SetupTileRendering">
+		<RenderGlobal name="TileLightingTileBuffer" />
+		<Shader type="Compute" />
+		<Index index="15" />
+	</SetTexture>
+	<SetTexture group="VolumeFog">
+		<Target name="SpotLightDepth" />
+		<Shader type="Compute" />
+		<Index index="13" />
+	</SetTexture>
+	<SamplerState group="VolumeFog">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Comparison function="LessEqual" enabled="1" />
+		<Shader type="Compute" />
+		<Index index="13" />
+	</SamplerState>
+	<VolumeFogUpdate group="VolumeFog" />
+</RenderPasses>

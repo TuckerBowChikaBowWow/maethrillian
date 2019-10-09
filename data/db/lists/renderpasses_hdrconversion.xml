@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<ConditionalPass group="HDRConversion">
+		<If condition="HDREnabled">
+			<SetBackbufferRenderTarget group="HDRConversion">
+				<UseRealHDRBackBuffer value="true" />
+			</SetBackbufferRenderTarget>
+			<SetViewport group="HDRConversion">
+				<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+				<Depth minZ="0" maxZ="1" />
+			</SetViewport>
+			<SetTexture group="HDRConversion">
+				<Index index="0" />
+				<Shader type="Pixel" />
+				<Target name="PostProcessFinalHDR" />
+			</SetTexture>
+			<SetupHDROutputParams />
+			<SetShader group="HDRConversion">
+				<Shader name="HDRConversionSoftShoulder" />
+			</SetShader>
+			<DrawNoVertexBuffer group="HDRConversion">
+				<Primitive type="TriList" count="1" />
+			</DrawNoVertexBuffer>
+		</If>
+	</ConditionalPass>
+</RenderPasses>

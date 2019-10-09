@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetStencilRef group="Decal">
+		<StencilRef value="255" />
+	</SetStencilRef>
+	<SetTexture group="Decal">
+		<RenderGlobal name="LevelHeightfield" />
+		<Shader type="Vertex" />
+		<Index index="8" />
+	</SetTexture>
+	<SamplerState group="Decal">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="8" />
+		<Shader type="Vertex" />
+	</SamplerState>
+	<DrawRenderItems group="Decal">
+		<Priority type="Decal" />
+		<DrawRenderItem />
+	</DrawRenderItems>
+	<UnsetTexture group="Decal">
+		<Shader type="Vertex" />
+		<Index index="8" />
+	</UnsetTexture>
+</RenderPasses>

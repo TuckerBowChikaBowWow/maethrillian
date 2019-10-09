@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetTexture group="SMAA">
+		<Index index="7" />
+		<Shader type="Pixel" />
+		<EngineTexture name="SMAA_AreaTex" />
+	</SetTexture>
+	<SetTexture group="SMAA">
+		<Index index="8" />
+		<Shader type="Pixel" />
+		<EngineTexture name="SMAA_SearchTex" />
+	</SetTexture>
+	<SamplerState group="SMAA">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="0" />
+	</SamplerState>
+	<SamplerState group="SMAA">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Point" mag="Point" mip="Point" />
+		<Index index="1" />
+	</SamplerState>
+	<SetViewport group="SMAA">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetRenderTargets group="SMAA">
+		<Target name="SMAAEdge" />
+	</SetRenderTargets>
+	<Clear group="SMAA">
+		<Target name="SMAAEdge" />
+		<Color r="0" g="0" b="0" a="0" />
+	</Clear>
+	<SetTexture group="SMAA">
+		<Index index="1" />
+		<Shader type="Pixel" />
+		<Target name="PostProcessFinal" />
+	</SetTexture>
+	<SetShader group="SMAA">
+		<Shader name="SMAA_EdgeDetection" />
+	</SetShader>
+	<DrawNoVertexBuffer group="SMAA">
+		<Primitive type="TriList" count="1" />
+	</DrawNoVertexBuffer>
+	<SetRenderTargets group="SMAA">
+		<Target name="SMAABlendWeights" />
+	</SetRenderTargets>
+	<Clear group="SMAA">
+		<Target name="SMAABlendWeights" />
+		<Color r="0" g="0" b="0" a="0" />
+	</Clear>
+	<SetTexture group="SMAA">
+		<Index index="5" />
+		<Shader type="Pixel" />
+		<Target name="SMAAEdge" />
+	</SetTexture>
+	<SetShader group="SMAA">
+		<Shader name="SMAA_BlendWeightCalc" />
+	</SetShader>
+	<DrawNoVertexBuffer group="SMAA">
+		<Primitive type="TriList" count="1" />
+	</DrawNoVertexBuffer>
+	<SetBackbufferRenderTarget group="SMAA" />
+	<SetTexture group="SMAA">
+		<Index index="6" />
+		<Shader type="Pixel" />
+		<Target name="SMAABlendWeights" />
+	</SetTexture>
+	<SetAliasedTexture group="SMAA">
+		<Index index="0" />
+		<Shader type="Pixel" />
+		<Target name="PostProcessFinal" />
+	</SetAliasedTexture>
+	<SetTexture group="SMAA">
+		<Index index="12" />
+		<Shader type="Pixel" />
+		<Target name="PostProcessFinalHDRPreAA" />
+	</SetTexture>
+	<ConditionalPass group="SMAA">
+		<If condition="HDREnabled">
+			<SetShader group="SMAA">
+				<Shader name="SMAA_NeighbourhoodBlendingHDR" />
+			</SetShader>
+		</If>
+		<Else>
+			<SetShader group="SMAA">
+				<Shader name="SMAA_NeighbourhoodBlending" />
+			</SetShader>
+		</Else>
+	</ConditionalPass>
+	<DrawNoVertexBuffer group="SMAA">
+		<Primitive type="TriList" count="1" />
+	</DrawNoVertexBuffer>
+</RenderPasses>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<DOFBeginRender group="DOF" />
+	<SamplerState group="DOF">
+		<Address u="Border" v="Border" w="Border" />
+		<Filter min="Linear" mag="Linear" mip="Point" />
+		<Index index="0" />
+		<Border r="0" g="0" b="0" a="0" />
+	</SamplerState>
+	<SetViewport group="DOF">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissorRect group="DOF">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+	</SetScissorRect>
+	<SetRenderTargets group="DOF">
+		<Target name="FullsizeRGBZ" />
+	</SetRenderTargets>
+	<SetTexture group="DOF">
+		<Target name="LightAccumulation" />
+		<Shader type="Pixel" />
+		<Index index="0" />
+	</SetTexture>
+	<SetTexture group="DOF">
+		<Target name="DepthCopy" />
+		<Shader type="Pixel" />
+		<Index index="2" />
+	</SetTexture>
+	<SetShader group="DOF">
+		<Shader name="DoFCreateRGBZ" />
+	</SetShader>
+	<DrawNoVertexBuffer group="DOF">
+		<Primitive type="TriStrip" count="2" />
+	</DrawNoVertexBuffer>
+	<SetViewport group="DOF">
+		<Coords x="0" y="0" relativeWidth="0.5" relativeHeight="0.5" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissorRect group="DOF">
+		<Coords x="0" y="0" relativeWidth="0.5" relativeHeight="0.5" />
+	</SetScissorRect>
+	<SetRenderTargets group="DOF">
+		<Target name="HalfsizeRGBZ" />
+	</SetRenderTargets>
+	<SetTexture group="DOF">
+		<Target name="FullsizeRGBZ" />
+		<Shader type="Pixel" />
+		<Index index="0" />
+	</SetTexture>
+	<SetShader group="DOF">
+		<Shader name="DoFDownsampleRGBZ" />
+	</SetShader>
+	<DrawNoVertexBuffer group="DOF">
+		<Primitive type="TriStrip" count="2" />
+	</DrawNoVertexBuffer>
+	<SetRenderTargets group="DOF">
+		<Target name="DOFColour" />
+	</SetRenderTargets>
+	<SetShader group="DOF">
+		<Shader name="DoFBokehStandard" />
+	</SetShader>
+	<Clear group="DOF">
+		<Target name="DOFColour" />
+		<Flags flags="Color" />
+		<Color r="0" g="0" b="0" a="0" />
+	</Clear>
+	<SetTexture group="DOF">
+		<Target name="HalfsizeRGBZ" />
+		<Shader type="Vertex" />
+		<Index index="0" />
+	</SetTexture>
+	<SetTexture group="DOF">
+		<EngineTexture name="DOFIrisTex" />
+		<Shader type="Pixel" />
+		<Index index="1" />
+	</SetTexture>
+	<DOFRender group="DOF" />
+	<SetRenderTargets group="DOF">
+		<Target name="LightAccumulation" />
+	</SetRenderTargets>
+	<SetViewport group="DOF">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissorRect group="DOF">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+	</SetScissorRect>
+	<SetTexture group="DOF">
+		<Target name="DOFColour" />
+		<Shader type="Pixel" />
+		<Index index="0" />
+	</SetTexture>
+	<SetTexture group="DOF">
+		<Target name="DepthCopy" />
+		<Shader type="Pixel" />
+		<Index index="2" />
+	</SetTexture>
+	<SetTexture group="DOF">
+		<Target name="FullsizeRGBZ" />
+		<Shader type="Pixel" />
+		<Index index="3" />
+	</SetTexture>
+	<SetShader group="DOF">
+		<Shader name="DoFRecombine" />
+	</SetShader>
+	<DrawNoVertexBuffer group="DOF">
+		<Primitive type="TriStrip" count="2" />
+	</DrawNoVertexBuffer>
+</RenderPasses>

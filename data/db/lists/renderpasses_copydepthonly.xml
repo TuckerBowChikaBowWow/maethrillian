@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetViewport group="CopyDepth">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissorRect group="CopyDepth">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+	</SetScissorRect>
+	<SetRenderTargets group="CopyDepth">
+		<Target name="DepthCopy" />
+	</SetRenderTargets>
+	<SetShader group="CopyDepth">
+		<Shader name="CopyDepth" />
+	</SetShader>
+	<SetTexture group="CopyDepth">
+		<Target name="Depth" />
+		<Shader type="Pixel" />
+		<Index index="0" />
+	</SetTexture>
+	<SamplerState group="CopyDepth">
+		<Address u="Mirror" v="Mirror" w="Mirror" />
+		<Filter min="Point" mag="Point" mip="Point" />
+		<Index index="0" />
+	</SamplerState>
+	<DrawNoVertexBuffer group="CopyDepth">
+		<Primitive type="TriList" count="1" />
+	</DrawNoVertexBuffer>
+	<UnsetTexture group="CopyDepth">
+		<Shader type="Pixel" />
+		<Index index="0" />
+	</UnsetTexture>
+</RenderPasses>

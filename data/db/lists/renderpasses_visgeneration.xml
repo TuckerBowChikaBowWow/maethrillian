@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetRenderTargets group="FogOfWarGeneration">
+		<Target name="VisibilityTextureCurr" />
+	</SetRenderTargets>
+	<SetViewport group="FogOfWarGeneration">
+		<Coords x="0" y="0" width="512" height="512" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissorRect group="FogOfWarGeneration">
+		<Coords x="0" y="0" width="512" height="512" />
+	</SetScissorRect>
+	<SetRenderTargets group="FogOfWarGeneration">
+		<Target name="VisibilityTextureCurr" />
+		<Target name="VisibilityTexturePrev" />
+	</SetRenderTargets>
+	<GenerateFoW group="FogOfWarGeneration" />
+	<GeneratePlayableBoundary group="FogOfWarGeneration" />
+	<SetRenderTargets group="FogOfWarGeneration">
+		<Target name="FogOfWarUI" />
+	</SetRenderTargets>
+	<SetViewport group="FogOfWarGeneration">
+		<Coords x="0" y="0" width="512" height="512" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissorRect group="FogOfWarGeneration">
+		<Coords x="0" y="0" width="512" height="512" />
+	</SetScissorRect>
+	<SetTexture group="FogOfWarGeneration">
+		<Target name="VisibilityTextureCurr" />
+		<Shader type="Pixel" />
+		<Index index="11" />
+	</SetTexture>
+	<SetTexture group="FogOfWarGeneration">
+		<Target name="VisibilityTexturePrev" />
+		<Shader type="Pixel" />
+		<Index index="13" />
+	</SetTexture>
+	<SetTexture group="FogOfWarGeneration">
+		<RenderGlobal name="PlayableBoundaryTexture" />
+		<Shader type="Pixel" />
+		<Index index="14" />
+	</SetTexture>
+	<SamplerState group="FogOfWarGeneration">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="14" />
+		<Shader type="Pixel" />
+	</SamplerState>
+	<SamplerState group="FogOfWarGeneration">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="11" />
+		<Shader type="Pixel" />
+	</SamplerState>
+	<SamplerState group="FogOfWarGeneration">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="13" />
+		<Shader type="Pixel" />
+	</SamplerState>
+	<SetShader group="FogOfWarGeneration">
+		<Shader name="fogOfWarUI" />
+	</SetShader>
+	<SetConstantBuffer group="FogOfWarGeneration">
+		<Buffer name="PerFrameMiscSC" />
+		<Shader type="Pixel" />
+	</SetConstantBuffer>
+	<DrawNoVertexBuffer group="FogOfWarGeneration">
+		<Primitive type="TriList" count="1" />
+	</DrawNoVertexBuffer>
+	<UnsetTexture group="FogOfWarGeneration">
+		<Shader type="Pixel" />
+		<Index index="11" />
+	</UnsetTexture>
+	<UnsetTexture group="FogOfWarGeneration">
+		<Shader type="Pixel" />
+		<Index index="13" />
+	</UnsetTexture>
+	<SetRenderTargets group="FogOfWarGeneration">
+		<Target name="PlayableBoundaryUI" />
+	</SetRenderTargets>
+	<SetViewport group="FogOfWarGeneration">
+		<Coords x="0" y="0" width="512" height="512" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissorRect group="FogOfWarGeneration">
+		<Coords x="0" y="0" width="512" height="512" />
+	</SetScissorRect>
+	<SetTexture group="FogOfWarGeneration">
+		<EngineTexture name="Minimap_Map_DashedLines" />
+		<Shader type="Pixel" />
+		<Index index="10" />
+	</SetTexture>
+	<SetTexture group="FogOfWarGeneration">
+		<RenderGlobal name="PlayableBoundaryTexture" />
+		<Shader type="Pixel" />
+		<Index index="14" />
+	</SetTexture>
+	<SamplerState group="FogOfWarGeneration">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Linear" mag="Linear" mip="Linear" />
+		<Index index="14" />
+		<Shader type="Pixel" />
+	</SamplerState>
+	<SetShader group="FogOfWarGeneration">
+		<Shader name="playableBoundaryUI" />
+	</SetShader>
+	<SetConstantBuffer group="FogOfWarGeneration">
+		<Buffer name="PerFrameMiscSC" />
+		<Shader type="Pixel" />
+	</SetConstantBuffer>
+	<DrawNoVertexBuffer group="FogOfWarGeneration">
+		<Primitive type="TriList" count="1" />
+	</DrawNoVertexBuffer>
+	<UnsetTexture group="FogOfWarGeneration">
+		<Shader type="Pixel" />
+		<Index index="14" />
+	</UnsetTexture>
+</RenderPasses>

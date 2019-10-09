@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetBoneBuffer />
+	<SetRenderTargets group="PrepareReflection">
+		<Target name="GBufferRT0" />
+		<Target name="GBufferRT1" />
+		<Target name="GBufferRT2" />
+		<Target name="GBufferRT3" />
+		<Target name="Depth" />
+	</SetRenderTargets>
+	<Clear group="PrepareReflection">
+		<Target name="GBufferRT0" />
+		<Target name="GBufferRT1" />
+		<Target name="GBufferRT2" />
+		<Target name="GBufferRT3" />
+		<Target name="Depth" />
+		<Color r="0" g="0" b="0" a="30" />
+		<Color r="127" g="127" b="127" a="35" />
+		<Color r="0" g="0" b="0" a="40" />
+		<Color r="0" g="0" b="0" a="0" />
+		<Flags flags="All" />
+	</Clear>
+	<SetViewport group="PrepareReflection">
+		<Coords x="0" y="0" relativeWidth="0.5" relativeHeight="0.5" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+</RenderPasses>

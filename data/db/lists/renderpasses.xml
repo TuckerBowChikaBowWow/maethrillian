@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<RenderPassDependencies>
+		<RenderPassDependency name="TileLightingBuffer">
+			<RenderGlobal name="TileLightingTileBuffer" />
+		</RenderPassDependency>
+		<RenderPassDependency name="FoliageSpawnDataBuffer">
+			<RenderGlobal name="FoliageSpawnDataBuffer" />
+		</RenderPassDependency>
+		<RenderPassDependency name="FoliageSpawnOffsetsBuffer">
+			<RenderGlobal name="FoliageSpawnOffsetsBuffer" />
+		</RenderPassDependency>
+		<RenderPassDependency name="AccumulatedVolumeFog">
+			<RenderGlobal name="AccumulatedVolumeFog" />
+		</RenderPassDependency>
+		<RenderPassDependency name="DirectionalLightDepth">
+			<Target name="DirectionalLightDepth" />
+		</RenderPassDependency>
+		<RenderPassDependency name="SpotLightDepth">
+			<Target name="SpotLightDepth" />
+		</RenderPassDependency>
+		<RenderPassDependency name="GBufferRT0">
+			<Target name="GBufferRT0" />
+		</RenderPassDependency>
+		<RenderPassDependency name="GBufferRT1">
+			<Target name="GBufferRT1" />
+		</RenderPassDependency>
+		<RenderPassDependency name="GBufferRT2">
+			<Target name="GBufferRT2" />
+		</RenderPassDependency>
+		<RenderPassDependency name="GBufferRT3">
+			<Target name="GBufferRT3" />
+		</RenderPassDependency>
+		<RenderPassDependency name="DepthCopy">
+			<Target name="DepthCopy" />
+		</RenderPassDependency>
+		<RenderPassDependency name="HistogramSource">
+			<Target name="Downsampled2x2" />
+		</RenderPassDependency>
+		<RenderPassDependency name="TonemapData">
+			<RenderGlobal name="TonemapData" />
+		</RenderPassDependency>
+	</RenderPassDependencies>
+	<SettingsChanged />
+	<ModelTracker deferredContext="false">
+		<Include file="renderPasses_ModelTracker.xml" />
+	</ModelTracker>
+	<StandardSolid deferredContext="true">
+		<Include file="renderPasses_PrepareStandard.xml" />
+		<Include file="renderPasses_Solid.xml" />
+		<Include file="renderPasses_Terrain.xml" />
+	</StandardSolid>
+	<StandardAlphaTest>
+		<DependencyInputs>
+			<Dependency name="StandardSolid" />
+			<Dependency name="DirShadow1" />
+			<Dependency name="DirShadow2" />
+		</DependencyInputs>
+		<DependencyOutputs>
+			<Dependency name="GBufferRT1" />
+			<Dependency name="DepthCopy" />
+		</DependencyOutputs>
+		<SetBoneBuffer />
+		<SetRenderTargets group="PrepareStd">
+			<Target name="GBufferRT0" />
+			<Target name="GBufferRT1" />
+			<Target name="GBufferRT2" />
+			<Target name="GBufferRT3" />
+			<Target name="Depth" />
+		</SetRenderTargets>
+		<SetViewport group="PrepareStd">
+			<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+			<Depth minZ="0" maxZ="1" />
+		</SetViewport>
+		<Include file="renderPasses_DrawFoliage.xml" />
+		<Include file="renderPasses_Decal.xml" />
+		<Include file="renderPasses_CopyDepth.xml" />
+	</StandardAlphaTest>
+	<LightAccumulation deferredContext="false">
+		<SetBoneBuffer />
+		<Include file="renderPasses_ShadowMask.xml" />
+		<Include file="renderPasses_LightAccumulation.xml" />
+	</LightAccumulation>
+	<ScreenSpaceReflection deferredContext="false">
+		<DependencyInputs>
+			<Dependency name="AccumulatedVolumeFog" />
+		</DependencyInputs>
+		<Include file="renderPasses_ScreenSpaceReflection.xml" />
+	</ScreenSpaceReflection>
+	<StandardAlpha deferredContext="false">
+		<DependencyInputs>
+			<Dependency name="TileLightingBuffer" />
+			<Dependency name="AccumulatedVolumeFog" />
+		</DependencyInputs>
+		<ConditionalPass>
+			<If condition="PlatformWin">
+				<Include file="renderPasses_GPUParticleUpdate.xml" />
+			</If>
+		</ConditionalPass>
+		<SetBoneBuffer />
+		<Include file="renderPasses_Water.xml" />
+		<Include file="renderPasses_Alpha.xml" />
+		<Include file="renderPasses_DownsampleDepth.xml" />
+		<Include file="renderPasses_LowResAlpha.xml" />
+		<Include file="renderPasses_Distortion.xml" />
+		<Include file="renderPasses_AlphaDepth.xml" />
+	</StandardAlpha>
+	<TileLightCulling asyncComputeContext="true">
+		<DependencyOutputs>
+			<Dependency name="TileLightingBuffer" />
+		</DependencyOutputs>
+		<Include file="renderPasses_TileLightingCulling.xml" />
+	</TileLightCulling>
+	<GPUParticleUpdate asyncComputeContext="true" rendercondition="PlatformXBoxOne">
+		<DependencyInputs>
+			<Dependency name="GBufferRT1" />
+			<Dependency name="DepthCopy" />
+		</DependencyInputs>
+		<Include file="renderPasses_GPUParticleUpdate.xml" />
+	</GPUParticleUpdate>
+	<VolumeFogUpdate asyncComputeContext="true" rendercondition="VolumeFogEnabled">
+		<DependencyInputs>
+			<Dependency name="TileLightingBuffer" />
+			<Dependency name="DirectionalLightDepth" />
+			<Dependency name="SpotLightDepth" />
+		</DependencyInputs>
+		<DependencyOutputs>
+			<Dependency name="AccumulatedVolumeFog" />
+		</DependencyOutputs>
+		<Include file="renderPasses_VolumeFogUpdate.xml" />
+	</VolumeFogUpdate>
+	<GenerateAuxTargets>
+		<Include file="renderPasses_VisGeneration.xml" />
+		<Include file="renderPasses_DrawFoliageForces.xml" />
+		<ResourceTransition>
+			<Target name="GBufferRT0" />
+			<EndState name="RenderTarget" />
+		</ResourceTransition>
+		<ResourceTransition>
+			<Target name="GBufferRT1" />
+			<EndState name="RenderTarget" />
+		</ResourceTransition>
+		<ResourceTransition>
+			<Target name="GBufferRT2" />
+			<EndState name="RenderTarget" />
+		</ResourceTransition>
+		<ResourceTransition>
+			<Target name="GBufferRT3" />
+			<EndState name="RenderTarget" />
+		</ResourceTransition>
+		<ResourceTransition>
+			<Target name="Depth" />
+			<EndState name="DepthWrite" />
+		</ResourceTransition>
+		<ResourceTransition>
+			<RenderGlobal name="TileLightingTileBuffer" />
+			<EndState name="UAV" />
+		</ResourceTransition>
+		<ResourceTransition>
+			<RenderGlobal name="AccumulatedVolumeFog" />
+			<EndState name="Common" />
+		</ResourceTransition>
+		<ResourceTransition>
+			<Target name="AlphaShadowAccum" />
+			<EndState name="RenderTarget" />
+		</ResourceTransition>
+	</GenerateAuxTargets>
+	<UpdateFoliage asyncComputeContext="true" rendercondition="FoliageEnabled">
+		<DependencyOutputs>
+			<Dependency name="FoliageSpawnDataBuffer" />
+		</DependencyOutputs>
+		<Include file="renderPasses_UpdateFoliage.xml" />
+	</UpdateFoliage>
+	<ClearShadowTarget deferredContext="false">
+		<ConditionalPass group="ClearShadowTarget">
+			<If condition="CloudShadowsEnabled" texturecondition="CloudMap">
+				<SetRenderTargets group="ClearShadowTarget">
+					<Target name="AlphaShadowAccum" />
+				</SetRenderTargets>
+			</If>
+		</ConditionalPass>
+		<Clear group="ClearShadowTarget">
+			<Target name="SpotLightDepth" />
+			<Flags flags="Depth" />
+		</Clear>
+		<Clear group="ClearShadowTarget">
+			<Target name="DirectionalLightDepth" />
+			<Flags flags="Depth" />
+		</Clear>
+	</ClearShadowTarget>
+	<DirShadow1 deferredContext="true">
+		<DependencyInputs>
+			<Dependency name="FoliageSpawnDataBuffer" />
+		</DependencyInputs>
+		<Include file="renderPasses_PrepareDirShadow.xml" />
+		<Include file="renderPasses_Shadow.xml" />
+		<Include file="renderPasses_PrepareAlphaShadows1.xml" />
+		<Include file="renderPasses_AlphaShadows.xml" />
+	</DirShadow1>
+	<DirShadow2 deferredContext="true">
+		<DependencyOutputs>
+			<Dependency name="DirectionalLightDepth" />
+			<Dependency name="SpotLightDepth" />
+		</DependencyOutputs>
+		<Include file="renderPasses_PrepareDirShadow2.xml" />
+		<Include file="renderPasses_Shadow.xml" />
+		<Include file="renderPasses_PrepareAlphaShadows2.xml" />
+		<Include file="renderPasses_AlphaShadows.xml" />
+	</DirShadow2>
+	<Shadow deferredContext="false">
+		<DependencyInputs>
+			<Dependency name="FoliageSpawnDataBuffer" />
+		</DependencyInputs>
+		<Include file="renderPasses_PrepareShadow.xml" />
+		<Include file="renderPasses_Shadow.xml" />
+	</Shadow>
+	<DPShadow deferredContext="false">
+		<Include file="renderPasses_DPShadow.xml" />
+	</DPShadow>
+	<Reflection deferredContext="false" rendercondition="PlanarReflectionsEnabled">
+		<Include file="renderPasses_PrepareReflection.xml" />
+		<Include file="renderPasses_Solid.xml" />
+		<Include file="renderPasses_Terrain.xml" />
+		<Include file="renderPasses_CopyDepth.xml" />
+		<Include file="renderPasses_LightAccumulationReflection.xml" />
+	</Reflection>
+	<Visualisations deferredContext="false">
+		<Include file="renderPasses_Visualisations.xml" />
+	</Visualisations>
+	<PostProcessPreTonemap>
+		<DependencyOutputs>
+			<Dependency name="HistogramSource" />
+		</DependencyOutputs>
+		<ConditionalPass group="PostProcessing">
+			<If condition="DOFEnabled">
+				<Include file="renderPasses_DOF.xml" />
+			</If>
+		</ConditionalPass>
+		<Include file="renderPasses_BloomDownsample.xml" />
+		<ResourceTransition>
+			<RenderGlobal name="TonemapData" />
+			<EndState name="UAV" />
+		</ResourceTransition>
+	</PostProcessPreTonemap>
+	<GenerateTonemapHistogram asyncComputeContext="true">
+		<DependencyInputs>
+			<Dependency name="HistogramSource" />
+		</DependencyInputs>
+		<DependencyOutputs>
+			<Dependency name="TonemapData" />
+		</DependencyOutputs>
+		<Include file="renderPasses_GenerateTonemapHistogram.xml" />
+	</GenerateTonemapHistogram>
+	<PostProcess>
+		<Include file="renderPasses_PostProcess.xml" />
+	</PostProcess>
+	<Overlay>
+		<DependencyInputs>
+			<Dependency name="TileLightingBuffer" />
+			<Dependency name="AccumulatedVolumeFog" />
+			<Dependency name="TonemapData" />
+		</DependencyInputs>
+		<Include file="renderPasses_PostProcessFinal.xml" />
+		<ConditionalPass group="PostProcessing">
+			<If condition="SMAAEnabled">
+				<Include file="renderPasses_SMAA.xml" />
+			</If>
+		</ConditionalPass>
+		<Include file="renderPasses_UIBlur.xml" />
+		<Include file="renderPasses_Videos.xml" />
+		<Include file="renderPasses_UI.xml" />
+		<DrawUI group="UI" />
+	</Overlay>
+	<Frontend deferredContext="false">
+		<SetViewport group="Frontend">
+			<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+			<Depth minZ="0" maxZ="1" />
+		</SetViewport>
+		<SetScissorRect group="Frontend">
+			<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		</SetScissorRect>
+		<ConditionalPass group="Frontend">
+			<If condition="PlayingInGameCinematic">
+				<SetBackbufferRenderTarget group="Frontend" />
+				<Clear group="Frontend">
+					<Backbuffer value="true" />
+					<Color r="0" g="0" b="0" a="0" />
+					<Flags flags="Color" />
+				</Clear>
+				<Include file="renderPasses_Videos.xml" />
+			</If>
+			<Else>
+				<ConditionalFloatPass group="FrontEndBlur">
+					<If condition="FrontEndBlurKernalSize" operator="GreaterThan" value="0">
+						<SetRenderTargets group="FrontEnd">
+							<Target name="GBufferRT0" />
+						</SetRenderTargets>
+						<Clear group="Frontend">
+							<Target name="GBufferRT0" />
+							<Color r="0" g="0" b="0" a="255" />
+						</Clear>
+						<Include file="renderPasses_Videos.xml" />
+						<Include file="renderPasses_FrontEndBlur.xml" />
+					</If>
+					<Else>
+						<SetBackbufferRenderTarget group="Frontend" />
+						<Clear group="Frontend">
+							<Backbuffer value="true" />
+							<Color r="0" g="0" b="0" a="0" />
+							<Flags flags="Color" />
+						</Clear>
+						<Include file="renderPasses_Videos.xml" />
+					</Else>
+				</ConditionalFloatPass>
+			</Else>
+		</ConditionalPass>
+		<DrawUI group="Frontend" />
+	</Frontend>
+	<FlashManager deferredContext="false" splitContext="true">
+		<FlashManagerRender group="UI" />
+	</FlashManager>
+	<PreFlashManagerHDRandMGPU deferredContext="false">
+		<FlashManagerHDRandMGPUClear group="PreFlashManagerHDRandMGPU" />
+	</PreFlashManagerHDRandMGPU>
+	<UIAlphaHDR deferredContext="false" rendercondition="HDREnabled">
+		<ConditionalPass group="FrontEnd">
+			<If gpucondition="0">
+				<FlashManagerSetIntermediateRT />
+				<Include file="renderPasses_SetupTileLightingForPass.xml" />
+				<Include file="renderPasses_SetupAlphaTypePass.xml" />
+				<DrawRenderItems group="UI">
+					<Priority type="UIAlpha" />
+					<DrawRenderItem />
+				</DrawRenderItems>
+			</If>
+		</ConditionalPass>
+	</UIAlphaHDR>
+	<PostFlashManagerHDRandMGPU deferredContext="false">
+		<SamplerState group="PostProcessing">
+			<Address u="Clamp" v="Clamp" w="Clamp" />
+			<Filter min="Linear" mag="Linear" mip="Linear" />
+			<Index index="0" />
+		</SamplerState>
+		<FlashManagerHDRandMGPUComposite group="PostFlashManagerHDRandMGPU" />
+	</PostFlashManagerHDRandMGPU>
+	<PostFlashManagerMGPUCopy deferredContext="false">
+		<FlashManagerMGPUCopy group="PostFlashManagerMGPU" />
+	</PostFlashManagerMGPUCopy>
+	<DebugText deferredContext="false">
+		<Include file="renderPasses_Debug.xml" />
+	</DebugText>
+	<HDRConversion deferredContext="false" rendercondition="HDREnabled">
+		<Include file="renderPasses_HDRConversion.xml" />
+	</HDRConversion>
+	<HDRCalibration deferredContext="false" rendercondition="HDRCalibrationEnabled">
+		<Include file="renderPasses_HDRCalibration.xml" />
+	</HDRCalibration>
+	<ComputeMacroAO deferredContext="false" rendercondition="MacroAOUpdateEnabled">
+		<Include file="renderPasses_ComputeMacroAO.xml" />
+	</ComputeMacroAO>
+	<CaptureIBL deferredContext="false">
+		<Include file="renderPasses_CaptureIBL.xml" />
+	</CaptureIBL>
+</RenderPasses>

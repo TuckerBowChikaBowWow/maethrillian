@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<Include file="renderPasses_SetupAlphaTypePass.xml" />
+	<SetRenderTargets group="Distortion">
+		<Target name="DistortionTarget" />
+		<Target name="QuarterResDepth" />
+	</SetRenderTargets>
+	<Clear group="Distortion">
+		<Target name="DistortionTarget" />
+		<Target name="QuarterResDepth" />
+		<Flags flags="Color" />
+		<Color r="0" g="0" b="0" a="0" />
+	</Clear>
+	<SetViewport group="Distortion">
+		<Coords x="0" y="0" relativeWidth="0.5" relativeHeight="0.5" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissorRect group="Distortion">
+		<Coords x="0" y="0" relativeWidth="0.5" relativeHeight="0.5" />
+	</SetScissorRect>
+	<DrawRenderItems group="Distortion">
+		<Priority type="Distortion" />
+		<DrawRenderItem />
+	</DrawRenderItems>
+	<SetViewport group="Distortion">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissorRect group="Distortion">
+		<Coords x="0" y="0" relativeWidth="1" relativeHeight="1" />
+	</SetScissorRect>
+</RenderPasses>

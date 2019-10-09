@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetRenderTargets group="DownsampleDepth">
+		<Target name="QuarterResColour" />
+		<Target name="QuarterResAlpha" />
+		<Target name="QuarterResDepth" />
+	</SetRenderTargets>
+	<SetViewport group="DownsampleDepth">
+		<Coords x="0" y="0" relativeWidth="0.5" relativeHeight="0.5" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<SetScissorRect group="DownsampleDepth">
+		<Coords x="0" y="0" relativeWidth="0.5" relativeHeight="0.5" />
+	</SetScissorRect>
+	<SetTexture group="DownsampleDepth">
+		<Target name="Depth" />
+		<Shader type="Pixel" />
+		<Index index="0" />
+	</SetTexture>
+	<SamplerState group="DownsampleDepth">
+		<Address u="Clamp" v="Clamp" w="Clamp" />
+		<Filter min="Point" mag="Point" mip="Point" />
+	</SamplerState>
+	<SetShader group="DownsampleDepth">
+		<Shader name="depthDownsample_2x2" />
+	</SetShader>
+	<DrawNoVertexBuffer group="DownsampleDepth">
+		<Primitive type="TriList" count="1" />
+	</DrawNoVertexBuffer>
+	<UnsetTexture group="DownsampleDepth">
+		<Shader type="Pixel" />
+		<Index index="0" />
+	</UnsetTexture>
+</RenderPasses>

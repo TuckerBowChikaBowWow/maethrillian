@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<RenderPasses>
+	<SetRenderTargets group="Visibility">
+		<Target name="VisibilityTextureCurr" />
+	</SetRenderTargets>
+	<SetViewport group="Visibility">
+		<Coords x="0" y="0" width="512" height="512" />
+		<Depth minZ="0" maxZ="1" />
+	</SetViewport>
+	<Clear group="Visibility">
+		<Target name="VisibilityTextureCurr" />
+		<Color r="0" />
+	</Clear>
+	<Include file="renderPasses_PrepareStandard.xml" />
+	<Include file="renderPasses_Solid.xml" />
+	<Include file="renderPasses_Terrain.xml" />
+	<Include file="renderPasses_CopyDepth.xml" />
+	<Include file="renderPasses_LightAccumulation.xml" />
+	<Include file="renderPasses_ScreenSpaceReflection.xml" />
+	<Include file="renderPasses_Alpha.xml" />
+	<WriteToIBL>
+		<SourceRenderTarget name="LightAccumulation" />
+	</WriteToIBL>
+</RenderPasses>
