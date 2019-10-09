@@ -866,6 +866,8 @@
 		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="cov_inf_brutegrenadier_01_mp" parent_element="cov_inf_brutegrenadier_01_base" dbid="17517034676885797631">
+		<Cost ResourceType="Supplies">180</Cost>
+		<Cost ResourceType="Power">30</Cost>
 		<FrozenThreshold>250</FrozenThreshold>
 		<ChillDecayPerSecond>50</ChillDecayPerSecond>
 	</Squad>
