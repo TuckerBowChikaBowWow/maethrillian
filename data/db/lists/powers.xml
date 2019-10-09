@@ -2994,7 +2994,7 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">40</Data>
+				<Data type="float" name="AreaRadius">50</Data>
 				<Data type="float" name="BuffDuration">10</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
@@ -3006,13 +3006,13 @@
 				<Data type="protoobject" name="CastVfx">vfx_dlc2_powers_conduitofragecast1</Data>
 				<Data type="protoobject" name="BuffActivateFX">vfx_dlc2_powers_conduitofrageunit</Data>
 				<Data type="protoobject" name="BuffDeactivateFX">vfx_dlc2_powers_conduitofrageunitend</Data>
-				<Data type="float" name="SlowModifier">1.20000005</Data>
-				<Data type="float" name="DamageDealtModifier">1.14999998</Data>
+				<Data type="float" name="SlowModifier">1.25</Data>
+				<Data type="float" name="DamageDealtModifier">1.20000005</Data>
 				<Data type="float" name="HealPercentPerTick">0.0299999993</Data>
 				<Data type="float" name="HealTickRate">2</Data>
 			</DataLevel>
 			<DataLevel level="1">
-				<Data type="float" name="AreaRadius">80</Data>
+				<Data type="float" name="AreaRadius">90</Data>
 				<Data type="float" name="BuffDuration">10</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
@@ -3024,8 +3024,8 @@
 				<Data type="protoobject" name="CastVfx">vfx_dlc2_powers_conduitofragecast2</Data>
 				<Data type="protoobject" name="BuffActivateFX">vfx_dlc2_powers_conduitofrageunit</Data>
 				<Data type="protoobject" name="BuffDeactivateFX">vfx_dlc2_powers_conduitofrageunitend</Data>
-				<Data type="float" name="SlowModifier">1.27999997</Data>
-				<Data type="float" name="DamageDealtModifier">1.29999995</Data>
+				<Data type="float" name="SlowModifier">1.29999995</Data>
+				<Data type="float" name="DamageDealtModifier">1.35000002</Data>
 				<Data type="float" name="HealPercentPerTick">0.0299999993</Data>
 				<Data type="float" name="HealTickRate">1.5</Data>
 				<Data type="decal" name="OverrideDecal">
@@ -7692,7 +7692,7 @@
 				<Data type="float" name="MaxBeamDistance">35</Data>
 				<Data type="float" name="TickLength">0.100000001</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
-				<Data type="float" name="MaxBeamSpeed">18</Data>
+				<Data type="float" name="MaxBeamSpeed">17</Data>
 				<Data type="float" name="Duration">10</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
 				<Data type="int" name="NumPlayerWaypoints">4</Data>
@@ -7726,7 +7726,7 @@
 				<Data type="float" name="MaxBeamDistance">35</Data>
 				<Data type="float" name="TickLength">0.100000001</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
-				<Data type="float" name="MaxBeamSpeed">18</Data>
+				<Data type="float" name="MaxBeamSpeed">17</Data>
 				<Data type="float" name="Duration">10</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
 				<Data type="int" name="NumPlayerWaypoints">4</Data>
@@ -7734,8 +7734,8 @@
 			</BaseDataLevel>
 			<DataLevel level="0">
 				<Data type="protoobject" name="Beam">pow_gp_cleansing_03</Data>
-				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad14m2s</Data>
-				<Data type="float" name="TelegraphDuration">2</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad16m3s</Data>
+				<Data type="float" name="TelegraphDuration">3</Data>
 				<Data type="protoobject" name="AirImpactObject">fx_cleansing_air_impact_small_01</Data>
 			</DataLevel>
 		</Attributes>
@@ -34250,7 +34250,7 @@
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="200" Power="100" />
 			<AutoRecharge>140000</AutoRecharge>
-			<UIRadius>25</UIRadius>
+			<UIRadius>17</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
 			<RolloverTextID>5001</RolloverTextID>
@@ -34272,7 +34272,7 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">24</Data>
+				<Data type="float" name="AreaRadius">16</Data>
 				<Data type="objecttype" name="FilterType">Building</Data>
 				<Data type="objecttype" name="FilterType2">TurretBuilding</Data>
 				<Data type="objecttype" name="FilterType3">_ProductionBuilding</Data>
@@ -34280,7 +34280,7 @@
 				<Data type="objecttype" name="FilterType5">ResourceGenerationBuilding</Data>
 				<Data type="objecttype" name="FilterExcludeType">CantBeOvercharged</Data>
 				<Data type="bool" name="AffectsBuildingsUnderConstruction">false</Data>
-				<Data type="float" name="BuffDuration">50</Data>
+				<Data type="float" name="BuffDuration">45</Data>
 				<Data type="bool" name="AffectsSelfOnly">false</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="TurretDamageDealtScalar">1.2f</Data>
@@ -35395,7 +35395,7 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">10</Data>
+				<Data type="float" name="AreaRadius">15</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
@@ -35494,7 +35494,7 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">12</Data>
+				<Data type="float" name="AreaRadius">22</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
@@ -35592,7 +35592,7 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">14</Data>
+				<Data type="float" name="AreaRadius">29</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
