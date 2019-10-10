@@ -8,21 +8,21 @@
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
 		<MaxVelocityLead>6.1500001</MaxVelocityLead>
-		<MaxRange>65</MaxRange>
+		<MaxRange>70</MaxRange>
 		<Hardpoint>Turret</Hardpoint>
 		<TargetPriority type="Flying">10</TargetPriority>
 		<ProjectileLaunchDirY />
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>2.5</Radius>
+				<Radius>3</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>5.5</Radius>
+				<Radius>6</Radius>
 				<DamageRatio>15</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>

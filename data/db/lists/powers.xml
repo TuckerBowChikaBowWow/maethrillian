@@ -8445,7 +8445,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">4</Pop>
-			<Cost Supplies="250" Power="20" />
+			<Cost Supplies="200" Power="50" />
 			<AutoRecharge>110000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
@@ -9894,8 +9894,8 @@
 				<Data type="float" name="MaxBeamDistance">70</Data>
 				<Data type="float" name="TickLength">0.200000003</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
-				<Data type="float" name="MaxBeamSpeed">17</Data>
-				<Data type="float" name="Duration">5</Data>
+				<Data type="float" name="MaxBeamSpeed">20</Data>
+				<Data type="float" name="Duration">7</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
 				<Data type="int" name="NumPlayerWaypoints">3</Data>
 				<Data type="sound" name="FiredSound" />
@@ -9932,8 +9932,8 @@
 				<Data type="float" name="MaxBeamDistance">70</Data>
 				<Data type="float" name="TickLength">0.200000003</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
-				<Data type="float" name="MaxBeamSpeed">19.5</Data>
-				<Data type="float" name="Duration">6.5</Data>
+				<Data type="float" name="MaxBeamSpeed">22</Data>
+				<Data type="float" name="Duration">8</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
 				<Data type="int" name="NumPlayerWaypoints">3</Data>
 				<Data type="sound" name="FiredSound" />
@@ -9969,8 +9969,8 @@
 				<Data type="float" name="MaxBeamDistance">70</Data>
 				<Data type="float" name="TickLength">0.200000003</Data>
 				<Data type="float" name="CommandInterval">0.200000003</Data>
-				<Data type="float" name="MaxBeamSpeed">22</Data>
-				<Data type="float" name="Duration">8</Data>
+				<Data type="float" name="MaxBeamSpeed">24</Data>
+				<Data type="float" name="Duration">9</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
 				<Data type="int" name="NumPlayerWaypoints">3</Data>
 				<Data type="sound" name="FiredSound" />
@@ -10783,7 +10783,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>OrbBattleGroup</SoundName>
-			<Pop type="Unit">10</Pop>
+			<Pop type="Unit">14</Pop>
 			<Pop type="Decimus">1</Pop>
 			<Cost Supplies="1000" Power="1000" />
 			<AutoRecharge>360000</AutoRecharge>
@@ -14058,8 +14058,8 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Pop type="Unit">30</Pop>
-			<Cost Supplies="2750" Power="450" />
+			<Pop type="Unit">27</Pop>
+			<Cost Supplies="2650" Power="450" />
 			<AutoRecharge>330000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -14114,7 +14114,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
-			<Cost Supplies="40" Power="40" />
+			<Cost Supplies="60" Power="60" />
 			<AutoRecharge>90000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
@@ -14162,7 +14162,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
-			<Cost Supplies="60" Power="60" />
+			<Cost Supplies="110" Power="110" />
 			<AutoRecharge>90000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
@@ -14739,10 +14739,10 @@
 				<Data type="bool" name="AffectsAllByFilterType">true</Data>
 				<Data type="objecttype" name="FilterType">BasicInfantry</Data>
 				<Data type="objecttype" name="FilterExcludeType">GruntSwarm</Data>
-				<Data type="float" name="BuffDuration">120</Data>
+				<Data type="float" name="BuffDuration">150</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
-				<Data type="int" name="MaxProcsAllUnits">12</Data>
+				<Data type="int" name="MaxProcsAllUnits">15</Data>
 				<Data type="protoobject" name="CastVfx">vfx_dlc5_powers_infrecyclingcast</Data>
 				<Data type="protoobject" name="BuffProcFX">vfx_dlc5_powers_infrecycling</Data>
 				<Data type="protoobject" name="BuffProcFX2">vfx_dlc5_powers_infrecyclingreverse</Data>
@@ -15483,7 +15483,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">16</Pop>
 			<Cost Supplies="800" Power="250" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>200000</AutoRecharge>
 			<UIRadius>12</UIRadius>
 			<Decal>AoE_Medium</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -15545,7 +15545,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">26</Pop>
 			<Cost Supplies="1300" Power="320" />
-			<AutoRecharge>165000</AutoRecharge>
+			<AutoRecharge>200000</AutoRecharge>
 			<UIRadius>22</UIRadius>
 			<Decal>AoE_Medium</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -23762,7 +23762,7 @@
 				<Data type="int" name="SentinelSynergyBonus">1</Data>
 				<Data type="float" name="SpawnRadius">15</Data>
 				<Data type="float" name="SpokeRotationOffset">0</Data>
-				<Data type="float" name="PatrolDuration">5</Data>
+				<Data type="float" name="PatrolDuration">4</Data>
 				<Data type="protosquad" name="AircraftSquad">pow_for_lurebeacon_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_VEH_FORE_SentinelGroupFlyIn</Data>
 			</DataLevel>
@@ -36380,7 +36380,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">12</Pop>
 			<Cost Supplies="1200" Power="0" />
-			<AutoRecharge>140000</AutoRecharge>
+			<AutoRecharge>170000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -36430,7 +36430,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">20</Pop>
 			<Cost Supplies="1700" Power="0" />
-			<AutoRecharge>140000</AutoRecharge>
+			<AutoRecharge>170000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
