@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Chaingun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>125</DamagePerSecond>
+		<DamagePerSecond>100</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_incendiarycannon_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>
@@ -23,7 +23,7 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>7</Radius>
+				<Radius>6</Radius>
 				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
