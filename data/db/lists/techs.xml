@@ -4224,6 +4224,18 @@
             <Effect type="Data" amount="1" subtype="ActionEnable" action="PlasmaCannonSiphonAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">cov_air_blisterback_01</Target>
             </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="BlisterbackArtilleryFireAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_air_blisterbackLockdown_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="BlisterbackArtillerySiphonFireAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_air_blisterbackLockdown_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_air_blisterbackLockdown_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="PlasmaCannonSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_air_blisterbackLockdown_01</Target>
+            </Effect>
             <Effect type="Data" amount="0" subtype="ActionEnable" action="CarbineRifleAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_jackal_01</Target>
             </Effect>
@@ -4570,6 +4582,12 @@
                 <Target type="ProtoUnit">cov_veh_wraith_01</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="ActionEnable" action="PlasmaCannonLeftSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_wraith_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaMortar" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_wraith_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="PlasmaMortarSiphon" relativity="Absolute">
                 <Target type="ProtoUnit">cov_veh_wraith_01</Target>
             </Effect>
         </Effects>
