@@ -5423,8 +5423,8 @@
             <Effect type="Data" amount="1.1" subtype="MaximumVelocity" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">unsc_veh_flamehog_01</Target>
             </Effect>
-            <Effect type="Data" amount="1.25" subtype="MaximumVelocity" allactions="1" relativity="Percent">
-                <Target type="ProtoUnit" exclude="UberUnit">BasicAircraft</Target>
+            <Effect type="Data" amount="2.25" subtype="MaximumVelocity" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit" exclude="UberUnit">AircraftTech</Target>
             </Effect>
         </Effects>
     </Tech>
