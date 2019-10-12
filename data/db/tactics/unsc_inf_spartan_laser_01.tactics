@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>SpartanLaser</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>912</DamagePerSecond>
+		<DamagePerSecond>600</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_spartanlaser_01</Projectile>
 		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
@@ -17,6 +17,22 @@
 		<TargetPriority type="Building">2</TargetPriority>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>3</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.400000006</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0.400000006</PostAttackCooldownMin>
@@ -25,7 +41,7 @@
 	<Weapon>
 		<Name>AntiVehicleSpartanLaser</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>835</DamagePerSecond>
+		<DamagePerSecond>650</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_spartanlaser_01</Projectile>
 		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
@@ -39,6 +55,22 @@
 		<TargetPriority type="Building">2</TargetPriority>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>3</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.400000006</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0.400000006</PostAttackCooldownMin>
