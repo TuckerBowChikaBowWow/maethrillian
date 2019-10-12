@@ -18,7 +18,7 @@
 		<Resource Type="Power">400</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_generic_marine</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">cov_veh_scarab_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_generic_marine</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -120,9 +120,9 @@
 		<Resource Type="Supplies">600</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">400</Resource>
-		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_04" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_generic_grunt</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_brutehonour_01</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_grunt</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,20">cov_inf_generic_grunt</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
