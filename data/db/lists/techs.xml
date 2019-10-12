@@ -1598,18 +1598,18 @@
 	<Tech name="unsc_tech_global_infantry_01" type="Normal">
 		<DisplayNameID>27085</DisplayNameID>
 		<RolloverTextID>27097</RolloverTextID>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
 		<ResearchPoints>50</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.10000002" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">InfantryTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10000002" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">InfantryTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -1630,18 +1630,18 @@
 		<Prereqs>
 			<TechStatus status="Active">unsc_tech_global_infantry_01</TechStatus>
 		</Prereqs>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="Supplies">450</Cost>
+		<Cost resourcetype="Power">450</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
 		<ResearchPoints>70</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.0909090910000001" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.3" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">InfantryTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.0909090910000001" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">InfantryTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -1662,18 +1662,18 @@
 		<Prereqs>
 			<TechStatus status="Active">unsc_tech_global_infantry_02</TechStatus>
 		</Prereqs>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">800</Cost>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
 		<ResearchPoints>90</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.0833333329999999" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">InfantryTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.0833333329999999" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">InfantryTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -1692,18 +1692,18 @@
 		<RolloverTextID>27100</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
 		<ResearchAnim>Research</ResearchAnim>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">500</Cost>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
 		<ResearchPoints>50</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.10000002" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">VehicleTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10000002" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">VehicleTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -1723,18 +1723,18 @@
 		<Prereqs>
 			<TechStatus status="Active">unsc_tech_global_vehicle_01</TechStatus>
 		</Prereqs>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">750</Cost>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
 		<ResearchPoints>70</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.0909090910000001" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.3" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">VehicleTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.0909090910000001" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">VehicleTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -1754,18 +1754,18 @@
 		<Prereqs>
 			<TechStatus status="Active">unsc_tech_global_vehicle_02</TechStatus>
 		</Prereqs>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">1000</Cost>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">800</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
 		<ResearchPoints>90</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.0833333329999999" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">VehicleTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.0833333329999999" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">VehicleTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -1782,18 +1782,18 @@
 		<DisplayNameID>27091</DisplayNameID>
 		<RolloverTextID>27103</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">450</Cost>
+		<Cost resourcetype="Supplies">350</Cost>
+		<Cost resourcetype="Power">350</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
 		<ResearchPoints>50</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.10000002" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AircraftTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10000002" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AircraftTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -1810,18 +1810,18 @@
 		<Prereqs>
 			<TechStatus status="Active">unsc_tech_global_aircraft_01</TechStatus>
 		</Prereqs>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">650</Cost>
+		<Cost resourcetype="Supplies">500</Cost>
+		<Cost resourcetype="Power">500</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
 		<ResearchPoints>70</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.0909090910000001" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.3" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AircraftTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.0909090910000001" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AircraftTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -1838,18 +1838,18 @@
 		<Prereqs>
 			<TechStatus status="Active">unsc_tech_global_aircraft_02</TechStatus>
 		</Prereqs>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">850</Cost>
+		<Cost resourcetype="Supplies">650</Cost>
+		<Cost resourcetype="Power">650</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
 		<ResearchPoints>90</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.0833333329999999" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AircraftTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.0833333329999999" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AircraftTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -3505,18 +3505,18 @@
 		<DisplayNameID>27085</DisplayNameID>
 		<RolloverTextID>27097</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">375</Cost>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">300</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
 		<ResearchPoints>50</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.10000002" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">InfantryTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10000002" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">InfantryTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -3543,18 +3543,18 @@
 		<Prereqs>
 			<TechStatus status="Active">cov_tech_global_infantry_01</TechStatus>
 		</Prereqs>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">575</Cost>
+		<Cost resourcetype="Supplies">450</Cost>
+		<Cost resourcetype="Power">450</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
 		<ResearchPoints>70</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.0909090910000001" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.3" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">InfantryTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.0909090910000001" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">InfantryTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -3581,18 +3581,18 @@
 		<Prereqs>
 			<TechStatus status="Active">cov_tech_global_infantry_02</TechStatus>
 		</Prereqs>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">775</Cost>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
 		<ResearchPoints>90</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.0833333329999999" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">InfantryTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.0833333329999999" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">InfantryTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -3616,18 +3616,18 @@
 		<DisplayNameID>27088</DisplayNameID>
 		<RolloverTextID>27100</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">500</Cost>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">400</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
 		<ResearchPoints>50</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.10000002" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">VehicleTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10000002" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">VehicleTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -3647,18 +3647,18 @@
 		<Prereqs>
 			<TechStatus status="Active">cov_tech_global_vehicle_01</TechStatus>
 		</Prereqs>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">750</Cost>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
 		<ResearchPoints>70</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.0909090910000001" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.3" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">VehicleTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.0909090910000001" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">VehicleTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -3678,18 +3678,18 @@
 		<Prereqs>
 			<TechStatus status="Active">cov_tech_global_vehicle_02</TechStatus>
 		</Prereqs>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">1000</Cost>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">800</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
 		<ResearchPoints>90</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.0833333329999999" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">VehicleTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.0833333329999999" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">VehicleTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -3706,18 +3706,18 @@
 		<DisplayNameID>27091</DisplayNameID>
 		<RolloverTextID>27103</RolloverTextID>
 		<PrereqTextID>231</PrereqTextID>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">375</Cost>
+		<Cost resourcetype="Supplies">350</Cost>
+		<Cost resourcetype="Power">350</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
 		<ResearchPoints>50</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.10000002" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AircraftTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.10000002" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AircraftTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -3734,18 +3734,18 @@
 		<Prereqs>
 			<TechStatus status="Active">cov_tech_global_aircraft_01</TechStatus>
 		</Prereqs>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">575</Cost>
+		<Cost resourcetype="Supplies">500</Cost>
+		<Cost resourcetype="Power">500</Cost>
 		<Cost resourcetype="HQLevel">2</Cost>
 		<ResearchPoints>70</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.0909090910000001" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.3" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AircraftTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.0909090910000001" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AircraftTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
@@ -3762,18 +3762,18 @@
 		<Prereqs>
 			<TechStatus status="Active">cov_tech_global_aircraft_02</TechStatus>
 		</Prereqs>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">775</Cost>
+		<Cost resourcetype="Supplies">650</Cost>
+		<Cost resourcetype="Power">650</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
 		<ResearchPoints>90</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="1.0833333329999999" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AircraftTech</Target>
 			</Effect>
-			<Effect type="Data" amount="1.0833333329999999" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.45" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">AircraftTech</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
