@@ -2247,10 +2247,10 @@
 		<BuildPoints>9</BuildPoints>
 	</Squad>
 	<Squad name="cov_veh_bruteChopper_01_mp" parent_element="cov_veh_bruteChopper_01_base" dbid="16923945883513138233">
-		<Cost ResourceType="Supplies">245</Cost>
-		<Cost ResourceType="Power">15</Cost>
+		<Cost ResourceType="Supplies">190</Cost>
+		<Cost ResourceType="Power">10</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
-		<BuildPoints>26</BuildPoints>
+		<BuildPoints>20</BuildPoints>
 		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 		<RammingDistanceScalar>10</RammingDistanceScalar>
 	</Squad>
@@ -2338,11 +2338,11 @@
 		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="cov_veh_ghost_01_mp" parent_element="cov_veh_ghost_01_base" dbid="17253699168979878397">
-		<Cost ResourceType="Supplies">230</Cost>
-		<Cost ResourceType="Power">15</Cost>
+		<Cost ResourceType="Supplies">180</Cost>
+		<Cost ResourceType="Power">10</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<ChillSlowModifier>0.600000024</ChillSlowModifier>
-		<BuildPoints>26</BuildPoints>
+		<BuildPoints>20</BuildPoints>
 		<RammingSpeedScalar>2</RammingSpeedScalar>
 	</Squad>
 	<Squad name="cov_veh_ghost_01_sp" parent_element="cov_veh_ghost_01_base" dbid="17274779005911776739" />
@@ -9381,7 +9381,7 @@
 	</Squad>
 	<Squad name="unsc_veh_grizzly_01" dbid="6098115684249566326" parent_element="unsc_veh_grizzlybase_01">
 		<Pop Type="Unit">9</Pop>
-		<Cost ResourceType="Supplies">800</Cost>
+		<Cost ResourceType="Supplies">750</Cost>
 		<Cost ResourceType="Power">140</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
 		<BuildPoints>48</BuildPoints>
@@ -9625,11 +9625,11 @@
 		<Counters>Jackrabbit_01</Counters>
 	</Squad>
 	<Squad name="unsc_veh_mongoose_01_mp" parent_element="unsc_veh_mongoose_01_base" dbid="1251456188636653818">
-		<Cost ResourceType="Supplies">220</Cost>
-		<Cost ResourceType="Power">15</Cost>
+		<Cost ResourceType="Supplies">170</Cost>
+		<Cost ResourceType="Power">10</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<Pop Type="Unit">1</Pop>
-		<BuildPoints>26</BuildPoints>
+		<BuildPoints>20</BuildPoints>
 		<FrozenThreshold>100</FrozenThreshold>
 		<ChillDecayPerSecond>20</ChillDecayPerSecond>
 	</Squad>

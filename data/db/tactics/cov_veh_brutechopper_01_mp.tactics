@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>PlasmaCannonLeft</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>55</DamagePerSecond>
+		<DamagePerSecond>45</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
@@ -28,7 +28,7 @@
 	<Weapon>
 		<Name>PlasmaCannonRight</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>55</DamagePerSecond>
+		<DamagePerSecond>45</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
@@ -53,7 +53,7 @@
 	<Weapon>
 		<Name>ExplosivePlasmaCannonLeft</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>65</DamagePerSecond>
+		<DamagePerSecond>55</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_bruteGun_02</Projectile>
 		<ImpactEffect size="Medium">ExplosiveSpikeImpact</ImpactEffect>
@@ -75,8 +75,8 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>6</Radius>
-				<DamageRatio>75</DamageRatio>
+				<Radius>4</Radius>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
@@ -94,7 +94,7 @@
 	<Weapon>
 		<Name>ExplosivePlasmaCannonRight</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>65</DamagePerSecond>
+		<DamagePerSecond>55</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_bruteGun_02</Projectile>
 		<ImpactEffect size="Medium">ExplosiveSpikeImpact</ImpactEffect>
@@ -116,8 +116,8 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>6</Radius>
-				<DamageRatio>75</DamageRatio>
+				<Radius>4</Radius>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
@@ -135,7 +135,7 @@
 	<Weapon>
 		<Name>Ram</Name>
 		<WeaponType>WarthogRam</WeaponType>
-		<DamagePerSecond>650</DamagePerSecond>
+		<DamagePerSecond>450</DamagePerSecond>
 		<ThrowUnits />
 		<FlailThrownUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
@@ -227,7 +227,7 @@
 	<Weapon>
 		<Name>PlasmaCannonLeftSiphon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>55</DamagePerSecond>
+		<DamagePerSecond>45</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
@@ -253,7 +253,7 @@
 	<Weapon>
 		<Name>PlasmaCannonRightSiphon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>55</DamagePerSecond>
+		<DamagePerSecond>45</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
@@ -279,7 +279,7 @@
 	<Weapon>
 		<Name>ExplosivePlasmaCannonLeftSiphon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>65</DamagePerSecond>
+		<DamagePerSecond>55</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_bruteGun_02</Projectile>
 		<ImpactEffect size="Medium">ExplosiveSpikeImpact</ImpactEffect>
@@ -301,8 +301,8 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>6</Radius>
-				<DamageRatio>75</DamageRatio>
+				<Radius>4</Radius>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
@@ -321,7 +321,7 @@
 	<Weapon>
 		<Name>ExplosivePlasmaCannonRightSiphon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>65</DamagePerSecond>
+		<DamagePerSecond>55</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_bruteGun_02</Projectile>
 		<ImpactEffect size="Medium">ExplosiveSpikeImpact</ImpactEffect>
@@ -343,8 +343,8 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>6</Radius>
-				<DamageRatio>75</DamageRatio>
+				<Radius>4</Radius>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
@@ -363,7 +363,7 @@
 	<Weapon>
 		<Name>RamSiphon</Name>
 		<WeaponType>WarthogRam</WeaponType>
-		<DamagePerSecond>650</DamagePerSecond>
+		<DamagePerSecond>450</DamagePerSecond>
 		<ThrowUnits />
 		<FlailThrownUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
