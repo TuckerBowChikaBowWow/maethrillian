@@ -3359,7 +3359,7 @@
 		<RolloverTextID>22379</RolloverTextID>
 		<PrereqTextID>241</PrereqTextID>
 		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">450</Cost>
+		<Cost resourcetype="Power">350</Cost>
 		<Cost resourcetype="HQLevel">1</Cost>
 		<ResearchPoints>30</ResearchPoints>
 		<Status>OBTAINABLE</Status>
@@ -3372,7 +3372,7 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1500" subtype="Shieldpoints" relativity="Absolute">
+			<Effect type="Data" amount="1200" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" hpbar="Cov_HealthShield" subtype="HPBar" relativity="Absolute">
