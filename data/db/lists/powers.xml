@@ -30736,7 +30736,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="900" Power="0" />
+			<Cost Supplies="600" Power="50" />
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
@@ -30791,7 +30791,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="1100" Power="0" />
+			<Cost Supplies="900" Power="100" />
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
@@ -30833,7 +30833,12 @@
 				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
-						<ProtoSquadID>unsc_bldg_siegedropTurret_02</ProtoSquadID>
+						<ProtoSquadID>unsc_bldg_siegedropTurret_01</ProtoSquadID>
+						<ProjectileOverride>unsc_air_turretpod_01</ProjectileOverride>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>unsc_bldg_siegedropTurret_01</ProtoSquadID>
 						<ProjectileOverride>unsc_air_turretpod_01</ProjectileOverride>
 						<PlayTrainAnim>true</PlayTrainAnim>
 					</Drop>
