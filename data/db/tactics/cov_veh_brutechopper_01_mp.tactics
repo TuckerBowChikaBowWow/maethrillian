@@ -135,7 +135,7 @@
 	<Weapon>
 		<Name>Ram</Name>
 		<WeaponType>WarthogRam</WeaponType>
-		<DamagePerSecond>450</DamagePerSecond>
+		<DamagePerSecond>130</DamagePerSecond>
 		<ThrowUnits />
 		<FlailThrownUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
@@ -146,6 +146,7 @@
 		<ImpactEffect size="medium">RamImpact</ImpactEffect>
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="3.5" rollstrength="1.5" rotationfrequency="5" translationstrength="0" translationfrequency="6" />
 		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
+		<Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="false">1.5f</Daze>
 		<MaxDamagePerRam>2000</MaxDamagePerRam>
 		<ReflectDamageFactor>1</ReflectDamageFactor>
 		<Filter>Medium</Filter>
@@ -181,6 +182,7 @@
 		<ImpactEffect size="medium">RamImpactInfantry</ImpactEffect>
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.200000003" yawpitchstrength="0.400000006" rollstrength="0.200000003" rotationfrequency="3" translationstrength="0" translationfrequency="6" />
 		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
+		<Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="false">1.5f</Daze>
 		<MaxDamagePerRam>2000</MaxDamagePerRam>
 		<ReflectDamageFactor>0</ReflectDamageFactor>
 		<Filter>Medium</Filter>
