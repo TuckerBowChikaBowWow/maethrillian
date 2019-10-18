@@ -22,9 +22,9 @@
 	<Action>
 		<Name>ChillAura</Name>
 		<ActionType>AreaBuff</ActionType>
-		<WorkRange>45</WorkRange>
+		<WorkRange>50</WorkRange>
 		<SpecificData>
-			<BuffParams BuffType="ChillAura" ChillOverTime="2.5f">1.0f</BuffParams>
+			<BuffParams BuffType="ChillAura" ChillOverTime="1.0f">1.0f</BuffParams>
 			<TargetTypes>
 				<Type>GroundVehicle</Type>
 				<Type>Infantry</Type>
@@ -43,9 +43,33 @@
 		<ProtoObject>fx_cryoaura_01</ProtoObject>
 		<StartDisabled />
 	</Action>
+	<Action>
+		<Name>ChillAuraInner</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>15</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ChillAura" ChillOverTime="2.5f">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>GroundVehicle</Type>
+				<Type>Infantry</Type>
+				<Type>CryoBuilding</Type>
+				<Type>TurretBuilding</Type>
+			</TargetTypes>
+			<ExcludeTargetTypes>
+				<Type>Aircraft</Type>
+				<Type>BasicAircraft</Type>
+				<Type>DontChill</Type>
+			</ExcludeTargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+		<StartDisabled />
+	</Action>
 	<Tactic>
 		<PersistentAction>GatherSupplies</PersistentAction>
 		<PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
 		<PersistentAction>ChillAura</PersistentAction>
+		<PersistentAction>ChillAuraInner</PersistentAction>
 	</Tactic>
 </TacticData>
