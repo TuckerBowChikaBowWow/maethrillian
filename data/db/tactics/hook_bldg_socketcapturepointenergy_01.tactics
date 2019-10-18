@@ -22,9 +22,9 @@
 	<Action>
 		<Name>ChillAura</Name>
 		<ActionType>AreaBuff</ActionType>
-		<WorkRange>55</WorkRange>
+		<WorkRange>45</WorkRange>
 		<SpecificData>
-			<BuffParams BuffType="ChillAura" ChillOverTime="3.5f">1.0f</BuffParams>
+			<BuffParams BuffType="ChillAura" ChillOverTime="2.5f">1.0f</BuffParams>
 			<TargetTypes>
 				<Type>GroundVehicle</Type>
 				<Type>Infantry</Type>
