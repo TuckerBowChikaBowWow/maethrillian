@@ -30,7 +30,7 @@
 		<Name>Cannon</Name>
 		<AttackRate>3</AttackRate>
 		<DamagePerSecond>230</DamagePerSecond>
-		<WeaponType>ScorpionExplosive</WeaponType>
+		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>fx_proj_cannon_03</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>
 		<MaxVelocityLead>12.3000002</MaxVelocityLead>
@@ -74,9 +74,9 @@
 	<Weapon>
 		<Name>SpecialAttack</Name>
 		<AttackRate>45</AttackRate>
-		<DamagePerSecond>1750</DamagePerSecond>
+		<DamagePerSecond>2000</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>TankExplosive</WeaponType>
+		<WeaponType>TankSpecial</WeaponType>
 		<Projectile>fx_proj_canistershell_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">CanisterExplosion</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
@@ -118,9 +118,9 @@
 	<Weapon>
 		<Name>SpecialAttackScorpionTech</Name>
 		<AttackRate>45</AttackRate>
-		<DamagePerSecond>1837</DamagePerSecond>
+		<DamagePerSecond>2200</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Grenade</WeaponType>
+		<WeaponType>TankSpecial</WeaponType>
 		<Projectile>fx_proj_canistershell_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">CanisterExplosionScorpionTech</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
