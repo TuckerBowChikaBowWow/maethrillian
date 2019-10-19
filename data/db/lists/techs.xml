@@ -13814,7 +13814,7 @@
 			<TechStatus status="Active">unsc_scorpion_upgrade2</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="ReparentProtoObject" FromType="unsc_veh_scorpion_01_mp" ToType="unsc_veh_scorpion_01_mp_blitz" />
+			<Effect type="ReparentProtoObject" FromType="unsc_veh_scorpion_01" ToType="unsc_veh_scorpion_01_mp_blitz" />
 			<Effect type="Data" amount="1.14999998" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_air_nightingale_01</Target>
 			</Effect>
