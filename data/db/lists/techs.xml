@@ -5407,6 +5407,22 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	 <Tech name="cov_hunterguard_upgrade1" type="Normal">
+        <Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>1092</DisplayNameID>
+        <RolloverTextID>1093</RolloverTextID>
+        <ResearchPoints>0</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Prereqs>
+            <TechStatus status="Active">covenant_LeaderLekgolo</TechStatus>
+        </Prereqs>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Effects>
+            
+			<Effect type="ReparentProtoObject" FromType="cov_inf_hunter_01" ToType="cov_inf_hunter_01_mp_blitz" />
+        </Effects>
+    </Tech>
 	<Tech name="covenant_LeaderLekgolo" type="Normal">
 		<DBID>2104</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -5430,7 +5446,6 @@
 			<Effect type="UnlockableGodPower" tier="4">CovTeleport1</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovMassAssault</Effect>
 			<Effect type="UnlockableGodPower" tier="5">LekgoloEverlasting</Effect>
-			<Effect type="ReparentProtoObject" FromType="cov_inf_hunter_01" ToType="cov_inf_hunter_01_mp_blitz" />
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
