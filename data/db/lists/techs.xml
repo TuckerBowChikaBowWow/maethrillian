@@ -1424,6 +1424,12 @@
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_Sniper_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_Sniper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_Sniper_01</Target>
+			</Effect>
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_sniper_02">
 				<Target type="ProtoSquad">unsc_inf_Sniper_01</Target>
 			</Effect>
