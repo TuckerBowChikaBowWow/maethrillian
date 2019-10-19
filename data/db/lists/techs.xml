@@ -6757,8 +6757,6 @@
 		<Status>OBTAINABLE</Status>
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="cov_veh_wraith_01" ToType="cov_veh_wraith_01_mp_fear" />
-			<Effect type="ReparentProtoObject" FromType="cov_air_blisterbackBase_01" ToType="cov_air_blisterbackBase_01_mp_guard" />
-			<Effect type="ReparentProtoObject" FromType="cov_air_blisterbackLockdown_01" ToType="cov_air_blisterbackLockdown_01_mp_guard" />
 			<Effect type="Data" amount="-100" subtype="PowerCost" Resource="Supplies" power="CorruptedSpiritAssault2" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
