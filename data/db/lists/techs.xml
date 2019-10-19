@@ -3329,6 +3329,7 @@
 		<ResearchCompleteSound>play_vog_tech_assaultbeam</ResearchCompleteSound>
 		<Prereqs />
 		<Effects>
+			<Effect type="ReparentProtoObject" FromType="cov_inf_hunter_01" ToType="cov_inf_hunter_01_mp_blitz" />
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_hunter_01</Target>
 			</Effect>
@@ -3440,6 +3441,7 @@
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
 		<Effects>
+			<Effect type="ReparentProtoObject" FromType="cov_veh_wraith_01" ToType="cov_veh_wraith_01_mp_guard" />
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_wraith_01</Target>
 			</Effect>
@@ -3448,6 +3450,23 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="cov_wraithfear_upgrade1" type="Normal">
+        <Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>1102</DisplayNameID>
+        <RolloverTextID>1103</RolloverTextID>
+        <PrereqTextID>231</PrereqTextID>
+        <Prereqs>
+            <TechStatus status="Active">cov_wraith_upgrade1</TechStatus>
+            <TechStatus status="Active">_POWER_CorruptedPoolbuff2</TechStatus>
+        </Prereqs>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Effects>
+            <Effect type="ReparentProtoObject" FromType="cov_veh_wraith_01" ToType="cov_veh_wraith_01_mp_fear" />
+        </Effects>
+    </Tech>
 	<Tech name="cov_bruteChopper_upgrade4" type="Normal">
 		<DBID>1915</DBID>
 		<DisplayNameID>22386</DisplayNameID>
@@ -3462,6 +3481,7 @@
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
 		<Prereqs />
 		<Effects>
+			<Effect type="ReparentProtoObject" FromType="cov_veh_bruteChopper_01" ToType="cov_veh_bruteChopper_01_mp_fear" />
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonLeftAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 			</Effect>
@@ -5407,22 +5427,6 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	 <Tech name="cov_hunterguard_upgrade1" type="Normal">
-        <Flag>Shadow</Flag>
-        <DBID>1915</DBID>
-        <DisplayNameID>1092</DisplayNameID>
-        <RolloverTextID>1093</RolloverTextID>
-        <ResearchPoints>0</ResearchPoints>
-        <Status>OBTAINABLE</Status>
-        <Prereqs>
-            <TechStatus status="Active">covenant_LeaderLekgolo</TechStatus>
-        </Prereqs>
-        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-        <Effects>
-            
-			<Effect type="ReparentProtoObject" FromType="cov_inf_hunter_01" ToType="cov_inf_hunter_01_mp_blitz" />
-        </Effects>
-    </Tech>
 	<Tech name="covenant_LeaderLekgolo" type="Normal">
 		<DBID>2104</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -6752,6 +6756,9 @@
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Effects>
+			<Effect type="ReparentProtoObject" FromType="cov_veh_wraith_01" ToType="cov_veh_wraith_01_mp_fear" />
+			<Effect type="ReparentProtoObject" FromType="cov_air_blisterbackBase_01" ToType="cov_air_blisterbackBase_01_mp_guard" />
+			<Effect type="ReparentProtoObject" FromType="cov_air_blisterbackLockdown_01" ToType="cov_air_blisterbackLockdown_01_mp_guard" />
 			<Effect type="Data" amount="-100" subtype="PowerCost" Resource="Supplies" power="CorruptedSpiritAssault2" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
@@ -13835,6 +13842,7 @@
 			<TechStatus status="Active">unsc_scorpion_upgrade2</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="ReparentProtoObject" FromType="unsc_air_nightingale_01" ToType="unsc_air_nightingale_01_mp_blitz" />
 			<Effect type="ReparentProtoObject" FromType="unsc_veh_scorpion_01" ToType="unsc_veh_scorpion_01_mp_blitz" />
 			<Effect type="Data" amount="1.14999998" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_air_nightingale_01</Target>
