@@ -135,22 +135,25 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Infantry</TargetType>
+			<TargetType>Gatherable</TargetType>
+			<TargetType>Ground</TargetType>
+			<TargetType>CaptureNode</TargetType>
+			<TargetType>Hero</TargetType>
+			<TargetType>Leader</TargetType>
 			<Action>SpawnerInfAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>GroundVehicle</TargetType>
+			<TargetType>TurretBuilding</TargetType>
+			<TargetType>DropTurret</TargetType>
 			<Action>SpawnerVehAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
-			<Action>SpawnerAirAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
 			<TargetType>Building</TargetType>
-			<Action>SpawnerVehAttackAction</Action>
+			<Action>SpawnerAirAttackAction</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>

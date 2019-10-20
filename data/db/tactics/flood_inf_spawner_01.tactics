@@ -69,7 +69,7 @@
 	<Weapon>
 		<Name>Rifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
+		<DamagePerSecond>450</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>episode2_pack1_units_flood_infantry_FloodSpawnerSpine</Projectile>
 		<ImpactEffect size="small">FloodSpawnerSpineImpact</ImpactEffect>
@@ -126,25 +126,94 @@
 		<FullBodyAttackAnim />
 		<FindBetterAction />
 	</Action>
+	<Action>
+		<Name>PersonalCloak</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<DontAutoRestart />
+	</Action>
+	<Weapon>
+		<Name>RifleSiphon</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>450</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>episode2_pack1_units_flood_infantry_FloodSpawnerSpine</Projectile>
+		<ImpactEffect size="small">FloodSpawnerSpineImpact</ImpactEffect>
+		<MaxVelocityLead>25</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>8</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Aircraft">3</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.400000006</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+		<LifeStealRatio shield="false">0.95</LifeStealRatio>
+	</Weapon>
+	<Action>
+		<Name>RifleSiphonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>RifleSiphon</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FullBodyAttackAnim />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
 	<Tactic>
+		<PersistentAction>PersonalCloak</PersistentAction>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<Relation>Self</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<Relation>Enemy</Relation>
+		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Infantry</TargetType>
+			<TargetType>Gatherable</TargetType>
+			<TargetType>Ground</TargetType>
+			<TargetType>CaptureNode</TargetType>
 			<Action>SpawnerInfAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>GroundVehicle</TargetType>
+			<TargetType>TurretBuilding</TargetType>
+			<TargetType>DropTurret</TargetType>
+			<TargetType>Hero</TargetType>
+			<TargetType>Leader</TargetType>
 			<Action>SpawnerVehAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
+			<TargetType>Building</TargetType>
 			<Action>SpawnerAirAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>RifleAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RifleSiphonAttackAction</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>
