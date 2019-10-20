@@ -48,7 +48,6 @@
 		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="cov_air_banshee_01_mp" parent_element="cov_air_banshee_01_base" dbid="17640904593416254281">
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 		<BuildPoints>18</BuildPoints>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">0</Cost>
@@ -1259,6 +1258,7 @@
 	</Squad>
 	<Squad name="cov_inf_eliteCommando_01_mp" parent_element="cov_inf_eliteCommando_01_base" dbid="7496255597457165959">
 		<BuildPoints>55</BuildPoints>
+		<HealValue>1.3</HealValue>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">275</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -1836,6 +1836,7 @@
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">80</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
+		<HealValue>1.7</HealValue>
 	</Squad>
 	<Squad name="cov_inf_lekgologoliath_01_sp" parent_element="cov_inf_lekgologoliath_01_base" dbid="4444592376933581121" />
 	<Squad name="cov_inf_mortarwarlord_01" dbid="5074880509138894708" parent_element="cov_inf_mortarwarlord_01_sp">
@@ -2252,7 +2253,6 @@
 		<Cost ResourceType="Power">10</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<BuildPoints>20</BuildPoints>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 		<RammingDistanceScalar>10</RammingDistanceScalar>
 	</Squad>
 	<Squad name="cov_veh_bruteChopper_01_sp" parent_element="cov_veh_bruteChopper_01_base" dbid="16952678321375871335" />
@@ -2342,7 +2342,6 @@
 		<Cost ResourceType="Supplies">180</Cost>
 		<Cost ResourceType="Power">10</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 		<BuildPoints>20</BuildPoints>
 		<RammingSpeedScalar>2</RammingSpeedScalar>
 	</Squad>
@@ -6548,7 +6547,6 @@
 		<Birth>FlyIn</Birth>
 		<AvoidanceMass>Heavy</AvoidanceMass>
 		<Counters>Aggressor_01</Counters>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 	</Squad>
 	<Squad name="neutralfor_sentineltier2_02" dbid="703196797692713965" formationType="Flock" parent_element="neutralfor_sentineltier2_01">
 		<Units>
@@ -7467,6 +7465,8 @@
 		<Counters>Vulture_01</Counters>
 	</Squad>
 	<Squad name="unsc_air_vulture_01_mp" parent_element="unsc_air_vulture_01_base" dbid="14030362448463887195">
+		<Cost ResourceType="Supplies">650</Cost>
+		<Cost ResourceType="Power">110</Cost>
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
 	</Squad>
@@ -9235,7 +9235,6 @@
 		<RammingDistanceScalar>7</RammingDistanceScalar>
 		<RammingSpeedScalar>3</RammingSpeedScalar>
 		<RevvingSpeedThreshold>11</RevvingSpeedThreshold>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 	</Squad>
 	<Squad name="unsc_veh_floodscorpion01" dbid="10723768370281900789" parent_element="unsc_veh_scorpion_01_base">
 		<Units>
@@ -9296,7 +9295,6 @@
 		<FrozenThreshold>400</FrozenThreshold>
 		<ShatterThreshold>3000</ShatterThreshold>
 		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 		<ChillDecayPerSecond>80</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="unsc_veh_foxcannon_01" dbid="14763455258316856767" parent_element="unsc_veh_foxcannon_01_sp">
@@ -9827,7 +9825,6 @@
 	</Squad>
 	<Squad name="unsc_veh_warthog_01_mp" parent_element="unsc_veh_warthog_01_base" dbid="16819477557279945013">
 		<BuildPoints>20</BuildPoints>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 		<RammingSpeedScalar>2.5</RammingSpeedScalar>
 	</Squad>
 	<Squad name="unsc_veh_warthog_01_sp" parent_element="unsc_veh_warthog_01_base" dbid="16794430682394218283" />
@@ -9876,7 +9873,6 @@
 		<Counters>Wolverine_01</Counters>
 	</Squad>
 	<Squad name="unsc_veh_wolverine_01_mp" parent_element="unsc_veh_wolverine_01_base" dbid="12198566607598359782">
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 		<BuildPoints>20</BuildPoints>
 		<Cost ResourceType="HQLevel">2</Cost>
 		<Cost ResourceType="Supplies">150</Cost>

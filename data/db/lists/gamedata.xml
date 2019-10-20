@@ -269,7 +269,7 @@
 		<CodeSquadType Type="Drone">Drone</CodeSquadType>
 	</CodeSquadTypes>
 	<GarrisonDamageMultiplier>0</GarrisonDamageMultiplier>
-	<ConstructionDamageMultiplier>2.3</ConstructionDamageMultiplier>
+	<ConstructionDamageMultiplier>2.2</ConstructionDamageMultiplier>
 	<CaptureDecayRate>0.5</CaptureDecayRate>
 	<UnitLeashLength>4</UnitLeashLength>
 	<CloakingDelay>1</CloakingDelay>
@@ -560,14 +560,14 @@
 	<SpawnedViaHealingVfx>vfx_unitvfx_miscunitvfx_spawnedviahealing</SpawnedViaHealingVfx>
 	<ChillToDecayTimeMilliseconds>3000</ChillToDecayTimeMilliseconds>
 	<ChillDecayPerSecond>40</ChillDecayPerSecond>
-	<FrozenToDecayTimeMilliseconds>50000</FrozenToDecayTimeMilliseconds>
+	<FrozenToDecayTimeMilliseconds>8000</FrozenToDecayTimeMilliseconds>
 	<ChillDecayPerSecondWhenFrozen>50</ChillDecayPerSecondWhenFrozen>
 	<FrozenThreshold>200</FrozenThreshold>
-	<ShatterThreshold>1500</ShatterThreshold>
+	<ShatterThreshold>1700</ShatterThreshold>
 	<ChillWorkRate>0.75</ChillWorkRate>
 	<ChillDamageDealtScalar>1</ChillDamageDealtScalar>
-	<ChillSlowModifier>0.85</ChillSlowModifier>
-	<DamageOnShatter>10000</DamageOnShatter>
+	<ChillSlowModifier>0.8</ChillSlowModifier>
+	<DamageOnShatter>5000</DamageOnShatter>
 	<FreezeVfx>vfx_dlc4_units_freeze1</FreezeVfx>
 	<ShatterVfx>vfx_dlc4_units_shatter1</ShatterVfx>
 	<ThawVfx>vfx_dlc4_units_thaw1</ThawVfx>
