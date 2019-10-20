@@ -6344,6 +6344,9 @@
 			<ProcOnPowerGranted />
 			<ProcOnSquadSpawned />
 			<ProcBuffName>BoundlessRageProc</ProcBuffName>
+			<ProcObjectTypeFilter>cov_veh_scarab_01</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>cov_veh_scarab_01_base</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>cov_veh_scarab_01_mp</ProcObjectTypeFilter>
 			<Cost Supplies="0" Power="0" />
 			<DisplayNameID>5012</DisplayNameID>
 			<RolloverTextID>5013</RolloverTextID>
@@ -6359,9 +6362,6 @@
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
 				<Data type="float" name="DamageDealtModifier">1.05f</Data>
 				<Data type="float" name="SlowModifier">1.1f</Data>
-				<Data type="objecttype" name="FilterExcludeType">cov_veh_scarab_01</Data>
-				<Data type="objecttype" name="FilterExcludeType">cov_veh_scarab_01_base</Data>
-				<Data type="objecttype" name="FilterExcludeType">cov_veh_scarab_01_mp</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
@@ -10745,6 +10745,9 @@
 			<TechScript>_POWER_Bloodlust</TechScript>
 			<ProcOnSquadKill />
 			<ProcBuffName>BloodlustProc</ProcBuffName>
+			<ProcObjectTypeFilter>cov_veh_scarab_01</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>cov_veh_scarab_01_base</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>cov_veh_scarab_01_mp</ProcObjectTypeFilter>
 			<Cost Supplies="0" Power="0" />
 			<DisplayNameID>5012</DisplayNameID>
 			<RolloverTextID>5013</RolloverTextID>
@@ -10760,9 +10763,6 @@
 				<Data type="float" name="BuffDuration">6</Data>
 				<Data type="float" name="DamageDealtModifier">1.5</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_bloodlustactivate_01</Data>
-				<Data type="objecttype" name="FilterExcludeType">cov_veh_scarab_01</Data>
-				<Data type="objecttype" name="FilterExcludeType">cov_veh_scarab_01_base</Data>
-				<Data type="objecttype" name="FilterExcludeType">cov_veh_scarab_01_mp</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
@@ -21301,6 +21301,9 @@
 			<ProcObjectTypeFilter>Building</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>TurretBuilding</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>Unit</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>cov_veh_scarab_01</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>cov_veh_scarab_01_base</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>cov_veh_scarab_01_mp</ProcObjectTypeFilter>
 			<BuffHealingOverride healPercentPerTickOverride="0.0149999997" healTickRateOverride="2">Building</BuffHealingOverride>
 			<BuffHealingOverride healPercentPerTickOverride="0.0149999997" healTickRateOverride="2">TurretBuilding</BuffHealingOverride>
 			<BuffHealingOverride healPercentPerTickOverride="0.0149999997" healTickRateOverride="2">Hero</BuffHealingOverride>
@@ -21319,9 +21322,6 @@
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
 				<Data type="float" name="HealPercentPerTick">0.0299999993</Data>
 				<Data type="float" name="HealTickRate">2</Data>
-				<Data type="objecttype" name="FilterExcludeType">cov_veh_scarab_01</Data>
-				<Data type="objecttype" name="FilterExcludeType">cov_veh_scarab_01_base</Data>
-				<Data type="objecttype" name="FilterExcludeType">cov_veh_scarab_01_mp</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
