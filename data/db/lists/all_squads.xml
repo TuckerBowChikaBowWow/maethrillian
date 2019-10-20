@@ -4741,6 +4741,79 @@
 		<Flag>UseNameForSelectionIcon</Flag>
 		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
+	<Squad name="flood_custom_eggdrop" dbid="15571555391561239374">
+		<CombatRank>1</CombatRank>
+		<SubSelectSort>124</SubSelectSort>
+		<LeashDistance>20</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.20000005</AIAttackRank>
+		<BuildPoints>18</BuildPoints>
+		<Pop Type="Unit">0</Pop>
+		<Cost ResourceType="Supplies">0</Cost>
+		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,4.92000008,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>Units</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>AssaultElites_01</Counters>
+	</Squad>
+	<Squad name="flood_custom_egg_inf" formationType="Flock" dbid="14175204004466671828" parent_element="flood_custom_eggdrop">
+		<Units>
+			<Unit count="3" role="normal">flood_bldg_egg_infinfector_01</Unit>
+		</Units>
+	</Squad>
+	<Squad name="flood_custom_egg_multi" formationType="Flock" dbid="14175204004466671828" parent_element="flood_custom_eggdrop">
+		<Units>
+			<Unit count="2" role="normal">flood_bldg_egg_infinfector_01</Unit>
+			<Unit count="1" role="normal">flood_bldg_egg_vehinfector_01</Unit>
+		</Units>
+	</Squad>
+	<Squad name="fld_bldg_drophivebase_01" dbid="3996937595498649147">
+		<CombatRank>5</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23632</DisplayNameID>
+		<RolloverTextID>23633</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<SubSelectSort>5075</SubSelectSort>
+		<LeashDistance>12.3000002</LeashDistance>
+		<LeashDeadzone>3.07500005</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<BuildPoints>1</BuildPoints>
+		<Pop Type="Unit">2</Pop>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">0</Cost>
+		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">fld_bldg_drophivebase_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+		</Selection>
+		<TurnRadius min="2" max="5" />
+	</Squad>
 	<Squad name="flood_air_airborneinfector_01" dbid="18345026867266862783">
 		<CombatRank>6</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\air_banshee</PortraitIcon>

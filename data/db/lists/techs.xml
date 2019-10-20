@@ -8045,19 +8045,16 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
-			<Effect type="UnlockableGodPower" tier="1">Flood_AmbushMine1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="Flood_AmbushMine1">Flood_AmbushMine2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">FloodEggDrop1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="FloodEggDrop1">FloodEggDrop2</Effect>
 			<Effect type="UnlockableGodPower" tier="1">Flood_VehInfecter</Effect>
 			<Effect type="UnlockableGodPower" tier="2">CorruptedPillage1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
-			<Effect type="UnlockableGodPower" tier="2">Unbrk_Overcharge1_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="Unbrk_Overcharge1_mp">Unbrk_Overcharge2_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="Unbrk_Overcharge2_mp">Unbrk_Overcharge3_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="2">FloodBaseDrop1</Effect>
 			<Effect type="UnlockableGodPower" tier="3">CovBloodlust</Effect>
-			<Effect type="UnlockableGodPower" tier="3">CovBuffLeech1</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="CovBuffLeech1">CovBuffLeech2</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="CovBuffLeech2">CovBuffLeech3</Effect>
-			<Effect type="UnlockableGodPower" tier="4">JohnsonMapAwareness1</Effect>
+			<Effect type="UnlockableGodPower" tier="3">Flood_Emerge_Infectors</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="Flood_Emerge_Infectors">Flood_Emerge_Infectors2</Effect>
+			<Effect type="UnlockableGodPower" tier="4">FloodRuptureEmerge</Effect>
 			<Effect type="UnlockableGodPower" tier="4">FloodBuff</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="FloodBuff">FloodBuff2</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Flood_InfantryRecycle</Effect>
