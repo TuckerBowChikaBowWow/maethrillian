@@ -6344,6 +6344,9 @@
 			<ProcOnPowerGranted />
 			<ProcOnSquadSpawned />
 			<ProcBuffName>BoundlessRageProc</ProcBuffName>
+			<ProcObjectTypeFilter>cov_veh_scarab_01</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>cov_veh_scarab_01_base</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>cov_veh_scarab_01_mp</ProcObjectTypeFilter>
 			<Cost Supplies="0" Power="0" />
 			<DisplayNameID>5012</DisplayNameID>
 			<RolloverTextID>5013</RolloverTextID>
@@ -10742,6 +10745,9 @@
 			<TechScript>_POWER_Bloodlust</TechScript>
 			<ProcOnSquadKill />
 			<ProcBuffName>BloodlustProc</ProcBuffName>
+			<ProcObjectTypeFilter>cov_veh_scarab_01</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>cov_veh_scarab_01_base</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>cov_veh_scarab_01_mp</ProcObjectTypeFilter>
 			<Cost Supplies="0" Power="0" />
 			<DisplayNameID>5012</DisplayNameID>
 			<RolloverTextID>5013</RolloverTextID>
@@ -21295,6 +21301,9 @@
 			<ProcObjectTypeFilter>Building</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>TurretBuilding</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>Unit</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>cov_veh_scarab_01</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>cov_veh_scarab_01_base</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>cov_veh_scarab_01_mp</ProcObjectTypeFilter>
 			<BuffHealingOverride healPercentPerTickOverride="0.0149999997" healTickRateOverride="2">Building</BuffHealingOverride>
 			<BuffHealingOverride healPercentPerTickOverride="0.0149999997" healTickRateOverride="2">TurretBuilding</BuffHealingOverride>
 			<BuffHealingOverride healPercentPerTickOverride="0.0149999997" healTickRateOverride="2">Hero</BuffHealingOverride>
@@ -30317,7 +30326,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>OrbitalShatter</AIPowerUseType>
 			<Cost Supplies="200" Power="200" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>120000</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -30371,7 +30380,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>OrbitalShatter</AIPowerUseType>
 			<Cost Supplies="300" Power="300" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>120000</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -30736,7 +30745,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="900" Power="0" />
+			<Cost Supplies="600" Power="50" />
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
@@ -30791,7 +30800,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="1100" Power="0" />
+			<Cost Supplies="900" Power="100" />
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>

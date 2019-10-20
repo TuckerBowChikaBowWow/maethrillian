@@ -50,7 +50,7 @@
 		<Name>PlasmaMortar</Name>
 		<AttackRate>5</AttackRate>
 		<DamagePerSecond>190</DamagePerSecond>
-		<WeaponType>WraithExplosive</WeaponType>
+		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>fx_proj_plasmaMortar_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">MediumPlasmaExplosion</ImpactEffect>
 		<MaxVelocityLead>30.2250004</MaxVelocityLead>
@@ -100,9 +100,9 @@
 	<Weapon>
 		<Name>ScorchMortar</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>950</DamagePerSecond>
+		<DamagePerSecond>1000</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>WraithExplosive</WeaponType>
+		<WeaponType>TankSpecial</WeaponType>
 		<Projectile>fx_proj_plasmaMortar_02</Projectile>
 		<MaxVelocityLead>30.2250004</MaxVelocityLead>
 		<MaxRange>85</MaxRange>
@@ -145,9 +145,9 @@
 	<Weapon>
 		<Name>CorruptedScorchMortar</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>950</DamagePerSecond>
+		<DamagePerSecond>1000</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>WraithExplosive</WeaponType>
+		<WeaponType>TankSpecial</WeaponType>
 		<Projectile>fx_proj_corruptedplasmaMortar_01</Projectile>
 		<ImpactEffect doShockwaveAction="true">CorruptionMediumExp</ImpactEffect>
 		<MaxVelocityLead>30.2250004</MaxVelocityLead>
@@ -239,7 +239,7 @@
 		<Name>PlasmaMortarSiphon</Name>
 		<AttackRate>5</AttackRate>
 		<DamagePerSecond>190</DamagePerSecond>
-		<WeaponType>WraithExplosive</WeaponType>
+		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>fx_proj_plasmaMortar_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">MediumPlasmaExplosion</ImpactEffect>
 		<MaxVelocityLead>30.2250004</MaxVelocityLead>
@@ -290,9 +290,9 @@
 	<Weapon>
 		<Name>ScorchMortarSiphon</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>950</DamagePerSecond>
+		<DamagePerSecond>1000</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>WraithExplosive</WeaponType>
+		<WeaponType>TankSpecial</WeaponType>
 		<Projectile>fx_proj_plasmaMortar_02</Projectile>
 		<MaxVelocityLead>30.2250004</MaxVelocityLead>
 		<MaxRange>85</MaxRange>

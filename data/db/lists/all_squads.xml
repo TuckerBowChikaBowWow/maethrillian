@@ -48,7 +48,6 @@
 		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="cov_air_banshee_01_mp" parent_element="cov_air_banshee_01_base" dbid="17640904593416254281">
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 		<BuildPoints>18</BuildPoints>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">0</Cost>
@@ -620,7 +619,7 @@
 	</Squad>
 	<Squad name="cov_inf_arbiter_01" dbid="9331911634682025629">
 		<CombatRank>9</CombatRank>
-		<HealValue>1.29999995</HealValue>
+		<HealValue>1.4625</HealValue>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
 		<MinimapScale>1</MinimapScale>
 		<DisplayNameID>3080</DisplayNameID>
@@ -769,7 +768,7 @@
 	</Squad>
 	<Squad name="cov_inf_atrioxchosen_01_base" dbid="17750208265744882891">
 		<CombatRank>9</CombatRank>
-		<HealValue>1.29999995</HealValue>
+		<HealValue>1.69</HealValue>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
 		<MinimapScale>1</MinimapScale>
 		<DisplayNameID>27840</DisplayNameID>
@@ -879,7 +878,7 @@
 	</Squad>
 	<Squad name="cov_inf_bruteHonour_01_base" dbid="18379756352825295055">
 		<CombatRank>9</CombatRank>
-		<HealValue>1.29999995</HealValue>
+		<HealValue>1.37</HealValue>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
 		<MinimapScale>1</MinimapScale>
 		<DisplayNameID>27483</DisplayNameID>
@@ -1107,7 +1106,7 @@
 	</Squad>
 	<Squad name="cov_inf_corruptedwarlord_01_base" dbid="7973488142219923271">
 		<CombatRank>9</CombatRank>
-		<HealValue>1.29999995</HealValue>
+		<HealValue>1.375</HealValue>
 		<SubSelectSort>14</SubSelectSort>
 		<LeashDistance>53</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
@@ -1259,6 +1258,7 @@
 	</Squad>
 	<Squad name="cov_inf_eliteCommando_01_mp" parent_element="cov_inf_eliteCommando_01_base" dbid="7496255597457165959">
 		<BuildPoints>55</BuildPoints>
+		<HealValue>1.3</HealValue>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">275</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -1631,7 +1631,7 @@
 	</Squad>
 	<Squad name="cov_inf_impervioushunter_01_base" dbid="11393432943463854173">
 		<CombatRank>9</CombatRank>
-		<HealValue>1.60000002</HealValue>
+		<HealValue>1.76</HealValue>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
 		<MinimapScale>1</MinimapScale>
 		<DisplayNameID>27483</DisplayNameID>
@@ -1836,6 +1836,7 @@
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">80</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
+		<HealValue>1.7</HealValue>
 	</Squad>
 	<Squad name="cov_inf_lekgologoliath_01_sp" parent_element="cov_inf_lekgologoliath_01_base" dbid="4444592376933581121" />
 	<Squad name="cov_inf_mortarwarlord_01" dbid="5074880509138894708" parent_element="cov_inf_mortarwarlord_01_sp">
@@ -1859,6 +1860,7 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>PaintTarget</ActiveAbilityType>
+		<HealValue>1.35</HealValue>
 		<BuildPoints>30</BuildPoints>
 		<Pop Type="Leader">1</Pop>
 		<Cost ResourceType="Supplies">350</Cost>
@@ -2251,7 +2253,6 @@
 		<Cost ResourceType="Power">10</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<BuildPoints>20</BuildPoints>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 		<RammingDistanceScalar>10</RammingDistanceScalar>
 	</Squad>
 	<Squad name="cov_veh_bruteChopper_01_sp" parent_element="cov_veh_bruteChopper_01_base" dbid="16952678321375871335" />
@@ -2341,7 +2342,6 @@
 		<Cost ResourceType="Supplies">180</Cost>
 		<Cost ResourceType="Power">10</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 		<BuildPoints>20</BuildPoints>
 		<RammingSpeedScalar>2</RammingSpeedScalar>
 	</Squad>
@@ -6547,7 +6547,6 @@
 		<Birth>FlyIn</Birth>
 		<AvoidanceMass>Heavy</AvoidanceMass>
 		<Counters>Aggressor_01</Counters>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 	</Squad>
 	<Squad name="neutralfor_sentineltier2_02" dbid="703196797692713965" formationType="Flock" parent_element="neutralfor_sentineltier2_01">
 		<Units>
@@ -7466,6 +7465,8 @@
 		<Counters>Vulture_01</Counters>
 	</Squad>
 	<Squad name="unsc_air_vulture_01_mp" parent_element="unsc_air_vulture_01_base" dbid="14030362448463887195">
+		<Cost ResourceType="Supplies">650</Cost>
+		<Cost ResourceType="Power">110</Cost>
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
 	</Squad>
@@ -8193,6 +8194,7 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
 		<UnlockableActiveAbilityType>Flamewall</UnlockableActiveAbilityType>
+		<HealValue>1.37</HealValue>
 		<BuildPoints>55</BuildPoints>
 		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
@@ -8395,7 +8397,7 @@
 		<BuildPoints>45</BuildPoints>
 	</Squad>
 	<Squad name="unsc_inf_johnson_hero_01" dbid="15268622866869143349">
-		<HealValue>1.29999995</HealValue>
+		<HealValue>1.69</HealValue>
 		<CombatRank>10</CombatRank>
 		<MinimapScale>1</MinimapScale>
 		<SubSelectSort>60</SubSelectSort>
@@ -8504,6 +8506,7 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<UnlockableActiveAbilityType>Hijack</UnlockableActiveAbilityType>
 		<AggroDistance>9.22500038</AggroDistance>
+		<HealValue>1.3787878</HealValue>
 		<BuildPoints>55</BuildPoints>
 		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
@@ -9158,6 +9161,7 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<ActiveAbilityType>Garrison</ActiveAbilityType>
+		<HealValue>1.3</HealValue>
 		<BuildPoints>25</BuildPoints>
 		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">250</Cost>
@@ -9231,7 +9235,6 @@
 		<RammingDistanceScalar>7</RammingDistanceScalar>
 		<RammingSpeedScalar>3</RammingSpeedScalar>
 		<RevvingSpeedThreshold>11</RevvingSpeedThreshold>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 	</Squad>
 	<Squad name="unsc_veh_floodscorpion01" dbid="10723768370281900789" parent_element="unsc_veh_scorpion_01_base">
 		<Units>
@@ -9259,6 +9262,7 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>12</AIAttackRank>
 		<UnlockableActiveAbilityType>VehicleMissile</UnlockableActiveAbilityType>
+		<HealValue>1.3</HealValue>
 		<BuildPoints>55</BuildPoints>
 		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
@@ -9291,7 +9295,6 @@
 		<FrozenThreshold>400</FrozenThreshold>
 		<ShatterThreshold>3000</ShatterThreshold>
 		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 		<ChillDecayPerSecond>80</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="unsc_veh_foxcannon_01" dbid="14763455258316856767" parent_element="unsc_veh_foxcannon_01_sp">
@@ -9738,7 +9741,7 @@
 		<ShatterThreshold>3000</ShatterThreshold>
 		<DamageOnShatter>7000</DamageOnShatter>
 		<ChillDecayPerSecond>80</ChillDecayPerSecond>
-		<HealValue>1.29999995</HealValue>
+		<HealValue>1.365</HealValue>
 	</Squad>
 	<Squad name="unsc_veh_sniperdrone_01" dbid="17464247757253492518" parent_element="unsc_veh_sniperdrone_01_sp" />
 	<Squad name="unsc_veh_sniperdrone_01_base" dbid="15156366382598061222">
@@ -9822,7 +9825,6 @@
 	</Squad>
 	<Squad name="unsc_veh_warthog_01_mp" parent_element="unsc_veh_warthog_01_base" dbid="16819477557279945013">
 		<BuildPoints>20</BuildPoints>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 		<RammingSpeedScalar>2.5</RammingSpeedScalar>
 	</Squad>
 	<Squad name="unsc_veh_warthog_01_sp" parent_element="unsc_veh_warthog_01_base" dbid="16794430682394218283" />
@@ -9871,7 +9873,6 @@
 		<Counters>Wolverine_01</Counters>
 	</Squad>
 	<Squad name="unsc_veh_wolverine_01_mp" parent_element="unsc_veh_wolverine_01_base" dbid="12198566607598359782">
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 		<BuildPoints>20</BuildPoints>
 		<Cost ResourceType="HQLevel">2</Cost>
 		<Cost ResourceType="Supplies">150</Cost>
