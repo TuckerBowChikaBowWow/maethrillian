@@ -455,26 +455,19 @@
 		<FlashImg>orbital</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
-		<Resource Type="Supplies">60000</Resource>
+		<Resource Type="Supplies">600</Resource>
 		<Resource Type="Collectable">0</Resource>
-		<Resource Type="Power">40000</Resource>
+		<Resource Type="Power">400</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_generic_marine</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_generic_marine</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_serina_cryomarines_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-10">unsc_inf_serina_cryomarines_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-10">unsc_inf_serina_cryomarines_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_air_serina_pegasus_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_air_serina_pegasus_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-5">neutralfor_sentineltier2_generic</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,-5">neutralfor_sentineltier2_generic</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="500">400</Pop>
-		<Pop Type="Spartan" Max="10">10</Pop>
+		<Pop Type="Unit" Max="500">80</Pop>
+		<Pop Type="Spartan" Max="10">1</Pop>
 		<Pop Type="Rhino" Max="3">3</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 	</Leader>

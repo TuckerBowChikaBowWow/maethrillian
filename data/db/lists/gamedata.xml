@@ -560,13 +560,13 @@
 	<SpawnedViaHealingVfx>vfx_unitvfx_miscunitvfx_spawnedviahealing</SpawnedViaHealingVfx>
 	<ChillToDecayTimeMilliseconds>3000</ChillToDecayTimeMilliseconds>
 	<ChillDecayPerSecond>40</ChillDecayPerSecond>
-	<FrozenToDecayTimeMilliseconds>10000</FrozenToDecayTimeMilliseconds>
+	<FrozenToDecayTimeMilliseconds>50000</FrozenToDecayTimeMilliseconds>
 	<ChillDecayPerSecondWhenFrozen>50</ChillDecayPerSecondWhenFrozen>
 	<FrozenThreshold>200</FrozenThreshold>
 	<ShatterThreshold>1500</ShatterThreshold>
 	<ChillWorkRate>0.75</ChillWorkRate>
-	<ChillDamageDealtScalar>0.1</ChillDamageDealtScalar>
-	<ChillSlowModifier>0.1</ChillSlowModifier>
+	<ChillDamageDealtScalar>1</ChillDamageDealtScalar>
+	<ChillSlowModifier>0.85</ChillSlowModifier>
 	<DamageOnShatter>10000</DamageOnShatter>
 	<FreezeVfx>vfx_dlc4_units_freeze1</FreezeVfx>
 	<ShatterVfx>vfx_dlc4_units_shatter1</ShatterVfx>
