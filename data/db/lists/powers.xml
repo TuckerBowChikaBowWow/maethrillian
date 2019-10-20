@@ -27529,6 +27529,276 @@
 			</DataLevel>
 		</Attributes>
 	</Power>
+	<Power name="Flood_AmbushMine1">
+        <Attributes>
+            <PowerType>UnitDrop</PowerType>
+            <AIPowerUseType>MineDrop</AIPowerUseType>
+            <SoundName>PlasmaMine</SoundName>
+            <Cost Supplies="60" Power="60" />
+            <AutoRecharge>90000</AutoRecharge>
+            <UIRadius>6</UIRadius>
+            <Decal>Drop</Decal>
+            <DisplayNameID>5014</DisplayNameID>
+            <RolloverTextID>5015</RolloverTextID>
+            <ShowLimit />
+            <LeaderPower />
+            <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+            <IconLocation>6</IconLocation>
+            <CameraZoomMin>200</CameraZoomMin>
+            <CameraZoomMax>200</CameraZoomMax>
+            <CameraPitchMin>55</CameraPitchMin>
+            <CameraPitchMax>55</CameraPitchMax>
+            <CameraEnableUserScroll>true</CameraEnableUserScroll>
+            <CameraEnableUserYaw>false</CameraEnableUserYaw>
+            <CameraEnableUserZoom>false</CameraEnableUserZoom>
+            <FlashUI>
+                <CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+                <CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+            </FlashUI>
+            <DataLevel level="0">
+                <Data type="int" name="OverlayStringID">25023</Data>
+                <Data type="float" name="SquadSpawnDelay">1.25</Data>
+                <Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
+                <Data type="sound" name="HudUpSound" />
+                <Data type="sound" name="HudAbortSound" />
+                <Data type="sound" name="HudFireSound" />
+                <Data type="sound" name="HudLastFireSound" />
+                <Data type="sound" name="HudStartEnvSound" />
+                <Data type="sound" name="HudStopEnvSound" />
+                <Data type="protoobject" name="Projectile">pow_proj_ambushmine</Data>
+                <Data type="bool" name="OneProjectilePerUnit">false</Data>
+                <Data type="bool" name="CanDropOnSquads">false</Data>
+                <Data type="bool" name="NoDropNearBase">true</Data>
+                <Data type="unitdrops" name="unitdrops">
+                    <Drop>
+                        <ProtoObjectID>flood_bldg_egg_infinfector_01</ProtoObjectID>
+                    </Drop>
+                    <Drop>
+                        <ProtoObjectID>flood_bldg_egg_infinfector_01</ProtoObjectID>
+                    </Drop>
+                    <Drop>
+                        <ProtoObjectID>flood_bldg_egg_infinfector_01</ProtoObjectID>
+                    </Drop>
+                </Data>
+            </DataLevel>
+        </Attributes>
+    </Power>
+    <Power name="Flood_AmbushMine2">
+        <Attributes>
+            <PowerType>UnitDrop</PowerType>
+            <AIPowerUseType>MineDrop</AIPowerUseType>
+            <SoundName>PlasmaMine</SoundName>
+            <Cost Supplies="110" Power="110" />
+            <AutoRecharge>90000</AutoRecharge>
+            <UIRadius>6</UIRadius>
+            <Decal>Drop</Decal>
+            <DisplayNameID>5014</DisplayNameID>
+            <RolloverTextID>5015</RolloverTextID>
+            <ShowLimit />
+            <LeaderPower />
+            <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+            <IconLocation>6</IconLocation>
+            <CameraZoomMin>200</CameraZoomMin>
+            <CameraZoomMax>200</CameraZoomMax>
+            <CameraPitchMin>55</CameraPitchMin>
+            <CameraPitchMax>55</CameraPitchMax>
+            <CameraEnableUserScroll>true</CameraEnableUserScroll>
+            <CameraEnableUserYaw>false</CameraEnableUserYaw>
+            <CameraEnableUserZoom>false</CameraEnableUserZoom>
+            <FlashUI>
+                <CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+                <CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+            </FlashUI>
+            <DataLevel level="0">
+                <Data type="int" name="OverlayStringID">25023</Data>
+                <Data type="float" name="SquadSpawnDelay">1.25</Data>
+                <Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
+                <Data type="sound" name="HudUpSound" />
+                <Data type="sound" name="HudAbortSound" />
+                <Data type="sound" name="HudFireSound" />
+                <Data type="sound" name="HudLastFireSound" />
+                <Data type="sound" name="HudStartEnvSound" />
+                <Data type="sound" name="HudStopEnvSound" />
+                <Data type="protoobject" name="Projectile">pow_proj_ambushmine</Data>
+                <Data type="bool" name="AreaDropMode">true</Data>
+                <Data type="bool" name="AreaDropOrientToCamera">true</Data>
+                <Data type="bool" name="AreaDropStartOnCursor">true</Data>
+                <Data type="float" name="AreaDropInitialCircularDistanceOffset">-15.6999998</Data>
+                <Data type="float" name="AreaDropExpandingStep">13</Data>
+                <Data type="float" name="AreaDropCircularDistanceBetweenUnits">31.3999996</Data>
+                <Data type="bool" name="OneProjectilePerUnit">false</Data>
+                <Data type="bool" name="CanDropOnSquads">false</Data>
+                <Data type="bool" name="NoDropNearBase">true</Data>
+                <Data type="unitdrops" name="unitdrops">
+                    <Drop>
+                        <ProtoObjectID>flood_bldg_egg_infinfector_01</ProtoObjectID>
+                    </Drop>
+                    <Drop>
+                        <ProtoObjectID>flood_bldg_egg_infinfector_01</ProtoObjectID>
+                    </Drop>
+                    <Drop>
+                        <ProtoObjectID>flood_bldg_egg_infinfector_01</ProtoObjectID>
+                    </Drop>
+                    <Drop>
+                        <ProtoObjectID>flood_bldg_egg_vehinfector_01</ProtoObjectID>
+                    </Drop>
+                    <Drop>
+                        <ProtoObjectID>flood_bldg_egg_vehinfector_01</ProtoObjectID>
+                    </Drop>
+                </Data>
+            </DataLevel>
+        </Attributes>
+    </Power>
+    <Power name="Flood_VehInfecter">
+        <Attributes>
+            <PowerType>TechScript</PowerType>
+            <AIPowerUseType>Passive</AIPowerUseType>
+            <TechScript>_POWER_Flood_VehInfecter</TechScript>
+            <Cost Supplies="0" Power="0" />
+            <DisplayNameID>5012</DisplayNameID>
+            <RolloverTextID>5013</RolloverTextID>
+            <PrereqTextID>252</PrereqTextID>
+            <LeaderPower />
+            <NotAffectedByCeasefire />
+            <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+            <FlashUI>
+                <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+                <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+            </FlashUI>
+        </Attributes>
+    </Power>
+    <Power name="FloodBuff">
+        <Attributes>
+            <PowerType>AreaBuff</PowerType>
+            <AIPowerUseType>BuffAllies</AIPowerUseType>
+            <BuffName>Invulnerability</BuffName>
+            <Cost Supplies="500" Power="200" />
+            <AutoRecharge>240000</AutoRecharge>
+            <UIRadius>4</UIRadius>
+            <Decal>Point</Decal>
+            <DisplayNameID>5000</DisplayNameID>
+            <RolloverTextID>5001</RolloverTextID>
+            <ShowLimit />
+            <LeaderPower />
+            <NotAffectedByCeasefire />
+            <ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+            <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+            <IconLocation>8</IconLocation>
+            <FlashUI>
+                <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+                <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+            </FlashUI>
+            <CameraZoomMin>150</CameraZoomMin>
+            <CameraZoomMax>150</CameraZoomMax>
+            <CameraPitchMin>55</CameraPitchMin>
+            <CameraPitchMax>55</CameraPitchMax>
+            <CameraEnableUserScroll>true</CameraEnableUserScroll>
+            <CameraEnableUserYaw>false</CameraEnableUserYaw>
+            <CameraEnableUserZoom>false</CameraEnableUserZoom>
+            <DataLevel level="0">
+                <Data type="bool" name="AffectsAllByFilterType">true</Data>
+                <Data type="objecttype" name="FilterType">Flood</Data>
+                <Data type="float" name="BuffDuration">7</Data>
+                <Data type="float" name="SlowModifier">1.5</Data>
+                <Data type="bool" name="AffectsSelfOnly">true</Data>
+                <Data type="bool" name="AffectsEnemies">false</Data>
+                <Data type="protoobject" name="BuffActivateFX">fx_invulnerability</Data>
+                <Data type="sound" name="HudUpSound" />
+                <Data type="sound" name="HudAbortSound" />
+                <Data type="sound" name="HudFireSound" />
+                <Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_UNSC_JohnsonMechResilience</Data>
+            </DataLevel>
+        </Attributes>
+    </Power>
+    <Power name="FloodBuff2">
+        <Attributes>
+            <PowerType>AreaBuff</PowerType>
+            <AIPowerUseType>BuffAllies</AIPowerUseType>
+            <BuffName>Invulnerability</BuffName>
+            <Cost Supplies="700" Power="300" />
+            <AutoRecharge>240000</AutoRecharge>
+            <UIRadius>4</UIRadius>
+            <Decal>Point</Decal>
+            <DisplayNameID>5000</DisplayNameID>
+            <RolloverTextID>5001</RolloverTextID>
+            <ShowLimit />
+            <LeaderPower />
+            <NotAffectedByCeasefire />
+            <ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+            <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+            <IconLocation>8</IconLocation>
+            <FlashUI>
+                <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+                <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+            </FlashUI>
+            <CameraZoomMin>150</CameraZoomMin>
+            <CameraZoomMax>150</CameraZoomMax>
+            <CameraPitchMin>55</CameraPitchMin>
+            <CameraPitchMax>55</CameraPitchMax>
+            <CameraEnableUserScroll>true</CameraEnableUserScroll>
+            <CameraEnableUserYaw>false</CameraEnableUserYaw>
+            <CameraEnableUserZoom>false</CameraEnableUserZoom>
+            <DataLevel level="0">
+                <Data type="bool" name="AffectsAllByFilterType">true</Data>
+                <Data type="objecttype" name="FilterType">Flood</Data>
+                <Data type="float" name="BuffDuration">10</Data>
+                <Data type="float" name="SlowModifier">1.5</Data>
+                <Data type="bool" name="AffectsSelfOnly">true</Data>
+                <Data type="bool" name="AffectsEnemies">false</Data>
+                <Data type="protoobject" name="BuffActivateFX">fx_invulnerability</Data>
+                <Data type="sound" name="HudUpSound" />
+                <Data type="sound" name="HudAbortSound" />
+                <Data type="sound" name="HudFireSound" />
+                <Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_UNSC_JohnsonMechResilienceLv2</Data>
+            </DataLevel>
+        </Attributes>
+    </Power>
+    <Power name="Flood_InfantryRecycle">
+        <Attributes>
+            <PowerType>AreaBuff</PowerType>
+            <AIPowerUseType>BuffAllies</AIPowerUseType>
+            <BuffName>VehicleRecycle</BuffName>
+            <Cost Supplies="500" Power="550" />
+            <AutoRecharge>150000</AutoRecharge>
+            <UIRadius>4</UIRadius>
+            <Decal>Point</Decal>
+            <DisplayNameID>5000</DisplayNameID>
+            <RolloverTextID>5001</RolloverTextID>
+            <ShowLimit />
+            <LeaderPower />
+            <ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+            <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+            <IconLocation>8</IconLocation>
+            <FlashUI>
+                <CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+                <CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+            </FlashUI>
+            <CameraZoomMin>150</CameraZoomMin>
+            <CameraZoomMax>150</CameraZoomMax>
+            <CameraPitchMin>55</CameraPitchMin>
+            <CameraPitchMax>55</CameraPitchMax>
+            <CameraEnableUserScroll>true</CameraEnableUserScroll>
+            <CameraEnableUserYaw>false</CameraEnableUserYaw>
+            <CameraEnableUserZoom>false</CameraEnableUserZoom>
+            <DataLevel level="0">
+                <Data type="bool" name="AffectsAllByFilterType">true</Data>
+                <Data type="objecttype" name="FilterType">Flood</Data>
+                <Data type="float" name="BuffDuration">150</Data>
+                <Data type="bool" name="AffectsEnemies">false</Data>
+                <Data type="bool" name="AffectsSelfOnly">true</Data>
+                <Data type="int" name="MaxProcsAllUnits">25</Data>
+                <Data type="protoobject" name="CastVfx">vfx_dlc5_powers_infrecyclingcast</Data>
+                <Data type="protoobject" name="BuffProcFX">vfx_dlc5_powers_infrecycling</Data>
+                <Data type="protoobject" name="BuffProcFX2">vfx_dlc5_powers_infrecyclingreverse</Data>
+                <Data type="protoobject" name="BuffActivateFX">vfx_dlc5_units_infrecyclingunitcast</Data>
+                <Data type="protoobject" name="BuffDeactivateFX">vfx_dlc5_units_infrecyclingunitcastend</Data>
+                <Data type="sound" name="HudUpSound" />
+                <Data type="sound" name="HudAbortSound" />
+                <Data type="sound" name="HudFireSound" />
+                <Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_ULT_VehicleRecycle</Data>
+            </DataLevel>
+        </Attributes>
+    </Power>
 	<Power name="FloodRuptureDrop1">
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
