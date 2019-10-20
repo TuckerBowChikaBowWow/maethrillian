@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="flood_banished_hq_01">
+	<model name="flood_banished_hq_01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/flood_banished_hq_01/mesh_flood_banished_hq_01</file>
+				<damagefile>episode2/pack1/units/flood/structure/flood_banished_hq_01/flood_banished_hq_01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="doors" tobone="socketbone_doors_01" frombone="GrannyRootBone_doors_01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<point pointType="Impact" bone="bone_vfx_explosion14" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.591000021" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.898000002" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.971000016" end="1" name="vfx/episode2/Building/FloodBaseSpores" tobone="b_flood_sack_03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Intro" exitAction="Transition" tweenTime="0" tweenToAnimation="Loop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Loop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outro" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="doors">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/flood_banished_hq_01/mesh_doors_01</file>
+				<damagefile>episode2/pack1/units/flood/structure/flood_banished_hq_01/mesh_doors_01</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_door_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Loop" exitAction="Transition" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_door_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Loop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_door_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Outro" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_door_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/floodbanishedhq_01/floodbanishedhq_idle_door_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>
