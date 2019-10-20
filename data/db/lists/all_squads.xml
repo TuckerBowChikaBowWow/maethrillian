@@ -4749,16 +4749,16 @@
 		<RolloverTextID>3065</RolloverTextID>
 		<RoleTextID>502</RoleTextID>
 		<PrereqTextID>243</PrereqTextID>
-		<SubSelectSort>1705</SubSelectSort>
+		<SubSelectSort>1715</SubSelectSort>
 		<LeashDistance>100</LeashDistance>
 		<LeashDeadzone>999</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">0.5</Pop>
+		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="Power">275</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,4.30499983,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -4851,7 +4851,7 @@
 		<RolloverTextID>26171</RolloverTextID>
 		<RoleTextID>521</RoleTextID>
 		<PrereqTextID>243</PrereqTextID>
-		<SubSelectSort>205</SubSelectSort>
+		<SubSelectSort>215</SubSelectSort>
 		<LeashDistance>100</LeashDistance>
 		<LeashDeadzone>999</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -4894,7 +4894,7 @@
 		<DisplayNameID>23632</DisplayNameID>
 		<RolloverTextID>23633</RolloverTextID>
 		<RoleTextID>516</RoleTextID>
-		<SubSelectSort>5075</SubSelectSort>
+		<SubSelectSort>5035</SubSelectSort>
 		<LeashDistance>12.3000002</LeashDistance>
 		<LeashDeadzone>3.07500005</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -4933,7 +4933,7 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>3000</SubSelectSort>
+		<SubSelectSort>3040</SubSelectSort>
 		<LeashDistance>55</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -4942,9 +4942,9 @@
 		<ActiveAbilityType>HandAttack</ActiveAbilityType>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>50</BuildPoints>
-		<Pop Type="Unit">9</Pop>
-		<Cost ResourceType="Supplies">900</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Pop Type="Unit">40</Pop>
+		<Cost ResourceType="Supplies">2000</Cost>
+		<Cost ResourceType="Power">2000</Cost>
 		<HPBar offset="0,20,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -4988,16 +4988,16 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>3000</SubSelectSort>
+		<SubSelectSort>3400</SubSelectSort>
 		<LeashDistance>100</LeashDistance>
 		<LeashDeadzone>999</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>21.5249996</AggroDistance>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
-		<BuildPoints>9</BuildPoints>
-		<Pop Type="Unit">1</Pop>
-		<Cost ResourceType="Supplies">70</Cost>
+		<BuildPoints>16</BuildPoints>
+		<Pop Type="Unit">2</Pop>
+		<Cost ResourceType="Supplies">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -5036,7 +5036,7 @@
 		<DisplayNameID>23632</DisplayNameID>
 		<RolloverTextID>23633</RolloverTextID>
 		<RoleTextID>516</RoleTextID>
-		<SubSelectSort>5075</SubSelectSort>
+		<SubSelectSort>5044</SubSelectSort>
 		<LeashDistance>12.3000002</LeashDistance>
 		<LeashDeadzone>3.07500005</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5077,7 +5077,7 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>3000</SubSelectSort>
+		<SubSelectSort>3404</SubSelectSort>
 		<LeashDistance>25</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5085,9 +5085,9 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>35</BuildPoints>
-		<Pop Type="Unit">6</Pop>
-		<Cost ResourceType="Supplies">600</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Pop Type="Unit">10</Pop>
+		<Cost ResourceType="Supplies">455</Cost>
+		<Cost ResourceType="Power">325</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5128,16 +5128,17 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>3000</SubSelectSort>
+		<SubSelectSort>3013</SubSelectSort>
 		<LeashDistance>100</LeashDistance>
 		<LeashDeadzone>999</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
+		<ActiveAbilityType>SuicideBomb</ActiveAbilityType>
 		<BuildPoints>10</BuildPoints>
-		<Pop Type="Unit">1</Pop>
-		<Cost ResourceType="Supplies">100</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">200</Cost>
+		<Cost ResourceType="Power">150</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5182,7 +5183,7 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>3000</SubSelectSort>
+		<SubSelectSort>3120</SubSelectSort>
 		<LeashDistance>15</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5192,8 +5193,8 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>8</BuildPoints>
 		<Pop Type="Unit">0.5</Pop>
-		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="Supplies">75</Cost>
+		<Cost ResourceType="Power">10</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5236,6 +5237,122 @@
 	<Squad name="flood_inf_infected_assaultrifle_02_sp" parent_element="flood_inf_infected_assaultrifle_02_base" dbid="6305202966999421505">
 		<Flag>DoNotMoveToAttackMe</Flag>
 	</Squad>
+	<Squad name="fld_custom_carrierform_grunt" formationType="Flock" dbid="14175204004466671828" parent_element="flood_inf_infected_gruntmelee_01">
+		<SubSelectSort>52300</SubSelectSort>
+		<Units>
+			<Unit count="1" role="normal">fld_custom_carrierform_grunt</Unit>
+		</Units>
+	</Squad>
+	<Squad name="fld_custom_carrierform_brute" formationType="Flock" dbid="14175204004466671828" parent_element="flood_inf_infected_brutemelee_01">
+		<SubSelectSort>52300</SubSelectSort>
+		<Units>
+			<Unit count="1" role="normal">fld_custom_carrierform_brute</Unit>
+		</Units>
+	</Squad>
+	<Squad name="fld_custom_carrierform_elite" formationType="Flock" dbid="14175204004466671828" parent_element="flood_inf_infected_elitemelee_01">
+		<SubSelectSort>52300</SubSelectSort>
+		<Units>
+			<Unit count="1" role="normal">fld_custom_carrierform_elite</Unit>
+		</Units>
+	</Squad>
+	<Squad name="fld_custom_carrierform_human" formationType="Flock" dbid="14175204004466671828" parent_element="flood_inf_infected_humelee_01">
+		<SubSelectSort>52300</SubSelectSort>
+		<Units>
+			<Unit count="1" role="normal">fld_custom_carrierform_human</Unit>
+		</Units>
+	</Squad>
+	<Squad name="flood_inf_infected_gruntmelee_01" dbid="10336568986021298719" formationType="Flock">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3000</DisplayNameID>
+		<RolloverTextID>3001</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>310</SubSelectSort>
+		<LeashDistance>100</LeashDistance>
+		<LeashDeadzone>999</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>21.5249996</AggroDistance>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.5</AIAttackRank>
+		<BuildPoints>1</BuildPoints>
+		<Pop Type="Unit">1</Pop>
+		<Cost ResourceType="Supplies">0</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_infected_gruntmelee_01</Unit>
+		</Units>
+		<OverrideUnitSoundNames />
+		<LeaderDiesLast />
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>DoNotMoveToAttackMe</Flag>
+		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
+		<Flag>ForceLeashUpdate</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>Marines_01</Counters>
+	</Squad>
+	<Squad name="flood_inf_infected_gruntpistol_01" dbid="291181113180100752" formationType="Flock">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3000</DisplayNameID>
+		<RolloverTextID>3001</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>320</SubSelectSort>
+		<LeashDistance>100</LeashDistance>
+		<LeashDeadzone>999</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>21.5249996</AggroDistance>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.5</AIAttackRank>
+		<BuildPoints>1</BuildPoints>
+		<Pop Type="Unit">1</Pop>
+		<Cost ResourceType="Supplies">1</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_infected_gruntpistol_01</Unit>
+		</Units>
+		<OverrideUnitSoundNames />
+		<LeaderDiesLast />
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>DoNotMoveToAttackMe</Flag>
+		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
+		<Flag>ForceLeashUpdate</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>Marines_01</Counters>
+	</Squad>
 	<Squad name="flood_inf_infected_brutemelee_01" dbid="7643942651026636629" parent_element="flood_inf_infected_brutemelee_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -5249,7 +5366,7 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>3000</SubSelectSort>
+		<SubSelectSort>3012</SubSelectSort>
 		<LeashDistance>30</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5259,8 +5376,8 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>8</BuildPoints>
 		<Pop Type="Unit">0.5</Pop>
-		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="Supplies">35</Cost>
+		<Cost ResourceType="Power">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5301,7 +5418,7 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>3000</SubSelectSort>
+		<SubSelectSort>3512</SubSelectSort>
 		<LeashDistance>30</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5311,8 +5428,8 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>8</BuildPoints>
 		<Pop Type="Unit">0.5</Pop>
-		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="Supplies">75</Cost>
+		<Cost ResourceType="Power">20</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5353,7 +5470,7 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>3000</SubSelectSort>
+		<SubSelectSort>1242</SubSelectSort>
 		<LeashDistance>0</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5363,8 +5480,8 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>18</BuildPoints>
 		<Pop Type="Unit">0.5</Pop>
-		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="Supplies">70</Cost>
+		<Cost ResourceType="Power">80</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5405,7 +5522,7 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>3000</SubSelectSort>
+		<SubSelectSort>3153</SubSelectSort>
 		<LeashDistance>35</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5415,8 +5532,8 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>18</BuildPoints>
 		<Pop Type="Unit">0.5</Pop>
-		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="Supplies">55</Cost>
+		<Cost ResourceType="Power">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5451,7 +5568,7 @@
 	</Squad>
 	<Squad name="flood_inf_infected_eliteplasmacaster_01_base" dbid="2745938342752554712">
 		<CombatRank>3</CombatRank>
-		<SubSelectSort>615</SubSelectSort>
+		<SubSelectSort>635</SubSelectSort>
 		<LeashDistance>20</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5460,8 +5577,8 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>8</BuildPoints>
 		<Pop Type="Unit">0.699999988</Pop>
-		<Cost ResourceType="Supplies">130</Cost>
-		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="Supplies">45</Cost>
+		<Cost ResourceType="Power">50</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -5494,7 +5611,7 @@
 	</Squad>
 	<Squad name="flood_inf_infected_eliteplasmarifle_01_base" dbid="4043350716809326218">
 		<CombatRank>3</CombatRank>
-		<SubSelectSort>615</SubSelectSort>
+		<SubSelectSort>625</SubSelectSort>
 		<LeashDistance>20</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5503,8 +5620,8 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>8</BuildPoints>
 		<Pop Type="Unit">0.699999988</Pop>
-		<Cost ResourceType="Supplies">130</Cost>
-		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="Supplies">55</Cost>
+		<Cost ResourceType="Power">30</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -5543,7 +5660,7 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>3000</SubSelectSort>
+		<SubSelectSort>3537</SubSelectSort>
 		<LeashDistance>35</LeashDistance>
 		<LeashDeadzone>6</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5553,8 +5670,8 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>18</BuildPoints>
 		<Pop Type="Unit">0.5</Pop>
-		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="Supplies">75</Cost>
+		<Cost ResourceType="Power">20</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5595,7 +5712,7 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>3000</SubSelectSort>
+		<SubSelectSort>3460</SubSelectSort>
 		<LeashDistance>35</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5605,8 +5722,8 @@
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>8</BuildPoints>
 		<Pop Type="Unit">0.5</Pop>
-		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="Supplies">50</Cost>
+		<Cost ResourceType="Power">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5643,13 +5760,13 @@
 		<RolloverTextID>3013</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>550</SubSelectSort>
+		<SubSelectSort>8850</SubSelectSort>
 		<LeashDistance>30</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Circle</MinimapIcon>
-		<Cost ResourceType="Supplies">100</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="Supplies">75</Cost>
+		<Cost ResourceType="Power">80</Cost>
 		<Pop Type="Unit">0.699999988</Pop>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -5692,7 +5809,7 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>600</SubSelectSort>
+		<SubSelectSort>667</SubSelectSort>
 		<LeashDistance>15</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5701,8 +5818,8 @@
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>18</BuildPoints>
 		<Pop Type="Unit">0.5</Pop>
-		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="Supplies">75</Cost>
+		<Cost ResourceType="Power">80</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5743,7 +5860,7 @@
 		<RolloverTextID>3069</RolloverTextID>
 		<RoleTextID>503</RoleTextID>
 		<PrereqTextID>231</PrereqTextID>
-		<SubSelectSort>1150</SubSelectSort>
+		<SubSelectSort>1860</SubSelectSort>
 		<LeashDistance>35</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5753,7 +5870,7 @@
 		<BuildPoints>7</BuildPoints>
 		<Pop Type="Unit">0.5</Pop>
 		<Cost resourcetype="Supplies">70</Cost>
-		<Cost resourcetype="Power">0</Cost>
+		<Cost resourcetype="Power">15</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -5780,7 +5897,11 @@
 	<Squad name="flood_inf_infected_serina_cryomarines_01_sp" parent_element="flood_inf_infected_serina_cryomarines_01_base" dbid="14397244841037181442">
 		<Flag>DoNotMoveToAttackMe</Flag>
 	</Squad>
-	<Squad name="flood_inf_infected_sniper_01_base" parent_element="flood_inf_infected_sniper_01_base_sp" dbid="9306614150786524100" />
+	<Squad name="flood_inf_infected_sniper_01_base" parent_element="flood_inf_infected_sniper_01_base_sp" dbid="9306614150786524100">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+	</Squad>
 	<Squad name="flood_inf_infected_sniper_01_base_base" dbid="8369477165212845516">
 		<CombatRank>2</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
@@ -5789,7 +5910,7 @@
 		<RolloverTextID>27216</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>503</RoleTextID>
-		<SubSelectSort>1100</SubSelectSort>
+		<SubSelectSort>1970</SubSelectSort>
 		<LeashDistance>0</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5799,7 +5920,7 @@
 		<BuildPoints>7</BuildPoints>
 		<Pop Type="Unit">0.699999988</Pop>
 		<Cost ResourceType="Supplies">75</Cost>
-		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="Power">55</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -5834,7 +5955,7 @@
 		<RolloverTextID>3001</RolloverTextID>
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>3000</SubSelectSort>
+		<SubSelectSort>3070</SubSelectSort>
 		<LeashDistance>35</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5882,7 +6003,7 @@
 		<RolloverTextID>3085</RolloverTextID>
 		<RoleTextID>518</RoleTextID>
 		<PrereqTextID>240</PrereqTextID>
-		<SubSelectSort>805</SubSelectSort>
+		<SubSelectSort>8455</SubSelectSort>
 		<LeashDistance>100</LeashDistance>
 		<LeashDeadzone>999</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5937,7 +6058,7 @@
 		<RolloverTextID>26248</RolloverTextID>
 		<RoleTextID>501</RoleTextID>
 		<PrereqTextID>233</PrereqTextID>
-		<SubSelectSort>1505</SubSelectSort>
+		<SubSelectSort>1365</SubSelectSort>
 		<LeashDistance>100</LeashDistance>
 		<LeashDeadzone>999</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -5986,7 +6107,7 @@
 		<StatsNameID>25680</StatsNameID>
 		<RoleTextID>501</RoleTextID>
 		<PrereqTextID>232</PrereqTextID>
-		<SubSelectSort>500</SubSelectSort>
+		<SubSelectSort>568</SubSelectSort>
 		<LeashDistance>100</LeashDistance>
 		<LeashDeadzone>999</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -6024,6 +6145,59 @@
 	<Squad name="flood_veh_infected_scorpion_01_base_sp" parent_element="flood_veh_infected_scorpion_01_base_base" dbid="13045353405429955244">
 		<Flag>DoNotMoveToAttackMe</Flag>
 	</Squad>
+	<Squad name="flood_veh_infected_grizzly_01_base" parent_element="flood_veh_infected_grizzly_01_base_sp" dbid="17041983731773779530">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+	</Squad>
+	<Squad name="flood_veh_infected_grizzly_01_base_base" dbid="196831819295490578">
+		<CombatRank>7</CombatRank>
+		<HealValue>1.75</HealValue>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_scorpion</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3020</DisplayNameID>
+		<RolloverTextID>3021</RolloverTextID>
+		<StatsNameID>25680</StatsNameID>
+		<RoleTextID>501</RoleTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<SubSelectSort>568</SubSelectSort>
+		<LeashDistance>100</LeashDistance>
+		<LeashDeadzone>999</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>10</AIAttackRank>
+		<BuildPoints>44</BuildPoints>
+		<Pop Type="Unit">6</Pop>
+		<Cost ResourceType="Supplies">650</Cost>
+		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_veh_infected_grizzly_01_base</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
+		<Flag>ForceLeashUpdate</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="0.100000001" max="8" />
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Scorpion_01</Counters>
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+	</Squad>
+	<Squad name="flood_veh_infected_grizzly_01_base_mp" parent_element="flood_veh_infected_grizzly_01_base_base" dbid="13020588005521050530" />
+	<Squad name="flood_veh_infected_grizzly_01_base_sp" parent_element="flood_veh_infected_grizzly_01_base_base" dbid="13045353405429955244">
+		<Flag>DoNotMoveToAttackMe</Flag>
+	</Squad>
 	<Squad name="flood_veh_infected_warthog_01_base" parent_element="flood_veh_infected_warthog_01_base_sp" dbid="14414061140577003105">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -6037,7 +6211,7 @@
 		<RolloverTextID>3017</RolloverTextID>
 		<RoleTextID>518</RoleTextID>
 		<PrereqTextID>230</PrereqTextID>
-		<SubSelectSort>700</SubSelectSort>
+		<SubSelectSort>7457</SubSelectSort>
 		<LeashDistance>100</LeashDistance>
 		<LeashDeadzone>999</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -6092,7 +6266,7 @@
 		<RolloverTextID>3057</RolloverTextID>
 		<RoleTextID>501</RoleTextID>
 		<PrereqTextID>242</PrereqTextID>
-		<SubSelectSort>505</SubSelectSort>
+		<SubSelectSort>564</SubSelectSort>
 		<LeashDistance>100</LeashDistance>
 		<LeashDeadzone>999</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
