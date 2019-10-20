@@ -29,12 +29,12 @@
 		<UseDPSasDPA />
 		<WeaponType>leaderpower</WeaponType>
 		<Projectile>pow_proj_cryostorm_01</Projectile>
-		<Chill Amount="50" TargetType="AirCraft" />
-		<Chill Amount="50" TargetType="BasicAirCraft" />
-		<Chill Amount="50" TargetType="Infantry" SingleTarget="true" />
-		<Chill Amount="50" TargetType="GroundVehicle" />
-		<Chill Amount="50" TargetType="CryoBuilding" />
-		<Chill Amount="50" TargetType="TurretBuilding" />
+		<Chill Amount="150" TargetType="AirCraft" />
+		<Chill Amount="150" TargetType="BasicAirCraft" />
+		<Chill Amount="150" TargetType="Infantry" SingleTarget="true" />
+		<Chill Amount="150" TargetType="GroundVehicle" />
+		<Chill Amount="150" TargetType="CryoBuilding" />
+		<Chill Amount="150" TargetType="TurretBuilding" />
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1.39999998" yawpitchstrength="4" rollstrength="2" rotationfrequency="5" translationstrength="0" translationfrequency="4" />
 		<ImpactRumble leftRumbleType="Fixed" leftStrength="1" rightRumbleType="Fixed" rightStrength="1" duration="0.800000012" />
 		<ImpactEffect size="Large" doShockwaveAction="true">Cryostorm_01</ImpactEffect>
