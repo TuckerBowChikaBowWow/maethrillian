@@ -13151,6 +13151,9 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="AOEBrutegun2AttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_brutegrenadier_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AOEBrutegun2AVAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutegrenadier_01</Target>
+            </Effect>
 			<Effect type="SquadCounter" NewCounterName="BruteGrenadier_02">
 				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
 			</Effect>
@@ -13174,6 +13177,9 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="AOEBrutegun3AttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_brutegrenadier_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AOEBrutegun3AVAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_brutegrenadier_01</Target>
+            </Effect>
 			<Effect type="SquadCounter" NewCounterName="BruteGrenadier_03">
 				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
 			</Effect>
@@ -14566,16 +14572,37 @@
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Effects>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.8" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-50" relativity="Absolute">
 				<Target type="Tech">unsc_tech_global_infantry_01</Target>
-				<Target type="Tech">unsc_tech_global_infantry_02</Target>
-				<Target type="Tech">unsc_tech_global_infantry_03</Target>
 				<Target type="Tech">unsc_tech_global_vehicle_01</Target>
-				<Target type="Tech">unsc_tech_global_vehicle_02</Target>
-				<Target type="Tech">unsc_tech_global_vehicle_03</Target>
 				<Target type="Tech">unsc_tech_global_aircraft_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-50" relativity="Absolute">
+				<Target type="Tech">unsc_tech_global_infantry_01</Target>
+				<Target type="Tech">unsc_tech_global_vehicle_01</Target>
+				<Target type="Tech">unsc_tech_global_aircraft_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-75" relativity="Absolute">
+				<Target type="Tech">unsc_tech_global_infantry_02</Target>
+				<Target type="Tech">unsc_tech_global_vehicle_02</Target>
 				<Target type="Tech">unsc_tech_global_aircraft_02</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-75" relativity="Absolute">
+				<Target type="Tech">unsc_tech_global_infantry_02</Target>
+				<Target type="Tech">unsc_tech_global_vehicle_02</Target>
+				<Target type="Tech">unsc_tech_global_aircraft_02</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-100" relativity="Absolute">
+				<Target type="Tech">unsc_tech_global_infantry_03</Target>
+				<Target type="Tech">unsc_tech_global_vehicle_03</Target>
 				<Target type="Tech">unsc_tech_global_aircraft_03</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-100" relativity="Absolute">
+				<Target type="Tech">unsc_tech_global_infantry_03</Target>
+				<Target type="Tech">unsc_tech_global_vehicle_03</Target>
+				<Target type="Tech">unsc_tech_global_aircraft_03</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.8" relativity="Percent">
 				<Target type="Tech">unsc_aggressor_upgrade1</Target>
 				<Target type="Tech">unsc_aggressor_upgrade2</Target>
 				<Target type="Tech">unsc_mongoose_upgrade1</Target>
@@ -14663,16 +14690,37 @@
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Effects>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.75" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-50" relativity="Absolute">
 				<Target type="Tech">unsc_tech_global_infantry_01</Target>
-				<Target type="Tech">unsc_tech_global_infantry_02</Target>
-				<Target type="Tech">unsc_tech_global_infantry_03</Target>
 				<Target type="Tech">unsc_tech_global_vehicle_01</Target>
-				<Target type="Tech">unsc_tech_global_vehicle_02</Target>
-				<Target type="Tech">unsc_tech_global_vehicle_03</Target>
 				<Target type="Tech">unsc_tech_global_aircraft_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-50" relativity="Absolute">
+				<Target type="Tech">unsc_tech_global_infantry_01</Target>
+				<Target type="Tech">unsc_tech_global_vehicle_01</Target>
+				<Target type="Tech">unsc_tech_global_aircraft_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-75" relativity="Absolute">
+				<Target type="Tech">unsc_tech_global_infantry_02</Target>
+				<Target type="Tech">unsc_tech_global_vehicle_02</Target>
 				<Target type="Tech">unsc_tech_global_aircraft_02</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-75" relativity="Absolute">
+				<Target type="Tech">unsc_tech_global_infantry_02</Target>
+				<Target type="Tech">unsc_tech_global_vehicle_02</Target>
+				<Target type="Tech">unsc_tech_global_aircraft_02</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-100" relativity="Absolute">
+				<Target type="Tech">unsc_tech_global_infantry_03</Target>
+				<Target type="Tech">unsc_tech_global_vehicle_03</Target>
 				<Target type="Tech">unsc_tech_global_aircraft_03</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-100" relativity="Absolute">
+				<Target type="Tech">unsc_tech_global_infantry_03</Target>
+				<Target type="Tech">unsc_tech_global_vehicle_03</Target>
+				<Target type="Tech">unsc_tech_global_aircraft_03</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.75" relativity="Percent">
 				<Target type="Tech">unsc_aggressor_upgrade1</Target>
 				<Target type="Tech">unsc_aggressor_upgrade2</Target>
 				<Target type="Tech">unsc_mongoose_upgrade1</Target>
@@ -14839,13 +14887,22 @@
 			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.819999993" relativity="Percent">
 				<Target type="Tech">cov_base_upgrade1</Target>
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.670000017" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-75" relativity="Absolute">
 				<Target type="Tech">cov_tech_global_structure_01</Target>
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.670000017" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-75" relativity="Absolute">
 				<Target type="Tech">cov_tech_global_structure_02</Target>
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.670000017" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-75" relativity="Absolute">
+				<Target type="Tech">cov_tech_global_structure_03</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-75" relativity="Absolute">
+				<Target type="Tech">cov_tech_global_structure_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-75" relativity="Absolute">
+				<Target type="Tech">cov_tech_global_structure_02</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-75" relativity="Absolute">
 				<Target type="Tech">cov_tech_global_structure_03</Target>
 			</Effect>
 			<Effect type="Data" amount="0.850000024" subtype="ResearchPoints" allactions="1" relativity="Percent">
@@ -14930,13 +14987,22 @@
 			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.823589981" relativity="Percent">
 				<Target type="Tech">cov_base_upgrade1</Target>
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.571430027" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-75" relativity="Absolute">
 				<Target type="Tech">cov_tech_global_structure_01</Target>
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.571430027" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-75" relativity="Absolute">
 				<Target type="Tech">cov_tech_global_structure_02</Target>
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.58035714199999999" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-75" relativity="Absolute">
+				<Target type="Tech">cov_tech_global_structure_03</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-75" relativity="Absolute">
+				<Target type="Tech">cov_tech_global_structure_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-75" relativity="Absolute">
+				<Target type="Tech">cov_tech_global_structure_02</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-75" relativity="Absolute">
 				<Target type="Tech">cov_tech_global_structure_03</Target>
 			</Effect>
 			<Effect type="Data" amount="0.763589978" subtype="ResearchPoints" allactions="1" relativity="Percent">
