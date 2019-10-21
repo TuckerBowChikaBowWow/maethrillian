@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>laserCannon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>308</DamagePerSecond>
+		<DamagePerSecond>115</DamagePerSecond>
 		<WeaponType>SmallArmScouts</WeaponType>
 		<Projectile>fx_proj_grenade_01</Projectile>
 		<ImpactEffect size="Small">SmallGrenadeExplosion</ImpactEffect>
@@ -14,6 +14,15 @@
 		<MovingAccuracy>1</MovingAccuracy>
 		<MovingMaxDeviation>5</MovingMaxDeviation>
 		<Hardpoint>Turret</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>0.5</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="GroundVehicle">6</TargetPriority>
 		<TargetPriority type="TurretBuilding">3</TargetPriority>

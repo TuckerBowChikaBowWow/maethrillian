@@ -1317,7 +1317,7 @@
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_veh_mongoose_03">
 				<Target type="ProtoSquad">unsc_veh_mongoose_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.05999994" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_mongoose_01</Target>
 			</Effect>
 			<Effect type="Data" amount="80" subtype="StealthDetectionRange" relativity="Absolute">
@@ -1328,6 +1328,37 @@
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="Jackrabbit_03">
 				<Target type="ProtoSquad">unsc_veh_mongoose_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1200" subtype="Shieldpoints" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+			</Effect>
+			<Effect type="Data" hpbar="Cov_HealthShield" subtype="HPBar" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
+			</Effect>
+			<Effect type="Data" amount="80" subtype="StealthDetectionRange" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
+			</Effect>
+			<Effect type="ReparentProtoObject" FromType="cov_veh_bruteChopper_01" ToType="cov_veh_bruteChopper_01_mp_fear" />
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonLeftAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonRightAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="ExplosivePlasmaCannonRightAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="ExplosivePlasmaCannonLeftAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="75" subtype="StealthDetectionRange" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
