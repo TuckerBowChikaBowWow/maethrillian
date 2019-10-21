@@ -10,19 +10,10 @@
 		<MaxVelocityLead>60</MaxVelocityLead>
 		<MaxRange>35</MaxRange>
 		<Accuracy>1</Accuracy>
-		<MaxDeviation>5</MaxDeviation>
+		<MaxDeviation>0</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>5</MovingMaxDeviation>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
 		<Hardpoint>Turret</Hardpoint>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>0.5</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="GroundVehicle">6</TargetPriority>
 		<TargetPriority type="TurretBuilding">3</TargetPriority>

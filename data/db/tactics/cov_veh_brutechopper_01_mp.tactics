@@ -109,7 +109,7 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>2</Radius>
+				<Radius>3</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -136,6 +136,41 @@
 		<Name>Ram</Name>
 		<WeaponType>WarthogRam</WeaponType>
 		<DamagePerSecond>450</DamagePerSecond>
+		<ThrowUnits />
+		<FlailThrownUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>30</PhysicsLaunchAngleMax>
+		<PhysicsLaunchAxial />
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>1400</PhysicsForceMax>
+		<ImpactEffect size="medium">RamImpact</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="3.5" rollstrength="1.5" rotationfrequency="5" translationstrength="0" translationfrequency="6" />
+		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
+		<MaxDamagePerRam>2000</MaxDamagePerRam>
+		<ReflectDamageFactor>1</ReflectDamageFactor>
+		<Filter>Medium</Filter>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<MaxInfantrySquadsPerRam>6</MaxInfantrySquadsPerRam>
+	</Weapon>
+	<Weapon>
+		<Name>RamTerror</Name>
+		<WeaponType>WarthogRam</WeaponType>
+		<DamagePerSecond>650</DamagePerSecond>
 		<ThrowUnits />
 		<FlailThrownUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
@@ -223,6 +258,19 @@
 		<Name>RamAttack</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Weapon>Ram</Weapon>
+	</Action>
+	<Action>
+		<Name>PersistentCollisionAttack</Name>
+		<ActionType>CollisionAttack</ActionType>
+		<Weapon>RamTerror</Weapon>
+		<SecondaryWeapon>RamSecondary</SecondaryWeapon>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>RamAttackTerror</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>RamTerror</Weapon>
+		<StartDisabled />
 	</Action>
 	<Weapon>
 		<Name>PlasmaCannonLeftSiphon</Name>
@@ -512,6 +560,13 @@
 			<TargetType>GroundVehicle</TargetType>
 			<TargetType>Infantry</TargetType>
 			<Action>RamAttack</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Infantry</TargetType>
+			<Action>RamAttackTerror</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
