@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>PlasmaCannonLeft</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>45</DamagePerSecond>
+		<DamagePerSecond>0</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
@@ -28,7 +28,7 @@
 	<Weapon>
 		<Name>PlasmaCannonRight</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>45</DamagePerSecond>
+		<DamagePerSecond>90</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
@@ -40,6 +40,22 @@
 		<MovingAccuracy>1</MovingAccuracy>
 		<MovingMaxDeviation>2</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData
 		<TargetPriority type="PaintTarget">10</TargetPriority>
 		<TargetPriority type="Infantry">9</TargetPriority>
 		<TargetPriority type="Aircraft">5</TargetPriority>
