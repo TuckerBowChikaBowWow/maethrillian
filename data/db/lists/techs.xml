@@ -3519,19 +3519,25 @@
 		<Prereqs />
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="cov_veh_bruteChopper_01" ToType="cov_veh_bruteChopper_01_mp_fear" />
-			<Effect type="Data" amount="1500" subtype="Damage" action="RamAttack" relativity="Absolute">
-				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
-			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonLeftAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonRightAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonLeftAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="RamAttack" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ExplosivePlasmaCannonRightAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ExplosivePlasmaCannonLeftAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="RamAttackTerror" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="75" subtype="StealthDetectionRange" relativity="Absolute">

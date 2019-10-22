@@ -170,7 +170,7 @@
 	<Weapon>
 		<Name>RamTerror</Name>
 		<WeaponType>WarthogRam</WeaponType>
-		<DamagePerSecond>650</DamagePerSecond>
+		<DamagePerSecond>950</DamagePerSecond>
 		<ThrowUnits />
 		<FlailThrownUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
@@ -187,8 +187,15 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>4</Radius>
+				<Radius>5</Radius>
 				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>7.5</Radius>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
@@ -264,7 +271,6 @@
 		<ActionType>CollisionAttack</ActionType>
 		<Weapon>RamTerror</Weapon>
 		<SecondaryWeapon>RamSecondary</SecondaryWeapon>
-		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>RamAttackTerror</Name>
