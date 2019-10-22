@@ -3519,6 +3519,9 @@
 		<Prereqs />
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="cov_veh_bruteChopper_01" ToType="cov_veh_bruteChopper_01_mp_fear" />
+			<Effect type="Data" amount="1500" subtype="Damage" action="RamAttack" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonLeftAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 			</Effect>

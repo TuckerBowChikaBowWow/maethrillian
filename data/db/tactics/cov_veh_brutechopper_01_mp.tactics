@@ -260,7 +260,7 @@
 		<Weapon>Ram</Weapon>
 	</Action>
 	<Action>
-		<Name>PersistentCollisionAttack</Name>
+		<Name>PersistentCollisionAttackTerror</Name>
 		<ActionType>CollisionAttack</ActionType>
 		<Weapon>RamTerror</Weapon>
 		<SecondaryWeapon>RamSecondary</SecondaryWeapon>
@@ -549,6 +549,7 @@
 	</Action>
 	<Tactic>
 		<PersistentAction>PersistentCollisionAttack</PersistentAction>
+		<PersistentAction>PersistentCollisionAttackTerror</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
