@@ -3528,16 +3528,13 @@
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonLeftAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="RamAttack" relativity="Absolute">
+			<Effect type="Data" amount="195000000" subtype="Damage" action="RamAttack" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ExplosivePlasmaCannonRightAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ExplosivePlasmaCannonLeftAttackAction" relativity="Absolute">
-				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="RamAttackTerror" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" amount="75" subtype="StealthDetectionRange" relativity="Absolute">
