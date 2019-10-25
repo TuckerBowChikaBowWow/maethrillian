@@ -11,9 +11,9 @@
 	</Action>
 	<Action>
 		<Name>CloakArea</Name>
-		<ActionType>UnitCloakArea</ActionType>
-		<CloakAreaTarget>ParentUnit</CloakAreaTarget>
-		<WorkRange>50</WorkRange>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<RechargeDelay>3</RechargeDelay>
 	</Action>
 	<Tactic>
 		<PersistentAction>CloakArea</PersistentAction>
