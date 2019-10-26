@@ -31594,6 +31594,38 @@
 					</Drop>
 				</Data>
 			</DataLevel>
+				<DataLevel level="1">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="int" name="NumGunships">1</Data>
+				<Data type="float" name="WaitDuration">3</Data>
+				<Data type="protoobject" name="Gunship">cov_air_spiritgunship_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_OFF_SpiritAssault_I</Data>
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>cov_inf_suicidegrunt_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_suicidegrunt_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_suicidegrunt_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_suicidegrunt_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_suicidegrunt_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_suicidegrunt_01</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
 		</Attributes>
 	</Power>
 	<Power name="CovSpiritGunship2">
