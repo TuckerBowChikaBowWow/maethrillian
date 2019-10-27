@@ -77,9 +77,11 @@
 	<WeaponType>
 		<Name>SmallArmsScouts</Name>
 		<DeathAnimation>DeathByMachinegun</DeathAnimation>
-		<DamageModifier rating="1" type="LightArmored">2.1</DamageModifier>
+		<DamageModifier rating="1" type="Light">1.45</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">2.4</DamageModifier>
 		<DamageModifier rating="1" type="Building">0.5</DamageModifier>
-		<DamageModifier rating="1" type="LightRush">2.4</DamageModifier>
+		<DamageModifier rating="1" type="LightRush">2.8</DamageModifier>
 	</WeaponType>
 	<WeaponType>
 		<Name>WarthogRam</Name>
