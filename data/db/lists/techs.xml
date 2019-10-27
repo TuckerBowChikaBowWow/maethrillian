@@ -3327,7 +3327,7 @@
 			<Effect type="SquadCounter" NewCounterName="Suicide_03">
 				<Target type="ProtoSquad">cov_inf_suicideGrunt_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="DataLevel" power="CovSpiritGunship1" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="CovSpiritGunship1" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
 		</Effects>
