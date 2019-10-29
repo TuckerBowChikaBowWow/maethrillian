@@ -8007,29 +8007,75 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="_POWER_Flood_VehInfecter" type="Normal">
-		<DBID>1963</DBID>
-		<DisplayNameID>26016</DisplayNameID>
-		<RolloverTextID>26016</RolloverTextID>
-		<PrereqTextID>26016</PrereqTextID>
-		<ResearchPoints>0</ResearchPoints>
+	<Tech name="flood_base_upgrade1" type="Normal">
+		<DBID>2041</DBID>
+		<DisplayNameID>1070</DisplayNameID>
+		<RolloverTextID>1071</RolloverTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">400</Cost>
+		<ResearchPoints>50</ResearchPoints>
 		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_upgrade_keep</ResearchCompleteSound>
+		<ResearchAnim>Upgrade</ResearchAnim>
+		<Flag>UniqueProtoUnitInstance</Flag>
 		<Effects>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">flood_inf_vehinfector_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_vehinfector_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_04_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_vehinfector_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_03_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_vehinfector_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_02_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_vehinfector_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
-			</Effect>
+			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_builder_02_fl</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_base_upgrade2" type="Normal">
+		<DBID>2041</DBID>
+		<DisplayNameID>1074</DisplayNameID>
+		<RolloverTextID>1075</RolloverTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">1000</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>35</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchAnim>Upgrade</ResearchAnim>
+		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects>
+			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_builder_03_fl</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_base_upgrade3" type="Normal">
+		<DBID>2041</DBID>
+		<DisplayNameID>1072</DisplayNameID>
+		<RolloverTextID>1073</RolloverTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">1500</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>50</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchAnim>Upgrade</ResearchAnim>
+		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects>
+			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_builder_04_fl</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_instant_upgrade" type="Normal">
+		<Flag>Shadow</Flag>
+		<DBID>2041</DBID>
+		<DisplayNameID>1072</DisplayNameID>
+		<RolloverTextID>1073</RolloverTextID>
+		<Prereqs>
+            <TechStatus status="Active">creep_LeaderFlood</TechStatus>
+        </Prereqs>
+		<ResearchPoints>5</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchAnim>Upgrade</ResearchAnim>
+		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects>
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_04" ToType="cov_bldg_builder_04_fl" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_03" ToType="cov_bldg_builder_03_fl" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_02" ToType="cov_bldg_builder_02_fl" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_01" ToType="cov_bldg_builder_01_fl" />
 		</Effects>
 	</Tech>
 	<Tech name="creep_LeaderFlood" type="Normal">
@@ -8038,16 +8084,12 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_04" ToType="cov_bldg_builder_04_fl" />
-			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_03" ToType="cov_bldg_builder_03_fl" />
-			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_02" ToType="cov_bldg_builder_02_fl" />
-			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_01" ToType="cov_bldg_builder_01_fl" />
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">FloodEggDrop1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="FloodEggDrop1">FloodEggDrop2</Effect>
-			<Effect type="UnlockableGodPower" tier="1">Flood_VehInfecter</Effect>
+			<Effect type="UnlockableGodPower" tier="1"></Effect>
 			<Effect type="UnlockableGodPower" tier="2">CorruptedPillage1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">FloodBaseDrop1</Effect>
@@ -8113,17 +8155,8 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">flood_air_infected_blisterback_01_base</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_vehinfector_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_04_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_vehinfector_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_03_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_vehinfector_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_02_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_vehinfector_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_vehinfector_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_engineer_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01_base</Target>
