@@ -14,13 +14,34 @@
 		<ActionType>AreaBuff</ActionType>
 		<WorkRange>60</WorkRange>
 		<SpecificData>
-			<BuffParams BuffType="ForgehogHeavyMetal" SlowModifier="1.5" DamageMitigationScalar="0.800000012">0.5f</BuffParams>
+			<BuffParams BuffType="ForgehogHeavyMetal" SlowModifier="1" DamageMitigationScalar="1">1f</BuffParams>
 			<TargetTypes />
 			<Relations>
 				<Relation>Ally</Relation>
 			</Relations>
 		</SpecificData>
 		<ProtoObject>vfx_episode2_building_floodhiveaura</ProtoObject>
+	</Action>
+	<Action>
+		<Name>RepairOther</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>60</WorkRange>
+		<WorkRate>1.00000034E-06</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIgnoreTargetHealth="true" AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="0" AutoRepairSearchDistance="60" />
+		<SpecificData>
+			<HealingPoints>
+				<HealingPoint>
+					<BoneName>GrannyRootBone_enforcer01</BoneName>
+					<MaxHealingDistance>500</MaxHealingDistance>
+					<TargetType>Flood</TargetType>
+					<AutoReapairOn />
+					<HealOnTheMove />
+					<UseMainHealingTargetWhenAvailable />
+				</HealingPoint>
+			</HealingPoints>
+		</SpecificData>
 	</Action>
 	<Tactic>
 		<PersistentAction>TrainedSquadDoor</PersistentAction>
