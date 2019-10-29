@@ -332,7 +332,7 @@
 	<InfantryCorpseDecayTime>3</InfantryCorpseDecayTime>
 	<CorpseSinkingSpacing>3</CorpseSinkingSpacing>
 	<InfectionMap>
-		<InfectionMapEntry targetUnit="cov_inf_elitegrunt_01_mp">
+		<InfectionMapEntry targetUnit="cov_inf_elitegrunt_01_base">
 			<Infected weight="99" infectedUnit="flood_inf_infected_gruntpistol_01" infectedSquad="flood_inf_infected_gruntpistol_01" deathByInfectionAnim="Transform" />
 			<Infected weight="15" infectedUnit="fld_custom_carrierform_grunt" infectedSquad="fld_custom_carrierform_grunt" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
@@ -366,16 +366,10 @@
 			<Infected weight="15" infectedUnit="flood_inf_infected_shieldedeliteplasmarifle_01" infectedSquad="flood_inf_infected_eliteplasmarifle_01" deathByInfectionAnim="Transform" />
 			<Infected weight="15" infectedUnit="fld_custom_carrierform_elite" infectedSquad="fld_custom_carrierform_elite" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_inf_arbiter_eliteLeader_01">
+		<InfectionMapEntry targetUnit="cov_inf_eliteLeader_01_base">
 			<Infected weight="99" infectedUnit="flood_inf_infected_eliteplasmarifle_01" infectedSquad="flood_inf_infected_eliteplasmarifle_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_inf_arbiter_elitesubleader_01">
-			<Infected weight="99" infectedUnit="flood_inf_infected_eliteplasmarifle_01" infectedSquad="flood_inf_infected_eliteplasmarifle_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_inf_eliteLeader_01_mp">
-			<Infected weight="99" infectedUnit="flood_inf_infected_eliteplasmarifle_01" infectedSquad="flood_inf_infected_eliteplasmarifle_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_inf_elitesubleader_01_mp">
+		<InfectionMapEntry targetUnit="cov_inf_elitesubleader_01_base">
 			<Infected weight="99" infectedUnit="flood_inf_infected_eliteplasmarifle_01" infectedSquad="flood_inf_infected_eliteplasmarifle_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_jackal_01">

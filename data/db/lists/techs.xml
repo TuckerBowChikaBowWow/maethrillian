@@ -8058,13 +8058,9 @@
 		</Effects>
 	</Tech>
 	<Tech name="flood_instant_upgrade" type="Normal">
-		<Flag>Shadow</Flag>
 		<DBID>2041</DBID>
 		<DisplayNameID>1072</DisplayNameID>
 		<RolloverTextID>1073</RolloverTextID>
-		<Prereqs>
-            <TechStatus status="Active">creep_LeaderFlood</TechStatus>
-        </Prereqs>
 		<ResearchPoints>5</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -8087,20 +8083,23 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">flood_instant_upgrade</Target>
+			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">FloodEggDrop1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="FloodEggDrop1">FloodEggDrop2</Effect>
-			<Effect type="UnlockableGodPower" tier="1"></Effect>
-			<Effect type="UnlockableGodPower" tier="2">CorruptedPillage1</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
+			<Effect type="UnlockableGodPower" tier="2"></Effect>
 			<Effect type="UnlockableGodPower" tier="2">FloodBaseDrop1</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Flood_Barrage1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="Flood_Barrage1">Flood_Barrage2</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Flood_Emerge_Infectors</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="Flood_Emerge_Infectors">Flood_Emerge_Infectors2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">FloodRuptureEmerge</Effect>
-			<Effect type="UnlockableGodPower" tier="4">FloodBuff</Effect>
+			<Effect type="UnlockableGodPower" tier="4"></Effect>
 			<Effect type="UnlockableGodPower" tier="5">Flood_InfantryRecycle</Effect>
-			<Effect type="UnlockableGodPower" tier="5">LekgoloEverlasting</Effect>
+			<Effect type="UnlockableGodPower" tier="5">FloodBuff</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">flood_inf_infectfrm_01</Target>
 			</Effect>
