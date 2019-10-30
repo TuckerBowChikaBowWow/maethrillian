@@ -8072,6 +8072,10 @@
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_03" ToType="cov_bldg_builder_03_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_02" ToType="cov_bldg_builder_02_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_01" ToType="cov_bldg_builder_01_fl" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_barracks_01" ToType="cov_bldg_barracks_01_fl" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_heavyfactory_01" ToType="cov_bldg_heavyfactory_01_fl" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_lightfactory_01" ToType="cov_bldg_lightfactory_01_fl" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_temple_01" ToType="cov_bldg_temple_01_fl" />
 		</Effects>
 	</Tech>
 	<Tech name="creep_LeaderFlood" type="Normal">
@@ -8086,20 +8090,35 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">flood_instant_upgrade</Target>
 			</Effect>
-			<Effect type="UnlockableGodPower" tier="1">FloodEggDrop1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="FloodEggDrop1">FloodEggDrop2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">FloodBaseDrop1</Effect>
 			<Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
-			<Effect type="UnlockableGodPower" tier="2"></Effect>
-			<Effect type="UnlockableGodPower" tier="2">FloodBaseDrop1</Effect>
+			<Effect type="UnlockableGodPower" tier="2">FloodEggDrop1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="FloodEggDrop1">FloodEggDrop2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">CovTeleport1</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Flood_Barrage1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="Flood_Barrage1">Flood_Barrage2</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Flood_Emerge_Infectors</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="Flood_Emerge_Infectors">Flood_Emerge_Infectors2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">FloodRuptureEmerge</Effect>
-			<Effect type="UnlockableGodPower" tier="4"></Effect>
+			<Effect type="UnlockableGodPower" tier="4">UnscBloodlust1</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Flood_InfantryRecycle</Effect>
 			<Effect type="UnlockableGodPower" tier="5">FloodBuff</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_jackal_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_flameMarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infectedrocket_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">flood_inf_infectfrm_01</Target>
 			</Effect>
