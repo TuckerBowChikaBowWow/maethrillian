@@ -8182,19 +8182,10 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_banshee_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01_base</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_shroud_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_lightfactory_01_base</Target>
-			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_blisterback_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_prowler_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_gorgon_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_locust_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraith_01" relativity="Absolute">
@@ -8222,6 +8213,15 @@
 				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_scarab_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
 			</Effect>
 		</Effects>
