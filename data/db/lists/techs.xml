@@ -8098,6 +8098,16 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepairOther2" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1.75" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infectfrm_01</Target>
+				<Target type="ProtoUnit">flood_inf_infectfrm_02</Target>
+				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
+				<Target type="ProtoUnit">flood_air_airborneinfector_01</Target>
+				<Target type="ProtoUnit">flood_inf_spawner_01</Target>
+			</Effect>
 			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="0.5" relativity="Percent">
 				<Target type="ProtoSquad">flood_inf_infectfrm_01</Target>
 				<Target type="ProtoSquad">flood_inf_vehinfector_01</Target>
