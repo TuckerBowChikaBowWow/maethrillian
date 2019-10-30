@@ -1671,8 +1671,6 @@ Has ground pound AoE attack</str>
 	<str id="UIENT.EPISODE2_MAPS_M03_DRILLPOLE.RADIALEDGE.NAME">SALVAGE DRILLS</str>
 	<str id="UIENT.EPISODE2_MAPS_M03_DRILLPOLE.RADIALEDGE.ROLE">ACTIVATE SALVAGE DRILL</str>
 	<str id="UIENT.EPISODE2_MAPS_M03_DRILLPOLE.RADIALEDGE.SHORTDESCR" />
-	<str id="UIENT.FLOOD_AIR_AIRBORNEINFECTOR_01.RADIALEDGE.NAME">SEEDER INFECTORS</str>
-	<str id="UIENT.FLOOD_AIR_AIRBORNEINFECTOR_01.RADIALEDGE.ROLE">ANTI-AIR</str>
 	<str id="UIENT.FLOOD_AIR_INFECTED_HORNET_01_BASE.RADIALEDGE.NAME">INFECTED AIR</str>
 	<str id="UIENT.FLOOD_AIR_INFECTED_HORNET_01_BASE.RADIALEDGE.ROLE" />
 	<str id="UIENT.FLOOD_BLDG_EGG_01.RADIALCENTER.NAME">BLISTER</str>
@@ -1695,16 +1693,8 @@ Has ground pound AoE attack</str>
 	<str id="UIENT.FLOOD_BLDG_RUPTURE_01.RADIALEDGE.NAME">BURSTER</str>
 	<str id="UIENT.FLOOD_BLDG_RUPTURE_01.RADIALEDGE.ROLE" />
 	<str id="UIENT.FLOOD_BLDG_RUPTURE_01.RADIALEDGE.SHORTDESCR" />
-	<str id="UIENT.FLOOD_INF_COMMANDER_01.RADIALEDGE.NAME">ABOMINATION</str>
-	<str id="UIENT.FLOOD_INF_COMMANDER_01.RADIALEDGE.ROLE">HIVE COMMANDER</str>
 	<str id="UIENT.FLOOD_INF_INFECTED_GRUNTMELEE_01.RADIALEDGE.NAME">INFECTED INFANTRY</str>
 	<str id="UIENT.FLOOD_INF_INFECTED_GRUNTMELEE_01.RADIALEDGE.ROLE" />
-	<str id="UIENT.FLOOD_INF_INFECTFRM_01.RADIALEDGE.NAME">POD INFECTOR</str>
-	<str id="UIENT.FLOOD_INF_INFECTFRM_01.RADIALEDGE.ROLE">ANTI-INFANTRY</str>
-	<str id="UIENT.FLOOD_INF_SPAWNER_01.RADIALEDGE.NAME">SPAWNER</str>
-	<str id="UIENT.FLOOD_INF_SPAWNER_01.RADIALEDGE.ROLE" />
-	<str id="UIENT.FLOOD_INF_VEHINFECTOR_01.RADIALEDGE.NAME">INFESTER</str>
-	<str id="UIENT.FLOOD_INF_VEHINFECTOR_01.RADIALEDGE.ROLE">ANTI-VEHICLE</str>
 	<str id="UIENT.FLOOD_VEH_INFECTED_GHOST_01_BASE.RADIALEDGE.NAME">INFECTED VEHICLE</str>
 	<str id="UIENT.FLOOD_VEH_INFECTED_GHOST_01_BASE.RADIALEDGE.ROLE" />
 	<str id="UIENT.FOR_AIR_ENFORCER_01.RADIALEDGE.NAME">CONTROLLER SENTINEL</str>
@@ -4179,4 +4169,121 @@ Units must die within the power's set time frame.</str>
 	<str id="UIENT.UPGRADEAVAILABLE1.RADIALEDGE.ROLE">UPGRADE AVAILABLE</str>
 	<str id="UIENT.UPGRADEAVAILABLE2.RADIALEDGE.ROLE">UPGRADE AVAILABLE</str>
 	<str id="UIENT.USEPOWER.LEFTSIDERADIALEDGE.MESSAGE">Use Power</str>
+	<str id="UIENT.flood_inf_commander_01.RADIALCENTER.NAME">ABOMINATION</str>
+	<str id="UIENT.flood_inf_commander_01.RADIALEDGE.NAME">ABOMINATION</str>
+	<str id="UIENT.flood_inf_commander_01.RADIALEDGE.ROLE">HIVE COMMANDER</str>
+	<str id="UIENT.flood_inf_commander_01.RADIALEDGE.SHORTDESCR">Mid-Game Abomination.</str>
+	<str id="UIENT.flood_inf_spawner_01.RADIALCENTER.NAME">SPAWNER</str>
+	<str id="UIENT.flood_inf_spawner_01.RADIALEDGE.NAME">SPAWNER</str>
+	<str id="UIENT.flood_inf_spawner_01.RADIALEDGE.ROLE">HERO</str>
+	<str id="UIENT.flood_inf_spawner_01.RADIALEDGE.SHORTDESCR">Spawns a counter infecter unit for the unit it is fighting against.</str>
+	<str id="UIENT.flood_inf_infectfrm_01.RADIALCENTER.NAME">POD INFECTOR</str>
+	<str id="UIENT.flood_inf_infectfrm_01.RADIALEDGE.NAME">POD INFECTOR</str>
+	<str id="UIENT.flood_inf_infectfrm_01.RADIALEDGE.ROLE">ANTI-INFANTRY</str>
+	<str id="UIENT.flood_inf_infectfrm_01.RADIALEDGE.SHORTDESCR">Good against Infantry, can infect vehicles too.</str>
+	<str id="UIENT.flood_inf_infectfrm_02.RADIALCENTER.NAME">POD INFECTOR</str>
+	<str id="UIENT.flood_inf_infectfrm_02.RADIALEDGE.NAME">POD INFECTOR</str>
+	<str id="UIENT.flood_inf_infectfrm_02.RADIALEDGE.ROLE">ANTI-INFANTRY</str>
+	<str id="UIENT.flood_inf_infectfrm_02.RADIALEDGE.SHORTDESCR">Good against Infantry, can infect vehicles too.</str>
+	<str id="UIENT.flood_inf_vehinfector_01.RADIALCENTER.NAME">INFESTER</str>
+	<str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.NAME">INFESTER</str>
+	<str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.ROLE">ANTI-VEHICLE</str>
+	<str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.SHORTDESCR">Has AOE and can infect infantry too.</str>
+	<str id="UIENT.flood_air_airborneinfector_01.RADIALCENTER.NAME">SEEDER</str>
+	<str id="UIENT.flood_air_airborneinfector_01.RADIALEDGE.NAME">SEEDER</str>
+	<str id="UIENT.flood_air_airborneinfector_01.RADIALEDGE.ROLE">ANTI-AIR</str>
+	<str id="UIENT.flood_air_airborneinfector_01.RADIALEDGE.SHORTDESCR">Infect air units, is good against buildings too.</str>
+	<str id="UIENT.flood_inf_infected_gruntpistol_01.RADIALCENTER.NAME">INFECTED GRUNT</str>
+	<str id="UIENT.flood_inf_infected_gruntpistol_01.RADIALEDGE.NAME">INFECTED GRUNT</str>
+	<str id="UIENT.flood_inf_infected_gruntpistol_01.RADIALEDGE.ROLE">INFECTED</str>
+	<str id="UIENT.flood_inf_infected_gruntpistol_01.RADIALEDGE.SHORTDESCR">Has a plasma pistol.</str>
+	<str id="UIENT.FloodBaseDrop1.RADIALCENTER.NAME">BASE DROP I</str>
+	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.NAME">BASE DROP I</str>
+	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.SALESPITCH">Drop a hivebase to the battlefield.</str>
+	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.SHORTDESCR">Drop a hivebase to the battlefield.</str>
+	<str id="UIENT.FloodRuptureEmerge1.RADIALCENTER.NAME">CENSORED ATTACK I</str>
+	<str id="UIENT.FloodRuptureEmerge1.RADIALEDGE.NAME">CENSORED ATTACK I</str>
+	<str id="UIENT.FloodRuptureEmerge1.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodRuptureEmerge1.RADIALEDGE.SALESPITCH">DROP 1 CENSORED into the battlefield.</str>
+	<str id="UIENT.FloodRuptureEmerge1.RADIALEDGE.SHORTDESCR">DROP 1 CENSORED into the battlefield.</str>
+	<str id="UIENT.FloodRuptureEmerge1.RADIALEDGE.UPGRADEPITCH">Adds 1 CENSORED to the drop</str>
+	<str id="UIENT.FloodRuptureEmerge2.RADIALCENTER.NAME">CENSORED ATTACK II</str>
+	<str id="UIENT.FloodRuptureEmerge2.RADIALEDGE.NAME">CENSORED ATTACK II</str>
+	<str id="UIENT.FloodRuptureEmerge2.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodRuptureEmerge2.RADIALEDGE.SHORTDESCR">DROP 2 CENSORED into the battlefield.</str>
+	<str id="UIENT.FloodEggDrop.RADIALCENTER.NAME">EGG DROP I</str>
+	<str id="UIENT.FloodEggDrop.RADIALEDGE.NAME">EGG DROP I</str>
+	<str id="UIENT.FloodEggDrop.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodEggDrop.RADIALEDGE.SALESPITCH">Drop Eggs.</str>
+	<str id="UIENT.FloodEggDrop.RADIALEDGE.SHORTDESCR">Drop Eggs.</str>
+	<str id="UIENT.FloodEggDrop.RADIALEDGE.UPGRADEPITCH">Drop more Eggs.</str>
+	<str id="UIENT.FloodEggDrop2.RADIALCENTER.NAME">EGG DROP II</str>
+	<str id="UIENT.FloodEggDrop2.RADIALEDGE.NAME">EGG DROP II</str>
+	<str id="UIENT.FloodEggDrop2.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodEggDrop2.RADIALEDGE.SHORTDESCR">Drop Eggs.</str>
+	<str id="UIENT.flood_inf_infectedrocket_01.RadialCenter.Name">INFECTED COMBAT TECH</str>
+	<str id="UIENT.flood_inf_infectedrocket_01.RadialEdge.Name">INFECTED COMBAT TECH</str>
+	<str id="UIENT.flood_inf_infectedrocket_01.RadialEdge.Role">CORE INFANTRY</str>
+	<str id="UIENT.flood_inf_infectedrocket_01.RadialEdge.ShortDescr">Can repair vehicles, air units and buildings
+Equipped with Rocket Launcher</str>
+	<str id="UIENT.flood_veh_infected_warthog_01_base.RadialCenter.Name">INFECTED WARTHOG</str>
+	<str id="UIENT.flood_veh_infected_warthog_01_base.RadialEdge.Name">INFECTED WARTHOG</str>
+	<str id="UIENT.flood_veh_infected_warthog_01_base.RadialEdge.Role">CORE VEHICLE</str>
+	<str id="UIENT.flood_veh_infected_warthog_01_base.RadialEdge.ShortDescr">Can ram enemies
+Fast moving
+Good all-round vehicle</str>
+	<str id="UIENT.flood_veh_infected_scorpion_01_base.RadialCenter.Name">INFECTED SCORPION</str>
+	<str id="UIENT.flood_veh_infected_scorpion_01_base.RadialEdge.Name">INFECTED SCORPION</str>
+	<str id="UIENT.flood_veh_infected_scorpion_01_base.RadialEdge.Role">MAIN BATTLE TANK</str>
+	<str id="UIENT.flood_veh_infected_scorpion_01_base.RadialEdge.ShortDescr">Heavy damage
+Medium range
+Heavy armor</str>
+	<str id="UIENT.flood_veh_infected_prowler_01_base.RadialCenter.Name">INFECTED MARAUDER</str>
+	<str id="UIENT.flood_veh_infected_prowler_01_base.RadialEdge.Name">INFECTED MARAUDER</str>
+	<str id="UIENT.flood_veh_infected_prowler_01_base.RadialEdge.Role">CORE VEHICLE</str>
+	<str id="UIENT.flood_veh_infected_prowler_01_base.RadialEdge.ShortDescr">Shots slow enemies
+Tough armor
+Good all-round vehicle</str>
+	<str id="UIENT.flood_veh_infected_wraith_01_base.RadialCenter.Name">INFECTED WRAITH</str>
+	<str id="UIENT.flood_veh_infected_wraith_01_base.RadialEdge.Name">INFECTED WRAITH</str>
+	<str id="UIENT.flood_veh_infected_wraith_01_base.RadialEdge.Role">MAIN BATTLE TANK</str>
+	<str id="UIENT.flood_veh_infected_wraith_01_base.RadialEdge.ShortDescr">Heavy damage
+Long range
+Heavy armor</str>
+	<str id="UIENT.flood_air_infected_banshee_01_base.RadialCenter.Name">INFECTED BANSHEE</str>
+	<str id="UIENT.flood_air_infected_banshee_01_base.RadialEdge.Name">INFECTED BANSHEE</str>
+	<str id="UIENT.flood_air_infected_banshee_01_base.RadialEdge.Role">CORE AIRCRAFT</str>
+	<str id="UIENT.flood_air_infected_banshee_01_base.RadialEdge.ShortDescr">Fast moving
+Medium range
+Good all-round aircraft</str>
+	<str id="UIENT.flood_air_infected_blisterback_01_base.RadialCenter.Name">INFECTED BLISTERBACK</str>
+	<str id="UIENT.flood_air_infected_blisterback_01_base.RadialEdge.Name">INFECTED BLISTERBACK</str>
+	<str id="UIENT.flood_air_infected_blisterback_01_base.RadialEdge.Role">MOBILE ARTILLERY</str>
+	<str id="UIENT.flood_air_infected_blisterback_01_base.RadialEdge.ShortDescr">Can deploy to use Siege Missiles
+Uses Plasma Cannons in the air
+Very long range
+Heavy armor
+Cannot attack air when deployed</str>
+	<str id="UIENT.flood_inf_generic_core.RadialCenter.Name">GRUNT SQUAD</str>
+	<str id="UIENT.flood_inf_generic_core.RadialEdge.Name">GRUNT SQUAD</str>
+	<str id="UIENT.flood_inf_generic_core.RadialEdge.Role">CORE INFANTRY</str>
+	<str id="UIENT.flood_inf_generic_core.RadialEdge.ShortDescr">Cheap and expendable
+Quick capture unit</str>
+	<str id="UIENT.flood_inf_arbiter_assaultteam_01.RADIALCENTER.NAME">ELITE ENFORCERS</str>
+	<str id="UIENT.flood_inf_arbiter_assaultteam_01.RADIALEDGE.NAME">ELITE ENFORCERS</str>
+	<str id="UIENT.flood_inf_arbiter_assaultteam_01.RADIALEDGE.ROLE">ANTI-BUILDING</str>
+	<str id="UIENT.flood_inf_arbiter_assaultteam_01.RADIALEDGE.SHORTDESCR">Strong rush unit
+Can throw Stasis grenades that temporarily disable a target
+Grenades cannot target air</str>
+	<str id="UIENT.flood_inf_flameMarine_01.RadialCenter.Name">HELLBRINGERS</str>
+	<str id="UIENT.flood_inf_flameMarine_01.RadialEdge.Name">HELLBRINGERS</str>
+	<str id="UIENT.flood_inf_flameMarine_01.RadialEdge.Role">ANTI-INFANTRY</str>
+	<str id="UIENT.flood_inf_flameMarine_01.RadialEdge.ShortDescr">Strong rush unit
+Cannot attack air</str>
+	<str id="UIENT.flood_inf_jackal_01.RadialCenter.Name">ELITE RANGERS</str>
+	<str id="UIENT.flood_inf_jackal_01.RadialEdge.Name">ELITE RANGERS</str>
+	<str id="UIENT.flood_inf_jackal_01.RadialEdge.Role">ANTI-INFANTRY</str>
+	<str id="UIENT.flood_inf_jackal_01.RadialEdge.ShortDescr">Detects cloaked units
+Long range</str>
 </string_table>

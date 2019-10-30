@@ -10,6 +10,40 @@
 		<ActionType>Base</ActionType>
 	</Action>
 	<Action>
+		<Name>AreaBuff1</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>40</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ForgehogHeavyMetal" SlowModifier="1" DamageMitigationScalar="1">1f</BuffParams>
+			<TargetTypes />
+			<Relations>
+				<Relation>Ally</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>vfx_episode2_units_FloodCommanderAura</ProtoObject>
+	</Action>
+	<Action>
+		<Name>RepairOther1</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>40</WorkRange>
+		<WorkRate>0.8</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairIgnoreTargetHealth="true" AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="0" AutoRepairSearchDistance="40" />
+		<SpecificData>
+			<HealingPoints>
+				<HealingPoint>
+					<BoneName>GrannyRootBone_hive</BoneName>
+					<MaxHealingDistance>40</MaxHealingDistance>
+					<TargetType>Flood</TargetType>
+					<AutoReapairOn />
+					<HealOnTheMove />
+					<UseMainHealingTargetWhenAvailable />
+				</HealingPoint>
+			</HealingPoints>
+		</SpecificData>
+	</Action>
+	<Action>
 		<Name>AreaBuff2</Name>
 		<ActionType>AreaBuff</ActionType>
 		<WorkRange>60</WorkRange>
@@ -21,9 +55,10 @@
 			</Relations>
 		</SpecificData>
 		<ProtoObject>vfx_episode2_building_floodhiveaura</ProtoObject>
+		<StartDisabled />
 	</Action>
 	<Action>
-		<Name>RepairOther</Name>
+		<Name>RepairOther2</Name>
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
 		<WorkRange>60</WorkRange>
@@ -42,12 +77,15 @@
 				</HealingPoint>
 			</HealingPoints>
 		</SpecificData>
+		<StartDisabled />
 	</Action>
 	<Tactic>
 		<PersistentAction>TrainedSquadDoor</PersistentAction>
 		<PersistentAction>Base</PersistentAction>
+		<PersistentAction>AreaBuff1</PersistentAction>
+		<PersistentAction>RepairOther1</PersistentAction>
 		<PersistentAction>AreaBuff2</PersistentAction>
-		<PersistentAction>RepairOther</PersistentAction>
+		<PersistentAction>RepairOther2</PersistentAction>
 		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>Military</TargetType>
