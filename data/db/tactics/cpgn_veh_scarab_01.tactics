@@ -1,44 +1,57 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>ODSTMine</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>2800</DamagePerSecond>
+		<Name>InfectionBomb</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>2500</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Demolition</WeaponType>
-		<ImpactEffect size="Medium">ODSTMineExplosion</ImpactEffect>
+		<WeaponType>SuicideGruntAV</WeaponType>
+		<Projectile>fx_proj_suicide_plasmaGrenade_01</Projectile>
+		<ImpactEffect size="Medium">VehicleInfectorExplosion</ImpactEffect>
 		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Slow>
 		<Daze TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
-		<Apply>4</Apply>
-		<InfectionTargetType>Military</InfectionTargetType>
+		<MaxRange>5</MaxRange>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>14</Radius>
+				<Radius>10</Radius>
 				<DamageRatio>100</DamageRatio>
-				<Origin>Attacker</Origin>
+				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
+		<Filter>Medium</Filter>
+		<InfectionTargetType>Military</InfectionTargetType>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">-1</TargetPriority>
+		<TargetPriority type="TurretBuilding">-1</TargetPriority>
+		<TargetPriority type="Building">-1</TargetPriority>
 	</Weapon>
 	<Action>
-		<Name>StealthManager</Name>
-		<ActionType>StealthManager</ActionType>
-		<StealthType>Cloak</StealthType>
-		<RechargeDelay>3</RechargeDelay>
+		<Name>Infect</Name>
+		<ActionType>Detonate</ActionType>
+		<Infection />
+		<AutoDetonate AutoDetonateIdleTime="0.1f" AutoDetonateAggroRange="50" PlayAnimRange="20" Animated="true" Bone="b_front_belly_0" />
+		<Weapon>InfectionBomb</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<WorkRange>20</WorkRange>
+		<DodgeChanceMax>175</DodgeChanceMax>
+		<VelocityScalar>1</VelocityScalar>
 	</Action>
 	<Action>
 		<Name>ExplosiveManager</Name>
 		<ActionType>ExplosiveManager</ActionType>
-		<Infection />
-		<AutoDetonate AutoDetonateIdleTime="0.1f" AutoDetonateAggroRange="50" PlayAnimRange="20" Animated="true" Bone="b_front_belly_0" />
 		<FuseType>Proximity</FuseType>
 		<WorkRange>7</WorkRange>
 		<ChargeType>Shrapnel</ChargeType>
-		<Weapon>ODSTMine</Weapon>
+		<Weapon>InfectionBomb</Weapon>
 	</Action>
 	<Tactic>
 		<PersistentAction>ExplosiveManager</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>Infect</Action>
+		</TargetRule>
 	</Tactic>
 </TacticData>
