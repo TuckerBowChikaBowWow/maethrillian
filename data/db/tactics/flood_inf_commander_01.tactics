@@ -174,11 +174,24 @@
 	</Action>
 	<Action>
 		<Name>RepairOther</Name>
-		<ActionType>AoeHeal</ActionType>
-		<Anim>Idle</Anim>
-		<WorkRange>1</WorkRange>
-		<WorkRate>40</WorkRate>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>60</WorkRange>
+		<WorkRate>0.5</WorkRate>
 		<AllowReinforce />
+		<AutoRepair AutoRepairIgnoreTargetHealth="true" AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="0" AutoRepairSearchDistance="40" />
+		<SpecificData>
+			<HealingPoints>
+				<HealingPoint>
+					<BoneName>GrannyRootBone_hive</BoneName>
+					<MaxHealingDistance>60</MaxHealingDistance>
+					<TargetType>Flood</TargetType>
+					<AutoReapairOn />
+					<HealOnTheMove />
+					<UseMainHealingTargetWhenAvailable />
+				</HealingPoint>
+			</HealingPoints>
+		</SpecificData>
 	</Action>
 	<Action>
 		<Name>Garrison</Name>
