@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>InfectionBomb</Name>
+		<Name>InfectionBomb1</Name>
 		<AttackRate>5</AttackRate>
 		<DamagePerSecond>5000</DamagePerSecond>
 		<UseDPSasDPA />
@@ -32,17 +32,62 @@
 		<TargetPriority type="TurretBuilding">-1</TargetPriority>
 		<TargetPriority type="Building">-1</TargetPriority>
 	</Weapon>
+	<Weapon>
+		<Name>InfectionBomb2</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>6500</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>SuicideGruntAV</WeaponType>
+		<Projectile>fx_proj_suicide_plasmaGrenade_01</Projectile>
+		<ImpactEffect size="Medium">VehicleInfectorExplosion</ImpactEffect>
+		<MaxRange>50</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>25</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>50</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Filter>Medium</Filter>
+		<InfectionTargetType>Military</InfectionTargetType>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Infantry">-1</TargetPriority>
+		<TargetPriority type="TurretBuilding">-1</TargetPriority>
+		<TargetPriority type="Building">-1</TargetPriority>
+	</Weapon>
 	<Action>
-		<Name>Infect</Name>
+		<Name>Infect1</Name>
 		<ActionType>Detonate</ActionType>
 		<Infection />
 		<AutoDetonate AutoDetonateIdleTime="0.1f" AutoDetonateAggroRange="50" PlayAnimRange="20" Animated="true" Bone="b_front_belly_0" />
-		<Weapon>InfectionBomb</Weapon>
+		<Weapon>InfectionBomb1</Weapon>
 		<FullBodyAttackAnim />
 		<DontAutoRestart />
 		<WorkRange>20</WorkRange>
 		<DodgeChanceMax>175</DodgeChanceMax>
 		<VelocityScalar>1</VelocityScalar>
+	</Action>
+	<Action>
+		<Name>Infect2</Name>
+		<ActionType>Detonate</ActionType>
+		<Infection />
+		<AutoDetonate AutoDetonateIdleTime="0.1f" AutoDetonateAggroRange="50" PlayAnimRange="20" Animated="true" Bone="b_front_belly_0" />
+		<Weapon>InfectionBomb2</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<WorkRange>20</WorkRange>
+		<DodgeChanceMax>175</DodgeChanceMax>
+		<VelocityScalar>1</VelocityScalar>
+		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>TrainedSquadDoor</Name>
@@ -68,24 +113,11 @@
 	</Action>
 	<Action>
 		<Name>RepairOther1</Name>
-		<ActionType>RepairOther</ActionType>
-		<Anim>Repair</Anim>
-		<WorkRange>40</WorkRange>
-		<WorkRate>0.8</WorkRate>
+		<ActionType>AoeHeal</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>0.8</WorkRange>
+		<WorkRate>40</WorkRate>
 		<AllowReinforce />
-		<AutoRepair AutoRepairIgnoreTargetHealth="true" AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="0" AutoRepairSearchDistance="40" />
-		<SpecificData>
-			<HealingPoints>
-				<HealingPoint>
-					<BoneName>GrannyRootBone_hive</BoneName>
-					<MaxHealingDistance>40</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
-					<HealOnTheMove />
-					<UseMainHealingTargetWhenAvailable />
-				</HealingPoint>
-			</HealingPoints>
-		</SpecificData>
 	</Action>
 	<Action>
 		<Name>AreaBuff2</Name>
@@ -102,26 +134,12 @@
 		<StartDisabled />
 	</Action>
 	<Action>
-		<Name>RepairOther2</Name>
-		<ActionType>RepairOther</ActionType>
-		<Anim>Repair</Anim>
-		<WorkRange>60</WorkRange>
-		<WorkRate>1</WorkRate>
+		<Name>RepairOther1</Name>
+		<ActionType>AoeHeal</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>1</WorkRange>
+		<WorkRate>60</WorkRate>
 		<AllowReinforce />
-		<AutoRepair AutoRepairIgnoreTargetHealth="true" AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="0" AutoRepairSearchDistance="60" />
-		<SpecificData>
-			<HealingPoints>
-				<HealingPoint>
-					<BoneName>GrannyRootBone_hive</BoneName>
-					<MaxHealingDistance>60</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
-					<HealOnTheMove />
-					<UseMainHealingTargetWhenAvailable />
-				</HealingPoint>
-			</HealingPoints>
-		</SpecificData>
-		<StartDisabled />
 	</Action>
 	<Tactic>
 		<PersistentAction>TrainedSquadDoor</PersistentAction>

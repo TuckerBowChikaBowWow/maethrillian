@@ -8092,6 +8092,12 @@
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="RepairOther1" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="Infect1" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="Infect2" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="AreaBuff2" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
