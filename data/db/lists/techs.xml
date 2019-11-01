@@ -1565,6 +1565,18 @@
 			<Effect type="SquadCounter" NewCounterName="Scorpion_02">
 				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_scorpion_upgrade2">
+				<Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
+			<Effect type="SquadCounter" NewCounterName="Scorpion_02">
+				<Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="unsc_hornet_upgrade1" type="Normal">
@@ -3036,6 +3048,19 @@
 				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
 				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
 				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_brutespiker_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
+				<Target type="ProtoSquad">flood_inf_jackal_01</Target>
+				<Target type="ProtoSquad">flood_inf_flameMarine_01</Target>
+				<Target type="ProtoSquad">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmacaster_01</Target>
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3094,6 +3119,19 @@
 				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
 				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
 				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_brutespiker_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
+				<Target type="ProtoSquad">flood_inf_jackal_01</Target>
+				<Target type="ProtoSquad">flood_inf_flameMarine_01</Target>
+				<Target type="ProtoSquad">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmacaster_01</Target>
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3152,6 +3190,19 @@
 				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
 				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
 				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_brutespiker_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
+				<Target type="ProtoSquad">flood_inf_jackal_01</Target>
+				<Target type="ProtoSquad">flood_inf_flameMarine_01</Target>
+				<Target type="ProtoSquad">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmacaster_01</Target>
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3211,6 +3262,20 @@
 			<Effect type="SquadCounter" NewCounterName="Grunts_02">
 				<Target type="ProtoSquad">cov_inf_grunt_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+			</Effect>
+			<Effect type="SquadCounter" NewCounterName="Grunts_02">
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="cov_grunt_upgrade2" type="Normal">
@@ -3238,6 +3303,20 @@
 			<Effect type="ReparentProtoSquad" FromType="cov_inf_generic_grunt" ToType="cov_inf_grunt_02" />
 			<Effect type="SquadCounter" NewCounterName="Grunts_03">
 				<Target type="ProtoSquad">cov_inf_grunt_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+			</Effect>
+			<Effect type="SquadCounter" NewCounterName="Grunts_03">
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3500,6 +3579,24 @@
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_veh_bruteChopper_02">
 				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonLeftAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_bruteChopper_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonRightAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_bruteChopper_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="ExplosivePlasmaCannonRightAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_bruteChopper_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="ExplosivePlasmaCannonLeftAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_bruteChopper_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="75" subtype="StealthDetectionRange" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_bruteChopper_01_base</Target>
+			</Effect>
+			<Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_veh_bruteChopper_02">
+				<Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="cov_prowler_upgrade1" type="Normal">
@@ -3559,6 +3656,19 @@
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_01</Target>
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_02</Target>
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_03</Target>
+				<Target type="ProtoSquad">flood_inf_infected_brutespiker_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
+				<Target type="ProtoSquad">flood_inf_jackal_01</Target>
+				<Target type="ProtoSquad">flood_inf_flameMarine_01</Target>
+				<Target type="ProtoSquad">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmacaster_01</Target>
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3597,6 +3707,19 @@
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_01</Target>
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_02</Target>
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_03</Target>
+				<Target type="ProtoSquad">flood_inf_infected_brutespiker_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
+				<Target type="ProtoSquad">flood_inf_jackal_01</Target>
+				<Target type="ProtoSquad">flood_inf_flameMarine_01</Target>
+				<Target type="ProtoSquad">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmacaster_01</Target>
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3635,6 +3758,19 @@
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_01</Target>
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_02</Target>
 				<Target type="ProtoSquad">cov_inf_bruteGrunt_03</Target>
+				<Target type="ProtoSquad">flood_inf_infected_brutespiker_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
+				<Target type="ProtoSquad">flood_inf_jackal_01</Target>
+				<Target type="ProtoSquad">flood_inf_flameMarine_01</Target>
+				<Target type="ProtoSquad">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmacaster_01</Target>
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3663,6 +3799,11 @@
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
 				<Target type="ProtoSquad">cov_veh_gorgon_01</Target>
 				<Target type="ProtoSquad">cov_veh_locust_01</Target>
+				<Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3694,6 +3835,11 @@
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
 				<Target type="ProtoSquad">cov_veh_gorgon_01</Target>
 				<Target type="ProtoSquad">cov_veh_locust_01</Target>
+				<Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3725,6 +3871,11 @@
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
 				<Target type="ProtoSquad">cov_veh_gorgon_01</Target>
 				<Target type="ProtoSquad">cov_veh_locust_01</Target>
+				<Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3750,6 +3901,8 @@
 				<Target type="ProtoSquad">cov_air_banshee_01</Target>
 				<Target type="ProtoSquad">cov_air_shroud_01</Target>
 				<Target type="ProtoSquad">cov_air_blisterback_01</Target>
+				<Target type="ProtoSquad">flood_air_infected_banshee_01_base</Target>
+				<Target type="ProtoSquad">flood_air_infected_blisterback_01_base</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3778,6 +3931,8 @@
 				<Target type="ProtoSquad">cov_air_banshee_01</Target>
 				<Target type="ProtoSquad">cov_air_shroud_01</Target>
 				<Target type="ProtoSquad">cov_air_blisterback_01</Target>
+				<Target type="ProtoSquad">flood_air_infected_banshee_01_base</Target>
+				<Target type="ProtoSquad">flood_air_infected_blisterback_01_base</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3806,6 +3961,8 @@
 				<Target type="ProtoSquad">cov_air_banshee_01</Target>
 				<Target type="ProtoSquad">cov_air_shroud_01</Target>
 				<Target type="ProtoSquad">cov_air_blisterback_01</Target>
+				<Target type="ProtoSquad">flood_air_infected_banshee_01_base</Target>
+				<Target type="ProtoSquad">flood_air_infected_blisterback_01_base</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -8007,56 +8164,6 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="flood_base_upgrade1" type="Normal">
-		<DBID>2041</DBID>
-		<DisplayNameID>1070</DisplayNameID>
-		<RolloverTextID>1071</RolloverTextID>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">400</Cost>
-		<ResearchPoints>50</ResearchPoints>
-		<Status>OBTAINABLE</Status>
-		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_upgrade_keep</ResearchCompleteSound>
-		<ResearchAnim>Upgrade</ResearchAnim>
-		<Flag>UniqueProtoUnitInstance</Flag>
-		<Effects>
-			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_builder_02_fl</Effect>
-		</Effects>
-	</Tech>
-	<Tech name="flood_base_upgrade2" type="Normal">
-		<DBID>2041</DBID>
-		<DisplayNameID>1074</DisplayNameID>
-		<RolloverTextID>1075</RolloverTextID>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">1000</Cost>
-		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>35</ResearchPoints>
-		<Status>OBTAINABLE</Status>
-		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchAnim>Upgrade</ResearchAnim>
-		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
-		<Flag>UniqueProtoUnitInstance</Flag>
-		<Effects>
-			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_builder_03_fl</Effect>
-		</Effects>
-	</Tech>
-	<Tech name="flood_base_upgrade3" type="Normal">
-		<DBID>2041</DBID>
-		<DisplayNameID>1072</DisplayNameID>
-		<RolloverTextID>1073</RolloverTextID>
-		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">1500</Cost>
-		<Cost resourcetype="HQLevel">2</Cost>
-		<ResearchPoints>50</ResearchPoints>
-		<Status>OBTAINABLE</Status>
-		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchAnim>Upgrade</ResearchAnim>
-		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
-		<Flag>UniqueProtoUnitInstance</Flag>
-		<Effects>
-			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_builder_04_fl</Effect>
-		</Effects>
-	</Tech>
 	<Tech name="flood_instant_upgrade" type="Normal">
 		<DBID>2041</DBID>
 		<DisplayNameID>1072</DisplayNameID>
@@ -8076,6 +8183,9 @@
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_heavyfactory_01" ToType="cov_bldg_heavyfactory_01_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_lightfactory_01" ToType="cov_bldg_lightfactory_01_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_temple_01" ToType="cov_bldg_temple_01_fl" />
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="_Power_FloodFeast1" type="Normal">
@@ -8160,9 +8270,33 @@
 			</Effect>
 			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="0.85" relativity="Percent">
 				<Target type="ProtoSquad">flood_inf_commander_01</Target>
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
+				<Target type="ProtoSquad">flood_inf_jackal_01</Target>
+				<Target type="ProtoSquad">flood_inf_flameMarine_01</Target>
+				<Target type="ProtoSquad">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+				<Target type="ProtoSquad">flood_air_infected_banshee_01_base</Target>
+				<Target type="ProtoSquad">flood_air_infected_blisterback_01_base</Target>
 			</Effect>
 			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.95" relativity="Percent">
 				<Target type="ProtoSquad">flood_inf_commander_01</Target>
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
+				<Target type="ProtoSquad">flood_inf_jackal_01</Target>
+				<Target type="ProtoSquad">flood_inf_flameMarine_01</Target>
+				<Target type="ProtoSquad">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
+				<Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+				<Target type="ProtoSquad">flood_air_infected_banshee_01_base</Target>
+				<Target type="ProtoSquad">flood_air_infected_blisterback_01_base</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -8264,6 +8398,24 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">flood_inf_vehinfector_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_shieldtower_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_turretSocket_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_cloaktower_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_turretSocket_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_prowler_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_gorgon_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraith_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_wraith_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_engineer_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01_base</Target>
 			</Effect>
@@ -8273,11 +8425,38 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_blisterback_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01_base</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_prowler_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_banshee_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_base</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraith_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_scarab_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_generic_bruteJumpPack" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
@@ -8300,17 +8479,68 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteJumpPack_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_scarab_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_assaultteam_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_fl</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_phantom_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_phantom_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_phantom_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_veh_wraithapc_01_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_phantom_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_phantom_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_phantom_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_veh_wraithapc_01_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_phantom_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_phantom_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_phantom_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_veh_wraithapc_01_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_phantom_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_wraithapc_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_phantom_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_phantom_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_veh_wraithapc_01_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_fl</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -12705,6 +12935,16 @@
 		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
 		<Effects>
 			<Effect type="ReparentProtoSquad" FromType="cov_inf_generic_arbiterenforcer" ToType="cov_inf_arbiter_assaultteam_02" />
+			<Effect type="Data" amount="2" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_eliteplasmacaster_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_eliteplasmacaster_01</Target>
+			</Effect>
 			<Effect type="SquadCounter" NewCounterName="AssaultElites_02">
 				<Target type="ProtoSquad">cov_inf_arbiter_assaultteam_01</Target>
 			</Effect>

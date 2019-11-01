@@ -4934,7 +4934,7 @@
 		<Pop Type="Unit">7</Pop>
 		<Cost ResourceType="Supplies">700</Cost>
 		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,4.30499983,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5055,7 +5055,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="2" role="normal">flood_inf_infected_eliteplasmarifle_01</Unit>
+			<Unit count="2" role="normal">flood_inf_infected_eliteassaultteam_01</Unit>
 			<Unit count="1" role="leader">flood_inf_infected_eliteplasmacaster_01</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
@@ -5072,6 +5072,11 @@
 		</Selection>
 		<AvoidanceMass>Light</AvoidanceMass>
 		<Counters>AssaultElites_01</Counters>
+	</Squad>
+	<Squad name="flood_inf_arbiter_assaultteam_02" parent_element="flood_inf_arbiter_assaultteam_01" dbid="15571554292049611163">
+		<Units override_type="additive">
+			<Unit count="1" role="normal">flood_inf_infected_eliteplasmacaster_01</Unit>
+		</Units>
 	</Squad>
 	<Squad name="flood_inf_jackal_01" dbid="5031078638498000048">
 		<CombatRank>3</CombatRank>
@@ -5177,7 +5182,7 @@
 		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">60</Cost>
 		<Cost ResourceType="Power">160</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5979,6 +5984,49 @@
 	<Squad name="flood_inf_infected_eliteplasmarifle_01_sp" parent_element="flood_inf_infected_eliteplasmarifle_01_base" dbid="7798527043922652100">
 		<Flag>DoNotMoveToAttackMe</Flag>
 	</Squad>
+	<Squad name="flood_inf_infected_eliteassaultteam_01" parent_element="flood_inf_infected_eliteassaultteam_01_sp" dbid="7209847888651370562">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+	</Squad>
+	<Squad name="flood_inf_infected_eliteassaultteam_01_base" dbid="4043350716809326218">
+		<CombatRank>3</CombatRank>
+		<SubSelectSort>625</SubSelectSort>
+		<LeashDistance>20</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.20000005</AIAttackRank>
+		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
+		<BuildPoints>8</BuildPoints>
+		<Pop Type="Unit">0.699999988</Pop>
+		<Cost ResourceType="Supplies">55</Cost>
+		<Cost ResourceType="Power">30</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_infected_eliteassaultteam_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
+		<FrozenThreshold>100</FrozenThreshold>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>Units</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>AssaultElites_01</Counters>
+	</Squad>
+	<Squad name="flood_inf_infected_eliteassaultteam_01_mp" parent_element="flood_inf_infected_eliteassaultteam_01_base" dbid="7788961292759108650" />
+	<Squad name="flood_inf_infected_eliteassaultteam_01_sp" parent_element="flood_inf_infected_eliteassaultteam_01_base" dbid="7798527043922652100">
+		<Flag>DoNotMoveToAttackMe</Flag>
+	</Squad>
 	<Squad name="flood_inf_infected_hellbr_01" dbid="15728619007435770952" parent_element="flood_inf_infected_hellbr_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -6083,7 +6131,11 @@
 	<Squad name="flood_inf_infected_humelee_01_sp" parent_element="flood_inf_infected_humelee_01_base" dbid="8150405797418369034">
 		<Flag>DoNotMoveToAttackMe</Flag>
 	</Squad>
-	<Squad name="flood_inf_infected_odst_01_base" parent_element="flood_inf_infected_odst_01_base_sp" dbid="6994915191590799231" />
+	<Squad name="flood_inf_infected_odst_01_base" parent_element="flood_inf_infected_odst_01_base_sp" dbid="6994915191590799231">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+	</Squad>
 	<Squad name="flood_inf_infected_odst_01_base_base" dbid="4065837440595185253">
 		<CombatRank>5</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
@@ -6446,6 +6498,8 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
 		<BuildPoints>38</BuildPoints>
+		<UnlockableActiveAbilityType>VehicleMissile</UnlockableActiveAbilityType>
+		<Pop Type="Unit">7</Pop>
 		<Cost ResourceType="Supplies">550</Cost>
 		<Cost ResourceType="Power">90</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>

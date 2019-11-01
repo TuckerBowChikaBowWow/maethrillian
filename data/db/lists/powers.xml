@@ -28084,63 +28084,6 @@
 			</DataLevel>
 		</Attributes>
 	</Power>
-	<Power name="FloodEggDrop2">
-		<Attributes>
-			<PowerType>UnitDrop</PowerType>
-			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="150" Power="75" />
-			<Pop type="Unit">8</Pop>
-			<AutoRecharge>15000</AutoRecharge>
-			<UIRadius>5</UIRadius>
-			<Decal>Drop</Decal>
-			<DisplayNameID>5014</DisplayNameID>
-			<RolloverTextID>5015</RolloverTextID>
-			<ShowLimit />
-			<LeaderPower />
-			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
-			<IconLocation>2</IconLocation>
-			<CameraZoomMin>200</CameraZoomMin>
-			<CameraZoomMax>200</CameraZoomMax>
-			<CameraPitchMin>55</CameraPitchMin>
-			<CameraPitchMax>55</CameraPitchMax>
-			<CameraEnableUserScroll>true</CameraEnableUserScroll>
-			<CameraEnableUserYaw>true</CameraEnableUserYaw>
-			<CameraEnableUserZoom>true</CameraEnableUserZoom>
-			<FlashUI>
-				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
-				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
-			</FlashUI>
-			<DataLevel level="0">
-				<Data type="bool" name="RequiresLOS">true</Data>
-				<Data type="bool" name="NoDropNearBase">false</Data>
-				<Data type="bool" name="FailIfNotEnoughPop">true</Data>
-				<Data type="bool" name="CanDropOnSquads">true</Data>
-				<Data type="bool" name="OneProjectilePerUnit">true</Data>
-				<Data type="int" name="OverlayStringID">25023</Data>
-				<Data type="float" name="TargetingDelay">0.5</Data>
-				<Data type="float" name="SquadSpawnDelay">1.20000005</Data>
-				<Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
-				<Data type="sound" name="HudUpSound" />
-				<Data type="sound" name="HudAbortSound" />
-				<Data type="sound" name="HudFireSound" />
-				<Data type="sound" name="HudLastFireSound" />
-				<Data type="sound" name="HudStartEnvSound" />
-				<Data type="sound" name="HudStopEnvSound" />
-				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
-				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
-				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
-				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
-				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
-				<Data type="int" name="NumShots">3</Data>
-				<Data type="unitdrops" name="unitdrops">
-					<Drop>
-						<ProtoSquadID>flood_custom_egg_inf</ProtoSquadID>
-					</Drop>
-				</Data>
-			</DataLevel>
-		</Attributes>
-	</Power>
 	<Power name="FloodEggDrop1">
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
@@ -28148,7 +28091,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="100" Power="0" />
 			<Pop type="Unit">6</Pop>
-			<AutoRecharge>15000</AutoRecharge>
+			<AutoRecharge>175000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -28172,7 +28115,7 @@
 				<Data type="bool" name="RequiresLOS">true</Data>
 				<Data type="bool" name="NoDropNearBase">true</Data>
 				<Data type="bool" name="FailIfNotEnoughPop">true</Data>
-				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="bool" name="CanDropOnSquads">false</Data>
 				<Data type="bool" name="OneProjectilePerUnit">true</Data>
 				<Data type="int" name="OverlayStringID">25023</Data>
 				<Data type="float" name="TargetingDelay">0.5</Data>
@@ -28190,6 +28133,63 @@
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
 				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
 				<Data type="int" name="NumShots">2</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>flood_custom_egg_inf</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="FloodEggDrop2">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<SoundName>TurretDrop</SoundName>
+			<Cost Supplies="150" Power="75" />
+			<Pop type="Unit">8</Pop>
+			<AutoRecharge>175000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>true</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">true</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">true</Data>
+				<Data type="bool" name="CanDropOnSquads">false</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="TargetingDelay">0.5</Data>
+				<Data type="float" name="SquadSpawnDelay">1.20000005</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">3</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>flood_custom_egg_inf</ProtoSquadID>
@@ -28399,6 +28399,8 @@
             <DataLevel level="0">
                 <Data type="bool" name="AffectsAllByFilterType">true</Data>
                 <Data type="objecttype" name="FilterType">Flood</Data>
+                <Data type="objecttype" name="FilterExcludeType">_Rupture</Data>
+                <Data type="objecttype" name="FilterExcludeType">Building</Data>
                 <Data type="float" name="BuffDuration">150</Data>
                 <Data type="bool" name="AffectsEnemies">false</Data>
                 <Data type="bool" name="AffectsSelfOnly">true</Data>
