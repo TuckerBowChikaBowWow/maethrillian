@@ -28399,6 +28399,8 @@
             <DataLevel level="0">
                 <Data type="bool" name="AffectsAllByFilterType">true</Data>
                 <Data type="objecttype" name="FilterType">Flood</Data>
+                <Data type="objecttype" name="FilterExcludeType">_Rupture</Data>
+                <Data type="objecttype" name="FilterExcludeType">Building</Data>
                 <Data type="float" name="BuffDuration">150</Data>
                 <Data type="bool" name="AffectsEnemies">false</Data>
                 <Data type="bool" name="AffectsSelfOnly">true</Data>
