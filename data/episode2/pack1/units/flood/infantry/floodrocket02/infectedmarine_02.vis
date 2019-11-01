@@ -225,7 +225,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.773000002" end="1" name="PLAY_SFX_3D_FTS_FLD_SmallWalk" tobone="GrannyRootBone_infectedmarine_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 		</anim>
-		<anim type="Attack" exitAction="Transition" tweenTime="10" tweenToAnimation="Support" uvScrollSpeedX="0" uvScrollSpeedY="0">
+		<anim type="RocketAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Support" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>episode2/pack1/animations/flood/infantry/infectedmarine_rocket_01/attack_marine_rocket_01</file>
 				<weight>1</weight>
