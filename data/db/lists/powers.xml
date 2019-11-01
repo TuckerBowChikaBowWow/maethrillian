@@ -27534,8 +27534,8 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
-			<Cost Supplies="250" Power="250" />
-			<AutoRecharge>170000</AutoRecharge>
+			<Cost Supplies="350" Power="350" />
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -27652,8 +27652,8 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
-			<Cost Supplies="350" Power="350" />
-			<AutoRecharge>170000</AutoRecharge>
+			<Cost Supplies="450" Power="450" />
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<IconLocation>0</IconLocation>
@@ -28253,6 +28253,70 @@
 						<PlayTrainAnim>true</PlayTrainAnim>
 					</Drop>
 				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="FloodFeast1">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>_POWER_FloodFeast1</TechScript>
+			<ProcOnSquadKill />
+			<ProcBuffName>BloodlustProc</ProcBuffName>
+			<ProcObjectTypeFilter>BasicInfantry</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>BasicVehicle</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>BasicAircraft</ProcObjectTypeFilter>
+			<Cost Supplies="0" Power="0" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="objecttype" name="FilterType">Unit</Data>
+				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
+				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
+				<Data type="float" name="BuffDuration">4</Data>
+				<Data type="float" name="DamageDealtModifier">1.1</Data>
+				<Data type="float" name="SlowModifier">1.1</Data>
+				<Data type="protoobject" name="BuffActivateFX">fx_invulnerability</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="FloodFeast2">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>_POWER_FloodFeast2</TechScript>
+			<ProcOnSquadKill />
+			<ProcBuffName>BloodlustProc</ProcBuffName>
+			<ProcObjectTypeFilter>BasicInfantry</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>BasicVehicle</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>BasicAircraft</ProcObjectTypeFilter>
+			<Cost Supplies="0" Power="0" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="objecttype" name="FilterType">Unit</Data>
+				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
+				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
+				<Data type="float" name="BuffDuration">4</Data>
+				<Data type="float" name="DamageDealtModifier">1.15</Data>
+				<Data type="float" name="SlowModifier">1.15</Data>
+				<Data type="protoobject" name="BuffActivateFX">fx_invulnerability</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>

@@ -8078,6 +8078,38 @@
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_temple_01" ToType="cov_bldg_temple_01_fl" />
 		</Effects>
 	</Tech>
+	<Tech name="_Power_FloodFeast1" type="Normal">
+		<DBID>1963</DBID>
+		<DisplayNameID>26016</DisplayNameID>
+		<RolloverTextID>26016</RolloverTextID>
+		<PrereqTextID>26016</PrereqTextID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Effects>
+			<Effect type="Data" subtype="Resource" Resource="Supplies" amount="100" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" subtype="Resource" Resource="Power" amount="100" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="_Power_FloodFeast2" type="Normal">
+		<DBID>1963</DBID>
+		<DisplayNameID>26016</DisplayNameID>
+		<RolloverTextID>26016</RolloverTextID>
+		<PrereqTextID>26016</PrereqTextID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Effects>
+			<Effect type="Data" subtype="Resource" Resource="Supplies" amount="500" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" subtype="Resource" Resource="Power" amount="500" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="_Power_FloodBuff" type="Normal">
 		<DBID>1963</DBID>
 		<DisplayNameID>26016</DisplayNameID>
@@ -8147,8 +8179,8 @@
 				<Target type="Tech">flood_instant_upgrade</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">CovTeleport1</Effect>
-			<Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">FloodFeast1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="FloodFeast1">FloodFeast2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">FloodEggDrop1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="FloodEggDrop1">FloodEggDrop2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">FloodBaseDrop1</Effect>
