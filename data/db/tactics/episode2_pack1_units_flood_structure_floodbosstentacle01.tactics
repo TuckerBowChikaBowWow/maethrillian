@@ -44,20 +44,16 @@
 	<Action>
 		<Name>SlamAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim noInterrupt="true">SlamAttack</Anim>
-		<Weapon>SlamWeapon</Weapon>
-		<DontAutoRestart />
+		<Anim>SlamAttack</Anim>
+		<Weapon>MeleeAttack</Weapon>
 		<FullBodyAttackAnim />
-		<ForceAttachmentAnim />
+		<Strafing maxDistance="15" turnRate="90" trackingSpeed="40" jitter="20" />
 	</Action>
 	<Tactic>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
-			<Action>SlamAttackAction</Action>
-			<TargetsGround />
-			<IgnoreOtherTargetsWhileTargetingGround />
-			<ForceFilterTargetTypeDuringTargetsGround />
+			<Action>MeleeAttackAction</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>
