@@ -3259,6 +3259,20 @@
 			<Effect type="SquadCounter" NewCounterName="Grunts_02">
 				<Target type="ProtoSquad">cov_inf_grunt_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+			</Effect>
+			<Effect type="SquadCounter" NewCounterName="Grunts_02">
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="cov_grunt_upgrade2" type="Normal">
@@ -3286,6 +3300,20 @@
 			<Effect type="ReparentProtoSquad" FromType="cov_inf_generic_grunt" ToType="cov_inf_grunt_02" />
 			<Effect type="SquadCounter" NewCounterName="Grunts_03">
 				<Target type="ProtoSquad">cov_inf_grunt_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+			</Effect>
+			<Effect type="SquadCounter" NewCounterName="Grunts_03">
+				<Target type="ProtoSquad">flood_inf_generic_core</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3547,6 +3575,24 @@
 			</Effect>
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_veh_bruteChopper_02">
 				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonLeftAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_bruteChopper_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonRightAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_bruteChopper_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="ExplosivePlasmaCannonRightAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_bruteChopper_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="ExplosivePlasmaCannonLeftAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_bruteChopper_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="75" subtype="StealthDetectionRange" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_bruteChopper_01_base</Target>
+			</Effect>
+			<Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_veh_bruteChopper_02">
+				<Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -8431,7 +8477,7 @@
 				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_assaultteam_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+				<Target type="ProtoUnit">cov_bldg_barracks_01_fl</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_phantom_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
