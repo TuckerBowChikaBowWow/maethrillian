@@ -4827,11 +4827,11 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
-		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">3</Pop>
+		<BuildPoints>25</BuildPoints>
+		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="Power">275</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="Power">250</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,4.30499983,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -4882,9 +4882,9 @@
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
 		<Pop Type="Unit">3</Pop>
-		<Cost ResourceType="Supplies">300</Cost>
+		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,4.30499983,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5291,7 +5291,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="14" role="normal">flood_inf_infectfrm_01</Unit>
+			<Unit count="6" role="normal">flood_inf_infectfrm_01</Unit>
 		</Units>
 		<OverrideUnitSoundNames />
 		<LeaderDiesLast />
@@ -5422,9 +5422,10 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>35</BuildPoints>
-		<Pop Type="Unit">10</Pop>
-		<Cost ResourceType="Supplies">455</Cost>
-		<Cost ResourceType="Power">325</Cost>
+		<Pop Type="Unit">8</Pop>
+		<Cost ResourceType="Supplies">450</Cost>
+		<Cost ResourceType="Power">250</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5472,10 +5473,11 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<ActiveAbilityType>SuicideBomb</ActiveAbilityType>
-		<BuildPoints>10</BuildPoints>
+		<BuildPoints>20</BuildPoints>
 		<Pop Type="Unit">3</Pop>
-		<Cost ResourceType="Supplies">200</Cost>
-		<Cost ResourceType="Power">150</Cost>
+		<Cost ResourceType="Supplies">180</Cost>
+		<Cost ResourceType="Power">60</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>

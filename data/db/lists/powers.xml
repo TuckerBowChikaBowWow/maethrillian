@@ -27796,8 +27796,8 @@
 			<AIPowerUseType>BunkerDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Pop type="Decimus">1</Pop>
-			<Cost Supplies="500" Power="0" />
-			<AutoRecharge>175000</AutoRecharge>
+			<Cost Supplies="350" Power="350" />
+			<AutoRecharge>150000</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -27823,7 +27823,7 @@
 				<Data type="bool" name="NoDropNearBase">true</Data>
 				<Data type="bool" name="FailIfNotEnoughPop">false</Data>
 				<Data type="int" name="OverlayStringID">25023</Data>
-				<Data type="float" name="SquadSpawnDelay">0.600000024</Data>
+				<Data type="float" name="SquadSpawnDelay">1.600000024</Data>
 				<Data type="float" name="ProjectileSpawnDelay">0</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
@@ -28089,9 +28089,9 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="100" Power="0" />
-			<Pop type="Unit">6</Pop>
-			<AutoRecharge>175000</AutoRecharge>
+			<Cost Supplies="100" Power="100" />
+			<Pop type="Unit">0</Pop>
+			<AutoRecharge>125000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -28146,9 +28146,9 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="150" Power="75" />
-			<Pop type="Unit">8</Pop>
-			<AutoRecharge>175000</AutoRecharge>
+			<Cost Supplies="130" Power="130" />
+			<Pop type="Unit">0</Pop>
+			<AutoRecharge>125000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
