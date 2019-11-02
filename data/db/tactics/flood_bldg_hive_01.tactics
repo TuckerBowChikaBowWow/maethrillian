@@ -115,13 +115,14 @@
 		<Name>RepairOther1</Name>
 		<ActionType>RepairOther</ActionType>
 		<Anim>Idle</Anim>
-		<WorkRange>0.8</WorkRange>
-		<WorkRate>40</WorkRate>
+		<WorkRange>40</WorkRange>
+		<WorkRate>0.8</WorkRate>
 		<AllowReinforce />
 		<AutoRepair AutoRepairIgnoreTargetHealth="true" AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="0" AutoRepairSearchDistance="40" />
 		<SpecificData>
 			<HealingPoints>
 				<HealingPoint>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>40</MaxHealingDistance>
 					<TargetType>Flood</TargetType>
@@ -130,6 +131,7 @@
 					<UseMainHealingTargetWhenAvailable />
 				</HealingPoint>
 				<HealingPoint>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>40</MaxHealingDistance>
 					<TargetType>Flood</TargetType>
@@ -138,6 +140,7 @@
 					<UseMainHealingTargetWhenAvailable />
 				</HealingPoint>
 				<HealingPoint>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>40</MaxHealingDistance>
 					<TargetType>Flood</TargetType>
@@ -166,13 +169,14 @@
 		<Name>RepairOther2</Name>
 		<ActionType>RepairOther</ActionType>
 		<Anim>Idle</Anim>
-		<WorkRange>1</WorkRange>
-		<WorkRate>60</WorkRate>
+		<WorkRange>60</WorkRange>
+		<WorkRate>1</WorkRate>
 		<AllowReinforce />
 		<AutoRepair AutoRepairIgnoreTargetHealth="true" AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="0" AutoRepairSearchDistance="60" />
 		<SpecificData>
 			<HealingPoints>
 				<HealingPoint>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>60</MaxHealingDistance>
 					<TargetType>Flood</TargetType>
@@ -181,6 +185,7 @@
 					<UseMainHealingTargetWhenAvailable />
 				</HealingPoint>
 				<HealingPoint>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>60</MaxHealingDistance>
 					<TargetType>Flood</TargetType>
@@ -189,6 +194,7 @@
 					<UseMainHealingTargetWhenAvailable />
 				</HealingPoint>
 				<HealingPoint>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>60</MaxHealingDistance>
 					<TargetType>Flood</TargetType>
@@ -197,6 +203,7 @@
 					<UseMainHealingTargetWhenAvailable />
 				</HealingPoint>
 				<HealingPoint>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>60</MaxHealingDistance>
 					<TargetType>Flood</TargetType>
@@ -205,6 +212,7 @@
 					<UseMainHealingTargetWhenAvailable />
 				</HealingPoint>
 				<HealingPoint>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>60</MaxHealingDistance>
 					<TargetType>Flood</TargetType>
