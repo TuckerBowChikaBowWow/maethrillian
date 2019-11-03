@@ -3,14 +3,14 @@
 	<Weapon>
 		<Name>Hammer</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>125</DamagePerSecond>
+		<DamagePerSecond>140</DamagePerSecond>
 		<WeaponType>SmallArmsScouts</WeaponType>
-		<MaxRange>6</MaxRange>
+		<MaxRange>4</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>3</Radius>
+				<Radius>2</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -20,6 +20,10 @@
 		<TargetPriority type="GroundVehicle">5</TargetPriority>
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">2</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
 	</Weapon>
 	<Action>
 		<Name>HammerAttackAction</Name>
@@ -27,7 +31,7 @@
 		<Anim noInterrupt="true">Attack</Anim>
 		<Weapon>Hammer</Weapon>
 		<FullBodyAttackAnim />
-		<Strafing turnRate="180" trackingSpeed="60" />
+		<Strafing turnRate="240" trackingSpeed="90" />
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>

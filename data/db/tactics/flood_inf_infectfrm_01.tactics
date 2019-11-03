@@ -1,6 +1,42 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
+		<Name>Bomb</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>420</DamagePerSecond>
+		<UseDPSasDPA />
+		<Corruption />
+		<WeaponType>CorruptedGrenadier</WeaponType>
+		<Projectile>fx_proj_corruptionmediumexp_01_mp</Projectile>
+		<ImpactEffect doShockwaveAction="true">CorruptionMedium</ImpactEffect>
+		<Shockwave duration="30" />
+		<MaxRange>5</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<AOERadius>20</AOERadius>
+		<Corruption overlap="1.3f" />
+		<Filter>Medium</Filter>
+	</Weapon>
+	<Weapon>
 		<Name>Infect</Name>
 		<DamagePerSecond>150</DamagePerSecond>
 		<WeaponType>InfectionForm</WeaponType>
@@ -24,6 +60,17 @@
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
+	<Action>
+		<Name>SprintSuicideBomb</Name>
+		<ActionType>Detonate</ActionType>
+		<AutoDetonate AutoDetonateIdleTime="0.100000001" AutoDetonateAggroRange="35" />
+		<Weapon>Bomb</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<WorkRange>8</WorkRange>
+		<DodgeChanceMax>175</DodgeChanceMax>
+		<VelocityScalar>1</VelocityScalar>
+	</Action>
 	<Action>
 		<Name>Infect</Name>
 		<ActionType>Infect</ActionType>

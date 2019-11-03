@@ -8188,6 +8188,27 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="flood_infector_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>1114</DisplayNameID>
+		<RolloverTextID>1115</RolloverTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">350</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>30</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="_Power_FloodFeast1" type="Normal">
 		<DBID>1963</DBID>
 		<DisplayNameID>26016</DisplayNameID>

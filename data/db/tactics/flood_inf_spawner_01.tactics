@@ -69,21 +69,21 @@
 	<Weapon>
 		<Name>Rifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>700</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>episode2_pack1_units_flood_infantry_FloodSpawnerSpine</Projectile>
 		<ImpactEffect size="small">FloodSpawnerSpineImpact</ImpactEffect>
 		<MaxVelocityLead>25</MaxVelocityLead>
-		<MaxRange>70</MaxRange>
+		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>8</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
 		<MovingMaxDeviation>12</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
-		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
 		<TargetPriority type="Aircraft">3</TargetPriority>
-		<TargetPriority type="GroundVehicle">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">20</TargetPriority>
+		<TargetPriority type="Building">10</TargetPriority>
 		<PreAttackCooldownMin>0.1</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.1</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0.4</PostAttackCooldownMin>
@@ -99,14 +99,14 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>2</Radius>
+				<Radius>3</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>4</Radius>
+				<Radius>5</Radius>
 				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
