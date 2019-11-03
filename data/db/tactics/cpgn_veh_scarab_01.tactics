@@ -21,6 +21,7 @@
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
+		<Apply>5</Apply>
 		<Filter>Medium</Filter>
 		<InfectionTargetType>Infantry</InfectionTargetType>
 	</Weapon>
@@ -45,6 +46,7 @@
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
+		<Apply>1.5</Apply>
 		<Filter>Medium</Filter>
 		<InfectionTargetType>Infantry</InfectionTargetType>
 	</Weapon>
@@ -75,11 +77,6 @@
 			<Relation>Enemy</Relation>
 			<TargetType>Infantry</TargetType>
 			<Action>Infect</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>Infect</Action>
-			<TargetType>NonFlying</TargetType>
 		</TargetRule>
 	</Tactic>
 </TacticData>
