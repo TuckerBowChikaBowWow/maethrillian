@@ -3,11 +3,10 @@
 	<Weapon>
 		<Name>InfectionBomb</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>700</DamagePerSecond>
+		<DamagePerSecond>1200</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Mines</WeaponType>
-		<Projectile>fx_proj_suicide_plasmaGrenade_01</Projectile>
-		<ImpactEffect size="Medium">VehicleInfectorExplosion</ImpactEffect>
+		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
 		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Slow>
 		<Daze TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
 		<MaxRange>5</MaxRange>
@@ -28,11 +27,10 @@
 	<Weapon>
 		<Name>InfectionBombReduced</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>400</DamagePerSecond>
+		<DamagePerSecond>650</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Mines</WeaponType>
-		<Projectile>fx_proj_suicide_plasmaGrenade_01</Projectile>
-		<ImpactEffect size="Medium">VehicleInfectorExplosion</ImpactEffect>
+		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
 		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Slow>
 		<Daze TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
 		<MaxRange>5</MaxRange>
@@ -55,7 +53,7 @@
 		<ActionType>ExplosiveManager</ActionType>
 		<Infection />
 		<FuseType>Proximity</FuseType>
-		<WorkRange>12</WorkRange>
+		<WorkRange>10</WorkRange>
 		<Weapon>InfectionBomb</Weapon>
 		<DontAutoRestart />
 	</Action>
