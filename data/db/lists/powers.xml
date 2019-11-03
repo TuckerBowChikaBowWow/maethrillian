@@ -28203,9 +28203,9 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="400" Power="0" />
-			<Pop type="Unit">4</Pop>
-			<AutoRecharge>350000</AutoRecharge>
+			<Cost Supplies="100" Power="100" />
+			<Pop type="Unit">0</Pop>
+			<AutoRecharge>20000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -28286,6 +28286,10 @@
 				<Data type="float" name="SlowModifier">1.1</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_floodfeast_01</Data>
 			</DataLevel>
+			<DataLevel level="0">
+				<Data type="protoobject" name="Projectile">pow_proj_unstableconcoction_03</Data>
+				<Data type="int" name="NumShots">1</Data>
+			</DataLevel>
 		</Attributes>
 	</Power>
 	<Power name="FloodFeast2">
@@ -28317,6 +28321,10 @@
 				<Data type="float" name="DamageDealtModifier">1.15</Data>
 				<Data type="float" name="SlowModifier">1.15</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_floodfeast_02</Data>
+			</DataLevel>
+			<DataLevel level="0">
+				<Data type="protoobject" name="Projectile">pow_proj_unstableconcoction_03</Data>
+				<Data type="int" name="NumShots">1</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>

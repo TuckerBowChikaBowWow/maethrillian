@@ -116,9 +116,9 @@
 		<ActionType>RepairOther</ActionType>
 		<Anim>Idle</Anim>
 		<WorkRange>40</WorkRange>
-		<WorkRate>0.8</WorkRate>
+		<WorkRate>0.25</WorkRate>
 		<AllowReinforce />
-		<AutoRepair AutoRepairIgnoreTargetHealth="true" AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="0" AutoRepairSearchDistance="40" />
+		<AutoRepair  AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="500" AutoRepairThreshold="1" AutoRepairSearchDistance="40" />
 		<SpecificData>
 			<HealingPoints>
 				<HealingPoint>
@@ -170,9 +170,9 @@
 		<ActionType>RepairOther</ActionType>
 		<Anim>Idle</Anim>
 		<WorkRange>60</WorkRange>
-		<WorkRate>1</WorkRate>
+		<WorkRate>0.35</WorkRate>
 		<AllowReinforce />
-		<AutoRepair AutoRepairIgnoreTargetHealth="true" AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="0" AutoRepairSearchDistance="60" />
+		<AutoRepair AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="500" AutoRepairThreshold="1" AutoRepairSearchDistance="60" />
 		<SpecificData>
 			<HealingPoints>
 				<HealingPoint>
