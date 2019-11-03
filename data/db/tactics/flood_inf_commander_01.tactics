@@ -175,24 +175,26 @@
 	<Action>
 		<Name>RepairOther</Name>
 		<ActionType>RepairOther</ActionType>
-		<Anim>Repair</Anim>
-		<WorkRange>60</WorkRange>
+		<Anim>Idle</Anim>
+		<WorkRange>40</WorkRange>
 		<WorkRate>0.5</WorkRate>
 		<AllowReinforce />
-		<AutoRepair AutoRepairIgnoreTargetHealth="true" AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="0" AutoRepairSearchDistance="40" />
+		<AutoRepair  AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="500" AutoRepairThreshold="1" AutoRepairSearchDistance="40" />
 		<SpecificData>
 			<HealingPoints>
 				<HealingPoint>
-					<BoneName>GrannyRootBone_hive</BoneName>
-					<MaxHealingDistance>60</MaxHealingDistance>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
+					<BoneName>GrannyRootBone_commander_01</BoneName>
+					<MaxHealingDistance>40</MaxHealingDistance>
 					<TargetType>Flood</TargetType>
 					<AutoReapairOn />
 					<HealOnTheMove />
 					<UseMainHealingTargetWhenAvailable />
 				</HealingPoint>
 				<HealingPoint>
-					<BoneName>GrannyRootBone_hive</BoneName>
-					<MaxHealingDistance>60</MaxHealingDistance>
+					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
+					<BoneName>GrannyRootBone_commander_01</BoneName>
+					<MaxHealingDistance>40</MaxHealingDistance>
 					<TargetType>Flood</TargetType>
 					<AutoReapairOn />
 					<HealOnTheMove />
