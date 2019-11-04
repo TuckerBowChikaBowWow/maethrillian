@@ -118,15 +118,6 @@
 		<Name>GatherSupplies</Name>
 		<ActionType>Gather</ActionType>
 		<Anim>Gather</Anim>
-		<Resource>Supplies</Resource>
-		<WorkRate>4</WorkRate>
-		<WorkRange>4</WorkRange>
-		<RestrictedAutoTarget>true</RestrictedAutoTarget>
-	</Action>
-	<Action>
-		<Name>GatherPower</Name>
-		<ActionType>Gather</ActionType>
-		<Anim>Gather</Anim>
 		<Resource>Power</Resource>
 		<WorkRate>4</WorkRate>
 		<WorkRange>4</WorkRange>
@@ -145,7 +136,12 @@
 		<DecaptureRate>1.29999995</DecaptureRate>
 		<WorkRange>4</WorkRange>
 	</Action>
+	<Action>
+		<Name>GatherSuppliesSquad</Name>
+		<ActionType>SquadActionGather</ActionType>
+	</Action>
 	<Tactic>
+		<PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>AssaultRifleAttackAction</Action>
