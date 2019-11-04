@@ -86,8 +86,9 @@
 	<Action>
 		<Name>AssaultRifleAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>Attack</Anim>
-		<MoveAnim>AttackMove</MoveAnim>
+		<Anim>AssaultRifleAttack</Anim>
+		<MoveAnim>AssaultRifleAttackMove</MoveAnim>
+		<ReloadAnim>AssaultRifleReload</ReloadAnim>
 		<Weapon>AssaultRifle</Weapon>
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<FullBodyAttackAnim />
