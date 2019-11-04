@@ -8217,13 +8217,8 @@
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Effects>
-			<Effect type="Data" subtype="Resource" resourcetype="Supplies" amount="100" relativity="Absolute">
-				<Target type="Player" />
-			</Effect>
-			<Effect type="Data" subtype="Resource" resourcetype="Power" amount="100" relativity="Absolute">
-				<Target type="Player" />
-			</Effect>
-			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="2.15" subtype="Hitpoints" relativity="Percent">
+				<Target type="Unit" />
 			</Effect>
 		</Effects>
 	</Tech>
