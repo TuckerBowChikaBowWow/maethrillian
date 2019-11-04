@@ -28262,56 +28262,9 @@
 	</Power>
 	<Power name="FloodFeast1">
 		<Attributes>
-			<PowerType>Orbital</PowerType>
+			<PowerType>TechScript</PowerType>
 			<AIPowerUseType>Passive</AIPowerUseType>
 			<TechScript>_POWER_FloodFeast1</TechScript>
-			<ProcOnSquadKill />
-			<ProcObjectTypeFilter>BasicInfantry</ProcObjectTypeFilter>
-			<ProcObjectTypeFilter>BasicVehicle</ProcObjectTypeFilter>
-			<ProcObjectTypeFilter>BasicAircraft</ProcObjectTypeFilter>
-			<Cost Supplies="0" Power="0" />
-			<DisplayNameID>5012</DisplayNameID>
-			<RolloverTextID>5013</RolloverTextID>
-			<PrereqTextID>252</PrereqTextID>
-			<LeaderPower />
-			<NotAffectedByCeasefire />
-			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
-			<FlashUI>
-				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
-				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
-			</FlashUI>
-			<BaseDataLevel>
-				<Data type="bool" name="RequiresLOS">true</Data>
-				<Data type="float" name="TargetingDelay">0</Data>
-				<Data type="float" name="AutoShotDelay">0</Data>
-				<Data type="float" name="AutoShotInnerRadius">5</Data>
-				<Data type="float" name="AutoShotOuterRadius">20</Data>
-				<Data type="float" name="XOffset">15</Data>
-				<Data type="float" name="YOffset">35</Data>
-				<Data type="float" name="ZOffset">15</Data>
-				<Data type="float" name="CommandInterval">0.200000003</Data>
-				<Data type="float" name="ShotInterval">0.300000012</Data>
-				<Data type="sound" name="HudUpSound" />
-				<Data type="sound" name="HudAbortSound" />
-				<Data type="sound" name="HudFireSound" />
-				<Data type="sound" name="HudLastFireSound" />
-				<Data type="sound" name="FiredSound" />
-				<Data type="sound" name="HudStartEnvSound" />
-				<Data type="sound" name="HudStopEnvSound" />
-			</BaseDataLevel>
-			<DataLevel level="0">
-				<Data type="protoobject" name="Projectile">pow_proj_unstableconcoction_03</Data>
-				<Data type="int" name="NumShots">1</Data>
-			</DataLevel>
-		</Attributes>
-	</Power>
-	<Power name="FloodFeast2">
-		<Attributes>
-			<PowerType>AreaBuff</PowerType>
-			<AIPowerUseType>Passive</AIPowerUseType>
-			<TechScript>_POWER_FloodFeast2</TechScript>
-			<ProcOnSquadKill />
-			<ProcPowerName>ArbiterConduitofRage_Proc</ProcPowerName>
 			<ProcObjectTypeFilter>BasicInfantry</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>BasicVehicle</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>BasicAircraft</ProcObjectTypeFilter>
@@ -28331,6 +28284,64 @@
 				<Data type="float" name="DamageDealtModifier">1.15</Data>
 				<Data type="float" name="SlowModifier">1.15</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_floodfeast_02</Data>
+				<Data type="bool" name="ProcOnSquadKill">true</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="FloodFeast2">
+		<Attributes>
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>_POWER_FloodFeast2</TechScript>
+			<ProcOnSquadKill />
+			<ProcObjectTypeFilter>BasicInfantry</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>BasicVehicle</ProcObjectTypeFilter>
+			<ProcObjectTypeFilter>BasicAircraft</ProcObjectTypeFilter>
+			<Cost Supplies="0" Power="0" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="float" name="BuffDuration">4</Data>
+				<Data type="float" name="DamageDealtModifier">1.15</Data>
+				<Data type="float" name="SlowModifier">1.15</Data>
+				<Data type="protoobject" name="BuffActivateFX">fx_floodfeast_02</Data>
+			</DataLevel>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">true</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="TargetingDelay">2.8</Data>
+				<Data type="float" name="SquadSpawnDelay">0.80000005</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">1</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>flood_structure_floodbosstentacledrop_01</ProtoSquadID>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
+				</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
