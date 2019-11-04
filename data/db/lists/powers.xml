@@ -28266,8 +28266,7 @@
 			<AIPowerUseType>Passive</AIPowerUseType>
 			<TechScript>_POWER_FloodFeast1</TechScript>
 			<ProcOnSquadKill />
-			<ProcBuffName>BloodlustProc</ProcBuffName>
-			<ProcPowerName>UnstableConcoctionProc3</ProcPowerName>
+			<ProcPowerName>ArbiterConduitofRage_Proc</ProcPowerName>
 			<ProcObjectTypeFilter>BasicInfantry</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>BasicVehicle</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>BasicAircraft</ProcObjectTypeFilter>
@@ -28299,7 +28298,8 @@
 			<AIPowerUseType>Passive</AIPowerUseType>
 			<TechScript>_POWER_FloodFeast2</TechScript>
 			<ProcOnSquadKill />
-			<ProcBuffName>BloodlustProc</ProcBuffName>
+			<ProcOnLeaderPowerCast />
+			<ProcPowerName>ArbiterConduitofRage_Proc</ProcPowerName>
 			<ProcObjectTypeFilter>BasicInfantry</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>BasicVehicle</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>BasicAircraft</ProcObjectTypeFilter>
@@ -28314,9 +28314,7 @@
 				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
-			<DelayProcOfNamedPower>ArbiterConduitofRage_Proc</DelayProcOfNamedPower>
 			<DataLevel level="0">
-				<Data type="float" name="ProcOfNamedPowerDelayAmount">1.1f</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
