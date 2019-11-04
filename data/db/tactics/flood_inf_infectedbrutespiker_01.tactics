@@ -140,7 +140,12 @@
 		<ActionType>Garrison</ActionType>
 		<WorkRange>3.07500005</WorkRange>
 	</Action>
+	<Action>
+		<Name>GatherSuppliesSquad</Name>
+		<ActionType>SquadActionGather</ActionType>
+	</Action>
 	<Tactic>
+		<PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>BrutegunAttackAction</Action>
