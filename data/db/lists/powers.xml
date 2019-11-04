@@ -28262,7 +28262,7 @@
 	</Power>
 	<Power name="FloodFeast1">
 		<Attributes>
-			<PowerType>TechScript</PowerType>
+			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Passive</AIPowerUseType>
 			<TechScript>_POWER_FloodFeast1</TechScript>
 			<ProcOnSquadKill />
@@ -28307,11 +28307,10 @@
 	</Power>
 	<Power name="FloodFeast2">
 		<Attributes>
-			<PowerType>TechScript</PowerType>
+			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>Passive</AIPowerUseType>
 			<TechScript>_POWER_FloodFeast2</TechScript>
 			<ProcOnSquadKill />
-			<ProcOnLeaderPowerCast />
 			<ProcPowerName>ArbiterConduitofRage_Proc</ProcPowerName>
 			<ProcObjectTypeFilter>BasicInfantry</ProcObjectTypeFilter>
 			<ProcObjectTypeFilter>BasicVehicle</ProcObjectTypeFilter>
