@@ -38,7 +38,7 @@
 		<ActionType>Gather</ActionType>
 		<Anim>Gather</Anim>
 		<Resource>Supplies</Resource>
-		<WorkRate>0.00001</WorkRate>
+		<WorkRate>1</WorkRate>
 		<WorkRange>4</WorkRange>
 		<RestrictedAutoTarget>true</RestrictedAutoTarget>
 	</Action>
@@ -113,7 +113,7 @@
 		<WorkRange>4</WorkRange>
 	</Action>
 	<Tactic>
-		<PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
+		<PersistentAction>GatherSupplies</PersistentAction>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
