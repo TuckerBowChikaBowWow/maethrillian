@@ -27848,6 +27848,49 @@
 			</DataLevel>
 		</Attributes>
 	</Power>
+	<Power name="FloodRegen_Proc">
+		<Attributes>
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>BuffAllies</AIPowerUseType>
+			<BuffName>ConduitofRage</BuffName>
+			<Cost Supplies="0" Power="0" />
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>40</UIRadius>
+			<Decal>ConduitOfRage_Small</Decal>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<IsProcPower />
+			<DontRecordGameStats />
+			<IconLocation>0</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DataLevel level="0">
+				<Data type="float" name="AreaRadius">50</Data>
+				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="bool" name="StacksDuration">false</Data>
+				<Data type="objecttype" name="FilterType">Military</Data>
+				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_BUFF_ConduitOfRage_I</Data>
+				<Data type="protoobject" name="CastVfx">vfx_episode2_environmentalvfx_e2m4floodgoobubbles</Data>
+				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
+				<Data type="protoobject" name="BuffDeactivateFX">vfx_dlc2_powers_conduitofrageunitend</Data>
+				<Data type="float" name="HealPercentPerTick">0.04</Data>
+				<Data type="float" name="HealTickRate">2</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="Flood_Emerge_Infectors">
 		<Attributes>
 			<PowerType>Gunship</PowerType>
@@ -27858,7 +27901,7 @@
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ProcOnLeaderPowerCast />
-			<ProcPowerName>ArbiterConduitofRage_Proc</ProcPowerName>
+			<ProcPowerName>FloodRegen_Proc</ProcPowerName>
 			<ShowTransportArrows>true</ShowTransportArrows>
 			<DisplayNameID>5010</DisplayNameID>
 			<RolloverTextID>5011</RolloverTextID>
@@ -27876,9 +27919,9 @@
 				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
 				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
 			</FlashUI>
-			<DelayProcOfNamedPower>ArbiterConduitofRage_Proc</DelayProcOfNamedPower>
+			<DelayProcOfNamedPower>FloodRegen_Proc</DelayProcOfNamedPower>
 			<DataLevel level="0">
-				<Data type="float" name="ProcOfNamedPowerDelayAmount">2.1f</Data>
+				<Data type="float" name="ProcOfNamedPowerDelayAmount">3.5f</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -28281,11 +28324,11 @@
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
-				<Data type="float" name="BuffDuration">8</Data>
+				<Data type="float" name="BuffDuration">5</Data>
 				<Data type="float" name="DamageDealtModifier">1.15</Data>
 				<Data type="float" name="SlowModifier">1.15</Data>
-				<Data type="float" name="ResourceRateScalar">9.9f</Data>
-				<Data type="float" name="ResearchProductionRateScalar">2.0f</Data>
+				<Data type="float" name="HealPercentPerTick">0.05</Data>
+				<Data type="float" name="HealTickRate">1.5</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_floodfeast_02</Data>
 			</DataLevel>
 		</Attributes>
@@ -28311,11 +28354,11 @@
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
-				<Data type="float" name="BuffDuration">4</Data>
-				<Data type="float" name="DamageDealtModifier">1.15</Data>
-				<Data type="float" name="SlowModifier">1.15</Data>
-				<Data type="float" name="ResourceRateScalar">0</Data>
-				<Data type="float" name="ResearchProductionRateScalar">0</Data>
+				<Data type="float" name="BuffDuration">5</Data>
+				<Data type="float" name="DamageDealtModifier">1.2</Data>
+				<Data type="float" name="SlowModifier">1.2</Data>
+				<Data type="float" name="HealPercentPerTick">0.05</Data>
+				<Data type="float" name="HealTickRate">1</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_floodfeast_02</Data>
 			</DataLevel>
 		</Attributes>
