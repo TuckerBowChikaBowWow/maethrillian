@@ -39,5 +39,13 @@
 		<ActionType>Infect</ActionType>
 		<Infection />
 	</Action>
-	<Tactic />
+	<Tactic>
+		<PersistentAction>ScatterBombAttackAction</PersistentAction>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>Military</TargetType>
+			<Action>Infect</Action>
+		</TargetRule>
+	</Tactic>
 </TacticData>

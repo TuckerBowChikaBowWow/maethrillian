@@ -27535,7 +27535,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="350" Power="350" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>10000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -27559,7 +27559,7 @@
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_OFF_Barrage_I</Data>
 				<Data type="int" name="OverlayStringID">25023</Data>
 				<Data type="float" name="SquadSpawnDelay">0</Data>
-				<Data type="float" name="ProjectileSpawnDelay">0.25</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.5</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -27574,7 +27574,7 @@
 				<Data type="float" name="AreaDropInitialCircularDistanceOffset">0</Data>
 				<Data type="float" name="AreaDropExpandingStep">8</Data>
 				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">12</Data>
-				<Data type="float" name="AreaDropRandomLaunchDelay">3</Data>
+				<Data type="float" name="AreaDropRandomLaunchDelay">4</Data>
 				<Data type="float" name="AreaDropRandomPosOffset">10</Data>
 				<Data type="bool" name="OneProjectilePerUnit">true</Data>
 				<Data type="bool" name="CanDropOnSquads">true</Data>
@@ -27585,7 +27585,7 @@
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_01</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofshipcov_02</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -27593,19 +27593,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_05</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_01</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofshipcov_02</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -27613,19 +27601,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_05</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_01</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofshipcov_02</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -27633,19 +27609,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_05</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_01</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofshipcov_02</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -27653,15 +27617,23 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofshipcov_02</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofshipcov_02</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_05</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofshipcov_02</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
+						<ProjectileOverride>pow_proj_bitsofshipcov_02</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
+						<ProjectileOverride>pow_proj_bitsofshipcov_02</ProjectileOverride>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -27673,7 +27645,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="450" Power="450" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>10000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<IconLocation>0</IconLocation>
@@ -27960,6 +27932,7 @@
 			<Cost Supplies="0" Power="0" />
 			<AutoRecharge>120000</AutoRecharge>
 			<UIRadius>40</UIRadius>
+			<ProcOnLeaderPowerCast />
 			<Decal>ConduitOfRage_Small</Decal>
 			<LeaderPower />
 			<NotAffectedByCeasefire />
@@ -27978,20 +27951,21 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">40</Data>
-				<Data type="float" name="BuffDuration">7</Data>
-				<Data type="bool" name="StacksDuration">false</Data>
+				<Data type="bool" name="TargetStructuresOnly">false</Data>
+				<Data type="protoobject" name="RepairObject">fx_Unbrk_repairpower3</Data>
+				<Data type="protoobject" name="RepairAttachment">fx_repairing</Data>
+				<Data type="float" name="RepairRadius">40</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
-				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="float" name="TickDuration">0.800000012</Data>
+				<Data type="int" name="NumTicks">72</Data>
+				<Data type="float" name="RepairPercentMaxHealthPerTick">0.0350000001</Data>
+				<Data type="float" name="CooldownTimeIfDamaged">0</Data>
+				<Data type="bool" name="IgnorePlacement">false</Data>
+				<Data type="bool" name="HealAny">false</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
-				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_BUFF_ConduitOfRage_I</Data>
-				<Data type="protoobject" name="CastVfx">fx_Unbrk_repairpower3</Data>
-				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
-				<Data type="protoobject" name="BuffDeactivateFX">vfx_dlc2_powers_conduitofrageunitend</Data>
-				<Data type="float" name="HealPercentPerTick">0.03</Data>
-				<Data type="float" name="HealTickRate">1</Data>
+				<Data type="sound" name="FiredSound" />
 			</DataLevel>
 		</Attributes>
 	</Power>
@@ -28004,7 +27978,6 @@
 			<AutoRecharge>210000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
-			<ProcOnLeaderPowerCast />
 			<ProcPowerName>FloodRegen_Proc</ProcPowerName>
 			<ShowTransportArrows>true</ShowTransportArrows>
 			<DisplayNameID>5010</DisplayNameID>
