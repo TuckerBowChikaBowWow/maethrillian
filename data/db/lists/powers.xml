@@ -27621,15 +27621,15 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -27964,7 +27964,6 @@
 			<Cost Supplies="0" Power="0" />
 			<AutoRecharge>120000</AutoRecharge>
 			<UIRadius>40</UIRadius>
-			<ProcOnLeaderPowerCast />
 			<Decal>ConduitOfRage_Small</Decal>
 			<LeaderPower />
 			<NotAffectedByCeasefire />
@@ -28007,10 +28006,11 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">9</Pop>
 			<Cost Supplies="250"/>
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>21000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ProcPowerName>FloodRegen_Proc</ProcPowerName>
+			<ProcWhenActiveOnly />
 			<ShowTransportArrows>true</ShowTransportArrows>
 			<DisplayNameID>5010</DisplayNameID>
 			<RolloverTextID>5011</RolloverTextID>
@@ -28030,7 +28030,7 @@
 			</FlashUI>
 			<DelayProcOfNamedPower>FloodRegen_Proc</DelayProcOfNamedPower>
 			<DataLevel level="0">
-				<Data type="float" name="ProcOfNamedPowerDelayAmount">3.5f</Data>
+				<Data type="float" name="ProcOfNamedPowerDelayAmount">5.5f</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -28111,6 +28111,7 @@
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ProcOnLeaderPowerCast />
+			<ProcWhenActiveOnly />
 			<ProcPowerName>FloodRegen_Proc</ProcPowerName>
 			<ShowTransportArrows>true</ShowTransportArrows>
 			<DisplayNameID>5010</DisplayNameID>
@@ -28131,7 +28132,7 @@
 			</FlashUI>
 			<DelayProcOfNamedPower>FloodRegen_Proc</DelayProcOfNamedPower>
 			<DataLevel level="0">
-				<Data type="float" name="ProcOfNamedPowerDelayAmount">3.5f</Data>
+				<Data type="float" name="ProcOfNamedPowerDelayAmount">5.5f</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
