@@ -7,7 +7,7 @@
 		<WeaponType>LeaderPowerEnduringsalvo</WeaponType>
 		<Projectile>pow_proj_returned_plasma_01</Projectile>
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.100000001" fadeout="0.300000012" yawpitchstrength="3" rollstrength="1.5" rotationfrequency="8" translationstrength="2" translationfrequency="3" />
-		<ImpactEffect size="Medium">VehicleInfectorExplosion</ImpactEffect>
+		<ImpactEffect size="Medium">enduringSalvoImpact</ImpactEffect>
 		<InfectionTargetType>Military</InfectionTargetType>
 		<AOEData>
 			<Hitbox>
@@ -36,6 +36,7 @@
 		<Default>true</Default>
 		<Name>ScatterBombAttackAction</Name>
 		<Weapon>ScatterBomb</Weapon>
+		<ActionType>Infect</ActionType>
 		<Infection />
 	</Action>
 	<Tactic />
