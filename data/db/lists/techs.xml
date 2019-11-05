@@ -8184,7 +8184,7 @@
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_lightfactory_01" ToType="cov_bldg_lightfactory_01_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_temple_01" ToType="cov_bldg_temple_01_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_socket_01" ToType="cov_bldg_socket_01_fl" />
-			<Effect type="ReparentProtoObject" FromType="unsc_bldg_factory_01" ToType="unsc_bldg_factory_01_fl" />
+			<Effect type="ReparentProtoObject" FromType="unsc_bldg_vehicledepot_01" ToType="unsc_bldg_vehicledepot_01_fl" />
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
 			</Effect>
@@ -8424,38 +8424,47 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_cloaktower_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_turretSocket_01_base</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_vehicledepot_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_heavyfactory_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01_base</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_warthog_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_factory_01_base</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_wolverine_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_factory_01_base</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_foxcannon_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_factory_01_base</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_scorpion_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_factory_01_base</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_flamehog_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_factory_01_base</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_flamehog_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_factory_01_base</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_johnson_mantis_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_factory_01_base</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mantis_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_factory_01_base</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mantis_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_factory_01_base</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_johnson_colossus_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_factory_01_base</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_colossus_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_factory_01_base</Target>
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_prowler_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>

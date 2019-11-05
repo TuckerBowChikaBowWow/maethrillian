@@ -27983,13 +27983,13 @@
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
 				<Data type="bool" name="TargetStructuresOnly">false</Data>
-				<Data type="protoobject" name="RepairObject">fx_Unbrk_repairpower3</Data>
+				<Data type="protoobject" name="RepairObject">fx_Unbrk_repairpower2</Data>
 				<Data type="protoobject" name="RepairAttachment">fx_repairing</Data>
-				<Data type="float" name="RepairRadius">40</Data>
+				<Data type="float" name="RepairRadius">32</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
-				<Data type="float" name="TickDuration">0.800000012</Data>
-				<Data type="int" name="NumTicks">72</Data>
-				<Data type="float" name="RepairPercentMaxHealthPerTick">0.0350000001</Data>
+				<Data type="float" name="TickDuration">0.5</Data>
+				<Data type="int" name="NumTicks">15</Data>
+				<Data type="float" name="RepairPercentMaxHealthPerTick">0.07</Data>
 				<Data type="float" name="CooldownTimeIfDamaged">0</Data>
 				<Data type="bool" name="IgnorePlacement">false</Data>
 				<Data type="bool" name="HealAny">false</Data>
@@ -28009,6 +28009,7 @@
 			<AutoRecharge>21000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
+			<ProcOnLeaderPowerCast />
 			<ProcPowerName>FloodRegen_Proc</ProcPowerName>
 			<ProcWhenActiveOnly />
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -28030,7 +28031,7 @@
 			</FlashUI>
 			<DelayProcOfNamedPower>FloodRegen_Proc</DelayProcOfNamedPower>
 			<DataLevel level="0">
-				<Data type="float" name="ProcOfNamedPowerDelayAmount">5.5f</Data>
+				<Data type="float" name="ProcOfNamedPowerDelayAmount">7.5f</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -28132,7 +28133,7 @@
 			</FlashUI>
 			<DelayProcOfNamedPower>FloodRegen_Proc</DelayProcOfNamedPower>
 			<DataLevel level="0">
-				<Data type="float" name="ProcOfNamedPowerDelayAmount">5.5f</Data>
+				<Data type="float" name="ProcOfNamedPowerDelayAmount">7.5f</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
