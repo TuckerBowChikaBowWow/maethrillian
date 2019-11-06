@@ -4822,8 +4822,8 @@
 		<RoleTextID>502</RoleTextID>
 		<PrereqTextID>243</PrereqTextID>
 		<SubSelectSort>1715</SubSelectSort>
-		<LeashDistance>100</LeashDistance>
-		<LeashDeadzone>999</LeashDeadzone>
+		<LeashDistance>5</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
@@ -4875,8 +4875,8 @@
 		<RoleTextID>502</RoleTextID>
 		<PrereqTextID>243</PrereqTextID>
 		<SubSelectSort>1705</SubSelectSort>
-		<LeashDistance>100</LeashDistance>
-		<LeashDeadzone>999</LeashDeadzone>
+		<LeashDistance>5</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
@@ -4924,17 +4924,17 @@
 		<RoleTextID>521</RoleTextID>
 		<PrereqTextID>243</PrereqTextID>
 		<SubSelectSort>215</SubSelectSort>
-		<LeashDistance>100</LeashDistance>
-		<LeashDeadzone>999</LeashDeadzone>
+		<LeashDistance>5</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>Lockdown</ActiveAbilityType>
 		<BuildPoints>35</BuildPoints>
 		<Pop Type="Unit">7</Pop>
-		<Cost ResourceType="Supplies">700</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
+		<Cost ResourceType="Supplies">650</Cost>
+		<Cost ResourceType="Power">50</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
 		<HPBar offset="0,4.30499983,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5004,7 +5004,6 @@
 		<LeashDistance>15</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>21.5249996</AggroDistance>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<UnlockableActiveAbilityType>Grenade</UnlockableActiveAbilityType>
@@ -5177,12 +5176,11 @@
 		<AggroDistance>21.5249996</AggroDistance>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
-		<UnlockableActiveAbilityType>Grenade</UnlockableActiveAbilityType>
 		<BuildPoints>25</BuildPoints>
 		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">100</Cost>
 		<Cost ResourceType="Power">140</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -5228,7 +5226,7 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<ActiveAbilityType>HandAttack</ActiveAbilityType>
 		<AIAttackRank>1.5</AIAttackRank>
-		<BuildPoints>50</BuildPoints>
+		<BuildPoints>60</BuildPoints>
 		<Pop Type="Unit">40</Pop>
 		<Cost ResourceType="Supplies">2000</Cost>
 		<Cost ResourceType="Power">2000</Cost>
@@ -5417,13 +5415,12 @@
 		<LeashDistance>25</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>21.5249996</AggroDistance>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>35</BuildPoints>
 		<Pop Type="Unit">7</Pop>
 		<Cost ResourceType="Supplies">450</Cost>
-		<Cost ResourceType="Power">220</Cost>
+		<Cost ResourceType="Power">200</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -5466,12 +5463,12 @@
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
 		<SubSelectSort>3013</SubSelectSort>
-		<LeashDistance>100</LeashDistance>
-		<LeashDeadzone>999</LeashDeadzone>
+		<LeashDistance>25</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
-		<ActiveAbilityType>SuicideBomb</ActiveAbilityType>
+		<ActiveAbilityType>Ram</ActiveAbilityType>
 		<BuildPoints>20</BuildPoints>
 		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">130</Cost>
@@ -5506,7 +5503,7 @@
 		<AvoidanceMass>Light</AvoidanceMass>
 		<Counters>Marines_01</Counters>
 		<RammingDistanceScalar>10</RammingDistanceScalar>
-		<RammingSpeedScalar>1</RammingSpeedScalar>
+		<RammingSpeedScalar>1.5</RammingSpeedScalar>
 	</Squad>
 	<Squad name="flood_inf_infected_assaultrifle_01" dbid="16981444875662232232" parent_element="flood_inf_infected_assaultrifle_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>

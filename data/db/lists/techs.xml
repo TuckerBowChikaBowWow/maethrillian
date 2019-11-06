@@ -8531,6 +8531,9 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_prowler_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_prowler_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_gorgon_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
 			</Effect>
@@ -8540,10 +8543,16 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_wraith_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_locust_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_engineer_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_banshee_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_shroud_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_blisterback_01" relativity="Absolute">
