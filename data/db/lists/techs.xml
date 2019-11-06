@@ -8183,10 +8183,117 @@
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_heavyfactory_01" ToType="cov_bldg_heavyfactory_01_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_lightfactory_01" ToType="cov_bldg_lightfactory_01_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_temple_01" ToType="cov_bldg_temple_01_fl" />
-			<Effect type="ReparentProtoObject" FromType="cov_bldg_socket_01" ToType="cov_bldg_socket_01_fl" />
-			<Effect type="ReparentProtoObject" FromType="unsc_bldg_vehicledepot_01" ToType="unsc_bldg_vehicledepot_01_fl" />
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+		<Tech name="flood_hivetech_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>1114</DisplayNameID>
+		<RolloverTextID>1115</RolloverTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">450</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" subtype="PopCap" amount="1" popType="Decimus" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_airborneinfector_01" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_hivetech_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>1114</DisplayNameID>
+		<RolloverTextID>1115</RolloverTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">flood_hivetech_upgrade1</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>50</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" subtype="PopCap" amount="5" popType="Unit" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_spawner_01" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+		<Tech name="flood_cancer_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>1114</DisplayNameID>
+		<RolloverTextID>1115</RolloverTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AreaBuff1" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="RepairOther1" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="Infect1" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="Infect2" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AreaBuff2" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepairOther2" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	</Tech>
+		<Tech name="flood_vehicle_tech" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>1114</DisplayNameID>
+		<RolloverTextID>1115</RolloverTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<Cost resourcetype="Supplies">350</Cost>
+		<Cost resourcetype="Power">350</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>50</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_warthog_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_scorpion_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_infected_banshee_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_infected_blisterback_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -8248,27 +8355,7 @@
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Effects>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="AreaBuff1" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="RepairOther1" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="Infect1" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="Infect2" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="AreaBuff2" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepairOther2" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.75" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
+
 			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">flood_inf_infectfrm_01</Target>
 				<Target type="ProtoUnit">flood_inf_infectfrm_02</Target>
@@ -8418,53 +8505,29 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">flood_inf_vehinfector_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_warthog_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_scorpion_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_infected_banshee_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_infected_blisterback_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_airborneinfector_01" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_spawner_01" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_shieldtower_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_turretSocket_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_cloaktower_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_turretSocket_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_vehicledepot_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_socket_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_heavyfactory_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_socket_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_warthog_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_wolverine_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_foxcannon_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_scorpion_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_flamehog_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_flamehog_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_johnson_mantis_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mantis_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_mantis_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_johnson_colossus_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_colossus_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_prowler_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
