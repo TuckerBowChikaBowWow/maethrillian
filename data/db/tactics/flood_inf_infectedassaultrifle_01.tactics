@@ -58,19 +58,19 @@
 		<Filter>Light</Filter>
 	</Weapon>
 	<Weapon>
-		<Name>JumpAttackHammer</Name>
+		<Name>Grenade</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>400</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Melee</WeaponType>
-		<MaxRange>1.84500003</MaxRange>
-		<MinRange>0</MinRange>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>200</PhysicsForceMin>
-		<PhysicsForceMax>400</PhysicsForceMax>
-		<Hardpoint>Torso</Hardpoint>
+		<WeaponType>Grenade</WeaponType>
+		<Projectile>fx_proj_grenade_02</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>
+		<MaxVelocityLead>25</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
@@ -78,10 +78,22 @@
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<Filter>Medium</Filter>
+		<ThrowUnits />
+		<TargetPriority type="Flying">-1</TargetPriority>
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<Filter>Light</Filter>
 	</Weapon>
 	<Action>
 		<Name>AssaultRifleAttackAction</Name>
@@ -102,17 +114,14 @@
 		<FullBodyAttackAnim />
 	</Action>
 	<Action>
-		<Name>JumpAttackAction</Name>
-		<ActionType>JumpAttack</ActionType>
-		<StartAnim noInterrupt="true" motionExtraction="true">LeapTakeOff</StartAnim>
-		<Anim>LeapArc</Anim>
-		<EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.449999988">LeapLanding</EndAnim>
-		<Weapon>JumpAttackHammer</Weapon>
-		<MaxDistance>40</MaxDistance>
-		<MinRelativeHeight>8</MinRelativeHeight>
-		<MaxRelativeHeight>12</MaxRelativeHeight>
-		<VelocityScalar>35</VelocityScalar>
-		<LandingDelay>0.400000006</LandingDelay>
+		<Name>GrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FragGrenadeAttack</Anim>
+		<SupportAnim>Support</SupportAnim>
+		<Weapon>Grenade</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -155,6 +164,13 @@
 			<Relation>Enemy</Relation>
 			<Action>InCoverAssaultRifleAttackAction</Action>
 			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>GrenadeAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>
