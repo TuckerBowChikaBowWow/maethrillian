@@ -3269,14 +3269,14 @@
 				<Target type="ProtoSquad">flood_inf_generic_core</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
-				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
 				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
 				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
 			</Effect>
 		</Effects>
@@ -3313,12 +3313,11 @@
 			<Effect type="SquadCounter" NewCounterName="Grunts_03">
 				<Target type="ProtoSquad">flood_inf_generic_core</Target>
 			</Effect>
+			<Effect type="ReparentProtoObject" FromType="flood_inf_infected_eliteassaultteam_02" ToType="flood_inf_infected_eliteplasmacaster_01" />
 			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_01</Target>
 				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_01</Target>
 				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
 			</Effect>
 		</Effects>
@@ -8291,6 +8290,9 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_scorpion_01_base" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_scorpion_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_infected_banshee_01_base" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
 			</Effect>
@@ -8454,6 +8456,15 @@
 			<Effect type="UnlockableGodPower" tier="4">UnscBloodlust1</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Flood_InfantryRecycle</Effect>
 			<Effect type="UnlockableGodPower" tier="5">FloodBuff</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_infectedbrute_carrier_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">flood_inf_generic_core</Target>
 			</Effect>
@@ -8537,6 +8548,9 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_vehinfector_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_scorpion_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_warthog_01_base" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
