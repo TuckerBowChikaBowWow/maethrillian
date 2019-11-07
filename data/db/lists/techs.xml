@@ -8409,6 +8409,25 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="flood_vehinfector_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27494</DisplayNameID>
+		<RolloverTextID>27495</RolloverTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">300</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>25</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_vehinfector_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="creep_LeaderFlood" type="Normal">
 		<DBID>2104</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -8506,6 +8525,18 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">flood_inf_vehinfector_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_vehinfector_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_vehinfector_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_vehinfector_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_vehinfector_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_warthog_01_base" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
