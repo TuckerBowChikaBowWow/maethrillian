@@ -5584,6 +5584,16 @@
 			<Unit count="1" role="normal">fld_custom_carrierform_brute</Unit>
 		</Units>
 	</Squad>
+	<Squad name="flood_infectedbrute_carrier_01" formationType="Flock" dbid="14175204004466671828" parent_element="flood_inf_infected_brutemelee_01">
+		<SubSelectSort>52300</SubSelectSort>
+		<BuildPoints>19.5</BuildPoints>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">110</Cost>
+		<Cost ResourceType="Power">75</Cost>
+		<Units>
+			<Unit count="2" role="normal">fld_custom_carrierform_brute</Unit>
+		</Units>
+	</Squad>
 	<Squad name="fld_custom_carrierform_elite" formationType="Flock" dbid="14175204004466671828" parent_element="flood_inf_infected_elitemelee_01">
 		<SubSelectSort>52300</SubSelectSort>
 		<Units>
