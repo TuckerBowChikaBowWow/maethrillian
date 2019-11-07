@@ -5853,6 +5853,15 @@
 	<Squad name="flood_inf_infected_elitecarbine_01_sp" parent_element="flood_inf_infected_elitecarbine_01_base" dbid="8024472502740731098">
 		<Flag>DoNotMoveToAttackMe</Flag>
 	</Squad>
+	<Squad name="flood_inf_infected_elitemelee_01_mptrain" dbid="14479343186817846742" parent_element="flood_inf_infected_elitemelee_01">
+		<BuildPoints>16</BuildPoints>
+		<Pop Type="Unit">2</Pop>
+		<Cost ResourceType="Supplies">85</Cost>
+		<Cost ResourceType="Power">0</Cost>
+		<Units>
+			<Unit count="3" role="normal">flood_inf_infected_elitemelee_01</Unit>
+		</Units>
+	</Squad>
 	<Squad name="flood_inf_infected_elitemelee_01" dbid="14479343186817846742" parent_element="flood_inf_infected_elitemelee_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
