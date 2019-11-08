@@ -8430,6 +8430,258 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="flood_tech_global_flood_01" type="Normal">
+		<DisplayNameID>27085</DisplayNameID>
+		<RolloverTextID>27097</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">300</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>50</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">fld_custom_carrierform_brute</Target>
+				<Target type="ProtoUnit">flood_inf_infected_elitemelee_01</Target>
+				<Target type="ProtoUnit">flood_air_airborneinfector_01</Target>
+				<Target type="ProtoUnit">flood_inf_spawner_01</Target>
+				<Target type="ProtoUnit">flood_inf_generic_core</Target>
+				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">fld_custom_carrierform_brute</Target>
+				<Target type="ProtoUnit">flood_inf_infected_elitemelee_01</Target>
+				<Target type="ProtoUnit">flood_air_airborneinfector_01</Target>
+				<Target type="ProtoUnit">flood_inf_spawner_01</Target>
+				<Target type="ProtoUnit">flood_inf_generic_core</Target>
+				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_tech_global_flood_02" type="Normal">
+		<DisplayNameID>27086</DisplayNameID>
+		<RolloverTextID>27098</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">flood_tech_global_flood_01</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">450</Cost>
+		<Cost resourcetype="Power">450</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>70</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.130434783" subtype="Hitpoints" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">fld_custom_carrierform_brute</Target>
+				<Target type="ProtoUnit">flood_inf_infected_elitemelee_01</Target>
+				<Target type="ProtoUnit">flood_air_airborneinfector_01</Target>
+				<Target type="ProtoUnit">flood_inf_spawner_01</Target>
+				<Target type="ProtoUnit">flood_inf_generic_core</Target>
+				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.130434783" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">fld_custom_carrierform_brute</Target>
+				<Target type="ProtoUnit">flood_inf_infected_elitemelee_01</Target>
+				<Target type="ProtoUnit">flood_air_airborneinfector_01</Target>
+				<Target type="ProtoUnit">flood_inf_spawner_01</Target>
+				<Target type="ProtoUnit">flood_inf_generic_core</Target>
+				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_tech_global_flood_03" type="Normal">
+		<DisplayNameID>27087</DisplayNameID>
+		<RolloverTextID>27099</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">flood_tech_global_flood_02</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>90</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.115384615" subtype="Hitpoints" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">fld_custom_carrierform_brute</Target>
+				<Target type="ProtoUnit">flood_inf_infected_elitemelee_01</Target>
+				<Target type="ProtoUnit">flood_air_airborneinfector_01</Target>
+				<Target type="ProtoUnit">flood_inf_spawner_01</Target>
+				<Target type="ProtoUnit">flood_inf_generic_core</Target>
+				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.115384615" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">fld_custom_carrierform_brute</Target>
+				<Target type="ProtoUnit">flood_inf_infected_elitemelee_01</Target>
+				<Target type="ProtoUnit">flood_air_airborneinfector_01</Target>
+				<Target type="ProtoUnit">flood_inf_spawner_01</Target>
+				<Target type="ProtoUnit">flood_inf_generic_core</Target>
+				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_tech_global_unsc_01" type="Normal">
+		<DisplayNameID>27085</DisplayNameID>
+		<RolloverTextID>27097</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">300</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>50</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
+				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
+				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_tech_global_unsc_02" type="Normal">
+		<DisplayNameID>27086</DisplayNameID>
+		<RolloverTextID>27098</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">flood_tech_global_flood_01</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">450</Cost>
+		<Cost resourcetype="Power">450</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>70</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.130434783" subtype="Hitpoints" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
+				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1.130434783" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
+				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_tech_global_unsc_03" type="Normal">
+		<DisplayNameID>27087</DisplayNameID>
+		<RolloverTextID>27099</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">flood_tech_global_flood_02</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>90</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.115384615" subtype="Hitpoints" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
+				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1.115384615" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
+				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_tech_global_banished_01" type="Normal">
+		<DisplayNameID>27085</DisplayNameID>
+		<RolloverTextID>27097</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">300</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>50</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
+				<Target type="ProtoUnit">flood_air_infected_banshee_01_base</Target>
+				<Target type="ProtoUnit">flood_air_infected_blisterback_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
+				<Target type="ProtoUnit">flood_air_infected_banshee_01_base</Target>
+				<Target type="ProtoUnit">flood_air_infected_blisterback_01_base</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_tech_global_banished_02" type="Normal">
+		<DisplayNameID>27086</DisplayNameID>
+		<RolloverTextID>27098</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">flood_tech_global_flood_01</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">450</Cost>
+		<Cost resourcetype="Power">450</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>70</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.130434783" subtype="Hitpoints" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
+				<Target type="ProtoUnit">flood_air_infected_banshee_01_base</Target>
+				<Target type="ProtoUnit">flood_air_infected_blisterback_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1.130434783" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
+				<Target type="ProtoUnit">flood_air_infected_banshee_01_base</Target>
+				<Target type="ProtoUnit">flood_air_infected_blisterback_01_base</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="flood_tech_global_banished_03" type="Normal">
+		<DisplayNameID>27087</DisplayNameID>
+		<RolloverTextID>27099</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">flood_tech_global_flood_02</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>90</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.115384615" subtype="Hitpoints" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
+				<Target type="ProtoUnit">flood_air_infected_banshee_01_base</Target>
+				<Target type="ProtoUnit">flood_air_infected_blisterback_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1.115384615" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
+				<Target type="ProtoUnit">flood_air_infected_banshee_01_base</Target>
+				<Target type="ProtoUnit">flood_air_infected_blisterback_01_base</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="creep_LeaderFlood" type="Normal">
 		<DBID>2104</DBID>
 		<ResearchPoints>0</ResearchPoints>
