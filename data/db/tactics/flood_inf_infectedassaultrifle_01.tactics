@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>AssaultRifle</Name>
-		<AttackRate>1</AttackRate>
+		<AttackRate>1.25</AttackRate>
 		<DamagePerSecond>22</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
@@ -22,15 +22,15 @@
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
-		<PreAttackCooldownMin>0.4</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.4</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+		<PreAttackCooldownMin>0.3</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.3</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.8</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.8</PostAttackCooldownMax>
 		<Filter>Light</Filter>
 	</Weapon>
 	<Weapon>
 		<Name>InCoverAssaultRifle</Name>
-		<AttackRate>1</AttackRate>
+		<AttackRate>1.25</AttackRate>
 		<DamagePerSecond>22</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_rifle_01</Projectile>
@@ -51,10 +51,10 @@
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
-		<PreAttackCooldownMin>0.4</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.4</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+		<PreAttackCooldownMin>0.3</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.3</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.8</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.8</PostAttackCooldownMax>
 		<Filter>Light</Filter>
 	</Weapon>
 	<Weapon>
@@ -114,15 +114,6 @@
 		<FullBodyAttackAnim />
 	</Action>
 	<Action>
-		<Name>GrenadeAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>FragGrenadeAttack</Anim>
-		<SupportAnim>Support</SupportAnim>
-		<Weapon>Grenade</Weapon>
-		<FullBodyAttackAnim />
-		<DontAutoRestart />
-	</Action>
-	<Action>
 		<Name>GatherSupplies</Name>
 		<ActionType>Gather</ActionType>
 		<Anim>Gather</Anim>
@@ -163,13 +154,6 @@
 			<Relation>Enemy</Relation>
 			<Action>InCoverAssaultRifleAttackAction</Action>
 			<SquadMode>Cover</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>GrenadeAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>
