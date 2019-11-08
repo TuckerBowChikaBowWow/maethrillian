@@ -8789,6 +8789,33 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">flood_inf_vehinfector_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_flood_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_flood_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_flood_03" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_unsc_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_unsc_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_unsc_03" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_banished_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_banished_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_banished_03" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_vehinfector_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
 			</Effect>
