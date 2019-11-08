@@ -5015,7 +5015,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="2" role="leader">flood_inf_infected_eliteassaultteam_02</Unit>
+			<Unit count="2" role="leader">flood_inf_infected_eliteassaultteam_01</Unit>
 			<Unit count="2" role="normal">flood_inf_infected_assaultrifle_01</Unit>
 		</Units>
 		<OverrideUnitSoundNames />
@@ -5580,7 +5580,7 @@
 	<Squad name="flood_infectedbrute_carrier_01" formationType="Flock" dbid="14175204004466671828" parent_element="flood_inf_infected_brutemelee_01">
 		<SubSelectSort>52300</SubSelectSort>
 		<BuildPoints>19.5</BuildPoints>
-		<Pop Type="Unit">3</Pop>
+		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">100</Cost>
 		<Cost ResourceType="Power">80</Cost>
 		<Units>
@@ -5969,7 +5969,7 @@
 		<AIAttackRank>1.20000005</AIAttackRank>
 		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
 		<BuildPoints>8</BuildPoints>
-		<Pop Type="Unit">0.699999988</Pop>
+		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">55</Cost>
 		<Cost ResourceType="Power">30</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -6012,7 +6012,7 @@
 		<AIAttackRank>1.20000005</AIAttackRank>
 		<ActiveAbilityType>Grenade</ActiveAbilityType>
 		<BuildPoints>8</BuildPoints>
-		<Pop Type="Unit">0.699999988</Pop>
+		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">55</Cost>
 		<Cost ResourceType="Power">30</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
