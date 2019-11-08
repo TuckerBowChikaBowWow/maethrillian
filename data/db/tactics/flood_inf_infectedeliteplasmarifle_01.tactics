@@ -110,10 +110,10 @@
 		<Name>GrenadeAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>StasisGrenade</Anim>
-		<SupportAnim>CombatIdle</SupportAnim>
 		<Weapon>Grenade</Weapon>
 		<FullBodyAttackAnim />
 		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
