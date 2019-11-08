@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Bomb</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>2000</DamagePerSecond>
+		<DamagePerSecond>2500</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>SuicideGrunt</WeaponType>
 		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
@@ -49,6 +49,7 @@
 		<TargetPriority type="GroundVehicle">4</TargetPriority>
 		<Filter>Medium</Filter>
 		<InfectionTargetType>Infantry</InfectionTargetType>
+		<InfectionTargetType>GroundVehicle</InfectionTargetType>
 	</Weapon>
 	<Weapon>
 		<Name>BombUpgrade</Name>

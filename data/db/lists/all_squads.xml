@@ -5001,7 +5001,7 @@
 		<StatsNameID>25679</StatsNameID>
 		<RoleTextID>500</RoleTextID>
 		<SubSelectSort>600</SubSelectSort>
-		<LeashDistance>15</LeashDistance>
+		<LeashDistance>20</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Circle</MinimapIcon>
@@ -5015,7 +5015,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="2" role="leader">flood_inf_infected_eliteassaultteam_01</Unit>
+			<Unit count="2" role="leader">flood_inf_infected_eliteassaultteam_02</Unit>
 			<Unit count="2" role="normal">flood_inf_infected_assaultrifle_01</Unit>
 		</Units>
 		<OverrideUnitSoundNames />
@@ -5454,7 +5454,7 @@
 		<Flag>DoNotMoveToAttackMe</Flag>
 		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
 	</Squad>
-	<Squad name="flood_inf_vehinfector_01" dbid="13896596634908817471" formationType="Flock">
+	<Squad name="flood_inf_vehinfector_01" dbid="13896596634908817471">
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapScale>1</MinimapScale>
