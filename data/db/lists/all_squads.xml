@@ -5716,6 +5716,7 @@
 		<AggroDistance>21.5249996</AggroDistance>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
+		<ActiveAbilityType>Grenade</ActiveAbilityType>
 		<BuildPoints>1</BuildPoints>
 		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">1</Cost>
@@ -5725,6 +5726,53 @@
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
 			<Unit count="1" role="normal">flood_inf_infected_gruntfuelrod_01</Unit>
+		</Units>
+		<OverrideUnitSoundNames />
+		<LeaderDiesLast />
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>DoNotMoveToAttackMe</Flag>
+		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
+		<Flag>ForceLeashUpdate</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>Marines_01</Counters>
+	</Squad>
+	<Squad name="flood_air_sporecloud_01" dbid="291181113180100752" formationType="Flock">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3000</DisplayNameID>
+		<RolloverTextID>3001</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>320</SubSelectSort>
+		<LeashDistance>100</LeashDistance>
+		<LeashDeadzone>999</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>21.5249996</AggroDistance>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.5</AIAttackRank>
+		<ActiveAbilityType>Hijack</ActiveAbilityType>
+		<BuildPoints>1</BuildPoints>
+		<Pop Type="Unit">1</Pop>
+		<Cost ResourceType="Supplies">1</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_air_sporecloud_01</Unit>
 		</Units>
 		<OverrideUnitSoundNames />
 		<LeaderDiesLast />
