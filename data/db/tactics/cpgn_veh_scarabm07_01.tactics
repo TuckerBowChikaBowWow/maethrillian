@@ -1,217 +1,76 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>scarabBeam</Name>
-		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>1200</DamagePerSecond>
-		<WeaponType>ScarabBeam</WeaponType>
-		<Projectile>fx_proj_scarabBeam_01</Projectile>
-		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
-		<MaxVelocityLead>0</MaxVelocityLead>
-		<MaxRange>60</MaxRange>
-		<Hardpoint>Turret</Hardpoint>
-		<EnableHeightBonusDamage />
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>2</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>8</Radius>
-				<DamageRatio>25</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
-		<ThrowUnits />
-		<ThrowDamageParts />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>600</PhysicsForceMin>
-		<PhysicsForceMax>900</PhysicsForceMax>
-		<TargetPriority type="TurretBuilding">5</TargetPriority>
-		<TargetPriority type="GroundVehicle">5</TargetPriority>
-		<TargetPriority type="Infantry">5</TargetPriority>
-		<TargetPriority type="Building">5</TargetPriority>
-		<TargetPriority type="Flying">2</TargetPriority>
-	</Weapon>
-	<Weapon>
-		<Name>wuvwooscarabBeam</Name>
-		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>1320.75</DamagePerSecond>
-		<WeaponType>ScarabBeam</WeaponType>
-		<Projectile>fx_proj_wuvwooBeam_01</Projectile>
-		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
-		<MaxVelocityLead>0</MaxVelocityLead>
-		<MaxRange>60</MaxRange>
-		<Hardpoint>Turret</Hardpoint>
-		<EnableHeightBonusDamage />
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>2</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>8</Radius>
-				<DamageRatio>25</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
-		<ThrowUnits />
-		<ThrowDamageParts />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>600</PhysicsForceMin>
-		<PhysicsForceMax>900</PhysicsForceMax>
-		<TargetPriority type="TurretBuilding">5</TargetPriority>
-		<TargetPriority type="GroundVehicle">5</TargetPriority>
-		<TargetPriority type="Infantry">5</TargetPriority>
-		<TargetPriority type="Building">5</TargetPriority>
-		<TargetPriority type="Flying">2</TargetPriority>
-	</Weapon>
-	<Weapon>
-		<Name>StompAttackWeapon</Name>
-		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>1500</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
+		<Name>Bomb</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>3000</DamagePerSecond>
 		<UseDPSasDPA />
-		<ImpactEffect size="Medium">ScarabStomp</ImpactEffect>
+		<WeaponType>SuicideGrunt</WeaponType>
+		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
+		<Projectile>fx_proj_suicide_plasmaGrenade_02</Projectile>
+		<MaxRange>5</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<DamageAllGarrisoned>True</DamageAllGarrisoned>
+			</Hitbox>
+		</AOEData>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
 				<Radius>12</Radius>
+				<DamageRatio>75</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>14</Radius>
 				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
 		<ThrowUnits />
-		<ThrowDamageParts />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>600</PhysicsForceMin>
-		<PhysicsForceMax>900</PhysicsForceMax>
-	</Weapon>
-	<Weapon>
-		<Name>Ram</Name>
-		<WeaponType>WarthogRam</WeaponType>
-		<MaxRange>3.07500005</MaxRange>
-		<AOERadius>24.6000004</AOERadius>
-		<ThrowUnits />
-		<FlailThrownUnits />
-		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>30</PhysicsLaunchAngleMax>
-		<PhysicsLaunchAxial />
-		<PhysicsForceMin>1000</PhysicsForceMin>
-		<PhysicsForceMax>1400</PhysicsForceMax>
-		<ImpactCameraShake duration="0.400000006" strength="0.379999995" />
-		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
-		<MaxDamagePerRam>2000</MaxDamagePerRam>
-		<ReflectDamageFactor>0</ReflectDamageFactor>
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<AOERadius>14</AOERadius>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<TargetPriority type="GroundVehicle">7</TargetPriority>
+		<TargetPriority type="TurretBuilding">1</TargetPriority>
 		<Filter>Medium</Filter>
+		<InfectionTargetType>Military</InfectionTargetType>
 	</Weapon>
 	<Action>
-		<Name>scarabBeamAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>BeamAttack</Anim>
-		<Weapon>scarabBeam</Weapon>
-		<Strafing maxDistance="45" turnRate="90" trackingSpeed="25" jitter="20" />
-		<Beam collideWithUnits="false" collideWithTerrain="false" />
-		<CanOrientOwner>true</CanOrientOwner>
+		<Name>SprintSuicideBomb</Name>
+		<ActionType>Detonate</ActionType>
+		<Infection />
+		<AutoDetonate AutoDetonateIdleTime="0" AutoDetonateAggroRange="35" />
+		<Weapon>Bomb</Weapon>
 		<FullBodyAttackAnim />
-		<ForceAttachmentAnim />
-		<PersistBetweenOpps />
-		<LoopAttackAnim />
-	</Action>
-	<Action>
-		<Name>wuvwooscarabBeamAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>BeamAttack</Anim>
-		<Weapon>wuvwooscarabBeam</Weapon>
-		<Strafing maxDistance="45" turnRate="90" trackingSpeed="25" jitter="20" />
-		<Beam collideWithUnits="false" collideWithTerrain="false" />
-		<CanOrientOwner>true</CanOrientOwner>
-		<FullBodyAttackAnim />
-		<ForceAttachmentAnim />
-		<PersistBetweenOpps />
-		<LoopAttackAnim />
-		<StartDisabled />
-	</Action>
-	<Action>
-		<Name>PersistentCollisionAttack</Name>
-		<ActionType>CollisionAttack</ActionType>
-		<Weapon>Ram</Weapon>
-	</Action>
-	<Action>
-		<Name>RamAttack</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Weapon>Ram</Weapon>
-	</Action>
-	<Action>
-		<Name>StompAttack</Name>
-		<ActionType>CollisionAttack</ActionType>
-		<Weapon>StompAttackWeapon</Weapon>
-		<TrampleAttack />
-	</Action>
-	<Action>
-		<Name>GarrisonTeleport</Name>
-		<ActionType>Garrison</ActionType>
-		<Anim>TeleportOut</Anim>
-		<WorkRange>9.22500038</WorkRange>
-	</Action>
-	<Action>
-		<Name>UngarrisonTeleport</Name>
-		<ActionType>Ungarrison</ActionType>
-		<Anim>TeleportIn</Anim>
-		<WorkRange>0</WorkRange>
-	</Action>
-	<Action>
-		<Name>GatherCollectables</Name>
-		<ActionType>Gather</ActionType>
-		<Anim>Gather</Anim>
-		<Resource>Collectable</Resource>
-		<WorkRate>1</WorkRate>
-		<WorkRange>4</WorkRange>
+		<DontAutoRestart />
+		<WorkRange>8</WorkRange>
+		<DodgeChanceMax>175</DodgeChanceMax>
+		<VelocityScalar>1</VelocityScalar>
 	</Action>
 	<Tactic>
-		<PersistentAction>PersistentCollisionAttack</PersistentAction>
 		<TargetRule>
-			<GaiaOwned />
-			<TargetType>Collectable</TargetType>
-			<Action>GatherCollectables</Action>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>SprintSuicideBomb</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>scarabBeamAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>wuvwooscarabBeamAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<Relation>Self</Relation>
-			<TargetType>TeleportPickup</TargetType>
-			<Action>GarrisonTeleport</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<Ability>Ungarrison</Ability>
-			<Relation>Self</Relation>
-			<TargetType>TeleportDropoff</TargetType>
-			<Action>UngarrisonTeleport</Action>
+			<Action>SprintSuicideBomb</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>
