@@ -49,12 +49,11 @@
 		<TargetPriority type="GroundVehicle">4</TargetPriority>
 		<Filter>Medium</Filter>
 		<InfectionTargetType>Infantry</InfectionTargetType>
-		<InfectionTargetType>GroundVehicle</InfectionTargetType>
 	</Weapon>
 	<Weapon>
 		<Name>BombUpgrade</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>2500</DamagePerSecond>
+		<DamagePerSecond>3000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>SuicideGrunt</WeaponType>
 		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
@@ -99,7 +98,7 @@
 		<TargetPriority type="GroundVehicle">7</TargetPriority>
 		<TargetPriority type="TurretBuilding">1</TargetPriority>
 		<Filter>Medium</Filter>
-		<InfectionTargetType>Infantry</InfectionTargetType>
+		<InfectionTargetType>Military</InfectionTargetType>
 	</Weapon>
 	<Action>
 		<Name>SprintSuicideBomb</Name>
