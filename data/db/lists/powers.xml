@@ -28044,14 +28044,14 @@
 				<Data type="sound" name="HudStopEnvSound" />
 				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
-				<Data type="protoobject" name="Projectile">cov_air_grunt_shadeturretpod_01_base</Data>
+				<Data type="protoobject" name="Projectile">flood_inf_ruptureemerge_LP_01</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
 				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
 				<Data type="int" name="NumShots">2</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
-						<PlayTrainAnim>true</PlayTrainAnim>
+						<PlayTrainAnim>false</PlayTrainAnim>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -28101,14 +28101,14 @@
 				<Data type="sound" name="HudStopEnvSound" />
 				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
-				<Data type="protoobject" name="Projectile">cov_air_grunt_shadeturretpod_01_base</Data>
+				<Data type="protoobject" name="Projectile">flood_inf_ruptureemerge_LP_01</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
 				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
 				<Data type="int" name="NumShots">4</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
-						<PlayTrainAnim>true</PlayTrainAnim>
+						<PlayTrainAnim>false</PlayTrainAnim>
 					</Drop>
 				</Data>
 			</DataLevel>

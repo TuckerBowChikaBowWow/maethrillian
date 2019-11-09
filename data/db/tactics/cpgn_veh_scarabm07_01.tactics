@@ -8,11 +8,11 @@
 		<WeaponType>SuicideGrunt</WeaponType>
 		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
 		<Projectile>fx_proj_suicide_plasmaGrenade_02</Projectile>
-		<MaxRange>5</MaxRange>
+		<MaxRange>45</MaxRange>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>10</Radius>
+				<Radius>20</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -22,8 +22,8 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>12</Radius>
-				<DamageRatio>75</DamageRatio>
+				<Radius>30</Radius>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
@@ -31,8 +31,8 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>14</Radius>
-				<DamageRatio>50</DamageRatio>
+				<Radius>40</Radius>
+				<DamageRatio>30</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
