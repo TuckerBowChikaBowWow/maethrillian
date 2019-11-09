@@ -1,5 +1,25 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
+	<Weapon>
+        <Name>HijackBeam</Name>
+        <AttackRate>0.100000001</AttackRate>
+        <DamagePerSecond>0</DamagePerSecond>
+        <WeaponType>Beam</WeaponType>
+        <Projectile>fx_proj_EMPbeam_01</Projectile>
+        <ImpactEffect size="Small">LargeEMPImpact</ImpactEffect>
+        <MaxVelocityLead>999</MaxVelocityLead>
+        <MaxRange>40</MaxRange>
+        <Buff TargetType="Unit" BuffType="GhostInTheMachine">30</Buff>
+        <HardPoint>Torso</HardPoint>
+    </Weapon>
+    <Action>
+        <Name>HijackSentinelAction</Name>
+        <ActionType>RangedAttack</ActionType>
+        <Anim>Attack</Anim>
+        <Weapon>HijackBeam</Weapon>
+        <DontAutoRestart />
+        <FullBodyAttackAnim />
+    </Action>
 	<Action>
 		<Name>Garrison</Name>
 		<ActionType>Garrison</ActionType>
@@ -34,41 +54,6 @@
 		<WorkRate>4</WorkRate>
 		<WorkRange>4</WorkRange>
 		<RestrictedAutoTarget>true</RestrictedAutoTarget>
-	</Action>
-	<Action>
-		<Name>InfantryJoin</Name>
-		<ActionType>Join</ActionType>
-		<WorkRange>3.07500005</WorkRange>
-		<JoinType>Merge</JoinType>
-		<MergeType>Ground</MergeType>
-		<DamageModifiers damage="1.39999998" damageTaken="0.713999987" />
-	</Action>
-	<Action>
-		<Name>VehicleJoin</Name>
-		<ActionType>Join</ActionType>
-		<WorkRange>3.07500005</WorkRange>
-		<MergeType>Ground</MergeType>
-		<ProtoObject>fx_hijacked</ProtoObject>
-		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="2" unjoinMaxDist="25">Board</JoinType>
-		<DamageModifiers damage="1.29999995" damageTaken="0.769999981" byCombatValue="false" />
-	</Action>
-	<Action>
-		<Name>VehicleTakeOver</Name>
-		<ActionType>Join</ActionType>
-		<WorkRange>3.07500005</WorkRange>
-		<MergeType>Ground</MergeType>
-		<ProtoObject>fx_hijacked</ProtoObject>
-		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="2" boardTime="8" unjoinMaxDist="25">Board</JoinType>
-		<DamageModifiers damage="1.29999995" damageTaken="0.769999981" byCombatValue="false" />
-	</Action>
-	<Action>
-		<Name>AircraftTakeOver</Name>
-		<ActionType>Join</ActionType>
-		<WorkRange>6.1500001</WorkRange>
-		<MergeType>Ground</MergeType>
-		<ProtoObject>fx_hijacked</ProtoObject>
-		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="2" boardTime="8" boardAnim="HijackIdle" unjoinMaxDist="25">Board</JoinType>
-		<DamageModifiers damage="1.29999995" damageTaken="0.769999981" byCombatValue="false" />
 	</Action>
 	<Action>
 		<Name>GarrisonTeleport</Name>
@@ -136,21 +121,8 @@
 			<Action>GatherPower</Action>
 		</TargetRule>
 		<TargetRule>
-			<Relation>Self</Relation>
-			<Action>VehicleJoin</Action>
-			<Ability>Command</Ability>
-		</TargetRule>
-		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>VehicleTakeOver</Action>
-			<Ability>Command</Ability>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>Flying</TargetType>
-			<Action>AircraftTakeOver</Action>
-			<Ability>Command</Ability>
+			<Action>HijackSentinelAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>
