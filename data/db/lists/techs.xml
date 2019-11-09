@@ -8188,15 +8188,6 @@
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_minibase1sock_01_base" ToType="cov_bldg_minibase1sock_01_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_minibase2sock_01_base" ToType="cov_bldg_minibase2sock_01_fl" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_minibase3sock_01_base" ToType="cov_bldg_minibase3sock_01_fl" />
-			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
-				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
-				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
-				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
-			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="flood_hivetech_upgrade1" type="Normal">
@@ -8717,6 +8708,15 @@
 			<Effect type="UnlockableGodPower" tier="4">UnscBloodlust1</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Flood_InfantryRecycle</Effect>
 			<Effect type="UnlockableGodPower" tier="5">FloodBuff</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">flood_infectedbrute_carrier_01</Target>
 			</Effect>
