@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>Bomb</Name>
-		<AttackRate>5</AttackRate>
-		<DamagePerSecond>3000</DamagePerSecond>
+		<Name>InfectionBomb</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>2000</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>SuicideGrunt</WeaponType>
+		<WeaponType>Mines</WeaponType>
 		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
-		<Projectile>fx_proj_suicide_plasmaGrenade_02</Projectile>
+		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Slow>
+		<Daze TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
 		<MaxRange>45</MaxRange>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>20</Radius>
+				<Radius>10</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -37,40 +38,27 @@
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>500</PhysicsForceMin>
-		<PhysicsForceMax>700</PhysicsForceMax>
-		<AOERadius>14</AOERadius>
-		<TargetPriority type="Infantry">7</TargetPriority>
-		<TargetPriority type="Building">2</TargetPriority>
-		<TargetPriority type="GroundVehicle">7</TargetPriority>
-		<TargetPriority type="TurretBuilding">1</TargetPriority>
+		<Apply>1</Apply>
 		<Filter>Medium</Filter>
 		<InfectionTargetType>Military</InfectionTargetType>
 	</Weapon>
 	<Action>
-		<Name>SprintSuicideBomb</Name>
-		<ActionType>Detonate</ActionType>
+		<Name>ExplosiveManager</Name>
+		<ActionType>ExplosiveManager</ActionType>
 		<Infection />
-		<AutoDetonate AutoDetonateIdleTime="0" AutoDetonateAggroRange="35" />
-		<Weapon>Bomb</Weapon>
-		<FullBodyAttackAnim />
+		<FuseType>Proximity</FuseType>
+		<WorkRange>18</WorkRange>
+		<Weapon>InfectionBomb</Weapon>
 		<DontAutoRestart />
-		<WorkRange>8</WorkRange>
-		<DodgeChanceMax>175</DodgeChanceMax>
-		<VelocityScalar>1</VelocityScalar>
+		<ExplodeOnDeath />
 	</Action>
 	<Tactic>
+		<PersistentAction>ExplosiveManager</PersistentAction>
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
-			<Action>SprintSuicideBomb</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>SprintSuicideBomb</Action>
+			<TargetType>Military</TargetType>
+			<Action>Infect</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>
