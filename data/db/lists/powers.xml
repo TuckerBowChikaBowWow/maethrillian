@@ -28047,8 +28047,20 @@
 				<Data type="protoobject" name="Projectile">flood_inf_ruptureemerge_LP_01</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
 				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
-				<Data type="int" name="NumShots">2</Data>
+				<Data type="int" name="NumShots">1</Data>
 				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
 					<Drop>
 						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
 						<PlayTrainAnim>true</PlayTrainAnim>
@@ -28063,7 +28075,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="400" Power="100" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>21000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -28104,8 +28116,28 @@
 				<Data type="protoobject" name="Projectile">flood_inf_ruptureemerge_LP_01</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
 				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
-				<Data type="int" name="NumShots">4</Data>
+				<Data type="int" name="NumShots">1</Data>
 				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
 					<Drop>
 						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
 						<PlayTrainAnim>true</PlayTrainAnim>
