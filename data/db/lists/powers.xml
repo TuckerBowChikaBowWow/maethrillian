@@ -27906,8 +27906,8 @@
 			<Pop type="Decimus">1</Pop>
 			<Cost Supplies="350" Power="350" />
 			<AutoRecharge>150000</AutoRecharge>
-			<UIRadius>8</UIRadius>
-			<Decal>Drop</Decal>
+			<UIRadius>28</UIRadius>
+			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
 			<RolloverTextID>5015</RolloverTextID>
 			<ShowLimit />
@@ -28005,7 +28005,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="250"/>
+			<Cost Supplies="500" Power="300" />
 			<AutoRecharge>21000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
@@ -28044,25 +28044,10 @@
 				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
 				<Data type="protoobject" name="Projectile">flood_inf_ruptureemerge_LP_01</Data>
-				<Data type="bool" name="AreaDropMode">true</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
-				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
-				<Data type="float" name="AreaDropInitialCircularDistanceOffset">0</Data>
-				<Data type="float" name="AreaDropExpandingStep">10</Data>
-				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">12.5</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">4</Data>
 				<Data type="unitdrops" name="unitdrops">
-					<Drop>
-						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
-						<PlayTrainAnim>true</PlayTrainAnim>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
-						<PlayTrainAnim>true</PlayTrainAnim>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
-						<PlayTrainAnim>true</PlayTrainAnim>
-					</Drop>
 					<Drop>
 						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
 						<PlayTrainAnim>true</PlayTrainAnim>
@@ -28076,7 +28061,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="400" Power="100" />
+			<Cost Supplies="600" Power="400" />
 			<AutoRecharge>21000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
@@ -28115,33 +28100,10 @@
 				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
 				<Data type="protoobject" name="Projectile">flood_inf_ruptureemerge_LP_01</Data>
-				<Data type="bool" name="AreaDropMode">true</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
-				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
-				<Data type="float" name="AreaDropInitialCircularDistanceOffset">5</Data>
-				<Data type="float" name="AreaDropExpandingStep">10</Data>
-				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">14</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">6</Data>
 				<Data type="unitdrops" name="unitdrops">
-					<Drop>
-						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
-						<PlayTrainAnim>true</PlayTrainAnim>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
-						<PlayTrainAnim>true</PlayTrainAnim>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
-						<PlayTrainAnim>true</PlayTrainAnim>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
-						<PlayTrainAnim>true</PlayTrainAnim>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
-						<PlayTrainAnim>true</PlayTrainAnim>
-					</Drop>
 					<Drop>
 						<ProtoSquadID>flood_inf_ruptureemerge_LPkilling_01</ProtoSquadID>
 						<PlayTrainAnim>true</PlayTrainAnim>
