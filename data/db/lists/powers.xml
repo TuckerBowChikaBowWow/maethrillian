@@ -27536,7 +27536,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
 			<Cost Supplies="200" Power="125" />
-			<AutoRecharge>11000</AutoRecharge>
+			<AutoRecharge>120000</AutoRecharge>
 			<ProcWhenActiveOnly />
 			<ProcOnLeaderPowerCast />
 			<ProcPowerName>FloodSickness_Proc</ProcPowerName>
@@ -27560,15 +27560,16 @@
 			<CameraEnableUserScroll>true</CameraEnableUserScroll>
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
-			<DataLevel level="0">
-				<Data type="bool" name="NeedsValidTarget">false</Data>
+			<DelayProcOfNamedPower>FloodSickness_Proc</DelayProcOfNamedPower>
+			<BaseDataLevel>
+				<Data type="float" name="ProcOfNamedPowerDelayAmount">1.0f</Data>
 				<Data type="float" name="AreaRadius">23</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
+				<Data type="objecttype" name="FilterType2">Flood</Data>
 				<Data type="float" name="BuffDuration">16</Data>
-				<Data type="bool" name="AffectsAllies">false</Data>
-				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
-				<Data type="float" name="SlowModifier">0.75</Data>
-				<Data type="float" name="PercentHealthDamageOverTime">2.8</Data>
+				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="bool" name="AffectsEnemies">false</Data>
+				<Data type="float" name="DamageMitigationScalar">0.5</Data>
 				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
 				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
 				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
@@ -27585,7 +27586,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
 			<Cost Supplies="300" Power="200" />
-			<AutoRecharge>11000</AutoRecharge>
+			<AutoRecharge>120000</AutoRecharge>
 			<ProcWhenActiveOnly />
 			<ProcOnLeaderPowerCast />
 			<ProcPowerName>FloodSickness_Proc</ProcPowerName>
@@ -27609,7 +27610,9 @@
 			<CameraEnableUserScroll>true</CameraEnableUserScroll>
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
-			<DataLevel level="0">
+			<DelayProcOfNamedPower>FloodSickness_Proc</DelayProcOfNamedPower>
+			<BaseDataLevel>
+				<Data type="float" name="ProcOfNamedPowerDelayAmount">1.0f</Data>
 				<Data type="float" name="AreaRadius">23</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterType2">Flood</Data>
@@ -27674,7 +27677,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="350" Power="350" />
-			<AutoRecharge>10000</AutoRecharge>
+			<AutoRecharge>160000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -27724,87 +27727,75 @@
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_02</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_02</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_02</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_02</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_02</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_02</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_02</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_02</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofshipcov_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_03</ProjectileOverride>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -27816,7 +27807,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
 			<Cost Supplies="450" Power="450" />
-			<AutoRecharge>10000</AutoRecharge>
+			<AutoRecharge>160000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<IconLocation>0</IconLocation>
@@ -27887,22 +27878,6 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
 						<ProjectileOverride>pow_proj_bitsofinfectedship_02</ProjectileOverride>
 					</Drop>
 					<Drop>
@@ -27943,52 +27918,13 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_03</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_03</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_03</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_03</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
 						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
 						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
 					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
-					</Drop>
+	
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
 						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
@@ -28145,7 +28081,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="500" Power="300" />
-			<AutoRecharge>21000</AutoRecharge>
+			<AutoRecharge>240000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -28201,7 +28137,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="600" Power="400" />
-			<AutoRecharge>21000</AutoRecharge>
+			<AutoRecharge>240000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -28370,9 +28306,9 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="100" Power="100" />
+			<Cost Supplies="200" Power="200" />
 			<Pop type="Unit">0</Pop>
-			<AutoRecharge>20000</AutoRecharge>
+			<AutoRecharge>120000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -28444,10 +28380,10 @@
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
-				<Data type="float" name="BuffDuration">6</Data>
+				<Data type="float" name="BuffDuration">7</Data>
 				<Data type="float" name="DamageDealtModifier">1.15</Data>
 				<Data type="float" name="SlowModifier">1.15</Data>
-				<Data type="float" name="HealPercentPerTick">0.02</Data>
+				<Data type="float" name="HealPercentPerTick">0.03</Data>
 				<Data type="float" name="HealTickRate">0.5</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_floodfeast_02</Data>
 			</DataLevel>
@@ -28474,10 +28410,10 @@
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
-				<Data type="float" name="BuffDuration">6</Data>
+				<Data type="float" name="BuffDuration">7</Data>
 				<Data type="float" name="DamageDealtModifier">1.2</Data>
 				<Data type="float" name="SlowModifier">1.2</Data>
-				<Data type="float" name="HealPercentPerTick">0.02</Data>
+				<Data type="float" name="HealPercentPerTick">0.03</Data>
 				<Data type="float" name="HealTickRate">0.5</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_floodfeast_02</Data>
 			</DataLevel>
