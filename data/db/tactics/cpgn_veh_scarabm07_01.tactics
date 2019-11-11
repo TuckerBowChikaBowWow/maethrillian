@@ -3,11 +3,10 @@
 	<Weapon>
 		<Name>InfectionBomb</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>3000</DamagePerSecond>
+		<DamagePerSecond>2800</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Mines</WeaponType>
 		<ImpactEffect size="large">FloodEggExplosion</ImpactEffect>
-		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Slow>
 		<Daze TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
 		<MaxRange>30</MaxRange>
 		<AOEData>
