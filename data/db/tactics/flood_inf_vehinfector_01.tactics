@@ -45,15 +45,15 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>4</Radius>
+				<Radius>5</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>10</Radius>
-				<DamageRatio>25</DamageRatio>
+				<Radius>8</Radius>
+				<DamageRatio>40</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
@@ -63,7 +63,7 @@
 	<Weapon>
 		<Name>RamSecondary</Name>
 		<WeaponType>WarthogRam</WeaponType>
-		<DamagePerSecond>250</DamagePerSecond>
+		<DamagePerSecond>275</DamagePerSecond>
 		<ThrowUnits />
 		<FlailThrownUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
