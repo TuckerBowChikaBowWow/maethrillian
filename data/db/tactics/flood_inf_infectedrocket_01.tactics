@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>RocketWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>160</DamagePerSecond>
+		<DamagePerSecond>145</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -41,13 +41,13 @@
 		<ProjectileLaunchDirY />
 		<PreAttackCooldownMin>1</PreAttackCooldownMin>
 		<PreAttackCooldownMax>1</PreAttackCooldownMax>
-		<PostAttackCooldownMin>3</PostAttackCooldownMin>
-		<PostAttackCooldownMax>3</PostAttackCooldownMax>
+		<PostAttackCooldownMin>2.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2.5</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>InCoverRocketWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>160</DamagePerSecond>
+		<DamagePerSecond>145</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -57,6 +57,22 @@
 		<MaxDeviation>1.5</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
 		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<EnableHeightBonusDamage />
 		<VisualAmmo>1</VisualAmmo>
 		<ReloadAnimation>RocketReload</ReloadAnimation>
@@ -67,12 +83,16 @@
 		<TargetPriority type="Building">3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2.5</PostAttackCooldownMax>
 	</Weapon>
 	<Action>
 		<Name>RocketAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>RocketAttack</Anim>
-		<MoveAnim>JogAttack</MoveAnim>
+		<MoveAnim>AttackMove</MoveAnim>
 		<ReloadAnim>RocketReload</ReloadAnim>
 		<Weapon>RocketWeapon</Weapon>
 		<FullBodyAttackAnim />
