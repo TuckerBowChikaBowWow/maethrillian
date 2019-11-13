@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="corruptedengineer01">
+	<model name="corruptedengineer01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/covenant/infantry/corruptedengineer01/mesh_corruptedengineer01</file>
+				<damagefile>episode2/pack1/units/covenant/infantry/corruptedengineer01/corruptedengineer01</damagefile>
+			</asset>
+			<attach type="ParticleFile" name="vfx/episode2/floodtentaclearmspores" tobone="bone_root" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<point pointType="Impact" bone="bone_impact_engineer" pointData="Metal" />
+		</component>
+		<anim type="Walk" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_walk01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerWalk01" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_walk02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_idle01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle01" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_idle02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.202000007" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.414999992" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.633000016" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.81400001" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_idle03</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle03" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.340000004" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle03" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.665000021" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle03" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Heal" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_heal01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerHeal01" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_heal02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerHeal02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.351000011" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerHeal02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.670000017" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerHeal02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_idle01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle01" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_idle02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.202000007" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.414999992" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.633000016" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.81400001" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_incoming_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIncoming" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Outgoing" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_outgoing_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerOutgoing" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_heal01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerHeal01" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_heal01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerHeal01" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/corrupter_attack01</file>
+				<weight>1</weight>
+				<tag type="Light" start="0" position_type="Time" position="0" end="1" name="Lights/BuildingsLights/tailLightRED" tobone="head" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_BAN_CorruptedEngineerCorruptingPoolWindUp" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.389999986" end="1" name="PLAY_SFX_3D_BAN_CorruptedEngineerCorruptingPoolFire" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.389999986" end="1" tobone="head" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.389999986" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/MediumPlasmaMortarMuzzle" tobone="head" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Lockdown">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/covenant/infantry/corruptedengineer01/mesh_corruptedengineer01</file>
+			</asset>
+			<point pointType="Impact" bone="bone_impact_engineer" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_heal02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerHeal02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.351000011" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerHeal02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.670000017" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerHeal02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_walk01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerWalk01" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_walk02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerIdle02" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_heal01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerHeal01" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormengineer01/stormengineer01_heal01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_COV_EngineerHeal01" tobone="GrannyRootBone_stormengineer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<logic type="SquadMode">
+		<logicdata value="Normal" modelref="corruptedengineer01" weight="1" />
+		<logicdata value="Lockdown" modelref="Lockdown" weight="1" />
+	</logic>
+</visual>
