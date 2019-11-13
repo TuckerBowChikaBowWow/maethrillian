@@ -4992,6 +4992,42 @@
 		</Selection>
 		<TurnRadius min="2" max="5" />
 	</Squad>
+	<Squad name="flood_inf_corruptedengineer_01" dbid="15555952511898161291">
+		<CombatRank>0</CombatRank>
+		<SubSelectSort>307</SubSelectSort>
+		<LeashDistance>32</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>0</AIAttackRank>
+		<ActiveAbilityType>Grenade</ActiveAbilityType>
+		<BuildPoints>22</BuildPoints>
+		<Pop Type="Unit">3</Pop>
+		<HealValue>1.75</HealValue>
+		<Cost ResourceType="Supplies">200</Cost>
+		<Cost ResourceType="Power">30</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<HPBar offset="0,5.53499985,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_corruptedengineer_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>None</StencilType>
+		</Selection>
+		<Birth>FlyIn</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>CorruptedEngineer_01</Counters>
+	</Squad>
 	<Squad name="flood_inf_generic_core" dbid="8454786750728801355" formationType="Flock">
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
