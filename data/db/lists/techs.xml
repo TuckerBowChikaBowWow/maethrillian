@@ -8755,7 +8755,8 @@
 			<Effect type="UnlockableGodPower" tier="3">Flood_Barrage1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="Flood_Barrage1">Flood_Barrage2</Effect>
 			<Effect type="UnlockableGodPower" tier="3">FloodRuptureEmerge</Effect>
-			<Effect type="UnlockableGodPower" tier="4"></Effect>
+			<Effect type="UnlockableGodPower" tier="4">FloodSpeedBuff</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="FloodSpeedBuff">FloodSpeedBuff2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">Flood_InfantryRecycle</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Flood_Emerge_Infectors</Effect>
 			<Effect type="UnlockableGodPower" tier="5" prereq="Flood_Emerge_Infectors">Flood_Emerge_Infectors2</Effect>
@@ -8846,6 +8847,9 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">flood_inf_vehinfector_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_grunt</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_generic_core" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_minibase1sock_01_base</Target>

@@ -28466,6 +28466,90 @@
 			</DataLevel>
 		</Attributes>
 	</Power>
+	<Power name="FloodSpeedBuff">
+		<Attributes>
+			<NotAffectedByCeasefire />
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>BuffAllies</AIPowerUseType>
+			<BuffName>UnstableConcoction</BuffName>
+			<UIRadius>24</UIRadius>
+			<Decal>AOE_Medium</Decal>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>3</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DontRecordGameStats />
+			<DataLevel level="0">
+				<Data type="float" name="AreaRadius">24</Data>
+				<Data type="bool" name="AffectsEnemies">false</Data>
+				<Data type="objecttype" name="FilterType">Unit</Data>
+				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
+				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
+				<Data type="float" name="BuffDuration">8</Data>
+				<Data type="float" name="SlowModifier">1.39999998</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="FloodSpeedBuff2">
+		<Attributes>
+			<NotAffectedByCeasefire />
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>BuffAllies</AIPowerUseType>
+			<BuffName>UnstableConcoction</BuffName>
+			<UIRadius>32</UIRadius>
+			<Decal>AOE_Medium</Decal>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>3</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DontRecordGameStats />
+			<DataLevel level="0">
+				<Data type="float" name="AreaRadius">32</Data>
+				<Data type="bool" name="AffectsEnemies">false</Data>
+				<Data type="objecttype" name="FilterType">Unit</Data>
+				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
+				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
+				<Data type="float" name="BuffDuration">8</Data>
+				<Data type="float" name="SlowModifier">1.39999998</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+			</DataLevel>
+		</Attributes>
+	</Power>
     <Power name="Flood_InfantryRecycle">
         <Attributes>
             <PowerType>AreaBuff</PowerType>
