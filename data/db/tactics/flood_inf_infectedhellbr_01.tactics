@@ -1,25 +1,5 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
-	<Weapon>
-        <Name>HijackBeam</Name>
-        <AttackRate>0.100000001</AttackRate>
-        <DamagePerSecond>0</DamagePerSecond>
-        <WeaponType>Beam</WeaponType>
-        <Projectile>fx_pointdefensebeam</Projectile>
-        <ImpactEffect size="Small">PointDefenseImpact</ImpactEffect>
-        <MaxVelocityLead>45</MaxVelocityLead>
-        <MaxRange>40</MaxRange>
-        <Buff TargetType="Unit" BuffType="GhostInTheMachine">10</Buff>
-        <HardPoint>Torso</HardPoint>
-    </Weapon>
-    <Action>
-        <Name>HijackSentinelAction</Name>
-        <ActionType>RangedAttack</ActionType>
-        <Anim noInterrupt="true">Attack</Anim>
-        <Weapon>HijackBeam</Weapon>
-        <DontAutoRestart />
-        <FullBodyAttackAnim />
-    </Action>
 	<Action>
 		<Name>Unlock</Name>
 		<ActionType>ChangeMode</ActionType>
@@ -119,11 +99,6 @@
 	</Action>
 	<Tactic>
 		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<Action>HijackSentinelAction</Action>
-		</TargetRule>
-		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
 			<Action>GatherCollectables</Action>
@@ -131,6 +106,7 @@
 		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>cov_veh_scarab_01</TargetType>
+			<TargetType>flood_inf_commander_01</TargetType>
 			<Action>RepairScarab</Action>
 		</TargetRule>
 		<TargetRule>
