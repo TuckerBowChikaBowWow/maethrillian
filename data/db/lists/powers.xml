@@ -28468,12 +28468,13 @@
 	</Power>
 	<Power name="FloodSpeedBuff">
 		<Attributes>
-			<NotAffectedByCeasefire />
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
+			<Cost Supplies="500" Power="200" />
+			<AutoRecharge>240000</AutoRecharge>
 			<BuffName>UnstableConcoction</BuffName>
 			<UIRadius>24</UIRadius>
-			<Decal>AOE_Medium</Decal>
+			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
 			<RolloverTextID>5001</RolloverTextID>
 			<ShowLimit />
@@ -28495,13 +28496,14 @@
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DontRecordGameStats />
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">24</Data>
-				<Data type="bool" name="AffectsEnemies">false</Data>
+				<Data type="bool" name="AffectsAllByFilterType">true</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
 				<Data type="float" name="BuffDuration">8</Data>
-				<Data type="float" name="SlowModifier">1.39999998</Data>
+				<Data type="float" name="SlowModifier">1.5</Data>
+				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -28510,12 +28512,13 @@
 	</Power>
 	<Power name="FloodSpeedBuff2">
 		<Attributes>
-			<NotAffectedByCeasefire />
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
+			<Cost Supplies="550" Power="300" />
+			<AutoRecharge>240000</AutoRecharge>
 			<BuffName>UnstableConcoction</BuffName>
 			<UIRadius>32</UIRadius>
-			<Decal>AOE_Medium</Decal>
+			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
 			<RolloverTextID>5001</RolloverTextID>
 			<ShowLimit />
@@ -28537,13 +28540,14 @@
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DontRecordGameStats />
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">32</Data>
-				<Data type="bool" name="AffectsEnemies">false</Data>
+				<Data type="bool" name="AffectsAllByFilterType">true</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">8</Data>
-				<Data type="float" name="SlowModifier">1.39999998</Data>
+				<Data type="float" name="BuffDuration">12</Data>
+				<Data type="float" name="SlowModifier">1.5</Data>
+				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
