@@ -432,6 +432,12 @@
 			<Infected weight="50" infectedUnit="flood_inf_infected_humelee_01" infectedSquad="flood_inf_infected_humelee_01" deathByInfectionAnim="Transform" />
 			<Infected weight="50" infectedUnit="fld_custom_carrierform_human" infectedSquad="fld_custom_carrierform_human" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_engineer_01">
+			<Infected weight="1" infectedUnit="flood_inf_corruptedengineer_01" infectedSquad="flood_inf_corruptedengineer_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_corruptedengineer_01">
+			<Infected weight="1" infectedUnit="flood_inf_corruptedengineer_01" infectedSquad="flood_inf_corruptedengineer_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_air_shroud_01">
 			<Infected weight="1" infectedUnit="cov_air_shroud_01" infectedSquad="cov_air_shroud_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
