@@ -1507,6 +1507,21 @@
 			<Effect type="SquadCounter" NewCounterName="Warthog_02">
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_veh_warthog_02">
+				<Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+			</Effect>
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_warthog_upgrade3">
+				<Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="MachinegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="GaussCannonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="unsc_flamehog_upgrade3" type="Normal">
@@ -8305,6 +8320,9 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_scorpion_01_base" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_warthog_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_scorpion_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
 			</Effect>
@@ -8904,6 +8922,9 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_banished_03" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_warthog_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_scorpion_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
