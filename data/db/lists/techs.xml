@@ -1472,9 +1472,6 @@
 		<DisplayNameID>1114</DisplayNameID>
 		<RolloverTextID>1115</RolloverTextID>
 		<PrereqTextID>233</PrereqTextID>
-		<Prereqs>
-			<TechStatus status="Active">unsc_basic</TechStatus>
-		</Prereqs>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">750</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
@@ -1508,7 +1505,7 @@
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
+				<Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
 			</Effect>
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_veh_warthog_02">
 				<Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
