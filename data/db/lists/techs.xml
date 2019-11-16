@@ -8429,6 +8429,9 @@
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Effects>
+			<Effect type="Data" amount="1" subtype="DataLevel" power="FloodRuptureEmerge" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
 			<Effect type="Data" amount="-6000" subtype="PowerRechargeTime" power="FloodBaseDrop1" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
