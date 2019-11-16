@@ -1,12 +1,48 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
+		<Name>Bomb</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>420</DamagePerSecond>
+		<UseDPSasDPA />
+		<Corruption />
+		<WeaponType>CorruptedGrenadier</WeaponType>
+		<Projectile>fx_proj_corruptionmediumexp_01_mp</Projectile>
+		<ImpactEffect doShockwaveAction="true">CorruptionMedium</ImpactEffect>
+		<Shockwave duration="30" />
+		<MaxRange>5</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<AOERadius>20</AOERadius>
+		<Corruption overlap="1.3f" />
+		<Filter>Medium</Filter>
+	</Weapon>
+	<Weapon>
 		<Name>Infect</Name>
 		<DamagePerSecond>150</DamagePerSecond>
 		<WeaponType>InfectionForm</WeaponType>
 		<TimeToInfect>1</TimeToInfect>
 		<InfectionJumpDelay>0.25</InfectionJumpDelay>
-		<InfectionTargetType>Infantry</InfectionTargetType>
+		<InfectionTargetType>Military</InfectionTargetType>
 		<TargetPriority type="Infantry">8</TargetPriority>
 		<TargetPriority type="GroundVehicle">-1</TargetPriority>
 		<TargetPriority type="TurretBuilding">-1</TargetPriority>
@@ -18,12 +54,23 @@
 		<WeaponType>Basic</WeaponType>
 		<TimeToInfect>0.100000001</TimeToInfect>
 		<InfectionJumpDelay>0.25</InfectionJumpDelay>
-		<InfectionTargetType>Infantry</InfectionTargetType>
+		<InfectionTargetType>Military</InfectionTargetType>
 		<TargetPriority type="Infantry">-1</TargetPriority>
 		<TargetPriority type="GroundVehicle">5</TargetPriority>
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
+	<Action>
+		<Name>SprintSuicideBomb</Name>
+		<ActionType>Detonate</ActionType>
+		<AutoDetonate AutoDetonateIdleTime="0.100000001" AutoDetonateAggroRange="35" />
+		<Weapon>Bomb</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<WorkRange>8</WorkRange>
+		<DodgeChanceMax>175</DodgeChanceMax>
+		<VelocityScalar>1</VelocityScalar>
+	</Action>
 	<Action>
 		<Name>Infect</Name>
 		<ActionType>Infect</ActionType>
@@ -38,16 +85,169 @@
 		<Weapon>Melee</Weapon>
 		<WorkRange>4</WorkRange>
 	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2.5999999</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>2.5999999</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1.29999995</DecaptureRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonSpirit</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>7.99499989</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonSpirit</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
 	<Tactic>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>Infantry</TargetType>
+			<TargetType>NonFlying</TargetType>
 			<Action>Infect</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
+			<TargetType>Building</TargetType>
 			<Action>Melee</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonSpirit</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>

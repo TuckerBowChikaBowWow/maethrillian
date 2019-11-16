@@ -69,7 +69,99 @@
 	<Weapon>
 		<Name>Rifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>TankExplosive</WeaponType>
+		<Projectile>episode2_pack1_units_flood_infantry_FloodSpawnerSpine</Projectile>
+		<ImpactEffect size="small">FloodSpawnerSpineImpact</ImpactEffect>
+		<MaxVelocityLead>25</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="Aircraft">3</TargetPriority>
+		<TargetPriority type="GroundVehicle">20</TargetPriority>
+		<TargetPriority type="Building">10</TargetPriority>
+		<PreAttackCooldownMin>0.1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.4</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.4</PostAttackCooldownMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>2</Width>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>3</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>5</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Filter>Light</Filter>
+	</Weapon>
+	<Action>
+		<Name>RifleAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>Rifle</Weapon>
+		<Strafing turnRate="240" trackingSpeed="90" />
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>SpawnerInfAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SecondaryAttack</Anim>
+		<Weapon>SpawnerAI</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FullBodyAttackAnim />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>SpawnerVehAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SecondaryAttack</Anim>
+		<Weapon>SpawnerAV</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FullBodyAttackAnim />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>SpawnerAirAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SecondaryAttack</Anim>
+		<Weapon>SpawnerAA</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FullBodyAttackAnim />
+		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>PersonalCloak</Name>
+		<ActionType>StealthManager</ActionType>
+		<StealthType>Cloak</StealthType>
+		<DontAutoRestart />
+	</Action>
+	<Weapon>
+		<Name>RifleSiphon</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>450</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>episode2_pack1_units_flood_infantry_FloodSpawnerSpine</Projectile>
 		<ImpactEffect size="small">FloodSpawnerSpineImpact</ImpactEffect>
@@ -89,62 +181,65 @@
 		<PostAttackCooldownMin>0.400000006</PostAttackCooldownMin>
 		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
 		<Filter>Light</Filter>
+		<LifeStealRatio shield="false">0.95</LifeStealRatio>
 	</Weapon>
 	<Action>
-		<Name>RifleAttackAction</Name>
+		<Name>RifleSiphonAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>Attack</Anim>
-		<Weapon>Rifle</Weapon>
+		<Weapon>RifleSiphon</Weapon>
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<FullBodyAttackAnim />
 		<FindBetterAction />
-	</Action>
-	<Action>
-		<Name>SpawnerInfAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>SecondaryAttack</Anim>
-		<Weapon>SpawnerAI</Weapon>
-		<Strafing turnRate="180" trackingSpeed="60" />
-		<FullBodyAttackAnim />
-		<FindBetterAction />
-	</Action>
-	<Action>
-		<Name>SpawnerVehAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>SecondaryAttack</Anim>
-		<Weapon>SpawnerAV</Weapon>
-		<Strafing turnRate="180" trackingSpeed="60" />
-		<FullBodyAttackAnim />
-		<FindBetterAction />
-	</Action>
-	<Action>
-		<Name>SpawnerAirAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>SecondaryAttack</Anim>
-		<Weapon>SpawnerAA</Weapon>
-		<Strafing turnRate="180" trackingSpeed="60" />
-		<FullBodyAttackAnim />
-		<FindBetterAction />
+		<StartDisabled />
 	</Action>
 	<Tactic>
+		<PersistentAction>PersonalCloak</PersistentAction>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<Relation>Self</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>PersonalCloak</Action>
+			<Relation>Enemy</Relation>
+		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Infantry</TargetType>
+			<TargetType>Gatherable</TargetType>
+			<TargetType>Ground</TargetType>
+			<TargetType>CaptureNode</TargetType>
 			<Action>SpawnerInfAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>GroundVehicle</TargetType>
+			<TargetType>TurretBuilding</TargetType>
+			<TargetType>DropTurret</TargetType>
+			<TargetType>Hero</TargetType>
+			<TargetType>Leader</TargetType>
 			<Action>SpawnerVehAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
+			<TargetType>Building</TargetType>
 			<Action>SpawnerAirAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>RifleAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RifleSiphonAttackAction</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>

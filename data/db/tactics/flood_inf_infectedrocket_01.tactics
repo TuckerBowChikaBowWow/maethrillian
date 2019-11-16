@@ -3,130 +3,189 @@
 	<Weapon>
 		<Name>RocketWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>28</DamagePerSecond>
+		<DamagePerSecond>105</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
-		<MaxRange>40</MaxRange>
+		<MaxRange>50</MaxRange>
 		<Accuracy>1</Accuracy>
-		<MaxDeviation>0</MaxDeviation>
+		<MaxDeviation>1.5</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>0</MovingMaxDeviation>
-		<EnableHeightBonusDamage />
-		<VisualAmmo>1</VisualAmmo>
-		<ReloadAnimation>RocketReload</ReloadAnimation>
-		<TargetPriority type="Infantry">7</TargetPriority>
-		<TargetPriority type="GroundVehicle">4</TargetPriority>
-		<TargetPriority type="TurretBuilding">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<Hardpoint>Torso</Hardpoint>
-		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>3</PreAttackCooldownMax>
-		<PostAttackCooldownMin>3</PostAttackCooldownMin>
-		<PostAttackCooldownMax>4</PostAttackCooldownMax>
-	</Weapon>
-	<Weapon>
-		<Name>MeleeAttack</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
-		<WeaponType>Melee</WeaponType>
-		<MaxRange>4</MaxRange>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>200</PhysicsForceMin>
-		<PhysicsForceMax>400</PhysicsForceMax>
-		<TargetPriority type="Infantry">20</TargetPriority>
-		<TargetPriority type="groundVehicle">15</TargetPriority>
-		<TargetPriority type="TurretBuilding">10</TargetPriority>
-		<TargetPriority type="Building">5</TargetPriority>
-		<Hardpoint>Torso</Hardpoint>
-		<Filter>Medium</Filter>
-		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
-	</Weapon>
-	<Weapon>
-		<Name>JumpAttackHammer</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>400</DamagePerSecond>
-		<UseDPSasDPA />
-		<WeaponType>Melee</WeaponType>
-		<MaxRange>1.84500003</MaxRange>
-		<MinRange>0</MinRange>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>200</PhysicsForceMin>
-		<PhysicsForceMax>400</PhysicsForceMax>
-		<Hardpoint>Torso</Hardpoint>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>4</Radius>
+				<Radius>2</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<Filter>Medium</Filter>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>1</VisualAmmo>
+		<ReloadAnimation>RocketReload</ReloadAnimation>
+		<TargetPriority type="Infantry">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Flying">9</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2.5</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>InCoverRocketWeapon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>105</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_engmissile_01</Projectile>
+		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
+		<MaxVelocityLead>24.6000004</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>1</VisualAmmo>
+		<ReloadAnimation>RocketReload</ReloadAnimation>
+		<TargetPriority type="Infantry">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="Flying">9</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2.5</PostAttackCooldownMax>
 	</Weapon>
 	<Action>
 		<Name>RocketAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>Attack</Anim>
+		<Anim>RocketAttack</Anim>
 		<MoveAnim>AttackMove</MoveAnim>
 		<ReloadAnim>RocketReload</ReloadAnim>
 		<Weapon>RocketWeapon</Weapon>
 		<FullBodyAttackAnim />
 		<Strafing turnRate="180" trackingSpeed="60" />
-		<FindBetterAction />
 	</Action>
 	<Action>
-		<Name>MeleeAttackAction</Name>
+		<Name>InCoverRocketAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>SecondaryAttack</Anim>
-		<Weapon>MeleeAttack</Weapon>
+		<Anim>RocketAttack</Anim>
+		<ReloadAnim>RocketReload</ReloadAnim>
+		<Weapon>InCoverRocketWeapon</Weapon>
 		<FullBodyAttackAnim />
-		<Strafing turnRate="180" trackingSpeed="60" />
 		<FindBetterAction />
 	</Action>
 	<Action>
-		<Name>JumpAttackAction</Name>
-		<ActionType>JumpAttack</ActionType>
-		<StartAnim noInterrupt="true" motionExtraction="true">LeapTakeOff</StartAnim>
-		<Anim>LeapArc</Anim>
-		<EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.449999988">LeapLanding</EndAnim>
-		<Weapon>JumpAttackHammer</Weapon>
-		<MaxDistance>40</MaxDistance>
-		<MinRelativeHeight>8</MinRelativeHeight>
-		<MaxRelativeHeight>12</MaxRelativeHeight>
-		<VelocityScalar>35</VelocityScalar>
-		<LandingDelay>0.400000006</LandingDelay>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>Capture</Name>
+		<ActionType>Capture</ActionType>
+		<Anim>Capture</Anim>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1.29999995</DecaptureRate>
+		<WorkRange>4</WorkRange>
 	</Action>
 	<Tactic>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>RocketAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>MeleeAttackAction</Action>
-			<TargetType>NonFlying</TargetType>
+			<Action>InCoverRocketAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
 		</TargetRule>
 		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>JumpAttackAction</Action>
-			<TargetsGround />
+			<Relation>Ally</Relation>
+			<TargetType>Garrison</TargetType>
+			<Action>Garrison</Action>
 		</TargetRule>
 		<TargetRule>
-			<Ability>Command</Ability>
+			<GaiaOwned />
+			<TargetType>GaiaGarrison</TargetType>
+			<Action>Garrison</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>JumpAttackAction</Action>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Neutral</Relation>
+			<TargetType>CapturePoint</TargetType>
+			<TargetState>Capturable</TargetState>
+			<Action>Capture</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>

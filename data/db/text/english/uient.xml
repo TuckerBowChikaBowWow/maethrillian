@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <string_table xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<str id="UIENT.LEADERSELECT.TITLE.GRAVEMIND">FLOOD</str>
+	<str id="UIENT.LEADERSELECT.SHORTDESCR.GRAVEMIND">Flood</str>
+	<str id="UIENT.LEADERSELECT.ROLE01.GRAVEMIND">Infection</str>
+	<str id="UIENT.LEADERSELECT.ROLE02.GRAVEMIND">Rush</str>
+	<str id="UIENT.LEADERSELECT.SHORTDESCR.GRAVEMIND.BLITZ">Infection Specialist</str>
 	<str id="UIENT._RallyPoint.RadialCenter.Name">GLOBAL RALLY POINT</str>
 	<str id="UIENT._RallyPoint.RadialEdge.Name">GLOBAL RALLY POINT</str>
 	<str id="UIENT._RALLYPOINT.RADIALEDGE.ROLE">RALLY POINT</str>
@@ -1666,8 +1671,6 @@ Has ground pound AoE attack</str>
 	<str id="UIENT.EPISODE2_MAPS_M03_DRILLPOLE.RADIALEDGE.NAME">SALVAGE DRILLS</str>
 	<str id="UIENT.EPISODE2_MAPS_M03_DRILLPOLE.RADIALEDGE.ROLE">ACTIVATE SALVAGE DRILL</str>
 	<str id="UIENT.EPISODE2_MAPS_M03_DRILLPOLE.RADIALEDGE.SHORTDESCR" />
-	<str id="UIENT.FLOOD_AIR_AIRBORNEINFECTOR_01.RADIALEDGE.NAME">SEEDER INFECTORS</str>
-	<str id="UIENT.FLOOD_AIR_AIRBORNEINFECTOR_01.RADIALEDGE.ROLE">ANTI-AIR</str>
 	<str id="UIENT.FLOOD_AIR_INFECTED_HORNET_01_BASE.RADIALEDGE.NAME">INFECTED AIR</str>
 	<str id="UIENT.FLOOD_AIR_INFECTED_HORNET_01_BASE.RADIALEDGE.ROLE" />
 	<str id="UIENT.FLOOD_BLDG_EGG_01.RADIALCENTER.NAME">BLISTER</str>
@@ -1690,16 +1693,8 @@ Has ground pound AoE attack</str>
 	<str id="UIENT.FLOOD_BLDG_RUPTURE_01.RADIALEDGE.NAME">BURSTER</str>
 	<str id="UIENT.FLOOD_BLDG_RUPTURE_01.RADIALEDGE.ROLE" />
 	<str id="UIENT.FLOOD_BLDG_RUPTURE_01.RADIALEDGE.SHORTDESCR" />
-	<str id="UIENT.FLOOD_INF_COMMANDER_01.RADIALEDGE.NAME">ABOMINATION</str>
-	<str id="UIENT.FLOOD_INF_COMMANDER_01.RADIALEDGE.ROLE">HIVE COMMANDER</str>
 	<str id="UIENT.FLOOD_INF_INFECTED_GRUNTMELEE_01.RADIALEDGE.NAME">INFECTED INFANTRY</str>
 	<str id="UIENT.FLOOD_INF_INFECTED_GRUNTMELEE_01.RADIALEDGE.ROLE" />
-	<str id="UIENT.FLOOD_INF_INFECTFRM_01.RADIALEDGE.NAME">POD INFECTOR</str>
-	<str id="UIENT.FLOOD_INF_INFECTFRM_01.RADIALEDGE.ROLE">ANTI-INFANTRY</str>
-	<str id="UIENT.FLOOD_INF_SPAWNER_01.RADIALEDGE.NAME">SPAWNER</str>
-	<str id="UIENT.FLOOD_INF_SPAWNER_01.RADIALEDGE.ROLE" />
-	<str id="UIENT.FLOOD_INF_VEHINFECTOR_01.RADIALEDGE.NAME">INFESTER</str>
-	<str id="UIENT.FLOOD_INF_VEHINFECTOR_01.RADIALEDGE.ROLE">ANTI-VEHICLE</str>
 	<str id="UIENT.FLOOD_VEH_INFECTED_GHOST_01_BASE.RADIALEDGE.NAME">INFECTED VEHICLE</str>
 	<str id="UIENT.FLOOD_VEH_INFECTED_GHOST_01_BASE.RADIALEDGE.ROLE" />
 	<str id="UIENT.FOR_AIR_ENFORCER_01.RADIALEDGE.NAME">CONTROLLER SENTINEL</str>
@@ -3706,7 +3701,7 @@ Leaves behind burning area, damaging enemy ground targets.</str>
 	<str id="UIENT.UNSCBUNKERDROP1_MP.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.UNSCBUNKERDROP1_MP.RADIALEDGE.SALESPITCH">Drops a garrisonable bunker.</str>
 	<str id="UIENT.UNSCBUNKERDROP1_MP.RADIALEDGE.SHORTDESCR">Activate to drop a garrisonable bunker.</str>
-	<str id="UIENT.UNSCBUNKERDROP1_MP.RADIALEDGE.UPGRADEPITCH">Increases garrison capacity and adds a shield.</str>
+	<str id="UIENT.UNSCBUNKERDROP1_MP.RADIALEDGE.UPGRADEPITCH">Adds a shield and a second bunker.</str>
 	<str id="UIENT.UNSCBUNKERDROP2.RADIALCENTER.NAME">BUNKER DROP II</str>
 	<str id="UIENT.UNSCBUNKERDROP2.RADIALEDGE.NAME">BUNKER DROP II</str>
 	<str id="UIENT.UNSCBUNKERDROP2.RADIALEDGE.ROLE">ACTIVE POWER</str>
@@ -3715,22 +3710,26 @@ Leaves behind burning area, damaging enemy ground targets.</str>
 	<str id="UIENT.UNSCBUNKERDROP2_MP.RADIALCENTER.NAME">BUNKER DROP II</str>
 	<str id="UIENT.UNSCBUNKERDROP2_MP.RADIALEDGE.NAME">BUNKER DROP II</str>
 	<str id="UIENT.UNSCBUNKERDROP2_MP.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.UNSCBUNKERDROP2_MP.RADIALEDGE.SHORTDESCR">Activate to drop a garrisonable bunker with shield.</str>
-	<str id="UIENT.UNSCBUNKERDROP2_MP.RADIALEDGE.UPGRADEPITCH">Increases garrison capacity and adds a shield.</str>
+	<str id="UIENT.UNSCBUNKERDROP2_MP.RADIALEDGE.SHORTDESCR">Activate to drop 2 garrisonable bunkers with shields.</str>
+	<str id="UIENT.UNSCBUNKERDROP2_MP.RADIALEDGE.UPGRADEPITCH">Adds a shield and a second bunker.</str>
 	<str id="UIENT.UNSCCHEAPTURTLE1.RADIALCENTER.NAME">DIGGING IN I</str>
 	<str id="UIENT.UNSCCHEAPTURTLE1.RADIALEDGE.NAME">DIGGING IN I</str>
 	<str id="UIENT.UNSCCHEAPTURTLE1.RADIALEDGE.ROLE">PASSIVE POWER</str>
 	<str id="UIENT.UNSCCHEAPTURTLE1.RADIALEDGE.SALESPITCH">Add health siphoning to standard turrets.
-Reduces cost and cooldown of bunker and turret drops.</str>
+Reduces cost and cooldown of bunker and turret drops.
+Increases garrison capacity of bunkers by 1.</str>
 	<str id="UIENT.UNSCCHEAPTURTLE1.RADIALEDGE.SHORTDESCR">Standard turrets can siphon health from units they attack.
-Bunker and turret drops have reduced cost and cooldown.</str>
+Bunker and turret drops have reduced cost and cooldown.
+Bunkers now have a 4 unit max capacity.</str>
 	<str id="UIENT.UNSCCHEAPTURTLE1.RADIALEDGE.UPGRADEPITCH">Improves siphon, further reduces the costs of turret and bunker drops.
+Further increases garrison capacity of bunkers by 1.
 Lowers cost of base turrets.</str>
 	<str id="UIENT.UNSCCHEAPTURTLE2.RADIALCENTER.NAME">DIGGING IN II</str>
 	<str id="UIENT.UNSCCHEAPTURTLE2.RADIALEDGE.NAME">DIGGING IN II</str>
 	<str id="UIENT.UNSCCHEAPTURTLE2.RADIALEDGE.ROLE">PASSIVE POWER</str>
 	<str id="UIENT.UNSCCHEAPTURTLE2.RADIALEDGE.SHORTDESCR">Standard turrets can siphon more health from units they attack.
 Bunker and turret drops have reduced cost and cooldown.
+Bunkers now have a 5 unit max capacity.
 Base turrets cost less.</str>
 	<str id="UIENT.UNSCCHEAPTURTLE2.RADIALEDGE.UPGRADEPITCH">Even further reduces the cost and cooldown of defenses, turret and bunker drops.</str>
 	<str id="UIENT.UNSCCHEAPTURTLE3.RADIALCENTER.NAME">DIGGING IN III</str>
@@ -4093,11 +4092,11 @@ All Protector Sentinels now have a small shield, increased health and damage.</s
 	<str id="UIENT.UNSCSIEGETURRETDROP.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.UNSCSIEGETURRETDROP.RADIALEDGE.SALESPITCH">Drops a temporary Siege Turret into battle.</str>
 	<str id="UIENT.UNSCSIEGETURRETDROP.RADIALEDGE.SHORTDESCR">Activate to drop a temporary Siege Turret into battle.</str>
-	<str id="UIENT.UNSCSIEGETURRETDROP.RADIALEDGE.UPGRADEPITCH">Increases turret damage and duration and is protected by a shield.</str>
+	<str id="UIENT.UNSCSIEGETURRETDROP.RADIALEDGE.UPGRADEPITCH">Adds a second temporary Siege Turret.</str>
 	<str id="UIENT.UNSCSIEGETURRETDROP2.RADIALCENTER.NAME">SIEGE TURRET DROP II</str>
 	<str id="UIENT.UNSCSIEGETURRETDROP2.RADIALEDGE.NAME">SIEGE TURRET DROP II</str>
 	<str id="UIENT.UNSCSIEGETURRETDROP2.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.UNSCSIEGETURRETDROP2.RADIALEDGE.SHORTDESCR">Activate to drop a temporary Siege Turret with shield into battle.</str>
+	<str id="UIENT.UNSCSIEGETURRETDROP2.RADIALEDGE.SHORTDESCR">Activate to drop 2 temporary Siege Turrets into battle.</str>
 	<str id="UIENT.UNSCSIEGETURRETDROP2.RADIALEDGE.UPGRADEPITCH">Increases the duration of the dropped Siege Turret.</str>
 	<str id="UIENT.UnscTurretDrop1.RadialCenter.Name">TURRET DROP I</str>
 	<str id="UIENT.UnscTurretDrop1.RadialEdge.Name">TURRET DROP I</str>
@@ -4174,4 +4173,286 @@ Units must die within the power's set time frame.</str>
 	<str id="UIENT.UPGRADEAVAILABLE1.RADIALEDGE.ROLE">UPGRADE AVAILABLE</str>
 	<str id="UIENT.UPGRADEAVAILABLE2.RADIALEDGE.ROLE">UPGRADE AVAILABLE</str>
 	<str id="UIENT.USEPOWER.LEFTSIDERADIALEDGE.MESSAGE">Use Power</str>
+	<str id="UIENT.flood_inf_commander_01.RADIALCENTER.NAME">ABOMINATION</str>
+	<str id="UIENT.flood_inf_commander_01.RADIALEDGE.NAME">ABOMINATION</str>
+	<str id="UIENT.flood_inf_commander_01.RADIALEDGE.ROLE">HIVE COMMANDER</str>
+	<str id="UIENT.flood_inf_commander_01.RADIALEDGE.SHORTDESCR">Mid-Game Abomination.</str>
+	<str id="UIENT.flood_inf_spawner_01.RADIALCENTER.NAME">SPAWNER</str>
+	<str id="UIENT.flood_inf_spawner_01.RADIALEDGE.NAME">SPAWNER</str>
+	<str id="UIENT.flood_inf_spawner_01.RADIALEDGE.ROLE">FLOOD TANK</str>
+	<str id="UIENT.flood_inf_spawner_01.RADIALEDGE.SHORTDESCR">Flood tank with piercing rounds.</str>
+	<str id="UIENT.flood_inf_infectfrm_01.RADIALCENTER.NAME">POD INFECTOR</str>
+	<str id="UIENT.flood_inf_infectfrm_01.RADIALEDGE.NAME">POD INFECTOR</str>
+	<str id="UIENT.flood_inf_infectfrm_01.RADIALEDGE.ROLE">ANTI-INFANTRY</str>
+	<str id="UIENT.flood_inf_infectfrm_01.RADIALEDGE.SHORTDESCR">Good against Infantry, can infect vehicles too.</str>
+	<str id="UIENT.flood_inf_infectfrm_02.RADIALCENTER.NAME">POD INFECTOR</str>
+	<str id="UIENT.flood_inf_infectfrm_02.RADIALEDGE.NAME">POD INFECTOR</str>
+	<str id="UIENT.flood_inf_infectfrm_02.RADIALEDGE.ROLE">ANTI-INFANTRY</str>
+	<str id="UIENT.flood_inf_infectfrm_02.RADIALEDGE.SHORTDESCR">Good against Infantry, can infect vehicles too.</str>
+	<str id="UIENT.flood_inf_vehinfector_01.RADIALCENTER.NAME">INFESTER</str>
+	<str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.NAME">INFESTER</str>
+	<str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.ROLE">ANTI-RUSH</str>
+	<str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.SHORTDESCR">Fast moving melee unit with AOE.</str>
+	<str id="UIENT.flood_air_airborneinfector_01.RADIALCENTER.NAME">SEEDER</str>
+	<str id="UIENT.flood_air_airborneinfector_01.RADIALEDGE.NAME">SEEDER</str>
+	<str id="UIENT.flood_air_airborneinfector_01.RADIALEDGE.ROLE">ANTI-AIR</str>
+	<str id="UIENT.flood_air_airborneinfector_01.RADIALEDGE.SHORTDESCR">Great against air units, can not attack ground units besides Scarab.</str>
+	<str id="UIENT.flood_inf_infected_gruntpistol_01.RADIALCENTER.NAME">INFECTED GRUNT</str>
+	<str id="UIENT.flood_inf_infected_gruntpistol_01.RADIALEDGE.NAME">INFECTED GRUNT</str>
+	<str id="UIENT.flood_inf_infected_gruntpistol_01.RADIALEDGE.ROLE">INFECTED</str>
+	<str id="UIENT.flood_inf_infected_gruntpistol_01.RADIALEDGE.SHORTDESCR">Has a plasma pistol.</str>
+	<str id="UIENT.flood_hivetech_upgrade1.RadialCenter.Name">HIVE TECH 1</str>
+	<str id="UIENT.flood_hivetech_upgrade1.RadialEdge.Name">HIVE TECH 1</str>
+	<str id="UIENT.flood_hivetech_upgrade1.RadialEdge.Role">FLOOD UPGRADE</str>
+	<str id="UIENT.flood_hivetech_upgrade1.RadialEdge.ShortDescr">Increase maximum number of Hives to 4.
+Reduces build time of Hive units by 10%.
+Unlocks Seeder in Hive.</str>
+	<str id="UIENT.flood_hivetech_upgrade2.RadialCenter.Name">HIVE TECH 2</str>
+	<str id="UIENT.flood_hivetech_upgrade2.RadialEdge.Name">HIVE TECH 2</str>
+	<str id="UIENT.flood_hivetech_upgrade2.RadialEdge.Role">FLOOD UPGRADE</str>
+	<str id="UIENT.flood_hivetech_upgrade2.RadialEdge.ShortDescr">Increase maximum number of Hives to 5.
+Reduces build time of Hive units by 20%.
+Unlocks Spawner in Hive</str>
+	<str id="UIENT.flood_cancer_upgrade1.RadialCenter.Name">CANCEROUS GROWTH</str>
+	<str id="UIENT.flood_cancer_upgrade1.RadialEdge.Name">CANCEROUS GROWTH</str>
+	<str id="UIENT.flood_cancer_upgrade1.RadialEdge.Role">FLOOD UPGRADE</str>
+	<str id="UIENT.flood_cancer_upgrade1.RadialEdge.ShortDescr">Cancerous cells alllow Hives to self-regenerate.
+Increases Hive HP and Healing aura.</str>
+	<str id="UIENT.flood_vehicle_tech.RadialCenter.Name">INFECTED VEHICLE TECH</str>
+	<str id="UIENT.flood_vehicle_tech.RadialEdge.Name">INFECTED VEHICLE TECH</str>
+	<str id="UIENT.flood_vehicle_tech.RadialEdge.Role">ARMY UPGRADE</str>
+	<str id="UIENT.flood_vehicle_tech.RadialEdge.ShortDescr">Unlocks infected Banished aircraft and UNSC vehicles.</str>
+	<str id="UIENT.FloodBaseDrop1.RADIALCENTER.NAME">HIVE DROP</str>
+	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.NAME">HIVE DROP</str>
+	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.SALESPITCH">Permanent flood hive that can build units. Adds 10 population but bonus population is lost when the hive is destroyed. Minimal line of sight. Has healing aura for flood units. Upgrade-able through the armory with Hive Tech and Cancerous Growth.</str>
+	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.SHORTDESCR">Drop a hivebase to the battlefield that can train and heal flood units.
+Increases population cap by +10.</str>
+	<str id="UIENT.FloodRuptureEmerge.RADIALCENTER.NAME">FLOOD ROOT</str>
+	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.NAME">FLOOD ROOT</str>
+	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.SALESPITCH">Spawn 1 Flood Root into the battlefield.</str>
+	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.SHORTDESCR">Spawn 1 Flood Root into the battlefield.</str>
+	<str id="UIENT.FloodRuptureEmerge1.RADIALEDGE.UPGRADEPITCH">Adds 1 CENSORED to the drop</str>
+	<str id="UIENT.Flood_Emerge_Infectors.RADIALCENTER.NAME">INFECTED BLISTERS I</str>
+	<str id="UIENT.Flood_Emerge_Infectors.RADIALEDGE.NAME">INFECTED BLISTERS I</str>
+	<str id="UIENT.Flood_Emerge_Infectors.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.Flood_Emerge_Infectors.RADIALEDGE.SALESPITCH">Spawns 3 exploding Flood blisters that infect units.</str>
+	<str id="UIENT.Flood_Emerge_Infectors.RADIALEDGE.SHORTDESCR">Spawns 3 exploding Flood blisters that infect units.</str>
+	<str id="UIENT.Flood_Emerge_Infectors.RADIALEDGE.UPGRADEPITCH">Adds 1 CENSORED to the drop</str>
+	<str id="UIENT.Flood_Emerge_Infectors2.RADIALCENTER.NAME">INFECTED BLISTERS II</str>
+	<str id="UIENT.Flood_Emerge_Infectors2.RADIALEDGE.NAME">INFECTED BLISTERS II</str>
+	<str id="UIENT.Flood_Emerge_Infectors2.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.Flood_Emerge_Infectors2.RADIALEDGE.SHORTDESCR">Spawns 4 exploding Flood blisters that infect units.</str>
+	<str id="UIENT.FloodEggDrop1.RADIALCENTER.NAME">EGG DROP I</str>
+	<str id="UIENT.FloodEggDrop1.RADIALEDGE.NAME">EGG DROP I</str>
+	<str id="UIENT.FloodEggDrop1.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodEggDrop1.RADIALEDGE.SALESPITCH">Drops flood eggs that act like mines. When they explode they can infect Infantry units within AOE.</str>
+	<str id="UIENT.FloodEggDrop1.RADIALEDGE.SHORTDESCR">Drops flood eggs that act like mines. When they explode they can infect Infantry units within AOE.</str>
+	<str id="UIENT.FloodEggDrop1.RADIALEDGE.UPGRADEPITCH">Drops more flood eggs.</str>
+	<str id="UIENT.FloodEggDrop2.RADIALCENTER.NAME">EGG DROP II</str>
+	<str id="UIENT.FloodEggDrop2.RADIALEDGE.NAME">EGG DROP II</str>
+	<str id="UIENT.FloodEggDrop2.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodEggDrop2.RADIALEDGE.SHORTDESCR">Drops flood eggs that act like mines. When they explode they can infect Infantry units within AOE.</str>
+	<str id="UIENT.Flood_Barrage1.RADIALCENTER.NAME">CONVICTING PESTILENCE I</str>
+	<str id="UIENT.Flood_Barrage1.RADIALEDGE.NAME">CONVICTING PESTILENCE I</str>
+	<str id="UIENT.Flood_Barrage1.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.Flood_Barrage1.RADIALEDGE.SALESPITCH">Bombards a target area with infected debris from the Indulgence of Conviction with a chance to infect infantry units.</str>
+	<str id="UIENT.Flood_Barrage1.RADIALEDGE.SHORTDESCR">Activate to bombard a target area with infected debris from the Indulgence of Conviction with a chance to infect infantry units.</str>
+	<str id="UIENT.Flood_Barrage1.RADIALEDGE.UPGRADEPITCH">Increases the amount of debris and flood biomass dropped.</str>
+	<str id="UIENT.Flood_Barrage2.RADIALCENTER.NAME">CONVICTING PESTILENCE II</str>
+	<str id="UIENT.Flood_Barrage2.RADIALEDGE.NAME">CONVICTING PESTILENCE II</str>
+	<str id="UIENT.Flood_Barrage2.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.Flood_Barrage2.RADIALEDGE.SHORTDESCR">Activate to bombard a target area with infected debris from the Indulgence of Conviction with a chance to infect infantry units.</str>
+	<str id="UIENT.Flood_InfantryRecycle.RADIALCENTER.NAME">GET BACK OUT THERE</str>
+	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.NAME">GET BACK OUT THERE</str>
+	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.SALESPITCH">While active, the first 8 flood units you lose will respawn at your home base.
+Does not affect Cannon Fodder.</str>
+	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.SHORTDESCR">Activate to have the next 8 flood you lose respawn at your home base.
+Does not affect Cannon Fodder.</str>
+	<str id="UIENT.FloodFeast1.RADIALCENTER.NAME">FLOOD FEAST I</str>
+	<str id="UIENT.FloodFeast1.RADIALEDGE.NAME">FLOOD FEAST I</str>
+	<str id="UIENT.FloodFeast1.RADIALEDGE.ROLE">PASSIVE POWER</str>
+	<str id="UIENT.FloodFeast1.RADIALEDGE.SALESPITCH">Flood feasts off of unit kills. Power acts like killing frenzy. Gives flood unti a damage and speed buff and a heal on unit kill.</str>
+	<str id="UIENT.FloodFeast1.RADIALEDGE.SHORTDESCR">Flood feasts off of unit kills. Power acts like killing frenzy. Gives flood unti a damage and speed buff and a heal on unit kill.</str>
+	<str id="UIENT.FloodFeast1.RADIALEDGE.UPGRADEPITCH">PLACEHOLDER TEXT.</str>
+	<str id="UIENT.FloodFeast2.RADIALCENTER.NAME">FLOOD FEAST II</str>
+	<str id="UIENT.FloodFeast2.RADIALEDGE.NAME">FLOOD FEAST II</str>
+	<str id="UIENT.FloodFeast2.RADIALEDGE.ROLE">PASSIVE POWER</str>
+	<str id="UIENT.FloodFeast2.RADIALEDGE.SHORTDESCR">Flood feasts off of unit kills. Power acts like killing frenzy. Gives flood unti a damage and speed buff and a heal on unit kill.</str>
+	<str id="UIENT.FloodBuff.RADIALCENTER.NAME">HIVE MIND</str>
+	<str id="UIENT.FloodBuff.RADIALEDGE.NAME">HIVE MIND</str>
+	<str id="UIENT.FloodBuff.RADIALEDGE.ROLE">PASSIVE POWER</str>
+	<str id="UIENT.FloodBuff.RADIALEDGE.SALESPITCH">Makes Flood-core units cheaper. Reduce cooldown and cost of Hive drop.(possibly add additional buffs if Flood late game is weak)</str>
+	<str id="UIENT.FloodBuff.RADIALEDGE.SHORTDESCR">Makes Flood-core units cheaper. Reduced cooldown and cost of Hive drop.(possibly add additional buffs if Flood late game is weak)</str>
+	<str id="UIENT.flood_inf_infectedrocket_01.RadialCenter.Name">INFECTED COMBAT TECH</str>
+	<str id="UIENT.flood_inf_infectedrocket_01.RadialEdge.Name">INFECTED COMBAT TECH</str>
+	<str id="UIENT.flood_inf_infectedrocket_01.RadialEdge.Role">ANTI-VEHICLE</str>
+	<str id="UIENT.flood_inf_infectedrocket_01.RadialEdge.ShortDescr">High damage, low HP unit that devastates vehicles.
+Equipped with Rocket Launcher</str>
+	<str id="UIENT.flood_veh_infected_warthog_01_base.RadialCenter.Name">INFECTED WARTHOG</str>
+	<str id="UIENT.flood_veh_infected_warthog_01_base.RadialEdge.Name">INFECTED WARTHOG</str>
+	<str id="UIENT.flood_veh_infected_warthog_01_base.RadialEdge.Role">CORE VEHICLE</str>
+	<str id="UIENT.flood_veh_infected_warthog_01_base.RadialEdge.ShortDescr">Can ram enemies
+Fast moving
+Good all-round vehicle</str>
+	<str id="UIENT.flood_veh_infected_scorpion_01_base.RadialCenter.Name">INFECTED SCORPION</str>
+	<str id="UIENT.flood_veh_infected_scorpion_01_base.RadialEdge.Name">INFECTED SCORPION</str>
+	<str id="UIENT.flood_veh_infected_scorpion_01_base.RadialEdge.Role">MAIN BATTLE TANK</str>
+	<str id="UIENT.flood_veh_infected_scorpion_01_base.RadialEdge.ShortDescr">Heavy damage
+Medium range
+Heavy armor</str>
+	<str id="UIENT.flood_veh_infected_prowler_01_base.RadialCenter.Name">INFECTED MARAUDER</str>
+	<str id="UIENT.flood_veh_infected_prowler_01_base.RadialEdge.Name">INFECTED MARAUDER</str>
+	<str id="UIENT.flood_veh_infected_prowler_01_base.RadialEdge.Role">CORE VEHICLE</str>
+	<str id="UIENT.flood_veh_infected_prowler_01_base.RadialEdge.ShortDescr">Shots slow enemies
+Tough armor
+Good all-round vehicle</str>
+	<str id="UIENT.flood_veh_infected_wraith_01_base.RadialCenter.Name">INFECTED WRAITH</str>
+	<str id="UIENT.flood_veh_infected_wraith_01_base.RadialEdge.Name">INFECTED WRAITH</str>
+	<str id="UIENT.flood_veh_infected_wraith_01_base.RadialEdge.Role">MAIN BATTLE TANK</str>
+	<str id="UIENT.flood_veh_infected_wraith_01_base.RadialEdge.ShortDescr">Heavy damage
+Long range
+Heavy armor</str>
+	<str id="UIENT.flood_air_infected_banshee_01_base.RadialCenter.Name">INFECTED BANSHEE</str>
+	<str id="UIENT.flood_air_infected_banshee_01_base.RadialEdge.Name">INFECTED BANSHEE</str>
+	<str id="UIENT.flood_air_infected_banshee_01_base.RadialEdge.Role">CORE AIRCRAFT</str>
+	<str id="UIENT.flood_air_infected_banshee_01_base.RadialEdge.ShortDescr">Fast moving
+Medium range
+Good all-round aircraft</str>
+	<str id="UIENT.flood_air_infected_blisterback_01_base.RadialCenter.Name">INFECTED BLISTERBACK</str>
+	<str id="UIENT.flood_air_infected_blisterback_01_base.RadialEdge.Name">INFECTED BLISTERBACK</str>
+	<str id="UIENT.flood_air_infected_blisterback_01_base.RadialEdge.Role">MOBILE ARTILLERY</str>
+	<str id="UIENT.flood_air_infected_blisterback_01_base.RadialEdge.ShortDescr">Can deploy to use Siege Missiles
+Uses Plasma Cannons in the air
+Very long range
+Heavy armor
+Cannot attack air when deployed</str>
+	<str id="UIENT.flood_inf_generic_core.RadialCenter.Name">FLOOD SQUAD</str>
+	<str id="UIENT.flood_inf_generic_core.RadialEdge.Name">FLOOD SQUAD</str>
+	<str id="UIENT.flood_inf_generic_core.RadialEdge.Role">CORE INFANTRY</str>
+	<str id="UIENT.flood_inf_generic_core.RadialEdge.ShortDescr">Backbone of the Flood infestation
+Quick capture unit</str>
+	<str id="UIENT.flood_inf_arbiter_assaultteam_01.RADIALCENTER.NAME">ELITE ENFORCERS</str>
+	<str id="UIENT.flood_inf_arbiter_assaultteam_01.RADIALEDGE.NAME">ELITE ENFORCERS</str>
+	<str id="UIENT.flood_inf_arbiter_assaultteam_01.RADIALEDGE.ROLE">ANTI-BUILDING</str>
+	<str id="UIENT.flood_inf_arbiter_assaultteam_01.RADIALEDGE.SHORTDESCR">Strong rush unit
+Can throw Stasis grenades that temporarily disable a target
+Grenades cannot target air</str>
+	<str id="UIENT.flood_inf_flameMarine_01.RadialCenter.Name">HELLBRINGERS</str>
+	<str id="UIENT.flood_inf_flameMarine_01.RadialEdge.Name">HELLBRINGERS</str>
+	<str id="UIENT.flood_inf_flameMarine_01.RadialEdge.Role">ANTI-INFANTRY</str>
+	<str id="UIENT.flood_inf_flameMarine_01.RadialEdge.ShortDescr">Strong rush unit
+Cannot attack air</str>
+	<str id="UIENT.flood_inf_jackal_01.RadialCenter.Name">ELITE RANGERS</str>
+	<str id="UIENT.flood_inf_jackal_01.RadialEdge.Name">ELITE RANGERS</str>
+	<str id="UIENT.flood_inf_jackal_01.RadialEdge.Role">ANTI-INFANTRY</str>
+	<str id="UIENT.flood_inf_jackal_01.RadialEdge.ShortDescr">Detects cloaked units
+Long range</str>
+<str id="UIENT.flood_veh_infected_bruteChopper_01_base.RadialCenter.Name">INFECTED CHOPPER</str>
+	<str id="UIENT.flood_veh_infected_bruteChopper_01_base.RadialEdge.Name">INFECTED CHOPPER</str>
+	<str id="UIENT.flood_veh_infected_bruteChopper_01_base.RadialEdge.Role">SCOUT VEHICLE</str>
+	<str id="UIENT.flood_veh_infected_bruteChopper_01_base.RadialEdge.ShortDescr">Can ram enemies
+Fast moving
+Light armor</str>
+	<str id="UIENT.flood_tech_global_flood_01.RadialCenter.Name">FLOOD UPGRADE I</str>
+	<str id="UIENT.flood_tech_global_flood_01.RadialEdge.Name">FLOOD UPGRADE I</str>
+	<str id="UIENT.flood_tech_global_flood_01.RadialEdge.Role">ARMY UPGRADE</str>
+	<str id="UIENT.flood_tech_global_flood_01.RadialEdge.ShortDescr">15% damage boost
+15% health boost</str>
+	<str id="UIENT.flood_tech_global_flood_02.RadialCenter.Name">FLOOD UPGRADE II</str>
+	<str id="UIENT.flood_tech_global_flood_02.RadialEdge.Name">FLOOD UPGRADE II</str>
+	<str id="UIENT.flood_tech_global_flood_02.RadialEdge.Role">ARMY UPGRADE</str>
+	<str id="UIENT.flood_tech_global_flood_02.RadialEdge.ShortDescr">30% damage boost
+30% health boost</str>
+	<str id="UIENT.flood_tech_global_flood_03.RadialCenter.Name">FLOOD UPGRADE III</str>
+	<str id="UIENT.flood_tech_global_flood_03.RadialEdge.Name">FLOOD UPGRADE III</str>
+	<str id="UIENT.flood_tech_global_flood_03.RadialEdge.Role">ARMY UPGRADE</str>
+	<str id="UIENT.flood_tech_global_flood_03.RadialEdge.ShortDescr">45% damage boost
+45% health boost</str>
+	<str id="UIENT.flood_tech_global_unsc_01.RadialCenter.Name">UNSC UPGRADE I</str>
+	<str id="UIENT.flood_tech_global_unsc_01.RadialEdge.Name">UNSC UPGRADE I</str>
+	<str id="UIENT.flood_tech_global_unsc_01.RadialEdge.Role">ARMY UPGRADE</str>
+	<str id="UIENT.flood_tech_global_unsc_01.RadialEdge.ShortDescr">15% damage boost
+15% health boost</str>
+	<str id="UIENT.flood_tech_global_unsc_02.RadialCenter.Name">UNSC UPGRADE II</str>
+	<str id="UIENT.flood_tech_global_unsc_02.RadialEdge.Name">UNSC UPGRADE II</str>
+	<str id="UIENT.flood_tech_global_unsc_02.RadialEdge.Role">ARMY UPGRADE</str>
+	<str id="UIENT.flood_tech_global_unsc_02.RadialEdge.ShortDescr">30% damage boost
+30% health boost</str>
+	<str id="UIENT.flood_tech_global_unsc_03.RadialCenter.Name">UNSC UPGRADE III</str>
+	<str id="UIENT.flood_tech_global_unsc_03.RadialEdge.Name">UNSC UPGRADE III</str>
+	<str id="UIENT.flood_tech_global_unsc_03.RadialEdge.Role">ARMY UPGRADE</str>
+	<str id="UIENT.flood_tech_global_unsc_03.RadialEdge.ShortDescr">45% damage boost
+45% health boost</str>
+	<str id="UIENT.flood_tech_global_banished_01.RadialCenter.Name">BANISHED UPGRADE I</str>
+	<str id="UIENT.flood_tech_global_banished_01.RadialEdge.Name">BANISHED UPGRADE I</str>
+	<str id="UIENT.flood_tech_global_banished_01.RadialEdge.Role">ARMY UPGRADE</str>
+	<str id="UIENT.flood_tech_global_banished_01.RadialEdge.ShortDescr">15% damage boost
+15% health boost</str>
+	<str id="UIENT.flood_tech_global_banished_02.RadialCenter.Name">BANISHED UPGRADE II</str>
+	<str id="UIENT.flood_tech_global_banished_02.RadialEdge.Name">BANISHED UPGRADE II</str>
+	<str id="UIENT.flood_tech_global_banished_02.RadialEdge.Role">ARMY UPGRADE</str>
+	<str id="UIENT.flood_tech_global_banished_02.RadialEdge.ShortDescr">30% damage boost
+30% health boost</str>
+	<str id="UIENT.flood_tech_global_banished_03.RadialCenter.Name">BANISHED UPGRADE III</str>
+	<str id="UIENT.flood_tech_global_banished_03.RadialEdge.Name">BANISHED UPGRADE III</str>
+	<str id="UIENT.flood_tech_global_banished_03.RadialEdge.Role">ARMY UPGRADE</str>
+	<str id="UIENT.flood_tech_global_banished_03.RadialEdge.ShortDescr">45% damage boost
+45% health boost</str>
+	<str id="UIENT.cov_bldg_barracks_01_fl.RadialCenter.Name">INFECTED RAID CAMP</str>
+	<str id="UIENT.cov_bldg_barracks_01_fl.RadialEdge.Name">INFECTED RAID CAMP</str>
+	<str id="UIENT.cov_bldg_barracks_01_fl.RadialEdge.Role">PRODUCES UNITS</str>
+	<str id="UIENT.cov_bldg_barracks_01_fl.RadialEdge.ShortDescr">Trains special flood combatforms.</str>
+	<str id="UIENT.cov_bldg_heavyfactory_01_fl.RadialCenter.Name">UNSC LAIR</str>
+	<str id="UIENT.cov_bldg_heavyfactory_01_fl.RadialEdge.Name">UNSC LAIR</str>
+	<str id="UIENT.cov_bldg_heavyfactory_01_fl.RadialEdge.Role">PRODUCES UNITS</str>
+	<str id="UIENT.cov_bldg_heavyfactory_01_fl.RadialEdge.ShortDescr">Builds UNSC units.</str>
+	<str id="UIENT.cov_bldg_lightfactory_01_fl.RadialCenter.Name">BANISHED LAIR</str>
+	<str id="UIENT.cov_bldg_lightfactory_01_fl.RadialEdge.Name">BANISHED LAIR</str>
+	<str id="UIENT.cov_bldg_lightfactory_01_fl.RadialEdge.Role">PRODUCES UNITS</str>
+	<str id="UIENT.cov_bldg_lightfactory_01_fl.RadialEdge.ShortDescr">Builds Banished units.</str>
+	<str id="UIENT.flood_inf_corruptedengineer_01.RADIALCENTER.NAME">CORRUPTED ENGINEER</str>
+	<str id="UIENT.flood_inf_corruptedengineer_01.RADIALCENTER.NAME">CORRUPTED ENGINEER</str>
+	<str id="UIENT.flood_inf_corruptedengineer_01.RADIALEDGE.NAME">CORRUPTED ENGINEER</str>
+	<str id="UIENT.flood_inf_corruptedengineer_01.RADIALEDGE.NAME">CORRUPTED ENGINEER</str>
+	<str id="UIENT.flood_inf_corruptedengineer_01.RADIALEDGE.ROLE">SUPPORT UNIT</str>
+	<str id="UIENT.flood_inf_corruptedengineer_01.RADIALEDGE.ROLE">SUPPORT UNIT</str>
+	<str id="UIENT.flood_inf_corruptedengineer_01.RADIALEDGE.SHORTDESCR">Repairs and heals friendly units
+Detects cloaked units</str>
+	<str id="UIENT.FloodSpeedBuff.RADIALCENTER.NAME">FLOOD SPEED I</str>
+	<str id="UIENT.FloodSpeedBuff.RADIALEDGE.NAME">FLOOD SPEED I</str>
+	<str id="UIENT.FloodSpeedBuff.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodSpeedBuff.RADIALEDGE.SALESPITCH">For a short time, all units you control receive a speed boost.</str>
+	<str id="UIENT.FloodSpeedBuff.RADIALEDGE.SHORTDESCR">Activate to receive a speed boost for all units you control.</str>
+	<str id="UIENT.FloodSpeedBuff.RADIALEDGE.UPGRADEPITCH">Increases the duration of the speed boost.</str>
+	<str id="UIENT.FloodSpeedBuff2.RADIALCENTER.NAME">FLOOD SPEED II</str>
+	<str id="UIENT.FloodSpeedBuff2.RADIALEDGE.NAME">FLOOD SPEED II</str>
+	<str id="UIENT.FloodSpeedBuff2.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodSpeedBuff2.RADIALEDGE.SALESPITCH">For a short time, all units you control receive a speed boost.</str>
+	<str id="UIENT.FloodSpeedBuff2.RADIALEDGE.SHORTDESCR">Activate to receive a speed boost for all units you control.</str>
+	<str id="UIENT.FloodWormBuff.RADIALCENTER.NAME">ANABOLIC PARASITES I</str>
+	<str id="UIENT.FloodWormBuff.RADIALEDGE.NAME">ANABOLIC PARASITES I</str>
+	<str id="UIENT.FloodWormBuff.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodWormBuff.RADIALEDGE.SALESPITCH">Provides damage mitigation to flood units and does damage over time to enemy units in the AOE.</str>
+	<str id="UIENT.FloodWormBuff.RADIALEDGE.SHORTDESCR">Provides damage mitigation to flood units and does damage over time to enemy units in the AOE.</str>
+	<str id="UIENT.FloodWormBuff.RADIALEDGE.UPGRADEPITCH">PLACEHOLDER TEXT</str>
+	<str id="UIENT.FloodWormBuff2.RADIALCENTER.NAME">ANABOLIC PARASITES II</str>
+	<str id="UIENT.FloodWormBuff2.RADIALEDGE.NAME">ANABOLIC PARASITES II</str>
+	<str id="UIENT.FloodWormBuff2.RADIALEDGE.ROLE">ACTIVE POWER</str>
+	<str id="UIENT.FloodWormBuff2.RADIALEDGE.SALESPITCH">Provides damage mitigation to flood units and does damage over time to enemy units in the AOE.</str>
+	<str id="UIENT.FloodWormBuff2.RADIALEDGE.SHORTDESCR">Provides damage mitigation to flood units and does damage over time to enemy units in the AOE.</str>
+	<str id="UIENT.flood_inf_infected_elitemelee_01.RadialCenter.Name">INFECTED ELITE</str>
+	<str id="UIENT.flood_inf_infected_elitemelee_01.RadialEdge.Name">INFECTED ELITE</str>
+	<str id="UIENT.flood_inf_infected_elitemelee_01.RadialEdge.Role">ANTI-BUILDING</str>
+	<str id="UIENT.flood_inf_infected_elitemelee_01.RadialEdge.ShortDescr">PLACEHOLDER TEXT</str>
+	<str id="UIENT.flood_infectedbrute_carrier_01.RadialCenter.Name">CARRIER</str>
+	<str id="UIENT.flood_infectedbrute_carrier_01.RadialEdge.Name">CARRIER</str>
+	<str id="UIENT.flood_infectedbrute_carrier_01.RadialEdge.Role">ANTI-INFANTRY</str>
+	<str id="UIENT.flood_infectedbrute_carrier_01.RadialEdge.ShortDescr">Explodes once in contact with enemy unit, is able to infect Infantry.</str>
+	<str id="UIENT.fld_bldg_drophivebase_01.RadialCenter.Name">HIVE BASE</str>
+	<str id="UIENT.fld_bldg_drophivebase_01.RadialEdge.Name">HIVE BASE</str>
+	<str id="UIENT.fld_bldg_drophivebase_01.RadialEdge.Role">PROVIDES SUPPORT</str>
+	<str id="UIENT.fld_bldg_drophivebase_01.RadialEdge.ShortDescr">Buffs and produces units.</str>
 </string_table>
