@@ -28470,8 +28470,8 @@
 		<Attributes>
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<Cost Supplies="500" Power="200" />
-			<AutoRecharge>240000</AutoRecharge>
+			<Cost Supplies="200" Power="100" />
+			<AutoRecharge>120000</AutoRecharge>
 			<BuffName>UnstableConcoction</BuffName>
 			<UIRadius>24</UIRadius>
 			<Decal>Point</Decal>
@@ -28500,7 +28500,7 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">8</Data>
+				<Data type="float" name="BuffDuration">10</Data>
 				<Data type="float" name="SlowModifier">1.5</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
@@ -28514,8 +28514,8 @@
 		<Attributes>
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<Cost Supplies="550" Power="300" />
-			<AutoRecharge>240000</AutoRecharge>
+			<Cost Supplies="250" Power="150" />
+			<AutoRecharge>120000</AutoRecharge>
 			<BuffName>UnstableConcoction</BuffName>
 			<UIRadius>32</UIRadius>
 			<Decal>Point</Decal>
@@ -28544,7 +28544,7 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">12</Data>
+				<Data type="float" name="BuffDuration">15</Data>
 				<Data type="float" name="SlowModifier">1.5</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
