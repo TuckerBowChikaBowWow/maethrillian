@@ -8217,6 +8217,25 @@
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_temple_01" ToType="cov_bldg_temple_01_fl" />
 		</Effects>
 	</Tech>
+	<Tech name="flood_instant_ai" type="Normal">
+		<DBID>2041</DBID>
+		<DisplayNameID>1072</DisplayNameID>
+		<RolloverTextID>1073</RolloverTextID>
+		<ResearchPoints>5</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchAnim>Upgrade</ResearchAnim>
+		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_grunt</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="flood_hivetech_upgrade1" type="Normal">
 		<DBID>1915</DBID>
 		<DisplayNameID>1114</DisplayNameID>
@@ -8294,6 +8313,9 @@
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="2" subtype="Damage" relativity="Percent">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
 		</Effects>
@@ -8746,6 +8768,9 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">flood_instant_upgrade</Target>
 			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">flood_instant_ai</Target>
+			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">FloodEggDrop1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="FloodEggDrop1">FloodEggDrop2</Effect>
 			<Effect type="UnlockableGodPower" tier="1">FloodFeast1</Effect>
@@ -8878,6 +8903,24 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_tech_global_infantry_03" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_tech_global_vehicle_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_tech_global_vehicle_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_tech_global_vehicle_03" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_tech_global_aircraft_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_tech_global_aircraft_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_tech_global_aircraft_03" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_flood_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01_fl</Target>
