@@ -28082,7 +28082,7 @@
 			<AIPowerUseType>BunkerDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Pop type="Decimus">1</Pop>
-			<Cost Supplies="350" Power="350" />
+			<Cost Supplies="300" Power="300" />
 			<AutoRecharge>150000</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -28109,7 +28109,7 @@
 				<Data type="bool" name="NoDropNearBase">true</Data>
 				<Data type="bool" name="FailIfNotEnoughPop">false</Data>
 				<Data type="int" name="OverlayStringID">25023</Data>
-				<Data type="float" name="SquadSpawnDelay">1.600000024</Data>
+				<Data type="float" name="SquadSpawnDelay">0.9</Data>
 				<Data type="float" name="ProjectileSpawnDelay">0</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
