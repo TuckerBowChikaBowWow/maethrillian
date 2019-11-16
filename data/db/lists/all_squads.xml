@@ -4757,6 +4757,9 @@
 		<HPBar offset="0,4.92000008,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="3" role="normal">flood_bldg_egg_infinfectordrop_01</Unit>
+		</Units>
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
 		<Flag>KBAware</Flag>
@@ -4771,16 +4774,6 @@
 		</Selection>
 		<AvoidanceMass>Light</AvoidanceMass>
 		<Counters>AssaultElites_01</Counters>
-	</Squad>
-	<Squad name="flood_custom_egg_inf" formationType="Flock" dbid="14175204004466671828" parent_element="flood_custom_eggdrop">
-		<Units>
-			<Unit count="3" role="normal">flood_bldg_egg_infinfectordrop_01</Unit>
-		</Units>
-	</Squad>
-	<Squad name="flood_custom_egg_multi" formationType="Flock" dbid="14175204004466671828" parent_element="flood_custom_eggdrop">
-		<Units>
-			<Unit count="3" role="normal">flood_bldg_egg_infinfectordrop_01</Unit>
-		</Units>
 	</Squad>
 	<Squad name="fld_bldg_drophivebase_01" dbid="3996937595498649147">
 		<CombatRank>5</CombatRank>
