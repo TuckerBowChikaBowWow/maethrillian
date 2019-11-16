@@ -27531,15 +27531,126 @@
 	</Power>
 	<Power name="FloodWormBuff">
 		<Attributes>
+			<PowerType>Orbital</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<Cost Supplies="100" Power="100" />
+			<AutoRecharge>15000</AutoRecharge>
+			<UIRadius>26</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5026</DisplayNameID>
+			<RolloverTextID>5027</RolloverTextID>
+			<PrereqTextID>5027</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<ProcOnLeaderPowerCast />
+			<ProcPowerName>FloodSickness_Proc</ProcPowerName>
+			<ProcWhenActiveOnly />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>0</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<CameraEffectIn>OrbitalPower</CameraEffectIn>
+			<CameraEffectOut>OrbitalPowerToNormal</CameraEffectOut>
+			<DelayProcOfNamedPower>FloodSickness_Proc</DelayProcOfNamedPower>
+			<BaseDataLevel>
+				<Data type="float" name="ProcOfNamedPowerDelayAmount">0.8f</Data>
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="float" name="TargetingDelay">1.1</Data>
+				<Data type="float" name="AutoShotDelay">0</Data>
+				<Data type="float" name="AutoShotInnerRadius">5</Data>
+				<Data type="float" name="AutoShotOuterRadius">20</Data>
+				<Data type="float" name="XOffset">0</Data>
+				<Data type="float" name="YOffset">65</Data>
+				<Data type="float" name="ZOffset">0</Data>
+				<Data type="float" name="CommandInterval">0.200000003</Data>
+				<Data type="float" name="ShotInterval">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_JohnsonEMPBlastProjectile</Data>
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+			</BaseDataLevel>
+			<DataLevel level="0">
+				<Data type="protoobject" name="Projectile">pow_gp_FloodWormBlast_01</Data>
+				<Data type="int" name="NumShots">1</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="FloodWormBuff2">
+		<Attributes>
+			<PowerType>Orbital</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<Cost Supplies="100" Power="100" />
+			<AutoRecharge>15000</AutoRecharge>
+			<UIRadius>26</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5026</DisplayNameID>
+			<RolloverTextID>5027</RolloverTextID>
+			<PrereqTextID>5027</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<ProcOnLeaderPowerCast />
+			<ProcPowerName>FloodSickness_Proc</ProcPowerName>
+			<ProcWhenActiveOnly />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>0</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<CameraEffectIn>OrbitalPower</CameraEffectIn>
+			<CameraEffectOut>OrbitalPowerToNormal</CameraEffectOut>
+			<BaseDataLevel>
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="float" name="TargetingDelay">1.1</Data>
+				<Data type="float" name="AutoShotDelay">0</Data>
+				<Data type="float" name="AutoShotInnerRadius">5</Data>
+				<Data type="float" name="AutoShotOuterRadius">20</Data>
+				<Data type="float" name="XOffset">0</Data>
+				<Data type="float" name="YOffset">65</Data>
+				<Data type="float" name="ZOffset">0</Data>
+				<Data type="float" name="CommandInterval">0.200000003</Data>
+				<Data type="float" name="ShotInterval">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_JohnsonEMPBlastProjectile</Data>
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+			</BaseDataLevel>
+			<DataLevel level="0">
+				<Data type="protoobject" name="Projectile">pow_gp_FloodWormBlast_01</Data>
+				<Data type="int" name="NumShots">1</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="FloodWormBuffProc">
+		<Attributes>
 			<NotAffectedByCeasefire />
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
 			<Cost Supplies="200" Power="125" />
-			<AutoRecharge>120000</AutoRecharge>
-			<ProcWhenActiveOnly />
-			<ProcOnLeaderPowerCast />
-			<ProcPowerName>FloodSickness_Proc</ProcPowerName>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -27560,13 +27671,11 @@
 			<CameraEnableUserScroll>true</CameraEnableUserScroll>
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
-			<DelayProcOfNamedPower>FloodSickness_Proc</DelayProcOfNamedPower>
-			<BaseDataLevel>
-				<Data type="float" name="ProcOfNamedPowerDelayAmount">1.0f</Data>
+			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">23</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterType2">Flood</Data>
-				<Data type="float" name="BuffDuration">16</Data>
+				<Data type="float" name="BuffDuration">15</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageMitigationScalar">0.5</Data>
@@ -27576,57 +27685,7 @@
 				<Data type="protoobject" name="BuffActivateFX">vfx_dlc3_powers_buffs_lekgolowormbuff</Data>
 				<Data type="protoobject" name="CastVfx">vfx_dlc3_powers_buffs_lekgolowormbuffcast26</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BUF_BAN_LekgoloPilotingCast</Data>
-			</BaseDataLevel>
-		</Attributes>
-	</Power>
-	<Power name="FloodWormBuff2">
-		<Attributes>
-			<NotAffectedByCeasefire />
-			<PowerType>AreaBuff</PowerType>
-			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<BuffName>LekgoloWorm</BuffName>
-			<Cost Supplies="300" Power="200" />
-			<AutoRecharge>120000</AutoRecharge>
-			<ProcWhenActiveOnly />
-			<ProcOnLeaderPowerCast />
-			<ProcPowerName>FloodSickness_Proc</ProcPowerName>
-			<UIRadius>24</UIRadius>
-			<Decal>AOE_Medium</Decal>
-			<DisplayNameID>5000</DisplayNameID>
-			<RolloverTextID>5001</RolloverTextID>
-			<ShowLimit />
-			<LeaderPower />
-			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
-			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
-			<IconLocation>3</IconLocation>
-			<FlashUI>
-				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
-				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
-			</FlashUI>
-			<CameraZoomMin>150</CameraZoomMin>
-			<CameraZoomMax>150</CameraZoomMax>
-			<CameraPitchMin>55</CameraPitchMin>
-			<CameraPitchMax>55</CameraPitchMax>
-			<CameraEnableUserScroll>true</CameraEnableUserScroll>
-			<CameraEnableUserYaw>false</CameraEnableUserYaw>
-			<CameraEnableUserZoom>false</CameraEnableUserZoom>
-			<DelayProcOfNamedPower>FloodSickness_Proc</DelayProcOfNamedPower>
-			<BaseDataLevel>
-				<Data type="float" name="ProcOfNamedPowerDelayAmount">1.0f</Data>
-				<Data type="float" name="AreaRadius">23</Data>
-				<Data type="objecttype" name="FilterType">Unit</Data>
-				<Data type="objecttype" name="FilterType2">Flood</Data>
-				<Data type="float" name="BuffDuration">16</Data>
-				<Data type="bool" name="AffectsSelfOnly">true</Data>
-				<Data type="bool" name="AffectsEnemies">false</Data>
-				<Data type="float" name="DamageMitigationScalar">0.4</Data>
-				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
-				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
-				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
-				<Data type="protoobject" name="BuffActivateFX">vfx_dlc3_powers_buffs_lekgolowormbuff</Data>
-				<Data type="protoobject" name="CastVfx">vfx_dlc3_powers_buffs_lekgolowormbuffcast26</Data>
-				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BUF_BAN_LekgoloPilotingCast</Data>
-			</BaseDataLevel>
+			</DataLevel>
 		</Attributes>
 	</Power>
 	<Power name="FloodSickness_Proc">
@@ -27657,10 +27716,10 @@
 			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">23</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
-				<Data type="float" name="BuffDuration">16</Data>
+				<Data type="float" name="BuffDuration">15</Data>
 				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
 				<Data type="float" name="SlowModifier">0.8</Data>
-				<Data type="float" name="PercentHealthDamageOverTime">2.8</Data>
+				<Data type="float" name="PercentHealthDamageOverTime">0.8</Data>
 				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
 				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
 				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
@@ -28026,50 +28085,6 @@
 						<ConformToSlopedTerrain />
 					</Drop>
 				</Data>
-			</DataLevel>
-		</Attributes>
-	</Power>
-	<Power name="FloodRegen_Proc">
-		<Attributes>
-			<PowerType>Repair</PowerType>
-			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<BuffName>ConduitofRage</BuffName>
-			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
-			<UIRadius>40</UIRadius>
-			<Decal>ConduitOfRage_Small</Decal>
-			<LeaderPower />
-			<NotAffectedByCeasefire />
-			<IsProcPower />
-			<DontRecordGameStats />
-			<IconLocation>0</IconLocation>
-			<FlashUI>
-				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
-				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
-			</FlashUI>
-			<CameraZoomMin>200</CameraZoomMin>
-			<CameraZoomMax>200</CameraZoomMax>
-			<CameraPitchMin>55</CameraPitchMin>
-			<CameraPitchMax>55</CameraPitchMax>
-			<CameraEnableUserScroll>true</CameraEnableUserScroll>
-			<CameraEnableUserYaw>false</CameraEnableUserYaw>
-			<CameraEnableUserZoom>false</CameraEnableUserZoom>
-			<DataLevel level="0">
-				<Data type="bool" name="TargetStructuresOnly">false</Data>
-				<Data type="protoobject" name="RepairObject">fx_Unbrk_repairpower2</Data>
-				<Data type="protoobject" name="RepairAttachment">fx_repairing</Data>
-				<Data type="float" name="RepairRadius">32</Data>
-				<Data type="objecttype" name="FilterType">Military</Data>
-				<Data type="float" name="TickDuration">0.5</Data>
-				<Data type="int" name="NumTicks">15</Data>
-				<Data type="float" name="RepairPercentMaxHealthPerTick">0.07</Data>
-				<Data type="float" name="CooldownTimeIfDamaged">0</Data>
-				<Data type="bool" name="IgnorePlacement">false</Data>
-				<Data type="bool" name="HealAny">false</Data>
-				<Data type="sound" name="HudUpSound" />
-				<Data type="sound" name="HudAbortSound" />
-				<Data type="sound" name="HudFireSound" />
-				<Data type="sound" name="FiredSound" />
 			</DataLevel>
 		</Attributes>
 	</Power>
