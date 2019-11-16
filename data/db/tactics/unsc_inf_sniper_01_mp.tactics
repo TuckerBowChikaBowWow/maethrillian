@@ -34,23 +34,6 @@
 		<MaxVelocityLead>99</MaxVelocityLead>
 		<MaxRange>140</MaxRange>
 		<EnableHeightBonusDamage />
-		<AOEData>
-			<Hitbox>
-				<Type>Segment</Type>
-				<Length>ReachTarget</Length>
-				<Width>1</Width>
-				<DamageRatio>50</DamageRatio>
-				<Origin>Attacker</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>1</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Mine">1</TargetPriority>
 		<TargetPriority type="Aircraft">-1</TargetPriority>
@@ -108,23 +91,6 @@
 		<MaxVelocityLead>99</MaxVelocityLead>
 		<MaxRange>140</MaxRange>
 		<EnableHeightBonusDamage />
-		<AOEData>
-			<Hitbox>
-				<Type>Segment</Type>
-				<Length>ReachTarget</Length>
-				<Width>1</Width>
-				<DamageRatio>50</DamageRatio>
-				<Origin>Attacker</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>1</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Aircraft">8</TargetPriority>
 		<TargetPriority type="GroundVehicle">5</TargetPriority>
