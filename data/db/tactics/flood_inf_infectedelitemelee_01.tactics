@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>MeleeAttack</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>320</DamagePerSecond>
+		<DamagePerSecond>400</DamagePerSecond>
 		<WeaponType>Melee</WeaponType>
 		<MaxRange>5</MaxRange>
 		<ThrowUnits />
@@ -35,7 +35,7 @@
 	<Weapon>
 		<Name>HeroMeleeAttack</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>450</DamagePerSecond>
+		<DamagePerSecond>550</DamagePerSecond>
 		<WeaponType>Melee</WeaponType>
 		<MaxRange>5</MaxRange>
 		<ThrowUnits />
@@ -64,11 +64,11 @@
 	<Weapon>
 		<Name>JumpAttackHammer</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>500</DamagePerSecond>
+		<DamagePerSecond>650</DamagePerSecond>
 		<ImpactEffect size="Medium">BlisterBackArtilleryImpact</ImpactEffect>
 		<UseDPSasDPA />
 		<WeaponType>Melee</WeaponType>
-		<MaxRange>1.84500003</MaxRange>
+		<MaxRange>6</MaxRange>
 		<MinRange>0</MinRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -120,9 +120,9 @@
 		<Anim>LeapArc</Anim>
 		<EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.449999988">LeapLanding</EndAnim>
 		<Weapon>JumpAttackHammer</Weapon>
-		<MaxDistance>70</MaxDistance>
+		<MaxDistance>75</MaxDistance>
 		<MinRelativeHeight>8</MinRelativeHeight>
-		<MaxRelativeHeight>20</MaxRelativeHeight>
+		<MaxRelativeHeight>24</MaxRelativeHeight>
 		<VelocityScalar>35</VelocityScalar>
 		<LandingDelay>0.400000006</LandingDelay>
 	</Action>
@@ -134,7 +134,7 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>MeleeAttackAction</Action>
+			<Action>HeroMeleeAttackAction</Action>
 			<TargetType>Hero</TargetType>
 		</TargetRule>
 		<TargetRule>

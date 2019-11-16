@@ -38,7 +38,7 @@
 		<PhysicsForceMax>1400</PhysicsForceMax>
 		<ImpactEffect size="medium">RamImpact</ImpactEffect>
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="3.5" rollstrength="1.5" rotationfrequency="5" translationstrength="0" translationfrequency="6" />
-		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
+		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.50f</Slow>
 		<MaxDamagePerRam>2000</MaxDamagePerRam>
 		<ReflectDamageFactor>1.2</ReflectDamageFactor>
 		<Filter>Medium</Filter>
@@ -63,7 +63,7 @@
 	<Weapon>
 		<Name>RamSecondary</Name>
 		<WeaponType>WarthogRam</WeaponType>
-		<DamagePerSecond>275</DamagePerSecond>
+		<DamagePerSecond>350</DamagePerSecond>
 		<ThrowUnits />
 		<FlailThrownUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
@@ -81,10 +81,10 @@
 	<Action>
 		<Name>HammerAttackAction</Name>
 		<ActionType>HandAttack</ActionType>
-		<Anim noInterrupt="true">Attack</Anim>
+		<Anim>Attack</Anim>
 		<Weapon>Hammer</Weapon>
 		<FullBodyAttackAnim />
-		<Strafing turnRate="240" trackingSpeed="90" />
+		<Strafing turnRate="360" trackingSpeed="120" />
 	</Action>
 	<Action>
 		<Name>PersistentCollisionAttack</Name>
