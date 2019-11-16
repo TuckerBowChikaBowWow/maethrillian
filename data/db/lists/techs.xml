@@ -1317,7 +1317,7 @@
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_veh_mongoose_03">
 				<Target type="ProtoSquad">unsc_veh_mongoose_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.05999994" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_mongoose_01</Target>
 			</Effect>
 			<Effect type="Data" amount="80" subtype="StealthDetectionRange" relativity="Absolute">
@@ -3495,6 +3495,9 @@
 			</Effect>
 			<Effect type="Data" hpbar="Cov_HealthShield" subtype="HPBar" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="Data" amount="80" subtype="StealthDetectionRange" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
@@ -6024,6 +6027,12 @@
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Effects>
+			<Effect type="Data" amount="1" subtype="MaxContained" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_johnsonbunker_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="MaxContained" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_johnsonbunker_02_mp</Target>
+			</Effect>
 			<Effect type="Data" amount="-75" subtype="PowerCost" Resource="Supplies" power="UnscSiegeTurretDrop" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
@@ -6033,13 +6042,13 @@
 			<Effect type="Data" amount="-50" subtype="PowerCost" Resource="Supplies" power="UnscBunkerDrop1_MP" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
-			<Effect type="Data" amount="-10000" subtype="PowerRechargeTime" power="UnscBunkerDrop1_MP" relativity="Absolute">
+			<Effect type="Data" amount="-15000" subtype="PowerRechargeTime" power="UnscBunkerDrop1_MP" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
 			<Effect type="Data" amount="-50" subtype="PowerCost" Resource="Supplies" power="UnscBunkerDrop2_MP" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
-			<Effect type="Data" amount="-10000" subtype="PowerRechargeTime" power="UnscBunkerDrop2_MP" relativity="Absolute">
+			<Effect type="Data" amount="-15000" subtype="PowerRechargeTime" power="UnscBunkerDrop2_MP" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
 			<Effect type="Data" amount="-75" subtype="PowerCost" Resource="Supplies" power="UnscSiegeTurretDrop2" relativity="Absolute">
@@ -6100,6 +6109,12 @@
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Effects>
+			<Effect type="Data" amount="1" subtype="MaxContained" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_johnsonbunker_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="MaxContained" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_johnsonbunker_02_mp</Target>
+			</Effect>
 			<Effect type="Data" amount="-75" subtype="PowerCost" Resource="Supplies" power="UnscSiegeTurretDrop" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
@@ -6109,13 +6124,13 @@
 			<Effect type="Data" amount="-50" subtype="PowerCost" Resource="Supplies" power="UnscBunkerDrop1_MP" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
-			<Effect type="Data" amount="-10000" subtype="PowerRechargeTime" power="UnscBunkerDrop1_MP" relativity="Absolute">
+			<Effect type="Data" amount="-15000" subtype="PowerRechargeTime" power="UnscBunkerDrop1_MP" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
 			<Effect type="Data" amount="-50" subtype="PowerCost" Resource="Supplies" power="UnscBunkerDrop2_MP" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
-			<Effect type="Data" amount="-10000" subtype="PowerRechargeTime" power="UnscBunkerDrop2_MP" relativity="Absolute">
+			<Effect type="Data" amount="-15000" subtype="PowerRechargeTime" power="UnscBunkerDrop2_MP" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
 			<Effect type="Data" amount="-75" subtype="PowerCost" Resource="Supplies" power="UnscSiegeTurretDrop2" relativity="Absolute">

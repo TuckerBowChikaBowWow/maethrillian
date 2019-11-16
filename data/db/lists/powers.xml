@@ -7327,6 +7327,7 @@
 				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
 				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">1</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>unsc_bldg_johnsonbunker_01_mp</ProtoSquadID>
@@ -7385,6 +7386,7 @@
 				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
 				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">2</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>unsc_bldg_johnsonbunker_02_mp</ProtoSquadID>
@@ -31949,9 +31951,10 @@
 				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
 				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">2</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
-						<ProtoSquadID>unsc_bldg_siegedropTurret_02</ProtoSquadID>
+						<ProtoSquadID>unsc_bldg_siegedropTurret_01</ProtoSquadID>
 						<ProjectileOverride>unsc_air_turretpod_01</ProjectileOverride>
 						<PlayTrainAnim>true</PlayTrainAnim>
 					</Drop>
@@ -36493,7 +36496,7 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">20</Data>
+				<Data type="float" name="BuffDuration">22</Data>
 				<Data type="float" name="SlowModifier">1.14999998</Data>
 				<Data type="float" name="DamageDealtModifier">1.20000005</Data>
 				<Data type="bool" name="ProcPowerOnSquadDeath">true</Data>
@@ -36592,7 +36595,7 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">20</Data>
+				<Data type="float" name="BuffDuration">24</Data>
 				<Data type="float" name="SlowModifier">1.14999998</Data>
 				<Data type="float" name="DamageDealtModifier">1.25</Data>
 				<Data type="bool" name="ProcPowerOnSquadDeath">true</Data>
@@ -36690,7 +36693,7 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">20</Data>
+				<Data type="float" name="BuffDuration">26</Data>
 				<Data type="float" name="SlowModifier">1.14999998</Data>
 				<Data type="float" name="DamageDealtModifier">1.29999995</Data>
 				<Data type="bool" name="ProcPowerOnSquadDeath">true</Data>

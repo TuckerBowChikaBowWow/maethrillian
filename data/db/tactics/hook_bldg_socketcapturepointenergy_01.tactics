@@ -22,7 +22,7 @@
 	<Action>
 		<Name>ChillAura</Name>
 		<ActionType>AreaBuff</ActionType>
-		<WorkRange>30</WorkRange>
+		<WorkRange>55</WorkRange>
 		<SpecificData>
 			<BuffParams BuffType="ChillAura" ChillOverTime="2.0f">1.0f</BuffParams>
 			<TargetTypes>
@@ -40,7 +40,7 @@
 				<Relation>Enemy</Relation>
 			</Relations>
 		</SpecificData>
-		<ProtoObject>fx_cryoauratierblock_02</ProtoObject>
+		<ProtoObject>fx_cryoaura_01</ProtoObject>
 		<StartDisabled />
 	</Action>
 	<Tactic>
