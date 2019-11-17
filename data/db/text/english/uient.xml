@@ -4193,6 +4193,10 @@ Units must die within the power's set time frame.</str>
 	<str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.NAME">INFESTER</str>
 	<str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.ROLE">ANTI-RUSH</str>
 	<str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.SHORTDESCR">Fast moving melee unit with AOE.</str>
+	<str id="UIENT.flood_vehinfector_upgrade1.RADIALCENTER.NAME">INFESTER RAM</str>
+	<str id="UIENT.flood_vehinfector_upgrade1.RADIALEDGE.NAME">INFESTER RAM</str>
+	<str id="UIENT.flood_vehinfector_upgrade1.RADIALEDGE.ROLE">UPGRADE</str>
+	<str id="UIENT.flood_vehinfector_upgrade1.RADIALEDGE.SHORTDESCR">Unlocks Ram ability for Infestor.</str>
 	<str id="UIENT.flood_air_airborneinfector_01.RADIALCENTER.NAME">SEEDER</str>
 	<str id="UIENT.flood_air_airborneinfector_01.RADIALEDGE.NAME">SEEDER</str>
 	<str id="UIENT.flood_air_airborneinfector_01.RADIALEDGE.ROLE">ANTI-AIR</str>
@@ -4225,9 +4229,10 @@ Increases Hive HP and Healing aura.</str>
 	<str id="UIENT.FloodBaseDrop1.RADIALCENTER.NAME">HIVE DROP</str>
 	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.NAME">HIVE DROP</str>
 	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.SALESPITCH">Permanent flood hive that can build units. Adds 10 population but bonus population is lost when the hive is destroyed. Minimal line of sight. Has healing aura for flood units. Upgrade-able through the armory with Hive Tech and Cancerous Growth.</str>
+	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.SALESPITCH">Permanent Flood hive that can train and heal flood units. Adds 10 population but bonus population is lost when the hive is destroyed. </str>
 	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.SHORTDESCR">Drop a hivebase to the battlefield that can train and heal flood units.
-Increases population cap by +10.</str>
+Increases population cap by +10.
+Upgrade-able through the armory with Hive Tech and Cancerous Growth.</str>
 	<str id="UIENT.FloodRuptureEmerge.RADIALCENTER.NAME">FLOOD ROOT</str>
 	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.NAME">FLOOD ROOT</str>
 	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.ROLE">ACTIVE POWER</str>
@@ -4237,13 +4242,13 @@ Increases population cap by +10.</str>
 	<str id="UIENT.Flood_Emerge_Infectors.RADIALCENTER.NAME">INFECTED BLISTERS I</str>
 	<str id="UIENT.Flood_Emerge_Infectors.RADIALEDGE.NAME">INFECTED BLISTERS I</str>
 	<str id="UIENT.Flood_Emerge_Infectors.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.Flood_Emerge_Infectors.RADIALEDGE.SALESPITCH">Spawns 3 exploding Flood blisters that infect units.</str>
-	<str id="UIENT.Flood_Emerge_Infectors.RADIALEDGE.SHORTDESCR">Spawns 3 exploding Flood blisters that infect units.</str>
-	<str id="UIENT.Flood_Emerge_Infectors.RADIALEDGE.UPGRADEPITCH">Adds 1 CENSORED to the drop</str>
+	<str id="UIENT.Flood_Emerge_Infectors.RADIALEDGE.SALESPITCH">Drop 4 exploding Flood blisters that deal massive damage and infect units.</str>
+	<str id="UIENT.Flood_Emerge_Infectors.RADIALEDGE.SHORTDESCR">Drop 4 exploding Flood blisters that deal massive damage and infect units.</str>
+	<str id="UIENT.Flood_Emerge_Infectors.RADIALEDGE.UPGRADEPITCH">Adds 2 more Flood blisters to the drop</str>
 	<str id="UIENT.Flood_Emerge_Infectors2.RADIALCENTER.NAME">INFECTED BLISTERS II</str>
 	<str id="UIENT.Flood_Emerge_Infectors2.RADIALEDGE.NAME">INFECTED BLISTERS II</str>
 	<str id="UIENT.Flood_Emerge_Infectors2.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.Flood_Emerge_Infectors2.RADIALEDGE.SHORTDESCR">Spawns 4 exploding Flood blisters that infect units.</str>
+	<str id="UIENT.Flood_Emerge_Infectors2.RADIALEDGE.SHORTDESCR">Drop 6 exploding Flood blisters that deal massive damage and infect units.</str>
 	<str id="UIENT.FloodEggDrop1.RADIALCENTER.NAME">EGG DROP I</str>
 	<str id="UIENT.FloodEggDrop1.RADIALEDGE.NAME">EGG DROP I</str>
 	<str id="UIENT.FloodEggDrop1.RADIALEDGE.ROLE">ACTIVE POWER</str>
@@ -4257,35 +4262,36 @@ Increases population cap by +10.</str>
 	<str id="UIENT.Flood_Barrage1.RADIALCENTER.NAME">CONVICTING PESTILENCE I</str>
 	<str id="UIENT.Flood_Barrage1.RADIALEDGE.NAME">CONVICTING PESTILENCE I</str>
 	<str id="UIENT.Flood_Barrage1.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.Flood_Barrage1.RADIALEDGE.SALESPITCH">Bombards a target area with infected debris from the Indulgence of Conviction with a chance to infect infantry units.</str>
-	<str id="UIENT.Flood_Barrage1.RADIALEDGE.SHORTDESCR">Activate to bombard a target area with infected debris from the Indulgence of Conviction with a chance to infect infantry units.</str>
+	<str id="UIENT.Flood_Barrage1.RADIALEDGE.SALESPITCH">Bombards a target area with infected debris from the Indulgence of Conviction.</str>
+	<str id="UIENT.Flood_Barrage1.RADIALEDGE.SHORTDESCR">Activate to bombard a target area with infected debris from the Indulgence of Conviction.</str>
 	<str id="UIENT.Flood_Barrage1.RADIALEDGE.UPGRADEPITCH">Increases the amount of debris and flood biomass dropped.</str>
 	<str id="UIENT.Flood_Barrage2.RADIALCENTER.NAME">CONVICTING PESTILENCE II</str>
 	<str id="UIENT.Flood_Barrage2.RADIALEDGE.NAME">CONVICTING PESTILENCE II</str>
 	<str id="UIENT.Flood_Barrage2.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.Flood_Barrage2.RADIALEDGE.SHORTDESCR">Activate to bombard a target area with infected debris from the Indulgence of Conviction with a chance to infect infantry units.</str>
+	<str id="UIENT.Flood_Barrage2.RADIALEDGE.SHORTDESCR">Activate to bombard a target area with infected debris from the Indulgence of Conviction.</str>
 	<str id="UIENT.Flood_InfantryRecycle.RADIALCENTER.NAME">GET BACK OUT THERE</str>
 	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.NAME">GET BACK OUT THERE</str>
 	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.SALESPITCH">While active, the first 8 flood units you lose will respawn at your home base.
-Does not affect Cannon Fodder.</str>
+Does not affect ABOMINATION, Egg, Hive, or Root.</str>
 	<str id="UIENT.Flood_InfantryRecycle.RADIALEDGE.SHORTDESCR">Activate to have the next 8 flood you lose respawn at your home base.
-Does not affect Cannon Fodder.</str>
+Does not affect ABOMINATION, Egg, Hive, or Root.</str>
 	<str id="UIENT.FloodFeast1.RADIALCENTER.NAME">FLOOD FEAST I</str>
 	<str id="UIENT.FloodFeast1.RADIALEDGE.NAME">FLOOD FEAST I</str>
 	<str id="UIENT.FloodFeast1.RADIALEDGE.ROLE">PASSIVE POWER</str>
-	<str id="UIENT.FloodFeast1.RADIALEDGE.SALESPITCH">Flood feasts off of unit kills. Power acts like killing frenzy. Gives flood unti a damage and speed buff and a heal on unit kill.</str>
-	<str id="UIENT.FloodFeast1.RADIALEDGE.SHORTDESCR">Flood feasts off of unit kills. Power acts like killing frenzy. Gives flood unti a damage and speed buff and a heal on unit kill.</str>
-	<str id="UIENT.FloodFeast1.RADIALEDGE.UPGRADEPITCH">PLACEHOLDER TEXT.</str>
+	<str id="UIENT.FloodFeast1.RADIALEDGE.SALESPITCH">Flood feasts on organic material.
+Flood units get a damage and speed buff and a heal on unit kill.</str>
+	<str id="UIENT.FloodFeast1.RADIALEDGE.SHORTDESCR">Flood units get a damage and speed buff, and a heal when they kill enemies.</str>
+	<str id="UIENT.FloodFeast1.RADIALEDGE.UPGRADEPITCH">Increases duration and buff</str>
 	<str id="UIENT.FloodFeast2.RADIALCENTER.NAME">FLOOD FEAST II</str>
 	<str id="UIENT.FloodFeast2.RADIALEDGE.NAME">FLOOD FEAST II</str>
 	<str id="UIENT.FloodFeast2.RADIALEDGE.ROLE">PASSIVE POWER</str>
-	<str id="UIENT.FloodFeast2.RADIALEDGE.SHORTDESCR">Flood feasts off of unit kills. Power acts like killing frenzy. Gives flood unti a damage and speed buff and a heal on unit kill.</str>
+	<str id="UIENT.FloodFeast2.RADIALEDGE.SHORTDESCR">Flood units get a damage and speed buff, and a heal when they kill enemies.</str>
 	<str id="UIENT.FloodBuff.RADIALCENTER.NAME">HIVE MIND</str>
 	<str id="UIENT.FloodBuff.RADIALEDGE.NAME">HIVE MIND</str>
 	<str id="UIENT.FloodBuff.RADIALEDGE.ROLE">PASSIVE POWER</str>
-	<str id="UIENT.FloodBuff.RADIALEDGE.SALESPITCH">Makes Flood-core units cheaper. Reduce cooldown and cost of Hive drop.(possibly add additional buffs if Flood late game is weak)</str>
-	<str id="UIENT.FloodBuff.RADIALEDGE.SHORTDESCR">Makes Flood-core units cheaper. Reduced cooldown and cost of Hive drop.(possibly add additional buffs if Flood late game is weak)</str>
+	<str id="UIENT.FloodBuff.RADIALEDGE.SALESPITCH">Makes Flood-core units cheaper. Reduce cooldown and cost of Hive drop.</str>
+	<str id="UIENT.FloodBuff.RADIALEDGE.SHORTDESCR">Makes Flood-core units cheaper. Reduced cooldown and cost of Hive drop.</str>
 	<str id="UIENT.flood_inf_infectedrocket_01.RadialCenter.Name">INFECTED COMBAT TECH</str>
 	<str id="UIENT.flood_inf_infectedrocket_01.RadialEdge.Name">INFECTED COMBAT TECH</str>
 	<str id="UIENT.flood_inf_infectedrocket_01.RadialEdge.Role">ANTI-VEHICLE</str>
@@ -4435,18 +4441,19 @@ Detects cloaked units</str>
 	<str id="UIENT.FloodWormBuff.RADIALCENTER.NAME">ANABOLIC PARASITES I</str>
 	<str id="UIENT.FloodWormBuff.RADIALEDGE.NAME">ANABOLIC PARASITES I</str>
 	<str id="UIENT.FloodWormBuff.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.FloodWormBuff.RADIALEDGE.SALESPITCH">Provides damage mitigation to flood units and does damage over time to enemy units in the AOE.</str>
-	<str id="UIENT.FloodWormBuff.RADIALEDGE.SHORTDESCR">Provides damage mitigation to flood units and does damage over time to enemy units in the AOE.</str>
-	<str id="UIENT.FloodWormBuff.RADIALEDGE.UPGRADEPITCH">PLACEHOLDER TEXT</str>
+	<str id="UIENT.FloodWormBuff.RADIALEDGE.SALESPITCH">Increases Armor of Flood units and does damage over time to enemy units in the AOE.</str>
+	<str id="UIENT.FloodWormBuff.RADIALEDGE.SHORTDESCR">Increases Armor of Flood units and does damage over time to enemy units in the AOE.</str>
+	<str id="UIENT.FloodWormBuff.RADIALEDGE.UPGRADEPITCH">Increases AOE and Armor buff.</str>
 	<str id="UIENT.FloodWormBuff2.RADIALCENTER.NAME">ANABOLIC PARASITES II</str>
 	<str id="UIENT.FloodWormBuff2.RADIALEDGE.NAME">ANABOLIC PARASITES II</str>
 	<str id="UIENT.FloodWormBuff2.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.FloodWormBuff2.RADIALEDGE.SALESPITCH">Provides damage mitigation to flood units and does damage over time to enemy units in the AOE.</str>
-	<str id="UIENT.FloodWormBuff2.RADIALEDGE.SHORTDESCR">Provides damage mitigation to flood units and does damage over time to enemy units in the AOE.</str>
+	<str id="UIENT.FloodWormBuff2.RADIALEDGE.SALESPITCH">Increases Armor of Flood units and does damage over time to enemy units in the AOE.</str>
+	<str id="UIENT.FloodWormBuff2.RADIALEDGE.SHORTDESCR">Increases Armor of Flood units and does damage over time to enemy units in the AOE.</str>
 	<str id="UIENT.flood_inf_infected_elitemelee_01.RadialCenter.Name">INFECTED ELITE</str>
 	<str id="UIENT.flood_inf_infected_elitemelee_01.RadialEdge.Name">INFECTED ELITE</str>
 	<str id="UIENT.flood_inf_infected_elitemelee_01.RadialEdge.Role">ANTI-BUILDING</str>
-	<str id="UIENT.flood_inf_infected_elitemelee_01.RadialEdge.ShortDescr">PLACEHOLDER TEXT</str>
+	<str id="UIENT.flood_inf_infected_elitemelee_01.RadialEdge.ShortDescr">Melee unit with high building damage.
+Has jump ability.</str>
 	<str id="UIENT.flood_infectedbrute_carrier_01.RadialCenter.Name">CARRIER</str>
 	<str id="UIENT.flood_infectedbrute_carrier_01.RadialEdge.Name">CARRIER</str>
 	<str id="UIENT.flood_infectedbrute_carrier_01.RadialEdge.Role">ANTI-INFANTRY</str>
@@ -4455,6 +4462,10 @@ Detects cloaked units</str>
 	<str id="UIENT.fld_bldg_drophivebase_01.RadialEdge.Name">HIVE BASE</str>
 	<str id="UIENT.fld_bldg_drophivebase_01.RadialEdge.Role">PROVIDES SUPPORT</str>
 	<str id="UIENT.fld_bldg_drophivebase_01.RadialEdge.ShortDescr">Buffs and produces units.</str>
+	<str id="UIENT.flood_structure_floodbosstentacledrop_01.RadialCenter.Name">FLOOD ROOT</str>
+	<str id="UIENT.flood_structure_floodbosstentacledrop_01.RadialEdge.Name">FLOOD ROOT</str>
+	<str id="UIENT.flood_structure_floodbosstentacledrop_01.RadialEdge.Role">FLOOD TURRET</str>
+	<str id="UIENT.flood_structure_floodbosstentacledrop_01.RadialEdge.ShortDescr">Flood root that slams.</str>
 	<str id="UIENT.flood_bldg_eggdrop_01.RadialCenter.Name">EGG</str>
 	<str id="UIENT.flood_bldg_eggdrop_01.RadialEdge.Name">EGG</str>
 	<str id="UIENT.flood_bldg_eggdrop_01.RadialEdge.Role">MINE</str>
