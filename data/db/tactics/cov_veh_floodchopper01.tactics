@@ -1,123 +1,162 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>PlasmaCannonLeft</Name>
+		<Name>ShadeTurret</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>60</DamagePerSecond>
-		<WeaponType>SmallArmsScouts</WeaponType>
-		<Projectile>fx_proj_bruteGun_01</Projectile>
-		<ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
-		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
-		<Hardpoint>PlasmaTurretLeft</Hardpoint>
-		<Accuracy>1</Accuracy>
-		<MaxDeviation>1.5</MaxDeviation>
-		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>2</MovingMaxDeviation>
-		<EnableHeightBonusDamage />
-		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="Aircraft">5</TargetPriority>
-		<TargetPriority type="GroundVehicle">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<PreAttackCooldownMin>0.300000012</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
-	</Weapon>
-	<Weapon>
-		<Name>PlasmaCannonRight</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>60</DamagePerSecond>
-		<WeaponType>SmallArmsScouts</WeaponType>
-		<Projectile>fx_proj_bruteGun_01</Projectile>
-		<ImpactEffect size="Medium">SpikerImpact</ImpactEffect>
-		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
-		<Hardpoint>PlasmaTurretRight</Hardpoint>
-		<Accuracy>1</Accuracy>
-		<MaxDeviation>1.5</MaxDeviation>
-		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>2</MovingMaxDeviation>
-		<EnableHeightBonusDamage />
-		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="Aircraft">5</TargetPriority>
-		<TargetPriority type="GroundVehicle">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<PreAttackCooldownMin>0.300000012</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
-	</Weapon>
-	<Weapon>
-		<Name>ExplosivePlasmaCannonLeft</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>55</DamagePerSecond>
-		<WeaponType>SmallArmsScouts</WeaponType>
-		<Projectile>fx_proj_bruteGun_02</Projectile>
-		<ImpactEffect size="Medium">ExplosiveSpikeImpact</ImpactEffect>
-		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
-		<Hardpoint>PlasmaTurretLeft</Hardpoint>
-		<Accuracy>1</Accuracy>
-		<MaxDeviation>1.5</MaxDeviation>
-		<MovingAccuracy>0.100000001</MovingAccuracy>
-		<MovingMaxDeviation>2</MovingMaxDeviation>
-		<EnableHeightBonusDamage />
+		<DamagePerSecond>290</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_MethaneShell</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true">MethaneShellExplosion</ImpactEffect>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>8</Radius>
+				<Radius>1</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
-		</AOEData>
-		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="Aircraft">5</TargetPriority>
-		<TargetPriority type="GroundVehicle">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<PreAttackCooldownMin>0.300000012</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
-	</Weapon>
-	<Weapon>
-		<Name>ExplosivePlasmaCannonRight</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>55</DamagePerSecond>
-		<WeaponType>SmallArmsScouts</WeaponType>
-		<Projectile>fx_proj_bruteGun_02</Projectile>
-		<ImpactEffect size="Medium">ExplosiveSpikeImpact</ImpactEffect>
-		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
-		<Hardpoint>PlasmaTurretRight</Hardpoint>
-		<Accuracy>1</Accuracy>
-		<MaxDeviation>1.5</MaxDeviation>
-		<MovingAccuracy>0.100000001</MovingAccuracy>
-		<MovingMaxDeviation>2</MovingMaxDeviation>
-		<EnableHeightBonusDamage />
-		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>8</Radius>
-				<DamageRatio>100</DamageRatio>
+				<Radius>6</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>30</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<TargetPriority type="Infantry">10</TargetPriority>
-		<TargetPriority type="Aircraft">5</TargetPriority>
-		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<MaxVelocityLead>48.4500008</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Hardpoint>ShadeTurret</Hardpoint>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
-		<PreAttackCooldownMin>0.300000012</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
+		<TargetPriority type="Flying">9</TargetPriority>
+		<TargetPriority type="Aircraft">9</TargetPriority>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2</PostAttackCooldownMin>
+		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>scarabBeam</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>1500</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_scarabBeam_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MinRange>6</MinRange>
+		<MaxRange>60</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>900</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<TargetPriority type="Flying">2</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>wuvwooscarabBeam</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>1500</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>fx_proj_wuvwooBeam_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MinRange>6</MinRange>
+		<MaxRange>60</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>900</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">5</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Building">5</TargetPriority>
+		<TargetPriority type="Flying">2</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>StompAttackWeapon</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>600</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<UseDPSasDPA />
+		<ImpactEffect size="Medium">ScarabStomp</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>900</PhysicsForceMax>
 	</Weapon>
 	<Weapon>
 		<Name>Ram</Name>
 		<WeaponType>WarthogRam</WeaponType>
-		<DamagePerSecond>650</DamagePerSecond>
+		<MaxRange>3.07500005</MaxRange>
+		<AOERadius>24.6000004</AOERadius>
 		<ThrowUnits />
 		<FlailThrownUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
@@ -125,16 +164,98 @@
 		<PhysicsLaunchAxial />
 		<PhysicsForceMin>1000</PhysicsForceMin>
 		<PhysicsForceMax>1400</PhysicsForceMax>
-		<ImpactEffect size="medium">RamImpact</ImpactEffect>
-		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="3.5" rollstrength="1.5" rotationfrequency="5" translationstrength="0" translationfrequency="6" />
+		<ImpactCameraShake duration="0.400000006" strength="0.379999995" />
 		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
 		<MaxDamagePerRam>2000</MaxDamagePerRam>
-		<ReflectDamageFactor>1</ReflectDamageFactor>
+		<ReflectDamageFactor>0</ReflectDamageFactor>
 		<Filter>Medium</Filter>
+	</Weapon>
+	<Weapon>
+		<Name>MethaneBeacon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1260</DamagePerSecond>
+		<UseDPSasDPA />
+		<Hardpoint>MethaneLauncher</Hardpoint>
+		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+		<Projectile>fx_proj_MethaneShell</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true">MethaneShellExplosion</ImpactEffect>
+		<Mine>fx_mine_methaneBeacon_01</Mine>
+		<MaxRange>180</MaxRange>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>4</Radius>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>30</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>MethaneBeaconAlly</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1200</DamagePerSecond>
+		<UseDPSasDPA />
+		<Hardpoint>MethaneLauncher</Hardpoint>
+		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+		<Projectile>fx_proj_MethaneShell</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true">MethaneShellExplosion</ImpactEffect>
+		<Mine>fx_mine_methaneBeacon_01</Mine>
+		<MaxRange>60</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>30</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<AlwaysReplaceTargetWithItsPosition />
+	</Weapon>
+	<Weapon>
+		<Name>MethaneBeaconUpgrade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1300</DamagePerSecond>
+		<UseDPSasDPA />
+		<Hardpoint>MethaneLauncher</Hardpoint>
+		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+		<Projectile>fx_proj_MethaneShell</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true">MethaneShellExplosion</ImpactEffect>
+		<Mine>fx_mine_methaneBeacon_02</Mine>
+		<MaxRange>60</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -142,64 +263,200 @@
 			<Hitbox>
 				<Type>Circle</Type>
 				<Radius>10</Radius>
-				<DamageRatio>25</DamageRatio>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>15</Radius>
+				<DamageRatio>30</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<MaxInfantrySquadsPerRam>6</MaxInfantrySquadsPerRam>
+		<StartDisabled />
 	</Weapon>
 	<Weapon>
-		<Name>RamSecondary</Name>
-		<WeaponType>WarthogRam</WeaponType>
-		<DamagePerSecond>200</DamagePerSecond>
-		<ThrowUnits />
-		<FlailThrownUnits />
-		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>30</PhysicsLaunchAngleMax>
-		<PhysicsLaunchAxial />
-		<PhysicsForceMin>1000</PhysicsForceMin>
-		<PhysicsForceMax>1400</PhysicsForceMax>
-		<ImpactEffect size="medium">RamImpactInfantry</ImpactEffect>
-		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.200000003" yawpitchstrength="0.400000006" rollstrength="0.200000003" rotationfrequency="3" translationstrength="0" translationfrequency="6" />
-		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
-		<MaxDamagePerRam>2000</MaxDamagePerRam>
-		<ReflectDamageFactor>0</ReflectDamageFactor>
-		<Filter>Medium</Filter>
+		<Name>MethaneBeaconUpgradeAlly</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1300</DamagePerSecond>
+		<UseDPSasDPA />
+		<Hardpoint>MethaneLauncher</Hardpoint>
+		<WeaponType>LeaderPowerReducedBuildingDamage</WeaponType>
+		<Projectile>fx_proj_MethaneShell</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true">MethaneShellExplosion</ImpactEffect>
+		<Mine>fx_mine_methaneBeacon_02</Mine>
+		<MaxRange>60</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>15</Radius>
+				<DamageRatio>30</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<StartDisabled />
+		<AlwaysReplaceTargetWithItsPosition />
 	</Weapon>
 	<Action>
-		<Name>PlasmaCannonLeftAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>Attack_Left</Anim>
-		<Weapon>PlasmaCannonLeft</Weapon>
+		<Name>DisruptionField</Name>
+		<ActionType>DisruptionField</ActionType>
+		<Duration>8</Duration>
+		<WorkRange>25</WorkRange>
+		<WorkRate>0</WorkRate>
+		<ProtoObject>fx_scarabField</ProtoObject>
+		<AffectsOnlySelf />
 	</Action>
 	<Action>
-		<Name>PlasmaCannonRightAttackAction</Name>
+		<Name>ShadeTurretAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>Attack_Right</Anim>
-		<Weapon>PlasmaCannonRight</Weapon>
-		<SlaveAttackAction>PlasmaCannonLeftAttackAction</SlaveAttackAction>
+		<Anim>ShadeTurretFire</Anim>
+		<Weapon>ShadeTurret</Weapon>
+		<DontCheckOrientTolerance />
+		<StartAnim noInterrupt="true">ShadeTurretOpen</StartAnim>
+		<EndAnim>ShadeTurretClose</EndAnim>
+		<CombatIdleAnimOverride>ShadeTurretCombatIdle</CombatIdleAnimOverride>
+		<CombatIdleDuration>2.5</CombatIdleDuration>
 	</Action>
 	<Action>
-		<Name>ExplosivePlasmaCannonLeftAttackAction</Name>
+		<Name>scarabBeamAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>Exp_Attack_Left</Anim>
-		<Weapon>ExplosivePlasmaCannonLeft</Weapon>
+		<Anim>BeamAttack</Anim>
+		<Weapon>scarabBeam</Weapon>
+		<Strafing maxDistance="45" turnRate="90" trackingSpeed="25" jitter="20" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<CanOrientOwner>true</CanOrientOwner>
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+		<PersistBetweenOpps />
+		<LoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>wuvwooscarabBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BeamAttack</Anim>
+		<Weapon>wuvwooscarabBeam</Weapon>
+		<Strafing maxDistance="45" turnRate="90" trackingSpeed="25" jitter="20" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<CanOrientOwner>true</CanOrientOwner>
+		<FullBodyAttackAnim />
+		<ForceAttachmentAnim />
+		<PersistBetweenOpps />
+		<LoopAttackAnim />
 		<StartDisabled />
 	</Action>
 	<Action>
-		<Name>ExplosivePlasmaCannonRightAttackAction</Name>
+		<Name>AreaBuff</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>45</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="MethaneBuff" DamageMitigationScalar="0.800000012" DamageDealtModifier="1.4000005">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>Grunt</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Ally</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>fx_MethaneAura2</ProtoObject>
+	</Action>
+	<Action>
+		<Name>AreaDebuff</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>45</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="MethaneDebuff" DamageMitigationScalar="1.30000005" SlowModifier="0.800000012">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>Military</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+	</Action>
+	<Action>
+		<Name>AreaBuffUpgrade</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>45</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="MethaneBuff" DamageMitigationScalar="0.800000012" DamageDealtModifier="1.40000005">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>Grunt</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Ally</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>fx_MethaneAura3</ProtoObject>
+	</Action>
+	<Action>
+		<Name>AreaDebuffUpgrade</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>35</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="MethaneDebuff" DamageMitigationScalar="1.40000005" SlowModifier="0.800000012">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>Military</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+	</Action>
+	<Action>
+		<Name>MethaneBeaconAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>Exp_Attack_Right</Anim>
-		<Weapon>ExplosivePlasmaCannonRight</Weapon>
-		<SlaveAttackAction>ExplosivePlasmaCannonLeftAttackAction</SlaveAttackAction>
+		<Anim noInterrupt="true">RangedAttack</Anim>
+		<Weapon>MethaneBeacon</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+	</Action>
+	<Action>
+		<Name>MethaneBeaconAllyAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim noInterrupt="true">RangedAttack</Anim>
+		<Weapon>MethaneBeaconAlly</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+	</Action>
+	<Action>
+		<Name>MethaneBeaconUpgradeAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim noInterrupt="true">RangedAttack</Anim>
+		<Weapon>MethaneBeaconUpgrade</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>MethaneBeaconUpgradeAllyAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim noInterrupt="true">RangedAttack</Anim>
+		<Weapon>MethaneBeaconUpgradeAlly</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
 		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>PersistentCollisionAttack</Name>
 		<ActionType>CollisionAttack</ActionType>
 		<Weapon>Ram</Weapon>
-		<SecondaryWeapon>RamSecondary</SecondaryWeapon>
 	</Action>
 	<Action>
 		<Name>RamAttack</Name>
@@ -207,51 +464,10 @@
 		<Weapon>Ram</Weapon>
 	</Action>
 	<Action>
-		<Name>GatherSupplies</Name>
-		<ActionType>Gather</ActionType>
-		<Anim>Gather</Anim>
-		<Resource>Supplies</Resource>
-		<WorkRate>4</WorkRate>
-		<WorkRange>4</WorkRange>
-		<RestrictedAutoTarget>true</RestrictedAutoTarget>
-	</Action>
-	<Action>
-		<Name>GatherPower</Name>
-		<ActionType>Gather</ActionType>
-		<Anim>Gather</Anim>
-		<Resource>Power</Resource>
-		<WorkRate>4</WorkRate>
-		<WorkRange>4</WorkRange>
-		<RestrictedAutoTarget>true</RestrictedAutoTarget>
-	</Action>
-	<Action>
-		<Name>Garrison</Name>
-		<ActionType>Garrison</ActionType>
-		<WorkRange>3.07500005</WorkRange>
-	</Action>
-	<Action>
-		<Name>GarrisonSpirit</Name>
-		<ActionType>Garrison</ActionType>
-		<Anim>HotDropUp</Anim>
-		<WorkRange>7.99499989</WorkRange>
-	</Action>
-	<Action>
-		<Name>UngarrisonSpirit</Name>
-		<ActionType>Ungarrison</ActionType>
-		<Anim>HotDropDown</Anim>
-		<WorkRange>0</WorkRange>
-	</Action>
-	<Action>
-		<Name>GarrisonHotDrop</Name>
-		<ActionType>Garrison</ActionType>
-		<Anim>HotDropUp</Anim>
-		<WorkRange>9.22500038</WorkRange>
-	</Action>
-	<Action>
-		<Name>UngarrisonHotDrop</Name>
-		<ActionType>Ungarrison</ActionType>
-		<Anim>HotDropDown</Anim>
-		<WorkRange>0</WorkRange>
+		<Name>StompAttack</Name>
+		<ActionType>CollisionAttack</ActionType>
+		<Weapon>StompAttackWeapon</Weapon>
+		<TrampleAttack />
 	</Action>
 	<Action>
 		<Name>GarrisonTeleport</Name>
@@ -274,60 +490,46 @@
 		<WorkRange>4</WorkRange>
 	</Action>
 	<Tactic>
+		<PersistentAction>ShadeTurretAttackAction</PersistentAction>
 		<PersistentAction>PersistentCollisionAttack</PersistentAction>
+		<PersistentAction>AreaBuffUpgrade</PersistentAction>
+		<PersistentAction>AreaDebuffUpgrade</PersistentAction>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>DisruptionField</Action>
+			<Relation>Self</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>DisruptionField</Action>
+			<Relation>Ally</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>DisruptionField</Action>
+			<TargetsGround />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>DisruptionField</Action>
+			<Relation>Enemy</Relation>
+		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
 			<Action>GatherCollectables</Action>
 		</TargetRule>
 		<TargetRule>
-			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
-			<TargetType>GroundVehicle</TargetType>
-			<TargetType>Infantry</TargetType>
-			<Action>RamAttack</Action>
+			<Action>scarabBeamAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>PlasmaCannonRightAttackAction</Action>
-			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
+			<Action>wuvwooscarabBeamAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>ExplosivePlasmaCannonRightAttackAction</Action>
-			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Ally</Relation>
-			<TargetType>transport</TargetType>
-			<Action>GarrisonSpirit</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Ungarrison</Ability>
-			<Relation>Ally</Relation>
-			<TargetType>transport</TargetType>
-			<Action>UngarrisonSpirit</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Self</Relation>
-			<TargetType>HotDropPickup</TargetType>
-			<Action>GarrisonHotDrop</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Ungarrison</Ability>
-			<Relation>Self</Relation>
-			<TargetType>HotDropPickup</TargetType>
-			<Action>UngarrisonHotDrop</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>Resource_Supplies</TargetType>
-			<Action>GatherSupplies</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>Resource_Power</TargetType>
-			<Action>GatherPower</Action>
+			<Action>ShadeTurretAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />

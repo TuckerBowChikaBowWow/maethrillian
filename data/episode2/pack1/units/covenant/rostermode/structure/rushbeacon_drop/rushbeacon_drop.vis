@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="rushbeacon_01">
+	<model name="rushbeacon_01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2\pack1\units\covenant\rostermode\structure\rushbeacon_drop\mesh_rushbeacon_01</file>
+			</asset>
+			<attach type="ParticleFile" name="vfx/episode2/rmLichVanguardThrust" tobone="bone_vfx_BeamPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+	</model>
+</visual>

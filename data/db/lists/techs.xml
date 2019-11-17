@@ -6417,6 +6417,36 @@
 			<Effect type="UnlockableGodPower" tier="4" prereq="Grunt_SpiritAssault1">Grunt_SpiritAssault2</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Grunt_InfantryRecycle</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Grunt_MethaneBombing</Effect>
+			<Effect type="Data" subtype="Cost" Resource="HQLevel" amount="-1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_scarab_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_scarab_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_methanescarab_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_methanescarab_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_prowler_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_prowler_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_shadelocust_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_prowler_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_shadelocust_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_gruntgoblin01</Target>
 			</Effect>

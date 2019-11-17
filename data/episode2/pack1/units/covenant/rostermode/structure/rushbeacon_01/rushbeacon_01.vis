@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="rushbeacon_01">
+	<model name="rushbeacon_01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/covenant/rostermode/structure/rushbeacon_01/mesh_rushbeacon_01</file>
+				<damagefile>episode2/pack1/units/covenant/rostermode/structure/rushbeacon_01/rushbeacon_01</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/structure/rushbeacon_01/pulse_attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateEnter" position="0" end="1" name="PLAY_SFX_3D_LP_BAN_DEF_LichVanguard_BlitzBeacon_Pulse" tobone="GrannyRootBone_emptower_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="AnimStateExit" position="0" end="1" name="STOP_SFX_3D_LP_BAN_DEF_LichVanguard_BlitzBeacon_Pulse" tobone="GrannyRootBone_emptower_01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/episode2/rmLichVanguardEmitters" tobone="bone_vfx_EMPPoint1" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/episode2/rmLichVanguardEmitters" tobone="bone_vfx_EMPPoint2" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/episode2/rmLichVanguardEmitters" tobone="bone_vfx_EMPPoint3" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/episode2/rmLichVanguardEmitters" tobone="bone_vfx_EMPPoint4" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/episode2/rmLichVanguardAOE" tobone="b_root" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/episode2/rmLichVanguardBeam" tobone="bone_vfx_BeamPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelFile" name="vfx/episode2/rm_rush_beacon/mesh_base_shield" tobone="GrannyRootBone_emptower_01" frombone="GrannyRootBone_base_shield" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/structure/rushbeacon_01/idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/structure/rushbeacon_01/idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/structure/rushbeacon_01/drop_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/episode2/EMPTowerEngineThrust" tobone="bone_vfx_EnginePoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelFile" name="vfx/episode2/rm_rush_beacon/mesh_base_shield" tobone="GrannyRootBone_emptower_01" frombone="GrannyRootBone_base_shield" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/episode2/rmLichVanguardBeam" tobone="bone_vfx_BeamPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/episode2/rmLichVanguardAOE" tobone="b_root" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+	</model>
+</visual>
