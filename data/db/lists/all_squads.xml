@@ -112,6 +112,45 @@
 	<Squad name="cov_air_blisterback_01_sp" parent_element="cov_air_blisterback_01_base" dbid="6365938055803573341">
 		<LeashDistance>25</LeashDistance>
 	</Squad>
+	<Squad name="cov_air_corruptedlich_01" formationType="Flock" dbid="1760837674967604434">
+		<PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23600</DisplayNameID>
+		<RolloverTextID>23601</RolloverTextID>
+		<RoleTextID>502</RoleTextID>
+		<SubSelectSort>10301</SubSelectSort>
+		<LeashDistance>53</LeashDistance>
+		<LeashDeadzone>5.53499985</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>15.375</AggroDistance>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<BuildPoints>45</BuildPoints>
+		<Pop Type="Unit">30</Pop>
+		<Cost ResourceType="Supplies">1750</Cost>
+		<Cost ResourceType="Power">1750</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
+		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_air_corruptedlich_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>AlwaysAttackReviveUnits</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>None</StencilType>
+		</Selection>
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Birth>FlyIn</Birth>
+		<FrozenThreshold>55</FrozenThreshold>
+		<MaxConvertedtoDroneSlots>2</MaxConvertedtoDroneSlots>
+	</Squad>
 	<Squad name="cov_air_floodbanshee01" dbid="5328760048924157330" parent_element="cov_air_banshee_01_base">
 		<Units>
 			<Unit count="1" role="normal">cov_air_floodbanshee01</Unit>
@@ -1344,6 +1383,12 @@
 	<Squad name="cov_inf_generic_suicideGrunt" dbid="16563492624849507600" formationType="Flock" parent_element="cov_inf_suicideGrunt_01" />
 	<Squad name="cov_inf_generic_suicidegrunt_fromlich" dbid="17262806979086584813" formationType="Flock" parent_element="cov_inf_generic_suicidegrunt">
 		<BuildPoints>8</BuildPoints>
+	</Squad>
+	<Squad name="cov_inf_lekgologoliath_01_fromlich" dbid="17262806979086584813" formationType="Flock" parent_element="cov_inf_lekgologoliath_01">
+		<BuildPoints>8</BuildPoints>
+	</Squad>
+	<Squad name="cov_veh_skitterer_01_fromlich" parent_element="cov_veh_skitterer_01" dbid="12599756486647917688">
+		<BuildPoints>4</BuildPoints>
 	</Squad>
 	<Squad name="cov_inf_gruntgoblin01" dbid="16061350161264028662" formationType="Flock">
 		<CombatRank>3</CombatRank>

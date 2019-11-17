@@ -5661,9 +5661,11 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">unsc_multiplayer_marines1</Target>
+			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">CovSkitterer</Effect>
-			<Effect type="UnlockableGodPower" tier="1">LekgoloWalls1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="LekgoloWalls1">LekgoloWalls2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">Unbrk_MegaTurret</Effect>
 			<Effect type="UnlockableGodPower" tier="2">LekgoloWormBuff1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="LekgoloWormBuff1">LekgoloWormBuff2</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="LekgoloWormBuff2">LekgoloWormBuff3</Effect>
@@ -5675,11 +5677,128 @@
 			<Effect type="UnlockableGodPower" tier="3" prereq="LekgoloPincerBeam2">LekgoloPincerBeam3</Effect>
 			<Effect type="UnlockableGodPower" tier="3">CovHunterSpiritAssault</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CutterBattleHardened1</Effect>
-			<Effect type="UnlockableGodPower" tier="4">CovTeleport1</Effect>
+			<Effect type="UnlockableGodPower" tier="4">Unbrk_LichAssault</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovMassAssault</Effect>
 			<Effect type="UnlockableGodPower" tier="5">LekgoloEverlasting</Effect>
-			<Effect type="Data" subtype="Enable">
-				<Target type="Tech">unsc_multiplayer_marines1</Target>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_lekgologoliath_01_fromlich</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_skitterer_01_fromlich</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_brutegrenadier_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_brutegrenadier_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_brutegrenadier_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_generic_suicideGrunt" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_suicideGrunt_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_suicideGrunt_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_suicideGrunt</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_suicideGrunt_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_suicideGrunt_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_suicideGrunt_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_suicideGrunt_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_corruptedengineer_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_corruptedengineer_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_engineer_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_engineer_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_scarab_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_scarab_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_corruptedscarab_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_traininglich_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_traininglich_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_corruptedlich_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_corruptedlich_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_bruteHonour_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_impervioushunter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_impervioushunter_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_impervioushunter_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_impervioushunter_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_impervioushunter_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_bruteJumpPack</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_lekgologoliath_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_lekgologoliath_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_goliath_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_generic_bruteJumpPack" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteJumpPack_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
@@ -5717,48 +5836,7 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_bruteHonour_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_inf_bruteHonour_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_inf_impervioushunter_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_impervioushunter_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_impervioushunter_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_impervioushunter_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_impervioushunter_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_generic_bruteJumpPack" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteJumpPack_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_inf_generic_bruteJumpPack</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_inf_lekgologoliath_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_lekgologoliath_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_goliath_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
-			</Effect>\</Effects>
+		</Effects>
 	</Tech>
 	<Tech name="_POWER_Everlasting" type="Normal">
 		<DBID>1963</DBID>
