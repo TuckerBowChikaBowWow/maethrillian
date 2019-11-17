@@ -151,6 +151,45 @@
 		<FrozenThreshold>55</FrozenThreshold>
 		<MaxConvertedtoDroneSlots>2</MaxConvertedtoDroneSlots>
 	</Squad>
+	<Squad name="cov_air_traininglich_01" formationType="Flock" dbid="1760837674967604434">
+		<PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23600</DisplayNameID>
+		<RolloverTextID>23601</RolloverTextID>
+		<RoleTextID>502</RoleTextID>
+		<SubSelectSort>10301</SubSelectSort>
+		<LeashDistance>53</LeashDistance>
+		<LeashDeadzone>5.53499985</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>15.375</AggroDistance>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<BuildPoints>45</BuildPoints>
+		<Pop Type="Unit">30</Pop>
+		<Cost ResourceType="Supplies">1750</Cost>
+		<Cost ResourceType="Power">1750</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
+		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_air_traininglich_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>AlwaysAttackReviveUnits</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>None</StencilType>
+		</Selection>
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Birth>FlyIn</Birth>
+		<FrozenThreshold>55</FrozenThreshold>
+		<MaxConvertedtoDroneSlots>2</MaxConvertedtoDroneSlots>
+	</Squad>
 	<Squad name="cov_air_floodbanshee01" dbid="5328760048924157330" parent_element="cov_air_banshee_01_base">
 		<Units>
 			<Unit count="1" role="normal">cov_air_floodbanshee01</Unit>
@@ -655,6 +694,11 @@
 			<WriteToMergeStencil>True</WriteToMergeStencil>
 		</Selection>
 		<TurnRadius min="2" max="5" />
+	</Squad>
+	<Squad name="cov_inf_arbitersniper_01" dbid="13675945968804927280" parent_element="cov_inf_jackal_01">
+		<Units override_type="absolute">
+			<Unit count="3" role="normal">cov_inf_arbitersniper_01</Unit>
+		</Units>
 	</Squad>
 	<Squad name="cov_inf_arbiter_01" dbid="9331911634682025629">
 		<CombatRank>9</CombatRank>
@@ -1308,6 +1352,48 @@
 	</Squad>
 	<Squad name="cov_inf_eliteCommando_01_sp" parent_element="cov_inf_eliteCommando_01_base" dbid="7467523159594432857">
 		<LeashDistance>73</LeashDistance>
+	</Squad>
+	<Squad name="cov_inf_elitescout_01" dbid="5031078638498000048">
+		<ActiveAbilityType>SuicideBomb</ActiveAbilityType>
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3048</DisplayNameID>
+		<RolloverTextID>3049</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<SubSelectSort>1205</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>2</AIAttackRank>
+		<BuildPoints>15</BuildPoints>
+		<Pop Type="Unit">2</Pop>
+		<Cost ResourceType="Supplies">80</Cost>
+		<Cost ResourceType="Power">76</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_elitescout_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>EliteRangers_01</Counters>
+		<MaxConvertedtoDroneSlots>0</MaxConvertedtoDroneSlots>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
 	<Squad name="cov_inf_engineer_01" dbid="2330547440322255353" formationType="Flock" parent_element="cov_inf_engineer_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
@@ -2239,6 +2325,15 @@
 		</Units>
 		<LeaderDiesLast>True</LeaderDiesLast>
 		<Counters override_type="absolute">Grunts_03</Counters>
+	</Squad>
+	<Squad name="cov_veh_arbitergorgon_01" dbid="17715392104709923058" formationType="Line" parent_element="cov_veh_gorgon_01_sp">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Pop Type="Unit">1</Pop>
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">cov_veh_arbitergorgon_01</Unit>
+		</Units>
 	</Squad>
 	<Squad name="cov_veh_bruteChopper_01" dbid="4271058514884523227" parent_element="cov_veh_bruteChopper_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>

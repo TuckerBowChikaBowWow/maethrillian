@@ -1974,6 +1974,45 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="GodPower" amount="1">_RallyPoint</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_traininglich_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_traininglich_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_corruptedlich_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_corruptedlich_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_arbiterscarab_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_arbiterscarab_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_elitescout_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_elitescout_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_elitescout_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_arbitersniper_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_arbitersniper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_arbitergorgon_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_arbitergorgon_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_minibaseNoSocks</Target>
 			</Effect>
@@ -7460,6 +7499,45 @@
 			<Target type="Tech">unsc_singleplayer_marines1</Target>
 		</Effect>
 	</Tech>
+	<Tech name="cov_elitescout_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>24174</DisplayNameID>
+		<RolloverTextID>24175</RolloverTextID>
+		<Cost resourcetype="Power">350</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>30</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="SprintSuicideBombAV" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_elitescout_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_elitescout_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_elitescout_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>24174</DisplayNameID>
+		<RolloverTextID>24175</RolloverTextID>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>30</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_elitescout_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="Grenade2AttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_elitescout_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_elitescout_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="covenant_LeaderArbiter" type="Normal">
 		<DBID>2104</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -7479,14 +7557,68 @@
 			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt1">ArbiterPlasmaBolt2</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt2">ArbiterPlasmaBolt3</Effect>
 			<Effect type="UnlockableGodPower" tier="3">ArbiterPhantom</Effect>
-			<Effect type="UnlockableGodPower" tier="3">ArbiterStasis1</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="ArbiterStasis1">ArbiterStasis2</Effect>
-			<Effect type="UnlockableGodPower" tier="4">ArbiterSpiritEliteTeam1</Effect>
+			<Effect type="UnlockableGodPower" tier="3">ArbiterSpiritEliteTeam1</Effect>
+			<Effect type="UnlockableGodPower" tier="4">ArbiterStasis1</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="ArbiterStasis1">ArbiterStasis2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">ArbiterCDReduction1</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="ArbiterCDReduction1">ArbiterCDReduction2</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="ArbiterCDReduction2">ArbiterCDReduction3</Effect>
 			<Effect type="UnlockableGodPower" tier="5">ArbiterMassStasis</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovInvisibleArmy</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_scarab_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_arbiterscarab_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_arbiterscarab_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_elitescout_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_generic_suicideGrunt" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_elitescout_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_suicideGrunt_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_elitescout_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_elitescout_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_jackal_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_arbitersniper_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_arbitersniper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_gorgon_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_arbitergorgon_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_arbitergorgon_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
 			</Effect>
@@ -7496,7 +7628,7 @@
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_bruteHonour_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
@@ -7526,7 +7658,7 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_bruteHonour_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_elitecommando_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_elitecommando_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade1" relativity="Absolute">
@@ -7545,15 +7677,6 @@
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_elitecommando_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_elitecommando_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_elitecommando_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
