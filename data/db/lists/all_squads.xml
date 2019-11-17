@@ -2728,6 +2728,54 @@
 		<ChillDecayPerSecond>100</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="cov_veh_scarab_01_sp" parent_element="cov_veh_scarab_01_base" dbid="4169646452843276638" />
+	<Squad name="cov_veh_methanescarab_01_base" dbid="3688907597617182080">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<CombatRank>10</CombatRank>
+		<HealValue>4.5</HealValue>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_scarab</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3060</DisplayNameID>
+		<RolloverTextID>3061</RolloverTextID>
+		<RoleTextID>508</RoleTextID>
+		<PrereqTextID>246</PrereqTextID>
+		<SubSelectSort>95</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>25</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<DazeResist>0.25</DazeResist>
+		<FrozenThreshold>500</FrozenThreshold>
+		<ShatterThreshold>5000</ShatterThreshold>
+		<DamageOnShatter>10000</DamageOnShatter>
+		<ChillDecayPerSecond>100</ChillDecayPerSecond>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>30</AIAttackRank>
+		<ActiveAbilityType>ScarabDisruptionField</ActiveAbilityType>
+		<BuildPoints>120</BuildPoints>
+		<Pop Type="Unit">40</Pop>
+		<Cost ResourceType="Supplies">2000</Cost>
+		<Cost ResourceType="Power">2000</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
+		<HPBar offset="0,12.915,0" sizeX="12.0f" sizeY="3.0f">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="COV_Star_Scarab_Centered">COV_Star_Scarab</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_veh_methanescarab_01_base</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+		</Selection>
+		<Birth>IncomingAnim</Birth>
+		<TurnRadius min="2" max="16" />
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Scarab_01</Counters>
+		<MaxConvertedtoDroneSlots>3</MaxConvertedtoDroneSlots>
+	</Squad>
 	<Squad name="cov_veh_shortRangeLocust_01" parent_element="cov_veh_locust_01" dbid="13886352206387103037">
 		<Units override_type="absolute">
 			<Unit count="1" role="normal">cov_veh_shortRangeLocust_01</Unit>
