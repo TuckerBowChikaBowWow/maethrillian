@@ -7524,6 +7524,9 @@
 		<Cost resourcetype="Power">600</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
 		<ResearchPoints>30</ResearchPoints>
+		<Prereqs>
+            <TechStatus status="Active">cov_elitescout_upgrade1</TechStatus>
+        </Prereqs>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<Effects>
