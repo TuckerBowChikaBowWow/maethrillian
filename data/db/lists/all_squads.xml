@@ -695,10 +695,46 @@
 		</Selection>
 		<TurnRadius min="2" max="5" />
 	</Squad>
-	<Squad name="cov_inf_arbitersniper_01" dbid="13675945968804927280" parent_element="cov_inf_jackal_01">
-		<Units override_type="absolute">
+	<Squad name="cov_inf_arbitersniper_01" dbid="5031078638498000048">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3048</DisplayNameID>
+		<RolloverTextID>3049</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<SubSelectSort>1205</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>2</AIAttackRank>
+		<BuildPoints>20</BuildPoints>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">90</Cost>
+		<Cost ResourceType="Power">125</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
+		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
 			<Unit count="3" role="normal">cov_inf_arbitersniper_01</Unit>
 		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>EliteRangers_01</Counters>
+		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="cov_inf_arbiter_01" dbid="9331911634682025629">
 		<CombatRank>9</CombatRank>
@@ -1308,7 +1344,7 @@
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>HandAttack</ActiveAbilityType>
 		<BuildPoints>40</BuildPoints>
-		<Pop Type="HonorGuard">1</Pop>
+		<Pop Type="Unit">6</Pop>
 		<Cost ResourceType="Supplies">450</Cost>
 		<Cost ResourceType="Power">400</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
