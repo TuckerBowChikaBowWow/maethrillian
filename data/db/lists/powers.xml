@@ -28263,7 +28263,7 @@
 				<Data type="int" name="NumShots">2</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
-						<ProtoSquadID>flood_custom_egg_inf</ProtoSquadID>
+						<ProtoSquadID>flood_bldg_eggdrop_01</ProtoSquadID>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -28320,7 +28320,7 @@
 				<Data type="int" name="NumShots">3</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
-						<ProtoSquadID>flood_custom_egg_inf</ProtoSquadID>
+						<ProtoSquadID>flood_bldg_eggdrop_01</ProtoSquadID>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -28623,7 +28623,9 @@
                 <Data type="bool" name="AffectsAllByFilterType">true</Data>
                 <Data type="objecttype" name="FilterType">Flood</Data>
                 <Data type="objecttype" name="FilterExcludeType">_Rupture</Data>
-                <Data type="objecttype" name="FilterExcludeType">Building</Data>
+                <Data type="objecttype" name="FilterExcludeType2">Building</Data>
+				<Data type="objecttype" name="FilterExcludeType3">TurretBuilding</Data>
+				<Data type="objecttype" name="FilterExcludeType4">UberUnit</Data>
                 <Data type="float" name="BuffDuration">150</Data>
                 <Data type="bool" name="AffectsEnemies">false</Data>
                 <Data type="bool" name="AffectsSelfOnly">true</Data>

@@ -4741,9 +4741,9 @@
 		<Flag>UseNameForSelectionIcon</Flag>
 		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
-	<Squad name="flood_custom_eggdrop" dbid="15571555391561239374">
+	<Squad name="flood_bldg_eggdrop_01" dbid="15571555391561239374">
 		<CombatRank>1</CombatRank>
-		<SubSelectSort>124</SubSelectSort>
+		<SubSelectSort>12400</SubSelectSort>
 		<LeashDistance>20</LeashDistance>
 		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
@@ -4757,6 +4757,9 @@
 		<HPBar offset="0,4.92000008,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="3" role="normal">flood_bldg_eggdrop_01</Unit>
+		</Units>
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
 		<Flag>KBAware</Flag>
@@ -4771,16 +4774,6 @@
 		</Selection>
 		<AvoidanceMass>Light</AvoidanceMass>
 		<Counters>AssaultElites_01</Counters>
-	</Squad>
-	<Squad name="flood_custom_egg_inf" formationType="Flock" dbid="14175204004466671828" parent_element="flood_custom_eggdrop">
-		<Units>
-			<Unit count="3" role="normal">flood_bldg_egg_infinfectordrop_01</Unit>
-		</Units>
-	</Squad>
-	<Squad name="flood_custom_egg_multi" formationType="Flock" dbid="14175204004466671828" parent_element="flood_custom_eggdrop">
-		<Units>
-			<Unit count="3" role="normal">flood_bldg_egg_infinfectordrop_01</Unit>
-		</Units>
 	</Squad>
 	<Squad name="fld_bldg_drophivebase_01" dbid="3996937595498649147">
 		<CombatRank>5</CombatRank>
@@ -5045,7 +5038,7 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<UnlockableActiveAbilityType>Grenade</UnlockableActiveAbilityType>
-		<BuildPoints>18</BuildPoints>
+		<BuildPoints>17</BuildPoints>
 		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
@@ -5265,7 +5258,7 @@
 		<ActiveAbilityType>HandAttack</ActiveAbilityType>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>60</BuildPoints>
-		<HealValue>3.1</HealValue>
+		<HealValue>4.5</HealValue>
 		<Pop Type="Unit">40</Pop>
 		<Cost ResourceType="Supplies">2000</Cost>
 		<Cost ResourceType="Power">2000</Cost>
@@ -5642,10 +5635,10 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<ActiveAbilityType>SuicideBomb</ActiveAbilityType>
-		<BuildPoints>19.5</BuildPoints>
-		<Pop Type="Unit">0</Pop>
+		<BuildPoints>16</BuildPoints>
+		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">100</Cost>
-		<Cost ResourceType="Power">80</Cost>
+		<Cost ResourceType="Power">70</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
