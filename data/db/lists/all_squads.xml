@@ -8160,6 +8160,51 @@
 		<DamageOnShatter>10000</DamageOnShatter>
 		<ChillDecayPerSecond>100</ChillDecayPerSecond>
 	</Squad>
+	<Squad name="unsc_air_pelicangunship_01_train" dbid="7039022248042297571">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<CombatRank>7</CombatRank>
+		<HealValue>2</HealValue>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_vulture</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3030</DisplayNameID>
+		<RolloverTextID>3031</RolloverTextID>
+		<RoleTextID>508</RoleTextID>
+		<PrereqTextID>236</PrereqTextID>
+		<SubSelectSort>400</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<CryoPoints>150</CryoPoints>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<AIAttackRank>14</AIAttackRank>
+		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
+		<BuildPoints>30</BuildPoints>
+		<Pop Type="Unit">11</Pop>
+		<Cost ResourceType="Supplies">1000</Cost>
+		<Cost ResourceType="Power">1000</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
+		<HPBar offset="0,8.61000061,0" sizeX="12.0f" sizeY="3.0f">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered_Vulture">UNSC_Ability_Vulture</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered_Vulture">UNSC_Star_Vulture</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_air_pelicangunship_01_train</Unit>
+		</Units>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>None</StencilType>
+		</Selection>
+		<Birth>FlyIn</Birth>
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Vulture_01</Counters>
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+	</Squad>
 	<Squad name="unsc_air_destroyer_01_sp" parent_element="unsc_air_destroyer_01_base" dbid="6385909394146687137" />
 	<Squad name="unsc_air_destroyer_01_tutorial" parent_element="unsc_air_destroyer_01_base" dbid="3786461896369043500" />
 	<Squad name="unsc_air_engdrone_01" dbid="2462225331106488824" parent_element="unsc_air_engdrone_01_sp" />
@@ -8517,6 +8562,48 @@
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
 			<Unit count="1" role="normal">unsc_air_serina_pegasus_01</Unit>
+		</Units>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>None</StencilType>
+		</Selection>
+		<Birth>FlyIn</Birth>
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Pegasus_01</Counters>
+	</Squad>
+	<Squad name="unsc_air_fire_pegasus_01" dbid="11336334043606899015">
+		<CombatRank>2</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_vulture</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>26232</DisplayNameID>
+		<RolloverTextID>26233</RolloverTextID>
+		<RoleTextID>522</RoleTextID>
+		<PrereqTextID>236</PrereqTextID>
+		<SubSelectSort>290</SubSelectSort>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>16.5</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<CryoPoints>150</CryoPoints>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<AIAttackRank>2</AIAttackRank>
+		<ActiveAbilityType>ShatterMissile</ActiveAbilityType>
+		<BuildPoints>30</BuildPoints>
+		<Pop Type="Unit">4</Pop>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Cost ResourceType="Power">100</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<HPBar offset="0,4.30499983,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_air_fire_pegasus_01</Unit>
 		</Units>
 		<Flag>DiesWhenFrozen</Flag>
 		<Flag>Repairable</Flag>
@@ -9488,6 +9575,95 @@
 			<Unit count="4" role="normal">unsc_inf_generic_marinetutorial_01</Unit>
 		</Units>
 	</Squad>
+	<Squad name="unsc_inf_generic_odst" dbid="8454786750728801355" formationType="Flock">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3000</DisplayNameID>
+		<RolloverTextID>3001</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>600</SubSelectSort>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>21.5249996</AggroDistance>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.5</AIAttackRank>
+		<UnlockableActiveAbilityType>Grenade</UnlockableActiveAbilityType>
+		<BuildPoints>16</BuildPoints>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">150</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="4" role="normal">unsc_inf_odst_01_trainable</Unit>
+		</Units>
+		<OverrideUnitSoundNames />
+		<LeaderDiesLast />
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>Marines_01</Counters>
+	</Squad>
+	<Squad name="unsc_inf_generic_ods2" dbid="8454786750728801355" formationType="Flock">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3000</DisplayNameID>
+		<RolloverTextID>3001</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>600</SubSelectSort>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>21.5249996</AggroDistance>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.5</AIAttackRank>
+		<UnlockableActiveAbilityType>Grenade</UnlockableActiveAbilityType>
+		<BuildPoints>16</BuildPoints>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">150</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="4" role="normal">unsc_inf_odst_01_trainable</Unit>
+			<Unit count="1" role="leader">unsc_inf_odstsniper_02_mp</Unit>
+		</Units>
+		<OverrideUnitSoundNames />
+		<LeaderDiesLast />
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>Marines_01</Counters>
+	</Squad>
 	<Squad name="unsc_inf_marineguard_01" dbid="8454786750728801355" formationType="Flock">
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
@@ -9629,6 +9805,44 @@
 		<Cost ResourceType="Power">275</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<BuildPoints>45</BuildPoints>
+	</Squad>
+	<Squad name="unsc_inf_heroodst_02_mp" dbid="17401458390612918465" formationType="Flock">
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3012</DisplayNameID>
+		<RolloverTextID>3013</RolloverTextID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>1</SubSelectSort>
+		<LeashDistance>33.8250008</LeashDistance>
+		<LeashDeadzone>15.375</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>21.5249996</AggroDistance>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<HPBar offset="0,10,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="leader">unsc_inf_herodropodstRocket_01_mp</Unit>
+			<Unit count="4" role="normal">unsc_inf_herodropodst_02_mp</Unit>
+		</Units>
+		<Pop Type="Unit">7</Pop>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>LeaderDiesLast</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>AlwaysRenderSelectionDecal</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>Units</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Birth>Trained</Birth>
+		<Counters>ODST_01</Counters>
 	</Squad>
 	<Squad name="unsc_inf_johnson_hero_01" dbid="15268622866869143349">
 		<HealValue>1.69</HealValue>
@@ -10091,6 +10305,18 @@
 		<Cost ResourceType="Power">135</Cost>
 	</Squad>
 	<Squad name="unsc_inf_sniper_01_sp" parent_element="unsc_inf_sniper_01_base" dbid="9578785163123814846" />
+	<Squad name="unsc_inf_odstsniper_01_mp" parent_element="unsc_inf_sniper_01" dbid="9550052725261081744">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<FrozenThreshold>100</FrozenThreshold>
+		<ChillDecayPerSecond>20</ChillDecayPerSecond>
+		<BuildPoints>20</BuildPoints>
+		<Cost ResourceType="Supplies">75</Cost>
+		<Cost ResourceType="Power">140</Cost>
+		<Units>
+			<Unit count="1" role="normal">unsc_inf_odstsniper_01_mp</Unit>
+		</Units>
+	</Squad>
 	<Squad name="unsc_inf_spartan_01" dbid="13960817158359654890">
 		<HealValue>1.29999995</HealValue>
 		<MinimapScale>1</MinimapScale>

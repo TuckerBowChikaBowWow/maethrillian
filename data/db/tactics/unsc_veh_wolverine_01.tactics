@@ -1,103 +1,125 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>MissileLauncher</Name>
-		<AttackRate>6</AttackRate>
-		<DamagePerSecond>155</DamagePerSecond>
-		<WeaponType>AntiAir</WeaponType>
-		<Projectile>fx_proj_missile_01</Projectile>
-		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
-		<MaxVelocityLead>6.1500001</MaxVelocityLead>
-		<MaxRange>65</MaxRange>
-		<Hardpoint>Turret</Hardpoint>
-		<TargetPriority type="Flying">10</TargetPriority>
-		<ProjectileLaunchDirY />
+		<Name>Flamer</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>114</DamagePerSecond>
+		<WeaponType>KinsanoWarthogFire</WeaponType>
+		<Projectile>fx_proj_flamehogBeam_01</Projectile>
+		<MaxVelocityLead>27.6749992</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<MaxRangeThresholdFactor>1.10000002</MaxRangeThresholdFactor>
+		<MaxRangeThresholdTime>1</MaxRangeThresholdTime>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<Hardpoint>CryoRay</Hardpoint>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="TurretBuilding">6</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<TargetPriority type="Aircraft">-1</TargetPriority>
 		<AOEData>
 			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>3</Width>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>2.5</Radius>
+				<Radius>4</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>5.5</Radius>
-				<DamageRatio>15</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
+		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.800000012</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+		<Filter>Medium</Filter>
 	</Weapon>
 	<Weapon>
-		<Name>GrenadeLauncher</Name>
-		<AttackRate>3</AttackRate>
-		<DamagePerSecond>100</DamagePerSecond>
-		<WeaponType>Explosive</WeaponType>
-		<Projectile>fx_proj_grenade_01</Projectile>
-		<ImpactEffect size="Medium">SmallGrenadeExplosion</ImpactEffect>
-		<MaxVelocityLead>12.3000002</MaxVelocityLead>
+		<Name>FlamerUpgrade</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>114</DamagePerSecond>
+		<WeaponType>KinsanoWarthogFire</WeaponType>
+		<Projectile>fx_proj_flamehogBeam_01</Projectile>
+		<MaxVelocityLead>27.6749992</MaxVelocityLead>
 		<MaxRange>35</MaxRange>
-		<Accuracy>1</Accuracy>
-		<MaxDeviation>10</MaxDeviation>
-		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<MaxRangeThresholdFactor>1.10000002</MaxRangeThresholdFactor>
+		<MaxRangeThresholdTime>1</MaxRangeThresholdTime>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
+		<Hardpoint>CryoRay</Hardpoint>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="TurretBuilding">6</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<TargetPriority type="Aircraft">-1</TargetPriority>
 		<AOEData>
 			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>4</Width>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>3</Radius>
+				<Radius>6</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>200</PhysicsForceMin>
-		<PhysicsForceMax>400</PhysicsForceMax>
-		<Hardpoint>GrenadeLauncherTurret</Hardpoint>
-		<TargetPriority type="Infantry">4</TargetPriority>
-		<TargetPriority type="GroundVehicle">3</TargetPriority>
-		<TargetPriority type="TurretBuilding">2</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1.70000005</PostAttackCooldownMax>
+		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.800000012</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+		<Filter>Medium</Filter>
+		<ReapplyDamageOverArea />
+		<AOEExpandingRadiusMax rate="12">10</AOEExpandingRadiusMax>
 	</Weapon>
 	<Action>
-		<Name>GrenadeLauncherAttackAction</Name>
+		<Name>FlamerAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>GrenadeLauncherAttack</Anim>
-		<Weapon>GrenadeLauncher</Weapon>
-		<CanOrientOwner>false</CanOrientOwner>
-	</Action>
-	<Action>
-		<Name>MissileAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>MissileAttack</Anim>
+		<Anim>FlameAttack</Anim>
+		<Duration DurationSpread="1.5">3</Duration>
+		<Weapon>Flamer</Weapon>
+		<Beam collideWithUnits="false" collideWithTerrain="true" />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
 		<FullBodyAttackAnim />
-		<Weapon>MissileLauncher</Weapon>
-		<CanOrientOwner>false</CanOrientOwner>
+		<PersistBetweenOpps />
+		<LoopAttackAnim />
 	</Action>
 	<Action>
-		<Name>Garrison</Name>
-		<ActionType>Garrison</ActionType>
-		<WorkRange>3.07500005</WorkRange>
-	</Action>
-	<Action>
-		<Name>GarrisonPelican</Name>
-		<ActionType>Garrison</ActionType>
-		<Anim>PelicanGarrison</Anim>
-		<WorkRange>8.61000061</WorkRange>
-	</Action>
-	<Action>
-		<Name>UngarrisonPelican</Name>
-		<ActionType>Ungarrison</ActionType>
-		<Anim>PelicanUngarrison</Anim>
-		<WorkRange>0</WorkRange>
+		<Name>FlamerUpgradeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>FlameAttack</Anim>
+		<Duration DurationSpread="1.5">3</Duration>
+		<Weapon>FlamerUpgrade</Weapon>
+		<Beam collideWithUnits="false" collideWithTerrain="true" />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<FullBodyAttackAnim />
+		<PersistBetweenOpps />
+		<LoopAttackAnim />
+		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>GarrisonTeleport</Name>
@@ -117,35 +139,23 @@
 		<Anim>Gather</Anim>
 		<Resource>Collectable</Resource>
 		<WorkRate>1</WorkRate>
-		<WorkRange>4</WorkRange>
+		<WorkRange>1.84500003</WorkRange>
 	</Action>
 	<Tactic>
-		<PersistentAction>GrenadeLauncherAttackAction</PersistentAction>
-		<TargetRule>
-			<GaiaOwned />
-			<TargetType>Collectable</TargetType>
-			<Action>GatherCollectables</Action>
-		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>Flying</TargetType>
-			<Action>MissileAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<Action>FlamerAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
-			<Action>GrenadeLauncherAttackAction</Action>
+			<Action>FlamerUpgradeAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
-			<Relation>Ally</Relation>
-			<TargetType>transport</TargetType>
-			<Action>GarrisonPelican</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Ungarrison</Ability>
-			<Relation>Ally</Relation>
-			<TargetType>transport</TargetType>
-			<Action>UngarrisonPelican</Action>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
