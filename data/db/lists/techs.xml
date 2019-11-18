@@ -163,6 +163,28 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="for_instant_disable" type="Normal">
+		<DBID>2041</DBID>
+		<DisplayNameID>1072</DisplayNameID>
+		<RolloverTextID>1073</RolloverTextID>
+		<ResearchPoints>5</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchAnim>Upgrade</ResearchAnim>
+		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">for_air_sentineltier1_custom</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">for_veh_scorpion_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_veh_scorpion_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_mp</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="hook_turret_upgradeAI" type="Normal">
 		<DBID>1962</DBID>
 		<DisplayNameID>1156</DisplayNameID>
@@ -6088,70 +6110,25 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">for_instant_disable</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
-			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpalice_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpjerome_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpdoug_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_chaingun" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_chaingun" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_chaingun" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_rocket" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_rocket" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_rocket" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_laser" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_laser" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_laser" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_flamecyclops_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_flamecyclops_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_flamecyclops_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forgehog_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forgehog_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forgehog_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_flamecyclops_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_flamecyclops_upgrade2" relativity="Absolute">
@@ -6169,13 +6146,7 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forgehog_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_scorpion_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_mp</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_scorpion_upgrade2" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_scorpion_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
@@ -6218,16 +6189,10 @@
 				<Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_johnson_colossus_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_mp</Target>
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_colossus_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_mp</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_johnson_colossus_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_colossus_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
@@ -6255,19 +6220,19 @@
 			<Effect type="UnlockableGodPower" tier="1">UnscMedDrones1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscMedDrones1_MP">UnscMedDrones2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscMedDrones2_MP">UnscMedDrones3_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="2">UnscForgePelicanTransport</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="UnscForgePelicanTransport">UnscForgePelicanTransport2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">Jerome_LowPopInspire1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="Jerome_LowPopInspire1">Jerome_LowPopInspire2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscBunkerDrop1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UnscBunkerDrop1_MP">UnscBunkerDrop2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3">JohnsonEMPBlast1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="JohnsonEMPBlast1">JohnsonEMPBlast2</Effect>
 			<Effect type="UnlockableGodPower" tier="3">JohnsonMapAwareness1</Effect>
-			<Effect type="UnlockableGodPower" tier="4">UnscSiegeTurretDrop</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="UnscSiegeTurretDrop">UnscSiegeTurretDrop2</Effect>
+			<Effect type="UnlockableGodPower" tier="4">UnscHeroism1</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="UnscHeroism1">UnscHeroism2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">JohnsonMechBuff</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="JohnsonMechBuff">JohnsonMechBuff2</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscVehicleRecycle</Effect>
-			<Effect type="UnlockableGodPower" tier="5">UnscFreeBuild</Effect>
+			<Effect type="UnlockableGodPower" tier="5">Jerome_Omegateam</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="_POWER_JohnsonMapAwareness1" type="Normal">
