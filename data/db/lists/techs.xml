@@ -4630,6 +4630,12 @@
             <Effect type="Data" amount="1" subtype="ActionEnable" action="HammerSiphonAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_mpdecimus_01</Target>
             </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="HammerAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_mpdecimus_02</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="HammerSiphonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_mpdecimus_02</Target>
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="cov_bruteHonoursiphon_upgrade0" type="Normal">
@@ -4741,6 +4747,154 @@
             </Effect>
         </Effects>
     </Tech>
+    <Tech name="cov_atrioxchosensiphon_upgrade0" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27834</DisplayNameID>
+		<RolloverTextID>27835</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<Status>OBTAINABLE</Status>
+		<ResearchPoints>1</ResearchPoints>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_basic</TechStatus>
+			<TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="BrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AirBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="BrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AirBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_atrioxchosensiphon_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27834</DisplayNameID>
+		<RolloverTextID>27835</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<Status>OBTAINABLE</Status>
+		<ResearchPoints>1</ResearchPoints>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_atrioxchosen_upgrade1</TechStatus>
+			<TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="BrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AirBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AOEBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AirAOEBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AOEBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AirAOEBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_atrioxchosensiphon_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27836</DisplayNameID>
+		<RolloverTextID>27837</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<Status>OBTAINABLE</Status>
+		<ResearchPoints>1</ResearchPoints>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_atrioxchosen_upgrade2</TechStatus>
+			<TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="BrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AirBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AOEBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AirAOEBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AOEDOTBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AirAOEDOTBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AOEDOTBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AirAOEDOTBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_atrioxchosensiphon_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27838</DisplayNameID>
+		<RolloverTextID>27839</RolloverTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<ResearchPoints>1</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_personalshield</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_atrioxchosen_upgrade3</TechStatus>
+			<TechStatus status="Active">_POWER_CovBoundlessLeech</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="BrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AirBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AOEBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AirAOEBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AOEDOTBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AirAOEDOTBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="LongAOEDOTBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AirLongAOEDOTBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="LongAOEDOTBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AirLongAOEDOTBrutegunSiphonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
     <Tech name="cov_huntersiphon_upgrade0" type="Normal">
     	<Flag>Shadow</Flag>
         <DBID>1915</DBID>
@@ -4967,11 +5121,9 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="UnlockableGodPower" tier="1">CovBloodlust</Effect>
-			<Effect type="UnlockableGodPower" tier="1">CovGravityVortex1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="CovGravityVortex1">CovGravityVortex2</Effect>
-			<Effect type="UnlockableGodPower" tier="2">CovBuffLeech1</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="CovBuffLeech1">CovBuffLeech2</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="CovBuffLeech2">CovBuffLeech3</Effect>
+			<Effect type="UnlockableGodPower" tier="1">CovLucrativeExpansion1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="CovLucrativeExpansion1">CovLucrativeExpansion2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">CovDyingBreath</Effect>
 			<Effect type="UnlockableGodPower" tier="2">CovBuffRage1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="CovBuffRage1">CovBuffRage2</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="CovBuffRage2">CovBuffRage3</Effect>
@@ -4982,8 +5134,9 @@
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovSpiritGunship1">CovSpiritGunship2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovTeleport1</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovBoundlessLeech</Effect>
-			<Effect type="UnlockableGodPower" tier="5">CovDecimusDrop</Effect>
-			<Effect type="UnlockableGodPower" tier="5">CovBoundlessRage</Effect>
+			<Effect type="UnlockableGodPower" tier="5">CovDecimusDrop1</Effect>
+			<Effect type="UnlockableGodPower" tier="5" prereq="CovDecimusDrop1">CovDecimusDrop</Effect>
+			<Effect type="UnlockableGodPower" tier="5">CovPlanetaryCleansing</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
@@ -5002,22 +5155,22 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade2" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade3" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade2" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade3" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
@@ -5041,6 +5194,9 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_bruteHonour_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_eliteCommando_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
@@ -5053,10 +5209,10 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_bruteHonour_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_atrioxchosen_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_atrioxchosen_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_atrioxchosen_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_atrioxchosen_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
 			</Effect>
 			<Effect type="Data" subtype="Enable">
