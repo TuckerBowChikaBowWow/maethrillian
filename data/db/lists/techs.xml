@@ -15905,7 +15905,7 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="unsc_air_nightingale_01" ToType="unsc_air_nightingale_01_mp_blitz" />
-			<Effect type="ReparentProtoObject" FromType="unsc_veh_scorpion_01" ToType="unsc_veh_scorpion_01_mp_blitz" />
+			<Effect type="ReparentProtoObject" FromType="unsc_veh_flamescorpion_01" ToType="unsc_veh_flamescorpion_01_mp_blitz" />
 			<Effect type="Data" amount="1.14999998" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_air_nightingale_01</Target>
 			</Effect>
@@ -15916,19 +15916,19 @@
 				<Target type="ProtoUnit">unsc_air_nightingale_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.14999998" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">unsc_veh_flamescorpion_01</Target>
 			</Effect>
 			<Effect type="Data" amount="800" subtype="Shieldpoints" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">unsc_veh_flamescorpion_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ShieldAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">unsc_veh_flamescorpion_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="SpecialAttackAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">unsc_veh_flamescorpion_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="SpecialAttackScorpionTechAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
+				<Target type="ProtoUnit">unsc_veh_flamescorpion_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
