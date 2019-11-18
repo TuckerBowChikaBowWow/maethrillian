@@ -258,6 +258,24 @@
 			<TechStatus status="Active">Basic</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_scorpion_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_cryoscorpion_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_flamescorpion_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_cryoscorpion_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_flamescorpion_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_minibaseNoSocks</Target>
 			</Effect>
@@ -6149,6 +6167,12 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_scorpion_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_mp</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_scorpion_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_mp</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
 			</Effect>
@@ -8070,6 +8094,15 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">for_instant_disable</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_cryoscorpion_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_cryoscorpion_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_serinahero_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
@@ -8153,9 +8186,9 @@
 			<Effect type="UnlockableGodPower" tier="4">Serina_CryoBlast1</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="Serina_CryoBlast1">Serina_CryoBlast2</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="Serina_CryoBlast2">Serina_CryoBlast3</Effect>
-			<Effect type="UnlockableGodPower" tier="4">UnscTurretDrop1</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="UnscTurretDrop1">UnscTurretDrop2</Effect>
-			<Effect type="UnlockableGodPower" tier="5">Serina_FrostDrop</Effect>
+			<Effect type="UnlockableGodPower" tier="4">Serina_FrostDrop</Effect>
+			<Effect type="UnlockableGodPower" tier="5">Anders_NukeBombing</Effect>
+			<Effect type="UnlockableGodPower" tier="5" prereq="Anders_NukeBombing">Anders_NukeBombing2</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Serina_CryoStorm</Effect>
 		</Effects>
 	</Tech>

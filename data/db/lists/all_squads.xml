@@ -10839,6 +10839,100 @@
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="unsc_veh_scorpion_01_sp" parent_element="unsc_veh_scorpion_01_base" dbid="16639652582680270064" />
+	<Squad name="unsc_veh_cryoscorpion_01" dbid="18305854405966770526">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<SquadType>BasicVehicle_Tech</SquadType>
+		<CombatRank>7</CombatRank>
+		<HealValue>2.20000005</HealValue>
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_scorpion</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3020</DisplayNameID>
+		<RolloverTextID>3021</RolloverTextID>
+		<StatsNameID>25680</StatsNameID>
+		<RoleTextID>501</RoleTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<SubSelectSort>500</SubSelectSort>
+		<LeashDistance>5</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>10</AIAttackRank>
+		<UnlockableActiveAbilityType>VehicleMissile</UnlockableActiveAbilityType>
+		<BuildPoints>38</BuildPoints>
+		<Pop Type="Unit">7</Pop>
+		<Cost ResourceType="Supplies">500</Cost>
+		<Cost ResourceType="Power">120</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
+		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_veh_cryoscorpion_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="0.100000001" max="8" />
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Scorpion_01</Counters>
+	</Squad>
+	<Squad name="unsc_veh_flamescorpion_01" dbid="18305854405966770526">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<SquadType>BasicVehicle_Tech</SquadType>
+		<CombatRank>7</CombatRank>
+		<HealValue>2.20000005</HealValue>
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_scorpion</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3020</DisplayNameID>
+		<RolloverTextID>3021</RolloverTextID>
+		<StatsNameID>25680</StatsNameID>
+		<RoleTextID>501</RoleTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<SubSelectSort>500</SubSelectSort>
+		<LeashDistance>5</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>10</AIAttackRank>
+		<UnlockableActiveAbilityType>VehicleMissile</UnlockableActiveAbilityType>
+		<BuildPoints>38</BuildPoints>
+		<Pop Type="Unit">7</Pop>
+		<Cost ResourceType="Supplies">600</Cost>
+		<Cost ResourceType="Power">30</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
+		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_veh_flamescorpion_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="0.100000001" max="8" />
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Scorpion_01</Counters>
+	</Squad>
 	<Squad name="unsc_veh_serina_hero_01" dbid="12189883730253677644">
 		<CombatRank>6</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
