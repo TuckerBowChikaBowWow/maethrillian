@@ -7274,6 +7274,101 @@
 	<Squad name="flood_veh_infected_wraith_01_base_sp" parent_element="flood_veh_infected_wraith_01_base_base" dbid="14029369705858902646">
 		<Flag>DoNotMoveToAttackMe</Flag>
 	</Squad>
+	<Squad name="for_inf_generic_heavygrunt" dbid="11619814069924352513" formationType="Flock" parent_element="cov_inf_heavygrunt_01">
+		<BuildPoints>7</BuildPoints>
+		<Cost ResourceType="Supplies">75</Cost>
+		<Cost ResourceType="Power">5</Cost>
+		<Units override_type="absolute">
+			<Unit count="1" role="leader">cov_inf_heavygruntLeader_01</Unit>
+			<Unit count="4" role="normal">cov_inf_grunt_01</Unit>
+		</Units>
+	</Squad>
+	<Squad name="for_inf_brutegrenadier_01" parent_element="cov_inf_brutegrenadier_01" dbid="13394556157952987105">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<BuildPoints>18</BuildPoints>
+		<Pop Type="Unit">-1</Pop>
+		<Cost ResourceType="Supplies">100</Cost>
+		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_brutegrenadier_01</Unit>
+			<Unit count="4" role="normal">cov_inf_grunt_01</Unit>
+		</Units>
+	</Squad>
+	<Squad name="for_inf_assaultelites_01" parent_element="cov_inf_arbiter_assaultteam_01" dbid="15571555391561239374">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<BuildPoints>18</BuildPoints>
+		<Pop Type="Unit">-2</Pop>
+		<Cost ResourceType="Supplies">150</Cost>
+		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<Units>
+			<Unit count="2" role="normal">cov_inf_heavygruntLeader_01</Unit>
+			<Unit count="1" role="leader">cov_inf_arbiter_assaultteam_01</Unit>
+		</Units>
+	</Squad>
+	<Squad name="for_air_sentineltier1_custom" dbid="1760837674967604434" parent_element="for_air_sentinel_01">
+		<BuildPoints>17.5</BuildPoints>
+		<Pop Type="Unit">2</Pop>
+		<Cost ResourceType="Supplies">175</Cost>
+		<Cost ResourceType="Power">10</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<Units>
+			<Unit count="1" role="normal">for_air_sentineltier1_custom</Unit>
+		</Units>
+	</Squad>
+	<Squad name="for_air_sentineltier1_beam" formationType="Flock" dbid="1760837674967604434">
+		<PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23600</DisplayNameID>
+		<RolloverTextID>23601</RolloverTextID>
+		<RoleTextID>502</RoleTextID>
+		<SubSelectSort>10301</SubSelectSort>
+		<LeashDistance>53</LeashDistance>
+		<LeashDeadzone>5.53499985</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>15.375</AggroDistance>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<BuildPoints>10.5</BuildPoints>
+		<Pop Type="Unit">2</Pop>
+		<Cost ResourceType="Supplies">25</Cost>
+		<Cost ResourceType="Power">25</Cost>
+		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="3" role="normal">for_air_sentineltier1_beam</Unit>
+		</Units>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>AlwaysAttackReviveUnits</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Forerunner</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>None</StencilType>
+		</Selection>
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Birth>FlyIn</Birth>
+		<FrozenThreshold>100</FrozenThreshold>
+	</Squad>
+	<Squad name="for_air_sentineltier1_power" dbid="1760837674967604434" formationType="Line" parent_element="for_air_sentinel_01">
+		<BuildPoints>10.5</BuildPoints>
+		<SubSelectSort>103301</SubSelectSort>
+		<Pop Type="Unit">-1</Pop>
+		<Cost ResourceType="Supplies">25</Cost>
+		<Cost ResourceType="Power">25</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<Units>
+			<Unit count="1" role="normal">for_air_sentineltier1_power</Unit>
+		</Units>
+	</Squad>
 	<Squad name="for_air_enforcer_01" dbid="16760708731891163030" parent_element="for_air_enforcer_base_01">
 		<LeashDistance>100</LeashDistance>
 		<Units>
@@ -9619,7 +9714,7 @@
 		<AvoidanceMass>Light</AvoidanceMass>
 		<Counters>Marines_01</Counters>
 	</Squad>
-	<Squad name="unsc_inf_generic_ods2" dbid="8454786750728801355" formationType="Flock">
+	<Squad name="unsc_inf_generic_odst2" dbid="8454786750728801355" formationType="Flock">
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapScale>1</MinimapScale>
@@ -11428,6 +11523,24 @@
 		<RammingDistanceScalar>7</RammingDistanceScalar>
 		<RammingSpeedScalar>3</RammingSpeedScalar>
 		<RevvingSpeedThreshold>11</RevvingSpeedThreshold>
+	</Squad>
+	<Squad name="unsc_veh_warthogspartan_01" dbid="12058883268133283633" parent_element="cpgnh_p01_warthogspartan_01">
+		<BuildPoints override_type="absolute">45</BuildPoints>
+		<Pop Type="Spartan" override_type="absolute">1</Pop>
+		<Pop Type="Unit">-4</Pop>
+		<Cost ResourceType="Supplies">300</Cost>
+		<Cost ResourceType="Power" override_type="absolute">275</Cost>
+		<Cost ResourceType="HQLevel" override_type="absolute">1</Cost>
+		<HPBar offset="0,6.1500001,0">UNSC_HealthShield</HPBar>
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">unsc_veh_warthogspartan_01</Unit>
+		</Units>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>Units</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
 	</Squad>
 	<Squad name="unsc_veh_wolverine_01" dbid="867071320328617462" parent_element="unsc_veh_wolverine_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
