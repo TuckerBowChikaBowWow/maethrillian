@@ -146,11 +146,13 @@
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
 			<Action>FlamerAttackAction</Action>
+			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
 			<Action>FlamerUpgradeAttackAction</Action>
+			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />

@@ -2411,15 +2411,6 @@
 		<LeaderDiesLast>True</LeaderDiesLast>
 		<Counters override_type="absolute">Grunts_03</Counters>
 	</Squad>
-	<Squad name="cov_veh_arbitergorgon_01" dbid="17715392104709923058" formationType="Line" parent_element="cov_veh_gorgon_01_sp">
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Pop Type="Unit">1</Pop>
-		<Units override_type="absolute">
-			<Unit count="1" role="normal">cov_veh_arbitergorgon_01</Unit>
-		</Units>
-	</Squad>
 	<Squad name="cov_veh_bruteChopper_01" dbid="4271058514884523227" parent_element="cov_veh_bruteChopper_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -2630,6 +2621,50 @@
 		<Cost ResourceType="HQLevel">2</Cost>
 	</Squad>
 	<Squad name="cov_veh_gorgon_01_sp" parent_element="cov_veh_gorgon_01_base" dbid="8233260635317588724" />
+	<Squad name="cov_veh_arbitergorgon_01" dbid="9688193681871967002">
+		<CombatRank>6</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>26140</DisplayNameID>
+		<RolloverTextID>26141</RolloverTextID>
+		<RoleTextID>505</RoleTextID>
+		<PrereqTextID>240</PrereqTextID>
+		<SubSelectSort>905</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>2.70000005</AIAttackRank>
+		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
+		<Pop Type="Unit">5</Pop>
+		<BuildPoints>22</BuildPoints>
+		<Cost ResourceType="Supplies">175</Cost>
+		<Cost ResourceType="Power">210</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
+		<HPBar offset="0,5.53499985,0">COV_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_veh_arbitergorgon_01</Unit>
+		</Units>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="0.100000001" max="4" />
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Reaver_01</Counters>
+		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
+	</Squad>
 	<Squad name="cov_veh_grunt_bruteChopper_01" dbid="1131046361057567986" parent_element="cov_veh_bruteChopper_01">
 		<Units>
 			<Unit count="1" role="normal">cov_veh_grunt_bruteChopper_01</Unit>
@@ -2812,6 +2847,11 @@
 		<HealValue>1.75</HealValue>
 	</Squad>
 	<Squad name="cov_veh_prowler_01_sp" parent_element="cov_veh_prowler_01_base" dbid="17981860158827725179" />
+	<Squad name="cov_veh_prowler_02" dbid="15338664881340316255" parent_element="cov_veh_prowler_01">
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">cov_veh_prowler_02</Unit>
+		</Units>
+	</Squad>
 	<Squad name="cov_veh_shadelocust_01" dbid="15261052440451981076">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -2908,6 +2948,54 @@
 		<ChillDecayPerSecond>100</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="cov_veh_scarab_01_sp" parent_element="cov_veh_scarab_01_base" dbid="4169646452843276638" />
+	<Squad name="cov_veh_arbiterscarab_01" dbid="3688907597617182080">
+		<CombatRank>10</CombatRank>
+		<HealValue>4.5</HealValue>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_scarab</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3060</DisplayNameID>
+		<RolloverTextID>3061</RolloverTextID>
+		<RoleTextID>508</RoleTextID>
+		<PrereqTextID>246</PrereqTextID>
+		<SubSelectSort>95</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>25</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<DazeResist>0.25</DazeResist>
+		<FrozenThreshold>500</FrozenThreshold>
+		<ShatterThreshold>5000</ShatterThreshold>
+		<DamageOnShatter>10000</DamageOnShatter>
+		<ChillDecayPerSecond>100</ChillDecayPerSecond>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>30</AIAttackRank>
+		<ActiveAbilityType>ScarabDisruptionField</ActiveAbilityType>
+		<BuildPoints>120</BuildPoints>
+		<Pop Type="Unit">40</Pop>
+		<Cost ResourceType="Supplies">2000</Cost>
+		<Cost ResourceType="Power">2000</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
+		<HPBar offset="0,12.915,0" sizeX="12.0f" sizeY="3.0f">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="COV_Star_Scarab_Centered">COV_Star_Scarab</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_veh_arbiterscarab_01</Unit>
+		</Units>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+		</Selection>
+		<Birth>IncomingAnim</Birth>
+		<TurnRadius min="2" max="16" />
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Scarab_01</Counters>
+		<MaxConvertedtoDroneSlots>3</MaxConvertedtoDroneSlots>
+	</Squad>
 	<Squad name="cov_veh_methanescarab_01_base" dbid="3688907597617182080">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
