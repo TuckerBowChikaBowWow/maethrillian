@@ -72,53 +72,6 @@
 		<Filter>Heavy</Filter>
 	</Weapon>
 	<Weapon>
-		<Name>Flamer</Name>
-		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>114</DamagePerSecond>
-		<WeaponType>KinsanoWarthogFire</WeaponType>
-		<Projectile>fx_proj_flamehogBeam_01</Projectile>
-		<MaxVelocityLead>27.6749992</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
-		<MaxRangeThresholdFactor>1.10000002</MaxRangeThresholdFactor>
-		<MaxRangeThresholdTime>1</MaxRangeThresholdTime>
-		<Accuracy>0.100000001</Accuracy>
-		<MaxDeviation>1.5</MaxDeviation>
-		<MovingAccuracy>0.100000001</MovingAccuracy>
-		<MovingMaxDeviation>2</MovingMaxDeviation>
-		<EnableHeightBonusDamage />
-		<Hardpoint>MGTurret</Hardpoint>
-		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="Infantry">9</TargetPriority>
-		<TargetPriority type="TurretBuilding">6</TargetPriority>
-		<TargetPriority type="GroundVehicle">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<TargetPriority type="Aircraft">-1</TargetPriority>
-		<AOEData>
-			<Hitbox>
-				<Type>Segment</Type>
-				<Length>ReachTarget</Length>
-				<Width>3</Width>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Attacker</Origin>
-				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>4</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
-			</Hitbox>
-		</AOEData>
-		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.800000012</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1</PostAttackCooldownMax>
-		<Filter>Medium</Filter>
-	</Weapon>
-	<Weapon>
 		<Name>SpecialAttack</Name>
 		<AttackRate>45</AttackRate>
 		<DamagePerSecond>2000</DamagePerSecond>
@@ -223,19 +176,6 @@
 		<Strafing maxDistance="20" turnRate="90" trackingSpeed="40" jitter="20" />
 	</Action>
 	<Action>
-		<Name>FlamerAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>FlameAttack</Anim>
-		<Duration DurationSpread="1.5">3</Duration>
-		<Weapon>Flamer</Weapon>
-		<SlaveAttackAction>CannonAttackAction</SlaveAttackAction>
-		<Beam collideWithUnits="false" collideWithTerrain="true" />
-		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
-		<FullBodyAttackAnim />
-		<PersistBetweenOpps />
-		<LoopAttackAnim />
-	</Action>
-	<Action>
 		<Name>SpecialAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>SpecialCannonAttack</Anim>
@@ -299,9 +239,7 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>FlamerAttackAction</Action>
-			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
+			<Action>MachinegunAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
