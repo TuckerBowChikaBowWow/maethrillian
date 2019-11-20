@@ -258,6 +258,21 @@
 			<TechStatus status="Active">Basic</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_fire_pegasus_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_fire_pegasus_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_fire_pegasus_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_fire_pegasus_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_command_04</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_cryoscorpion_01</Target>
 			</Effect>
@@ -4864,6 +4879,9 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">pow_for_andersultimate_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">for_air_enforcer_tech1</Target>
@@ -16228,9 +16246,6 @@
 				<Target type="ProtoUnit">unsc_veh_flamescorpion_01</Target>
 			</Effect>
 			<Effect type="Data" amount="800" subtype="Shieldpoints" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_veh_flamescorpion_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="ShieldAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_flamescorpion_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="SpecialAttackAction" relativity="Absolute">
