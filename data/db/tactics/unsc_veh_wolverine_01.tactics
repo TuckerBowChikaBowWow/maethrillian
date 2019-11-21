@@ -1,126 +1,68 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
-	<Weapon>
-		<Name>Flamer</Name>
-		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>114</DamagePerSecond>
-		<WeaponType>KinsanoWarthogFire</WeaponType>
-		<Projectile>fx_proj_flamehogBeam_01</Projectile>
-		<MaxVelocityLead>27.6749992</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
-		<MaxRangeThresholdFactor>1.10000002</MaxRangeThresholdFactor>
-		<MaxRangeThresholdTime>1</MaxRangeThresholdTime>
-		<Accuracy>0.100000001</Accuracy>
-		<MaxDeviation>1.5</MaxDeviation>
-		<MovingAccuracy>0.100000001</MovingAccuracy>
-		<MovingMaxDeviation>2</MovingMaxDeviation>
-		<EnableHeightBonusDamage />
-		<Hardpoint>CryoRay</Hardpoint>
-		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="Infantry">9</TargetPriority>
-		<TargetPriority type="TurretBuilding">6</TargetPriority>
-		<TargetPriority type="GroundVehicle">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<TargetPriority type="Aircraft">-1</TargetPriority>
-		<AOEData>
-			<Hitbox>
-				<Type>Segment</Type>
-				<Length>ReachTarget</Length>
-				<Width>3</Width>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Attacker</Origin>
-				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>4</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
-			</Hitbox>
-		</AOEData>
-		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.800000012</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1</PostAttackCooldownMax>
-		<Filter>Medium</Filter>
-	</Weapon>
-	<Weapon>
-		<Name>FlamerUpgrade</Name>
-		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>114</DamagePerSecond>
-		<WeaponType>KinsanoWarthogFire</WeaponType>
-		<Projectile>fx_proj_flamehogBeam_01</Projectile>
-		<MaxVelocityLead>27.6749992</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
-		<MaxRangeThresholdFactor>1.10000002</MaxRangeThresholdFactor>
-		<MaxRangeThresholdTime>1</MaxRangeThresholdTime>
-		<Accuracy>0.100000001</Accuracy>
-		<MaxDeviation>1.5</MaxDeviation>
-		<MovingAccuracy>0.100000001</MovingAccuracy>
-		<MovingMaxDeviation>2</MovingMaxDeviation>
-		<EnableHeightBonusDamage />
-		<Hardpoint>CryoRay</Hardpoint>
-		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="Infantry">9</TargetPriority>
-		<TargetPriority type="TurretBuilding">6</TargetPriority>
-		<TargetPriority type="GroundVehicle">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<TargetPriority type="Aircraft">-1</TargetPriority>
-		<AOEData>
-			<Hitbox>
-				<Type>Segment</Type>
-				<Length>ReachTarget</Length>
-				<Width>4</Width>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Attacker</Origin>
-				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>6</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
-			</Hitbox>
-		</AOEData>
-		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.800000012</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1</PostAttackCooldownMax>
-		<Filter>Medium</Filter>
-		<ReapplyDamageOverArea />
-		<AOEExpandingRadiusMax rate="12">10</AOEExpandingRadiusMax>
-	</Weapon>
+	 <Weapon>
+      <Name>Flamer</Name>
+      <AttackRate>0.25</AttackRate>
+      <DamagePerSecond>214</DamagePerSecond>   
+      <WeaponType>FlameHaleFire</WeaponType>
+      <Projectile>fx_proj_flamerBeam_01</Projectile>
+      <MaxVelocityLead>27.675</MaxVelocityLead>
+      <DOTrate>10</DOTrate>
+	  <DOTduration>5</DOTduration>
+	  <DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrowerlg_01</DOTEffect>
+      <MaxRange>35.0</MaxRange>
+      <MaxRangeThresholdFactor>1.1</MaxRangeThresholdFactor>
+      <MaxRangeThresholdTime>1.0</MaxRangeThresholdTime>
+      <Accuracy>0.10</Accuracy> 
+      <MaxDeviation>1.5</MaxDeviation>
+      <MovingAccuracy>0.1</MovingAccuracy>
+      <MovingMaxDeviation>2.0</MovingMaxDeviation>
+      <EnableHeightBonusDamage />
+      <Hardpoint>CryoRay</Hardpoint>
+      <ReapplyDamageOverArea />
+      <TargetPriority type="Infantry">9.0</TargetPriority>
+	  <TargetPriority type="TurretBuilding">6.0</TargetPriority>
+      <TargetPriority type="GroundVehicle">3.0</TargetPriority>
+	  <TargetPriority type="Building">1.0</TargetPriority>
+	  <TargetPriority type="Aircraft">-1.0</TargetPriority>  
+	  <Slow TargetType="Military" MovementModifier="0.99999988" AOEEffect="false" SmartTargeting="false" AffectsBuildings="false">1.0f</Slow>
+	  <ImpactEffect doShockwaveAction="true">NapalmFlameUpgrade</ImpactEffect>
+	  <AOEData>
+         <Hitbox>
+            <Type>Segment</Type>
+            <Length>ReachTarget</Length>
+            <Width>3.0</Width>
+            <DamageRatio>100.0</DamageRatio>
+            <Origin>Attacker</Origin>
+            <FriendlyFire>false</FriendlyFire>
+			<TargetType>NonFlying</TargetType>
+         </Hitbox>
+         <Hitbox>
+            <Type>Circle</Type>
+            <Radius>7</Radius>
+            <DamageRatio>100.0</DamageRatio>
+            <Origin>Target</Origin>
+            <FriendlyFire>false</FriendlyFire>
+			<TargetType>NonFlying</TargetType>
+         </Hitbox>
+      </AOEData>
+      <PreAttackCooldownMin>0</PreAttackCooldownMin>
+      <PreAttackCooldownMax>0.6</PreAttackCooldownMax>
+      <PostAttackCooldownMin>1</PostAttackCooldownMin>
+      <PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+	   <Filter>Medium</Filter>
+   </Weapon>
 	<Action>
-		<Name>FlamerAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>FlameAttack</Anim>
-		<Duration DurationSpread="1.5">3</Duration>
-		<Weapon>Flamer</Weapon>
-		<Beam collideWithUnits="false" collideWithTerrain="true" />
-		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
-		<FullBodyAttackAnim />
-		<PersistBetweenOpps />
-		<LoopAttackAnim />
-	</Action>
-	<Action>
-		<Name>FlamerUpgradeAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>FlameAttack</Anim>
-		<Duration DurationSpread="1.5">3</Duration>
-		<Weapon>FlamerUpgrade</Weapon>
-		<Beam collideWithUnits="false" collideWithTerrain="true" />
-		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
-		<FullBodyAttackAnim />
-		<PersistBetweenOpps />
-		<LoopAttackAnim />
-		<StartDisabled />
-	</Action>
+      <Name>FlameAttackAction</Name>
+      <ActionType>RangedAttack</ActionType>
+      <Anim>FlameAttack</Anim>
+      <Duration DurationSpread="1.5">5</Duration>
+      <Weapon>Flamer</Weapon>
+      <Beam collideWithUnits="false" collideWithTerrain="true"> </Beam>
+      <Strafing maxDistance="45.0" turnRate="360.0" trackingSpeed="40.0" jitter="20.0"></Strafing>
+      <PersistBetweenOpps />
+      <LoopAttackAnim/>
+   </Action>
 	<Action>
 		<Name>GarrisonTeleport</Name>
 		<ActionType>Garrison</ActionType>
@@ -143,17 +85,10 @@
 	</Action>
 	<Tactic>
 		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>FlamerAttackAction</Action>
-			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>FlamerUpgradeAttackAction</Action>
-			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
-		</TargetRule>
+      		<Relation>Enemy</Relation>
+      		<TargetType>NonFlying</TargetType>
+			<Action>FlameAttackAction</Action>
+   		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>

@@ -262,16 +262,16 @@
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_fire_pegasus_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
+				<Target type="ProtoUnit">unsc_bldg_command_01_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_fire_pegasus_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
+				<Target type="ProtoUnit">unsc_bldg_command_02_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_fire_pegasus_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
+				<Target type="ProtoUnit">unsc_bldg_command_03_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_fire_pegasus_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_04</Target>
+				<Target type="ProtoUnit">unsc_bldg_command_04_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_cryoscorpion_01</Target>
@@ -4709,7 +4709,7 @@
 			<Effect type="UnlockableGodPower" tier="3">Cutter_Pegasus</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscOrbitalBattleGroupNew</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscImmolation</Effect>
-			<Effect type="UnlockableGodPower" tier="5">UnscScorpionTech</Effect>
+			<Effect type="UnlockableGodPower" tier="5">Cutter_NukeBombing</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscPelicanGunship</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
@@ -5051,9 +5051,6 @@
 			<Effect type="UnlockableGodPower" tier="5">UnscArkCleansing</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
-			</Effect>
-			<Effect type="Data" subtype="Enable">
-				<Target type="Tech">forerunner_instant_upgrade</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -14648,11 +14645,7 @@
 		<DBID>1963</DBID>
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
-		<Effects>
-			<Effect type="ReparentProtoObject" FromType="cov_inf_generic_arbiter_eliteLeader_01" ToType="cov_inf_shipmaster_eliteLeader_01" />
-			<Effect type="ReparentProtoObject" FromType="cov_inf_generic_arbiter_elitesubleader_01" ToType="cov_inf_shipmaster_elitesubleader_01" />
-			<Effect type="ReparentProtoObject" FromType="cov_inf_generic_elitegrunt_01" ToType="cov_inf_shipmastergrunt_01" />
-		</Effects>
+		<Effects />
 	</Tech>
 	<Tech name="cov_arbiter_assaultteam" type="Normal">
 		<DBID>1963</DBID>
