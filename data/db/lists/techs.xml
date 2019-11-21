@@ -8429,6 +8429,12 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteJumpPack_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_brutegrenadier_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_brutegrenadier_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_phantom_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01_fl</Target>
 			</Effect>
@@ -8655,6 +8661,9 @@
 			<Effect type="Data" amount="2" subtype="Damage" relativity="Percent">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="FloodRuptureEmerge" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="flood_vehicle_tech" type="Normal">
@@ -8745,7 +8754,7 @@
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Effects>
-			<Effect type="Data" amount="-6000" subtype="PowerRechargeTime" power="FloodBaseDrop1" relativity="Absolute">
+			<Effect type="Data" amount="-40000" subtype="PowerRechargeTime" power="FloodBaseDrop1" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
 			<Effect type="Data" amount="0.800000012" subtype="PowerCost" Resource="Supplies" power="FloodBaseDrop1" relativity="Percent">
@@ -8754,12 +8763,7 @@
 			<Effect type="Data" amount="0.800000012" subtype="PowerCost" Resource="Power" power="FloodBaseDrop1" relativity="Percent">
 				<Target type="Player" />
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
-				<Target type="ProtoUnit">flood_air_airborneinfector_01</Target>
-				<Target type="ProtoUnit">flood_inf_spawner_01</Target>
-			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="0.8" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="0.9" relativity="Percent">
 				<Target type="ProtoSquad">flood_inf_vehinfector_01</Target>
 				<Target type="ProtoSquad">flood_air_airborneinfector_01</Target>
 				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
@@ -8778,7 +8782,7 @@
 				<Target type="ProtoSquad">flood_air_infected_banshee_01_base</Target>
 				<Target type="ProtoSquad">flood_air_infected_blisterback_01_base</Target>
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.8" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="0.9" relativity="Percent">
 				<Target type="ProtoSquad">flood_inf_vehinfector_01</Target>
 				<Target type="ProtoSquad">flood_air_airborneinfector_01</Target>
 				<Target type="ProtoSquad">flood_inf_spawner_01</Target>

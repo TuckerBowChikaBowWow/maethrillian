@@ -27682,7 +27682,7 @@
 				<Data type="float" name="BuffDuration">15</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
-				<Data type="float" name="DamageMitigationScalar">0.5</Data>
+				<Data type="float" name="DamageMitigationScalar">0.45</Data>
 				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
 				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
 				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
@@ -27727,7 +27727,7 @@
 				<Data type="float" name="BuffDuration">15</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
-				<Data type="float" name="DamageMitigationScalar">0.4</Data>
+				<Data type="float" name="DamageMitigationScalar">0.35</Data>
 				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
 				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
 				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
@@ -27765,10 +27765,10 @@
 			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">18</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
-				<Data type="float" name="BuffDuration">12</Data>
+				<Data type="float" name="BuffDuration">15</Data>
 				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
 				<Data type="float" name="SlowModifier">0.8</Data>
-				<Data type="float" name="PercentHealthDamageOverTime">0.3</Data>
+				<Data type="float" name="PercentHealthDamageOverTime">0.35</Data>
 				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
 				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
 				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
