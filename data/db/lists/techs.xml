@@ -8309,10 +8309,16 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_infected_blisterback_01_base" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_airborneinfector_01" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_airborneinfector_01_hive" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_spawner_01" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_spawner_01_hive" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_corruptedengineer_01_hive" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_infectedbrute_carrier_01_hive" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_shieldtower_01" relativity="Absolute">
@@ -8598,6 +8604,17 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_airborneinfector_01" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_corruptedengineer_01_hive" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="buildPoints" amount="0.9" relativity="Percent">
+				<Target type="ProtoSquad">flood_inf_vehinfector_01_hive</Target>
+				<Target type="ProtoSquad">flood_air_airborneinfector_01_hive</Target>
+				<Target type="ProtoSquad">flood_inf_spawner_01_hive</Target>
+				<Target type="ProtoSquad">flood_inf_corruptedengineer_01_hive</Target>
+				<Target type="ProtoSquad">flood_infectedbrute_carrier_01_hive</Target>
+				<Target type="ProtoSquad">flood_inf_generic_core_hive</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="flood_hivetech_upgrade2" type="Normal">
@@ -8621,6 +8638,17 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_spawner_01" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_infectedbrute_carrier_01_hive" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="buildPoints" amount="0.9" relativity="Percent">
+				<Target type="ProtoSquad">flood_inf_vehinfector_01_hive</Target>
+				<Target type="ProtoSquad">flood_air_airborneinfector_01_hive</Target>
+				<Target type="ProtoSquad">flood_inf_spawner_01_hive</Target>
+				<Target type="ProtoSquad">flood_inf_corruptedengineer_01_hive</Target>
+				<Target type="ProtoSquad">flood_infectedbrute_carrier_01_hive</Target>
+				<Target type="ProtoSquad">flood_inf_generic_core_hive</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -9033,11 +9061,13 @@
 				<Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
 				<Target type="ProtoUnit">flood_air_infected_banshee_01_base</Target>
 				<Target type="ProtoUnit">flood_air_infected_blisterback_01_base</Target>
+				<Target type="ProtoSquad">flood_inf_corruptedengineer_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
 				<Target type="ProtoUnit">flood_air_infected_banshee_01_base</Target>
 				<Target type="ProtoUnit">flood_air_infected_blisterback_01_base</Target>
+				<Target type="ProtoSquad">flood_inf_corruptedengineer_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -9060,11 +9090,13 @@
 				<Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
 				<Target type="ProtoUnit">flood_air_infected_banshee_01_base</Target>
 				<Target type="ProtoUnit">flood_air_infected_blisterback_01_base</Target>
+				<Target type="ProtoSquad">flood_inf_corruptedengineer_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.130434783" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
 				<Target type="ProtoUnit">flood_air_infected_banshee_01_base</Target>
 				<Target type="ProtoUnit">flood_air_infected_blisterback_01_base</Target>
+				<Target type="ProtoSquad">flood_inf_corruptedengineer_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -9087,11 +9119,13 @@
 				<Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
 				<Target type="ProtoUnit">flood_air_infected_banshee_01_base</Target>
 				<Target type="ProtoUnit">flood_air_infected_blisterback_01_base</Target>
+				<Target type="ProtoSquad">flood_inf_corruptedengineer_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.115384615" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
 				<Target type="ProtoUnit">flood_air_infected_banshee_01_base</Target>
 				<Target type="ProtoUnit">flood_air_infected_blisterback_01_base</Target>
+				<Target type="ProtoSquad">flood_inf_corruptedengineer_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>

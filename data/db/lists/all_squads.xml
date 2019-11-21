@@ -4857,6 +4857,9 @@
 		<RammingDistanceScalar>5</RammingDistanceScalar>
 		<RammingSpeedScalar>1.5</RammingSpeedScalar>
 	</Squad>
+	<Squad name="flood_air_airborneinfector_01_hive" dbid="18345026867266862783" parent_element="flood_air_airborneinfector_01">
+		<BuildPoints>28</BuildPoints>
+	</Squad>
 	<Squad name="flood_air_infected_banshee_01_base" parent_element="flood_air_infected_banshee_01_base_sp" dbid="11567213460730042908">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -5023,6 +5026,9 @@
 		<AvoidanceMass>Light</AvoidanceMass>
 		<Counters>CorruptedEngineer_01</Counters>
 	</Squad>
+	<Squad name="flood_inf_corruptedengineer_01_hive" dbid="15555952511898161291" parent_element="flood_inf_corruptedengineer_01">
+		<BuildPoints>20</BuildPoints>
+	</Squad>
 	<Squad name="flood_inf_generic_core" dbid="8454786750728801355" formationType="Flock">
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
@@ -5066,6 +5072,9 @@
 		<Birth>Trained</Birth>
 		<AvoidanceMass>Light</AvoidanceMass>
 		<Counters>Marines_01</Counters>
+	</Squad>
+	<Squad name="flood_inf_generic_core_hive" dbid="8454786750728801355" formationType="Flock" parent_element="flood_inf_generic_core">
+		<BuildPoints>17</BuildPoints>
 	</Squad>
 	<Squad name="flood_inf_arbiter_assaultteam_01" dbid="15571555391561239374">
 		<CombatRank>3</CombatRank>
@@ -5488,6 +5497,9 @@
 		<Flag>DoNotMoveToAttackMe</Flag>
 		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
 	</Squad>
+	<Squad name="flood_inf_spawner_01_hive" dbid="9680073682520478102" parent_element="flood_inf_spawner_01">
+		<BuildPoints>35</BuildPoints>
+	</Squad>
 	<Squad name="flood_inf_vehinfector_01" dbid="13896596634908817471">
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
@@ -5538,6 +5550,9 @@
 		<Counters>Marines_01</Counters>
 		<RammingDistanceScalar>10</RammingDistanceScalar>
 		<RammingSpeedScalar>1.5</RammingSpeedScalar>
+	</Squad>
+	<Squad name="flood_inf_vehinfector_01_hive" dbid="13896596634908817471" parent_element="flood_inf_vehinfector_01">
+		<BuildPoints>20</BuildPoints>
 	</Squad>
 	<Squad name="flood_inf_infected_assaultrifle_01" dbid="16981444875662232232" parent_element="flood_inf_infected_assaultrifle_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
@@ -5663,6 +5678,9 @@
 		<Birth>Trained</Birth>
 		<AvoidanceMass>Light</AvoidanceMass>
 		<Counters>Marines_01</Counters>
+	</Squad>
+	<Squad name="flood_infectedbrute_carrier_01_hive" formationType="Flock" dbid="5727405345613569373" parent_element="flood_infectedbrute_carrier_01">
+		<BuildPoints>16</BuildPoints>
 	</Squad>
 	<Squad name="fld_custom_carrierform_elite" formationType="Flock" dbid="14175204004466671828" parent_element="flood_inf_infected_elitemelee_01">
 		<SubSelectSort>52300</SubSelectSort>
