@@ -1,13 +1,67 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
+	<Weapon>
+		<Name>InfernoDamageOverTime</Name>
+		<DamagePerSecond>3500</DamagePerSecond>
+		<WeaponType>LeaderPowerInfernoNonFlying</WeaponType>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">0.800000012</DamageRatingOverride>
+		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">0.800000012</DamageRatingOverride>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="25" />
+		<AOERadius>20</AOERadius>
+		<AOEExpandingRadiusMax rate="12">45</AOEExpandingRadiusMax>
+	</Weapon>
+	<Weapon>
+		<Name>InfernoMissile</Name>
+		<DamagePerSecond>47500</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>LeaderPowerKinsano</WeaponType>
+		<Projectile>pow_proj_infernomissile_01</Projectile>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1.39999998" yawpitchstrength="4" rollstrength="2" rotationfrequency="5" translationstrength="0" translationfrequency="4" />
+		<ImpactRumble leftRumbleType="Fixed" leftStrength="1" rightRumbleType="Fixed" rightStrength="1" duration="0.800000012" />
+		<ImpactEffect size="Medium">VultureNuke</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>15</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>35</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+	</Weapon>
 	<Action>
-		<Name>DeliverBuilding</Name>
-		<ActionType>AnimDeliver</ActionType>
-		<Hardpoint>Spirit</Hardpoint>
-		<Hardpoint2>Building</Hardpoint2>
-		<DeliveryType>Building</DeliveryType>
-		<DeliveryDelay>0</DeliveryDelay>
-		<AllowDuplicate />
+		<Name>InfernoDamageOverTimeAction</Name>
+		<Weapon>InfernoDamageOverTime</Weapon>
+	</Action>
+	<Action>
+		<Default>true</Default>
+		<Name>InfernoAttackAction</Name>
+		<Weapon>InfernoMissile</Weapon>
 	</Action>
 	<Tactic />
 </TacticData>
