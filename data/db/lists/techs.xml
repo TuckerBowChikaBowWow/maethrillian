@@ -6105,9 +6105,6 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">cov_arbiter_gruntsquad</Target>
 			</Effect>
-			<Effect type="Data" subtype="Enable">
-				<Target type="Tech">cov_shipmaster_gruntsquad</Target>
-			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 			</Effect>
@@ -14640,12 +14637,6 @@
 				<Target type="ProtoUnit">cov_bldg_minibase3sock_01_mp</Target>
 			</Effect>
 		</Effects>
-	</Tech>
-	<Tech name="cov_shipmaster_gruntsquad" type="Normal">
-		<DBID>1963</DBID>
-		<ResearchPoints>0</ResearchPoints>
-		<Status>OBTAINABLE</Status>
-		<Effects />
 	</Tech>
 	<Tech name="cov_arbiter_assaultteam" type="Normal">
 		<DBID>1963</DBID>
