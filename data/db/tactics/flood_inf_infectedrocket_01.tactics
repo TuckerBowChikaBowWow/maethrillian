@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>RocketWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>95</DamagePerSecond>
+		<DamagePerSecond>85</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -39,15 +39,15 @@
 		<TargetPriority type="Building">3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1</PreAttackCooldownMax>
-		<PostAttackCooldownMin>2.5</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2.5</PostAttackCooldownMax>
+		<PreAttackCooldownMin>1.25</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1.25</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.9</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.9</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>InCoverRocketWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>95</DamagePerSecond>
+		<DamagePerSecond>85</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -83,10 +83,10 @@
 		<TargetPriority type="Building">3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1</PreAttackCooldownMax>
-		<PostAttackCooldownMin>2.5</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2.5</PostAttackCooldownMax>
+		<PreAttackCooldownMin>1.25</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1.25</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.9</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.9</PostAttackCooldownMax>
 	</Weapon>
 	<Action>
 		<Name>RocketAttackAction</Name>
