@@ -8683,6 +8683,9 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepairOther2" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepairSelf" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
@@ -8888,7 +8891,8 @@
 				<Target type="ProtoUnit">flood_inf_infected_elitemelee_01</Target>
 				<Target type="ProtoUnit">flood_air_airborneinfector_01</Target>
 				<Target type="ProtoUnit">flood_inf_spawner_01</Target>
-				<Target type="ProtoUnit">flood_inf_generic_core</Target>
+				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
+				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
 				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
@@ -8896,7 +8900,8 @@
 				<Target type="ProtoUnit">flood_inf_infected_elitemelee_01</Target>
 				<Target type="ProtoUnit">flood_air_airborneinfector_01</Target>
 				<Target type="ProtoUnit">flood_inf_spawner_01</Target>
-				<Target type="ProtoUnit">flood_inf_generic_core</Target>
+				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
+				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
 				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
 			</Effect>
 		</Effects>
@@ -8921,7 +8926,8 @@
 				<Target type="ProtoUnit">flood_inf_infected_elitemelee_01</Target>
 				<Target type="ProtoUnit">flood_air_airborneinfector_01</Target>
 				<Target type="ProtoUnit">flood_inf_spawner_01</Target>
-				<Target type="ProtoUnit">flood_inf_generic_core</Target>
+				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
+				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
 				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.130434783" subtype="Damage" allactions="1" relativity="Percent">
@@ -8929,7 +8935,8 @@
 				<Target type="ProtoUnit">flood_inf_infected_elitemelee_01</Target>
 				<Target type="ProtoUnit">flood_air_airborneinfector_01</Target>
 				<Target type="ProtoUnit">flood_inf_spawner_01</Target>
-				<Target type="ProtoUnit">flood_inf_generic_core</Target>
+				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
+				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
 				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
 			</Effect>
 		</Effects>
@@ -8954,7 +8961,8 @@
 				<Target type="ProtoUnit">flood_inf_infected_elitemelee_01</Target>
 				<Target type="ProtoUnit">flood_air_airborneinfector_01</Target>
 				<Target type="ProtoUnit">flood_inf_spawner_01</Target>
-				<Target type="ProtoUnit">flood_inf_generic_core</Target>
+				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
+				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
 				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.115384615" subtype="Damage" allactions="1" relativity="Percent">
@@ -8962,7 +8970,8 @@
 				<Target type="ProtoUnit">flood_inf_infected_elitemelee_01</Target>
 				<Target type="ProtoUnit">flood_air_airborneinfector_01</Target>
 				<Target type="ProtoUnit">flood_inf_spawner_01</Target>
-				<Target type="ProtoUnit">flood_inf_generic_core</Target>
+				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
+				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
 				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
 			</Effect>
 		</Effects>
@@ -8980,12 +8989,12 @@
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1.15" subtype="Hitpoints" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_rocket_01</Target>
 				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
 				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_rocket_01</Target>
 				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
 				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
 			</Effect>
@@ -9007,12 +9016,12 @@
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1.130434783" subtype="Hitpoints" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_rocket_01</Target>
 				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
 				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="1.130434783" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_rocket_01</Target>
 				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
 				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
 			</Effect>
@@ -9034,12 +9043,12 @@
 		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="1.115384615" subtype="Hitpoints" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_rocket_01</Target>
 				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
 				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="1.115384615" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">flood_inf_infectedrocket_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_rocket_01</Target>
 				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
 				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
 			</Effect>
@@ -9061,13 +9070,13 @@
 				<Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
 				<Target type="ProtoUnit">flood_air_infected_banshee_01_base</Target>
 				<Target type="ProtoUnit">flood_air_infected_blisterback_01_base</Target>
-				<Target type="ProtoSquad">flood_inf_corruptedengineer_01</Target>
+				<Target type="ProtoUnit">flood_inf_corruptedengineer_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
 				<Target type="ProtoUnit">flood_air_infected_banshee_01_base</Target>
 				<Target type="ProtoUnit">flood_air_infected_blisterback_01_base</Target>
-				<Target type="ProtoSquad">flood_inf_corruptedengineer_01</Target>
+				<Target type="ProtoUnit">flood_inf_corruptedengineer_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>

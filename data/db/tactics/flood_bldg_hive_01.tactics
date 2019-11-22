@@ -224,6 +224,28 @@
 		</SpecificData>
 		<StartDisabled />
 	</Action>
+	<Action>
+		<Name>RepairSelf</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>60</WorkRange>
+		<WorkRate>0.35</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="500" AutoRepairThreshold="1" AutoRepairSearchDistance="60" />
+		<SpecificData>
+			<HealingPoints>
+				<HealingPoint>
+					<BoneName>GrannyRootBone_hive</BoneName>
+					<MaxHealingDistance>10</MaxHealingDistance>
+					<TargetType>Flood</TargetType>
+					<AutoReapairOn />
+					<HealOnTheMove />
+					<UseMainHealingTargetWhenAvailable />
+				</HealingPoint>
+			</HealingPoints>
+		</SpecificData>
+		<StartDisabled />
+	</Action>
 	<Tactic>
 		<PersistentAction>TrainedSquadDoor</PersistentAction>
 		<PersistentAction>Base</PersistentAction>
@@ -239,6 +261,10 @@
 			<Relation>Ally</Relation>
 			<TargetType>Military</TargetType>
 			<Action>RepairOther2</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<Action>RepairSelf</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>
