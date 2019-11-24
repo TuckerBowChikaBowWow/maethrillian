@@ -3,11 +3,12 @@
 	<Weapon>
 		<Name>InfectionBomb</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>2800</DamagePerSecond>
+		<DamagePerSecond>3000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Mines</WeaponType>
-		<ImpactEffect size="large">FloodEggExplosion</ImpactEffect>
-		<Daze TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
+		<ImpactEffect size="large">FloodMegaRuptureExplosion</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.5" duration="0.00999999978" fadeout="1.29999995" yawpitchstrength="3.79999995" rollstrength="1.5" rotationfrequency="6" translationstrength="0" translationfrequency="6" />
+		<Daze TargetType="NonFlying" MovementModifier="0.500000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
 		<MaxRange>30</MaxRange>
 		<AOEData>
 			<Hitbox>
@@ -22,8 +23,26 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
+				<Radius>25</Radius>
+				<DamageRatio>75</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
 				<Radius>30</Radius>
 				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>35</Radius>
+				<DamageRatio>25</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
