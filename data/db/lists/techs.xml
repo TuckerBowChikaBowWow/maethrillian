@@ -8707,7 +8707,7 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepairOther2" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepairSelf" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="HealthRegen" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">

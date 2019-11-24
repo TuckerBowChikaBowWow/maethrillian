@@ -246,12 +246,21 @@
 		</SpecificData>
 		<StartDisabled />
 	</Action>
+	<Action>
+		<Name>HealthRegen</Name>
+		<ActionType>SquadHealthRegen</ActionType>
+		<WorkRate>120</WorkRate>
+		<ReviveHealth>200</ReviveHealth>
+		<RegenDelay>3</RegenDelay>
+		<StartDisabled />
+	</Action>
 	<Tactic>
 		<PersistentAction>TrainedSquadDoor</PersistentAction>
 		<PersistentAction>Base</PersistentAction>
 		<PersistentAction>AreaBuff1</PersistentAction>
 		<PersistentAction>RepairOther1</PersistentAction>
 		<PersistentAction>AreaBuff2</PersistentAction>
+		<PersistentSquadAction>HealthRegen</PersistentSquadAction>
 		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>Military</TargetType>
@@ -261,10 +270,6 @@
 			<Relation>Ally</Relation>
 			<TargetType>Military</TargetType>
 			<Action>RepairOther2</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Self</Relation>
-			<Action>RepairSelf</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>
