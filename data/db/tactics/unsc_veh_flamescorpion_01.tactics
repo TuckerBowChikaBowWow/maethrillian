@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TacticData>
+   <Weapon>
+      <Name>Machinegun</Name>
+      <AttackRate>0.25</AttackRate>
+      <DamagePerSecond>161.0</DamagePerSecond>
+      <WeaponType>SmallArms</WeaponType>
+      <Projectile>fx_proj_machineGun_01</Projectile>
+      <ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
+      <MaxVelocityLead>9.225</MaxVelocityLead>
+      <MaxRange>50.0</MaxRange>
+      <Accuracy>0.10</Accuracy> 
+      <MaxDeviation>1.5</MaxDeviation>
+      <MovingAccuracy>0.10</MovingAccuracy>
+      <MovingMaxDeviation>2.0</MovingMaxDeviation>
+      <EnableHeightBonusDamage />
+	  <TargetPriority type="GroundVehicle">6</TargetPriority> 
+      <TargetPriority type="Infantry">5</TargetPriority>      
+      <TargetPriority type="Flying">4</TargetPriority>      
+      <TargetPriority type="Building">3</TargetPriority>
+      <Hardpoint>MGTurret</Hardpoint>
+      <PreAttackCooldownMin>0.0</PreAttackCooldownMin>
+      <PreAttackCooldownMax>0.4</PreAttackCooldownMax>
+      <PostAttackCooldownMin>1.2</PostAttackCooldownMin>
+      <PostAttackCooldownMax>2</PostAttackCooldownMax>
+	  <Filter>Heavy</Filter>
+   </Weapon>
+   <Weapon>
+      <Name>Flamer</Name>
+      <AttackRate>0.25</AttackRate>
+      <DamagePerSecond>87</DamagePerSecond>   
+      <WeaponType>KinsanoWarthogFire</WeaponType>
+      <Projectile>fx_proj_flamerBeam_01</Projectile>
+      <MaxVelocityLead>27.675</MaxVelocityLead>
+      <MaxRange>35.0</MaxRange>
+      <MaxRangeThresholdFactor>1.1</MaxRangeThresholdFactor>
+      <MaxRangeThresholdTime>1.0</MaxRangeThresholdTime>
+      <Accuracy>0.10</Accuracy> 
+      <MaxDeviation>1.5</MaxDeviation>
+      <MovingAccuracy>0.1</MovingAccuracy>
+      <MovingMaxDeviation>2.0</MovingMaxDeviation>
+      <EnableHeightBonusDamage />
+      <Hardpoint>MGTurret</Hardpoint>
+      <TargetPriority type="Infantry">9.0</TargetPriority>
+	  <TargetPriority type="TurretBuilding">6.0</TargetPriority>
+      <TargetPriority type="GroundVehicle">3.0</TargetPriority>
+	  <TargetPriority type="Building">1.0</TargetPriority>
+	  <TargetPriority type="Aircraft">-1.0</TargetPriority>  
+	  <AOEData>
+         <Hitbox>
+            <Type>Segment</Type>
+            <Length>ReachTarget</Length>
+            <Width>3.0</Width>
+            <DamageRatio>100.0</DamageRatio>
+            <Origin>Attacker</Origin>
+            <FriendlyFire>false</FriendlyFire>
+			<TargetType>NonFlying</TargetType>
+         </Hitbox>
+         <Hitbox>
+            <Type>Circle</Type>
+            <Radius>4</Radius>
+            <DamageRatio>100.0</DamageRatio>
+            <Origin>Target</Origin>
+            <FriendlyFire>false</FriendlyFire>
+			<TargetType>NonFlying</TargetType>
+         </Hitbox>
+      </AOEData>
+      <PreAttackCooldownMin>0</PreAttackCooldownMin>
+      <PreAttackCooldownMax>0.6</PreAttackCooldownMax>
+      <PostAttackCooldownMin>1</PostAttackCooldownMin>
+      <PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+	   <Filter>Medium</Filter>
+   </Weapon>
+    <Weapon>
+      <Name>RightMissilePod</Name>
+      <AttackRate>0.25</AttackRate>
+      <DamagePerSecond>90</DamagePerSecond>
+      <WeaponType>Basic</WeaponType>
+      <Projectile>fx_proj_engmissile_01</Projectile>
+      <ImpactEffect size="Medium">MissileImpact</ImpactEffect>
+      <MaxVelocityLead>9.225</MaxVelocityLead>
+      <MaxRange>70</MaxRange>
+      <Accuracy>1.00</Accuracy> 
+      <MaxDeviation>4.0</MaxDeviation>
+      <MovingAccuracy>1.0</MovingAccuracy>
+      <MovingMaxDeviation>6.0</MovingMaxDeviation>
+      <EnableHeightBonusDamage />
+	  <TargetPriority type="Flying">10.0</TargetPriority> 
+	  <TargetPriority type="GroundVehicle">7.0</TargetPriority>   
+      <TargetPriority type="Infantry">4.0</TargetPriority>       
+      <TargetPriority type="Building">1.0</TargetPriority>
+      <Hardpoint>RightMissilePod</Hardpoint>
+      <PreAttackCooldownMin>0</PreAttackCooldownMin>
+      <PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+      <PostAttackCooldownMin>2</PostAttackCooldownMin>
+      <PostAttackCooldownMax>3.5</PostAttackCooldownMax>
+	  <Filter>Heavy</Filter>
+   </Weapon> 
+   <Weapon>
+      <Name>Cannon</Name>
+      <AttackRate>3.0</AttackRate>
+      <DamagePerSecond>155.0</DamagePerSecond>
+      <WeaponType>TankExplosive</WeaponType>
+      <Projectile>fx_proj_cannon_03</Projectile>
+      <ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>
+      <MaxVelocityLead>12.3</MaxVelocityLead>
+      <MaxRange>50.0</MaxRange>
+      <Accuracy>1.00</Accuracy> 
+      <MaxDeviation>7.0</MaxDeviation>
+      <MovingAccuracy>1.00</MovingAccuracy>
+      <MovingMaxDeviation>10.00</MovingMaxDeviation>
+      <EnableHeightBonusDamage />
+	  <AOEData>
+		<Hitbox>
+			<Type>Circle</Type>
+			<Radius>4.0</Radius>
+			<DamageRatio>100.0</DamageRatio>
+			<Origin>Target</Origin>
+			<FriendlyFire>false</FriendlyFire>
+		</Hitbox>
+		<Hitbox>
+			<Type>Circle</Type>
+			<Radius>6.0</Radius>
+			<DamageRatio>40.0</DamageRatio>
+			<Origin>Target</Origin>
+			<FriendlyFire>false</FriendlyFire>
+		</Hitbox>
+	   </AOEData>
+      <Hardpoint>CannonTurret</Hardpoint>
+      <ThrowUnits></ThrowUnits>
+      <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+      <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+      <PhysicsForceMin>800</PhysicsForceMin>
+      <PhysicsForceMax>1200</PhysicsForceMax>
+      <PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+      <TargetPriority type="GroundVehicle">10.0</TargetPriority>      
+      <TargetPriority type="TurretBuilding">5.0</TargetPriority>
+      <TargetPriority type="Infantry">3.0</TargetPriority>      
+      <TargetPriority type="Building">1.0</TargetPriority>    
+      <TargetPriority type="Flying">-1.0</TargetPriority>
+	  <Filter>Heavy</Filter>
+   </Weapon>
+   <Weapon>
+      <Name>SpecialAttack</Name>
+      <AttackRate>45.0</AttackRate>
+      <DamagePerSecond>1400.00</DamagePerSecond>
+      <UseDPSasDPA />
+   	<WeaponType>Grenade</WeaponType>
+      <Projectile>fx_proj_canistershell_01</Projectile>
+      <ImpactEffect size="Medium" alwaysHorizontal="true">CanisterExplosion</ImpactEffect>
+      <MaxVelocityLead>20</MaxVelocityLead>
+      <MaxRange>70.0</MaxRange>
+      <Accuracy>1.00</Accuracy> 
+      <MaxDeviation>7.0</MaxDeviation>
+      <MovingAccuracy>1.00</MovingAccuracy>
+      <MovingMaxDeviation>10.00</MovingMaxDeviation>
+	   <EnableHeightBonusDamage />-->
+      <TargetOffsetX>0.0f</TargetOffsetX>
+      <TargetOffsetY>5.0f</TargetOffsetY>
+      <TargetOffsetZ>0.2f</TargetOffsetZ>
+      <ProximityFuse>5.0f</ProximityFuse>
+      <RequirePreciseAiming/>
+	   <AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6.0</Radius>
+				<DamageRatio>100.0</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10.0</Radius>
+				<DamageRatio>50.0</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+      <Hardpoint>Special</Hardpoint>
+      <ThrowUnits></ThrowUnits>
+      <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+      <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+      <PhysicsForceMin>400</PhysicsForceMin>
+      <PhysicsForceMax>600</PhysicsForceMax>
+      <PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+   </Weapon>
+  <Weapon>
+    <Name>SpecialAttackScorpionTech</Name>
+    <AttackRate>45.0</AttackRate>
+    <DamagePerSecond>1400.00</DamagePerSecond>
+    <UseDPSasDPA />
+    <WeaponType>Grenade</WeaponType>
+    <Projectile>fx_proj_canistershell_01</Projectile>
+    <ImpactEffect size="Medium" alwaysHorizontal="true">CanisterExplosionScorpionTech</ImpactEffect>
+    <MaxVelocityLead>20</MaxVelocityLead>
+    <MaxRange>70.0</MaxRange>
+    <Accuracy>1.00</Accuracy>
+    <MaxDeviation>7.0</MaxDeviation>
+    <MovingAccuracy>1.00</MovingAccuracy>
+    <MovingMaxDeviation>10.00</MovingMaxDeviation>
+	 <EnableHeightBonusDamage />
+    <TargetOffsetX>0.0f</TargetOffsetX>
+    <TargetOffsetY>5.0f</TargetOffsetY>
+    <TargetOffsetZ>0.2f</TargetOffsetZ>
+    <ProximityFuse>5.0f</ProximityFuse>
+    <RequirePreciseAiming/>
+   <AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6.0</Radius>
+				<DamageRatio>100.0</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12.0</Radius>
+				<DamageRatio>50.0</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+	</AOEData>
+    <Hardpoint>Special</Hardpoint>
+    <ThrowUnits></ThrowUnits>
+    <PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+    <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+    <PhysicsForceMin>400</PhysicsForceMin>
+    <PhysicsForceMax>600</PhysicsForceMax>
+    <PhysicsForceMaxAngle>0.8</PhysicsForceMaxAngle>
+  </Weapon>
+  <Action>
+    <Name>CannonAttackAction</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Anim>CannonAttack</Anim>
+    <Weapon>Cannon</Weapon>
+    <FullBodyAttackAnim />
+    <ForceAttachmentAnim />
+  </Action>  
+   <Action>
+    <Name>MachinegunAttackAction</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Anim SoundLoopStartEvent="PLAY_SFX_3D_WPN_UNSC_ScorpionTurretLoop" SoundLoopEndEvent="STOP_SFX_3D_WPN_UNSC_ScorpionTurretLoop">MachinegunAttack</Anim>
+    <Weapon>Machinegun</Weapon>
+    <SlaveAttackAction>CannonAttackAction</SlaveAttackAction>
+    <Strafing maxDistance="20.0" turnRate="90.0" trackingSpeed="40.0" jitter="20.0"></Strafing>
+	<StartDisabled></StartDisabled>
+  </Action>
+  <Action>
+      <Name>FlameAttackAction</Name>
+      <ActionType>RangedAttack</ActionType>
+      <Anim>FlameAttack</Anim>
+      <Duration DurationSpread="1.5">3</Duration>
+      <Weapon>Flamer</Weapon>
+      <Beam collideWithUnits="false" collideWithTerrain="true"> </Beam>
+	  <SlaveAttackAction>CannonAttackAction</SlaveAttackAction>
+      <Strafing maxDistance="45.0" turnRate="360.0" trackingSpeed="40.0" jitter="20.0"></Strafing>
+      <PersistBetweenOpps />
+      <LoopAttackAnim/>
+   </Action>
+   <Action>
+      <Name>RightMissilePodAttackAction</Name>
+      <ActionType>RangedAttack</ActionType>
+      <Anim>RightMissileAttack</Anim>
+      <Weapon>RightMissilePod</Weapon>
+      <DontCheckOrientTolerance/>
+      <CanOrientOwner>false</CanOrientOwner>
+   </Action>
+  <Action>
+    <Name>SpecialAttackAction</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Anim>SpecialCannonAttack</Anim>
+    <Weapon>SpecialAttack</Weapon>
+    <FullBodyAttackAnim />
+    <ForceAttachmentAnim />
+    <DontAutoRestart/>
+  </Action>
+  <Action>
+    <Name>SpecialAttackScorpionTechAction</Name>
+    <ActionType>RangedAttack</ActionType>
+    <Anim>SpecialCannonAttack</Anim>
+    <Weapon>SpecialAttackScorpionTech</Weapon>
+    <FullBodyAttackAnim />
+    <ForceAttachmentAnim />
+    <DontAutoRestart/>
+    <StartDisabled></StartDisabled>
+  </Action>
+  <Action>
+      <Name>GarrisonPelican</Name>
+      <ActionType>Garrison</ActionType>
+      <Anim>PelicanGarrison</Anim>
+      <WorkRange>8.610001</WorkRange>
+   </Action>
+   <Action>
+      <Name>Garrison</Name>
+      <ActionType>Garrison</ActionType>
+      <WorkRange>3.075</WorkRange>
+   </Action>
+   <Action>
+      <Name>UngarrisonPelican</Name>
+      <ActionType>Ungarrison</ActionType>
+      <Anim>PelicanUngarrison</Anim>
+      <WorkRange>0</WorkRange>
+   </Action>
+   <Action>
+      <Name>GarrisonTeleport</Name>
+      <ActionType>Garrison</ActionType>
+      <Anim>TeleportOut</Anim>
+      <WorkRange>9.225</WorkRange>
+   </Action>
+   <Action>
+      <Name>UngarrisonTeleport</Name>
+      <ActionType>Ungarrison</ActionType>
+      <Anim>TeleportIn</Anim>
+      <WorkRange>0</WorkRange>
+   </Action>
+   <Action>
+      <Name>GatherCollectables</Name>
+      <ActionType>Gather</ActionType>
+      <Anim>Gather</Anim>      
+      <Resource>Collectable</Resource>
+      <WorkRate>1.0</WorkRate>
+      <WorkRange>4.0</WorkRange>
+   </Action>
+   <Tactic>
+      <TargetRule>
+         <GaiaOwned></GaiaOwned>
+         <TargetType>Collectable</TargetType>
+         <Action>GatherCollectables</Action>
+      </TargetRule>
+     <TargetRule>
+       <Relation>Enemy</Relation>
+	    <TargetType>NonFlying</TargetType>
+		<Action>FlameAttackAction</Action>
+        <AutoTargetSquadMode>Normal</AutoTargetSquadMode>
+     </TargetRule>
+      <TargetRule>
+         <Relation>Enemy</Relation>
+         <Action>RightMissilePodAttackAction</Action>
+         <SquadMode>Normal</SquadMode>
+      </TargetRule>
+     <TargetRule>
+       <Ability>Command</Ability>
+       <Relation>Enemy</Relation>
+       <Action>SpecialAttackAction</Action>
+         <TargetType>NonFlying</TargetType>
+       <SquadMode>Normal</SquadMode>
+     </TargetRule>
+     <TargetRule>
+       <Ability>Command</Ability>
+       <Relation>Enemy</Relation>
+       <Action>SpecialAttackScorpionTechAction</Action>
+         <TargetType>NonFlying</TargetType>
+       <SquadMode>Normal</SquadMode>
+     </TargetRule>
+      <TargetRule>
+         <Relation>Ally</Relation>
+         <TargetType>transport</TargetType>
+         <Action>GarrisonPelican</Action>
+      </TargetRule>
+      <TargetRule>
+         <Ability>Ungarrison</Ability>
+         <Relation>Ally</Relation>
+         <TargetType>transport</TargetType>
+         <Action>UngarrisonPelican</Action>
+      </TargetRule>
+     <TargetRule>
+         <Ability>Ungarrison</Ability>
+         <Relation>Self</Relation>
+         <TargetType>unsc_air_pelican_01</TargetType>
+         <Action>UngarrisonPelican</Action>
+      </TargetRule>
+      <TargetRule>
+         <GaiaOwned></GaiaOwned>
+         <Relation>Self</Relation>
+         <TargetType>TeleportPickup</TargetType>
+         <Action>GarrisonTeleport</Action>
+      </TargetRule>
+      <TargetRule>
+         <GaiaOwned></GaiaOwned>
+         <Ability>Ungarrison</Ability>
+         <Relation>Self</Relation>
+         <TargetType>TeleportDropoff</TargetType>
+         <Action>UngarrisonTeleport</Action>
+      </TargetRule>
+    <PersistentAction>CollisionAttack</PersistentAction>
+	  <PersistentAction>RightMissilePodAttackAction</PersistentAction>
+   </Tactic>
+</TacticData>
