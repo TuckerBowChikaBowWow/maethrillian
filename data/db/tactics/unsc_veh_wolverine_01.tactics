@@ -1,68 +1,104 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
-	 <Weapon>
-      <Name>Flamer</Name>
-      <AttackRate>0.25</AttackRate>
-      <DamagePerSecond>214</DamagePerSecond>   
-      <WeaponType>FlameHaleFire</WeaponType>
-      <Projectile>fx_proj_flamerBeam_01</Projectile>
-      <MaxVelocityLead>27.675</MaxVelocityLead>
-      <DOTrate>10</DOTrate>
-	  <DOTduration>5</DOTduration>
-	  <DOTEffect small="fx_flameThrowerSm_01" medium="fx_flameThrowerMed_01" large="fx_flameThrowerLg_01">fx_flameThrowerlg_01</DOTEffect>
-      <MaxRange>35.0</MaxRange>
-      <MaxRangeThresholdFactor>1.1</MaxRangeThresholdFactor>
-      <MaxRangeThresholdTime>1.0</MaxRangeThresholdTime>
-      <Accuracy>0.10</Accuracy> 
-      <MaxDeviation>1.5</MaxDeviation>
-      <MovingAccuracy>0.1</MovingAccuracy>
-      <MovingMaxDeviation>2.0</MovingMaxDeviation>
-      <EnableHeightBonusDamage />
-      <Hardpoint>CryoRay</Hardpoint>
-      <ReapplyDamageOverArea />
-      <TargetPriority type="Infantry">9.0</TargetPriority>
-	  <TargetPriority type="TurretBuilding">6.0</TargetPriority>
-      <TargetPriority type="GroundVehicle">3.0</TargetPriority>
-	  <TargetPriority type="Building">1.0</TargetPriority>
-	  <TargetPriority type="Aircraft">-1.0</TargetPriority>  
-	  <Slow TargetType="Military" MovementModifier="0.99999988" AOEEffect="false" SmartTargeting="false" AffectsBuildings="false">1.0f</Slow>
-	  <ImpactEffect doShockwaveAction="true">NapalmFlameUpgrade</ImpactEffect>
-	  <AOEData>
-         <Hitbox>
-            <Type>Segment</Type>
-            <Length>ReachTarget</Length>
-            <Width>3.0</Width>
-            <DamageRatio>100.0</DamageRatio>
-            <Origin>Attacker</Origin>
-            <FriendlyFire>false</FriendlyFire>
-			<TargetType>NonFlying</TargetType>
-         </Hitbox>
-         <Hitbox>
-            <Type>Circle</Type>
-            <Radius>7</Radius>
-            <DamageRatio>100.0</DamageRatio>
-            <Origin>Target</Origin>
-            <FriendlyFire>false</FriendlyFire>
-			<TargetType>NonFlying</TargetType>
-         </Hitbox>
-      </AOEData>
-      <PreAttackCooldownMin>0</PreAttackCooldownMin>
-      <PreAttackCooldownMax>0.6</PreAttackCooldownMax>
-      <PostAttackCooldownMin>1</PostAttackCooldownMin>
-      <PostAttackCooldownMax>1.5</PostAttackCooldownMax>
-	   <Filter>Medium</Filter>
-   </Weapon>
+	<Weapon>
+		<Name>MissileLauncher</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>155</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
+		<MaxVelocityLead>6.1500001</MaxVelocityLead>
+		<MaxRange>65</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<ProjectileLaunchDirY />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2.5</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>5.5</Radius>
+				<DamageRatio>15</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>GrenadeLauncher</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_grenade_01</Projectile>
+		<ImpactEffect size="Medium">SmallGrenadeExplosion</ImpactEffect>
+		<MaxVelocityLead>12.3000002</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>10</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>3</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Hardpoint>GrenadeLauncherTurret</Hardpoint>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.70000005</PostAttackCooldownMax>
+	</Weapon>
 	<Action>
-      <Name>FlameAttackAction</Name>
-      <ActionType>RangedAttack</ActionType>
-      <Anim>FlameAttack</Anim>
-      <Duration DurationSpread="1.5">5</Duration>
-      <Weapon>Flamer</Weapon>
-      <Beam collideWithUnits="false" collideWithTerrain="true"> </Beam>
-      <Strafing maxDistance="45.0" turnRate="360.0" trackingSpeed="40.0" jitter="20.0"></Strafing>
-      <PersistBetweenOpps />
-      <LoopAttackAnim/>
-   </Action>
+		<Name>GrenadeLauncherAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>GrenadeLauncherAttack</Anim>
+		<Weapon>GrenadeLauncher</Weapon>
+		<CanOrientOwner>false</CanOrientOwner>
+	</Action>
+	<Action>
+		<Name>MissileAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MissileAttack</Anim>
+		<FullBodyAttackAnim />
+		<Weapon>MissileLauncher</Weapon>
+		<CanOrientOwner>false</CanOrientOwner>
+	</Action>
+	<Action>
+		<Name>Garrison</Name>
+		<ActionType>Garrison</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonPelican</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>PelicanGarrison</Anim>
+		<WorkRange>8.61000061</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonPelican</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>PelicanUngarrison</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
 	<Action>
 		<Name>GarrisonTeleport</Name>
 		<ActionType>Garrison</ActionType>
@@ -81,18 +117,35 @@
 		<Anim>Gather</Anim>
 		<Resource>Collectable</Resource>
 		<WorkRate>1</WorkRate>
-		<WorkRange>1.84500003</WorkRange>
+		<WorkRange>4</WorkRange>
 	</Action>
 	<Tactic>
-		<TargetRule>
-      		<Relation>Enemy</Relation>
-      		<TargetType>NonFlying</TargetType>
-			<Action>FlameAttackAction</Action>
-   		</TargetRule>
+		<PersistentAction>GrenadeLauncherAttackAction</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
 			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>MissileAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>GrenadeLauncherAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>GarrisonPelican</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Ally</Relation>
+			<TargetType>transport</TargetType>
+			<Action>UngarrisonPelican</Action>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />

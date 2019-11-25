@@ -3,11 +3,10 @@
 	<Weapon>
 		<Name>RocketLauncher_Left</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>189</DamagePerSecond>
+		<DamagePerSecond>88</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
-		<Projectile>fx_proj_shardstorm</Projectile>
-		<ImpactEffect size="Medium" alwaysHorizontal="true">GruntGoblinShardStormImpactImpact</ImpactEffect>
-		<MaxVelocityLead>9.1500001</MaxVelocityLead>
+		<Projectile>fx_proj_rocket_01</Projectile>
+		<MaxVelocityLead>6.1500001</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
 		<TargetPriority type="Flying">10</TargetPriority>
 		<Hardpoint>RocketLauncher_Left</Hardpoint>
@@ -19,13 +18,13 @@
 		<TargetPriority type="Building">1</TargetPriority>
 		<ProjectileLaunchDirY />
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.29999995</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>3</PostAttackCooldownMax>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>4.5</Radius>
+				<Radius>4</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -33,7 +32,7 @@
 			<Hitbox>
 				<Type>Circle</Type>
 				<Radius>7</Radius>
-				<DamageRatio>15</DamageRatio>
+				<DamageRatio>25</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
@@ -42,11 +41,11 @@
 	<Weapon>
 		<Name>RocketLauncher_Right</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>189</DamagePerSecond>
+		<DamagePerSecond>88</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
-		<Projectile>fx_proj_shardstorm</Projectile>
-		<ImpactEffect size="Medium" alwaysHorizontal="true">GruntGoblinShardStormImpactImpact</ImpactEffect>
-		<MaxVelocityLead>9.1500001</MaxVelocityLead>
+		<Projectile>fx_proj_rocket_01</Projectile>
+		<ImpactEffect size="Medium">BanishedMissileExplosion</ImpactEffect>
+		<MaxVelocityLead>6.1500001</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
 		<TargetPriority type="Flying">10</TargetPriority>
 		<Hardpoint>RocketLauncher_Right</Hardpoint>
@@ -58,13 +57,13 @@
 		<TargetPriority type="Building">1</TargetPriority>
 		<ProjectileLaunchDirY />
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.29999995</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>2.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>3</PostAttackCooldownMax>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>4.5</Radius>
+				<Radius>4</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -72,85 +71,7 @@
 			<Hitbox>
 				<Type>Circle</Type>
 				<Radius>7</Radius>
-				<DamageRatio>15</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
-	</Weapon>
-	<Weapon>
-		<Name>RocketLauncherInf_Left</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>83</DamagePerSecond>
-		<WeaponType>CoreInfantryT1</WeaponType>
-		<Projectile>fx_proj_shardstorm</Projectile>
-		<ImpactEffect size="Medium" alwaysHorizontal="true">GruntGoblinShardStormImpactImpact</ImpactEffect>
-		<MaxVelocityLead>9.1500001</MaxVelocityLead>
-		<MaxRange>70</MaxRange>
-		<TargetPriority type="Flying">10</TargetPriority>
-		<Hardpoint>RocketLauncher_Left</Hardpoint>
-		<EnableHeightBonusDamage />
-		<TargetPriority type="Aircraft">10</TargetPriority>
-		<TargetPriority type="Infantry">7</TargetPriority>
-		<TargetPriority type="GroundVehicle">5</TargetPriority>
-		<TargetPriority type="TurretBuilding">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.29999995</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2</PostAttackCooldownMax>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>4.5</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>7</Radius>
-				<DamageRatio>15</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
-	</Weapon>
-	<Weapon>
-		<Name>RocketLauncherInf_Right</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>53</DamagePerSecond>
-		<WeaponType>CoreInfantryT1</WeaponType>
-		<Projectile>fx_proj_shardstorm</Projectile>
-		<ImpactEffect size="Medium" alwaysHorizontal="true">GruntGoblinShardStormImpactImpact</ImpactEffect>
-		<MaxVelocityLead>9.1500001</MaxVelocityLead>
-		<MaxRange>70</MaxRange>
-		<TargetPriority type="Flying">10</TargetPriority>
-		<Hardpoint>RocketLauncher_Right</Hardpoint>
-		<EnableHeightBonusDamage />
-		<TargetPriority type="Aircraft">10</TargetPriority>
-		<TargetPriority type="Infantry">7</TargetPriority>
-		<TargetPriority type="GroundVehicle">5</TargetPriority>
-		<TargetPriority type="TurretBuilding">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.29999995</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2</PostAttackCooldownMax>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>4.5</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>7</Radius>
-				<DamageRatio>15</DamageRatio>
+				<DamageRatio>25</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
@@ -159,8 +80,8 @@
 	<Weapon>
 		<Name>Autocannon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>100</DamagePerSecond>
-		<WeaponType>ReaverAutocannon</WeaponType>
+		<DamagePerSecond>138</DamagePerSecond>
+		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaPistol_01</Projectile>
 		<ImpactEffect size="Medium">PlasmaPistolImpact</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
@@ -180,7 +101,7 @@
 	<Weapon>
 		<Name>BoostJump</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>650</DamagePerSecond>
+		<DamagePerSecond>500</DamagePerSecond>
 		<ImpactEffect size="Medium">GorgonImpact</ImpactEffect>
 		<UseDPSasDPA />
 		<WeaponType>Basic</WeaponType>
@@ -230,26 +151,6 @@
 		<OrientOwnerToTargetWhileNotMoving />
 	</Action>
 	<Action>
-		<Name>MissileAttackInfLeftAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>MissileAttackLeft</Anim>
-		<Weapon>RocketLauncherInf_Left</Weapon>
-		<ForceAttachmentAnim />
-		<DontCheckOrientTolerance />
-		<OrientOwnerToTargetWhileNotMoving />
-	</Action>
-	<Action>
-		<Name>MissileAttackInfRightAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<SlaveAttackAction>MissileAttackLeftAction</SlaveAttackAction>
-		<Anim>MissileAttackRight</Anim>
-		<Weapon>RocketLauncherInf_Right</Weapon>
-		<ForceAttachmentAnim />
-		<CanOrientOwner>true</CanOrientOwner>
-		<DontCheckOrientTolerance />
-		<OrientOwnerToTargetWhileNotMoving />
-	</Action>
-	<Action>
 		<Name>BoostJump</Name>
 		<ActionType>JumpAttack</ActionType>
 		<StartAnim noInterrupt="true" motionExtraction="true">BoostJumpTakeOff</StartAnim>
@@ -268,7 +169,7 @@
 		<Anim>BoostJumpArc</Anim>
 		<EndAnim noInterrupt="true" motionExtraction="true" endAnimBlendPosToGroundPoint="0.800000012">BoostJumpLand</EndAnim>
 		<Weapon>BoostJump</Weapon>
-		<MaxDistance>175</MaxDistance>
+		<MaxDistance>120</MaxDistance>
 		<MaxRelativeHeight>29</MaxRelativeHeight>
 		<MinRelativeHeight>27</MinRelativeHeight>
 		<VelocityScalar>45</VelocityScalar>
@@ -375,12 +276,7 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
-			<Action>MissileAttackInfLeftAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>MissileAttackInfRightAction</Action>
+			<Action>AutocannonAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>
