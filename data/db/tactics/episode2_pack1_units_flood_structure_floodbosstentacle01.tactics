@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>MeleeAttack</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>2000</DamagePerSecond>
+		<DamagePerSecond>1800</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Basic</WeaponType>
 		<MaxVelocityLead>18.4500008</MaxVelocityLead>
@@ -53,7 +53,7 @@
 		<Anim noInterrupt="true">SlamAttack</Anim>
 		<Weapon>MeleeAttack</Weapon>
 		<FullBodyAttackAnim />
-		<Strafing maxDistance="15" turnRate="90" trackingSpeed="40" jitter="20" />
+		<Strafing maxDistance="35" turnRate="120" trackingSpeed="60" jitter="20" />
 	</Action>
 	<Tactic>
 		<TargetRule>

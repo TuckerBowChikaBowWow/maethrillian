@@ -27682,7 +27682,7 @@
 				<Data type="float" name="BuffDuration">15</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
-				<Data type="float" name="DamageMitigationScalar">0.5</Data>
+				<Data type="float" name="DamageMitigationScalar">0.45</Data>
 				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
 				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
 				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
@@ -27727,7 +27727,7 @@
 				<Data type="float" name="BuffDuration">15</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
-				<Data type="float" name="DamageMitigationScalar">0.4</Data>
+				<Data type="float" name="DamageMitigationScalar">0.35</Data>
 				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
 				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
 				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
@@ -27765,10 +27765,10 @@
 			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">18</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
-				<Data type="float" name="BuffDuration">12</Data>
+				<Data type="float" name="BuffDuration">15</Data>
 				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
 				<Data type="float" name="SlowModifier">0.8</Data>
-				<Data type="float" name="PercentHealthDamageOverTime">0.3</Data>
+				<Data type="float" name="PercentHealthDamageOverTime">0.35</Data>
 				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
 				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
 				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
@@ -27845,7 +27845,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -27857,7 +27857,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -27881,7 +27881,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -27893,7 +27893,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_05</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -27943,9 +27943,9 @@
 				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
 				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
 				<Data type="float" name="AreaDropInitialCircularDistanceOffset">0</Data>
-				<Data type="float" name="AreaDropExpandingStep">7</Data>
-				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">11</Data>
-				<Data type="float" name="AreaDropRandomLaunchDelay">3</Data>
+				<Data type="float" name="AreaDropExpandingStep">8</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">12</Data>
+				<Data type="float" name="AreaDropRandomLaunchDelay">4</Data>
 				<Data type="float" name="AreaDropRandomPosOffset">10</Data>
 				<Data type="bool" name="OneProjectilePerUnit">true</Data>
 				<Data type="bool" name="CanDropOnSquads">true</Data>
@@ -27980,7 +27980,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -28004,7 +28004,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -28016,11 +28016,11 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_05</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -28133,7 +28133,7 @@
 				<Data type="bool" name="CanDropOnSquads">true</Data>
 				<Data type="bool" name="OneProjectilePerUnit">true</Data>
 				<Data type="int" name="OverlayStringID">25023</Data>
-				<Data type="float" name="SquadSpawnDelay">1</Data>
+				<Data type="float" name="SquadSpawnDelay">0.8</Data>
 				<Data type="float" name="ProjectileSpawnDelay">0.2</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
@@ -28189,8 +28189,8 @@
 				<Data type="bool" name="CanDropOnSquads">true</Data>
 				<Data type="bool" name="OneProjectilePerUnit">true</Data>
 				<Data type="int" name="OverlayStringID">25023</Data>
-				<Data type="float" name="SquadSpawnDelay">1.20000005</Data>
-				<Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
+				<Data type="float" name="SquadSpawnDelay">0.8</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.2</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -28263,7 +28263,7 @@
 				<Data type="int" name="NumShots">2</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
-						<ProtoSquadID>flood_custom_egg_inf</ProtoSquadID>
+						<ProtoSquadID>flood_bldg_eggdrop_01</ProtoSquadID>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -28320,7 +28320,7 @@
 				<Data type="int" name="NumShots">3</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
-						<ProtoSquadID>flood_custom_egg_inf</ProtoSquadID>
+						<ProtoSquadID>flood_bldg_eggdrop_01</ProtoSquadID>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -28465,7 +28465,6 @@
 			<ProcOnChangeOwnerSameTeam />
 			<ProcOnPowerGranted />
 			<ProcOnPowerUpgraded />
-			<DependsOnPopulation />
 			<BuffName>Inspire</BuffName>
 			<ProcBuffName>Inspire</ProcBuffName>
 			<Cost Supplies="0" Power="0" />
@@ -28482,10 +28481,9 @@
 			<DataLevel level="0">
 				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
-				<Data type="float" name="DamageDealtModifier">1.13f</Data>
-				<Data type="float" name="SlowModifier">1.06</Data>
-				<Data type="float" name="DamageMitigationScalar">0.97</Data>
-				<Data type="float" name="PopulationThreshold">120</Data>
+				<Data type="float" name="DamageDealtModifier">1.05f</Data>
+				<Data type="float" name="SlowModifier">1.05</Data>
+				<Data type="float" name="DamageMitigationScalar">0.95</Data>
 				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
 				<Data type="objecttype" name="BuffActivateFXOverrideType1">Flying</Data>
 				<Data type="protoobject" name="BuffActivateFXOverride1">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
@@ -28493,10 +28491,9 @@
 			</DataLevel>
 			<DataLevel level="1">
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
-				<Data type="float" name="DamageDealtModifier">1.13f</Data>
-				<Data type="float" name="SlowModifier">1.06</Data>
-				<Data type="float" name="DamageMitigationScalar">0.97</Data>
-				<Data type="float" name="PopulationThreshold">120</Data>
+				<Data type="float" name="DamageDealtModifier">1.075f</Data>
+				<Data type="float" name="SlowModifier">1.075</Data>
+				<Data type="float" name="DamageMitigationScalar">0.925</Data>
 				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
 				<Data type="objecttype" name="BuffActivateFXOverrideType1">Flying</Data>
 				<Data type="protoobject" name="BuffActivateFXOverride1">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
@@ -28623,7 +28620,9 @@
                 <Data type="bool" name="AffectsAllByFilterType">true</Data>
                 <Data type="objecttype" name="FilterType">Flood</Data>
                 <Data type="objecttype" name="FilterExcludeType">_Rupture</Data>
-                <Data type="objecttype" name="FilterExcludeType">Building</Data>
+                <Data type="objecttype" name="FilterExcludeType2">Building</Data>
+				<Data type="objecttype" name="FilterExcludeType3">TurretBuilding</Data>
+				<Data type="objecttype" name="FilterExcludeType4">UberUnit</Data>
                 <Data type="float" name="BuffDuration">150</Data>
                 <Data type="bool" name="AffectsEnemies">false</Data>
                 <Data type="bool" name="AffectsSelfOnly">true</Data>

@@ -7,13 +7,12 @@
 		<UseDPSasDPA />
 		<WeaponType>Mines</WeaponType>
 		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
-		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Slow>
 		<Daze TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
 		<MaxRange>5</MaxRange>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>18</Radius>
+				<Radius>16</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -31,7 +30,6 @@
 		<UseDPSasDPA />
 		<WeaponType>Mines</WeaponType>
 		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
-		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Slow>
 		<Daze TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
 		<MaxRange>5</MaxRange>
 		<AOEData>

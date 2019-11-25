@@ -61,6 +61,7 @@
 		<Pop>Reactor</Pop>
 		<Pop>Decimus</Pop>
 		<Pop>Retriever</Pop>
+		<Pop>ShieldTower</Pop>
 	</Pops>
 	<RefCounts>
 		<RefCount>EMP</RefCount>
@@ -578,6 +579,9 @@
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="flood_veh_infected_grizzly_01_base">
 			<Infected weight="99" infectedUnit="flood_veh_infected_grizzly_01_base" infectedSquad="flood_veh_infected_grizzly_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="flood_inf_infected_gruntfuelrod_01">
+			<Infected weight="99" infectedUnit="flood_inf_infected_gruntfuelrod_01" infectedSquad="flood_inf_infected_gruntfuelrod_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="flood_inf_infected_gruntpistol_01">
 			<Infected weight="99" infectedUnit="flood_inf_infected_gruntpistol_01" infectedSquad="flood_inf_infected_gruntpistol_01" deathByInfectionAnim="Transform" />

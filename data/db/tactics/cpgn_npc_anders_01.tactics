@@ -2,12 +2,12 @@
 <TacticData>
 	<Weapon>
 		<Name>ScatterBomb</Name>
-		<DamagePerSecond>800</DamagePerSecond>
+		<DamagePerSecond>850</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>LeaderPowerEnduringsalvo</WeaponType>
+		<Projectile>pow_proj_returned_plasma_01</Projectile>
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.100000001" fadeout="0.300000012" yawpitchstrength="3" rollstrength="1.5" rotationfrequency="8" translationstrength="2" translationfrequency="3" />
-		<ImpactEffect size="Medium">enduringSalvoImpact</ImpactEffect>
-		<InfectionTargetType>Military</InfectionTargetType>
+		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
@@ -35,11 +35,6 @@
 		<Default>true</Default>
 		<Name>ScatterBombAttackAction</Name>
 		<Weapon>ScatterBomb</Weapon>
-		<ActionType>Infect</ActionType>
-		<Infection />
-		<WorkRange>20</WorkRange>
 	</Action>
-	<Tactic>
-		<PersistentAction>ScatterBombAttackAction</PersistentAction>
-	</Tactic>
+	<Tactic />
 </TacticData>
