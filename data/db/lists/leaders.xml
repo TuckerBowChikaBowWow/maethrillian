@@ -130,7 +130,7 @@
 		<Pop Type="HonorGuard" Max="3">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 	</Leader>
-	<Leader Name="Shipmaster" Icon="ui\game\icon\unsc\leader\Captain Cutter" GUID="#5BF3A738-B080-4D33-BEBA-BD6889092317">
+	<Leader Name="Arbiter" Icon="ui\game\icon\unsc\leader\Captain Cutter" GUID="#5BF3A738-B080-4D33-BEBA-BD6889092317">
 		<Civ>Covenant</Civ>
 		<Tech>covenant_LeaderArbiter</Tech>
 		<NameID>7000</NameID>
@@ -143,8 +143,8 @@
 		<Resource Type="Supplies">600</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">400</Resource>
-		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_johnson_mantis_01</StartingSquad>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_eliteCommando_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -156,7 +156,7 @@
 	</Leader>
 	<Leader Name="Lekgolo" Icon="ui\game\icon\covenant\leader\Elite General" GUID="#B769F16E-77D2-4DBC-A38A-3C897C7CAB1D">
 		<Civ>Covenant</Civ>
-		<Tech>covenant_LeaderArbiter</Tech>
+		<Tech>covenant_LeaderLekgolo</Tech>
 		<NameID>7014</NameID>
 		<DescriptionID>7015</DescriptionID>
 		<CmsId>12</CmsId>
@@ -184,7 +184,7 @@
 	</Leader>
 	<Leader Name="GruntGeneral" Icon="ui\game\icon\covenant\leader\Elite General" GUID="#B4781CEE-A96E-45EE-9D8C-C9A3C3205487">
 		<Civ>Covenant</Civ>
-		<Tech>covenant_LeaderArbiter</Tech>
+		<Tech>covenant_LeaderGruntGeneral</Tech>
 		<NameID>7014</NameID>
 		<RichPresenceID>LEADER_GRUNTLEADER</RichPresenceID>
 		<CmsId>14</CmsId>
