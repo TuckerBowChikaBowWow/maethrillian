@@ -7951,8 +7951,10 @@
 		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
 		<HealValue>3</HealValue>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
-		<Pop Type="Unit">30</Pop>
-		<Pop Type="Retriever">1</Pop>
+		<Pop Type="Unit">40</Pop>
+		<Cost ResourceType="Supplies">2000</Cost>
+		<Cost ResourceType="Supplies">2000</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
