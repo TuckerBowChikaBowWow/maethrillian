@@ -130,16 +130,16 @@
 		<Pop Type="HonorGuard" Max="3">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 	</Leader>
-	<Leader Name="Arbiter" Icon="ui\game\icon\unsc\leader\Captain Cutter" GUID="#5BF3A738-B080-4D33-BEBA-BD6889092317">
+	<Leader Name="TheEliteLeader" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>Covenant</Civ>
 		<Tech>covenant_LeaderArbiter</Tech>
-		<NameID>7000</NameID>
-		<RichPresenceID>LEADER_JOHNSON</RichPresenceID>
-		<DescriptionID>7001</DescriptionID>
-		<CmsId>11</CmsId>
-		<FlashImg>orbital</FlashImg>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
-		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
+		<NameID>7012</NameID>
+		<DescriptionID>7013</DescriptionID>
+		<RichPresenceID>LEADER_ATRIOX</RichPresenceID>
+		<CmsId>5</CmsId>
+		<FlashImg>bruteleader</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_brutechief.ddx</UIControlBackground>
 		<Resource Type="Supplies">600</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">400</Resource>
@@ -150,8 +150,10 @@
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
 		<Pop Type="Unit" Max="500">80</Pop>
 		<Pop Type="Spartan" Max="1">1</Pop>
+		<Pop Type="HonorGuard" Max="3">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 	</Leader>
 	<Leader Name="Lekgolo" Icon="ui\game\icon\covenant\leader\Elite General" GUID="#B769F16E-77D2-4DBC-A38A-3C897C7CAB1D">
