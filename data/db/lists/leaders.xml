@@ -252,12 +252,12 @@
 		<FlashImg>bruteleader</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_brutechief.ddx</UIControlBackground>
-		<Resource Type="Supplies">999999</Resource>
+		<Resource Type="Supplies">600</Resource>
 		<Resource Type="Collectable">0</Resource>
-		<Resource Type="Power">999999</Resource>
+		<Resource Type="Power">400</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="60,0,-20">for_air_sentineltier1_beam</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="60,0,0">for_air_sentineltier1_beam</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,-20">flood_inf_generic_core</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="60,0,0">flood_inf_generic_core</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
