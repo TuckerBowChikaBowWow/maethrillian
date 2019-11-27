@@ -11447,6 +11447,53 @@
 		<AvoidanceMass>Heavy</AvoidanceMass>
 		<Counters>Scorpion_01</Counters>
 	</Squad>
+	<Squad name="for_veh_scorpion_01" dbid="18305854405966770526">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<SquadType>BasicVehicle_Tech</SquadType>
+		<CombatRank>7</CombatRank>
+		<HealValue>2.20000005</HealValue>
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_scorpion</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3020</DisplayNameID>
+		<RolloverTextID>3021</RolloverTextID>
+		<StatsNameID>25680</StatsNameID>
+		<RoleTextID>501</RoleTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<SubSelectSort>500</SubSelectSort>
+		<LeashDistance>5</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>10</AIAttackRank>
+		<UnlockableActiveAbilityType>VehicleMissile</UnlockableActiveAbilityType>
+		<BuildPoints>38</BuildPoints>
+		<Pop Type="Unit">7</Pop>
+		<Cost ResourceType="Supplies">500</Cost>
+		<Cost ResourceType="Power">120</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
+		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">for_veh_scorpion_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="0.100000001" max="8" />
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Scorpion_01</Counters>
+	</Squad>
 	<Squad name="unsc_veh_serina_hero_01" dbid="12189883730253677644">
 		<CombatRank>6</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
@@ -11628,23 +11675,52 @@
 		<RammingSpeedScalar>3</RammingSpeedScalar>
 		<RevvingSpeedThreshold>11</RevvingSpeedThreshold>
 	</Squad>
-	<Squad name="unsc_veh_warthogspartan_01" dbid="12058883268133283633" parent_element="cpgnh_p01_warthogspartan_01">
-		<BuildPoints override_type="absolute">45</BuildPoints>
-		<Pop Type="Spartan" override_type="absolute">1</Pop>
-		<Pop Type="Unit">-4</Pop>
+	<Squad name="unsc_veh_warthogspartan_01" dbid="9312591265105347797">
+		<CombatRank>6</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3016</DisplayNameID>
+		<RolloverTextID>3017</RolloverTextID>
+		<RoleTextID>518</RoleTextID>
+		<PrereqTextID>230</PrereqTextID>
+		<SubSelectSort>699</SubSelectSort>
+		<LeashDistance>5</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>3.5</AIAttackRank>
+		<ActiveAbilityType>Ram</ActiveAbilityType>
+		<BuildPoints>24</BuildPoints>
+		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power" override_type="absolute">275</Cost>
-		<Cost ResourceType="HQLevel" override_type="absolute">1</Cost>
+		<Cost ResourceType="Power">275</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,6.1500001,0">UNSC_HealthShield</HPBar>
-		<Units override_type="absolute">
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
 			<Unit count="1" role="normal">unsc_veh_warthogspartan_01</Unit>
 		</Units>
+		<Flag>Chatter</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<SquadType>BasicVehicle_Tech</SquadType>
 		<Selection>
 			<ConformToTerrain>true</ConformToTerrain>
 			<AlignToCamera>true</AlignToCamera>
-			<StencilType>Units</StencilType>
+			<StencilType>All</StencilType>
 			<WriteToMergeStencil>True</WriteToMergeStencil>
 		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="1.5" max="4" />
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Warthog_01</Counters>
+		<RammingDistanceScalar>7</RammingDistanceScalar>
+		<RammingSpeedScalar>3</RammingSpeedScalar>
+		<RevvingSpeedThreshold>11</RevvingSpeedThreshold>
 	</Squad>
 	<Squad name="unsc_veh_wolverine_01" dbid="867071320328617462" parent_element="unsc_veh_wolverine_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
