@@ -105,7 +105,7 @@
 	</Leader>
 	<Leader Name="Atriox" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>Covenant</Civ>
-		<Tech>covenant_LeaderArbiter</Tech>
+		<Tech>covenant_LeaderDecimus</Tech>
 		<NameID>7012</NameID>
 		<DescriptionID>7013</DescriptionID>
 		<RichPresenceID>LEADER_ATRIOX</RichPresenceID>
@@ -130,16 +130,16 @@
 		<Pop Type="HonorGuard" Max="3">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 	</Leader>
-	<Leader Name="Arbiter" Icon="ui\game\icon\covenant\leader\Elite General" GUID="#E6B2B24F-CDB3-4FF4-B6C7-8F76B14CEBF9">
+	<Leader Name="Arbiter" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>Covenant</Civ>
 		<Tech>covenant_LeaderArbiter</Tech>
-		<NameID>7014</NameID>
-		<DescriptionID>7015</DescriptionID>
-		<RichPresenceID>LEADER_ARBITER</RichPresenceID>
-		<CmsId>10</CmsId>
-		<FlashImg>prophet</FlashImg>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\prophet.ddx</FlashPortrait>
-		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_prophet.ddx</UIControlBackground>
+		<NameID>7012</NameID>
+		<DescriptionID>7013</DescriptionID>
+		<RichPresenceID>LEADER_ATRIOX</RichPresenceID>
+		<CmsId>5</CmsId>
+		<FlashImg>bruteleader</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_brutechief.ddx</UIControlBackground>
 		<Resource Type="Supplies">600</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">400</Resource>
