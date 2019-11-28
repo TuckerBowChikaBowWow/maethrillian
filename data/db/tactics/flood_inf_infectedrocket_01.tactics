@@ -39,10 +39,10 @@
 		<TargetPriority type="Building">3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>0.8</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.8</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1.7</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1.7</PostAttackCooldownMax>
+		<PreAttackCooldownMin>0.2</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.8</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.8</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>InCoverRocketWeapon</Name>
@@ -83,10 +83,10 @@
 		<TargetPriority type="Building">3</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>0.8</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.8</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1.7</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1.7</PostAttackCooldownMax>
+		<PreAttackCooldownMin>0.2</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.8</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.8</PostAttackCooldownMax>
 	</Weapon>
 	<Action>
 		<Name>RocketAttackAction</Name>
@@ -112,7 +112,7 @@
 		<ActionType>Gather</ActionType>
 		<Anim>Gather</Anim>
 		<Resource>Supplies</Resource>
-		<WorkRate>4</WorkRate>
+		<WorkRate>3</WorkRate>
 		<WorkRange>4</WorkRange>
 		<RestrictedAutoTarget>true</RestrictedAutoTarget>
 	</Action>
@@ -121,7 +121,7 @@
 		<ActionType>Gather</ActionType>
 		<Anim>Gather</Anim>
 		<Resource>Power</Resource>
-		<WorkRate>4</WorkRate>
+		<WorkRate>3</WorkRate>
 		<WorkRange>4</WorkRange>
 		<RestrictedAutoTarget>true</RestrictedAutoTarget>
 	</Action>
