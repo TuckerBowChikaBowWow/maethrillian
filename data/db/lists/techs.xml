@@ -8273,42 +8273,6 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_tech_global_aircraft_03" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01_base</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_unsc_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_unsc_02" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_unsc_03" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_banished_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_banished_02" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_banished_03" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_warthog_upgrade3" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_scorpion_upgrade2" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_warthog_01_base" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_scorpion_01_base" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_infected_banshee_01_base" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_infected_blisterback_01_base" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
-			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_airborneinfector_01_hive" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
@@ -9360,6 +9324,42 @@
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_warthog_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_scorpion_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_warthog_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_scorpion_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_infected_banshee_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_infected_blisterback_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_unsc_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_unsc_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_unsc_03" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_banished_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_banished_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_banished_03" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_generic_core" relativity="Absolute">
