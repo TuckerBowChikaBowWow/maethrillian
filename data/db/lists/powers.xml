@@ -28505,8 +28505,8 @@
 		<Attributes>
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<Cost Supplies="200" Power="100" />
-			<AutoRecharge>120000</AutoRecharge>
+			<Cost Supplies="175" Power="100" />
+			<AutoRecharge>100000</AutoRecharge>
 			<BuffName>UnstableConcoction</BuffName>
 			<UIRadius>24</UIRadius>
 			<Decal>Point</Decal>
@@ -28542,6 +28542,9 @@
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
+				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_floodflesh01</Data>
+				<Data type="protoobject" name="CastVfx">vfx_dlc3_powers_buffs_mechresiliencecast</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BUF_BAN_LekgoloPilotingCast</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
@@ -28549,8 +28552,8 @@
 		<Attributes>
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<Cost Supplies="250" Power="150" />
-			<AutoRecharge>120000</AutoRecharge>
+			<Cost Supplies="200" Power="125" />
+			<AutoRecharge>100000</AutoRecharge>
 			<BuffName>UnstableConcoction</BuffName>
 			<UIRadius>32</UIRadius>
 			<Decal>Point</Decal>
@@ -28586,6 +28589,9 @@
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
+				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_floodflesh01</Data>
+				<Data type="protoobject" name="CastVfx">vfx_dlc3_powers_buffs_mechresiliencecast</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BUF_BAN_LekgoloPilotingCast</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
