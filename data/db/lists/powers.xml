@@ -27968,7 +27968,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_03</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -28542,8 +28542,9 @@
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
-				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_floodflesh01</Data>
-				<Data type="protoobject" name="CastVfx">vfx_dlc3_powers_buffs_mechresiliencecast</Data>
+				<Data type="protoobject" name="BuffActivateFX">fx_OverchargeCast</Data>
+				<Data type="protoobject" name="BuffDeactivateFX">fx_OverchargeEnd</Data>
+				<Data type="protoobject" name="CastVfx">vfx_unitvfx_sharedunitvfx_sharedunitcommanderbuffs_vehrecyclingcast</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BUF_BAN_LekgoloPilotingCast</Data>
 			</DataLevel>
 		</Attributes>
@@ -28589,8 +28590,9 @@
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
-				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_floodflesh01</Data>
-				<Data type="protoobject" name="CastVfx">vfx_dlc3_powers_buffs_mechresiliencecast</Data>
+				<Data type="protoobject" name="BuffActivateFX">fx_OverchargeCast</Data>
+				<Data type="protoobject" name="BuffDeactivateFX">fx_OverchargeEnd</Data>
+				<Data type="protoobject" name="CastVfx">vfx_unitvfx_sharedunitvfx_sharedunitcommanderbuffs_vehrecyclingcast</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BUF_BAN_LekgoloPilotingCast</Data>
 			</DataLevel>
 		</Attributes>
