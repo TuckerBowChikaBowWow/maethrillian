@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <group>
 	<entry>
+		<key>fld_custom_carrierform_human</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_marine_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_gorgon_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_locked_icon</value>
+		<value>UIENT.flood_inf_infected_gruntmelee_01.RadialEdge.Name</value>
+		<value>UIENT.flood_inf_infected_gruntmelee_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
 		<key>fld_custom_bruteshot</key>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_atrioxchosen_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_atrioxchosen_01_icon</value>
@@ -191,6 +200,15 @@
 	</entry>
 	<entry>
 		<key>fld_custom_august_t3</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_omegateamaugust_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_flamecyclops_01_icon</value>
+		<value>UIENT.unsc_inf_omegateam_august_01.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_omegateam_august_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_railgunflood</key>
 		<value>..\textures\hud\icons\entityIcons\unsc_inf_omegateamaugust_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\unsc_inf_flamecyclops_01_icon</value>
@@ -748,7 +766,34 @@
 		<value>unit</value>
 	</entry>
 	<entry>
+		<key>flood_bldg_eggdropaom_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.flood_bldg_eggdrop_01.RadialEdge.Name</value>
+		<value>UIENT.flood_bldg_eggdrop_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>flood_bldg_eggdropaom_02</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.flood_bldg_eggdrop_01.RadialEdge.Name</value>
+		<value>UIENT.flood_bldg_eggdrop_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
 		<key>flood_inf_generic_core</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_grunt_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_grunt_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>flood_inf_generic_aomcore</key>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
@@ -5995,6 +6040,15 @@
 		<value>vehicle</value>
 	</entry>
 	<entry>
+		<key>FloodGrizzlyBattalion</key>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscGrizzlyBattalion_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscGrizzlyBattalion_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>vehicle</value>
+	</entry>
+	<entry>
 		<key>UnscForgePelicanTransport</key>
 		<value>..\textures\hud\icons\entityIcons\powers\UnscCivTransport_icon</value>
 		<value>..\textures\hud\icons\entityIcons\powers\UnscCivTransport_ability_icon</value>
@@ -8758,6 +8812,24 @@
 		<value>commander</value>
 	</entry>
 	<entry>
+		<key>FloodEggAOMDrop1</key>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_egg_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_egg_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>FloodEggAOMDrop2</key>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_egg_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_egg_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
 		<key>FloodEggDrop1</key>
 		<value>..\textures\hud\icons\entityIcons\flood_bldg_egg_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\flood_bldg_egg_01_icon</value>
@@ -8785,6 +8857,15 @@
 		<value>commander</value>
 	</entry>
 	<entry>
+		<key>FloodBaseDropAOM</key>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_rupture_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_rupture_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
 		<key>Flood_Emerge_Infectors</key>
 		<value>..\textures\hud\icons\entityIcons\fld_rupturedrop</value>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
@@ -8795,6 +8876,24 @@
 	</entry>
 	<entry>
 		<key>Flood_Emerge_Infectors2</key>
+		<value>..\textures\hud\icons\entityIcons\fld_rupturedrop</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>Flood_Emerge_InfectorsAOM</key>
+		<value>..\textures\hud\icons\entityIcons\fld_rupturedrop</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>Flood_Emerge_InfectorsAOM2</key>
 		<value>..\textures\hud\icons\entityIcons\fld_rupturedrop</value>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
@@ -8858,6 +8957,15 @@
 	</entry>
 	<entry>
 		<key>fld_bldg_drophivebase_01</key>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_hive_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_hive_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.fld_bldg_drophivebase_01.RadialEdge.Name</value>
+		<value>UIENT.fld_bldg_drophivebase_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>fld_bldg_drophivebaseaom_01</key>
 		<value>..\textures\hud\icons\entityIcons\flood_bldg_hive_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\flood_bldg_hive_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>

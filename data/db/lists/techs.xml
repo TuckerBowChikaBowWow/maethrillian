@@ -10290,6 +10290,175 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="flood_aominstant_upgrade" type="Normal">
+		<DBID>2041</DBID>
+		<DisplayNameID>1072</DisplayNameID>
+		<RolloverTextID>1073</RolloverTextID>
+		<ResearchPoints>5</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchAnim>Upgrade</ResearchAnim>
+		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects>
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_04" ToType="cov_bldg_builder_04_aom" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_03" ToType="cov_bldg_builder_03_aom" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_02" ToType="cov_bldg_builder_02_aom" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_builder_01" ToType="cov_bldg_builder_01_aom" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_barracks_01" ToType="cov_bldg_barracks_01_aom" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_heavyfactory_01" ToType="cov_bldg_heavyfactory_01_aom" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_lightfactory_01" ToType="cov_bldg_lightfactory_01_aom" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_temple_01" ToType="cov_bldg_temple_01_aom" />
+		</Effects>
+	</Tech>
+	<Tech name="creep_LeaderAOMFlood" type="Normal">
+		<DBID>2104</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">unsc_multiplayer_marines1</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">flood_aominstant_upgrade</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">flood_instant_disabledcov</Target>
+			</Effect>
+			<Effect type="UnlockableGodPower" tier="1">FloodEggAOMDrop1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="FloodEggAOMDrop1">FloodEggAOMDrop2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">Unbrk_HealingArea1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="Unbrk_HealingArea1">Unbrk_HealingArea2</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="Unbrk_HealingArea2">Unbrk_HealingArea3</Effect>
+			<Effect type="UnlockableGodPower" tier="2">Flood_Emerge_InfectorsAOM</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="Flood_Emerge_InfectorsAOM">Flood_Emerge_InfectorsAOM2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">FloodBaseDropAOM</Effect>
+			<Effect type="UnlockableGodPower" tier="3">Flood_Barrage1</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="Flood_Barrage1">Flood_Barrage2</Effect>
+			<Effect type="UnlockableGodPower" tier="3">CovBuffLeech1</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="CovBuffLeech1">CovBuffLeech2</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="CovBuffLeech2">CovBuffLeech3</Effect>
+			<Effect type="UnlockableGodPower" tier="4">FloodRuptureEmerge</Effect>
+			<Effect type="UnlockableGodPower" tier="4">FloodGrizzlyBattalion</Effect>
+			<Effect type="UnlockableGodPower" tier="5">CovInvulnerability</Effect>
+			<Effect type="UnlockableGodPower" tier="5">FloodBuff</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">flood_inf_vehinfector_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_corruptedengineer_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_infectedbrute_carrier_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_generic_aomcore</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_jackal_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_flameMarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infectedrocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infectfrm_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_air_airborneinfector_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_spawner_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmacaster_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_commander_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_brutespiker_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_air_infected_banshee_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_air_infected_blisterback_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_vehinfector_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_generic_core" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase1sock_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_vehinfector_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase1sock_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_generic_core" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase2sock_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_vehinfector_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase2sock_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_generic_core" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase3sock_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_vehinfector_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase3sock_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_flood_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_flood_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_flood_03" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_fl</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="GameMode_DesignTest" type="Normal">
 		<DBID>0</DBID>
 		<Status>UNOBTAINABLE</Status>

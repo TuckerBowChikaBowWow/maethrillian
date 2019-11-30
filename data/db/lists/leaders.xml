@@ -270,7 +270,7 @@
 	</Leader>
 	<Leader Name="Gravemind" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>Covenant</Civ>
-		<Tech>creep_LeaderFlood</Tech>
+		<Tech>creep_LeaderAOMFlood</Tech>
 		<NameID>7014</NameID>
 		<RichPresenceID>LEADER_GRUNTLEADER</RichPresenceID>
 		<CmsId>14</CmsId>
@@ -282,8 +282,8 @@
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">400</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02_fl" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="50,0,-10">flood_inf_generic_core</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,20">flood_inf_generic_core</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="50,0,-10">flood_inf_generic_aomcore</StartingSquad>
+		<StartingSquad FlyIn="false" Offset="50,0,20">flood_inf_generic_aomcore</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
