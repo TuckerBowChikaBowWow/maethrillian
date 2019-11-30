@@ -159,8 +159,8 @@
 	<Action>
 		<Name>AntiInfantryChaingunAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>AttackMove</Anim>
-		<MoveAnim>JogAttack</MoveAnim>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackMove</MoveAnim>
 		<Weapon>AntiInfantryChaingun</Weapon>
 		<Beam collideWithUnits="false" collideWithTerrain="false" />
 		<Duration DurationSpread="2">6</Duration>
@@ -194,8 +194,8 @@
 	<Action>
 		<Name>ChaingunAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>AttackMove</Anim>
-		<MoveAnim>JogAttack</MoveAnim>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackMove</MoveAnim>
 		<Weapon>Chaingun</Weapon>
 		<Beam collideWithUnits="false" collideWithTerrain="false" />
 		<Duration DurationSpread="2">6</Duration>
