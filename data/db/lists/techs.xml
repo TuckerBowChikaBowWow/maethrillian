@@ -8263,6 +8263,10 @@
 			<Effect type="UnlockableGodPower" tier="1">Flood_Emerge_3InfInfectors</Effect>
 			<Effect type="UnlockableGodPower" tier="1">Flood_Emerge_3VehInfectors</Effect>
 			<Effect type="UnlockableGodPower" tier="1">Flood_Emerge_3VehInfectors3InfInfectors</Effect>
+			<Effect type="UnlockableGodPower" tier="1">Flood_Emerge_Infectors</Effect>
+			<Effect type="UnlockableGodPower" tier="1">Flood_Emerge_InfectorsAOM</Effect>
+			<Effect type="UnlockableGodPower" tier="1">FloodEggDrop1</Effect>
+			<Effect type="UnlockableGodPower" tier="1">FloodEggAOMDrop2</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">ban_ep2_locusts</Target>
 			</Effect>
@@ -9090,14 +9094,22 @@
 			<Effect type="UnlockableGodPower" tier="2">UnscBunkerDrop1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UnscBunkerDrop1">UnscBunkerDrop2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">JohnsonMapAwareness1</Effect>
-			<Effect type="UnlockableGodPower" tier="3">UnscOdstDrop</Effect>
+			<Effect type="UnlockableGodPower" tier="3">UnscMacCutter1</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="UnscMacCutter1">UnscMacCutter2</Effect>
 			<Effect type="UnlockableGodPower" tier="3">UnscForgePelicanTransport</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscForgePelicanTransport">UnscForgePelicanTransport2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">JohnsonMechBuff</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="JohnsonMechBuff">JohnsonMechBuff2</Effect>
-			<Effect type="UnlockableGodPower" tier="4">UnscHoloDecoy1</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="UnscHoloDecoy1">UnscHoloDecoy2</Effect>
+			<Effect type="UnlockableGodPower" tier="4">UnscOdstDropNew2</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="UnscOdstDropNew2">UnscOdstDropNew3</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscGrizzlyBattalion</Effect>
+			<Effect type="UnlockableGodPower" tier="5">Cutter_NukeBombing</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_generic_odst</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_air_fire_pegasus_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
 			</Effect>
@@ -9276,16 +9288,16 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade2" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade3" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_eliteCommando_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_eliteCommando_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_atrioxchosen_01" relativity="Absolute">
@@ -9294,7 +9306,7 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_bruteHonour_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
