@@ -332,29 +332,6 @@
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
-		<Tech>
-			<TechToResearch>flood_vehicle_tech</TechToResearch>
-			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>flood_air_infected_banshee_01_base</SquadTypeToSend>
-			<AlternateSquadTypeToSend>flood_inf_vehinfector_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>flood_inf_jackal_01</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
-			<PrerequisiteTech>flood_vehicle_tech</PrerequisiteTech>
-		</Mission>
-		<Tech>
-			<TechToResearch>flood_cancer_upgrade1</TechToResearch>
-			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>flood_hivetech_upgrade2</TechToResearch>
-			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
-		</Tech>
 		<Building>
 			<BuildingType>cov_bldg_supplyDepot_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>6</NumberOfBuildingTypeNeeded>

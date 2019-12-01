@@ -105,11 +105,6 @@
 			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
 		</LeaderPower>
 		<Tech>
-			<TechToResearch>flood_vehinfector_upgrade1</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_inf_vehinfector_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
 			<TechToResearch>cov_grunt_upgrade1</TechToResearch>
 			<PrerequisiteObtainedObjectType>flood_inf_generic_aomcore</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
@@ -137,7 +132,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_vehinfectoraom_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -149,7 +144,7 @@
 		</Building>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_vehinfectoraom_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -161,37 +156,9 @@
 			<BuildingType>cov_bldg_supplyDepot_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
 		</Building>
-		<Tech>
-			<TechToResearch>flood_vehicle_tech</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_inf_generic_aomcore</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>flood_veh_infected_prowler_01_base</SquadTypeToSend>
-			<AlternateSquadTypeToSend>flood_air_infected_banshee_01_base</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>fld_custom_railgunflood</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
-			<PrerequisiteTech>flood_vehicle_tech</PrerequisiteTech>
-		</Mission>
-		<Tech>
-			<TechToResearch>flood_cancer_upgrade1</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_inf_spawner_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>flood_hivetech_upgrade1</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_inf_generic_aomcore</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>flood_hivetech_upgrade2</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_inf_spawner_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-		</Tech>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_vehinfectoraom_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -205,7 +172,7 @@
 		</Building>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_vehinfectoraom_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -234,7 +201,7 @@
 		<Mission>
 			<MissionType>BaseScout</MissionType>
 			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_vehinfectoraom_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
@@ -256,7 +223,7 @@
 			<MissionType>Defend</MissionType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_vehinfectoraom_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>4</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
 			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
@@ -295,7 +262,7 @@
 			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_vehinfectoraom_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -331,7 +298,7 @@
 			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Start</TargetBaseType>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_vehinfectoraom_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>12</NumberOfSquadsToSend>
 			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
@@ -456,7 +423,7 @@
 		<Mission>
 			<MissionType>BaseScout</MissionType>
 			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_vehinfectoraom_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
 		</Mission>
@@ -508,7 +475,7 @@
 			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Start</TargetBaseType>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_vehinfectoraom_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>6</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>13</NumberOfSquadsToSend>
 			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
@@ -545,7 +512,7 @@
 		</Building>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>flood_air_airborneinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_air_airborneinfectoraom_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -581,7 +548,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>flood_air_airborneinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_air_airborneinfectoraom_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -590,7 +557,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>flood_air_airborneinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_air_airborneinfectoraom_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -704,7 +671,7 @@
 			<SquadTypeToSend>unsc_air_nightingale_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
-			<SquadTypeToSend>flood_inf_spawner_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_spawneraom_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
@@ -770,7 +737,7 @@
 		<Mission>
 			<MissionType>BaseScout</MissionType>
 			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_vehinfectoraom_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
 		</Mission>
@@ -825,7 +792,7 @@
 			<TargetType>_Settlement</TargetType>
 			<TargetBaseType>Expansion</TargetBaseType>
 			<TargetMustBeOwnedByEnemy>true</TargetMustBeOwnedByEnemy>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_vehinfectoraom_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<TimeUntilSquadsAreReplaced>30</TimeUntilSquadsAreReplaced>
@@ -874,7 +841,7 @@
 			<SquadTypeToSend>flood_air_infected_blisterback_01_base</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
-			<SquadTypeToSend>flood_inf_spawner_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_spawneraom_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
@@ -926,7 +893,7 @@
 		<Mission>
 			<MissionType>Reserves</MissionType>
 			<SquadTypeToSend>flood_air_infected_banshee_01_base</SquadTypeToSend>
-			<AlternateSquadTypeToSend>flood_inf_vehinfector_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_inf_vehinfectoraom_01</AlternateSquadTypeToSend>
 			<AlternateSquadTypeToSend>flood_inf_jackal_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>7</NumberOfSquadsToSend>
 			<PrerequisiteTech>flood_hivetech_upgrade1</PrerequisiteTech>
@@ -949,7 +916,7 @@
 			<AlternateSquadTypeToSend>flood_air_infected_blisterback_01_base</AlternateSquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
-			<SquadTypeToSend>flood_inf_spawner_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_spawneraom_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
