@@ -8671,7 +8671,7 @@
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="AreaBuff1" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="RepairOther1" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AreaBuff2" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="Infect1" relativity="Absolute">
@@ -8680,19 +8680,16 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="Infect2" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="AreaBuff2" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepairOther2" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="HealthRegen" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
 			<Effect type="Data" amount="2" subtype="Damage" relativity="Percent">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="60" subtype="MaximumRange" action="RepairOther1" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.75" subtype="WorkRate" action="RepairOther1" relativity="Percent">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="PowerLevel" power="FloodRuptureEmerge" relativity="Absolute">

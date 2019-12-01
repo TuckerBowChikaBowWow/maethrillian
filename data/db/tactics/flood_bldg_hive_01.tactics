@@ -117,6 +117,7 @@
 		<Anim>Idle</Anim>
 		<WorkRange>40</WorkRange>
 		<WorkRate>0.25</WorkRate>
+		<AllowReinforce />
 		<AutoRepair  AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="500" AutoRepairThreshold="1" AutoRepairSearchDistance="40" />
 		<SpecificData>
 			<HealingPoints>
@@ -124,6 +125,8 @@
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>40</MaxHealingDistance>
+					<TargetType>Military</TargetType>
+					<AutoReapairOn />
 					<HealOnTheMove />
 					<UseMainHealingTargetWhenAvailable />
 				</HealingPoint>
@@ -131,6 +134,8 @@
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>40</MaxHealingDistance>
+					<TargetType>Military</TargetType>
+					<AutoReapairOn />
 					<HealOnTheMove />
 					<UseMainHealingTargetWhenAvailable />
 				</HealingPoint>
@@ -138,6 +143,8 @@
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>40</MaxHealingDistance>
+					<TargetType>Military</TargetType>
+					<AutoReapairOn />
 					<HealOnTheMove />
 					<UseMainHealingTargetWhenAvailable />
 				</HealingPoint>
@@ -156,65 +163,6 @@
 			</Relations>
 		</SpecificData>
 		<ProtoObject>vfx_episode2_building_floodhiveaura</ProtoObject>
-		<StartDisabled />
-	</Action>
-	<Action>
-		<Name>RepairOther2</Name>
-		<ActionType>RepairOther</ActionType>
-		<Anim>Idle</Anim>
-		<WorkRange>60</WorkRange>
-		<WorkRate>0.35</WorkRate>
-		<AllowReinforce />
-		<AutoRepair AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="500" AutoRepairThreshold="1" AutoRepairSearchDistance="60" />
-		<SpecificData>
-			<HealingPoints>
-				<HealingPoint>
-					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
-					<BoneName>GrannyRootBone_hive</BoneName>
-					<MaxHealingDistance>60</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
-					<HealOnTheMove />
-					<UseMainHealingTargetWhenAvailable />
-				</HealingPoint>
-				<HealingPoint>
-					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
-					<BoneName>GrannyRootBone_hive</BoneName>
-					<MaxHealingDistance>60</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
-					<HealOnTheMove />
-					<UseMainHealingTargetWhenAvailable />
-				</HealingPoint>
-				<HealingPoint>
-					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
-					<BoneName>GrannyRootBone_hive</BoneName>
-					<MaxHealingDistance>60</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
-					<HealOnTheMove />
-					<UseMainHealingTargetWhenAvailable />
-				</HealingPoint>
-				<HealingPoint>
-					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
-					<BoneName>GrannyRootBone_hive</BoneName>
-					<MaxHealingDistance>60</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
-					<HealOnTheMove />
-					<UseMainHealingTargetWhenAvailable />
-				</HealingPoint>
-				<HealingPoint>
-					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
-					<BoneName>GrannyRootBone_hive</BoneName>
-					<MaxHealingDistance>60</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
-					<HealOnTheMove />
-					<UseMainHealingTargetWhenAvailable />
-				</HealingPoint>
-			</HealingPoints>
-		</SpecificData>
 		<StartDisabled />
 	</Action>
 	<Action>
@@ -250,20 +198,14 @@
 	<Tactic>
 		<PersistentAction>TrainedSquadDoor</PersistentAction>
 		<PersistentAction>Base</PersistentAction>
-		<PersistentAction>RepairOther2</PersistentAction>
 		<PersistentAction>AreaBuff1</PersistentAction>
-		<PersistentAction>RepairOther1</PersistentAction>
 		<PersistentAction>AreaBuff2</PersistentAction>
+		<PersistentAction>RepairOther1</PersistentAction>
 		<PersistentSquadAction>HealthRegen</PersistentSquadAction>
 		<TargetRule>
 			<Relation>Ally</Relation>
-			<TargetType>Flood</TargetType>
+			<TargetType>Military</TargetType>
 			<Action>RepairOther1</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Ally</Relation>
-			<TargetType>Flood</TargetType>
-			<Action>RepairOther2</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>
