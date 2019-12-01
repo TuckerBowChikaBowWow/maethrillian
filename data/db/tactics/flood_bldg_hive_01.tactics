@@ -218,6 +218,28 @@
 		<StartDisabled />
 	</Action>
 	<Action>
+		<Name>RepairSelf</Name>
+		<ActionType>RepairOther</ActionType>
+		<Anim>Idle</Anim>
+		<WorkRange>60</WorkRange>
+		<WorkRate>0.35</WorkRate>
+		<AllowReinforce />
+		<AutoRepair AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="500" AutoRepairThreshold="1" AutoRepairSearchDistance="60" />
+		<SpecificData>
+			<HealingPoints>
+				<HealingPoint>
+					<BoneName>GrannyRootBone_hive</BoneName>
+					<MaxHealingDistance>10</MaxHealingDistance>
+					<TargetType>Flood</TargetType>
+					<AutoReapairOn />
+					<HealOnTheMove />
+					<UseMainHealingTargetWhenAvailable />
+				</HealingPoint>
+			</HealingPoints>
+		</SpecificData>
+		<StartDisabled />
+	</Action>
+	<Action>
 		<Name>HealthRegen</Name>
 		<ActionType>SquadHealthRegen</ActionType>
 		<WorkRate>120</WorkRate>
@@ -228,7 +250,9 @@
 	<Tactic>
 		<PersistentAction>TrainedSquadDoor</PersistentAction>
 		<PersistentAction>Base</PersistentAction>
+		<PersistentAction>RepairOther2</PersistentAction>
 		<PersistentAction>AreaBuff1</PersistentAction>
+		<PersistentAction>RepairOther1</PersistentAction>
 		<PersistentAction>AreaBuff2</PersistentAction>
 		<PersistentSquadAction>HealthRegen</PersistentSquadAction>
 		<TargetRule>
