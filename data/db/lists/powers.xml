@@ -29776,6 +29776,55 @@
 			</DataLevel>
 		</Attributes>
 	</Power>
+	<Power name="FloodBuffAOM">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>_Power_FloodBuffAOM</TechScript>
+			<ProcOnSquadSpawned />
+			<ProcOnChangeOwner />
+			<ProcOnChangeOwnerSameTeam />
+			<ProcOnPowerGranted />
+			<ProcOnPowerUpgraded />
+			<DependsOnPopulation />
+			<BuffName>Inspire</BuffName>
+			<ProcBuffName>Inspire</ProcBuffName>
+			<Cost Supplies="0" Power="0" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
+				<Data type="bool" name="BuffDurationInfinite">true</Data>
+				<Data type="float" name="DamageDealtModifier">1.13f</Data>
+				<Data type="float" name="SlowModifier">1.06</Data>
+				<Data type="float" name="DamageMitigationScalar">0.97</Data>
+				<Data type="float" name="PopulationThreshold">120</Data>
+				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
+				<Data type="objecttype" name="BuffActivateFXOverrideType1">Flying</Data>
+				<Data type="protoobject" name="BuffActivateFXOverride1">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
+				<Data type="bool" name="OverwritesSelf">true</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="bool" name="BuffDurationInfinite">true</Data>
+				<Data type="float" name="DamageDealtModifier">1.13f</Data>
+				<Data type="float" name="SlowModifier">1.06</Data>
+				<Data type="float" name="DamageMitigationScalar">0.97</Data>
+				<Data type="float" name="PopulationThreshold">120</Data>
+				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
+				<Data type="objecttype" name="BuffActivateFXOverrideType1">Flying</Data>
+				<Data type="protoobject" name="BuffActivateFXOverride1">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
+				<Data type="bool" name="OverwritesSelf">true</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="FloodSpeedBuff">
 		<Attributes>
 			<PowerType>AreaBuff</PowerType>

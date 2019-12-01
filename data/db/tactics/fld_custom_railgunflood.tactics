@@ -2,8 +2,8 @@
 <TacticData>
 	<Weapon>
 		<Name>RailgunVehicle</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>175</DamagePerSecond>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>185</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>vfx_dlc2_units_spartangausscannon</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
@@ -44,11 +44,11 @@
 	</Weapon>
 	<Weapon>
 		<Name>RailgunInfantry</Name>
-		<AttackRate>0.5</AttackRate>
+		<AttackRate>1.5</AttackRate>
 		<DamagePerSecond>100</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>vfx_dlc2_units_spartangausscannon</Projectile>
-		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
+		<ImpactEffect size="Small">GaussImpact</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
 		<MaxRange>50</MaxRange>
 		<TargetPriority type="PaintTarget">10</TargetPriority>
@@ -196,27 +196,14 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Infantry</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>TurretBuilding</TargetType>
 			<Action>RailgunInfantryAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>GroundVehicle</TargetType>
 			<Action>RailgunVehicleAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>Building</TargetType>
-			<Action>RailgunVehicleAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>TurretBuilding</TargetType>
-			<Action>RailgunVehicleAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>Flying</TargetType>
-			<Action>RailgunAirAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>

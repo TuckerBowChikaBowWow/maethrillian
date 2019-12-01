@@ -6990,6 +6990,53 @@
 			<Unit count="1" role="normal">fld_custom_carrierform_brute</Unit>
 		</Units>
 	</Squad>
+	<Squad name="flood_infectedhumelee_carrier_01" formationType="Flock" dbid="5727405345613569373">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3000</DisplayNameID>
+		<RolloverTextID>3001</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>52301</SubSelectSort>
+		<LeashDistance>80</LeashDistance>
+		<RammingDistanceScalar>10</RammingDistanceScalar>
+		<RammingSpeedScalar>1.65</RammingSpeedScalar>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>21.5249996</AggroDistance>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.5</AIAttackRank>
+		<BuildPoints>16</BuildPoints>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">110</Cost>
+		<Cost ResourceType="Power">60</Cost>
+		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">fld_custom_carrierform_human</Unit>
+		</Units>
+		<OverrideUnitSoundNames />
+		<LeaderDiesLast />
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<FrozenThreshold>100</FrozenThreshold>
+		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>Marines_01</Counters>
+	</Squad>
 	<Squad name="flood_infectedbrute_carrier_01" formationType="Flock" dbid="5727405345613569373">
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
@@ -8032,8 +8079,8 @@
 		<RoleTextID>518</RoleTextID>
 		<PrereqTextID>240</PrereqTextID>
 		<SubSelectSort>13</SubSelectSort>
-		<LeashDistance>100</LeashDistance>
-		<LeashDeadzone>999</LeashDeadzone>
+		<LeashDistance>30</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<AggroDistance>15.375</AggroDistance>
 		<MinimapIcon size="8">Square</MinimapIcon>
@@ -8087,8 +8134,8 @@
 		<RoleTextID>501</RoleTextID>
 		<PrereqTextID>233</PrereqTextID>
 		<SubSelectSort>14</SubSelectSort>
-		<LeashDistance>100</LeashDistance>
-		<LeashDeadzone>999</LeashDeadzone>
+		<LeashDistance>30</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
@@ -8136,8 +8183,8 @@
 		<RoleTextID>501</RoleTextID>
 		<PrereqTextID>232</PrereqTextID>
 		<SubSelectSort>15</SubSelectSort>
-		<LeashDistance>100</LeashDistance>
-		<LeashDeadzone>999</LeashDeadzone>
+		<LeashDistance>30</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
@@ -8190,8 +8237,8 @@
 		<RoleTextID>501</RoleTextID>
 		<PrereqTextID>232</PrereqTextID>
 		<SubSelectSort>16</SubSelectSort>
-		<LeashDistance>100</LeashDistance>
-		<LeashDeadzone>999</LeashDeadzone>
+		<LeashDistance>30</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
@@ -8242,8 +8289,8 @@
 		<RoleTextID>518</RoleTextID>
 		<PrereqTextID>230</PrereqTextID>
 		<SubSelectSort>17</SubSelectSort>
-		<LeashDistance>100</LeashDistance>
-		<LeashDeadzone>999</LeashDeadzone>
+		<LeashDistance>30</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
@@ -8296,8 +8343,8 @@
 		<RoleTextID>501</RoleTextID>
 		<PrereqTextID>242</PrereqTextID>
 		<SubSelectSort>18</SubSelectSort>
-		<LeashDistance>100</LeashDistance>
-		<LeashDeadzone>999</LeashDeadzone>
+		<LeashDistance>30</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>7</AIAttackRank>
