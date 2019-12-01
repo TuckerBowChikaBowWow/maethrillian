@@ -4107,7 +4107,7 @@
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_veh_bruteChopper_02">
 				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
 			</Effect>
-			<Effect type="ReparentProtoObject" FromType="cov_veh_bruteChopper_01" ToType="flood_veh_infected_bruteChopper_01_fear" />
+			<Effect type="ReparentProtoObject" FromType="flood_veh_infected_bruteChopper_01_base" ToType="flood_veh_infected_bruteChopper_01_fear" />
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaCannonLeftAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">flood_veh_infected_bruteChopper_01_base</Target>
 			</Effect>
@@ -10375,7 +10375,6 @@
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_heavyfactory_01" ToType="cov_bldg_heavyfactory_01_aom" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_lightfactory_01" ToType="cov_bldg_lightfactory_01_aom" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_temple_01" ToType="cov_bldg_temple_01_aom" />
-			<Effect type="ReparentProtoObject" FromType="cov_veh_bruteChopper_01" ToType="flood_veh_infected_bruteChopper_01_base" />
 		</Effects>
 	</Tech>
 	<Tech name="_Power_FloodBuffAOM" type="Normal">
