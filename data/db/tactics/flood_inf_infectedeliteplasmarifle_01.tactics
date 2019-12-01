@@ -90,6 +90,39 @@
 		<PhysicsForceMax>1100</PhysicsForceMax>
 		<Filter>Light</Filter>
 	</Weapon>
+	<Weapon>
+		<Name>GrenadeMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1</DamagePerSecond>
+		<WeaponType>Grenade</WeaponType>
+		<Projectile>vfx_dlc2_units_plasmagrenadetrail</Projectile>
+		<ImpactEffect size="Small">BruteMineImpact</ImpactEffect>
+		<Mine>flood_mine_plasmagrenade_01</Mine>
+		<MaxVelocityLead>35</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<MaxPlantRange>51</MaxPlantRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+	</Weapon>
+	<Weapon>
+		<Name>GrenadeMineGround</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1</DamagePerSecond>
+		<WeaponType>Grenade</WeaponType>
+		<Projectile>vfx_dlc2_units_plasmagrenadetrail</Projectile>
+		<ImpactEffect size="Small">BruteMineImpact</ImpactEffect>
+		<Mine>flood_mine_plasmagrenade_01</Mine>
+		<MaxVelocityLead>35</MaxVelocityLead>
+		<AlwaysReplaceTargetWithItsPosition />
+		<MaxRange>50</MaxRange>
+		<MaxPlantRange>51</MaxPlantRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+	</Weapon>
 	<Action>
 		<Name>PlasmaRifleAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -111,6 +144,24 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>StasisGrenade</Anim>
 		<Weapon>Grenade</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
+	</Action>
+	<Action>
+		<Name>GrenadeMineGroundAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>StasisGrenade</Anim>
+		<Weapon>GrenadeMineGround</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
+	</Action>
+	<Action>
+		<Name>GrenadeMineAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>StasisGrenade</Anim>
+		<Weapon>GrenadeMine</Weapon>
 		<FullBodyAttackAnim />
 		<DontAutoRestart />
 		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
@@ -159,10 +210,24 @@
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
+			<Action>GrenadeMineGroundAction</Action>
+			<Relation>Self</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>GrenadeMineGroundAction</Action>
+			<Relation>Ally</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>GrenadeMineAttackAction</Action>
 			<TargetType>NonFlying</TargetType>
-			<Action>GrenadeAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
+			<Relation>Enemy</Relation>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>GrenadeMineAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>

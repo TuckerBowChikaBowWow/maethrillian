@@ -117,7 +117,6 @@
 		<Anim>Idle</Anim>
 		<WorkRange>40</WorkRange>
 		<WorkRate>0.25</WorkRate>
-		<AllowReinforce />
 		<AutoRepair  AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="500" AutoRepairThreshold="1" AutoRepairSearchDistance="40" />
 		<SpecificData>
 			<HealingPoints>
@@ -125,8 +124,6 @@
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>40</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
 					<HealOnTheMove />
 					<UseMainHealingTargetWhenAvailable />
 				</HealingPoint>
@@ -134,8 +131,6 @@
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>40</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
 					<HealOnTheMove />
 					<UseMainHealingTargetWhenAvailable />
 				</HealingPoint>
@@ -143,8 +138,6 @@
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>40</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
 					<HealOnTheMove />
 					<UseMainHealingTargetWhenAvailable />
 				</HealingPoint>
@@ -264,12 +257,12 @@
 		<PersistentSquadAction>HealthRegen</PersistentSquadAction>
 		<TargetRule>
 			<Relation>Ally</Relation>
-			<TargetType>Military</TargetType>
+			<TargetType>Flood</TargetType>
 			<Action>RepairOther1</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>
-			<TargetType>Military</TargetType>
+			<TargetType>Flood</TargetType>
 			<Action>RepairOther2</Action>
 		</TargetRule>
 	</Tactic>
