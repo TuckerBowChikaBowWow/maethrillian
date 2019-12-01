@@ -333,6 +333,33 @@
 	<InfantryCorpseDecayTime>3</InfantryCorpseDecayTime>
 	<CorpseSinkingSpacing>3</CorpseSinkingSpacing>
 	<InfectionMap>
+		<InfectionMapEntry targetUnit="cov_inf_grunt_01_mp_blitz">
+			<Infected weight="99" infectedUnit="flood_inf_infected_gruntpistol_01" infectedSquad="flood_inf_infected_gruntpistol_01" deathByInfectionAnim="Transform" />
+			<Infected weight="1" infectedUnit="fld_custom_carrierform_grunt" infectedSquad="fld_custom_carrierform_grunt" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_bruteLeader_01_mp_blitz">
+			<Infected weight="99" infectedUnit="flood_inf_infected_brutespiker_01" infectedSquad="flood_inf_infected_brutespiker_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_bruteSubLeader_01_mp_blitz">
+			<Infected weight="99" infectedUnit="flood_inf_infected_brutespiker_01" infectedSquad="flood_inf_infected_brutespiker_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_bruteHonour_01_mp_blitz">
+			<Infected weight="50" infectedUnit="fld_custom_siphonbrutehammer" infectedSquad="fld_custom_siphonbrutehammer" deathByInfectionAnim="Transform" />
+			<Infected weight="50" infectedUnit="fld_custom_siphonbrutehammer_t2" infectedSquad="fld_custom_siphonbrutehammer_t2" deathByInfectionAnim="Transform" />
+			<Infected weight="50" infectedUnit="fld_custom_siphonbrutehammer_t3" infectedSquad="fld_custom_siphonbrutehammer_t3" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_veh_bruteChopper_01_mp_fear">
+			<Infected infectedUnit="flood_veh_infected_bruteChopper_01_base" infectedSquad="flood_veh_infected_bruteChopper_01_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_veh_wraith_01_mp_fear">
+			<Infected infectedUnit="flood_veh_infected_wraith_01_base" infectedSquad="flood_veh_infected_wraith_01_base_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_veh_wraith_01_mp_guard">
+			<Infected infectedUnit="flood_veh_infected_wraith_01_base" infectedSquad="flood_veh_infected_wraith_01_base_base" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_veh_locust_01_mp_blitz">
+			<Infected infectedUnit="cov_veh_locust_01" infectedSquad="cov_veh_locust_01" deathByInfectionAnim="HijackLoop" />
+		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_inf_marineguard_01">
 			<Infected weight="99" infectedUnit="flood_inf_infected_assaultrifle_02" infectedSquad="flood_inf_infected_assaultrifle_02" deathByInfectionAnim="Transform" />
 			<Infected weight="15" infectedUnit="fld_custom_carrierform_human" infectedSquad="fld_custom_carrierform_human" deathByInfectionAnim="Transform" />
@@ -377,9 +404,6 @@
 			<Infected weight="50" infectedUnit="fld_custom_strongbrutehammer" infectedSquad="fld_custom_strongbrutehammer" deathByInfectionAnim="Transform" />
 			<Infected weight="50" infectedUnit="fld_custom_strongbrutehammer_t2" infectedSquad="fld_custom_strongbrutehammer_t2" deathByInfectionAnim="Transform" />
 			<Infected weight="50" infectedUnit="fld_custom_strongbrutehammer_t3" infectedSquad="fld_custom_strongbrutehammer_t3" deathByInfectionAnim="Transform" />
-			<Infected weight="50" infectedUnit="fld_custom_siphonbrutehammer" infectedSquad="fld_custom_siphonbrutehammer" deathByInfectionAnim="Transform" />
-			<Infected weight="50" infectedUnit="fld_custom_siphonbrutehammer_t2" infectedSquad="fld_custom_siphonbrutehammer_t2" deathByInfectionAnim="Transform" />
-			<Infected weight="50" infectedUnit="fld_custom_siphonbrutehammer_t3" infectedSquad="fld_custom_siphonbrutehammer_t3" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_eliteCommando_01">
 			<Infected weight="50" infectedUnit="fld_custom_weakswordelite" infectedSquad="fld_custom_weakswordelite" deathByInfectionAnim="Transform" />
