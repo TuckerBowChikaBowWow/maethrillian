@@ -12,7 +12,7 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>10</Radius>
+				<Radius>12</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -34,7 +34,7 @@
 	<Weapon>
 		<Name>InfectionBombReduced</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>550</DamagePerSecond>
+		<DamagePerSecond>500</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Mines</WeaponType>
 		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
@@ -43,7 +43,7 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>10</Radius>
+				<Radius>12</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -59,7 +59,7 @@
 		<ActionType>ExplosiveManager</ActionType>
 		<Infection />
 		<FuseType>Proximity</FuseType>
-		<WorkRange>10</WorkRange>
+		<WorkRange>12</WorkRange>
 		<Weapon>InfectionBomb</Weapon>
 		<DontAutoRestart />
 	</Action>
