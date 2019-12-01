@@ -8285,6 +8285,18 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_infectedbrute_carrier_01_hive" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_airborneinfector_01_hive" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_spawner_01_hive" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_corruptedengineer_01_hive" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_infectedbrute_carrier_01_hive" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_02</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_shieldtower_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_turretSocket_01_base</Target>
 			</Effect>
@@ -8595,6 +8607,12 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_corruptedengineer_01_hive" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_airborneinfector_01_hive" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_corruptedengineer_01_hive" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_02</Target>
+			</Effect>
 			<Effect type="Data" subtype="buildPoints" amount="0.9" relativity="Percent">
 				<Target type="ProtoSquad">flood_inf_vehinfector_01_hive</Target>
 				<Target type="ProtoSquad">flood_air_airborneinfector_01_hive</Target>
@@ -8630,6 +8648,12 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_infectedbrute_carrier_01_hive" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_spawner_01_hive" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_infectedbrute_carrier_01_hive" relativity="Absolute">
+				<Target type="ProtoUnit">fld_bldg_drophivebase_02</Target>
+			</Effect>
 			<Effect type="Data" subtype="buildPoints" amount="0.9" relativity="Percent">
 				<Target type="ProtoSquad">flood_inf_vehinfector_01_hive</Target>
 				<Target type="ProtoSquad">flood_air_airborneinfector_01_hive</Target>
@@ -8653,33 +8677,7 @@
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="AreaBuff1" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="RepairOther1" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="Infect1" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="Infect2" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="AreaBuff2" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="RepairOther2" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="HealthRegen" relativity="Absolute">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
-			<Effect type="Data" amount="2" subtype="Damage" relativity="Percent">
-				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
-			</Effect>
+			<Effect type="ReparentProtoObject" FromType="fld_bldg_drophivebase_01" ToType="fld_bldg_drophivebase_02" />
 			<Effect type="Data" amount="1" subtype="PowerLevel" power="FloodRuptureEmerge" relativity="Absolute">
 				<Target type="Player" />
 			</Effect>
