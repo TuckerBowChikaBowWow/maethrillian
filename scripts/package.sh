@@ -13,10 +13,10 @@ PKG_BUNDLE_DIR="${PKG_BUILD_DIR}/GTS/${GAME_VERSION}_active"
 PKG_DATA_EXTENSIONS='\.xml$|\.cfg$|\.ddx$|\.tactics|\.vis$|\.ai$|\.tfx$'
 PKG_DATA_FILES=$(git diff --name-only HEAD ${PKG_BASE_COMMIT} | egrep ${PKG_DATA_EXTENSIONS})
 
-PKG_FILE_NAME="maethrillian.pkg"
+PKG_FILE_NAME="OverhaulMod.pkg"
 PKG_FILE_PATH="${PKG_BUNDLE_DIR}/${PKG_FILE_NAME}"
 PKG_FILE_MANIFEST="${PKG_BUNDLE_DIR}/${GAME_VERSION}_file_manifest.xml"
-PKG_ARCHIVE="maethrillian.zip"
+PKG_ARCHIVE="OverhaulMod.zip"
 
 [ -x "$(command -v ${ANCILLA})" ] \
     && { echo "[ OK   ] Check ancilla binary"; } \
