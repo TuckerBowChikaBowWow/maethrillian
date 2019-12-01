@@ -69,25 +69,49 @@
 	<Weapon>
 		<Name>Rifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>450</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
+		<DamagePerSecond>330</DamagePerSecond>
+		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>episode2_pack1_units_flood_infantry_FloodSpawnerSpine</Projectile>
 		<ImpactEffect size="small">FloodSpawnerSpineImpact</ImpactEffect>
 		<MaxVelocityLead>25</MaxVelocityLead>
-		<MaxRange>70</MaxRange>
+		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
-		<MaxDeviation>8</MaxDeviation>
+		<MaxDeviation>1</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
-		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
 		<TargetPriority type="Aircraft">3</TargetPriority>
-		<TargetPriority type="GroundVehicle">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.400000006</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
+		<TargetPriority type="GroundVehicle">20</TargetPriority>
+		<TargetPriority type="Building">10</TargetPriority>
+		<PreAttackCooldownMin>0.1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.4</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.4</PostAttackCooldownMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>2</Width>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>3</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>5</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<Filter>Light</Filter>
 	</Weapon>
 	<Action>
@@ -95,9 +119,8 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>Attack</Anim>
 		<Weapon>Rifle</Weapon>
-		<Strafing turnRate="180" trackingSpeed="60" />
+		<Strafing turnRate="240" trackingSpeed="90" />
 		<FullBodyAttackAnim />
-		<FindBetterAction />
 	</Action>
 	<Action>
 		<Name>SpawnerInfAttackAction</Name>
@@ -131,41 +154,6 @@
 		<ActionType>StealthManager</ActionType>
 		<StealthType>Cloak</StealthType>
 		<DontAutoRestart />
-	</Action>
-	<Weapon>
-		<Name>RifleSiphon</Name>
-		<AttackRate>2</AttackRate>
-		<DamagePerSecond>450</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
-		<Projectile>episode2_pack1_units_flood_infantry_FloodSpawnerSpine</Projectile>
-		<ImpactEffect size="small">FloodSpawnerSpineImpact</ImpactEffect>
-		<MaxVelocityLead>25</MaxVelocityLead>
-		<MaxRange>70</MaxRange>
-		<Accuracy>1</Accuracy>
-		<MaxDeviation>8</MaxDeviation>
-		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>12</MovingMaxDeviation>
-		<EnableHeightBonusDamage />
-		<TargetPriority type="Infantry">3</TargetPriority>
-		<TargetPriority type="Aircraft">3</TargetPriority>
-		<TargetPriority type="GroundVehicle">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.400000006</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
-		<Filter>Light</Filter>
-		<LifeStealRatio shield="false">0.95</LifeStealRatio>
-	</Weapon>
-	<Action>
-		<Name>RifleSiphonAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>Attack</Anim>
-		<Weapon>RifleSiphon</Weapon>
-		<Strafing turnRate="180" trackingSpeed="60" />
-		<FullBodyAttackAnim />
-		<FindBetterAction />
-		<StartDisabled />
 	</Action>
 	<Tactic>
 		<PersistentAction>PersonalCloak</PersistentAction>
@@ -210,10 +198,6 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>RifleAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>RifleSiphonAttackAction</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>
