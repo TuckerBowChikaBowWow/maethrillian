@@ -8573,6 +8573,27 @@
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_socket_01" ToType="cov_bldg_socket_01_fl" />
 		</Effects>
 	</Tech>
+	<Tech name="flood_reinforcements" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>1114</DisplayNameID>
+		<RolloverTextID>1115</RolloverTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">500</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>35</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" subtype="PopCap" amount="1" popType="Decimus" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" subtype="PopCap" amount="15" popType="Unit" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="flood_hivetech_upgrade1" type="Normal">
 		<DBID>1915</DBID>
 		<DisplayNameID>1114</DisplayNameID>
@@ -8586,9 +8607,6 @@
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" subtype="PopCap" amount="1" popType="Decimus" relativity="Absolute">
-				<Target type="Player" />
-			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_airborneinfector_01_hive" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
@@ -8621,9 +8639,6 @@
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
 		<Effects>
-			<Effect type="Data" subtype="PopCap" amount="1" popType="Decimus" relativity="Absolute">
-				<Target type="Player" />
-			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_spawner_01_hive" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
