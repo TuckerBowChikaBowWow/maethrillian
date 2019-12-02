@@ -26,7 +26,7 @@
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
 		<WorkRange>26</WorkRange>
-		<WorkRate>1</WorkRate>
+		<WorkRate>0.25</WorkRate>
 		<AllowReinforce />
 		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="50" />
 		<SpecificData>
@@ -48,7 +48,7 @@
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
 		<WorkRange>26</WorkRange>
-		<WorkRate>2</WorkRate>
+		<WorkRate>0.300000012</WorkRate>
 		<AllowReinforce />
 		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="50" />
 		<SpecificData>
@@ -69,8 +69,13 @@
 		<Name>RepairOther4</Name>
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
+<<<<<<< HEAD
 		<WorkRange>50</WorkRange>
 		<WorkRate>10</WorkRate>
+=======
+		<WorkRange>26</WorkRange>
+		<WorkRate>0.349999994</WorkRate>
+>>>>>>> parent of 5a28828... pavium heal test
 		<AllowReinforce />
 		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="50" />
 		<SpecificData>
