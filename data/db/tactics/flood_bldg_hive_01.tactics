@@ -123,6 +123,7 @@
 			<HealingPoints>
 				<HealingPoint>
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
+					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>40</MaxHealingDistance>
 					<TargetType>Military</TargetType>
 					<AutoReapairOn />
@@ -149,14 +150,6 @@
 				</HealingPoint>
 			</HealingPoints>
 		</SpecificData>
-	</Action>
-	<Action>
-		<Name>RepairOtherAoe</Name>
-		<ActionType>AoeHeal</ActionType>
-		<Anim>Repair</Anim>
-		<WorkRange>40</WorkRange>
-		<WorkRate>500</WorkRate>
-		<AllowReinforce />
 	</Action>
 	<Action>
 		<Name>AreaBuff2</Name>
@@ -207,7 +200,7 @@
 		<PersistentAction>Base</PersistentAction>
 		<PersistentAction>AreaBuff1</PersistentAction>
 		<PersistentAction>AreaBuff2</PersistentAction>
-		<PersistentAction>RepairOtherAoe</PersistentAction>
+		<PersistentAction>RepairOther1</PersistentAction>
 		<PersistentSquadAction>HealthRegen</PersistentSquadAction>
 	</Tactic>
 </TacticData>
