@@ -2,35 +2,11 @@
 <TacticData>
 	<Weapon>
 		<Name>Infect</Name>
-		<DamagePerSecond>450</DamagePerSecond>
+		<DamagePerSecond>400</DamagePerSecond>
 		<WeaponType>InfectionForm</WeaponType>
 		<TimeToInfect>1</TimeToInfect>
 		<InfectionJumpDelay>0.25</InfectionJumpDelay>
-		<InfectionTargetType>Infantry</InfectionTargetType>
-		<TargetPriority type="Infantry">8</TargetPriority>
-		<TargetPriority type="GroundVehicle">-1</TargetPriority>
-		<TargetPriority type="TurretBuilding">-1</TargetPriority>
-		<TargetPriority type="Building">-1</TargetPriority>
-	</Weapon>
-	<Weapon>
-		<Name>InfectVeh</Name>
-		<DamagePerSecond>350</DamagePerSecond>
-		<WeaponType>InfectionForm</WeaponType>
-		<TimeToInfect>1</TimeToInfect>
-		<InfectionJumpDelay>0.25</InfectionJumpDelay>
-		<InfectionTargetType>GroundVehicle</InfectionTargetType>
-		<TargetPriority type="Infantry">8</TargetPriority>
-		<TargetPriority type="GroundVehicle">-1</TargetPriority>
-		<TargetPriority type="TurretBuilding">-1</TargetPriority>
-		<TargetPriority type="Building">-1</TargetPriority>
-	</Weapon>
-	<Weapon>
-		<Name>InfectBLDG</Name>
-		<DamagePerSecond>350</DamagePerSecond>
-		<WeaponType>InfectionForm</WeaponType>
-		<TimeToInfect>1</TimeToInfect>
-		<InfectionJumpDelay>0.25</InfectionJumpDelay>
-		<InfectionTargetType>TurretBuilding</InfectionTargetType>
+		<InfectionTargetType>Military</InfectionTargetType>
 		<TargetPriority type="Infantry">8</TargetPriority>
 		<TargetPriority type="GroundVehicle">-1</TargetPriority>
 		<TargetPriority type="TurretBuilding">-1</TargetPriority>
@@ -53,20 +29,6 @@
 		<ActionType>Infect</ActionType>
 		<Infection />
 		<Weapon>Infect</Weapon>
-		<WorkRange>4</WorkRange>
-	</Action>
-	<Action>
-		<Name>InfectVeh</Name>
-		<ActionType>Infect</ActionType>
-		<Infection />
-		<Weapon>InfectVeh</Weapon>
-		<WorkRange>4</WorkRange>
-	</Action>
-	<Action>
-		<Name>InfectBLDG</Name>
-		<ActionType>Infect</ActionType>
-		<Infection />
-		<Weapon>InfectBLDG</Weapon>
 		<WorkRange>4</WorkRange>
 	</Action>
 	<Action>
@@ -152,18 +114,9 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>Infantry</TargetType>
-			<Action>Infect</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>GroundVehicle</TargetType>
-			<Action>InfectVeh</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
 			<TargetType>cov_bldg_grunt_shadeturret_01</TargetType>
-			<Action>InfectBLDG</Action>
+			<Action>Infect</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
