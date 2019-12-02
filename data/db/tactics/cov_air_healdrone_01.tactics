@@ -4,17 +4,17 @@
 		<Name>RepairOther4</Name>
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
-		<WorkRange>80</WorkRange>
-		<WorkRate>2</WorkRate>
+		<WorkRange>10</WorkRange>
+		<WorkRate>0.05</WorkRate>
 		<AllowReinforce />
-		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="80" />
+		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="10" />
 		<SpecificData>
 			<HealingPoints>
 				<HealingPoint>
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>bone_root</BoneName>
 					<TargetType>_Building</TargetType>
-					<MaxHealingDistance>80</MaxHealingDistance>
+					<MaxHealingDistance>10</MaxHealingDistance>
 					<AutoReapairOn />
 					<HealOnTheMove />
 				</HealingPoint>
@@ -86,6 +86,7 @@
 				</HealingPoint>
 			</HealingPoints>
 		</SpecificData>
+		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>ActionDrone</Name>
