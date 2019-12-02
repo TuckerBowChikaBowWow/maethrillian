@@ -4,8 +4,8 @@
 		<Name>RepairOther1</Name>
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
-		<WorkRange>26</WorkRange>
-		<WorkRate>0.200000003</WorkRate>
+		<WorkRange>15</WorkRange>
+		<WorkRate>0.05</WorkRate>
 		<AllowReinforce />
 		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="50" />
 		<SpecificData>
@@ -14,7 +14,7 @@
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>bone_root</BoneName>
 					<TargetType>_Building</TargetType>
-					<MaxHealingDistance>28</MaxHealingDistance>
+					<MaxHealingDistance>15</MaxHealingDistance>
 					<AutoReapairOn />
 					<HealOnTheMove />
 				</HealingPoint>
@@ -69,8 +69,8 @@
 		<Name>RepairOther4</Name>
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
-		<WorkRange>26</WorkRange>
-		<WorkRate>6</WorkRate>
+		<WorkRange>50</WorkRange>
+		<WorkRate>10</WorkRate>
 		<AllowReinforce />
 		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="50" />
 		<SpecificData>
@@ -79,7 +79,7 @@
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>bone_root</BoneName>
 					<TargetType>_Building</TargetType>
-					<MaxHealingDistance>28</MaxHealingDistance>
+					<MaxHealingDistance>50</MaxHealingDistance>
 					<AutoReapairOn />
 					<HealOnTheMove />
 				</HealingPoint>
