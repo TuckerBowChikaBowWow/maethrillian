@@ -151,6 +151,14 @@
 		</SpecificData>
 	</Action>
 	<Action>
+		<Name>RepairOtherAoe</Name>
+		<ActionType>AoeHeal</ActionType>
+		<Anim>Repair</Anim>
+		<WorkRange>40</WorkRange>
+		<WorkRate>500</WorkRate>
+		<AllowReinforce />
+	</Action>
+	<Action>
 		<Name>AreaBuff2</Name>
 		<ActionType>AreaBuff</ActionType>
 		<WorkRange>60</WorkRange>
@@ -199,12 +207,7 @@
 		<PersistentAction>Base</PersistentAction>
 		<PersistentAction>AreaBuff1</PersistentAction>
 		<PersistentAction>AreaBuff2</PersistentAction>
-		<PersistentAction>RepairOther1</PersistentAction>
+		<PersistentAction>RepairOtherAoe</PersistentAction>
 		<PersistentSquadAction>HealthRegen</PersistentSquadAction>
-		<TargetRule>
-			<Relation>Ally</Relation>
-			<TargetType>Military</TargetType>
-			<Action>RepairOther1</Action>
-		</TargetRule>
 	</Tactic>
 </TacticData>
