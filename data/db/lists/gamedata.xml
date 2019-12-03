@@ -333,9 +333,6 @@
 	<InfantryCorpseDecayTime>3</InfantryCorpseDecayTime>
 	<CorpseSinkingSpacing>3</CorpseSinkingSpacing>
 	<InfectionMap>
-		<InfectionMapEntry targetUnit="cov_inf_grunt_01_mp_blitz">
-			<Infected weight="99" infectedUnit="flood_inf_infected_gruntpistol_01" infectedSquad="flood_inf_infected_gruntpistol_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_bruteLeader_01_mp_blitz">
 			<Infected weight="99" infectedUnit="flood_inf_infected_brutespiker_01" infectedSquad="flood_inf_infected_brutespiker_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
@@ -360,17 +357,11 @@
 		<InfectionMapEntry targetUnit="unsc_veh_scorpion_01_mp_blitz">
 			<Infected weight="1" infectedUnit="flood_veh_infected_scorpion_01_base" infectedSquad="flood_veh_infected_scorpion_01_base" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_inf_elitegrunt_01_base">
-			<Infected weight="99" infectedUnit="flood_inf_infected_gruntpistol_01" infectedSquad="flood_inf_infected_gruntpistol_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_gruntswarm_01">
 			<Infected weight="99" infectedUnit="flood_inf_infected_gruntmelee_01" infectedSquad="flood_inf_infected_gruntmelee_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_gruntswarmleader_01">
 			<Infected weight="99" infectedUnit="flood_inf_infected_gruntmelee_01" infectedSquad="flood_inf_infected_gruntmelee_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_inf_grunt_01">
-			<Infected weight="99" infectedUnit="flood_inf_infected_gruntpistol_01" infectedSquad="flood_inf_infected_gruntpistol_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_heavygruntLeader_01">
 			<Infected weight="1" infectedUnit="flood_inf_infected_gruntfuelrod_01" infectedSquad="flood_inf_infected_gruntfuelrod_01" deathByInfectionAnim="Transform" />
@@ -380,9 +371,6 @@
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_heavygrunt_01">
 			<Infected weight="99" infectedUnit="flood_inf_infected_gruntpistol_01" infectedSquad="flood_inf_infected_gruntpistol_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_inf_suicideGrunt_01">
-			<Infected weight="99" infectedUnit="fld_custom_carrierform_grunt" infectedSquad="fld_custom_carrierform_grunt" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_arbiter_assaultteamleader_01">
 			<Infected weight="99" infectedUnit="flood_inf_infected_eliteplasmacaster_01" infectedSquad="flood_inf_infected_eliteplasmacaster_01" deathByInfectionAnim="Transform" />
