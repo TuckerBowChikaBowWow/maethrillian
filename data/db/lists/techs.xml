@@ -8573,7 +8573,7 @@
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_socket_01" ToType="cov_bldg_socket_01_fl" />
 		</Effects>
 	</Tech>
-	<Tech name="flood_reinforcements" type="Normal">
+	<Tech name="flood_reinforcements_upgrade" type="Normal">
 		<DBID>1915</DBID>
 		<DisplayNameID>1114</DisplayNameID>
 		<RolloverTextID>1115</RolloverTextID>
@@ -9241,6 +9241,9 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">flood_infectedbrute_carrier_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_bruteshot_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">flood_inf_generic_core</Target>

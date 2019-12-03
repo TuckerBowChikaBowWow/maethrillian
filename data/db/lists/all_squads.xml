@@ -5978,6 +5978,48 @@
 	<Squad name="flood_inf_infected_brutemelee_01_sp" parent_element="flood_inf_infected_brutemelee_01_base" dbid="10576023490438302341">
 		<Flag>DoNotMoveToAttackMe</Flag>
 	</Squad>
+	<Squad name="flood_inf_infected_bruteshot_01" dbid="17750208265744882891">
+		<CombatRank>9</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>27840</DisplayNameID>
+		<RolloverTextID>27841</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<SubSelectSort>35</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<BobbleHead>UNSC_Spartan</BobbleHead>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>10</AIAttackRank>
+		<BuildPoints>30</BuildPoints>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">450</Cost>
+		<Cost ResourceType="Power">400</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<HPBar offset="0,10,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_inf_infected_bruteshot_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>Units</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Flag>AlwaysRenderSelectionDecal</Flag>
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>AtrioxChosen_01</Counters>
+	</Squad>
 	<Squad name="flood_inf_infected_brutespiker_01" dbid="9758172736611096631" parent_element="flood_inf_infected_brutespiker_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
