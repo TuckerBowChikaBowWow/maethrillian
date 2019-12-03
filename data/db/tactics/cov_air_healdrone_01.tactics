@@ -4,8 +4,8 @@
 		<Name>RepairOther1</Name>
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
-		<WorkRange>15</WorkRange>
-		<WorkRate>0.05</WorkRate>
+		<WorkRange>26</WorkRange>
+		<WorkRate>0.20000005</WorkRate>
 		<AllowReinforce />
 		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="50" />
 		<SpecificData>
@@ -14,7 +14,7 @@
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>bone_root</BoneName>
 					<TargetType>_Building</TargetType>
-					<MaxHealingDistance>15</MaxHealingDistance>
+					<MaxHealingDistance>28</MaxHealingDistance>
 					<AutoReapairOn />
 					<HealOnTheMove />
 				</HealingPoint>
@@ -69,13 +69,8 @@
 		<Name>RepairOther4</Name>
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
-<<<<<<< HEAD
-		<WorkRange>50</WorkRange>
-		<WorkRate>10</WorkRate>
-=======
 		<WorkRange>26</WorkRange>
 		<WorkRate>0.349999994</WorkRate>
->>>>>>> parent of 5a28828... pavium heal test
 		<AllowReinforce />
 		<AutoRepair AutoRepairIdleTime="1000" AutoRepairThreshold="1" AutoRepairSearchDistance="50" />
 		<SpecificData>
@@ -84,7 +79,7 @@
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>bone_root</BoneName>
 					<TargetType>_Building</TargetType>
-					<MaxHealingDistance>50</MaxHealingDistance>
+					<MaxHealingDistance>28</MaxHealingDistance>
 					<AutoReapairOn />
 					<HealOnTheMove />
 				</HealingPoint>
