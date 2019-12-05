@@ -44,7 +44,7 @@
 	<Weapon>
 		<Name>JumpAttackHammer</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>500</DamagePerSecond>
+		<DamagePerSecond>600</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Melee</WeaponType>
 		<MaxRange>1.84500003</MaxRange>
@@ -73,7 +73,7 @@
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
-		<Slow TargetType="nonflying" MovementModifier="0.01" AOEEffect="true" SmartTargeting="false">2.0f</Slow>
+		<Slow TargetType="nonflying" MovementModifier="0.01" AOEEffect="true" SmartTargeting="false">2.5f</Slow>
 		<Filter>Medium</Filter>
 	</Weapon>
 	<Action>
