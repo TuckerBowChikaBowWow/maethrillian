@@ -5571,7 +5571,7 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>8</BuildPoints>
-		<Pop Type="Unit">0.5</Pop>
+		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">75</Cost>
 		<Cost ResourceType="Power">10</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -5585,6 +5585,9 @@
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
 		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
 		<FrozenThreshold>100</FrozenThreshold>
 		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
 		<Selection>
