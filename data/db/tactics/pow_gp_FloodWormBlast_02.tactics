@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>OrbitalBombardment</Name>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>pow_gp_FloodWormBlast_01</Projectile>
+		<ImpactEffect size="Large">FloodEggExplosion</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>26</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+		</AOEData>
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1600</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Default>true</Default>
+		<Name>OrbitalBombardmentAttackAction</Name>
+		<Weapon>OrbitalBombardment</Weapon>
+		<ProjectileInvokePower>FloodSickness2_Proc</ProjectileInvokePower>
+	</Action>
+	<Tactic />
+</TacticData>

@@ -5672,13 +5672,8 @@
 			<Unit count="1" role="normal">fld_custom_carrierform_grunt</Unit>
 		</Units>
 	</Squad>
-	<Squad name="fld_custom_carrierform_brute" formationType="Flock" dbid="14175204004466671828" parent_element="flood_inf_infected_brutemelee_01">
-		<SubSelectSort>52300</SubSelectSort>
-		<Units>
-			<Unit count="1" role="normal">fld_custom_carrierform_brute</Unit>
-		</Units>
-	</Squad>
 	<Squad name="flood_infectedbrute_carrier_01" formationType="Flock" dbid="5727405345613569373">
+		<SubSelectSort>52300</SubSelectSort>
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapScale>1</MinimapScale>

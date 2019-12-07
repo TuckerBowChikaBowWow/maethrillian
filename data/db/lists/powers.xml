@@ -27724,7 +27724,7 @@
 				<Data type="float" name="AreaRadius">24</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterType2">Flood</Data>
-				<Data type="float" name="BuffDuration">15</Data>
+				<Data type="float" name="BuffDuration">20</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageMitigationScalar">0.35</Data>
@@ -27767,8 +27767,48 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="float" name="BuffDuration">15</Data>
 				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
-				<Data type="float" name="SlowModifier">0.8</Data>
-				<Data type="float" name="PercentHealthDamageOverTime">0.35</Data>
+				<Data type="float" name="SlowModifier">0.75</Data>
+				<Data type="float" name="PercentHealthDamageOverTime">0.4</Data>
+				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
+				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
+				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
+				<Data type="protoobject" name="BuffActivateFX">vfx_dlc3_powers_buffs_lekgolowormbuff</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BUF_BAN_LekgoloPilotingCast</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="FloodSickness2_Proc">
+		<Attributes>
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>BuffAllies</AIPowerUseType>
+			<BuffName>ConduitofRage</BuffName>
+			<Cost Supplies="0" Power="0" />
+			<AutoRecharge>120000</AutoRecharge>
+			<UIRadius>40</UIRadius>
+			<Decal>ConduitOfRage_Small</Decal>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<IsProcPower />
+			<DontRecordGameStats />
+			<IconLocation>0</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DataLevel level="0">
+				<Data type="float" name="AreaRadius">24</Data>
+				<Data type="objecttype" name="FilterType">Unit</Data>
+				<Data type="float" name="BuffDuration">20</Data>
+				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
+				<Data type="float" name="SlowModifier">0.75</Data>
+				<Data type="float" name="PercentHealthDamageOverTime">0.45</Data>
 				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
 				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
 				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
@@ -28535,7 +28575,7 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="BuffDuration">15</Data>
 				<Data type="float" name="SlowModifier">1.5</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
@@ -28581,7 +28621,7 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">15</Data>
+				<Data type="float" name="BuffDuration">20</Data>
 				<Data type="float" name="SlowModifier">1.5</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
