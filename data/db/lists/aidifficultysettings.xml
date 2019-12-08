@@ -5,7 +5,7 @@
 			<DataPoint Input="0" Output="1" />
 			<DataPoint Input="0.340000004" Output="1" />
 			<DataPoint Input="0.670000017" Output="1" />
-			<DataPoint Input="1" Output="1" />
+			<DataPoint Input="1" Output="0.9" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffDistractionTime" InputLabel="Difficulty" OutputLabel="Seconds" Comment="amount of time spent in distraction topic">
@@ -29,7 +29,7 @@
 			<DataPoint Input="0" Output="2" />
 			<DataPoint Input="0.340000004" Output="2" />
 			<DataPoint Input="0.670000017" Output="2" />
-			<DataPoint Input="1" Output="2" />
+			<DataPoint Input="1" Output="1.5" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffFocusFireOnWoundedEnemies" InputLabel="Difficulty" OutputLabel="float" Comment="AI controlled squads will focus fire on weakened enemies to the degree specified (1.0 is fully focus fire while 0.0 is fully unfocussed fire">
@@ -629,7 +629,7 @@
 			<DataPoint Input="0" Output="1" Comment="On easy, AI gets 50% normal supplies" />
 			<DataPoint Input="0.340000004" Output="1" Comment="At diff 0.33, non-cheating (normal) supplies" />
 			<DataPoint Input="0.670000017" Output="1" Comment="At diff 0.67, non-cheating (normal) supplies" />
-			<DataPoint Input="1" Output="1" Comment="On legendary, AI gets 133% normal supplies" />
+			<DataPoint Input="1" Output="1.33" Comment="On legendary, AI gets 133% normal supplies" />
 			<DataPoint Input="2" Output="1" Comment="On hyper-legendary, AI gets 233% normal supplies" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
@@ -638,7 +638,7 @@
 			<DataPoint Input="0" Output="1" Comment="Damage given always normal...feature disabled" />
 			<DataPoint Input="0.670000017" Output="1" Comment="Damage given always normal...feature disabled" />
 			<DataPoint Input="1" Output="1" Comment="33% Boost for Legendary" />
-			<DataPoint Input="2" Output="1" Comment="133% Boost for Hyper-Legendary" />
+			<DataPoint Input="2" Output="1.1" Comment="133% Boost for Hyper-Legendary" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DamageTakenMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="2.0 means the AI's units TAKE double damage.  High values are easy, low are hard.">
@@ -646,7 +646,7 @@
 			<DataPoint Input="0" Output="1" Comment="On easy, takes 3x damage" />
 			<DataPoint Input="0.340000004" Output="1" Comment="At normal, normal damage" />
 			<DataPoint Input="0.670000017" Output="1" Comment="At hard, normal damage" />
-			<DataPoint Input="1" Output="1" Comment="On legendary, AI takes 75%% normal damage" />
+			<DataPoint Input="1" Output="0.9" Comment="On legendary, AI takes 75%% normal damage" />
 			<DataPoint Input="2" Output="1" Comment="On legendary, AI takes 40% normal damage" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
