@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>InCoverPlasmaRifle</Name>
-		<AttackRate>1.25</AttackRate>
+		<AttackRate>2</AttackRate>
 		<DamagePerSecond>40</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_03</Projectile>
@@ -20,15 +20,15 @@
 		<TargetPriority type="GroundVehicle">4</TargetPriority>
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
-		<PreAttackCooldownMin>0.3</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.3</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.8</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.8</PostAttackCooldownMax>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
 		<VisualAmmo>4</VisualAmmo>
 	</Weapon>
 	<Weapon>
 		<Name>PlasmaRifle</Name>
-		<AttackRate>1.25</AttackRate>
+		<AttackRate>2</AttackRate>
 		<DamagePerSecond>40</DamagePerSecond>
 		<WeaponType>AASmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_03</Projectile>
@@ -46,10 +46,10 @@
 		<TargetPriority type="GroundVehicle">4</TargetPriority>
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
-		<PreAttackCooldownMin>0.3</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.3</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.8</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.8</PostAttackCooldownMax>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
 		<VisualAmmo>4</VisualAmmo>
 	</Weapon>
 	<Weapon>
