@@ -165,6 +165,27 @@
 	<Tactic>
 		<PersistentAction>PointDefense</PersistentAction>
 		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>GraviticPulseAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Ally</Relation>
+			<Action>GraviticPulseAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Self</Relation>
+			<Action>GraviticPulseAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<IgnoreOtherTargetsWhileTargetingGround />
+			<Action>GraviticPulseAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
 			<Action>RifleAttackAction</Action>
