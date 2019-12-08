@@ -51,6 +51,52 @@
 		<Filter>Light</Filter>
 	</Weapon>
 	<Weapon>
+		<Name>GraviticPulse</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>600</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Corruption</WeaponType>
+		<Projectile>fx_proj_corruptionmediumeng_01_mp</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true" doShockwaveAction="true">FloodEggExplosion</ImpactEffect>
+		<MaxVelocityLead>9.84000015</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>5</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>25</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<AlwaysReplaceTargetWithItsPosition />
+	</Weapon>
+	<Action>
+		<Name>GraviticPulseAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim noInterrupt="true">Attack</Anim>
+		<Weapon>GraviticPulse</Weapon>
+		<DontAutoRestart />
+		<FullBodyAttackAnim />
+		<CanOrientOwner>true</CanOrientOwner>
+	</Action>
+	<Weapon>
 		<Name>PointDefenseWeapon</Name>
 		<ImpactEffect size="small">FloodSpawnerSpineImpact</ImpactEffect>
 	</Weapon>
