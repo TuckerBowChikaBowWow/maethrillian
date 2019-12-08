@@ -600,6 +600,12 @@
 		<InfectionMapEntry targetUnit="flood_inf_infected_bruteshot_01">
 			<Infected weight="99" infectedUnit="flood_inf_infected_bruteshot_01" infectedSquad="flood_inf_infected_bruteshot_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="flood_inf_infected_eliteassaultteam_01">
+			<Infected weight="99" infectedUnit="flood_inf_infected_eliteassaultteam_01" infectedSquad="flood_inf_infected_eliteassaultteam_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="flood_inf_infected_eliteassaultteam_02">
+			<Infected weight="99" infectedUnit="flood_inf_infected_eliteassaultteam_01" infectedSquad="flood_inf_infected_eliteassaultteam_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
 	</InfectionMap>
 	<MaxSquadPathsPerFrame>100</MaxSquadPathsPerFrame>
 	<MaxPlatoonPathsPerFrame>100</MaxPlatoonPathsPerFrame>
