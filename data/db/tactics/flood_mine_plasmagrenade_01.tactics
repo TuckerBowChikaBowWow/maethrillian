@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>BruteShrapnelMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>350</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Grenade</WeaponType>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">PlasmaGrenadeExplosion</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Apply>0.25</Apply>
+	</Weapon>
+	<Action>
+		<Name>ExplosiveManager</Name>
+		<ActionType>ExplosiveManager</ActionType>
+		<FuseType>Proximity</FuseType>
+		<WorkRange>6</WorkRange>
+		<ChargeType>Shrapnel</ChargeType>
+		<Weapon>BruteShrapnelMine</Weapon>
+	</Action>
+	<Action>
+		<Name>ExplosiveManager2</Name>
+		<ActionType>ExplosiveManager</ActionType>
+		<FuseType>Proximity</FuseType>
+		<WorkRange>0</WorkRange>
+		<Weapon>BruteShrapnelMine</Weapon>
+		<DontAutoRestart />
+		<ExplodeOnDeath />
+	</Action>
+	<Tactic>
+		<PersistentAction>ExplosiveManager</PersistentAction>
+		<PersistentAction>ExplosiveManager2</PersistentAction>
+	</Tactic>
+</TacticData>

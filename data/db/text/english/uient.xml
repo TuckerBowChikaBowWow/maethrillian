@@ -1693,6 +1693,11 @@ Has ground pound AoE attack</str>
 	<str id="UIENT.FLOOD_BLDG_RUPTURE_01.RADIALEDGE.NAME">BURSTER</str>
 	<str id="UIENT.FLOOD_BLDG_RUPTURE_01.RADIALEDGE.ROLE" />
 	<str id="UIENT.FLOOD_BLDG_RUPTURE_01.RADIALEDGE.SHORTDESCR" />
+	<str id="UIENT.flood_inf_infected_bruteshot_01.RADIALCENTER.NAME">INFECTED BRUTE COMMANDER</str>
+	<str id="UIENT.flood_inf_infected_bruteshot_01.RADIALEDGE.NAME">INFECTED BRUTE COMMANDER</str>
+	<str id="UIENT.flood_inf_infected_bruteshot_01.RADIALEDGE.ROLE">ANTI-BUILDING</str>
+	<str id="UIENT.flood_inf_infected_bruteshot_01.RADIALEDGE.SHORTDESCR">Has an anti-building Brute Shot weapon that slows.
+This unit has hops.</str>
 	<str id="UIENT.FLOOD_INF_INFECTED_GRUNTMELEE_01.RADIALEDGE.NAME">INFECTED INFANTRY</str>
 	<str id="UIENT.FLOOD_INF_INFECTED_GRUNTMELEE_01.RADIALEDGE.ROLE" />
 	<str id="UIENT.FLOOD_VEH_INFECTED_GHOST_01_BASE.RADIALEDGE.NAME">INFECTED VEHICLE</str>
@@ -4208,21 +4213,26 @@ Units must die within the power's set time frame.</str>
 	<str id="UIENT.flood_hivetech_upgrade1.RadialCenter.Name">HIVE TECH 1</str>
 	<str id="UIENT.flood_hivetech_upgrade1.RadialEdge.Name">HIVE TECH 1</str>
 	<str id="UIENT.flood_hivetech_upgrade1.RadialEdge.Role">FLOOD UPGRADE</str>
-	<str id="UIENT.flood_hivetech_upgrade1.RadialEdge.ShortDescr">Increase maximum number of Hives to 4.
-Reduces build time of Hive units by 10%.
-Unlocks Seeder in Hive.</str>
+	<str id="UIENT.flood_hivetech_upgrade1.RadialEdge.ShortDescr">Reduces build time of Hive units by 10%.
+Unlocks Seeder in Hive.
+Unlocks Engineer in Hive.</str>
 	<str id="UIENT.flood_hivetech_upgrade2.RadialCenter.Name">HIVE TECH 2</str>
 	<str id="UIENT.flood_hivetech_upgrade2.RadialEdge.Name">HIVE TECH 2</str>
 	<str id="UIENT.flood_hivetech_upgrade2.RadialEdge.Role">FLOOD UPGRADE</str>
-	<str id="UIENT.flood_hivetech_upgrade2.RadialEdge.ShortDescr">Increase maximum number of Hives to 5.
-Reduces build time of Hive units by 20%.
-Unlocks Spawner in Hive</str>
+	<str id="UIENT.flood_hivetech_upgrade2.RadialEdge.ShortDescr">Reduces build time of Hive units by 20%.
+Unlocks Spawner in Hive.
+Unlocks Carrier form in Hive</str>
 	<str id="UIENT.flood_cancer_upgrade1.RadialCenter.Name">CANCEROUS GROWTH</str>
 	<str id="UIENT.flood_cancer_upgrade1.RadialEdge.Name">CANCEROUS GROWTH</str>
 	<str id="UIENT.flood_cancer_upgrade1.RadialEdge.Role">FLOOD UPGRADE</str>
 	<str id="UIENT.flood_cancer_upgrade1.RadialEdge.ShortDescr">Cancerous cells alllow Hives to self-regenerate.
 Increases Hive HP and Healing aura.
-Adds second root to Flood Root leader power.</str>
+Adds second root to Flood Root leader power.</str>flood_reinforcements_upgrade
+	<str id="UIENT.flood_reinforcements_upgrade.RadialCenter.Name">REINFORCEMENTS I</str>
+	<str id="UIENT.flood_reinforcements_upgrade.RadialEdge.Name">REINFORCEMENTS I</str>
+	<str id="UIENT.flood_reinforcements_upgrade.RadialEdge.Role">ARMY UPGRADE</str>
+	<str id="UIENT.flood_reinforcements_upgrade.RadialEdge.ShortDescr">Boosts population cap by +15
+Increases maximum number of Hives to 3</str>
 	<str id="UIENT.flood_vehicle_tech.RadialCenter.Name">INFECTED VEHICLE TECH</str>
 	<str id="UIENT.flood_vehicle_tech.RadialEdge.Name">INFECTED VEHICLE TECH</str>
 	<str id="UIENT.flood_vehicle_tech.RadialEdge.Role">ARMY UPGRADE</str>
@@ -4230,9 +4240,9 @@ Adds second root to Flood Root leader power.</str>
 	<str id="UIENT.FloodBaseDrop1.RADIALCENTER.NAME">HIVE DROP</str>
 	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.NAME">HIVE DROP</str>
 	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.ROLE">ACTIVE POWER</str>
-	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.SALESPITCH">Permanent Flood hive that can train and heal flood units. Adds 10 population but bonus population is lost when the hive is destroyed. </str>
+	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.SALESPITCH">Permanent Flood Hive that can train and heal flood units. Adds 15 population but bonus population is lost when the Hive is destroyed.</str>
 	<str id="UIENT.FloodBaseDrop1.RADIALEDGE.SHORTDESCR">Drop a hivebase to the battlefield that can train and heal flood units.
-Increases population cap by +10.
+Increases population cap by +15. Maximum number of Hives is 2.
 Upgrade-able through the armory with Hive Tech and Cancerous Growth.</str>
 	<str id="UIENT.FloodRuptureEmerge.RADIALCENTER.NAME">FLOOD ROOT</str>
 	<str id="UIENT.FloodRuptureEmerge.RADIALEDGE.NAME">FLOOD ROOT</str>
@@ -4426,7 +4436,7 @@ Light armor</str>
 	<str id="UIENT.cov_bldg_builder_01_fl.RadialEdge.ShortDescr">Forward Base
 3 building slots
 No turret slots</str>
-	<str id="UIENT.cov_bldg_builder_02_fl.RadialCenter.Name">INFETCED STRONGHOLD</str>
+	<str id="UIENT.cov_bldg_builder_02_fl.RadialCenter.Name">INFECTED STRONGHOLD</str>
 	<str id="UIENT.cov_bldg_builder_02_fl.RadialEdge.Name">INFECTED STRONGHOLD</str>
 	<str id="UIENT.cov_bldg_builder_02_fl.RadialEdge.Role">BASE STRUCTURE</str>
 	<str id="UIENT.cov_bldg_builder_02_fl.RadialEdge.ShortDescr">Tier 1 Base
@@ -4475,13 +4485,13 @@ Detects cloaked units</str>
 	<str id="UIENT.FloodSpeedBuff.RADIALEDGE.NAME">FLOOD SPEED I</str>
 	<str id="UIENT.FloodSpeedBuff.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.FloodSpeedBuff.RADIALEDGE.SALESPITCH">For a short time, all units you control receive a speed boost.</str>
-	<str id="UIENT.FloodSpeedBuff.RADIALEDGE.SHORTDESCR">Activate to receive a speed boost for all units you control.</str>
-	<str id="UIENT.FloodSpeedBuff.RADIALEDGE.UPGRADEPITCH">Increases the duration of the speed boost.</str>
+	<str id="UIENT.FloodSpeedBuff.RADIALEDGE.SHORTDESCR">Activate to receive a 10 second speed boost for all units you control.</str>
+	<str id="UIENT.FloodSpeedBuff.RADIALEDGE.UPGRADEPITCH">Increases the duration of the speed boost by 5 seconds.</str>
 	<str id="UIENT.FloodSpeedBuff2.RADIALCENTER.NAME">FLOOD SPEED II</str>
 	<str id="UIENT.FloodSpeedBuff2.RADIALEDGE.NAME">FLOOD SPEED II</str>
 	<str id="UIENT.FloodSpeedBuff2.RADIALEDGE.ROLE">ACTIVE POWER</str>
 	<str id="UIENT.FloodSpeedBuff2.RADIALEDGE.SALESPITCH">For a short time, all units you control receive a speed boost.</str>
-	<str id="UIENT.FloodSpeedBuff2.RADIALEDGE.SHORTDESCR">Activate to receive a speed boost for all units you control.</str>
+	<str id="UIENT.FloodSpeedBuff2.RADIALEDGE.SHORTDESCR">Activate to receive a 15 second speed boost for all units you control.</str>
 	<str id="UIENT.FloodWormBuff.RADIALCENTER.NAME">ANABOLIC PARASITES I</str>
 	<str id="UIENT.FloodWormBuff.RADIALEDGE.NAME">ANABOLIC PARASITES I</str>
 	<str id="UIENT.FloodWormBuff.RADIALEDGE.ROLE">ACTIVE POWER</str>
@@ -4520,4 +4530,28 @@ Has jump ability.</str>
 	<str id="UIENT.cov_bldg_builder_02_fl.RadialEdge.ShortDescr">Tier 1 Base
 5 building slots
 4 turret slots</str>
+	<str id="UIENT.flood_inf_infected_gruntfuelrod_01.RadialCenter.Name">INFECTED GRUNT</str>
+	<str id="UIENT.flood_inf_infected_gruntfuelrod_01.RadialEdge.Name">INFECTED GRUNT</str>
+	<str id="UIENT.flood_inf_infected_gruntfuelrod_01.RadialEdge.Role">INFECTED</str>
+	<str id="UIENT.flood_inf_infected_gruntfuelrod_01.RadialEdge.ShortDescr">Melee unit with high building damage.
+Has jump ability.</str>
+	<str id="UIENT.flood_inf_infected_brutespiker_01_map.RadialCenter.Name">INFECTED BRUTE</str>
+	<str id="UIENT.flood_inf_infected_brutespiker_01_map.RadialEdge.Name">INFECTED BRUTE</str>
+	<str id="UIENT.flood_inf_infected_brutespiker_01_map.RadialEdge.Role">INFECTED</str>
+	<str id="UIENT.flood_inf_infected_brutespiker_01_map.RadialEdge.ShortDescr">Melee unit with high building damage.
+Has jump ability.</str>
+	<str id="UIENT.flood_inf_infected_eliteplasmarifle_01_map.RadialCenter.Name">INFECTED ELITE</str>
+	<str id="UIENT.flood_inf_infected_eliteplasmarifle_01_map.RadialEdge.Name">INFECTED ELITE</str>
+	<str id="UIENT.flood_inf_infected_eliteplasmarifle_01_map.RadialEdge.Role">INFECTED</str>
+	<str id="UIENT.flood_inf_infected_eliteplasmarifle_01_map.RadialEdge.ShortDescr">Melee unit with high building damage.
+Has jump ability.</str>
+	<str id="UIENT.flood_inf_infected_assaultrifle_01_map.RadialCenter.Name">INFECTED ELITE</str>
+	<str id="UIENT.flood_inf_infected_assaultrifle_01_map.RadialEdge.Name">INFECTED ELITE</str>
+	<str id="UIENT.flood_inf_infected_assaultrifle_01_map.RadialEdge.Role">INFECTED</str>
+	<str id="UIENT.flood_inf_infected_assaultrifle_01_map.RadialEdge.ShortDescr">Melee unit with high building damage.
+Has jump ability.</str>
+	<str id="UIENT.cov_bldg_builder_01_mp.RadialCenter.Name">OUTPOST</str>
+	<str id="UIENT.cov_bldg_builder_02_mp.RadialCenter.Name">STRONGHOLD</str>
+	<str id="UIENT.cov_bldg_builder_03_mp.RadialCenter.Name">CITADEL</str>
+	<str id="UIENT.cov_bldg_builder_04_mp.RadialCenter.Name">FORTRESS</str>
 </string_table>

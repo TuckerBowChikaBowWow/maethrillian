@@ -1,6 +1,33 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <group>
 	<entry>
+		<key>flood_inf_infected_brutespiker_01_map</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_bruteJumpPack_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_gorgon_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_locked_icon</value>
+		<value>UIENT.flood_inf_infected_brutespiker_01_map.RadialEdge.Name</value>
+		<value>UIENT.flood_inf_infected_brutespiker_01_map.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>flood_inf_infected_eliteplasmarifle_01_map</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_arbiter_assaultteam_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_gorgon_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_locked_icon</value>
+		<value>UIENT.flood_inf_infected_eliteplasmarifle_01_map.RadialEdge.Name</value>
+		<value>UIENT.flood_inf_infected_eliteplasmarifle_01_map.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>flood_inf_infected_assaultrifle_01_map</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_marine_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_gorgon_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_locked_icon</value>
+		<value>UIENT.flood_inf_infected_assaultrifle_01_map.RadialEdge.Name</value>
+		<value>UIENT.flood_inf_infected_assaultrifle_01_map.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
 		<key>cov_inf_bruteJumpPack_02</key>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_ability_icon</value>
@@ -41,8 +68,8 @@
 		<value>..\textures\hud\icons\entityIcons\cov_inf_heavygrunt_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\neutralfor_sentineltier2_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
-		<value>UIENT.fld_custom_fuelrodgrunt.RadialEdge.Name</value>
-		<value>UIENT.fld_custom_fuelrodgrunt.RadialEdge.Role</value>
+		<value>UIENT.flood_inf_infected_gruntfuelrod_01.RadialEdge.Name</value>
+		<value>UIENT.flood_inf_infected_gruntfuelrod_01.RadialEdge.Role</value>
 		<value>unit</value>
 	</entry>
 	<entry>
@@ -59,8 +86,8 @@
 		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
-		<value>UIENT.cov_inf_grunt_01.RadialEdge.Name</value>
-		<value>UIENT.cov_inf_grunt_01.RadialEdge.Role</value>
+		<value>UIENT.flood_inf_generic_core.RadialEdge.Name</value>
+		<value>UIENT.flood_inf_generic_core.RadialEdge.Role</value>
 		<value>unit</value>
 	</entry>
 	<entry>
@@ -430,6 +457,15 @@
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
 		<value>UIENT.COV_INF_ATRIOXCHOSEN_01.RADIALEDGE.NAME</value>
 		<value>UIENT.COV_INF_ATRIOXCHOSEN_01.RADIALEDGE.ROLE</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>flood_inf_infected_bruteshot_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_atrioxchosen_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_gorgon_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.flood_inf_infected_bruteshot_01.RADIALEDGE.NAME</value>
+		<value>UIENT.flood_inf_infected_bruteshot_01.RADIALEDGE.ROLE</value>
 		<value>heroInfantry</value>
 	</entry>
 	<entry>
@@ -873,7 +909,7 @@
 		<value>UIENT.cov_bldg_builder_04.RadialEdge.Role</value>
 		<value>hq</value>
 	</entry>
-		<entry>
+	<entry>
 		<key>cov_bldg_builder_01_mp</key>
 		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_01_ability_icon</value>
@@ -5923,6 +5959,15 @@
 		<value>commander</value>
 	</entry>
 	<entry>
+		<key>flood_reinforcements_upgrade</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_tech_reinforcements_1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_tech_reinforcements_1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.flood_reinforcements_upgrade.RadialCenter.Name</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
 		<key>FloodSpeedBuff</key>
 		<value>..\textures\hud\icons\entityIcons\powers\JohnsonMechBuff_icon</value>
 		<value>..\textures\hud\icons\entityIcons\powers\JohnsonMechBuff_icon</value>
@@ -5943,7 +5988,7 @@
 	<entry>
 		<key>flood_inf_corruptedengineer_01</key>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_corrupted_01_icon</value>
-		<value>..\textures\hud\icons\entityIcons\cov_inf_corruptedengineer_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_engineer_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
 		<value>UIENT.flood_inf_corruptedengineer_01.RadialEdge.Name</value>
 		<value>UIENT.flood_inf_corruptedengineer_01.RadialEdge.Role</value>

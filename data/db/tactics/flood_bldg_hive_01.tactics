@@ -125,7 +125,7 @@
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>40</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
+					<TargetType>Military</TargetType>
 					<AutoReapairOn />
 					<HealOnTheMove />
 					<UseMainHealingTargetWhenAvailable />
@@ -134,7 +134,7 @@
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>40</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
+					<TargetType>Military</TargetType>
 					<AutoReapairOn />
 					<HealOnTheMove />
 					<UseMainHealingTargetWhenAvailable />
@@ -143,7 +143,7 @@
 					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
 					<BoneName>GrannyRootBone_hive</BoneName>
 					<MaxHealingDistance>40</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
+					<TargetType>Military</TargetType>
 					<AutoReapairOn />
 					<HealOnTheMove />
 					<UseMainHealingTargetWhenAvailable />
@@ -163,65 +163,6 @@
 			</Relations>
 		</SpecificData>
 		<ProtoObject>vfx_episode2_building_floodhiveaura</ProtoObject>
-		<StartDisabled />
-	</Action>
-	<Action>
-		<Name>RepairOther2</Name>
-		<ActionType>RepairOther</ActionType>
-		<Anim>Idle</Anim>
-		<WorkRange>60</WorkRange>
-		<WorkRate>0.35</WorkRate>
-		<AllowReinforce />
-		<AutoRepair AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="500" AutoRepairThreshold="1" AutoRepairSearchDistance="60" />
-		<SpecificData>
-			<HealingPoints>
-				<HealingPoint>
-					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
-					<BoneName>GrannyRootBone_hive</BoneName>
-					<MaxHealingDistance>60</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
-					<HealOnTheMove />
-					<UseMainHealingTargetWhenAvailable />
-				</HealingPoint>
-				<HealingPoint>
-					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
-					<BoneName>GrannyRootBone_hive</BoneName>
-					<MaxHealingDistance>60</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
-					<HealOnTheMove />
-					<UseMainHealingTargetWhenAvailable />
-				</HealingPoint>
-				<HealingPoint>
-					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
-					<BoneName>GrannyRootBone_hive</BoneName>
-					<MaxHealingDistance>60</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
-					<HealOnTheMove />
-					<UseMainHealingTargetWhenAvailable />
-				</HealingPoint>
-				<HealingPoint>
-					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
-					<BoneName>GrannyRootBone_hive</BoneName>
-					<MaxHealingDistance>60</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
-					<HealOnTheMove />
-					<UseMainHealingTargetWhenAvailable />
-				</HealingPoint>
-				<HealingPoint>
-					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
-					<BoneName>GrannyRootBone_hive</BoneName>
-					<MaxHealingDistance>60</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
-					<HealOnTheMove />
-					<UseMainHealingTargetWhenAvailable />
-				</HealingPoint>
-			</HealingPoints>
-		</SpecificData>
 		<StartDisabled />
 	</Action>
 	<Action>
@@ -258,18 +199,8 @@
 		<PersistentAction>TrainedSquadDoor</PersistentAction>
 		<PersistentAction>Base</PersistentAction>
 		<PersistentAction>AreaBuff1</PersistentAction>
-		<PersistentAction>RepairOther1</PersistentAction>
 		<PersistentAction>AreaBuff2</PersistentAction>
+		<PersistentAction>RepairOther1</PersistentAction>
 		<PersistentSquadAction>HealthRegen</PersistentSquadAction>
-		<TargetRule>
-			<Relation>Ally</Relation>
-			<TargetType>Military</TargetType>
-			<Action>RepairOther1</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Ally</Relation>
-			<TargetType>Military</TargetType>
-			<Action>RepairOther2</Action>
-		</TargetRule>
 	</Tactic>
 </TacticData>
