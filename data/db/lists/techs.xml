@@ -12,24 +12,6 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_inf_corruptedwarlord_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_omegateam_august_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_omegateam_leon_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_omegateam_robert_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_turret_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
@@ -1018,6 +1000,24 @@
 			<TechStatus status="Active">Basic</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_corruptedwarlord_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_omegateam_august_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_omegateam_leon_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_omegateam_robert_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
 			</Effect>
@@ -1483,12 +1483,6 @@
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_veh_flamehog_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_flamecyclops_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_flamehog_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
 			</Effect>
@@ -1554,12 +1548,6 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_veh_flamehog_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_flamecyclops_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_flamehog_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
@@ -1665,12 +1653,6 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_veh_flamehog_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_flamecyclops_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_flamehog_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
@@ -3138,6 +3120,24 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="GodPower" amount="1">_RallyPoint</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_corruptedwarlord_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_omegateam_august_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_omegateam_leon_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_omegateam_robert_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_generic_core" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_minibase1sock_01_base</Target>
 			</Effect>
@@ -3855,12 +3855,6 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_mortarwarlord_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mortarwarlord_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
-			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
 			</Effect>
@@ -3896,12 +3890,6 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_corruptedwarlord_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_corruptedwarlord_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_inf_corruptedwarlord_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_brutegrenadier_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
