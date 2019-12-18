@@ -75,7 +75,7 @@
 	<Weapon>
 		<Name>AOEBrutegun</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>28</DamagePerSecond>
+		<DamagePerSecond>32</DamagePerSecond>
 		<WeaponType>CorruptedGrenadier</WeaponType>
 		<Projectile>fx_proj_brutegrenadier_01</Projectile>
 		<ImpactEffect size="small">BruteGrenadierImpact</ImpactEffect>
@@ -123,7 +123,7 @@
 	<Weapon>
 		<Name>AOEBrutegun2</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>35</DamagePerSecond>
+		<DamagePerSecond>40</DamagePerSecond>
 		<WeaponType>CorruptedGrenadier</WeaponType>
 		<Projectile>fx_proj_brutegrenadier_02</Projectile>
 		<ImpactEffect size="small">BruteGrenadierImpact2</ImpactEffect>
@@ -172,7 +172,7 @@
 		<Name>AOEBrutegun3</Name>
 		<AttackRate>4</AttackRate>
 		<Corruption />
-		<DamagePerSecond>42</DamagePerSecond>
+		<DamagePerSecond>48</DamagePerSecond>
 		<WeaponType>CorruptedGrenadier</WeaponType>
 		<Projectile>fx_proj_bruteshot_corrupted_mp</Projectile>
 		<ImpactEffect doShockwaveAction="true">CorruptionSmallExp</ImpactEffect>
@@ -251,11 +251,11 @@
 			<Radius>25</Radius>
 			<Tier1Buff>
 				<TotalCorruptionSizeToConsume>1</TotalCorruptionSizeToConsume>
-				<BuffParams BuffType="CorruptionConsume" SlowModifier="1.20000005" DamageMitigationScalar="0.600000024" DamageDealtModifier="2" BuffActivateFX="vfx_episode2_Units_GrenadierSiphonBuff1">7</BuffParams>
+				<BuffParams BuffType="CorruptionConsume" SlowModifier="1.20000005" DamageMitigationScalar="0.600000024" DamageDealtModifier="2.1500001" BuffActivateFX="vfx_episode2_Units_GrenadierSiphonBuff1">12</BuffParams>
 			</Tier1Buff>
 			<Tier2Buff>
-				<TotalCorruptionSizeToConsume>20</TotalCorruptionSizeToConsume>
-				<BuffParams BuffType="CorruptionConsume" SlowModifier="1.20000005" DamageMitigationScalar="0.600000024" DamageDealtModifier="2" BuffActivateFX="vfx_episode2_Units_GrenadierSiphonBuff2" OverwritesSelf="true">20</BuffParams>
+				<TotalCorruptionSizeToConsume>10</TotalCorruptionSizeToConsume>
+				<BuffParams BuffType="CorruptionConsume" SlowModifier="1.20000005" DamageMitigationScalar="0.600000024" DamageDealtModifier="2.29999995" BuffActivateFX="vfx_episode2_Units_GrenadierSiphonBuff2" OverwritesSelf="true">25</BuffParams>
 			</Tier2Buff>
 		</SpecificData>
 	</Action>
