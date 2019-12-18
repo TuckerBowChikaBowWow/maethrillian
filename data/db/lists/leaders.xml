@@ -25,8 +25,13 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="999">80</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
 		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="Forge" Icon="ui\game\icon\unsc\leader\Sergeant Forge" GUID="#18615C64-B6EB-4994-B2B0-3CDF739956BF">
 		<Civ>UNSC</Civ>
@@ -49,8 +54,13 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="999">80</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
 		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 		<IsZeroCost>true</IsZeroCost>
 	</Leader>
 	<Leader Name="Anders" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" GUID="#2BBE175C-7DE4-44A3-A9DC-92571626BFA2">
@@ -75,9 +85,13 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="999">80</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
 		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="Retriever" Max="999">999</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="Johnson" Icon="ui\game\icon\unsc\leader\Captain Cutter" GUID="#5BF3A738-B080-4D33-BEBA-BD6889092317">
 		<Civ>UNSC</Civ>
@@ -100,9 +114,13 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="999">80</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
 		<Pop Type="Spartan" Max="999">999</Pop>
-		<Pop Type="Reactor" Max="20">0</Pop>
 		<Pop Type="Rhino" Max="999">999</Pop>
+		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="Atriox" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>Covenant</Civ>
@@ -129,6 +147,8 @@
 		<Pop Type="Unit" Max="999">80</Pop>
 		<Pop Type="Leader" Max="999">999</Pop>
 		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 		<Pop Type="Decimus" Max="999">999</Pop>
 		<Pop Type="ShieldTower" Max="999">999</Pop>
@@ -155,10 +175,13 @@
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
 		<Pop Type="Unit" Max="999">80</Pop>
-		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
 		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="ShieldTower" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="Lekgolo" Icon="ui\game\icon\covenant\leader\Elite General" GUID="#B769F16E-77D2-4DBC-A38A-3C897C7CAB1D">
 		<Civ>Covenant</Civ>
@@ -186,8 +209,11 @@
 		<Pop Type="Unit" Max="999">80</Pop>
 		<Pop Type="Leader" Max="999">999</Pop>
 		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="ShieldTower" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="GruntGeneral" Icon="ui\game\icon\covenant\leader\Elite General" GUID="#B4781CEE-A96E-45EE-9D8C-C9A3C3205487">
 		<Civ>Covenant</Civ>
@@ -215,8 +241,11 @@
 		<Pop Type="Unit" Max="999">80</Pop>
 		<Pop Type="Leader" Max="999">999</Pop>
 		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="ShieldTower" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="CorruptBrute" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>Covenant</Civ>
@@ -243,8 +272,11 @@
 		<Pop Type="Unit" Max="999">80</Pop>
 		<Pop Type="Leader" Max="999">999</Pop>
 		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="Gravemind" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>Covenant</Civ>
@@ -271,8 +303,11 @@
 		<Pop Type="Unit" Max="999">80</Pop>
 		<Pop Type="Leader" Max="999">999</Pop>
 		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="TheCreated" Icon="ui\game\icon\covenant\leader\Elite General" GUID="#B4781CEE-A96E-45EE-9D8C-C9A3C3205487">
 		<Civ>UNSC</Civ>
@@ -297,9 +332,13 @@
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
 		<Pop Type="Unit" Max="999">80</Pop>
-		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
 		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="UNSC Single Player" Icon="ui\game\icon\unsc\leader\Captain Cutter" SinglePlayerOnly="true">
 		<Civ>UNSC</Civ>
