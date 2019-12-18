@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Machinegun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>177</DamagePerSecond>
+		<DamagePerSecond>161</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_machineGun_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -29,7 +29,7 @@
 	<Weapon>
 		<Name>Cannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>220</DamagePerSecond>
+		<DamagePerSecond>200</DamagePerSecond>
 		<WeaponType>ScorpionExplosive</WeaponType>
 		<Projectile>fx_proj_cannon_03</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>
@@ -74,7 +74,7 @@
 	<Weapon>
 		<Name>SpecialAttack</Name>
 		<AttackRate>45</AttackRate>
-		<DamagePerSecond>1925</DamagePerSecond>
+		<DamagePerSecond>1750</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Grenade</WeaponType>
 		<Projectile>fx_proj_canistershell_01</Projectile>
@@ -82,9 +82,9 @@
 		<MaxVelocityLead>20</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
 		<Accuracy>1</Accuracy>
-		<MaxDeviation>2</MaxDeviation>
-		<MovingAccuracy>1.5</MovingAccuracy>
-		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<MaxDeviation>7</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
 		<TargetOffsetX>0.0f</TargetOffsetX>
 		<TargetOffsetY>5.0f</TargetOffsetY>
@@ -118,7 +118,7 @@
 	<Weapon>
 		<Name>SpecialAttackScorpionTech</Name>
 		<AttackRate>45</AttackRate>
-		<DamagePerSecond>2020</DamagePerSecond>
+		<DamagePerSecond>1837</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Grenade</WeaponType>
 		<Projectile>fx_proj_canistershell_01</Projectile>
@@ -126,9 +126,9 @@
 		<MaxVelocityLead>20</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
 		<Accuracy>1</Accuracy>
-		<MaxDeviation>1.5</MaxDeviation>
+		<MaxDeviation>7</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<MovingMaxDeviation>10</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
 		<TargetOffsetX>0.0f</TargetOffsetX>
 		<TargetOffsetY>5.0f</TargetOffsetY>

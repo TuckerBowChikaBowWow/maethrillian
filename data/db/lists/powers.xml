@@ -6339,25 +6339,25 @@
 				<Data type="bool" name="AffectsAllByFilterType">true</Data>
 				<Data type="objecttype" name="FilterType">BasicVehicle</Data>
 				<Data type="objecttype" name="FilterType">UberUnit</Data>
-				<Data type="float" name="LeechPercent">0.0199999996</Data>
+				<Data type="float" name="LeechPercent">0.0250000004</Data>
 			</DataLevel>
 			<DataLevel level="0">
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
 				<Data type="bool" name="AffectsAllByFilterType">true</Data>
 				<Data type="objecttype" name="FilterType">BasicAircraft</Data>
-				<Data type="float" name="LeechPercent">0.0120000001</Data>
+				<Data type="float" name="LeechPercent">0.0149999997</Data>
 			</DataLevel>
 			<DataLevel level="0">
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
 				<Data type="bool" name="AffectsAllByFilterType">true</Data>
 				<Data type="objecttype" name="FilterType">Hero</Data>
-				<Data type="float" name="LeechPercent">0.00800000038</Data>
+				<Data type="float" name="LeechPercent">0.00999999978</Data>
 			</DataLevel>
 			<DataLevel level="0">
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
 				<Data type="bool" name="AffectsAllByFilterType">true</Data>
 				<Data type="objecttype" name="FilterType">BasicInfantry</Data>
-				<Data type="float" name="LeechPercent">0.0120000001</Data>
+				<Data type="float" name="LeechPercent">0.0149999997</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
@@ -14140,7 +14140,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="40" Power="40" />
-			<AutoRecharge>112000</AutoRecharge>
+			<AutoRecharge>90000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -14188,7 +14188,7 @@
 			<AIPowerUseType>MineDrop</AIPowerUseType>
 			<SoundName>PlasmaMine</SoundName>
 			<Cost Supplies="60" Power="60" />
-			<AutoRecharge>112000</AutoRecharge>
+			<AutoRecharge>90000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -14822,7 +14822,7 @@
 				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
 				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
 				<Data type="float" name="AreaDropInitialCircularDistanceOffset">0</Data>
-				<Data type="float" name="AreaDropExpandingStep">15</Data>
+				<Data type="float" name="AreaDropExpandingStep">10</Data>
 				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">16</Data>
 				<Data type="float" name="AreaDropRandomLaunchDelay">3</Data>
 				<Data type="float" name="AreaDropRandomPosOffset">10</Data>
@@ -14919,7 +14919,7 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">20</Data>
+				<Data type="float" name="AreaRadius">16</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="float" name="BuffDuration">18</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
@@ -15070,7 +15070,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="300" Power="40" />
-			<AutoRecharge>225000</AutoRecharge>
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -15127,7 +15127,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="400" Power="60" />
-			<AutoRecharge>225000</AutoRecharge>
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -15508,7 +15508,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">16</Pop>
 			<Cost Supplies="800" Power="250" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>165000</AutoRecharge>
 			<UIRadius>12</UIRadius>
 			<Decal>AoE_Medium</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -15570,7 +15570,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">26</Pop>
 			<Cost Supplies="1300" Power="320" />
-			<AutoRecharge>210000</AutoRecharge>
+			<AutoRecharge>165000</AutoRecharge>
 			<UIRadius>22</UIRadius>
 			<Decal>AoE_Medium</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -27871,7 +27871,7 @@
 				<Data type="bool" name="CanDropOnSquads">true</Data>
 				<Data type="bool" name="CanDropOnBuildings">true</Data>
 				<Data type="bool" name="NoDropNearBase">false</Data>
-				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad30m1s</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad30m1-5s</Data>
 				<Data type="float" name="DropStartHeight">80</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
@@ -28021,7 +28021,7 @@
 				<Data type="bool" name="CanDropOnSquads">true</Data>
 				<Data type="bool" name="CanDropOnBuildings">true</Data>
 				<Data type="bool" name="NoDropNearBase">false</Data>
-				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad30m1s</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad30m1-5s</Data>
 				<Data type="float" name="DropStartHeight">80</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
@@ -36405,7 +36405,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">12</Pop>
 			<Cost Supplies="1200" Power="0" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>140000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -36455,7 +36455,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">20</Pop>
 			<Cost Supplies="1700" Power="0" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>140000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>

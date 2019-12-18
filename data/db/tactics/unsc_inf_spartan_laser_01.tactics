@@ -17,20 +17,6 @@
 		<TargetPriority type="Building">2</TargetPriority>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Torso</Hardpoint>
-		<Hitbox>
-			<Type>Circle</Type>
-			<Radius>3</Radius>
-			<DamageRatio>100</DamageRatio>
-			<Origin>Target</Origin>
-			<FriendlyFire>false</FriendlyFire>
-		</Hitbox>
-		<Hitbox>
-			<Type>Circle</Type>
-			<Radius>6</Radius>
-			<DamageRatio>50</DamageRatio>
-			<Origin>Target</Origin>
-			<FriendlyFire>false</FriendlyFire>
-		</Hitbox>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.400000006</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0.400000006</PostAttackCooldownMin>
@@ -53,22 +39,6 @@
 		<TargetPriority type="Building">2</TargetPriority>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Torso</Hardpoint>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>3</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>6</Radius>
-				<DamageRatio>50</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.400000006</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0.400000006</PostAttackCooldownMin>
