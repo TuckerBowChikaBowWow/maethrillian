@@ -439,6 +439,26 @@
 				<Target type="ProtoSquad">cov_inf_generic_arbiterenforcer</Target>
 				<Target type="ProtoSquad">cov_inf_bruteRider_01</Target>
 				<Target type="ProtoSquad">cov_inf_generic_heavygrunt</Target>
+				<Target type="ProtoSquad">fld_custom_siphonbrutehammer</Target>
+				<Target type="ProtoSquad">fld_custom_siphonbrutehammer_t3</Target>
+				<Target type="ProtoSquad">fld_custom_strongbrutehammer</Target>
+				<Target type="ProtoSquad">fld_custom_strongbrutehammer_t3</Target>
+				<Target type="ProtoSquad">fld_custom_weakswordelite</Target>
+				<Target type="ProtoSquad">flood_inf_infectedhonorcarbine_01</Target>
+				<Target type="ProtoSquad">fld_custom_august</Target>
+				<Target type="ProtoSquad">fld_custom_august_t3</Target>
+				<Target type="ProtoSquad">fld_custom_leon</Target>
+				<Target type="ProtoSquad">fld_custom_robert</Target>
+				<Target type="ProtoSquad">fld_custom_machinegun</Target>
+				<Target type="ProtoSquad">fld_custom_douglas</Target>
+				<Target type="ProtoSquad">fld_custom_douglas_t3</Target>
+				<Target type="ProtoSquad">fld_custom_bruteshot</Target>
+				<Target type="ProtoSquad">fld_custom_bruteshot_t3</Target>
+				<Target type="ProtoSquad">fld_inf_atrioxchosen_01_t3</Target>
+				<Target type="ProtoSquad">fld_inf_gruntgoblin01</Target>
+				<Target type="ProtoSquad">fld_inf_gruntgoblin01_t3</Target>
+				<Target type="ProtoSquad">fld_custom_arbiter_t2</Target>
+				<Target type="ProtoSquad">fld_custom_arbiter_t3</Target>
 				<Target type="ProtoSquad">unsc_inf_heroodst_01_mp</Target>
 			</Effect>
 		</Effects>
@@ -586,6 +606,27 @@
 				<Target type="ProtoSquad">cov_inf_generic_arbiterenforcer</Target>
 				<Target type="ProtoSquad">cov_inf_bruteRider_01</Target>
 				<Target type="ProtoSquad">cov_inf_generic_heavygrunt</Target>
+				<Target type="ProtoSquad">fld_custom_siphonbrutehammer</Target>
+				<Target type="ProtoSquad">fld_custom_siphonbrutehammer_t3</Target>
+				<Target type="ProtoSquad">fld_custom_strongbrutehammer</Target>
+				<Target type="ProtoSquad">fld_custom_strongbrutehammer_t3</Target>
+				<Target type="ProtoSquad">fld_custom_weakswordelite</Target>
+				<Target type="ProtoSquad">flood_inf_infectedhonorcarbine_01</Target>
+				<Target type="ProtoSquad">fld_custom_august</Target>
+				<Target type="ProtoSquad">fld_custom_august_t3</Target>
+				<Target type="ProtoSquad">fld_custom_leon</Target>
+				<Target type="ProtoSquad">fld_custom_robert</Target>
+				<Target type="ProtoSquad">fld_custom_machinegun</Target>
+				<Target type="ProtoSquad">fld_custom_douglas</Target>
+				<Target type="ProtoSquad">fld_custom_douglas_t3</Target>
+				<Target type="ProtoSquad">fld_custom_bruteshot</Target>
+				<Target type="ProtoSquad">fld_custom_bruteshot_t3</Target>
+				<Target type="ProtoSquad">fld_inf_atrioxchosen_01_t3</Target>
+				<Target type="ProtoSquad">fld_inf_gruntgoblin01</Target>
+				<Target type="ProtoSquad">fld_inf_gruntgoblin01_t3</Target>
+				<Target type="ProtoSquad">fld_custom_arbiter_t2</Target>
+				<Target type="ProtoSquad">fld_custom_arbiter_t3</Target>
+				<Target type="ProtoSquad">unsc_inf_heroodst_01_mp</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -732,6 +773,27 @@
 				<Target type="ProtoSquad">cov_inf_generic_arbiterenforcer</Target>
 				<Target type="ProtoSquad">cov_inf_bruteRider_01</Target>
 				<Target type="ProtoSquad">cov_inf_generic_heavygrunt</Target>
+				<Target type="ProtoSquad">fld_custom_siphonbrutehammer</Target>
+				<Target type="ProtoSquad">fld_custom_siphonbrutehammer_t3</Target>
+				<Target type="ProtoSquad">fld_custom_strongbrutehammer</Target>
+				<Target type="ProtoSquad">fld_custom_strongbrutehammer_t3</Target>
+				<Target type="ProtoSquad">fld_custom_weakswordelite</Target>
+				<Target type="ProtoSquad">flood_inf_infectedhonorcarbine_01</Target>
+				<Target type="ProtoSquad">fld_custom_august</Target>
+				<Target type="ProtoSquad">fld_custom_august_t3</Target>
+				<Target type="ProtoSquad">fld_custom_leon</Target>
+				<Target type="ProtoSquad">fld_custom_robert</Target>
+				<Target type="ProtoSquad">fld_custom_machinegun</Target>
+				<Target type="ProtoSquad">fld_custom_douglas</Target>
+				<Target type="ProtoSquad">fld_custom_douglas_t3</Target>
+				<Target type="ProtoSquad">fld_custom_bruteshot</Target>
+				<Target type="ProtoSquad">fld_custom_bruteshot_t3</Target>
+				<Target type="ProtoSquad">fld_inf_atrioxchosen_01_t3</Target>
+				<Target type="ProtoSquad">fld_inf_gruntgoblin01</Target>
+				<Target type="ProtoSquad">fld_inf_gruntgoblin01_t3</Target>
+				<Target type="ProtoSquad">fld_custom_arbiter_t2</Target>
+				<Target type="ProtoSquad">fld_custom_arbiter_t3</Target>
+				<Target type="ProtoSquad">unsc_inf_heroodst_01_mp</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -830,6 +892,9 @@
 			<TechStatus status="Active">Basic</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="_RECORD_Vet0" relativity="Absolute">
+				<Target type="ProtoUnit">creep_bldg_recording_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
 			</Effect>
@@ -3025,6 +3090,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="GodPower" amount="1">_RallyPoint</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="_RECORD_Vet0" relativity="Absolute">
+				<Target type="ProtoUnit">creep_bldg_recording_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
 			</Effect>
