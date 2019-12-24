@@ -15,7 +15,7 @@
 			<attach type="ModelRef" name="FuelRodCannon" tobone="bone_vfx_FuelRodCannonPoint" frombone="GrannyRootBone" syncanims="false" disregardorient="true" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/GorgonLightsCannon" tobone="bone_vfx_ContrailLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/GorgonLightsCannon" tobone="bone_vfx_ContrailRight" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="PlasmaCannon" tobone="bone_vfx_FuelRodCannonPoint" frombone="GrannyRootBone" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="ModelRef" name="guns" tobone="bone_vfx_FuelRodCannonPoint" frombone="GrannyRootBone" syncanims="false" disregardorient="true" removeimmediately="false" />
 			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/BansheeContrails" tobone="bone_vfx_ContrailLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/BansheeContrails" tobone="bone_vfx_ContrailRight" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/BansheeEngines" tobone="bone_vfx_EngineRight" syncanims="false" disregardorient="true" removeimmediately="false" />
@@ -125,7 +125,7 @@
 			</asset>
 		</anim>
 	</model>
-	<model name="PlasmaCannon">
+	<model name="guns">
 		<component>
 			<asset type="Model">
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
@@ -133,13 +133,14 @@
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
 				<file>vfx/effects/fx_dummy</file>
 			</asset>
+			<attach type="ModelRef" name="gunattach" tobone="bone_turret_gun_barrel_end_left_01" frombone="GrannyRootBone" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</component>
 		<anim type="Attack" exitAction="Loop" tweenTime="15" tweenToAnimation="Attack" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>vfx/effects/fx_dummy_threeseconds</file>
 				<weight>1</weight>
-				<tag type="Attack" start="0" position_type="Time" position="0" end="1" tobone="bone_vfx_PlasmaCannonPointLeft" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Attack" start="0" position_type="Time" position="0" end="1" tobone="bone_vfx_PlasmaCannonPointRight" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.05" tobone="bone_vfx_PlasmaCannonPointLeft" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.05" tobone="bone_vfx_PlasmaCannonPointRight" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 		</anim>
 	</model>
@@ -159,6 +160,23 @@
 				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_WPN_BAN_BansheePlasmaTorpedo" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Particle" start="0" position_type="Time" position="0.0500000007" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/BansheePlasmaMissileMuzzle" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Attack" start="0" position_type="Time" position="0.100000001" end="1" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="gunattach">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>vfx/effects/fx_dummy</file>
+			</asset>
+		</component>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack2/animations/covenant/vehicles/skitterer01/skitterer01_ground_attack01_gun</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0" end="1" tobone="bone_FX01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 		</anim>
 	</model>
