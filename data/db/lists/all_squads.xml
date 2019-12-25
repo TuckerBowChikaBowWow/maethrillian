@@ -8626,6 +8626,48 @@
 		<Counters>EliteRangers_01</Counters>
 		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
+	<Squad name="cov_inf_hereticleaderclone_01" dbid="5031078638498000048">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3048</DisplayNameID>
+		<RolloverTextID>3049</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<SubSelectSort>1205</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>2</AIAttackRank>
+		<BuildPoints>16</BuildPoints>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">150</Cost>
+		<Cost ResourceType="Power">10</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<HPBar offset="0,4.92000008,0">Cov_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="leader">cov_inf_hereticleaderclone_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>LeaderDiesLast</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>EliteRangers_01</Counters>
+		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
+	</Squad>
 	<Squad name="for_inf_assaultelites_01" parent_element="cov_inf_arbiter_assaultteam_01" dbid="15571555391561239374">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
