@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>InCoverPlasmaRifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>250</DamagePerSecond>
+		<DamagePerSecond>150</DamagePerSecond>
 		<WeaponType>BlastExplosive</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_03</Projectile>
 		<ImpactEffect size="small">MediumPlasmaCannonImpact</ImpactEffect>
@@ -24,12 +24,11 @@
 		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
 		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
 		<VisualAmmo>4</VisualAmmo>
-		<Slow TargetType="NonFlying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
 	</Weapon>
 	<Weapon>
 		<Name>PlasmaRifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>250</DamagePerSecond>
+		<DamagePerSecond>150</DamagePerSecond>
 		<WeaponType>BlastExplosive</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_03</Projectile>
 		<ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
@@ -49,12 +48,11 @@
 		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
 		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
 		<VisualAmmo>4</VisualAmmo>
-		<Slow TargetType="NonFlying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
 	</Weapon>
 	<Weapon>
 		<Name>AirPlasmaRifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>250</DamagePerSecond>
+		<DamagePerSecond>150</DamagePerSecond>
 		<WeaponType>BlastExplosive</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_03</Projectile>
 		<ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
@@ -65,36 +63,12 @@
 		<MovingAccuracy>1</MovingAccuracy>
 		<MovingMaxDeviation>10.5</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>2</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>6</Radius>
-				<DamageRatio>60</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>10</Radius>
-				<DamageRatio>25</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 		<TargetPriority type="Flying">10</TargetPriority>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
 		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
 		<VisualAmmo>4</VisualAmmo>
-		<Slow TargetType="Flying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
 	</Weapon>
 	<Weapon>
 		<Name>EMPDetonate</Name>
@@ -103,7 +77,7 @@
 		<UseDPSasDPA />
 		<WeaponType>SuicideGruntAV</WeaponType>
 		<Projectile>fx_proj_anvilround_02</Projectile>
-		<ImpactEffect size="Small" doShockwaveAction="true">RetreiverGraviticPulseImpact</ImpactEffect>
+		<ImpactEffect size="Small" doShockwaveAction="true">RetreiverSuperBeam</ImpactEffect>
 		<MaxRange>5</MaxRange>
 		<AOEData>
 			<Hitbox>
