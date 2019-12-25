@@ -9,17 +9,10 @@
 				<file>dlc2/pack2/units/covenant/infantry/elite_assualt_combined/mesh_stormelite01</file>
 			</asset>
 		</component>
-		<anim type="PowerIdle" exitAction="Transition" tweenTime="1" tweenToAnimation="PowerIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+		<anim type="PowerIdle" exitAction="Transition" tweenTime="0" tweenToAnimation="PowerIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>dlc2/pack2/animations/covenant/infantry/eliteassault01/eliteassault_idle01</file>
 				<weight>5</weight>
-			</asset>
-			<asset type="Anim">
-				<file>dlc2/pack2/animations/covenant/infantry/eliteassault01/eliteassault_cower01</file>
-				<weight>1</weight>
-				<tag type="Sound" start="0" position_type="Time" position="0.0450000018" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Sound" start="0" position_type="Time" position="0.556999981" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Sound" start="0" position_type="Time" position="0.64200002" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 		</anim>
 		<anim type="fatality_spartan05_v_eliteranger01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
