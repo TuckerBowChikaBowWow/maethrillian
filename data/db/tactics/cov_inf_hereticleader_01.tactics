@@ -4,7 +4,7 @@
 		<Name>InCoverPlasmaRifle</Name>
 		<AttackRate>2</AttackRate>
 		<DamagePerSecond>463</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
+		<WeaponType>BlastExplosive</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_03</Projectile>
 		<ImpactEffect size="small">MediumPlasmaCannonImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
@@ -30,7 +30,7 @@
 		<Name>PlasmaRifle</Name>
 		<AttackRate>2</AttackRate>
 		<DamagePerSecond>463</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
+		<WeaponType>BlastExplosive</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_03</Projectile>
 		<ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
@@ -55,7 +55,7 @@
 		<Name>AirPlasmaRifle</Name>
 		<AttackRate>2</AttackRate>
 		<DamagePerSecond>463</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
+		<WeaponType>BlastExplosive</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_03</Projectile>
 		<ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
@@ -142,7 +142,7 @@
 			<CleansingBeams>
 				<Beam>
 					<PowerName>HereticUnit</PowerName>
-					<DurationOverride>120</DurationOverride>
+					<DurationOverride>60</DurationOverride>
 					<Waypoints>
 						<wp x="0" z="0" />
 						<wp x="0" z="20" />
@@ -153,7 +153,7 @@
 				</Beam>
 				<Beam>
 					<PowerName>HereticUnit</PowerName>
-					<DurationOverride>120</DurationOverride>
+					<DurationOverride>60</DurationOverride>
 					<Waypoints>
 						<wp x="0" z="0" />
 						<wp x="0" z="20" />

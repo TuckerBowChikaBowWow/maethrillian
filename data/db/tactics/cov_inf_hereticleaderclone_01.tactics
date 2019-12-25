@@ -3,8 +3,8 @@
 	<Weapon>
 		<Name>InCoverPlasmaRifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>300</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>BlastExplosive</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_03</Projectile>
 		<ImpactEffect size="small">MediumPlasmaCannonImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
@@ -29,8 +29,8 @@
 	<Weapon>
 		<Name>PlasmaRifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>300</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>BlastExplosive</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_03</Projectile>
 		<ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
@@ -54,8 +54,8 @@
 	<Weapon>
 		<Name>AirPlasmaRifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>300</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>BlastExplosive</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_03</Projectile>
 		<ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
@@ -96,6 +96,32 @@
 		<VisualAmmo>4</VisualAmmo>
 		<Slow TargetType="Flying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
 	</Weapon>
+	<Weapon>
+		<Name>EMPDetonate</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>600</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>SuicideGruntAV</WeaponType>
+		<Projectile>fx_proj_anvilround_02</Projectile>
+		<ImpactEffect size="Small" doShockwaveAction="true">RetreiverGraviticPulseImpact</ImpactEffect>
+		<MaxRange>5</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Filter>Medium</Filter>
+		<DamageRatingOverride type="Infantry" halfKillCutoffFactor="10">0</DamageRatingOverride>
+		<DamageRatingOverride type="Flying" halfKillCutoffFactor="10">0</DamageRatingOverride>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">-1</TargetPriority>
+		<TargetPriority type="Building">-1</TargetPriority>
+		<Daze TargetType="GroundVehicle" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">1.16f</Daze>
+	</Weapon>
 	<Action>
 		<Name>InCoverPlasmaRifleAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -132,6 +158,17 @@
 		<FullBodyAttackAnim />
 		<DontAutoRestart />
 		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>EMPDetonateAction</Name>
+		<ActionType>Detonate</ActionType>
+		<AutoDetonate AutoDetonateIdleTime="0.1f" AutoDetonateAggroRange="50" PlayAnimRange="20" Animated="true" Bone="b_front_belly_0" />
+		<Weapon>EMPDetonate</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<WorkRange>20</WorkRange>
+		<DodgeChanceMax>15</DodgeChanceMax>
+		<VelocityScalar>1</VelocityScalar>
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
