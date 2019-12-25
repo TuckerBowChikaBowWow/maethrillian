@@ -76,18 +76,14 @@
 				<Data type="sound" name="HudLastFireSound" />
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
-				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
 				<Data type="bool" name="AreaDropMode">true</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
 				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
-				<Data type="float" name="AreaDropExpandingStep">25</Data>
-				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">25</Data>
+				<Data type="float" name="AreaDropExpandingStep">5</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">5</Data>
 				<Data type="bool" name="OneProjectilePerUnit">true</Data>
 				<Data type="bool" name="CanDropOnSquads">true</Data>
 				<Data type="unitdrops" name="unitdrops">
-					<Drop>
-						<ProtoSquadID>cov_inf_hereticleaderclone_01</ProtoSquadID>
-					</Drop>
 					<Drop>
 						<ProtoSquadID>cov_inf_hereticleaderclone_01</ProtoSquadID>
 					</Drop>
