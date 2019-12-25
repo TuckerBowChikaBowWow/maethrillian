@@ -141,6 +141,39 @@
 		<SpecificData>
 			<CleansingBeams>
 				<Beam>
+					<PowerName>HereticHolo</PowerName>
+					<DurationOverride>90</DurationOverride>
+					<Waypoints>
+						<wp x="0" z="0" />
+						<wp x="0" z="20" />
+						<wp x="20" z="20" />
+						<wp x="20" z="0" />
+						<wp x="20" z="-20" />
+					</Waypoints>
+				</Beam>
+				<Beam>
+					<PowerName>HereticHolo</PowerName>
+					<DurationOverride>90</DurationOverride>
+					<Waypoints>
+						<wp x="0" z="0" />
+						<wp x="0" z="20" />
+						<wp x="-20" z="20" />
+						<wp x="-20" z="0" />
+						<wp x="-20" z="-20" />
+					</Waypoints>
+				</Beam>
+			</CleansingBeams>
+		</SpecificData>
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>OrbitalCleansingActionUpgrade</Name>
+		<ActionType>OrbitalCleansing</ActionType>
+		<Anim>PowerIdle</Anim>
+		<Duration>0</Duration>
+		<SpecificData>
+			<CleansingBeams>
+				<Beam>
 					<PowerName>HereticUnit</PowerName>
 					<DurationOverride>60</DurationOverride>
 					<Waypoints>
@@ -164,6 +197,7 @@
 				</Beam>
 			</CleansingBeams>
 		</SpecificData>
+		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -363,6 +397,16 @@
 			<Ability>Command</Ability>
 			<TargetsGround />
 			<Action>OrbitalCleansingAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>OrbitalCleansingActionUpgrade</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>OrbitalCleansingActionUpgrade</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>
