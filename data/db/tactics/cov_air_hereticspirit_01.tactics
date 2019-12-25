@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>PlasmaCannon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>200</DamagePerSecond>
+		<DamagePerSecond>175</DamagePerSecond>
 		<WeaponType>leaderpower</WeaponType>
 		<Projectile>fx_proj_shadeplasma_01</Projectile>
 		<ImpactEffect size="Medium">SmallPlasmaExplosion</ImpactEffect>
@@ -43,22 +43,61 @@
 		<Weapon>PlasmaCannon</Weapon>
 		<CanOrientOwner>false</CanOrientOwner>
 	</Action>
+	<Weapon>
+		<Name>OnDeathDamageContained</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>8000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Explosive</WeaponType>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>true</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
 	<Action>
-		<Name>Transport</Name>
-		<ActionType>Transport</ActionType>
+		<Name>OnDeathDamageContained</Name>
+		<ActionType>Detonate</ActionType>
+		<DetonateDamageContainedOnly />
+		<Weapon>OnDeathDamageContained</Weapon>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>9.22500038</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
 		<WorkRange>0</WorkRange>
 	</Action>
 	<Action>
 		<Name>GarrisonTeleport</Name>
 		<ActionType>Garrison</ActionType>
-		<Anim>Idle</Anim>
+		<Anim>TeleportOut</Anim>
 		<WorkRange>9.22500038</WorkRange>
 	</Action>
 	<Action>
 		<Name>UngarrisonTeleport</Name>
 		<ActionType>Ungarrison</ActionType>
-		<Anim>Idle</Anim>
+		<Anim>TeleportIn</Anim>
 		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>UnloadContained</Name>
+		<ActionType>UnloadContained</ActionType>
+		<WorkRange>8</WorkRange>
+	</Action>
+	<Action>
+		<Name>LoadTarget</Name>
+		<ActionType>LoadTarget</ActionType>
+		<WorkRange>10</WorkRange>
 	</Action>
 	<Tactic>
 		<TargetRule>
@@ -66,10 +105,15 @@
 			<Action>RearTurretAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
-			<TargetsGround />
-			<ContainsUnits />
-			<Action>Transport</Action>
-			<Ability>UnscUnload</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
@@ -83,6 +127,25 @@
 			<Relation>Self</Relation>
 			<TargetType>TeleportDropoff</TargetType>
 			<Action>UngarrisonTeleport</Action>
+			<RequireHavingGarrisonedSquads />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<ContainsUnits />
+			<Action>UnloadContained</Action>
+			<SquadMode>Normal</SquadMode>
+			<RequireHavingGarrisonedSquads />
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Self</Relation>
+			<Action>UnloadContained</Action>
+			<RequireHavingGarrisonedSquads />
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<Action>LoadTarget</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>

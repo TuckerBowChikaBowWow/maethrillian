@@ -8497,6 +8497,51 @@
 			<Unit count="4" role="normal">cov_inf_grunt_01</Unit>
 		</Units>
 	</Squad>
+	<Squad name="cov_air_hereticspirit_01" dbid="14905103253246653348">
+		<CombatRank>5</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\air_hydra</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>26135</DisplayNameID>
+		<RolloverTextID>26172</RolloverTextID>
+		<RoleTextID>522</RoleTextID>
+		<HealValue>1.29999995</HealValue>
+		<PrereqTextID>243</PrereqTextID>
+		<SubSelectSort>115</SubSelectSort>
+		<LeashDistance>10</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>3.07500005</AggroDistance>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<AIAttackRank>0</AIAttackRank>
+		<ActiveAbilityType>Garrison</ActiveAbilityType>
+		<BuildPoints>25</BuildPoints>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">225</Cost>
+		<Cost ResourceType="Power">90</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<HPBar offset="0,8,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_air_hereticspirit_01</Unit>
+		</Units>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>None</StencilType>
+		</Selection>
+		<Birth>FlyIn</Birth>
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Phantom_01</Counters>
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+	</Squad>
 	<Squad name="cov_inf_hereticelite_01" dbid="5031078638498000048">
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
