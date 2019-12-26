@@ -8,6 +8,7 @@
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
 				<file>dlc2/pack2/units/covenant/infantry/elite_assualt_combined/mesh_stormelite01</file>
 			</asset>
+			<attach type="ModelRef" name="sword" tobone="b_spine_0" frombone="GrannyRootBone_energy_sword01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</component>
 		<anim type="PowerIdle" exitAction="Transition" tweenTime="0" tweenToAnimation="PowerIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -623,5 +624,15 @@
 				<weight>1</weight>
 			</asset>
 		</anim>
+	</model>
+	<model name="sword">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>modded\test\mesh_backpack</file>
+			</asset>
+		</component>
 	</model>
 </visual>
