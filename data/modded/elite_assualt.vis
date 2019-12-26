@@ -9,8 +9,10 @@
 				<file>dlc2/pack2/units/covenant/infantry/elite_assualt_combined/mesh_stormelite01</file>
 			</asset>
 			<attach type="ModelRef" name="sword" tobone="b_spine_0" frombone="GrannyRootBone_energy_sword01" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="sword" tobone="b_spine_1" frombone="GrannyRootBone_energy_sword01" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="sword" tobone="b_spine_2" frombone="GrannyRootBone_energy_sword01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="backpack" tobone="b_upperarm_left" frombone="GrannyRootBone_energy_sword01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="backpack" tobone="b_upperarm_right" frombone="GrannyRootBone_energy_sword01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="flare" tobone="b_neck_0" frombone="GrannyRootBone_energy_sword01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/HeroGodRay" tobone="b_root" syncanims="false" disregardorient="true" removeimmediately="false" />
 		</component>
 		<anim type="PowerIdle" exitAction="Transition" tweenTime="0" tweenToAnimation="PowerIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -634,6 +636,26 @@
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
 				<file>units\unsc\weapons\rm_marine_siphon_backpack\mesh_magnum_01</file>
+			</asset>
+		</component>
+	</model>
+	<model name="flare">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2\hook\bldg\banished_flare_01\mesh_banished_flare_01</file>
+			</asset>
+		</component>
+	</model>
+	<model name="backpack">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\unsc\rostermode\weapons\rm_marine_siphon_backpack\mesh_rm_marine_siphon_backpack01</file>
 			</asset>
 		</component>
 	</model>
