@@ -4,20 +4,17 @@
 		<Name>PlasmaCannon</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>175</DamagePerSecond>
-		<WeaponType>leaderpower</WeaponType>
+		<WeaponType>Chaingun</WeaponType>
 		<Projectile>fx_proj_shadeplasma_01</Projectile>
 		<ImpactEffect size="Medium">SmallPlasmaExplosion</ImpactEffect>
-		<MaxVelocityLead>12.3000002</MaxVelocityLead>
-		<MaxRange>55</MaxRange>
-		<ThrowUnits />
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>45</MaxRange>
 		<Hardpoint>RearTurret</Hardpoint>
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>400</PhysicsForceMin>
-		<PhysicsForceMax>600</PhysicsForceMax>
-		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
-		<UseGroupRange />
-		<CanOrientOwner>false</CanOrientOwner>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.300000012</PostAttackCooldownMax>
+		<Filter>Medium</Filter>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
@@ -34,15 +31,12 @@
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
+		<TargetPriority type="GroundVehicle">7</TargetPriority>
+		<TargetPriority type="Flying">7</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
 	</Weapon>
-	<Action>
-		<Name>RearTurretAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<PersistentActionType>SecondaryTurretAttack</PersistentActionType>
-		<Anim>RearTurretAttack</Anim>
-		<Weapon>PlasmaCannon</Weapon>
-		<CanOrientOwner>false</CanOrientOwner>
-	</Action>
 	<Weapon>
 		<Name>OnDeathDamageContained</Name>
 		<AttackRate>5</AttackRate>
@@ -64,6 +58,24 @@
 		<ActionType>Detonate</ActionType>
 		<DetonateDamageContainedOnly />
 		<Weapon>OnDeathDamageContained</Weapon>
+	</Action>
+	<Action>
+		<MaxPitch>0</MaxPitch>
+		<MaxRoll>30</MaxRoll>
+	</Action>
+	<Action>
+		<Name>PlasmaCannonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Weapon>PlasmaCannon</Weapon>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>1.84500003</WorkRange>
 	</Action>
 	<Action>
 		<Name>GarrisonHotDrop</Name>
@@ -102,7 +114,12 @@
 	<Tactic>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>RearTurretAttackAction</Action>
+			<Action>PlasmaCannonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Self</Relation>

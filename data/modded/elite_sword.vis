@@ -10,7 +10,6 @@
 				<damagefile />
 			</asset>
 			<attach type="ModelRef" name="sword" tobone="b_hand_grip_right" frombone="GrannyRootBone_energy_sword01" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/PlasmaSword" tobone="bone_vfx_SwordHandlePoint" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<point pointType="Pickup" bone="b_spine_0" pointData="Metal" />
 		</component>
 		<anim type="Idle" exitAction="Transition" tweenTime="15" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
@@ -996,6 +995,16 @@
 		</anim>
 	</model>
 	<model name="sword">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\covenant\rostermode\weapons\rm_siphon_sword01\mesh_spiker01</file>
+			</asset>
+		</component>
+	</model>
+	<model name="sword_plasma">
 		<component>
 			<asset type="Model">
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
