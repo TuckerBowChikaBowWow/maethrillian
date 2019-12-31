@@ -892,6 +892,21 @@
 			<TechStatus status="Active">Basic</TechStatus>
 		</Prereqs>
 		<Effects>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpjerome_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_laser" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_laser" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_laser" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="_RECORD_Vet0" relativity="Absolute">
 				<Target type="ProtoUnit">creep_bldg_recording_01</Target>
 			</Effect>
@@ -5520,15 +5535,15 @@
 				<Target type="ProtoSquad">unsc_air_destroyer_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpalice_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpjerome_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_chaingun" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_laser" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_rocket" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_laser" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_laser" relativity="Absolute">
@@ -13999,8 +14014,8 @@
 			<TechStatus status="Active">unsc_spartan_upgrade1_laser</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_laser_01" />
-			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_laser_01" />
+			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_chaingun_01" />
+			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_chaingun_01" />
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_spartan_laser_01">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
@@ -14091,22 +14106,22 @@
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
 		<Prereqs>
-			<TechStatus status="Active">unsc_spartan_upgrade2_rocket</TechStatus>
+			<TechStatus status="Active">unsc_spartan_upgrade2_laser</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartan_mpalice_01" ToType="unsc_inf_spartan_laser_01" />
-			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartan_mpalice_01" ToType="unsc_inf_spartan_laser_01" />
+			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_laser_01" />
+			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_laser_01" />
 			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpalice_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpalice_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpalice_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
-				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>

@@ -9478,10 +9478,10 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>14</AIAttackRank>
 		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
-		<BuildPoints>30</BuildPoints>
-		<Pop Type="Unit">11</Pop>
-		<Cost ResourceType="Supplies">1000</Cost>
-		<Cost ResourceType="Power">1000</Cost>
+		<BuildPoints>60</BuildPoints>
+		<Pop Type="Unit">40</Pop>
+		<Cost ResourceType="Supplies">2000</Cost>
+		<Cost ResourceType="Power">2000</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
 		<HPBar offset="0,8.61000061,0" sizeX="12.0f" sizeY="3.0f">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered_Vulture">UNSC_Ability_Vulture</AbilityRecoveryBar>
@@ -9489,7 +9489,6 @@
 		<Units>
 			<Unit count="1" role="normal">unsc_air_pelicangunship_01_train</Unit>
 		</Units>
-		<Flag>DiesWhenFrozen</Flag>
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
 		<Selection>
