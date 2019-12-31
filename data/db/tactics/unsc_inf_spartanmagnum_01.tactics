@@ -145,7 +145,7 @@
 	<Action>
 		<Name>InCoverSMGAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>LaserAttack</Anim>
+		<Anim>MagnumAttack</Anim>
 		<ReloadAnim>CombatIdle</ReloadAnim>
 		<Weapon>InCoverSMG</Weapon>
 		<FullBodyAttackAnim />
@@ -153,12 +153,13 @@
 	<Action>
 		<Name>SMGAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>LaserAttack</Anim>
+		<Anim>MagnumAttack</Anim>
 		<MoveAnim>JogAttack</MoveAnim>
 		<ReloadAnim>CombatIdle</ReloadAnim>
 		<Weapon>SMG</Weapon>
 		<FullBodyAttackAnim />
 		<Strafing turnRate="180" trackingSpeed="60" />
+		<Fatality attacker="fatality_spartan02_v_arbiter_attacker_01" target="fatality_spartan02_v_arbiter_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_eliteCommando_01</Fatality>
 	</Action>
 	<Action>
 		<Name>GroundPoundAction</Name>
