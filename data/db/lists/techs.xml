@@ -252,8 +252,8 @@
 				<Target type="Tech">unsc_hornet_upgrade1</Target>
 				<Target type="Tech">unsc_serina_cryomarines_upgrade1</Target>
 				<Target type="Tech">unsc_colossus_upgrade1</Target>
-				<Target type="Tech">unsc_spartan_upgrade1_chaingun</Target>
-				<Target type="Tech">unsc_spartan_upgrade2_rocket</Target>
+				<Target type="Tech">unsc_spartan_upgrade1_laser</Target>
+				<Target type="Tech">unsc_spartan_upgrade2_laser</Target>
 				<Target type="Tech">unsc_spartan_upgrade3_laser</Target>
 				<Target type="Tech">unsc_forgehog_upgrade1</Target>
 				<Target type="Tech">unsc_forgehog_upgrade2</Target>
@@ -296,6 +296,11 @@
 				<Target type="Tech">cov_bruterider_upgrade1</Target>
 				<Target type="Tech">cov_heavygrunt_upgrade1</Target>
 				<Target type="Tech">cov_heavygrunt_upgrade2</Target>
+				<Target type="Tech">unsc_tech_reinforcements_1</Target>
+				<Target type="Tech">unsc_tech_reinforcements_2</Target>
+				<Target type="Tech">unsc_tech_recruitTraining_1</Target>
+				<Target type="Tech">unsc_tech_recruitTraining_2</Target>
+				<Target type="Tech">unsc_tech_recruitTraining_3</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -375,7 +380,7 @@
 				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
 				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
 				<Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 				<Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
 				<Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
 				<Target type="ProtoSquad">unsc_air_destroyer_01</Target>
@@ -460,6 +465,10 @@
 				<Target type="ProtoSquad">fld_custom_arbiter_t2</Target>
 				<Target type="ProtoSquad">fld_custom_arbiter_t3</Target>
 				<Target type="ProtoSquad">unsc_inf_heroodst_01_mp</Target>
+				<Target type="ProtoSquad">unsc_inf_odst_01</Target>
+				<Target type="ProtoSquad">unsc_inf_heroodst_02_mp</Target>
+				<Target type="ProtoSquad">cov_inf_mpdecimus_02</Target>
+				<Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -542,7 +551,7 @@
 				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
 				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
 				<Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 				<Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
 				<Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
 				<Target type="ProtoSquad">unsc_air_destroyer_01</Target>
@@ -627,6 +636,10 @@
 				<Target type="ProtoSquad">fld_custom_arbiter_t2</Target>
 				<Target type="ProtoSquad">fld_custom_arbiter_t3</Target>
 				<Target type="ProtoSquad">unsc_inf_heroodst_01_mp</Target>
+				<Target type="ProtoSquad">unsc_inf_odst_01</Target>
+				<Target type="ProtoSquad">unsc_inf_heroodst_02_mp</Target>
+				<Target type="ProtoSquad">cov_inf_mpdecimus_02</Target>
+				<Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -642,7 +655,7 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="_RECORD_Vet3" relativity="Absolute">
 				<Target type="ProtoUnit">creep_bldg_recording_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="Level" allactions="1" relativity="Absolute">
+			<Effect type="Data" amount="-3" subtype="Level" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_generic_grunt</Target>
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
 				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
@@ -709,7 +722,7 @@
 				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
 				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
 				<Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 				<Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
 				<Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
 				<Target type="ProtoSquad">unsc_air_destroyer_01</Target>
@@ -794,6 +807,10 @@
 				<Target type="ProtoSquad">fld_custom_arbiter_t2</Target>
 				<Target type="ProtoSquad">fld_custom_arbiter_t3</Target>
 				<Target type="ProtoSquad">unsc_inf_heroodst_01_mp</Target>
+				<Target type="ProtoSquad">unsc_inf_odst_01</Target>
+				<Target type="ProtoSquad">unsc_inf_heroodst_02_mp</Target>
+				<Target type="ProtoSquad">cov_inf_mpdecimus_02</Target>
+				<Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
