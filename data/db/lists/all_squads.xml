@@ -2243,6 +2243,11 @@
 	<Squad name="cov_inf_generic_brutejumppack_fromlich" dbid="12782299604775414432" formationType="Flock" parent_element="cov_inf_generic_brutejumppack">
 		<BuildPoints>9</BuildPoints>
 	</Squad>
+	<Squad name="cov_inf_generic_brutejumppack_alone" dbid="12782299604775414432" formationType="Flock" parent_element="cov_inf_generic_brutejumppack">
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">cov_inf_bruteJumpPack_01_op</Unit>
+		</Units>
+	</Squad>
 	<Squad name="cov_inf_generic_grunt" dbid="16246815270626663704" formationType="Flock" parent_element="cov_inf_Grunt_01" />
 	<Squad name="cov_inf_generic_grunt_fromlich" dbid="7123270458324021765" formationType="Flock" parent_element="cov_inf_generic_grunt">
 		<BuildPoints>6</BuildPoints>
