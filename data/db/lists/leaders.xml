@@ -342,7 +342,7 @@
 	</Leader>
 	<Leader Name="ALLUNSC" Icon="ui\game\icon\unsc\leader\Captain Cutter" GUID="#CEE2C115-EAB0-4183-ACC4-ED8342D9A84F">
 		<Civ>UNSC</Civ>
-		<Tech>unsc_LeaderCutter</Tech>
+		<Tech>unsc_LeaderAll</Tech>
 		<NameID>7000</NameID>
 		<RichPresenceID>LEADER_CUTTER</RichPresenceID>
 		<CmsId>1</CmsId>
@@ -353,7 +353,7 @@
 		<Resource Type="Supplies">600</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">400</Resource>
-		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_everything" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_generic_marine</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_marineguard_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_marineguard_02</StartingSquad>
@@ -415,7 +415,7 @@
 	</Leader>
 	<Leader Name="ALLBANISHED" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>Covenant</Civ>
-		<Tech>covenant_LeaderDecimus</Tech>
+		<Tech>covenant_LeaderALL</Tech>
 		<NameID>7012</NameID>
 		<DescriptionID>7013</DescriptionID>
 		<RichPresenceID>LEADER_ATRIOX</RichPresenceID>
@@ -426,7 +426,7 @@
 		<Resource Type="Supplies">600</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="Power">400</Resource>
-		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_everything" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_grunt</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,0">cov_veh_ghost_01</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="60,0,0">cov_veh_bruteChopper_01</StartingSquad>
