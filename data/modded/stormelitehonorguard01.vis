@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="us-ascii"?>
-<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="CarbineElite">
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="Default">
 	<logic type="SquadMode">
 		<logicdata value="Sword" modelref="SwordElite" weight="1" />
-		<logicdata value="Normal" modelref="CarbineElite" weight="1" />
+		<logicdata value="Normal" modelref="Default" weight="1" />
 	</logic>
-	<model name="CarbineElite">
+	<model name="Default">
 		<component>
 			<asset type="Model">
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
