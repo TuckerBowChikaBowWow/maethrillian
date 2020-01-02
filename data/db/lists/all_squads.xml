@@ -1376,18 +1376,51 @@
 	<Squad name="cov_inf_bruteHonour_01_sp" parent_element="cov_inf_bruteHonour_01_base" dbid="2549950187233219961">
 		<LeashDistance>73</LeashDistance>
 	</Squad>
-	<Squad name="cov_inf_bruteHonour_01_mp_blitz" parent_element="cov_inf_bruteHonour_01_base" dbid="2578682625095953063">
-		<Units>
-			<Unit count="1" role="normal">cov_inf_bruteHonour_01_mp_blitz</Unit>
-		</Units>
+	<Squad name="cov_inf_bruteHonour_01_mp_blitz" dbid="18379756352825295055">
+		<CombatRank>9</CombatRank>
+		<HealValue>1.37</HealValue>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>27483</DisplayNameID>
+		<RolloverTextID>27484</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<SubSelectSort>55</SubSelectSort>
+		<LeashDistance>53</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<BobbleHead>UNSC_Spartan</BobbleHead>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>10</AIAttackRank>
+		<ActiveAbilityType>HandAttack</ActiveAbilityType>
+		<Pop Type="Unit">6</Pop>
 		<BuildPoints>30</BuildPoints>
 		<Cost ResourceType="Supplies">285</Cost>
 		<Cost ResourceType="Power">75</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
-		<FrozenThreshold>400</FrozenThreshold>
-		<ShatterThreshold>3000</ShatterThreshold>
-		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillDecayPerSecond>80</ChillDecayPerSecond>
+		<HPBar offset="0,10,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_bruteHonour_01_mp_blitz</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>Melee</Flag>
+		<CanAttackWhileMoving>false</CanAttackWhileMoving>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>Units</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>BruteWarlord_01</Counters>
+		<MaxConvertedtoDroneSlots>2</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="fld_custom_strongbrutehammer" dbid="18379756352825295055">
 		<Flag>UseNameForSelectionDecal</Flag>
