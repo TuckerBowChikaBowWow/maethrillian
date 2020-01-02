@@ -753,6 +753,18 @@
 		<Priority Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
 		<Application Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
 	</Ability>
+	<Ability Name="CovHereticLeaderAbility">
+		<DisplayNameID>24272</DisplayNameID>
+		<RolloverTextID>24273</RolloverTextID>
+		<Type>Work</Type>
+		<KeepSquadMode>true</KeepSquadMode>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>120</RecoverTime>
+		<NoAbilityReticle>true</NoAbilityReticle>
+		<Priority Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
+		<Application Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
+	</Ability>
 	<Ability Name="BanHunterTaunt">
 		<DisplayNameID>24674</DisplayNameID>
 		<Type>Work</Type>
