@@ -399,23 +399,18 @@
 		<PersistentAction>Charge</PersistentAction>
 		<TargetRule>
 			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>HammerShockwaveAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
+			<TargetsGround />
+			<Action>OrbitalCleansingAction</Action>
 		</TargetRule>
 		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>HammerSiphonAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
+			<Ability>Command</Ability>
+			<Relation>Self</Relation>
+			<Action>OrbitalCleansingAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>HammerShockwaveSiphonAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
+			<Action>OrbitalCleansingAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
