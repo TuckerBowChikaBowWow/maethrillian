@@ -210,13 +210,11 @@
 				<Target type="Tech">cov_tech_global_structure_03</Target>
 				<Target type="Tech">cov_bruteHonour_upgrade1</Target>
 				<Target type="Tech">cov_bruteHonour_upgrade2</Target>
-				<Target type="Tech">cov_bruteHonour_upgrade3</Target>
 				<Target type="Tech">cov_atrioxchosen_upgrade1</Target>
 				<Target type="Tech">cov_atrioxchosen_upgrade2</Target>
 				<Target type="Tech">cov_atrioxchosen_upgrade3</Target>
 				<Target type="Tech">cov_eliteCommando_upgrade1</Target>
 				<Target type="Tech">cov_eliteCommando_upgrade2</Target>
-				<Target type="Tech">cov_eliteCommando_upgrade3</Target>
 				<Target type="Tech">cov_impervioushunter_upgrade1</Target>
 				<Target type="Tech">cov_impervioushunter_upgrade2</Target>
 				<Target type="Tech">cov_impervioushunter_upgrade3</Target>
@@ -947,7 +945,7 @@
 				<Target type="ProtoSquad">unsc_air_pelicangunship_01_train</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscMedDrones3_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="1">UnscArkCleansing</Effect>
+			<Effect type="UnlockableGodPower" tier="1">UnscPelicanGunship</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscMacCutter3</Effect>
 			<Effect type="UnlockableGodPower" tier="2">JohnsonEMPBlast2</Effect>
 			<Effect type="UnlockableGodPower" tier="3">UnscScatterbomb2</Effect>
@@ -968,13 +966,13 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="UnlockableGodPower" tier="1">LekgoloSwarmHeal3</Effect>
-			<Effect type="UnlockableGodPower" tier="1">CovCleansingBeamPath3_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="2">CovCleansingBeamPath3</Effect>
+			<Effect type="UnlockableGodPower" tier="1">CovTeleport1</Effect>
+			<Effect type="UnlockableGodPower" tier="2">CovCleansingBeamPath3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2">LekgoloPincerBeam3</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Unbrk_ScatterBeam3_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Grunt_MethaneBombing</Effect>
+			<Effect type="UnlockableGodPower" tier="4">ArbiterPlasmaBolt3</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CorruptedVortex3_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="4">CovGravityVortex2</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CorruptedCataclysm_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovPlanetaryCleansing</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade1" relativity="Absolute">
@@ -15202,10 +15200,7 @@
 			<Effect type="Data" amount="1.35000002" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.35000002" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.5" subtype="MaximumVelocity" relativity="Percent">
+			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="EliteHonour_02">
@@ -15229,13 +15224,13 @@
 			<TechStatus status="Active">cov_eliteCommando_upgrade1</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.45000005" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.1000005" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.60000002" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.40000002" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.60000002" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.10000002" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="EliteHonour_03">
@@ -15439,13 +15434,10 @@
 			<TechStatus status="Active">cov_basic</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.35000002" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35000002" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="PullHammerAttackAction" relativity="Absolute">
@@ -15478,13 +15470,7 @@
 			<TechStatus status="Active">cov_bruteHonour_upgrade1</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.79999995" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.79999995" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.2" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="StunningPullHammerAttackAction" relativity="Absolute">

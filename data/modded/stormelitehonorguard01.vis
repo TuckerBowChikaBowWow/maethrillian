@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="us-ascii"?>
-<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="Default">
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="CarbineElite">
 	<logic type="SquadMode">
 		<logicdata value="Sword" modelref="SwordElite" weight="1" />
 		<logicdata value="Normal" modelref="CarbineElite" weight="1" />
@@ -692,7 +692,6 @@
 			</asset>
 			<attach type="ModelRef" name="sword" tobone="b_hand_grip_right" frombone="GrannyRootBone_energy_sword01" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/PlasmaSword" tobone="bone_vfx_SwordHandlePoint" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/HeroGodRay" tobone="b_root" syncanims="false" disregardorient="true" removeimmediately="false" />
 			<point pointType="Pickup" bone="b_spine_0" pointData="Metal" />
 		</component>
 		<anim type="ChangeIdle" exitAction="Transition" tweenTime="15" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
