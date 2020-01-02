@@ -14397,13 +14397,13 @@
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartan_chaingun_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.79999995" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartan_chaingun_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.79999995" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartan_chaingun_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
@@ -14488,14 +14488,14 @@
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_laser_01" />
 			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_laser_01" />
-			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+			<Effect type="Data" amount="1.6" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_spartan_laser_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartan_laser_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartan_laser_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
