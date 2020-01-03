@@ -454,6 +454,34 @@
 		<Pop Type="Decimus" Max="999">999</Pop>
 		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
+	<Leader Name="MARIOKART" Icon="ui\game\icon\unsc\leader\Captain Cutter" GUID="#CEE2C115-EAB0-4183-ACC4-ED8342D9A84F">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderMarioKart</Tech>
+		<NameID>7000</NameID>
+		<RichPresenceID>LEADER_CUTTER</RichPresenceID>
+		<CmsId>1</CmsId>
+		<DescriptionID>7001</DescriptionID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">400</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_mariokart" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="999">80</Pop>
+		<Pop Type="Leader" Max="1">1</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
+		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
+	</Leader>
 	<Leader Name="UNSC Single Player" Icon="ui\game\icon\unsc\leader\Captain Cutter" SinglePlayerOnly="true">
 		<Civ>UNSC</Civ>
 		<Tech>unsc_LeaderSinglePlayer</Tech>

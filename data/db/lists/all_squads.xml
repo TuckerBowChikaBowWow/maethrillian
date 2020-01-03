@@ -4,6 +4,117 @@
 	<Squad name="FlyingFlood" dbid="16256726101795934130" />
 	<Squad name="Forerunner" dbid="12943458503600554757" />
 	<Squad name="Rebel" dbid="10443232853206385951" />
+	<Squad name="creep_veh_mariokart_base" dbid="15770811218352086746">
+		<CombatRank>5</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>26249</DisplayNameID>
+		<RolloverTextID>23667</RolloverTextID>
+		<RoleTextID>518</RoleTextID>
+		<SubSelectSort>1500</SubSelectSort>
+		<LeashDistance>25</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>2.20000005</AIAttackRank>
+		<BuildPoints>24</BuildPoints>
+		<Pop Type="Leader">1</Pop>
+		<HPBar offset="0,7.38000011,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="0.200000003" max="3" />
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Jackrabbit_01</Counters>
+	</Squad>
+	<Squad name="creep_veh_mariokart_jackrabbit" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_jackrabbit</Unit>
+		</Units>
+	</Squad>
+	<Squad name="creep_veh_mariokart_hog" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_hog</Unit>
+		</Units>
+	</Squad>
+	<Squad name="creep_veh_mariokart_methane" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_methane</Unit>
+		</Units>
+	</Squad>
+	<Squad name="creep_veh_mariokart_chopper" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_chopper</Unit>
+		</Units>
+	</Squad>
+	<Squad name="creep_veh_mariokart_terrorchopper" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_terrorchopper</Unit>
+		</Units>
+	</Squad>
+	<Squad name="creep_veh_mariokart_ghost" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_ghost</Unit>
+		</Units>
+	</Squad>
+	<Squad name="creep_veh_mariokart_flag1" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_flag1</Unit>
+		</Units>
+	</Squad>
+	<Squad name="creep_veh_mariokart_flag2" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_flag2</Unit>
+		</Units>
+	</Squad>
+	<Squad name="creep_veh_mariokart_flag3" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_flag3</Unit>
+		</Units>
+	</Squad>
+	<Squad name="creep_veh_mariokart_flare" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_flare</Unit>
+		</Units>
+	</Squad>
 	<Squad name="cov_air_banshee_01" dbid="14987140697294280779" parent_element="cov_air_banshee_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -10071,6 +10182,13 @@
 		<Cost ResourceType="Supplies">350</Cost>
 		<Cost ResourceType="Power">50</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
+	</Squad>
+	<Squad name="unsc_air_nightingale_01_race" parent_element="unsc_air_nightingale_01_base" dbid="17920170681381079272">
+		<HealValue>1.70000005</HealValue>
+		<Cost ResourceType="Supplies">0</Cost>
+		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<Pop Type="Unit">1</Pop>
 	</Squad>
 	<Squad name="unsc_air_nightingale_01_sp" parent_element="unsc_air_nightingale_01_base" dbid="17902706038681981798">
 		<DazeResist>0.25</DazeResist>

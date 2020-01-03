@@ -163,6 +163,60 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="unsc_LeaderMarioKart" type="Normal">
+		<DBID>1917</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_mariokart_jackrabbit</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_mariokart_hog</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_mariokart_methane</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_mariokart_chopper</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_mariokart_terrorchopper</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_mariokart_ghost</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_mariokart_flag1</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_mariokart_flag2</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_mariokart_flag3</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_mariokart_flare</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_air_nightingale_01_race</Target>
+			</Effect>
+			<Effect type="UnlockableGodPower" tier="1">UnscBunkerDrop1_Permanent</Effect>
+			<Effect type="UnlockableGodPower" tier="1">LekgoloWallsPermanent</Effect>
+			<Effect type="UnlockableGodPower" tier="2"></Effect>
+			<Effect type="UnlockableGodPower" tier="2"></Effect>
+			<Effect type="UnlockableGodPower" tier="3"></Effect>
+			<Effect type="UnlockableGodPower" tier="3"></Effect>
+			<Effect type="UnlockableGodPower" tier="4"></Effect>
+			<Effect type="UnlockableGodPower" tier="4"></Effect>
+			<Effect type="UnlockableGodPower" tier="5"></Effect>
+			<Effect type="UnlockableGodPower" tier="5"></Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">unsc_multiplayer_marines1</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="_RECORD_ALLUpgrades" type="Normal">
 		<DisplayNameID>24398</DisplayNameID>
 		<RolloverTextID>24399</RolloverTextID>
