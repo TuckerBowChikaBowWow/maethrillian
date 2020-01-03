@@ -1,11 +1,48 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="Jerome_HighPopInspire">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>_TimeForHeroes1</TechScript>
+			<ProcOnSquadSpawned />
+			<ProcOnChangeOwner />
+			<ProcOnChangeOwnerSameTeam />
+			<ProcOnPowerGranted />
+			<ProcOnPowerUpgraded />
+			<DependsOnPopulation />
+			<BuffName>Inspire</BuffName>
+			<ProcBuffName>Inspire</ProcBuffName>
+			<Cost Supplies="0" Power="0" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
+				<Data type="bool" name="BuffDurationInfinite">true</Data>
+				<Data type="float" name="DamageDealtModifier">1.09f</Data>
+				<Data type="float" name="SlowModifier">1.14999998</Data>
+				<Data type="float" name="DamageMitigationScalar">0.920000017</Data>
+				<Data type="float" name="PopulationThreshold">999</Data>
+				<Data type="protoobject" name="BuffActivateFX">vfx_dlc2_units_spartanLeaderInspireUnit</Data>
+				<Data type="objecttype" name="BuffActivateFXOverrideType1">Flying</Data>
+				<Data type="protoobject" name="BuffActivateFXOverride1">vfx_dlc2_units_spartanLeaderInspireUnitFlying</Data>
+				<Data type="bool" name="OverwritesSelf">true</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="DecimusScatterBeam1_mp">
 		<Attributes>
 			<PowerType>AircraftPatrol</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
-			<Cost Supplies="550" Power="500" />
 			<AutoRecharge>210000</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -37,12 +74,12 @@
 				<Data type="bool" name="TargetStructuresOnly">false</Data>
 				<Data type="int" name="NumWaves">1</Data>
 				<Data type="float" name="TimeBetweenWaves">0</Data>
-				<Data type="int" name="NumAircraftPerWave">9</Data>
-				<Data type="float" name="SpawnRadius">22</Data>
+				<Data type="int" name="NumAircraftPerWave">7</Data>
+				<Data type="float" name="SpawnRadius">20</Data>
 				<Data type="float" name="RandomiseSpawnRadiusMin">5</Data>
-				<Data type="float" name="RandomiseSpawnRadiusMax">36</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMax">20</Data>
 				<Data type="float" name="SpokeRotationOffset">0</Data>
-				<Data type="float" name="PatrolDuration">12</Data>
+				<Data type="float" name="PatrolDuration">8</Data>
 				<Data type="protosquad" name="AircraftSquad">pow_gp_unbrk_scatterbeam_03_mp</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_BAN_OFF_ScatterBeamsLv3_MP</Data>
 				<Data type="bool" name="TieToTheGround">true</Data>
@@ -32341,7 +32378,7 @@
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
 				<Data type="sound" name="FiredSound">PLAY_SFX_2D_MOM_LP_DEF_BAN_MethaneBombingProjectile</Data>
-				<Data type="protoobject" name="Projectile">pow_proj_nukemissile_02</Data>
+				<Data type="protoobject" name="Projectile">fx_proj_vultureNuke_01</Data>
 				<Data type="bool" name="AreaDropMode">true</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
 				<Data type="bool" name="AreaDropStartOnCursor">true</Data>

@@ -397,6 +397,63 @@
 		<Pop Type="Decimus" Max="999">999</Pop>
 		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
+	<Leader Name="ALLUNSCNEW" Icon="ui\game\icon\unsc\leader\Captain Cutter" GUID="#CEE2C115-EAB0-4183-ACC4-ED8342D9A84F">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderAllNEW</Tech>
+		<NameID>7000</NameID>
+		<RichPresenceID>LEADER_CUTTER</RichPresenceID>
+		<CmsId>1</CmsId>
+		<DescriptionID>7001</DescriptionID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">400</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_everything" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="999">80</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
+		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
+	</Leader>
+	<Leader Name="ALLBANISHEDNEW" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
+		<Civ>Covenant</Civ>
+		<Tech>covenant_LeaderALLNEW</Tech>
+		<NameID>7012</NameID>
+		<DescriptionID>7013</DescriptionID>
+		<RichPresenceID>LEADER_ATRIOX</RichPresenceID>
+		<CmsId>5</CmsId>
+		<FlashImg>bruteleader</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_brutechief.ddx</UIControlBackground>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">400</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_everything" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="999">80</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
+		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
+	</Leader>
 	<Leader Name="UNSC Single Player" Icon="ui\game\icon\unsc\leader\Captain Cutter" SinglePlayerOnly="true">
 		<Civ>UNSC</Civ>
 		<Tech>unsc_LeaderSinglePlayer</Tech>
