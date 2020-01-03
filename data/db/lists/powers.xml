@@ -1,5 +1,44 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="DecimusScatterBeam1_mp">
+		<Attributes>
+			<Cost Supplies="0" Power="0" />
+			<AutoRecharge>210000</AutoRecharge>
+			<PowerType>Cleansing</PowerType>
+			<AIPowerUseType>Cleansing</AIPowerUseType>
+			<UIRadius>5</UIRadius>
+			<UIRadius>5</UIRadius>
+			<InfiniteUses />
+			<DisplayNameID>5040</DisplayNameID>
+			<ShowLimit />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+			<IconLocation>0</IconLocation>
+			<MinDistanceToSquad>0</MinDistanceToSquad>
+			<MaxDistanceToSquad>35</MaxDistanceToSquad>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="bool" name="IgnorePlacement">true</Data>
+				<Data type="bool" name="RandomiseSpawnPoints">true</Data>
+				<Data type="bool" name="TargetStructuresOnly">false</Data>
+				<Data type="int" name="NumWaves">1</Data>
+				<Data type="float" name="TimeBetweenWaves">0</Data>
+				<Data type="int" name="NumAircraftPerWave">9</Data>
+				<Data type="float" name="SpawnRadius">22</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMin">5</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMax">36</Data>
+				<Data type="float" name="SpokeRotationOffset">0</Data>
+				<Data type="float" name="PatrolDuration">12</Data>
+				<Data type="protosquad" name="AircraftSquad">pow_gp_unbrk_scatterbeam_03_mp</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_BAN_OFF_ScatterBeamsLv3_MP</Data>
+				<Data type="bool" name="TieToTheGround">true</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="HereticHolo">
 		<Attributes>
 			<NotAffectedByCeasefire />
