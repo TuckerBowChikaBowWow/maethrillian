@@ -210,13 +210,11 @@
 				<Target type="Tech">cov_tech_global_structure_03</Target>
 				<Target type="Tech">cov_bruteHonour_upgrade1</Target>
 				<Target type="Tech">cov_bruteHonour_upgrade2</Target>
-				<Target type="Tech">cov_bruteHonour_upgrade3</Target>
 				<Target type="Tech">cov_atrioxchosen_upgrade1</Target>
 				<Target type="Tech">cov_atrioxchosen_upgrade2</Target>
 				<Target type="Tech">cov_atrioxchosen_upgrade3</Target>
 				<Target type="Tech">cov_eliteCommando_upgrade1</Target>
 				<Target type="Tech">cov_eliteCommando_upgrade2</Target>
-				<Target type="Tech">cov_eliteCommando_upgrade3</Target>
 				<Target type="Tech">cov_impervioushunter_upgrade1</Target>
 				<Target type="Tech">cov_impervioushunter_upgrade2</Target>
 				<Target type="Tech">cov_impervioushunter_upgrade3</Target>
@@ -301,6 +299,10 @@
 				<Target type="Tech">unsc_tech_recruitTraining_1</Target>
 				<Target type="Tech">unsc_tech_recruitTraining_2</Target>
 				<Target type="Tech">unsc_tech_recruitTraining_3</Target>
+				<Target type="Tech">cov_sesahereticleader_upgrade1</Target>
+				<Target type="Tech">cov_sesahereticleader_upgrade2</Target>
+				<Target type="Tech">cov_sesahereticleader_upgrade3</Target>
+				<Target type="Tech">cov_hereticspirit_upgrade2</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -469,6 +471,12 @@
 				<Target type="ProtoSquad">unsc_inf_heroodst_02_mp</Target>
 				<Target type="ProtoSquad">cov_inf_mpdecimus_02</Target>
 				<Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
+				<Target type="ProtoSquad">cov_veh_locust_01_mp_blitz</Target>
+				<Target type="ProtoSquad">cov_inf_bruteHonour_01_mp_blitz</Target>
+				<Target type="ProtoSquad">cov_air_hereticspirit_01</Target>
+				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_alone</Target>
+				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_blitz</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -640,6 +648,12 @@
 				<Target type="ProtoSquad">unsc_inf_heroodst_02_mp</Target>
 				<Target type="ProtoSquad">cov_inf_mpdecimus_02</Target>
 				<Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
+				<Target type="ProtoSquad">cov_veh_locust_01_mp_blitz</Target>
+				<Target type="ProtoSquad">cov_inf_bruteHonour_01_mp_blitz</Target>
+				<Target type="ProtoSquad">cov_air_hereticspirit_01</Target>
+				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_alone</Target>
+				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_blitz</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -811,6 +825,12 @@
 				<Target type="ProtoSquad">unsc_inf_heroodst_02_mp</Target>
 				<Target type="ProtoSquad">cov_inf_mpdecimus_02</Target>
 				<Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
+				<Target type="ProtoSquad">cov_veh_locust_01_mp_blitz</Target>
+				<Target type="ProtoSquad">cov_inf_bruteHonour_01_mp_blitz</Target>
+				<Target type="ProtoSquad">cov_air_hereticspirit_01</Target>
+				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_alone</Target>
+				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_blitz</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -946,8 +966,11 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_air_pelicangunship_01_train</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_skitterer_01</Target>
+			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscMedDrones3_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="1">UnscArkCleansing</Effect>
+			<Effect type="UnlockableGodPower" tier="1">UnscForgePelicanTransport</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscMacCutter3</Effect>
 			<Effect type="UnlockableGodPower" tier="2">JohnsonEMPBlast2</Effect>
 			<Effect type="UnlockableGodPower" tier="3">UnscScatterbomb2</Effect>
@@ -968,15 +991,420 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="UnlockableGodPower" tier="1">LekgoloSwarmHeal3</Effect>
-			<Effect type="UnlockableGodPower" tier="1">CovCleansingBeamPath3_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="2">CovCleansingBeamPath3</Effect>
+			<Effect type="UnlockableGodPower" tier="1">CovTeleport1</Effect>
+			<Effect type="UnlockableGodPower" tier="2">CovCleansingBeamPath3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2">LekgoloPincerBeam3</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Unbrk_ScatterBeam3_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Grunt_MethaneBombing</Effect>
+			<Effect type="UnlockableGodPower" tier="4">ArbiterPlasmaBolt3</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CorruptedVortex3_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="4">CovGravityVortex2</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CorruptedCataclysm_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovPlanetaryCleansing</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_bruteHonour_01_mp_blitz</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_locust_01_mp_blitz</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_hereticspirit_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_alone</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_blitz</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_eliteCommando_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_eliteCommando_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_bruteHonour_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_bruteHonour_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_atrioxchosen_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_atrioxchosen_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_02</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">unsc_multiplayer_marines1</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_phantom_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_skitterer_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_arbitergruntsquad</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_grunt_methanewagon_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_bruteJumpPack</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_suicideGrunt</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_elitescout_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_jackal_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_arbitersniper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_mpdecimus_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_hunter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_lekgologoliath_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_arbiterenforcer</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_bruteRider_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_heavygrunt</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_engineer_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_corruptedengineer_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_shadelocust_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_prowler_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_gorgon_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_arbitergorgon_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_impervioushunter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_arbiter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_gruntgoblin01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_bruteHonour_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_corruptedwarlord_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_scarab_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_corruptedscarab_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_arbiterscarab_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_methanescarab_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_traininglich_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_corruptedlich_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_LeaderAllNEW" type="Normal">
+		<DBID>1917</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_generic_odst</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_generic_odst2</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_generic_marine</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_marineguard_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_marineguard_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_generic_odst2</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_mongoose_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_battleapc_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_odst_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_heroodst_02_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_heroodst_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_flameMarine_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_sniper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_odstsniper_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_cyclops_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_air_hornet_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_air_serina_pegasus_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_air_fire_pegasus_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_warthogguard_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_flamehog_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_cryoscorpion_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_flamescorpion_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">for_veh_scorpion_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_omegateam_jerome_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_warthogspartan_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">for_air_enforcer_tech1</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">pow_for_andersultimate_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_air_destroyer_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_air_pelicangunship_01_train</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_skitterer_01</Target>
+			</Effect>
+			<Effect type="UnlockableGodPower" tier="1">UnscBloodlust1</Effect>
+			<Effect type="UnlockableGodPower" tier="1">UnscUnstableCon3</Effect>
+			<Effect type="UnlockableGodPower" tier="2">UnscHeavyMetal03</Effect>
+			<Effect type="UnlockableGodPower" tier="2">UNSCVehicleAdrenaline2</Effect>
+			<Effect type="UnlockableGodPower" tier="3">CutterBattleHardened2</Effect>
+			<Effect type="UnlockableGodPower" tier="3">JohnsonMechBuff2</Effect>
+			<Effect type="UnlockableGodPower" tier="4">UnscHeroism2</Effect>
+			<Effect type="UnlockableGodPower" tier="4">Jerome_HighPopInspire</Effect>
+			<Effect type="UnlockableGodPower" tier="5">UnscScorpionTech</Effect>
+			<Effect type="UnlockableGodPower" tier="5">UnscPelicanGunship</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">unsc_multiplayer_marines1</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="covenant_LeaderALLNEW" type="Normal">
+		<DBID>2104</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="UnlockableGodPower" tier="1">CovTeleport1</Effect>
+			<Effect type="UnlockableGodPower" tier="1">CovBuffLeech3</Effect>
+			<Effect type="UnlockableGodPower" tier="2">CovBuffRage3</Effect>
+			<Effect type="UnlockableGodPower" tier="2">LekgoloWormBuff3</Effect>
+			<Effect type="UnlockableGodPower" tier="3">ArbiterPlasmaBolt3</Effect>
+			<Effect type="UnlockableGodPower" tier="3">ArbiterConduitofRage3</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovBloodlust</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovBoundlessRage</Effect>
+			<Effect type="UnlockableGodPower" tier="5">LekgoloEverlasting</Effect>
+			<Effect type="UnlockableGodPower" tier="5">CovBoundlessLeech</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_bruteHonour_01_mp_blitz</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_locust_01_mp_blitz</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_hereticspirit_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_alone</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_blitz</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
@@ -6409,7 +6837,6 @@
         	<Effect type="ReparentProtoObject" FromType="cov_inf_bruteLeader_01" ToType="cov_inf_bruteLeader_01_mp_blitz" />
         	<Effect type="ReparentProtoObject" FromType="cov_inf_bruteSubLeader_01" ToType="cov_inf_bruteSubLeader_01_mp_blitz" />
         	<Effect type="ReparentProtoObject" FromType="cov_inf_grunt_01" ToType="cov_inf_grunt_01_mp_blitz" />
-        	<Effect type="ReparentProtoObject" FromType="cov_veh_locust_01" ToType="cov_veh_locust_01_mp_blitz" />
         	<Effect type="ReparentProtoObject" FromType="cov_inf_bruteHonour_01" ToType="cov_inf_bruteHonour_01_mp_blitz" />
             <Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverBrutegunAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_bruteLeader_01_mp</Target>
@@ -9889,6 +10316,123 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_assaultteam_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_sesahereticleader_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27828</DisplayNameID>
+		<RolloverTextID>27829</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<Status>OBTAINABLE</Status>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">300</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>25</ResearchPoints>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_basic</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="OrbitalCleansingAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.05" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_sesahereticleader_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27830</DisplayNameID>
+		<RolloverTextID>27831</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<Status>OBTAINABLE</Status>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">450</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>30</ResearchPoints>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_sesahereticleader_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="OrbitalCleansingAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="OrbitalCleansingActionUpgrade" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.05" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_sesahereticleader_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27832</DisplayNameID>
+		<RolloverTextID>27833</RolloverTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>35</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_personalshield</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_sesahereticleader_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleaderclone_01</Target>
+			</Effect>
+			<Effect type="Data" amount="2" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleaderclone_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_hereticspirit_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27806</DisplayNameID>
+		<RolloverTextID>27807</RolloverTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">800</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>40</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_basic</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="2" subtype="MaxContained" relativity="Absolute">
+				<Target type="ProtoUnit">cov_air_hereticspirit_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -14397,13 +14941,13 @@
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartan_chaingun_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.79999995" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartan_chaingun_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.79999995" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartan_chaingun_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
@@ -14488,14 +15032,14 @@
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_laser_01" />
 			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_laser_01" />
-			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+			<Effect type="Data" amount="1.6" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_spartan_laser_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartan_laser_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartan_laser_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
@@ -15202,10 +15746,7 @@
 			<Effect type="Data" amount="1.35000002" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.35000002" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.5" subtype="MaximumVelocity" relativity="Percent">
+			<Effect type="Data" amount="1.25" subtype="MaximumVelocity" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="EliteHonour_02">
@@ -15229,13 +15770,13 @@
 			<TechStatus status="Active">cov_eliteCommando_upgrade1</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.45000005" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.1000005" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.60000002" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.40000002" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.60000002" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.10000002" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_eliteCommando_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="EliteHonour_03">
@@ -15439,13 +15980,10 @@
 			<TechStatus status="Active">cov_basic</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.35000002" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35000002" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="PullHammerAttackAction" relativity="Absolute">
@@ -15478,13 +16016,7 @@
 			<TechStatus status="Active">cov_bruteHonour_upgrade1</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.79999995" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.79999995" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.2" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="StunningPullHammerAttackAction" relativity="Absolute">

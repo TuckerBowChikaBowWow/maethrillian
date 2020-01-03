@@ -1359,7 +1359,6 @@
 			<StencilType>Units</StencilType>
 			<WriteToMergeStencil>True</WriteToMergeStencil>
 		</Selection>
-		<Flag>AlwaysRenderSelectionDecal</Flag>
 		<AvoidanceMass>Heavy</AvoidanceMass>
 		<Counters>BruteWarlord_01</Counters>
 		<MaxConvertedtoDroneSlots>2</MaxConvertedtoDroneSlots>
@@ -1376,6 +1375,52 @@
 	</Squad>
 	<Squad name="cov_inf_bruteHonour_01_sp" parent_element="cov_inf_bruteHonour_01_base" dbid="2549950187233219961">
 		<LeashDistance>73</LeashDistance>
+	</Squad>
+	<Squad name="cov_inf_bruteHonour_01_mp_blitz" dbid="18379756352825295055">
+		<CombatRank>9</CombatRank>
+		<HealValue>1.37</HealValue>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>27483</DisplayNameID>
+		<RolloverTextID>27484</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<SubSelectSort>55</SubSelectSort>
+		<LeashDistance>53</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<BobbleHead>UNSC_Spartan</BobbleHead>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>10</AIAttackRank>
+		<ActiveAbilityType>HandAttack</ActiveAbilityType>
+		<Pop Type="Unit">6</Pop>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">285</Cost>
+		<Cost ResourceType="Power">75</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,10,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_bruteHonour_01_mp_blitz</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>Melee</Flag>
+		<CanAttackWhileMoving>false</CanAttackWhileMoving>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>Units</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>BruteWarlord_01</Counters>
+		<MaxConvertedtoDroneSlots>2</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="fld_custom_strongbrutehammer" dbid="18379756352825295055">
 		<Flag>UseNameForSelectionDecal</Flag>
@@ -1928,55 +1973,6 @@
 		<Counters>Decimus_01</Counters>
 		<MaxConvertedtoDroneSlots>2</MaxConvertedtoDroneSlots>
 	</Squad>
-	<Squad name="cov_inf_mpdecimus_02" dbid="731106582352661977" formationType="Line">
-		<Flag>UseNameForAudio</Flag>
-		<FrozenThreshold>400</FrozenThreshold>
-		<ShatterThreshold>3000</ShatterThreshold>
-		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillDecayPerSecond>80</ChillDecayPerSecond>
-		<HealValue>1.29999995</HealValue>
-		<CombatRank>9</CombatRank>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>27483</DisplayNameID>
-		<RolloverTextID>27484</RolloverTextID>
-		<RoleTextID>519</RoleTextID>
-		<PrereqTextID>241</PrereqTextID>
-		<SubSelectSort>105</SubSelectSort>
-		<LeashDistance>68</LeashDistance>
-		<LeashDeadzone>12</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<BobbleHead>UNSC_Spartan</BobbleHead>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<Pop Type="Unit">10</Pop>
-		<Pop Type="Decimus">1</Pop>
-		<HPBar offset="0,10,0">UNSC_HealthShield</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">cov_inf_mpdecimus_02</Unit>
-		</Units>
-		<ActiveAbilityType>HandAttack</ActiveAbilityType>
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>Chatter</Flag>
-		<Flag>Melee</Flag>
-		<CanAttackWhileMoving>false</CanAttackWhileMoving>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Flag>AlwaysRenderSelectionDecal</Flag>
-		<Flag>AvoidanceAgentAffectsBothTeams</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>Units</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<AvoidanceMass>Heavy</AvoidanceMass>
-		<Counters>Decimus_01</Counters>
-		<MaxConvertedtoDroneSlots>2</MaxConvertedtoDroneSlots>
-	</Squad>
 	<Squad name="cov_inf_eliteCommando_01" dbid="1353547823033647513" formationType="Line" parent_element="cov_inf_eliteCommando_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -2001,7 +1997,7 @@
 		<BuildPoints>40</BuildPoints>
 		<Pop Type="Unit">6</Pop>
 		<Cost ResourceType="Supplies">450</Cost>
-		<Cost ResourceType="Power">400</Cost>
+		<Cost ResourceType="Power">200</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,10,0">UNSC_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -2019,7 +2015,6 @@
 			<StencilType>Units</StencilType>
 			<WriteToMergeStencil>True</WriteToMergeStencil>
 		</Selection>
-		<Flag>AlwaysRenderSelectionDecal</Flag>
 		<Birth>Trained</Birth>
 		<AvoidanceMass>Heavy</AvoidanceMass>
 		<Counters>EliteHonour_01</Counters>
@@ -2243,10 +2238,92 @@
 	<Squad name="cov_inf_generic_brutejumppack_fromlich" dbid="12782299604775414432" formationType="Flock" parent_element="cov_inf_generic_brutejumppack">
 		<BuildPoints>9</BuildPoints>
 	</Squad>
-	<Squad name="cov_inf_generic_brutejumppack_alone" dbid="12782299604775414432" formationType="Flock" parent_element="cov_inf_generic_brutejumppack">
-		<Units override_type="absolute">
+	<Squad name="cov_inf_generic_brutejumppack_alone" dbid="7525678303177995775">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3046</DisplayNameID>
+		<RolloverTextID>3047</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<SubSelectSort>605</SubSelectSort>
+		<LeashDistance>53</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.20000005</AIAttackRank>
+		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
+		<BuildPoints>17</BuildPoints>
+		<Cost ResourceType="Supplies">90</Cost>
+		<Cost ResourceType="Power">50</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
 			<Unit count="1" role="normal">cov_inf_bruteJumpPack_01_op</Unit>
 		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Melee</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<CanAttackWhileMoving>false</CanAttackWhileMoving>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>JumpPack_01</Counters>
+		<MaxConvertedtoDroneSlots>10</MaxConvertedtoDroneSlots>
+	</Squad>
+	<Squad name="cov_inf_generic_brutejumppack_blitz" dbid="7525678303177995775">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3046</DisplayNameID>
+		<RolloverTextID>3047</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<SubSelectSort>605</SubSelectSort>
+		<LeashDistance>53</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.20000005</AIAttackRank>
+		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
+		<Pop Type="Unit">3</Pop>
+		<BuildPoints>17</BuildPoints>
+		<Cost ResourceType="Supplies">50</Cost>
+		<Cost ResourceType="Power">90</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="3" role="normal">cov_inf_generic_brutejumppack_blitz</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Melee</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<CanAttackWhileMoving>false</CanAttackWhileMoving>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>JumpPack_01</Counters>
+		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="cov_inf_generic_grunt" dbid="16246815270626663704" formationType="Flock" parent_element="cov_inf_Grunt_01" />
 	<Squad name="cov_inf_generic_grunt_fromlich" dbid="7123270458324021765" formationType="Flock" parent_element="cov_inf_generic_grunt">
@@ -2956,16 +3033,103 @@
 		<ChillDecayPerSecond>80</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="cov_inf_mortarwarlord_01_sp" dbid="17270662925850294786" parent_element="cov_inf_mortarwarlord_01_base" />
-	<Squad name="cov_inf_mpdecimus_01" dbid="731106582352661977" formationType="Line" parent_element="cov_inf_decimus_base">
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Flag>AlwaysRenderSelectionDecal</Flag>
+	<Squad name="cov_inf_mpdecimus_01" dbid="731106582352661977" formationType="Line">
 		<Flag>UseNameForAudio</Flag>
 		<FrozenThreshold>400</FrozenThreshold>
 		<ShatterThreshold>3000</ShatterThreshold>
 		<DamageOnShatter>7000</DamageOnShatter>
 		<ChillDecayPerSecond>80</ChillDecayPerSecond>
+		<HealValue>1.29999995</HealValue>
+		<CombatRank>9</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>27483</DisplayNameID>
+		<RolloverTextID>27484</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<SubSelectSort>105</SubSelectSort>
+		<LeashDistance>68</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<BobbleHead>UNSC_Spartan</BobbleHead>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<Pop Type="Unit">10</Pop>
+		<Pop Type="Decimus">1</Pop>
+		<HPBar offset="0,10,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_mpdecimus_01</Unit>
+		</Units>
+		<ActiveAbilityType>CovJumppack</ActiveAbilityType>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>Melee</Flag>
+		<CanAttackWhileMoving>false</CanAttackWhileMoving>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>AlwaysRenderSelectionDecal</Flag>
+		<Flag>AvoidanceAgentAffectsBothTeams</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>Units</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Decimus_01</Counters>
+		<MaxConvertedtoDroneSlots>2</MaxConvertedtoDroneSlots>
+	</Squad>
+	<Squad name="cov_inf_mpdecimus_02" dbid="731106582352661977" formationType="Line">
+		<Flag>UseNameForAudio</Flag>
+		<FrozenThreshold>400</FrozenThreshold>
+		<ShatterThreshold>3000</ShatterThreshold>
+		<DamageOnShatter>7000</DamageOnShatter>
+		<ChillDecayPerSecond>80</ChillDecayPerSecond>
+		<HealValue>1.29999995</HealValue>
+		<CombatRank>9</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_brute</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>27483</DisplayNameID>
+		<RolloverTextID>27484</RolloverTextID>
+		<RoleTextID>519</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<SubSelectSort>105</SubSelectSort>
+		<LeashDistance>68</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<BobbleHead>UNSC_Spartan</BobbleHead>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<Pop Type="Unit">10</Pop>
+		<Pop Type="Decimus">1</Pop>
+		<HPBar offset="0,10,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_mpdecimus_02</Unit>
+		</Units>
+		<ActiveAbilityType>CpgnOrbitalCleansing</ActiveAbilityType>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>Melee</Flag>
+		<CanAttackWhileMoving>false</CanAttackWhileMoving>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>AlwaysRenderSelectionDecal</Flag>
+		<Flag>AvoidanceAgentAffectsBothTeams</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>Units</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Decimus_01</Counters>
+		<MaxConvertedtoDroneSlots>2</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="cov_inf_suicideGrunt_01" dbid="573174407377801792" formationType="Flock" parent_element="cov_inf_suicideGrunt_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
@@ -3624,6 +3788,48 @@
 		<Tactics>cov_veh_locust_01_mp.tactics</Tactics>
 	</Squad>
 	<Squad name="cov_veh_locust_01_sp" parent_element="cov_veh_locust_01_base" dbid="15158496091250718490" />
+	<Squad name="cov_veh_locust_01_mp_blitz" dbid="15261052440451981076">
+		<CombatRank>5</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_chimera</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3070</DisplayNameID>
+		<RolloverTextID>3071</RolloverTextID>
+		<RoleTextID>507</RoleTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<SubSelectSort>1405</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>3</AIAttackRank>
+		<BuildPoints>25</BuildPoints>
+		<Pop Type="Unit">4</Pop>
+		<Cost ResourceType="Supplies">300</Cost>
+		<Cost ResourceType="Power">200</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
+		<HPBar offset="0,7.38000011,0">COV_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_veh_locust_01_mp_blitz</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="0.5" max="6" />
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Locust_01</Counters>
+		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
+	</Squad>
 	<Squad name="cov_veh_m01scarab_01" dbid="7693109984603721276" parent_element="cov_veh_scarab_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -8501,6 +8707,131 @@
 			<Unit count="1" role="normal">cov_inf_brutegrenadier_01</Unit>
 			<Unit count="4" role="normal">cov_inf_grunt_01</Unit>
 		</Units>
+	</Squad>
+	<Squad name="cov_air_hereticspirit_01" dbid="14905103253246653348">
+		<CombatRank>5</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\air_hydra</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>26135</DisplayNameID>
+		<RolloverTextID>26172</RolloverTextID>
+		<RoleTextID>522</RoleTextID>
+		<HealValue>1.29999995</HealValue>
+		<PrereqTextID>243</PrereqTextID>
+		<SubSelectSort>115</SubSelectSort>
+		<LeashDistance>10</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>3.07500005</AggroDistance>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<AIAttackRank>0</AIAttackRank>
+		<ActiveAbilityType>Garrison</ActiveAbilityType>
+		<BuildPoints>25</BuildPoints>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">225</Cost>
+		<Cost ResourceType="Power">90</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<HPBar offset="0,8,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_air_hereticspirit_01</Unit>
+		</Units>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>None</StencilType>
+		</Selection>
+		<Birth>FlyIn</Birth>
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Phantom_01</Counters>
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+	</Squad>
+	<Squad name="cov_inf_hereticleader_01" dbid="5031078638498000048">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3048</DisplayNameID>
+		<RolloverTextID>3049</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<SubSelectSort>1205</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>2</AIAttackRank>
+		<BuildPoints>60</BuildPoints>
+		<UnlockableActiveAbilityType>CovHereticLeaderAbility</UnlockableActiveAbilityType>
+		<Pop Type="Spartan">1</Pop>
+		<Cost ResourceType="Supplies">265</Cost>
+		<Cost ResourceType="Power">135</Cost>
+		<HPBar offset="0,4.92000008,0">Cov_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="leader">cov_inf_hereticleader_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>LeaderDiesLast</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>AlwaysRenderSelectionDecal</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>EliteRangers_01</Counters>
+		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
+	</Squad>
+	<Squad name="cov_inf_hereticleaderclone_01" dbid="5031078638498000048">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_jackal</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3048</DisplayNameID>
+		<RolloverTextID>3049</RolloverTextID>
+		<RoleTextID>503</RoleTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<SubSelectSort>12325</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>2</AIAttackRank>
+		<HPBar offset="0,4.92000008,0">Cov_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="leader">cov_inf_hereticleaderclone_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>LeaderDiesLast</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>EliteRangers_01</Counters>
+		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="for_inf_assaultelites_01" parent_element="cov_inf_arbiter_assaultteam_01" dbid="15571555391561239374">
 		<Flag>UseNameForSelectionDecal</Flag>
