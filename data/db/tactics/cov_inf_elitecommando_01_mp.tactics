@@ -84,11 +84,6 @@
 		</AOEData>
 	</Weapon>
 	<Action>
-		<Name>RageStateCreate</Name>
-		<ActionType>ChangeMode</ActionType>
-		<SquadMode>Sword</SquadMode>
-	</Action>
-	<Action>
 		<Name>SwordAttackAction</Name>
 		<ActionType>HandAttack</ActionType>
 		<Anim noInterrupt="true">SwordAttack</Anim>
@@ -123,7 +118,6 @@
 		<Fatality attacker="fatality_elitehon01_v_spartan04_attacker_01" target="fatality_elitehon01_v_spartan04_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_dualsmg</Fatality>
 		<Fatality attacker="fatality_elitehon01_v_spartan05_attacker_01" target="fatality_elitehon01_v_spartan05_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_dualsmgblue</Fatality>
 		<Fatality attacker="fatality_elitehon01_v_arbiter_attacker_01" target="fatality_elitehon01_v_arbiter_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_arbiter_01</Fatality>
-		<SquadMode>Sword</SquadMode>
 	</Action>
 	<Action>
 		<Name>CarbineRifleAttackAction</Name>
@@ -134,7 +128,6 @@
 		<Weapon>CarbineRifle</Weapon>
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<FullBodyAttackAnim />
-		<SquadMode>Normal</SquadMode>
 	</Action>
 	<Action>
 		<Name>CarbineRifleVehAttackAction</Name>
@@ -145,7 +138,6 @@
 		<Weapon>CarbineRifleVeh</Weapon>
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<FullBodyAttackAnim />
-		<SquadMode>Normal</SquadMode>
 	</Action>
 	<Action>
 		<Name>Garrison</Name>
@@ -224,36 +216,25 @@
 	</Action>
 	<Tactic>
 		<TargetRule>
-			<Ability>Command</Ability>
-			<TargetsGround />
-			<Action>RageStateCreate</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Self</Relation>
-			<Action>RageStateCreate</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
-			<Action>RageStateCreate</Action>
+			<TargetType>for_inf_assaultelites_01</TargetType>
+			<TargetType>for_inf_honorguard_plasmarifle_01</TargetType>
+			<TargetType>_Tech1Flood</TargetType>
+			<TargetType>Hero</TargetType>
+			<TargetType>_Hero</TargetType>
+			<TargetType>Building</TargetType>
+			<Action>SwordAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
-			<Action>SwordAttackAction</Action>
-			<SquadMode>Sword</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
 			<Action>CarbineRifleAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>GroundVehicle</TargetType>
 			<Action>CarbineRifleVehAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>
