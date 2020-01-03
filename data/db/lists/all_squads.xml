@@ -11159,6 +11159,15 @@
 		<BuildPoints>14</BuildPoints>
 	</Squad>
 	<Squad name="unsc_inf_flameMarine_02_sp" parent_element="unsc_inf_flameMarine_02_base" dbid="11563677408483054145" />
+	<Squad name="unsc_inf_flameMarine_01_op" parent_element="unsc_inf_flameMarine_01_base" dbid="11383597097056072168">
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">unsc_inf_flameMarine_01_op</Unit>
+		</Units>
+		<Cost resourcetype="Supplies">80</Cost>
+		<Cost resourcetype="Power">40</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<BuildPoints>14</BuildPoints>
+	</Squad>
 	<Squad name="unsc_inf_floodmarine01" dbid="2303681294535005690" formationType="Flock">
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
@@ -12934,6 +12943,7 @@
 		<Flag>CanBeKnockedDown</Flag>
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>80</ChillDecayPerSecond>
+		<MaxConvertedtoDroneSlots>2</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="unsc_veh_johnson_colossus_01" dbid="9959253001190891698">
 		<CombatRank>7</CombatRank>

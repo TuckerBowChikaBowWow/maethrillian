@@ -3914,7 +3914,7 @@
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">50</Data>
-				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="BuffDuration">999999999999999</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
@@ -3932,7 +3932,7 @@
 			</DataLevel>
 			<DataLevel level="1">
 				<Data type="float" name="AreaRadius">90</Data>
-				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="BuffDuration">999999999999999</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
@@ -3954,7 +3954,7 @@
 			</DataLevel>
 			<DataLevel level="2">
 				<Data type="float" name="AreaRadius">120</Data>
-				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="BuffDuration">999999999999999</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
@@ -4003,7 +4003,7 @@
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">40</Data>
-				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="BuffDuration">999999999999999</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
@@ -4021,7 +4021,7 @@
 			</DataLevel>
 			<DataLevel level="1">
 				<Data type="float" name="AreaRadius">40</Data>
-				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="BuffDuration">999999999999999</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
@@ -4039,7 +4039,7 @@
 			</DataLevel>
 			<DataLevel level="2">
 				<Data type="float" name="AreaRadius">40</Data>
-				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="BuffDuration">999999999999999</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
@@ -4783,7 +4783,7 @@
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="450" Power="300" />
-			<AutoRecharge>160000</AutoRecharge>
+			<AutoRecharge>10000</AutoRecharge>
 			<UIRadius>14</UIRadius>
 			<Decal>AOE_Small</Decal>
 			<DisplayNameID>5026</DisplayNameID>
@@ -7908,7 +7908,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LifeLeech</BuffName>
 			<Cost Supplies="500" Power="150" />
-			<AutoRecharge>175000</AutoRecharge>
+			<AutoRecharge>10000</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -7935,7 +7935,7 @@
 				<Data type="protoobject" name="BuffProcFX">fx_lifeleech_03</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_lifeleechcast_01</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
-				<Data type="float" name="BuffDuration">21</Data>
+				<Data type="float" name="BuffDuration">99999999999999</Data>
 				<Data type="bool" name="AffectsAllies">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="sound" name="HudUpSound" />
@@ -8043,7 +8043,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>Rage</BuffName>
 			<Cost Supplies="0" Power="0" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>10000</AutoRecharge>
 			<UIRadius>12</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -8068,7 +8068,7 @@
 			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">14</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
-				<Data type="float" name="BuffDuration">20</Data>
+				<Data type="float" name="BuffDuration">99999999999999</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="SlowModifier">1.29999995</Data>
@@ -16788,7 +16788,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>HeavyMetal</BuffName>
 			<Cost Supplies="600" Power="150" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>10000</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -16813,7 +16813,7 @@
 				<Data type="float" name="AreaRadius">28</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
-				<Data type="float" name="BuffDuration">21</Data>
+				<Data type="float" name="BuffDuration">99999999999999</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageMitigationScalar">0.300000012</Data>
@@ -17588,7 +17588,7 @@
 			<BuffName>InspireHeroism</BuffName>
 			<BuffNameToReplace>Inspire</BuffNameToReplace>
 			<Cost Supplies="600" Power="200" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>10000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -17614,7 +17614,7 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterType2">TurretBuilding</Data>
 				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
-				<Data type="float" name="BuffDuration">18</Data>
+				<Data type="float" name="BuffDuration">99999999999999</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="bool" name="AffectsAllByFilterType">true</Data>
@@ -21785,7 +21785,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>Invulnerability</BuffName>
 			<Cost Supplies="700" Power="300" />
-			<AutoRecharge>240000</AutoRecharge>
+			<AutoRecharge>10000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -21810,7 +21810,7 @@
 			<DataLevel level="0">
 				<Data type="bool" name="AffectsAllByFilterType">true</Data>
 				<Data type="objecttype" name="FilterType">Mech</Data>
-				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="BuffDuration">99999999999999</Data>
 				<Data type="float" name="SlowModifier">1.5</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
@@ -23582,7 +23582,7 @@
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
 			<Cost Supplies="200" Power="100" />
-			<AutoRecharge>110000</AutoRecharge>
+			<AutoRecharge>10000</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -23608,7 +23608,7 @@
 				<Data type="objecttype" name="FilterType">BasicVehicle</Data>
 				<Data type="objecttype" name="FilterType2">Building</Data>
 				<Data type="objecttype" name="FilterType3">TurretBuilding</Data>
-				<Data type="float" name="BuffDuration">9999999</Data>
+				<Data type="float" name="BuffDuration">99999999999999</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageMitigationScalar">0.899999976</Data>
@@ -32378,7 +32378,7 @@
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
 				<Data type="sound" name="FiredSound">PLAY_SFX_2D_MOM_LP_DEF_BAN_MethaneBombingProjectile</Data>
-				<Data type="protoobject" name="Projectile">fx_proj_vultureNuke_01</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_nukemissile_02</Data>
 				<Data type="bool" name="AreaDropMode">true</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
 				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
@@ -38929,7 +38929,7 @@
 			<BuffName>UnstableConcoction</BuffName>
 			<ProcPowerName>UnstableConcoctionProc3</ProcPowerName>
 			<Cost Supplies="250" Power="150" />
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>10000</AutoRecharge>
 			<UIRadius>29</UIRadius>
 			<Decal>AOE_Medium</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -38956,7 +38956,7 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">26</Data>
+				<Data type="float" name="BuffDuration">99999999999999</Data>
 				<Data type="float" name="SlowModifier">1.14999998</Data>
 				<Data type="float" name="DamageDealtModifier">1.29999995</Data>
 				<Data type="bool" name="ProcPowerOnSquadDeath">true</Data>

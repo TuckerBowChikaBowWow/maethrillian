@@ -477,6 +477,11 @@
 				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
 				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_alone</Target>
 				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_blitz</Target>
+				<Target type="ProtoSquad">unsc_veh_jerome_mantis_01</Target>
+				<Target type="ProtoSquad">unsc_air_nightingale_01_mp_blitz</Target>
+				<Target type="ProtoSquad">cov_veh_wraith_01_mp_fear</Target>
+				<Target type="ProtoSquad">cov_veh_wraith_01_mp_guard</Target>
+				<Target type="ProtoSquad">unsc_inf_flameMarine_01_op</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -654,6 +659,11 @@
 				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
 				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_alone</Target>
 				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_blitz</Target>
+				<Target type="ProtoSquad">unsc_veh_jerome_mantis_01</Target>
+				<Target type="ProtoSquad">unsc_air_nightingale_01_mp_blitz</Target>
+				<Target type="ProtoSquad">cov_veh_wraith_01_mp_fear</Target>
+				<Target type="ProtoSquad">cov_veh_wraith_01_mp_guard</Target>
+				<Target type="ProtoSquad">unsc_inf_flameMarine_01_op</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -831,6 +841,7 @@
 				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
 				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_alone</Target>
 				<Target type="ProtoSquad">cov_inf_generic_brutejumppack_blitz</Target>
+				<Target type="ProtoSquad">unsc_veh_jerome_mantis_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -968,6 +979,9 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_skitterer_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_flameMarine_01_op</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscMedDrones3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscForgePelicanTransport</Effect>
@@ -1353,16 +1367,21 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_skitterer_01</Target>
 			</Effect>
-			<Effect type="UnlockableGodPower" tier="1">UnscBloodlust1</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_flameMarine_01_op</Target>
+			</Effect>
+			<Effect type="UnlockableGodPower" tier="1">UnscHeroism2</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscUnstableCon3</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscHeavyMetal03</Effect>
-			<Effect type="UnlockableGodPower" tier="2">UNSCVehicleAdrenaline2</Effect>
-			<Effect type="UnlockableGodPower" tier="3">CutterBattleHardened2</Effect>
-			<Effect type="UnlockableGodPower" tier="3">JohnsonMechBuff2</Effect>
-			<Effect type="UnlockableGodPower" tier="4">UnscHeroism2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">JohnsonMechBuff2</Effect>
+			<Effect type="UnlockableGodPower" tier="3">CutterBattleHardened1</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="CutterBattleHardened1">CutterBattleHardened2</Effect>
+			<Effect type="UnlockableGodPower" tier="3">UNSCVehicleAdrenaline1</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="UNSCVehicleAdrenaline1">UNSCVehicleAdrenaline2</Effect>
+			<Effect type="UnlockableGodPower" tier="4">UnscBloodlust1</Effect>
 			<Effect type="UnlockableGodPower" tier="4">Jerome_HighPopInspire</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscScorpionTech</Effect>
-			<Effect type="UnlockableGodPower" tier="5">UnscPelicanGunship</Effect>
+			<Effect type="UnlockableGodPower" tier="5">JohnsonEMPBlast2</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
@@ -1374,12 +1393,15 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="UnlockableGodPower" tier="1">CovTeleport1</Effect>
+			<Effect type="UnlockableGodPower" tier="1">CorruptedPoolbuff1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPoolbuff1">CorruptedPoolbuff2</Effect>
 			<Effect type="UnlockableGodPower" tier="1">CovBuffLeech3</Effect>
 			<Effect type="UnlockableGodPower" tier="2">CovBuffRage3</Effect>
 			<Effect type="UnlockableGodPower" tier="2">LekgoloWormBuff3</Effect>
 			<Effect type="UnlockableGodPower" tier="3">ArbiterPlasmaBolt3</Effect>
-			<Effect type="UnlockableGodPower" tier="3">ArbiterConduitofRage3</Effect>
+			<Effect type="UnlockableGodPower" tier="3">ArbiterConduitofRage1</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="ArbiterConduitofRage1">ArbiterConduitofRage2</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="ArbiterConduitofRage2">ArbiterConduitofRage3</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovBloodlust</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovBoundlessRage</Effect>
 			<Effect type="UnlockableGodPower" tier="5">LekgoloEverlasting</Effect>
@@ -18294,7 +18316,6 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="unsc_air_nightingale_01" ToType="unsc_air_nightingale_01_mp_blitz" />
-			<Effect type="ReparentProtoObject" FromType="unsc_veh_flamescorpion_01" ToType="unsc_veh_flamescorpion_01_mp_blitz" />
 			<Effect type="Data" amount="1.14999998" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_air_nightingale_01</Target>
 			</Effect>
