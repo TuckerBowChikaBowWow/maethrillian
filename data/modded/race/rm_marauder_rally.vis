@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="prowler01">
+	<model name="prowler01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\covenant\rostermode\vehicles\rm_marauder_rally\mesh_prowler01</file>
+				<damagefile>units/covenant/rostermode/vehicles/rm_marauder_rally/prowler01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="prowler_turret" tobone="socketbone_turret" frombone="GrannyRootBone_turret" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="prowler_front_left_engine" tobone="socketbone_front_left_engine_0" frombone="GrannyRootBone_front_left_engine_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="prowler_front_right_engine" tobone="socketbone_front_right_engine_0" frombone="GrannyRootBone_front_right_engine_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Driver" tobone="GrannyRootBone_prowler01" frombone="GrannyRootBone_stormbruteleader01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/HeadlightBlisterBack" tobone="bone_vfx_LeftHeadLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/HeadlightBlisterBack" tobone="bone_vfx_RightHeadLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="FoliageForceFile" name="Foliage/prowler" tobone="bone_vfx_HoverPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="SpartanDriver" tobone="GrannyRootBone_prowler01" frombone="GrannyRootBone_stormspartan01" syncanims="true" disregardorient="true" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/WraithHoverLight" tobone="bone_root" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerExhaust" tobone="bone_vfx_ExhaustLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerExhaust" tobone="bone_vfx_ExhaustRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<point pointType="Impact" bone="bone_impact_target_centre" pointData="Metal" />
+			<point pointType="Board" bone="bone_hijack_0" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_idle01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WraithHover" tobone="GrannyRootBone_prowler01" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_walk01</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerEngine" tobone="bone_vfx_RearEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTail" tobone="GrannyRootBone_prowler01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WraithHover" tobone="GrannyRootBone_prowler01" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_walk01</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerEngine" tobone="bone_vfx_RearEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTail" tobone="GrannyRootBone_prowler01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WraithHover" tobone="GrannyRootBone_prowler01" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_walk01</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerEngine" tobone="bone_vfx_RearEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTail" tobone="GrannyRootBone_prowler01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WraithHover" tobone="GrannyRootBone_prowler01" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_attack01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/spartan_hijack_marauder_loop</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateExit" position="0" end="1" name="STOP_SFX_3D_VFX_SpartanHijackEMPChargeLoop" tobone="GrannyRootBone_prowler01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0960000008" end="1" name="Play_SFX_3D_VEH_MetalShakeShort" tobone="GrannyRootBone_gorgon01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.101000004" end="1" name="PLAY_SFX_3D_VEH_BAN_ProwlerEngineRevs" tobone="GrannyRootBone_prowler01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.31400001" end="1" name="Play_SFX_3D_VEH_MetalShakeLong" tobone="GrannyRootBone_gorgon01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.409999996" end="1" name="PLAY_SFX_3D_VEH_HijackVehicleGenericMVSCOV" tobone="GrannyRootBone_prowler01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.589999974" end="1" name="PLAY_SFX_3D_VEH_BAN_ProwlerEngineRevs" tobone="GrannyRootBone_prowler01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.633000016" end="1" name="Play_SFX_3D_VEH_MetalShakeShort" tobone="GrannyRootBone_gorgon01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.782000005" end="1" name="PLAY_SFX_3D_VEH_HijackVehicleGenericMVSCOV" tobone="GrannyRootBone_prowler01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/spartan_hijack_marauder_in</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.754999995" end="1" name="PLAY_SFX_3D_VFX_SpartanHijackEMPChargeLoop" tobone="GrannyRootBone_prowler01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="prowler_turret">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\covenant\rostermode\vehicles\rm_marauder_rally\mesh_turret</file>
+			</asset>
+			<attach type="ModelRef" name="prowler_gunner" tobone="bone_turret" frombone="GrannyRootBone_stormbruteleader01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="prowler_peashooter" tobone="socketbone_peashooter_0" frombone="GrannyRootBone_peashooter_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_attack01_turret</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_BAN_WPN_ProwlerTurret" tobone="GrannyRootBone_turret" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.0250000004" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ProwlerMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.0250000004" end="1" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_idle01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_walk01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_walk01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_walk01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="prowler_front_left_engine">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\covenant\rostermode\vehicles\rm_marauder_rally\mesh_front_left_engine_0</file>
+				<damagefile>units/covenant/rostermode/vehicles/rm_marauder_rally/engine_left</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_idle01_leftengine</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_walk01_leftengine</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerEngine" tobone="bone_vfx_EngineLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerIntake" tobone="bone_vfx_EngineIntakeLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_walk01_leftengine</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerEngine" tobone="bone_vfx_EngineLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerIntake" tobone="bone_vfx_EngineIntakeLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_walk01_leftengine</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerEngine" tobone="bone_vfx_EngineLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerIntake" tobone="bone_vfx_EngineIntakeLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+	</model>
+	<model name="prowler_front_right_engine">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\covenant\rostermode\vehicles\rm_marauder_rally\mesh_front_right_engine_0</file>
+				<damagefile>units/covenant/rostermode/vehicles/rm_marauder_rally/engine_right</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_idle01_rightengine</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_walk01_rightengine</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerEngine" tobone="bone_vfx_EngineRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerIntake" tobone="bone_vfx_EngineIntakeRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_walk01_rightengine</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerEngine" tobone="bone_vfx_EngineRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerIntake" tobone="bone_vfx_EngineIntakeRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_walk01_rightengine</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerEngine" tobone="bone_vfx_EngineRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerIntake" tobone="bone_vfx_EngineIntakeRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+	</model>
+	<model name="prowler_cannon">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/vehicles/prowler01/mesh_cannon_0</file>
+			</asset>
+		</component>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_attack01_cannon</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_idle01_cannon</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Driver">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/infantry/stormbruteleader01/ridermesh_stormbruteleader01_prowler01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormbruteleader01/prowler01_driver_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormbruteleader01/prowler01_driver_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormbruteleader01/prowler01_driver_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormbruteleader01/prowler01_driver_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormbruteleader01/prowler01_driver_attack01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormbruteleader01/prowler_hijack_in</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormbruteleader01/prowler_hijack_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="prowler_gunner">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/infantry/stormbruteleader01/ridermesh_stormbruteleader01_prowler01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormbruteleader01/prowler01_gunner_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormbruteleader01/prowler01_gunner_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormbruteleader01/prowler01_gunner_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormbruteleader01/prowler01_gunner_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormbruteleader01/prowler01_gunner_attack01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormbruteleader01/prowler01_gunner_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/infantry/stormbruteleader01/prowler01_gunner_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="prowler_marine_gunner">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/infantry/stormmarine01/mesh_stormmarine01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormmarine01/prowler_hijacked_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormmarine01/prowler_hijacked_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormmarine01/prowler_hijacked_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormmarine01/prowler_hijacked_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormmarine01/prowler_hijacked_attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="prowler_peashooter">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/rostermode/vehicles/rm_marauder_rally/mesh_peashooter_0</file>
+			</asset>
+		</component>
+		<anim type="PeashootAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/prowler01/prowler_idle01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0" end="1" tobone="bone_peashooter_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_WPN_BAN_GuidedPlasmaAir_Reaver" tobone="bone_peashooter_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/GorgonMissileMuzzle" tobone="GrannyRootBone_peashooter_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.00300000003" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/ScarabMissileMuzzle" tobone="bone_peashooter_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="SpartanDriver">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/infantry/stormspartan02/ridermesh_stormspartan01_prowler01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/prowler_hijacked_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerExhaust" tobone="bone_vfx_ExhaustLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerExhaust" tobone="bone_vfx_ExhaustRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WraithHover" tobone="GrannyRootBone_prowler01" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/prowler_hijacked_idle_01</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerEngine" tobone="bone_vfx_RearEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTail" tobone="GrannyRootBone_prowler01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WraithHover" tobone="GrannyRootBone_prowler01" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/prowler_hijacked_idle_01</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerEngine" tobone="bone_vfx_RearEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTail" tobone="GrannyRootBone_prowler01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WraithHover" tobone="GrannyRootBone_prowler01" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/prowler_hijacked_idle_01</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/ProwlerEngine" tobone="bone_vfx_RearEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTail" tobone="GrannyRootBone_prowler01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WraithHover" tobone="GrannyRootBone_prowler01" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/prowler_hijacked_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

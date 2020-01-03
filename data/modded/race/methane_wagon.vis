@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="methane_wagon01">
+	<model name="methane_wagon01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc5\pack2\units\covenant\vehicles\methane_wagon\mesh_methane_wagon01</file>
+				<damagefile>dlc5/pack2/units/covenant/vehicles/methane_wagon/methane_wagon</damagefile>
+			</asset>
+			<attach type="ModelRef" name="wheel_inner_right" tobone="socketbone_wheel_iner_right_0" frombone="GrannyRootBone_wheel_iner_right_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="wheel_inner_left" tobone="socketbone_wheel_iner_left_0" frombone="GrannyRootBone_wheel_iner_left_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="wheel_outer_right" tobone="socketbone_wheel_outer_right_0" frombone="GrannyRootBone_wheel_outer_right_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="wheel_outer_left" tobone="socketbone_wheel_outer_left_0" frombone="GrannyRootBone_wheel_outer_left_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="cannon" tobone="socketbone_turret_0" frombone="GrannyRootBone_turret_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="FoliageForceFile" name="Foliage/wraith" tobone="bone_vfx_HoverPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Grunt_left" tobone="b_grunt_left_0" frombone="GrannyRootBone_stormgrunt01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Grunt_right" tobone="b_grunt_right_0" frombone="GrannyRootBone_stormgrunt01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="SpartanDriver" tobone="b_grunt_left_0" frombone="GrannyRootBone_stormspartan01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="dummy" tobone="socketbone_turret_0" frombone="bone_FX01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Driver" tobone="b_grunt_left_0" frombone="GrannyRootBone_heavygrunt01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<point pointType="Board" bone="b_hijack_0" pointData="Metal" />
+			<point pointType="Impact" bone="b_hijack_0" pointData="Metal" />
+		</component>
+		<anim type="RangedAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/methane_shell_attack_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/idle_main</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTopIdle" tobone="bone_vfx_RightTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTopIdle" tobone="bone_vfx_LeftTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTopIdle" tobone="bone_vfx_MiddleTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlopIdle" tobone="bone_vfx_RightTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlopIdle" tobone="bone_vfx_LeftTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlopIdle" tobone="bone_vfx_MiddleTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlopIdle" tobone="bone_vfx_LeftTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlopIdle" tobone="bone_vfx_MiddleTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlopIdle" tobone="bone_vfx_RightTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/walk_main</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTail" tobone="GrannyRootBone_wraith01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTireDirt" tobone="bone_vfx_RightOuterWheel" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTireDirt" tobone="bone_vfx_LeftOuterWheel" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTop" tobone="bone_vfx_RightTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTop" tobone="bone_vfx_LeftTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTop" tobone="bone_vfx_MiddleTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_RightTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_LeftTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_MiddleTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_LeftTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_MiddleTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_RightTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="10" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/hijack_methane_wagon_main_in</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTopIdle" tobone="bone_vfx_RightTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTopIdle" tobone="bone_vfx_LeftTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTopIdle" tobone="bone_vfx_MiddleTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_RightTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_LeftTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_MiddleTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_LeftTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_MiddleTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_RightTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/hijack_methane_wagon_main_loop</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTopIdle" tobone="bone_vfx_RightTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTopIdle" tobone="bone_vfx_LeftTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTopIdle" tobone="bone_vfx_MiddleTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_RightTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_LeftTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_MiddleTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_LeftTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_MiddleTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_RightTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/walk_main</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTail" tobone="GrannyRootBone_wraith01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTireDirt" tobone="bone_vfx_RightOuterWheel" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTireDirt" tobone="bone_vfx_LeftOuterWheel" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTop" tobone="bone_vfx_RightTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTop" tobone="bone_vfx_LeftTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTop" tobone="bone_vfx_MiddleTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_RightTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_LeftTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_MiddleTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_LeftTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_MiddleTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_RightTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/walk_main</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTail" tobone="GrannyRootBone_wraith01" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTireDirt" tobone="bone_vfx_RightOuterWheel" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/FoxCannonTireDirt" tobone="bone_vfx_LeftOuterWheel" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTop" tobone="bone_vfx_RightTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTop" tobone="bone_vfx_LeftTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTop" tobone="bone_vfx_MiddleTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_RightTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_LeftTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_MiddleTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_LeftTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_MiddleTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlop" tobone="bone_vfx_RightTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/idle_main</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/dlc5/Powers/methanebomb" tobone="GrannyRootBone_methane_wagon01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/dlc5/Units/MethaneShellExplosion" tobone="GrannyRootBone_methane_wagon01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0" end="1" tobone="GrannyRootBone_methane_wagon01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="AdvancedCameraShake" start="0" position_type="Time" position="0" end="1" tobone="GrannyRootBone_methane_wagon01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedImpactVFX/LargeExplosion" tobone="GrannyRootBone_methane_wagon01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VFX_MediumPlasmaDestruction" tobone="b_root" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/episode2/Units/CorruptionMediumExp" tobone="b_hijack_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTopIdle" tobone="bone_vfx_RightTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTopIdle" tobone="bone_vfx_LeftTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankTopIdle" tobone="bone_vfx_MiddleTankTop" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlopIdle" tobone="bone_vfx_RightTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlopIdle" tobone="bone_vfx_LeftTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlopIdle" tobone="bone_vfx_MiddleTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlopIdle" tobone="bone_vfx_LeftTankTop002" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlopIdle" tobone="bone_vfx_MiddleTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/dlc5/Units/MethaneWagonTankSlopIdle" tobone="bone_vfx_RightTankTop001" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+	</model>
+	<model name="wheel_inner_right">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc5/pack2/units/covenant/vehicles/methane_wagon/mesh_wheel_iner_right_0</file>
+			</asset>
+		</component>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="10" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/hijack_methane_wagon_wheel_in_r_in</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/hijack_methane_wagon_wheel_in_r_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/idle_wheel_iner_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="wheel_inner_left">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc5/pack2/units/covenant/vehicles/methane_wagon/mesh_wheel_iner_left_0</file>
+			</asset>
+		</component>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="10" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/hijack_methane_wagon_wheel_in_l_in</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/hijack_methane_wagon_wheel_in_l_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/idle_wheel_iner_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="wheel_outer_right">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc5/pack2/units/covenant/vehicles/methane_wagon/mesh_wheel_outer_right_0</file>
+			</asset>
+		</component>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="10" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/hijack_methane_wagon_wheel_out_r_in</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/hijack_methane_wagon_wheel_out_r_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/idle_wheel_outer_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="wheel_outer_left">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc5/pack2/units/covenant/vehicles/methane_wagon/mesh_wheel_outer_left_0</file>
+			</asset>
+		</component>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="10" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/hijack_methane_wagon_wheel_out_l_in</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/hijack_methane_wagon_wheel_out_l_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/idle_wheel_outer_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="cannon">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc5/pack2/units/covenant/vehicles/methane_wagon/mesh_turret_0</file>
+				<damagefile>dlc5/pack2/units/covenant/vehicles/methane_wagon/cannon</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/idle_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="RangedAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/methane_shell_attack_turret</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.479999989" end="1" name="vfx/dlc5/Units/MethaneWagonMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.479999989" end="1" name="PLAY_SFX_3D_VEH_BAN_MethaneShell_FireAnim" tobone="GrannyRootBone_turret_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.483999997" end="1" tobone="b_muzzle_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="10" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/hijack_methane_wagon_turret_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/vehicles/methane_wagon01/hijack_methane_wagon_turret_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Grunt_left">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/infantry/stormgrunt_combined01/ridermesh_stormgrunt01_methane_wagon</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/methane_wagon_grunt02_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="PistolAttack1" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle1" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/methane_wagon_grunt02_attack_idle</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0130000003" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.0130000003" end="1" tobone="bone_vfx_MuzzlePoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0130000003" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.289999992" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.289999992" end="1" tobone="bone_vfx_MuzzlePoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.289999992" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.5" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.300000012" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.5" end="1" tobone="bone_vfx_MuzzlePoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.5" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Grunt_right">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/covenant/infantry/stormgrunt_combined01/ridermesh_stormgrunt01_methane_wagon_b</file>
+			</asset>
+		</component>
+		<anim type="PistolAttack2" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle1" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/methane_wagon_grunt01_attack_idle</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.289999992" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.289999992" end="1" tobone="bone_vfx_MuzzlePoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.289999992" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.379999995" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.379999995" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.384000003" end="1" tobone="bone_vfx_MuzzlePoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/infantry/stormgrunt01/methane_wagon_grunt01_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="SpartanDriver">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/infantry/stormspartan02/ridermesh_stormspartan01_methane_wagon</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/unsc/infantry/stormspartan02/methane_wagon_idle</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="dummy">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>vfx/effects/fx_dummy</file>
+			</asset>
+		</component>
+		<anim type="DummyAttack" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/vulture01/idle01_main</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Driver">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc5/pack2/units/covenant/infantry/heavygrunt01/ridermesh_heavygrunt01_methane_wagon</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc5/pack2/animations/covenant/infantry/heavygrunt01/methane_wagon_heavy_grunt_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

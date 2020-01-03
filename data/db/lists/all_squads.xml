@@ -17,7 +17,7 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>2.20000005</AIAttackRank>
-		<BuildPoints>24</BuildPoints>
+		<BuildPoints>1</BuildPoints>
 		<Pop Type="Leader">1</Pop>
 		<HPBar offset="0,7.38000011,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -83,6 +83,14 @@
 			<Unit count="1" role="normal">creep_veh_mariokart_ghost</Unit>
 		</Units>
 	</Squad>
+	<Squad name="creep_veh_mariokart_prowler" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_prowler</Unit>
+		</Units>
+	</Squad>
 	<Squad name="creep_veh_mariokart_flag1" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -114,6 +122,41 @@
 		<Units>
 			<Unit count="1" role="normal">creep_veh_mariokart_flare</Unit>
 		</Units>
+	</Squad>
+	<Squad name="creep_veh_mariokart_lekgolowall2" dbid="12405190681619701066">
+		<CombatRank>5</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23632</DisplayNameID>
+		<RolloverTextID>23633</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<SubSelectSort>5075</SubSelectSort>
+		<LeashDistance>12.3000002</LeashDistance>
+		<LeashDeadzone>3.07500005</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<BuildPoints>1</BuildPoints>
+		<ActiveAbilityType>Block</ActiveAbilityType>
+		<Pop Type="Unit">0</Pop>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">0</Cost>
+		<HPBar offset="0,9.84000015,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_lekgolowall2</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+		</Selection>
+		<TurnRadius min="2" max="5" />
 	</Squad>
 	<Squad name="cov_air_banshee_01" dbid="14987140697294280779" parent_element="cov_air_banshee_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>

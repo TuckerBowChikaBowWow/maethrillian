@@ -1,0 +1,904 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="jackrabbit01">
+	<model name="jackrabbit01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\unsc\vehicles\jackrabbit01\mesh_jackrabbit01</file>
+				<damagefile>units/unsc/vehicles/jackrabbit01/jackrabbit01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="forkrear" tobone="socketbone_forkrear" frombone="GrannyRootBone_forkrear" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Driver" tobone="bone_root" frombone="GrannyRootBone_femalemarine01" syncanims="true" disregardorient="true" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/RearLight" tobone="bone_vfx_RearLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/WarthogCabinLight" tobone="bone_vfx_CabinLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="FoliageForceFile" name="Foliage/jackrabbit_body" tobone="bone_vfx_CentreFoliage" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="forkleft" tobone="socketbone_forkleft" frombone="GrannyRootBone_forkleft_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="forkright" tobone="socketbone_forkright" frombone="GrannyRootBone_forkright_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="SpartanDriver" tobone="bone_root" frombone="GrannyRootBone_stormspartan01" syncanims="true" disregardorient="true" removeimmediately="false" />
+			<point pointType="Board" bone="bone_hijack_0" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="1" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_jackrabbit01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle02_jackrabbit01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle03_jackrabbit01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle04_jackrabbit01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/JackrabbitExhaust" tobone="bone_vfx_ExhaustLeft" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/JackrabbitExhaust" tobone="bone_vfx_ExhaustRight" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WarthogTireDirtIdle" tobone="GrannyRootBone_jackrabbit01" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_jackrabbit01</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_jackrabbit01</file>
+				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="CarWakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="TurretWeaponAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_fire_jackrabbit01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_jackrabbit01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_jackrabbit01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/effects/special/unit_hourglass_01" tobone="b_spine_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/JackRabbitExhaust" tobone="bone_vfx_ExhaustRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/JackRabbitExhaust" tobone="bone_vfx_ExhaustLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_jackrabbit01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/JackRabbitExhaust" tobone="bone_vfx_ExhaustRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/JackRabbitExhaust" tobone="bone_vfx_ExhaustLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/spartan_hijack_jackrabbit_loop</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateExit" position="0" end="1" name="STOP_SFX_3D_VFX_SpartanHijackEMPChargeLoop" tobone="GrannyRootBone_jackrabbit01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0850000009" end="1" name="PLAY_SFX_3D_VEH_UNSC_JackrabbitHijackEngineRevs" tobone="GrannyRootBone_jackrabbit01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.122000001" end="1" name="PLAY_SFX_3D_VEH_SpartanHijackSkid" tobone="GrannyRootBone_jackrabbit01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.31400001" end="1" name="PLAY_SFX_3D_VEH_SpartanHijackSkid" tobone="GrannyRootBone_jackrabbit01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.495000005" end="1" name="PLAY_SFX_3D_VEH_UNSC_JackrabbitHijackEngineRevs" tobone="GrannyRootBone_jackrabbit01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.638000011" end="1" name="PLAY_SFX_3D_VEH_SpartanHijackSkid" tobone="GrannyRootBone_jackrabbit01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/spartan_hijack_jackrabbit_in</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.628000021" end="1" name="PLAY_SFX_3D_VEH_UNSC_JackRabbitAccelerate" tobone="GrannyRootBone_jackrabbit01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.754999995" end="1" name="PLAY_SFX_3D_VFX_SpartanHijackEMPChargeLoop" tobone="GrannyRootBone_jackrabbit01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="wheelright">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\unsc\vehicles\jackrabbit01\mesh_wheelright</file>
+			</asset>
+		</component>
+		<anim type="TurretWeaponAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_fire_wheelright</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="wheelrear">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\unsc\vehicles\jackrabbit01\mesh_wheelrear</file>
+			</asset>
+		</component>
+		<anim type="TurretWeaponAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_fire_wheelrear</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="wheelleft">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\unsc\vehicles\jackrabbit01\mesh_wheelleft</file>
+			</asset>
+		</component>
+		<anim type="TurretWeaponAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_fire_wheelleft</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="turret">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_mongoose_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>units/unsc/vehicles/jackrabbit01/mesh_turret</file>
+					</asset>
+				</logicdata>
+				<logicdata value="rosterMode" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>units/unsc/vehicles/jackrabbit01/mesh_turret</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\unsc\vehicles\jackrabbit01\mesh_turret</file>
+			</asset>
+			<attach type="ModelRef" name="gun" tobone="socketbone_gun" frombone="GrannyRootBone_gun" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="1" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_turret</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle02_turret</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle03_turret</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle04_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurretWeaponAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_fire_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_turret</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/spartan_hijack_jackrabbit_turret_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/spartan_hijack_jackrabbit_turret_in</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="gun">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_mongoose_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>units/unsc/vehicles/jackrabbit01/mesh_gun</file>
+					</asset>
+				</logicdata>
+				<logicdata value="rosterMode" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>units/unsc/vehicles/jackrabbit01/mesh_gun</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\unsc\vehicles\jackrabbit01\mesh_gun</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="1" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_gun</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle02_gun</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle03_gun</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle04_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurretWeaponAttack" exitAction="Transition" tweenTime="22" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_fire_gun</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_WPN_UNSC_JackRabbitGrenadierFire" tobone="GrannyRootBone_gun" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.0500000007" end="1" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.0500000007" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/GrenadeMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/spartan_hijack_jackrabbit_gun_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/spartan_hijack_jackrabbit_gun_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="forkrear">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\unsc\vehicles\jackrabbit01\mesh_forkrear</file>
+				<damagefile>units/unsc/vehicles/jackrabbit01/fork_rear</damagefile>
+			</asset>
+			<attach type="ModelRef" name="wheelrear" tobone="socketbone_wheelrear" frombone="GrannyRootBone_wheelrear" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="FoliageForceFile" name="Foliage/jackrabbit" tobone="bone_vfx_RearWheel" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="1" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_forkrear</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle02_forkrear</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle03_forkrear</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle04_forkrear</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_forkrear</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WarthogTireDirt" tobone="bone_vfx_RearWheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WarthogWheelTopSand" tobone="bone_vfx_RearWheelTop" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_forkrear</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WarthogTireDirt" tobone="bone_vfx_RearWheel" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WarthogWheelTopSand" tobone="bone_vfx_RearWheelTop" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_forkrear</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_forkrear</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/spartan_hijack_jackrabbit_forkrear_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/spartan_hijack_jackrabbit_forkrear_in</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurretWeaponAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_fire_forkrear</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Driver">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/infantry/femalemarine01/ridermesh_femalemarine01_jackrabbit01</file>
+			</asset>
+		</component>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormfemalemarine01/jackrabbit01_run01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Transition" tweenTime="1" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormfemalemarine01/jackrabbit01_idle01</file>
+				<weight>6</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormfemalemarine01/jackrabbit01_idle02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormfemalemarine01/jackrabbit01_idle03</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormfemalemarine01/jackrabbit01_idle04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormfemalemarine01/jackrabbit01_run01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurretWeaponAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormfemalemarine01/jackrabbit01_idle_fire01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormfemalemarine01/jackrabbit01_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormfemalemarine01/jackrabbit01_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormfemalemarine01/jackrabbit01_run01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="1" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormfemalemarine01/spartan_hijack_jackrabbit_driver_in</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="1" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormfemalemarine01/spartan_hijack_jackrabbit_driver_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="forkleft">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/vehicles/jackrabbit01/mesh_forkleft_0</file>
+				<damagefile>units/unsc/vehicles/jackrabbit01/fork_left</damagefile>
+			</asset>
+			<attach type="LightFile" name="Lights/Headlight" tobone="bone_vfx_HeadlightLeft" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="ModelRef" name="mudguardleft" tobone="socketbone_mud_guard_left_0" frombone="GrannyRootBone_mud_guard_left_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="1" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_forkleft</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle02_forkleft</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle03_forkleft</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle04_forkleft</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_forkleft</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_forkleft</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_forkleft</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_forkleft</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurretWeaponAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_fire_forkleft</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_forkleft</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/spartan_hijack_jackrabbit_forkleft_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/spartan_hijack_jackrabbit_forkleft_in</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="forkright">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/vehicles/jackrabbit01/mesh_forkright_0</file>
+				<damagefile>units/unsc/vehicles/jackrabbit01/fork_right</damagefile>
+			</asset>
+			<attach type="LightFile" name="Lights/Headlight" tobone="bone_vfx_HeadlightRight" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="ModelRef" name="mudguardright" tobone="socketbone_mud_guard_right_0" frombone="GrannyRootBone_mud_guard_right_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="1" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_forkright</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle02_forkright</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle03_forkright</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle04_forkright</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_forkright</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_forkright</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_forkright</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_forkright</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurretWeaponAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_fire_forkright</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_forkleft</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/spartan_hijack_jackrabbit_forkright_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/spartan_hijack_jackrabbit_forkright_in</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="mudguardleft">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/vehicles/jackrabbit01/mesh_mud_guard_left_0</file>
+				<damagefile>units/unsc/vehicles/jackrabbit01/mud_guard_left</damagefile>
+			</asset>
+			<attach type="ModelRef" name="wheelleft" tobone="socketbone_wheelleft" frombone="GrannyRootBone_wheelleft" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="FoliageForceFile" name="Foliage/jackrabbit" tobone="bone_vfx_FrontLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="1" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_mud_guard_left</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle02_mud_guard_left</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle03_mud_guard_left</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle04_mud_guard_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_mud_guard_left</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WarthogTireDirt" tobone="bone_vfx_FrontLeft" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WarthogWheelTopSand" tobone="bone_vfx_FrontLeftTop" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_mud_guard_left</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WarthogTireDirt" tobone="bone_vfx_FrontLeft" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WarthogWheelTopSand" tobone="bone_vfx_FrontLeftTop" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="TurretWeaponAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_fire_mud_guard_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_mud_guard_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_mud_guard_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_mud_guard_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="mudguardright">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/vehicles/jackrabbit01/mesh_mud_guard_right_0</file>
+				<damagefile>units/unsc/vehicles/jackrabbit01/mud_guard_right</damagefile>
+			</asset>
+			<attach type="ModelRef" name="wheelright" tobone="socketbone_wheelright" frombone="GrannyRootBone_wheelright" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="FoliageForceFile" name="Foliage/jackrabbit" tobone="bone_vfx_FrontRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="1" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_mud_guard_right</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle02_mud_guard_right</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle03_mud_guard_right</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle04_mud_guard_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_mud_guard_right</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WarthogTireDirt" tobone="bone_vfx_FrontRight" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WarthogWheelTopSand" tobone="bone_vfx_FrontRightTop" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/run01_mud_guard_right</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WarthogTireDirt" tobone="bone_vfx_FrontRight" syncanims="false" disregardorient="true" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/WarthogWheelTopSand" tobone="bone_vfx_FrontRightTop" syncanims="false" disregardorient="true" removeimmediately="false" />
+		</anim>
+		<anim type="TurretWeaponAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_fire_mud_guard_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_mud_guard_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_mud_guard_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/jackrabbit01/idle_mud_guard_right</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="SpartanDriver">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/infantry/stormspartan02/ridermesh_stormspartan01_jackrabbit01</file>
+			</asset>
+		</component>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_run_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_run_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurretWeaponAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_run_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormspartan02/jackrabbit_hijacked_idle_04</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>
