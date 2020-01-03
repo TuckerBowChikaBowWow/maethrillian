@@ -12064,6 +12064,36 @@
 			<Effect type="UnlockableGodPower" tier="5">Flood_Emerge_Infectors</Effect>
 			<Effect type="UnlockableGodPower" tier="5" prereq="Flood_Emerge_Infectors">Flood_Emerge_Infectors2</Effect>
 			<Effect type="UnlockableGodPower" tier="5">FloodBuff</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">fld_custom_carrierform_grunt</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">fld_custom_carrierform_elite</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infectedarbitersniper</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_serina_cryomarines_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_gruntfuelrod_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">fld_veh_cryoscorpion_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_fear</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
 			</Effect>
@@ -12285,6 +12315,36 @@
 			<Effect type="UnlockableGodPower" tier="4">FloodGrizzlyBattalion</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovInvulnerability</Effect>
 			<Effect type="UnlockableGodPower" tier="5">FloodBuffAOM</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">fld_custom_carrierform_grunt</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">fld_custom_carrierform_elite</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infectedarbitersniper</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_serina_cryomarines_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_gruntfuelrod_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">fld_veh_cryoscorpion_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_fear</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
 			</Effect>

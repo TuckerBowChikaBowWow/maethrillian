@@ -173,37 +173,6 @@
 		<ProtoObject>vfx_episode2_units_FloodCommanderAura</ProtoObject>
 	</Action>
 	<Action>
-		<Name>RepairOther</Name>
-		<ActionType>RepairOther</ActionType>
-		<Anim>Idle</Anim>
-		<WorkRange>40</WorkRange>
-		<WorkRate>0.5</WorkRate>
-		<AllowReinforce />
-		<AutoRepair  AutoRepairNeverChangeTarget="false" AutoRepairIdleTime="500" AutoRepairThreshold="1" AutoRepairSearchDistance="40" />
-		<SpecificData>
-			<HealingPoints>
-				<HealingPoint>
-					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
-					<BoneName>GrannyRootBone_commander_01</BoneName>
-					<MaxHealingDistance>40</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
-					<HealOnTheMove />
-					<UseMainHealingTargetWhenAvailable />
-				</HealingPoint>
-				<HealingPoint>
-					<HealingBeamProto>fx_covhealbeam</HealingBeamProto>
-					<BoneName>GrannyRootBone_commander_01</BoneName>
-					<MaxHealingDistance>40</MaxHealingDistance>
-					<TargetType>Flood</TargetType>
-					<AutoReapairOn />
-					<HealOnTheMove />
-					<UseMainHealingTargetWhenAvailable />
-				</HealingPoint>
-			</HealingPoints>
-		</SpecificData>
-	</Action>
-	<Action>
 		<Name>Garrison</Name>
 		<ActionType>Garrison</ActionType>
 		<WorkRange>3.07500005</WorkRange>
@@ -297,12 +266,6 @@
 	<Tactic>
 		<PersistentAction>AreaBuff2</PersistentAction>
 		<PersistentAction>PersistentCollisionAttack</PersistentAction>
-		<PersistentAction>RepairOther</PersistentAction>
-		<TargetRule>
-			<Relation>Ally</Relation>
-			<TargetType>Military</TargetType>
-			<Action>RepairOther</Action>
-		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>

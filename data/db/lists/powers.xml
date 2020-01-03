@@ -31674,7 +31674,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
-			<Cost Supplies="2000" Power="2000" />
+			<Cost Supplies="1000" Power="1200" />
 			<AutoRecharge>150000</AutoRecharge>
 			<UIRadius>40</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -31706,7 +31706,7 @@
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
 				<Data type="sound" name="FiredSound">PLAY_SFX_2D_MOM_LP_DEF_BAN_MethaneBombingProjectile</Data>
-				<Data type="protoobject" name="Projectile">pow_proj_nukemissile_01</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_napalmmissile_03</Data>
 				<Data type="bool" name="AreaDropMode">true</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
 				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
