@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>PlasmaMine</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<UseDPSasDPA />
+		<ImpactEffect doShockwaveAction="true">PlasmaBurn2</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="2" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4" />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>5</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<WeaponType>Mines</WeaponType>
+		<Apply>6</Apply>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<AOERadius>5</AOERadius>
+		<Daze TargetType="Forerunner" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">0.5f</Daze>
+	</Weapon>
+	<Action>
+		<Name>ExplosiveManager</Name>
+		<ActionType>ExplosiveManager</ActionType>
+		<FuseType>Proximity</FuseType>
+		<WorkRange>2</WorkRange>
+		<Weapon>PlasmaMine</Weapon>
+		<DontAutoRestart />
+		<ExplodeOnDeath />
+	</Action>
+	<Tactic>
+		<PersistentAction>ExplosiveManager</PersistentAction>
+	</Tactic>
+</TacticData>

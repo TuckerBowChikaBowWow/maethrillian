@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Ram</Name>
+		<WeaponType>WarthogRam</WeaponType>
+		<DamagePerSecond>0</DamagePerSecond>
+		<ThrowUnits />
+		<FlailThrownUnits />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>30</PhysicsLaunchAngleMax>
+		<PhysicsLaunchAxial />
+		<PhysicsForceMin>1000</PhysicsForceMin>
+		<PhysicsForceMax>1400</PhysicsForceMax>
+		<ImpactEffect size="medium">RamImpact</ImpactEffect>
+		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">0.5f</Slow>
+		<MaxDamagePerRam>0</MaxDamagePerRam>
+		<Filter>Medium</Filter>
+		<MaxInfantrySquadsPerRam>6</MaxInfantrySquadsPerRam>
+	</Weapon>
+	<Action>
+		<Name>PersistentCollisionAttack</Name>
+		<ActionType>CollisionAttack</ActionType>
+		<Weapon>Ram</Weapon>
+		<SecondaryWeapon>RamSecondary</SecondaryWeapon>
+	</Action>
+	<Action>
+		<Name>RamAttack</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Weapon>Ram</Weapon>
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>RamAttack</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+</TacticData>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Action>
+		<Name>OrbitalCleansingAction</Name>
+		<ActionType>OrbitalCleansing</ActionType>
+		<Anim>Idle</Anim>
+		<Duration>0</Duration>
+		<SpecificData>
+			<CleansingBeams>
+				<Beam>
+					<PowerName>RaceEMPDrop</PowerName>
+					<Waypoints>
+						<wp x="0" z="0" />
+						<wp x="0" z="20" />
+						<wp x="20" z="20" />
+						<wp x="20" z="0" />
+						<wp x="20" z="-20" />
+					</Waypoints>
+				</Beam>
+			</CleansingBeams>
+		</SpecificData>
+		<StartDisabled />
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>OrbitalCleansingAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<TargetsGround />
+			<Action>OrbitalCleansingAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
+</TacticData>

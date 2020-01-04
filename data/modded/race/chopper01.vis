@@ -10,7 +10,7 @@
 				<damagefile>units/covenant/vehicles/chopper01/chopper01</damagefile>
 			</asset>
 			<attach type="ModelRef" name="chopper01_frontaxle" tobone="socketbone_frontaxle" frombone="GrannyRootBone_frontaxle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="Driver" tobone="bone_seat_0" frombone="GrannyRootBone_stormbruteleader01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Driver" tobone="bone_seat_0" frombone="GrannyRootBone_stormspartan01" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/HeadlightBlisterBack" tobone="bone_vfx_HeadLightLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/HeadlightBlisterBack" tobone="bone_vfx_HeadLightRight" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/ChopperCabinLight" tobone="bone_vfx_CockpitLight" syncanims="false" disregardorient="false" removeimmediately="false" />
@@ -175,8 +175,6 @@
 				<damagefile>units/covenant/vehicles/chopper01/front_axle</damagefile>
 			</asset>
 			<attach type="ModelRef" name="chopper01_wheel" tobone="socketbone_wheel" frombone="GrannyRootBone_wheel" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="chopper01_gunleft" tobone="socketbone_gunleft_0" frombone="GrannyRootBone_gunleft_0" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="chopper01_gunright" tobone="socketbone_gunright_0" frombone="GrannyRootBone_gunright_0" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<point pointType="Board" bone="bone_hijack_0" pointData="Metal" />
 		</component>
 		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
@@ -614,114 +612,68 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>units/covenant/infantry/stormbruteleader01/ridermesh_stormbruteleader01_chopper01</file>
+				<file>units/unsc/infantry/stormspartan02/mesh_stormspartan01</file>
 			</asset>
 		</component>
 		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle01</file>
-				<weight>10</weight>
+				<file>animations/unsc/infantry/stormspartan02/chopper_hijacked_idle_02</file>
+				<weight>1</weight>
 			</asset>
 			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle02</file>
-				<weight>8</weight>
+				<file>animations/unsc/infantry/stormspartan02/chopper_hijacked_idle_03</file>
+				<weight>1</weight>
 			</asset>
 			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle03</file>
-				<weight>4</weight>
-			</asset>
-			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle04</file>
-				<weight>4</weight>
+				<file>animations/unsc/infantry/stormspartan02/chopper_hijacked_idle_04</file>
+				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Attack_Left" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle01</file>
-				<weight>10</weight>
+				<file>animations/unsc/infantry/stormspartan02/chopper_hijacked_idle_02</file>
+				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Attack_Right" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle01</file>
-				<weight>10</weight>
+				<file>animations/unsc/infantry/stormspartan02/chopper_hijacked_idle_02</file>
+				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle01</file>
-				<weight>10</weight>
+				<file>animations/unsc/infantry/stormspartan02/chopper_hijacked_idle_02</file>
+				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Jog" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle01</file>
-				<weight>10</weight>
+				<file>animations/unsc/infantry/stormspartan02/chopper_hijacked_idle_02</file>
+				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle01</file>
-				<weight>10</weight>
+				<file>animations/unsc/infantry/stormspartan02/chopper_hijacked_idle_02</file>
+				<weight>1</weight>
 			</asset>
 		</anim>
-		<anim type="Gather" exitAction="Transition" tweenTime="15" tweenToAnimation="Gather" uvScrollSpeedX="0" uvScrollSpeedY="0">
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle01</file>
-				<weight>10</weight>
-			</asset>
-			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle02</file>
-				<weight>8</weight>
-			</asset>
-			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle03</file>
-				<weight>4</weight>
-			</asset>
-			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle04</file>
-				<weight>4</weight>
+				<file>animations/unsc/infantry/stormspartan02/chopper_hijacked_idle_02</file>
+				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Exp_Attack_Left" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle01</file>
-				<weight>10</weight>
+				<file>animations/unsc/infantry/stormspartan02/chopper_hijacked_idle_02</file>
+				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="Exp_Attack_Right" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_idle01</file>
-				<weight>10</weight>
-			</asset>
-		</anim>
-		<anim type="HijackIn" exitAction="Transition" tweenTime="15" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
-			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_hijack_in01</file>
-				<weight>10</weight>
-			</asset>
-		</anim>
-		<anim type="HijackLoop" exitAction="Loop" tweenTime="15" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
-			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/chopper01_bruteleader_hijack_loop01</file>
-				<weight>10</weight>
-			</asset>
-		</anim>
-		<anim type="Ram" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
-			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/bruteleader_chopper_ram</file>
-				<weight>1</weight>
-			</asset>
-		</anim>
-		<anim type="Rev" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
-			<asset type="Anim">
-				<file>animations/covenant/infantry/stormbruteleader01/bruteleader_chopper_rev</file>
-				<weight>1</weight>
-			</asset>
-		</anim>
-		<anim type="Transform" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
-			<asset type="Anim">
-				<file>episode2/pack1/animations/covenant/vehicles/chopper01/chopper_transform01_bruterider</file>
+				<file>animations/unsc/infantry/stormspartan02/chopper_hijacked_idle_02</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
