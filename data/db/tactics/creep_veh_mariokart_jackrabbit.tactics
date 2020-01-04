@@ -35,23 +35,14 @@
 			<CleansingBeams>
 				<Beam>
 					<PowerName>RaceEMPDrop</PowerName>
-					<Waypoints>
-						<wp x="0" z="0" />
-						<wp x="0" z="20" />
-						<wp x="20" z="20" />
-						<wp x="20" z="0" />
-						<wp x="20" z="-20" />
-					</Waypoints>
 				</Beam>
 			</CleansingBeams>
 		</SpecificData>
-		<StartDisabled />
 	</Action>
 	<Tactic>
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Action>OrbitalCleansingAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
