@@ -173,7 +173,16 @@
 		<Anim noInterrupt="true">Attack</Anim>
 		<Weapon>Hammer</Weapon>
 		<FullBodyAttackAnim />
-		<InvalidTarget>UberUnit</InvalidTarget>
+		<InvalidTarget>cov_veh_scarab_01</InvalidTarget>
+		<InvalidTarget>cov_veh_scarab_01_mp</InvalidTarget>
+		<InvalidTarget>cov_veh_scarab_base</InvalidTarget>
+		<InvalidTarget>cov_veh_scarab_base_base</InvalidTarget>
+		<InvalidTarget>cov_veh_scarab_base_mp</InvalidTarget>
+		<InvalidTarget>cov_veh_corruptedscarab_01</InvalidTarget>
+		<InvalidTarget>cov_veh_corruptedscarab_01_base</InvalidTarget>
+		<InvalidTarget>cov_veh_corruptedscarab_01_mp</InvalidTarget>
+		<InvalidTarget>cov_veh_arbiterscarab_01</InvalidTarget>
+		<InvalidTarget>cov_veh_methanescarab_01_base</InvalidTarget>
 		<ReactionAnim>Flail</ReactionAnim>
 		<VelocityScalar>22</VelocityScalar>
 		<FollowTarget />
@@ -204,7 +213,7 @@
 	<Weapon>
 		<Name>HammerSiphon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>850</DamagePerSecond>
+		<DamagePerSecond>1250</DamagePerSecond>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
@@ -233,7 +242,7 @@
 		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
 		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
-		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+		<LifeStealRatio shield="false">1</LifeStealRatio>
 	</Weapon>
 	<Weapon>
 		<Name>HammerShockwaveSiphon</Name>
@@ -308,7 +317,16 @@
 		<Anim noInterrupt="true">Attack</Anim>
 		<Weapon>HammerSiphon</Weapon>
 		<FullBodyAttackAnim />
-		<InvalidTarget>UberUnit</InvalidTarget>
+		<InvalidTarget>cov_veh_scarab_01</InvalidTarget>
+		<InvalidTarget>cov_veh_scarab_01_mp</InvalidTarget>
+		<InvalidTarget>cov_veh_scarab_base</InvalidTarget>
+		<InvalidTarget>cov_veh_scarab_base_base</InvalidTarget>
+		<InvalidTarget>cov_veh_scarab_base_mp</InvalidTarget>
+		<InvalidTarget>cov_veh_corruptedscarab_01</InvalidTarget>
+		<InvalidTarget>cov_veh_corruptedscarab_01_base</InvalidTarget>
+		<InvalidTarget>cov_veh_corruptedscarab_01_mp</InvalidTarget>
+		<InvalidTarget>cov_veh_arbiterscarab_01</InvalidTarget>
+		<InvalidTarget>cov_veh_methanescarab_01_base</InvalidTarget>
 		<ReactionAnim>Flail</ReactionAnim>
 		<VelocityScalar>22</VelocityScalar>
 		<FollowTarget />
@@ -439,6 +457,12 @@
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
 			<Action>HammerAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>HammerSiphonAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
