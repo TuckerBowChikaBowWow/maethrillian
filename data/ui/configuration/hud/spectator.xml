@@ -3,27 +3,37 @@
 	<group name="factions">
 		<entry>
 			<key>UNSC</key>
+			<value>../textures/hud/playerID_UNSC</value>
 		</entry>
 		<entry>
 			<key>Covenant</key>
+			<value>../textures/hud/playerID_banished</value>
 		</entry>
 	</group>
 	<group name="teams">
 		<entry>
 			<key>name</key>
+			<value>UIGLOB.EMPTY</value>
+			<value>UIMP.MPGLOBAL.TITLE.REDTEAM</value>
+			<value>UIMP.MPGLOBAL.TITLE.BLUETEAM</value>
 		</entry>
 	</group>
 	<group name="misc">
 		<entry>
 			<key>Status</key>
+			<value>UIHUD.SPECTATOR.ELIMINATED</value>
 		</entry>
 	</group>
 	<group name="combos">
 		<entry>
 			<key>CameraMode</key>
+			<value>UIHUD.SPECTATOR.CAMERAMODE.FREE</value>
+			<value>UIHUD.SPECTATOR.CAMERAMODE.FOLLOW</value>
 		</entry>
 		<entry>
 			<key>FOWMode</key>
+			<value>UIHUD.SPECTATOR.FOWMODE.OFF</value>
+			<value>UIHUD.SPECTATOR.FOWMODE.ON</value>
 		</entry>
 	</group>
 </group>
