@@ -4677,7 +4677,6 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartancutter_01" ToType="unsc_inf_spartanspartancutter_chain_01" />
-			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartancutter_01" ToType="unsc_inf_spartanspartancutter_chain_01" />
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_spartancutter_02">
 				<Target type="ProtoSquad">unsc_inf_spartancutter_01</Target>
 			</Effect>
@@ -4712,7 +4711,6 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartancutter_01" ToType="unsc_inf_spartanspartancutter_laser_01" />
-			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartancutter_01" ToType="unsc_inf_spartanspartancutter_laser_01" />
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_spartancutter_03">
 				<Target type="ProtoSquad">unsc_inf_spartancutter_01</Target>
 			</Effect>
