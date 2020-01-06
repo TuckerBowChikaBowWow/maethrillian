@@ -220,34 +220,6 @@
 	</Leader>
 	<Leader Name="CorruptBrute" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>Covenant</Civ>
-		<Tech>creep_LeaderFlood</Tech>
-		<NameID>7014</NameID>
-		<RichPresenceID>LEADER_GRUNTLEADER</RichPresenceID>
-		<CmsId>14</CmsId>
-		<DescriptionID>7015</DescriptionID>
-		<FlashImg>prophet</FlashImg>
-		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\prophet.ddx</FlashPortrait>
-		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_prophet.ddx</UIControlBackground>
-		<Resource Type="Supplies">600</Resource>
-		<Resource Type="Collectable">0</Resource>
-		<Resource Type="Power">400</Resource>
-		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02_fl" DoppleOnStart="true">game_base_socket_01</StartingUnit>
-		<StartingSquad FlyIn="false" Offset="50,0,-10">flood_inf_generic_core</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,20">flood_inf_generic_core</StartingSquad>
-		<RallyPointOffset>50,0,0</RallyPointOffset>
-		<RepairRate>1</RepairRate>
-		<RepairDelay>20</RepairDelay>
-		<RepairCost Type="Supplies">35</RepairCost>
-		<RepairTime>30</RepairTime>
-		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Leader" Max="1">1</Pop>
-		<Pop Type="HonorGuard" Max="3">3</Pop>
-		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="Decimus" Max="5">3</Pop>
-	</Leader>
-	<Leader Name="Gravemind" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
-		<Civ>Covenant</Civ>
 		<Tech>creep_LeaderAOMFlood</Tech>
 		<NameID>7014</NameID>
 		<RichPresenceID>LEADER_GRUNTLEADER</RichPresenceID>
