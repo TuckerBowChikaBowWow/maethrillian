@@ -12646,15 +12646,15 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
-		<UnlockableActiveAbilityType>Stomp</UnlockableActiveAbilityType>
+		<ActiveAbilityType>Stomp</ActiveAbilityType>
 		<HPBar offset="0,14,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Pop Type="Unit">9</Pop>
-		<Cost ResourceType="Supplies">750</Cost>
-		<Cost ResourceType="Power">120</Cost>
+		<BuildPoints>120</BuildPoints>
+		<Pop Type="Unit">40</Pop>
+		<Cost ResourceType="Supplies">2000</Cost>
+		<Cost ResourceType="Power">2000</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<BuildPoints>42</BuildPoints>
 		<Units>
 			<Unit count="1" role="normal">unsc_veh_johnson_colossus_01</Unit>
 		</Units>
