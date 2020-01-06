@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>SideFrontCannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>225</DamagePerSecond>
+		<DamagePerSecond>175</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_pelicanChainGun_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -28,7 +28,7 @@
 	<Weapon>
 		<Name>SideRearCannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>225</DamagePerSecond>
+		<DamagePerSecond>175</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_pelicanChainGun_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -53,7 +53,7 @@
 	<Weapon>
 		<Name>RocketLauncherLeft</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>2500</DamagePerSecond>
+		<DamagePerSecond>2000</DamagePerSecond>
 		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium">MissileImpact</ImpactEffect>
@@ -83,7 +83,7 @@
 	<Weapon>
 		<Name>RocketLauncherRight</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>2500</DamagePerSecond>
+		<DamagePerSecond>2000</DamagePerSecond>
 		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium">MissileImpact</ImpactEffect>
@@ -227,7 +227,7 @@
 		<Weapon>SideFrontCannon</Weapon>
 		<Beam collideWithUnits="false" collideWithTerrain="false" />
 		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
-		<Duration DurationSpread="2">5</Duration>
+		<Duration DurationSpread="2">10</Duration>
 		<CanOrientOwner>false</CanOrientOwner>
 		<LoopAttackAnim />
 		<PersistBetweenOpps />
@@ -239,7 +239,7 @@
 		<Weapon>SideRearCannon</Weapon>
 		<Beam collideWithUnits="false" collideWithTerrain="false" />
 		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
-		<Duration DurationSpread="2">5</Duration>
+		<Duration DurationSpread="2">10</Duration>
 		<CanOrientOwner>false</CanOrientOwner>
 		<LoopAttackAnim />
 		<PersistBetweenOpps />
@@ -249,16 +249,15 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim attachmentOnly="true">RocketAttackLeft</Anim>
 		<Weapon>RocketLauncherLeft</Weapon>
-		<CanOrientOwner>false</CanOrientOwner>
-		<DontCheckOrientTolerance />
+		<SlaveAttackAction>RocketAttackRightAction</SlaveAttackAction>
+		<Duration DurationSpread="1">6</Duration>
 	</Action>
 	<Action>
 		<Name>RocketAttackRightAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim attachmentOnly="true">RocketAttackRight</Anim>
 		<Weapon>RocketLauncherRight</Weapon>
-		<CanOrientOwner>false</CanOrientOwner>
-		<DontCheckOrientTolerance />
+		<Duration DurationSpread="1">6</Duration>
 	</Action>
 	<Action>
 		<Name>RocketAttackLeftAirAction</Name>
@@ -326,11 +325,6 @@
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
 			<Action>RocketAttackLeftAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<Action>RocketAttackRightAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<TargetType>Flying</TargetType>
