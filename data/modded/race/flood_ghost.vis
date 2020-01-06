@@ -9,13 +9,11 @@
 				<file>episode2\pack1\units\covenant\vehicles\flood_ghost\mesh_ghost01</file>
 				<damagefile>units/covenant/vehicles/ghost01/ghost01</damagefile>
 			</asset>
-			<attach type="ModelRef" name="Driver" tobone="bone_character_attach_0" frombone="GrannyRootBone_stormelite01" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/HeadlightBlisterBack" tobone="bone_vfx_HeadlightLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/HeadlightBlisterBack" tobone="bone_vfx_HeadlightRight" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/GhostCabinLight" tobone="bone_vfx_CabinLight" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="FoliageForceFile" name="Foliage/ghost" tobone="bone_vfx_HoverPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/OmniBackLightGhost" tobone="bone_vfx_BackLight" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="SpartanDriver" tobone="bone_character_attach_0" frombone="GrannyRootBone_stormspartan01" syncanims="true" disregardorient="true" removeimmediately="false" />
 			<point pointType="Board" bone="bone_hijack_0" pointData="Metal" />
 		</component>
 		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
