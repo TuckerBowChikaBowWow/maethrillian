@@ -3776,15 +3776,11 @@
 			</Effect>
 			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
-				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
-				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
-				<Target type="ProtoUnit">flood_inf_infected_gruntfuelrod_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
-				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
-				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
-				<Target type="ProtoUnit">flood_inf_infected_gruntfuelrod_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3828,14 +3824,10 @@
 			</Effect>
 			<Effect type="ReparentProtoObject" FromType="flood_inf_infected_eliteassaultteam_02" ToType="flood_inf_infected_eliteplasmacaster_01" />
 			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
-				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
-				<Target type="ProtoUnit">flood_inf_infected_gruntfuelrod_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
-				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
-				<Target type="ProtoUnit">flood_inf_infected_gruntfuelrod_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
