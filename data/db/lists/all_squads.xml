@@ -4082,10 +4082,46 @@
 		<HealValue>1.75</HealValue>
 	</Squad>
 	<Squad name="cov_veh_prowler_01_sp" parent_element="cov_veh_prowler_01_base" dbid="17981860158827725179" />
-	<Squad name="cov_veh_prowler_02" dbid="15338664881340316255" parent_element="cov_veh_prowler_01">
-		<Units override_type="absolute">
+	<Squad name="cov_veh_prowler_02" dbid="10777214392984915205">
+		<CombatRank>5</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_fox</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>26247</DisplayNameID>
+		<RolloverTextID>26248</RolloverTextID>
+		<RoleTextID>501</RoleTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<SubSelectSort>1505</SubSelectSort>
+		<LeashDistance>20</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>3.5</AIAttackRank>
+		<UnlockableActiveAbilityType>PersonalStealthCloak</UnlockableActiveAbilityType>
+		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<BuildPoints>28</BuildPoints>
+		<Pop Type="Unit">5</Pop>
+		<Cost ResourceType="Supplies">370</Cost>
+		<Cost ResourceType="Power">10</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
+		<Units>
 			<Unit count="1" role="normal">cov_veh_prowler_02</Unit>
 		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Marauder_01</Counters>
+		<MaxConvertedtoDroneSlots>2</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="cov_veh_shadelocust_01" dbid="15261052440451981076">
 		<Flag>UseNameForSelectionDecal</Flag>
@@ -4433,6 +4469,7 @@
 		<BuildPoints>20</BuildPoints>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Cost ResourceType="Power">90</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
 		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
 	<Squad name="cov_veh_wraith_01_mp" parent_element="cov_veh_wraith_01_base" dbid="7645627556186799249">
@@ -6846,8 +6883,8 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="leader">flood_inf_infected_brutespiker_01</Unit>
-			<Unit count="2" role="normal">flood_inf_infected_gruntfuelrod_01</Unit>
+			<Unit count="1" role="leader">flood_inf_infected_eliteassaultteam_02</Unit>
+			<Unit count="3" role="normal">flood_inf_infected_gruntpistol_01</Unit>
 		</Units>
 		<OverrideUnitSoundNames />
 		<LeaderDiesLast />
@@ -9018,13 +9055,14 @@
 	<Squad name="for_inf_assaultelites_01" parent_element="cov_inf_arbiter_assaultteam_01" dbid="15571555391561239374">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
+		<LeaderDiesLast />
 		<BuildPoints>18</BuildPoints>
 		<Pop Type="Unit">-2</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<Units>
-			<Unit count="4" role="normal">cov_inf_assaultgrunt_01</Unit>
+			<Unit count="3" role="normal">cov_inf_assaultgrunt_01</Unit>
 			<Unit count="1" role="leader">cov_inf_arbiter_assaultteamleader_01</Unit>
 		</Units>
 	</Squad>
@@ -9566,11 +9604,12 @@
 		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
 		<HealValue>3</HealValue>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<BuildPoints>120</BuildPoints>
 		<Pop Type="Unit">40</Pop>
 		<Cost ResourceType="Supplies">2000</Cost>
 		<Cost ResourceType="Power">2000</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
+		<HPBar offset="0,3.07500005,0">COV_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
@@ -9578,7 +9617,6 @@
 		</Units>
 		<Flag>DiesWhenFrozen</Flag>
 		<Flag>Repairable</Flag>
-		<Flag>InstantTrainWithRecharge</Flag>
 		<Flag>AlwaysAttackReviveUnits</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>Forerunner</Flag>
@@ -9995,8 +10033,7 @@
 		<CryoPoints>150</CryoPoints>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>14</AIAttackRank>
-		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
-		<BuildPoints>60</BuildPoints>
+		<BuildPoints>120</BuildPoints>
 		<Pop Type="Unit">40</Pop>
 		<Cost ResourceType="Supplies">2000</Cost>
 		<Cost ResourceType="Power">2000</Cost>
@@ -11659,7 +11696,7 @@
 			<Unit count="1" role="leader">unsc_inf_herodropodstRocket_01_mp</Unit>
 			<Unit count="4" role="normal">unsc_inf_herodropodst_02_mp</Unit>
 		</Units>
-		<Pop Type="Unit">7</Pop>
+		<Pop Type="Unit">9</Pop>
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
 		<Flag>KBAware</Flag>
@@ -13146,15 +13183,15 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
-		<UnlockableActiveAbilityType>Stomp</UnlockableActiveAbilityType>
+		<ActiveAbilityType>Stomp</ActiveAbilityType>
 		<HPBar offset="0,14,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Pop Type="Unit">9</Pop>
-		<Cost ResourceType="Supplies">750</Cost>
-		<Cost ResourceType="Power">120</Cost>
+		<BuildPoints>120</BuildPoints>
+		<Pop Type="Unit">40</Pop>
+		<Cost ResourceType="Supplies">2000</Cost>
+		<Cost ResourceType="Power">2000</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<BuildPoints>42</BuildPoints>
 		<Units>
 			<Unit count="1" role="normal">unsc_veh_johnson_colossus_01</Unit>
 		</Units>

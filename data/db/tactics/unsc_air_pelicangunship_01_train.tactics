@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>SideFrontCannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>225</DamagePerSecond>
+		<DamagePerSecond>275</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_pelicanChainGun_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -28,7 +28,7 @@
 	<Weapon>
 		<Name>SideRearCannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>225</DamagePerSecond>
+		<DamagePerSecond>200</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_pelicanChainGun_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -51,69 +51,9 @@
 		<UseGroupRange />
 	</Weapon>
 	<Weapon>
-		<Name>RocketLauncherLeft</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>2500</DamagePerSecond>
-		<WeaponType>LeaderPower</WeaponType>
-		<Projectile>fx_proj_engmissile_01</Projectile>
-		<ImpactEffect size="Medium">MissileImpact</ImpactEffect>
-		<MaxVelocityLead>6.1500001</MaxVelocityLead>
-		<MaxRange>75</MaxRange>
-		<Hardpoint>RocketLauncherLeft</Hardpoint>
-		<TargetPriority type="AirCraft">9</TargetPriority>
-		<TargetPriority type="Infantry">6</TargetPriority>
-		<TargetPriority type="GroundVehicle">10</TargetPriority>
-		<TargetPriority type="TurretBuilding">8</TargetPriority>
-		<TargetPriority type="Building">5</TargetPriority>
-		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>2</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2</PostAttackCooldownMax>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>8</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
-	</Weapon>
-	<Weapon>
-		<Name>RocketLauncherRight</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>2500</DamagePerSecond>
-		<WeaponType>LeaderPower</WeaponType>
-		<Projectile>fx_proj_engmissile_01</Projectile>
-		<ImpactEffect size="Medium">MissileImpact</ImpactEffect>
-		<MaxVelocityLead>6.1500001</MaxVelocityLead>
-		<MaxRange>75</MaxRange>
-		<Hardpoint>RocketLauncherRight</Hardpoint>
-		<TargetPriority type="AirCraft">9</TargetPriority>
-		<TargetPriority type="Infantry">6</TargetPriority>
-		<TargetPriority type="GroundVehicle">10</TargetPriority>
-		<TargetPriority type="TurretBuilding">8</TargetPriority>
-		<TargetPriority type="Building">5</TargetPriority>
-		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>2</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2</PostAttackCooldownMax>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>8</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
-	</Weapon>
-	<Weapon>
 		<Name>RocketLauncherLeftAir</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
+		<DamagePerSecond>350</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium">MissileImpact</ImpactEffect>
@@ -143,7 +83,7 @@
 	<Weapon>
 		<Name>RocketLauncherRightAir</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
+		<DamagePerSecond>350</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium">MissileImpact</ImpactEffect>
@@ -227,7 +167,7 @@
 		<Weapon>SideFrontCannon</Weapon>
 		<Beam collideWithUnits="false" collideWithTerrain="false" />
 		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
-		<Duration DurationSpread="2">5</Duration>
+		<Duration DurationSpread="2">10</Duration>
 		<CanOrientOwner>false</CanOrientOwner>
 		<LoopAttackAnim />
 		<PersistBetweenOpps />
@@ -239,26 +179,10 @@
 		<Weapon>SideRearCannon</Weapon>
 		<Beam collideWithUnits="false" collideWithTerrain="false" />
 		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
-		<Duration DurationSpread="2">5</Duration>
+		<Duration DurationSpread="2">10</Duration>
 		<CanOrientOwner>false</CanOrientOwner>
 		<LoopAttackAnim />
 		<PersistBetweenOpps />
-	</Action>
-	<Action>
-		<Name>RocketAttackLeftAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim attachmentOnly="true">RocketAttackLeft</Anim>
-		<Weapon>RocketLauncherLeft</Weapon>
-		<CanOrientOwner>false</CanOrientOwner>
-		<DontCheckOrientTolerance />
-	</Action>
-	<Action>
-		<Name>RocketAttackRightAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim attachmentOnly="true">RocketAttackRight</Anim>
-		<Weapon>RocketLauncherRight</Weapon>
-		<CanOrientOwner>false</CanOrientOwner>
-		<DontCheckOrientTolerance />
 	</Action>
 	<Action>
 		<Name>RocketAttackLeftAirAction</Name>
@@ -323,22 +247,10 @@
 		<PersistentAction>RightFrontTurretAttackAction</PersistentAction>
 		<PersistentAction>RightRearTurretAttackAction</PersistentAction>
 		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<Action>RocketAttackLeftAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<Action>RocketAttackRightAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<TargetType>Flying</TargetType>
 			<Relation>Enemy</Relation>
 			<Action>RocketAttackLeftAirAction</Action>
 		</TargetRule>
 		<TargetRule>
-			<TargetType>Flying</TargetType>
 			<Relation>Enemy</Relation>
 			<Action>RocketAttackRightAirAction</Action>
 		</TargetRule>

@@ -5682,13 +5682,13 @@
 				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
 				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
 				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
-				<Target type="ProtoUnit">flood_inf_infected_gruntfuelrod_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
 				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
 				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
-				<Target type="ProtoUnit">flood_inf_infected_gruntfuelrod_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5734,12 +5734,12 @@
 			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
 				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
-				<Target type="ProtoUnit">flood_inf_infected_gruntfuelrod_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">flood_inf_infected_assaultrifle_01</Target>
 				<Target type="ProtoUnit">flood_inf_infected_brutespiker_01</Target>
-				<Target type="ProtoUnit">flood_inf_infected_gruntfuelrod_01</Target>
+				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -8603,7 +8603,8 @@
 			<Effect type="UnlockableGodPower" tier="3">LekgoloPincerBeam1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="LekgoloPincerBeam1">LekgoloPincerBeam2</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="LekgoloPincerBeam2">LekgoloPincerBeam3</Effect>
-			<Effect type="UnlockableGodPower" tier="3">CovHunterSpiritAssault</Effect>
+			<Effect type="UnlockableGodPower" tier="3">CorruptedPoolbuff1</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="CorruptedPoolbuff1">CorruptedPoolbuff2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CutterBattleHardened1</Effect>
 			<Effect type="UnlockableGodPower" tier="4">Unbrk_LichAssault</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovMassAssault</Effect>
@@ -8899,9 +8900,6 @@
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_johnson_colossus_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_colossus_upgrade1" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
-			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
 			</Effect>
@@ -8922,6 +8920,12 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_mantis_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_vehicledepot_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_air_destroyer_01</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscCheapTurtle1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscCheapTurtle1">UnscCheapTurtle2</Effect>

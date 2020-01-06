@@ -8,9 +8,10 @@
 		<Projectile>fx_proj_wuvwooBeam_01</Projectile>
 		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
 		<MaxVelocityLead>0</MaxVelocityLead>
-		<MinRange>6</MinRange>
 		<MaxRange>60</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
+		<InfectionTargetType>Military</InfectionTargetType>
+		<TimeToInfect>1</TimeToInfect>
 		<EnableHeightBonusDamage />
 		<AOEData>
 			<Hitbox>
@@ -58,6 +59,7 @@
 		<FullBodyAttackAnim />
 		<ForceAttachmentAnim />
 		<PersistBetweenOpps />
+		<Infection />
 		<LoopAttackAnim />
 	</Action>
 	<Action>

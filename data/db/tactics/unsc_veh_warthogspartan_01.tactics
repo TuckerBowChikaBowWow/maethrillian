@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Machinegun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>245</DamagePerSecond>
+		<DamagePerSecond>385</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_chainGun_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -42,6 +42,22 @@
 		<MovingAccuracy>1</MovingAccuracy>
 		<MovingMaxDeviation>4.5</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<Hardpoint>GaussTurret</Hardpoint>
 		<TargetPriority type="PaintTarget">10</TargetPriority>
 		<TargetPriority type="Infantry">7</TargetPriority>
@@ -57,7 +73,7 @@
 	<Weapon>
 		<Name>Ram</Name>
 		<WeaponType>WarthogRam</WeaponType>
-		<DamagePerSecond>650</DamagePerSecond>
+		<DamagePerSecond>2000</DamagePerSecond>
 		<ThrowUnits />
 		<FlailThrownUnits />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
@@ -69,7 +85,7 @@
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.699999988" yawpitchstrength="3.5" rollstrength="1.5" rotationfrequency="5" translationstrength="0" translationfrequency="6" />
 		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
 		<MaxDamagePerRam>2000</MaxDamagePerRam>
-		<ReflectDamageFactor>1</ReflectDamageFactor>
+		<ReflectDamageFactor>0.25</ReflectDamageFactor>
 		<Filter>Medium</Filter>
 		<AOEData>
 			<Hitbox>
