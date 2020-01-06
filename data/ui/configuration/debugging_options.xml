@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<options>
+	<GraphnodeStatusFilters1>start:states</GraphnodeStatusFilters1>
+	<GraphnodeStatusFilters2>start:screens</GraphnodeStatusFilters2>
+	<GraphnodeStatusFilters3>start:components</GraphnodeStatusFilters3>
+	<GraphnodeStatusFilters4>start:logic</GraphnodeStatusFilters4>
+	<GraphnodeStatusFilters5>start:states|start:screens|start:components</GraphnodeStatusFilters5>
+	<GraphnodeStatusEnabled>true</GraphnodeStatusEnabled>
+	<GraphNodeStatusShowReady>true</GraphNodeStatusShowReady>
+	<GraphNodeStatusShowInited>true</GraphNodeStatusShowInited>
+	<GraphNodeStatusShowNotInited>true</GraphNodeStatusShowNotInited>
+	<GraphNodeStatusShowDestroying>true</GraphNodeStatusShowDestroying>
+	<GraphNodeStatusShowDestroyed>true</GraphNodeStatusShowDestroyed>
+	<DispatchersDisabled>false</DispatchersDisabled>
+	<ListenersDisabled>false</ListenersDisabled>
+	<QueriesDisabled>false</QueriesDisabled>
+	<BypassFrontendUserflow>false</BypassFrontendUserflow>
+	<LogFiltersDebug>!</LogFiltersDebug>
+	<LogFiltersWarning>screen.cpp|config.cpp|xmlQuery.cpp|graphnode_focusable.cpp</LogFiltersWarning>
+	<LogFiltersError>core.cpp|core_parser.cpp|debug_options.cpp|factories.cpp|focus_manager.cpp|graphnode_parser.cpp|config.cpp|component.cpp|graphnode.cpp|graphnode_focusable.cpp|screen.cpp|configurableTimer.cpp|valueStorage.h|xmlQuery.cpp|query.cpp|queryPlaceHolder.h|fileloader.cpp|reader.cpp|styles.cpp|styles_handler.cpp|smart_reader.h</LogFiltersError>
+</options>
