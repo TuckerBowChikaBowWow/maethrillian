@@ -212,6 +212,12 @@
 				<Target type="ProtoSquad">creep_veh_mariokart_marine2</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_mariokart_infectedhog</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">creep_veh_mariokart_infectedghost</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_air_nightingale_01_race</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscBunkerDrop1_Permanent</Effect>
@@ -220,10 +226,11 @@
 			<Effect type="UnlockableGodPower" tier="2">FloodFeastRace</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Race_IceBlock1</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Ep2EMPTowerDrop</Effect>
-			<Effect type="UnlockableGodPower" tier="4"></Effect>
-			<Effect type="UnlockableGodPower" tier="4"></Effect>
-			<Effect type="UnlockableGodPower" tier="5"></Effect>
-			<Effect type="UnlockableGodPower" tier="5"></Effect>
+			<Effect type="UnlockableGodPower" tier="4">LekgoloWallsPermanent1</Effect>
+			<Effect type="UnlockableGodPower" tier="4">LekgoloWallsPermanent2</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="LekgoloWallsPermanent2">LekgoloWallsPermanent3</Effect>
+			<Effect type="UnlockableGodPower" tier="5">UnscBunkerDrop1_Permanent1</Effect>
+			<Effect type="UnlockableGodPower" tier="5">UnscBunkerDrop1_Permanent2</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
