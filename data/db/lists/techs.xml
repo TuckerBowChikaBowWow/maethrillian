@@ -259,18 +259,18 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartancutter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpjerome_01" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartancutter_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_laser" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_new" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_laser" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_new" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_laser" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_new" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
@@ -4628,6 +4628,111 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="unsc_spartan_upgrade1_new" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27798</DisplayNameID>
+		<RolloverTextID>27799</RolloverTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">300</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>25</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">unsc_basic</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_spartancutter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.35000002" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_spartancutter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.35000002" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_spartancutter_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade1">
+				<Target type="ProtoSquad">unsc_inf_spartancutter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="GroundPoundHijackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartancutter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="VehicleJoin" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartancutter_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_spartan_upgrade2_new" type="Normal" Alpha="0">
+		<DBID>1915</DBID>
+		<DisplayNameID>27804</DisplayNameID>
+		<RolloverTextID>27805</RolloverTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">450</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
+		<ResearchPoints>30</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">unsc_spartan_upgrade1_new</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartancutter_01" ToType="unsc_inf_spartanspartancutter_chain_01" />
+			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartancutter_01" ToType="unsc_inf_spartanspartancutter_chain_01" />
+			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_spartancutter_02">
+				<Target type="ProtoSquad">unsc_inf_spartancutter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_spartancutter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.79999995" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_spartancutter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.79999995" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_spartancutter_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2_new">
+				<Target type="ProtoSquad">unsc_inf_spartancutter_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_spartan_upgrade3_new" type="Normal" Alpha="0">
+		<DBID>1915</DBID>
+		<DisplayNameID>22480</DisplayNameID>
+		<RolloverTextID>22481</RolloverTextID>
+		<PrereqTextID>234</PrereqTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
+		<ResearchPoints>35</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">unsc_spartan_upgrade2_new</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartancutter_01" ToType="unsc_inf_spartanspartancutter_laser_01" />
+			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartancutter_01" ToType="unsc_inf_spartanspartancutter_laser_01" />
+			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_spartancutter_03">
+				<Target type="ProtoSquad">unsc_inf_spartancutter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_spartancutter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_spartancutter_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_spartancutter_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade3_new">
+				<Target type="ProtoSquad">unsc_inf_spartancutter_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="unsc_LeaderCutter" type="Normal">
 		<DBID>1917</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -4731,18 +4836,18 @@
 				<Target type="ProtoSquad">unsc_air_destroyer_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartancutter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpjerome_01" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartancutter_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_laser" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_new" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_laser" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_new" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_laser" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_new" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
