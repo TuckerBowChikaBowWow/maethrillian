@@ -4072,6 +4072,7 @@
 		<BuildPoints>20</BuildPoints>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Cost ResourceType="Power">90</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
 		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
 	<Squad name="cov_veh_wraith_01_mp" parent_element="cov_veh_wraith_01_base" dbid="7645627556186799249">
@@ -8536,13 +8537,14 @@
 	<Squad name="for_inf_assaultelites_01" parent_element="cov_inf_arbiter_assaultteam_01" dbid="15571555391561239374">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
+		<LeaderDiesLast />
 		<BuildPoints>18</BuildPoints>
 		<Pop Type="Unit">-2</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<Units>
-			<Unit count="4" role="normal">cov_inf_assaultgrunt_01</Unit>
+			<Unit count="3" role="normal">cov_inf_assaultgrunt_01</Unit>
 			<Unit count="1" role="leader">cov_inf_arbiter_assaultteamleader_01</Unit>
 		</Units>
 	</Squad>
@@ -9084,11 +9086,12 @@
 		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
 		<HealValue>3</HealValue>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<BuildPoints>120</BuildPoints>
 		<Pop Type="Unit">40</Pop>
 		<Cost ResourceType="Supplies">2000</Cost>
 		<Cost ResourceType="Power">2000</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
+		<HPBar offset="0,3.07500005,0">COV_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
@@ -9096,7 +9099,6 @@
 		</Units>
 		<Flag>DiesWhenFrozen</Flag>
 		<Flag>Repairable</Flag>
-		<Flag>InstantTrainWithRecharge</Flag>
 		<Flag>AlwaysAttackReviveUnits</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>Forerunner</Flag>
@@ -11158,7 +11160,7 @@
 			<Unit count="1" role="leader">unsc_inf_herodropodstRocket_01_mp</Unit>
 			<Unit count="4" role="normal">unsc_inf_herodropodst_02_mp</Unit>
 		</Units>
-		<Pop Type="Unit">7</Pop>
+		<Pop Type="Unit">9</Pop>
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
 		<Flag>KBAware</Flag>
@@ -11288,10 +11290,10 @@
 		<UnlockableActiveAbilityType>Hijack</UnlockableActiveAbilityType>
 		<AggroDistance>9.22500038</AggroDistance>
 		<HealValue>1.3787878</HealValue>
-		<BuildPoints>55</BuildPoints>
+		<BuildPoints>42</BuildPoints>
 		<Pop Type="Spartan">1</Pop>
-		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power">275</Cost>
+		<Cost ResourceType="Supplies">175</Cost>
+		<Cost ResourceType="Power">135</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,4.92000008,0">UNSC_HealthShield</HPBar>
 		<Birth>Trained</Birth>
