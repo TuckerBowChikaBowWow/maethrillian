@@ -18,15 +18,7 @@
 		<BorderMin>0</BorderMin>
 		<BorderMax>1</BorderMax>
 		<BorderActive>false</BorderActive>
-		<Icons>
-			<Icon u="0" v="0" size="64">Flare</Icon>
-			<Icon u="0.25" v="0" size="64">Building</Icon>
-			<Icon u="0.5" v="0" size="64">Command</Icon>
-			<Icon u="0.75" v="0" size="64">Flag</Icon>
-			<Icon u="0" v="0.25" size="64">Circle</Icon>
-			<Icon u="0.25" v="0.25" size="64">Square</Icon>
-			<Icon u="0.5" v="0.25" size="64">Triangle</Icon>
-		</Icons>
+		<Icons />
 		<Opacity>1</Opacity>
 	</Minimap>
 	<CommanderView />
@@ -238,83 +230,21 @@
 	</Resources>
 	<Pops>
 		<Pop>
-			<FlashUI>
-				<CostPanelFrame>6</CostPanelFrame>
-			</FlashUI>Unit</Pop>
+			<FlashUI />Unit</Pop>
 	</Pops>
 	<Floaty>
-		<IconSize>30 30</IconSize>
+		<IconSize>0 0</IconSize>
 	</Floaty>
 	<PlayerStats>
 		<Font>Denmark 14</Font>
 		<Stats>
-			<Stat type="Pop">
-				<IconPosition>344 0 374 30</IconPosition>
-				<ValuePosition>378 2 478 28</ValuePosition>
-				<IconPositionSV1>31 0 61 30</IconPositionSV1>
-				<ValuePositionSV1>65 2 125 28</ValuePositionSV1>
-				<IconPositionSV2>711 0 741 30</IconPositionSV2>
-				<ValuePositionSV2>745 2 805 28</ValuePositionSV2>
-				<IconPositionSH1>681 0 711 30</IconPositionSH1>
-				<ValuePositionSH1>715 2 775 28</ValuePositionSH1>
-				<IconPositionSH2>681 320 711 350</IconPositionSH2>
-				<ValuePositionSH2>715 322 775 348</ValuePositionSH2>Unit</Stat>
-			<Stat type="Resource">
-				<IconPosition>532 0 562 30</IconPosition>
-				<ValuePosition>566 2 666 28</ValuePosition>
-				<IconPositionSV1>126 0 156 30</IconPositionSV1>
-				<ValuePositionSV1>160 2 260 28</ValuePositionSV1>
-				<IconPositionSV2>806 0 836 30</IconPositionSV2>
-				<ValuePositionSV2>840 2 940 28</ValuePositionSV2>
-				<IconPositionSH1>776 0 806 30</IconPositionSH1>
-				<ValuePositionSH1>810 2 910 28</ValuePositionSH1>
-				<IconPositionSH2>776 320 806 350</IconPositionSH2>
-				<ValuePositionSH2>810 322 910 348</ValuePositionSH2>Power</Stat>
-			<Stat type="Resource">
-				<IconPosition>680 0 710 30</IconPosition>
-				<ValuePosition>714 2 814 28</ValuePosition>
-				<IconPositionSV1>274 0 304 30</IconPositionSV1>
-				<ValuePositionSV1>308 2 408 28</ValuePositionSV1>
-				<IconPositionSV2>954 0 984 30</IconPositionSV2>
-				<ValuePositionSV2>988 2 1088 28</ValuePositionSV2>
-				<IconPositionSH1>924 0 954 30</IconPositionSH1>
-				<ValuePositionSH1>958 2 1058 28</ValuePositionSH1>
-				<IconPositionSH2>924 320 954 350</IconPositionSH2>
-				<ValuePositionSH2>958 322 1058 348</ValuePositionSH2>Supplies</Stat>UNSC</Stats>
+			<Stat type="Pop">Unit</Stat>
+			<Stat type="Resource">Power</Stat>
+			<Stat type="Resource">Supplies</Stat>UNSC</Stats>
 		<Stats>
-			<Stat type="Pop">
-				<IconPosition>344 0 374 30</IconPosition>
-				<ValuePosition>378 2 478 28</ValuePosition>
-				<IconPositionSV1>31 0 61 30</IconPositionSV1>
-				<ValuePositionSV1>65 2 125 28</ValuePositionSV1>
-				<IconPositionSV2>711 0 741 30</IconPositionSV2>
-				<ValuePositionSV2>745 2 805 28</ValuePositionSV2>
-				<IconPositionSH1>651 0 681 30</IconPositionSH1>
-				<ValuePositionSH1>685 2 745 28</ValuePositionSH1>
-				<IconPositionSH2>651 320 681 350</IconPositionSH2>
-				<ValuePositionSH2>685 322 745 348</ValuePositionSH2>Unit</Stat>
-			<Stat type="Resource">
-				<IconPosition>532 0 562 30</IconPosition>
-				<ValuePosition>566 2 666 28</ValuePosition>
-				<IconPositionSV1>126 0 156 30</IconPositionSV1>
-				<ValuePositionSV1>160 2 260 28</ValuePositionSV1>
-				<IconPositionSV2>806 0 836 30</IconPositionSV2>
-				<ValuePositionSV2>840 2 940 28</ValuePositionSV2>
-				<IconPositionSH1>746 0 776 30</IconPositionSH1>
-				<ValuePositionSH1>780 2 880 28</ValuePositionSH1>
-				<IconPositionSH2>746 320 776 350</IconPositionSH2>
-				<ValuePositionSH2>780 322 880 348</ValuePositionSH2>Power</Stat>
-			<Stat type="Resource">
-				<IconPosition>680 0 710 30</IconPosition>
-				<ValuePosition>714 2 814 28</ValuePosition>
-				<IconPositionSV1>274 0 304 30</IconPositionSV1>
-				<ValuePositionSV1>308 2 408 28</ValuePositionSV1>
-				<IconPositionSV2>954 0 984 30</IconPositionSV2>
-				<ValuePositionSV2>988 2 1088 28</ValuePositionSV2>
-				<IconPositionSH1>894 0 924 30</IconPositionSH1>
-				<ValuePositionSH1>928 2 1028 28</ValuePositionSH1>
-				<IconPositionSH2>894 320 924 350</IconPositionSH2>
-				<ValuePositionSH2>928 322 1028 348</ValuePositionSH2>Supplies</Stat>Covenant</Stats>
+			<Stat type="Pop">Unit</Stat>
+			<Stat type="Resource">Power</Stat>
+			<Stat type="Resource">Supplies</Stat>Covenant</Stats>
 	</PlayerStats>
 	<CircleMenu>
 		<FadeTime>0.25</FadeTime>
@@ -336,18 +266,18 @@
 	</CircleMenu>
 	<FlashResources>
 		<Reticle Type="UNSC">
-			<Flash>ui\legacy\hud_reticle\hud_reticle.gfx</Flash>
-			<Data>ui\legacy\hud_reticle\hud_reticle.xml</Data>
+			<Flash />
+			<Data />
 		</Reticle>
 		<Reticle Type="Covenant">
-			<Flash>ui\legacy\hud_reticle\hud_reticle.gfx</Flash>
-			<Data>ui\legacy\hud_reticle\hud_reticle.xml</Data>
+			<Flash />
+			<Data />
 		</Reticle>
 	</FlashResources>
 	<Tribute>
-		<Resource ItemStringID="20001" DetailStringID="20005" ReceivedStringID="22009" ItemLoc1="2" ItemLoc2="6" ItemLoc3="5">Supplies</Resource>
+		<Resource>Supplies</Resource>
 	</Tribute>
 	<Tribute>
-		<Resource ItemStringID="20000" DetailStringID="20004" ReceivedStringID="22008" ItemLoc1="2" ItemLoc2="6" ItemLoc3="5">Power</Resource>
+		<Resource>Power</Resource>
 	</Tribute>
 </UIGame>
