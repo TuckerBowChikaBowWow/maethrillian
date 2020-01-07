@@ -244,6 +244,11 @@
 		<PersistentAction>PassengerRocketAttackAction</PersistentAction>
 		<PersistentAction>PersistentCollisionAttack</PersistentAction>
 		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>PassengerRocketAttackAction</Action>
+			<AutoTargetSquadMode>Normal</AutoTargetSquadMode>
+		</TargetRule>
+		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
 			<Action>GatherCollectables</Action>
