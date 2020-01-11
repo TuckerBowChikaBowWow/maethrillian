@@ -2390,6 +2390,126 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="GodPower" amount="1">_RallyPoint</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticleader_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_sesahereticleader_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_sesahereticleader_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_sesahereticleader_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase1sock_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase2sock_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase3sock_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase1sock_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase2sock_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase3sock_01_mp</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_generic_core" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_minibase1sock_01_base</Target>
 			</Effect>
@@ -8703,6 +8823,416 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_gruntsquad_upgrade2" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_assaultteam_upgrade0" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_assaultteam_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_sesahereticleader_upgrade1" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27828</DisplayNameID>
+		<RolloverTextID>27829</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<Status>OBTAINABLE</Status>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">300</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>25</ResearchPoints>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_basic</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="OrbitalCleansingAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.2" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_sesahereticleader_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27830</DisplayNameID>
+		<RolloverTextID>27831</RolloverTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<Status>OBTAINABLE</Status>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">450</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>30</ResearchPoints>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_sesahereticleader_upgrade1</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="OrbitalCleansingAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="OrbitalCleansingActionUpgrade" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+				<Target type="ProtoUnit">cov_inf_hereticleaderclone_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+				<Target type="ProtoUnit">cov_inf_hereticleaderclone_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+				<Target type="ProtoUnit">cov_inf_hereticleaderclone_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_sesahereticleader_upgrade3" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>27832</DisplayNameID>
+		<RolloverTextID>27833</RolloverTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>35</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_personalshield</ResearchCompleteSound>
+		<Prereqs>
+			<TechStatus status="Active">cov_sesahereticleader_upgrade2</TechStatus>
+		</Prereqs>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+				<Target type="ProtoUnit">cov_inf_hereticleaderclone_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+				<Target type="ProtoUnit">cov_inf_hereticleaderclone_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaRifleAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="PlasmaCasterAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlasmaRifleAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleaderclone_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="PlasmaCasterAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleaderclone_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleaderclone_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="_POWER_SesaAggressorSentinel" type="Normal">
+		<DBID>1963</DBID>
+		<DisplayNameID>26016</DisplayNameID>
+		<RolloverTextID>26016</RolloverTextID>
+		<PrereqTextID>26016</PrereqTextID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="covenant_LeaderHeretic" type="Normal">
+		<DBID>2104</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticleader_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_sesahereticleader_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_sesahereticleader_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_sesahereticleader_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">cov_heretic_gruntsquad</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">unsc_multiplayer_marines1</Target>
+			</Effect>
+			<Effect type="UnlockableGodPower" tier="1">CovScoutMine1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="CovScoutMine1">CovScoutMine2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">Unbrk_Overcharge1_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="Unbrk_Overcharge1_mp">Unbrk_Overcharge2_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="Unbrk_Overcharge2_mp">Unbrk_Overcharge3_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="2">CovExtraction1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="CovExtraction1">CovExtraction2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">UnscArkDefense1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="UnscArkDefense1">UnscArkDefense2</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="UnscArkDefense2">UnscArkDefense3</Effect>
+			<Effect type="UnlockableGodPower" tier="3">Unbrk_ScatterBeam1_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam1_mp">Unbrk_ScatterBeam2_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam2_mp">Unbrk_ScatterBeam3_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="3">CovSpiritSesaGunship1</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="CovSpiritSesaGunship1">CovSpiritSesaGunship2</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="CovSpiritSesaGunship2">CovSpiritSesaGunship3</Effect>
+			<Effect type="UnlockableGodPower" tier="4">SesaAggressorSentinel</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="SesaAggressorSentinel">UnscSentinelSynergy</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovDisplacement</Effect>
+			<Effect type="UnlockableGodPower" tier="5">SesaArkCleansing</Effect>
+			<Effect type="UnlockableGodPower" tier="5">CovBoundlessRage</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_arbiter_assaultteam_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_arbiter_assaultteam_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_arbiterenforcer</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_generic_arbiterenforcer" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_bruteJumpPack</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_bruteJumpPack_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_bruteJumpPack_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_jackal_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_arbitersniper_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_arbitersniper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_bruteHonour_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_bruteJumpPack_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_bruteJumpPack_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_ghost_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_ghost_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_ghost_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_ghost_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_atrioxchosen_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_bruteHonour_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_elitecommando_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade4" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade4" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade4" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade4" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_hereticelite_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteJumpPack_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_generic_brutejumppack" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_assaultteam_upgrade0" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
