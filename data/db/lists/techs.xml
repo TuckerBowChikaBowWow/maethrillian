@@ -2481,13 +2481,13 @@
 				<Target type="ProtoUnit">cov_bldg_builder_04_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_minibase1sock_01_mp</Target>
+				<Target type="ProtoUnit">cov_bldg_minibase1sock_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_minibase2sock_01_mp</Target>
+				<Target type="ProtoUnit">cov_bldg_minibase2sock_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_minibase3sock_01_mp</Target>
+				<Target type="ProtoUnit">cov_bldg_minibase3sock_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01_mp</Target>
@@ -2502,13 +2502,13 @@
 				<Target type="ProtoUnit">cov_bldg_builder_04_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_minibase1sock_01_mp</Target>
+				<Target type="ProtoUnit">cov_bldg_minibase1sock_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_minibase2sock_01_mp</Target>
+				<Target type="ProtoUnit">cov_bldg_minibase2sock_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_minibase3sock_01_mp</Target>
+				<Target type="ProtoUnit">cov_bldg_minibase3sock_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_generic_core" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_minibase1sock_01_base</Target>
@@ -3898,6 +3898,13 @@
 			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">flood_inf_infected_eliteassaultteam_02</Target>
 				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
+				<Target type="ProtoUnit">cov_inf_hereticelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.5" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.2" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_hereticelite_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3945,6 +3952,48 @@
 			</Effect>
 			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">flood_inf_infected_gruntpistol_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase1sock_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase2sock_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase3sock_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase1sock_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase2sock_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase3sock_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -8829,6 +8878,138 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_assaultteam_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_heretic_gruntsquad" type="Normal">
+		<DBID>1963</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Effects>
+			<Effect type="Data" amount="1.153846154" subtype="MaximumVelocity" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_elitegrunt_01</Target>
+				<Target type="ProtoUnit">cov_inf_arbiter_eliteleader_01</Target>
+				<Target type="ProtoUnit">cov_inf_arbiter_elitesubleader_01</Target>
+				<Target type="ProtoUnit">cov_inf_shipmastergrunt_01</Target>
+				<Target type="ProtoUnit">cov_inf_shipmaster_eliteLeader_01</Target>
+				<Target type="ProtoUnit">cov_inf_shipmaster_elitesubleader_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_hereticelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_hereticelite_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_generic_grunt</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_grunt_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_grunt_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase1sock_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase2sock_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase3sock_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_hereticelite_upgrade1" type="Normal">
+		<Prereqs>
+			<TechStatus status="Active">cov_basic</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">300</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>25</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticelite_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_hereticelite_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_hereticelite_upgrade2" type="Normal">
+		<DBID>1915</DBID>
+		<DisplayNameID>1076</DisplayNameID>
+		<RolloverTextID>1077</RolloverTextID>
+		<PrereqTextID>241</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">cov_hereticelite_upgrade1</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">550</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>30</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
+		<Effects>
+			<Effect type="ReparentProtoSquad" FromType="cov_inf_hereticelite_01" ToType="cov_inf_hereticelite_02" />
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase1sock_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase2sock_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase3sock_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase1sock_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase2sock_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticelite_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_minibase3sock_01_mp</Target>
 			</Effect>
 		</Effects>
 	</Tech>
