@@ -1,35 +1,9 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>InCoverPlasmaRifle</Name>
-		<AttackRate>2</AttackRate>
-		<DamagePerSecond>393</DamagePerSecond>
-		<WeaponType>BlastExplosive</WeaponType>
-		<Projectile>fx_proj_plasmaRifle_03</Projectile>
-		<ImpactEffect size="small">MediumPlasmaCannonImpact</ImpactEffect>
-		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>50</MaxRange>
-		<Accuracy>1</Accuracy>
-		<MaxDeviation>7</MaxDeviation>
-		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>10.5</MovingMaxDeviation>
-		<EnableHeightBonusDamage />
-		<TargetPriority type="Flying">10</TargetPriority>
-		<TargetPriority type="Infantry">7</TargetPriority>
-		<TargetPriority type="GroundVehicle">4</TargetPriority>
-		<TargetPriority type="TurretBuilding">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
-		<VisualAmmo>4</VisualAmmo>
-		<Slow TargetType="NonFlying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.15f</Slow>
-	</Weapon>
-	<Weapon>
 		<Name>PlasmaRifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>393</DamagePerSecond>
+		<DamagePerSecond>350</DamagePerSecond>
 		<WeaponType>BlastExplosive</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_03</Projectile>
 		<ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
@@ -49,22 +23,24 @@
 		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
 		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
 		<VisualAmmo>4</VisualAmmo>
-		<Slow TargetType="NonFlying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.15f</Slow>
 	</Weapon>
 	<Weapon>
-		<Name>AirPlasmaRifle</Name>
+		<Name>PlasmaCaster</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>393</DamagePerSecond>
-		<WeaponType>BlastExplosive</WeaponType>
-		<Projectile>fx_proj_plasmaRifle_03</Projectile>
-		<ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
-		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>55</MaxRange>
+		<DamagePerSecond>438</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_03</Projectile>
+		<ImpactEffect doShockwaveAction="true">BruteShotImpact3</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
-		<MaxDeviation>7</MaxDeviation>
+		<MaxDeviation>1</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>10.5</MovingMaxDeviation>
-		<EnableHeightBonusDamage />
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
@@ -75,44 +51,97 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>6</Radius>
+				<Radius>4</Radius>
 				<DamageRatio>60</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>10</Radius>
+				<Radius>8</Radius>
 				<DamageRatio>25</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<TargetPriority type="Flying">10</TargetPriority>
+		<Slow TargetType="NonFlying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
 		<VisualAmmo>4</VisualAmmo>
-		<Slow TargetType="Flying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.15f</Slow>
+	</Weapon>
+	<Weapon>
+		<Name>Grenade</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>vfx_dlc2_units_plasmagrenadetrail</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">PlasmaGrenadeExplosion</ImpactEffect>
+		<MaxVelocityLead>21</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>900</PhysicsForceMin>
+		<PhysicsForceMax>1100</PhysicsForceMax>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>20</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>4</PreAttackCooldownMax>
+		<PostAttackCooldownMin>8</PostAttackCooldownMin>
+		<PostAttackCooldownMax>8</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="Aircraft">-1</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
 	<Action>
-		<Name>InCoverPlasmaRifleAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>Attack</Anim>
-		<Weapon>InCoverPlasmaRifle</Weapon>
-		<FullBodyAttackAnim />
-		<FindBetterAction />
-	</Action>
-	<Action>
-		<Name>AirPlasmaRifleAttackAction</Name>
+		<Name>PlasmaCasterAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>Attack</Anim>
 		<MoveAnim>AttackMove</MoveAnim>
-		<Weapon>AirPlasmaRifle</Weapon>
+		<Weapon>PlasmaCaster</Weapon>
 		<FullBodyAttackAnim />
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<FindBetterAction />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GrenadeAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>AttackGrenade</Anim>
+		<Weapon>Grenade</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
+		<FindBetterAction />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>PlasmaRifleAttackAction</Name>
@@ -122,15 +151,6 @@
 		<Weapon>PlasmaRifle</Weapon>
 		<FullBodyAttackAnim />
 		<Strafing turnRate="180" trackingSpeed="60" />
-		<FindBetterAction />
-	</Action>
-	<Action>
-		<Name>InCoverGrenadeAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>AttackGrenade</Anim>
-		<Weapon>InCoverGrenade</Weapon>
-		<FullBodyAttackAnim />
-		<DontAutoRestart />
 		<FindBetterAction />
 	</Action>
 	<Action>
@@ -204,7 +224,7 @@
 		<ActionType>Gather</ActionType>
 		<Anim>Gather</Anim>
 		<Resource>Supplies</Resource>
-		<WorkRate>2</WorkRate>
+		<WorkRate>3</WorkRate>
 		<WorkRange>4</WorkRange>
 		<RestrictedAutoTarget>true</RestrictedAutoTarget>
 	</Action>
@@ -213,7 +233,7 @@
 		<ActionType>Gather</ActionType>
 		<Anim>Gather</Anim>
 		<Resource>Power</Resource>
-		<WorkRate>2</WorkRate>
+		<WorkRate>3</WorkRate>
 		<WorkRange>4</WorkRange>
 		<RestrictedAutoTarget>true</RestrictedAutoTarget>
 	</Action>
@@ -222,7 +242,7 @@
 		<ActionType>Capture</ActionType>
 		<Anim>Capture</Anim>
 		<CaptureRate>1</CaptureRate>
-		<DecaptureRate>1.29999995</DecaptureRate>
+		<DecaptureRate>2</DecaptureRate>
 		<WorkRange>4</WorkRange>
 	</Action>
 	<Action>
@@ -317,31 +337,15 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
-			<Action>InCoverGrenadeAttackAction</Action>
-			<SquadMode>Cover</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
 			<Action>GrenadeAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>InCoverPlasmaRifleAttackAction</Action>
-			<SquadMode>Cover</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>Flying</TargetType>
-			<Action>AirPlasmaRifleAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
 			<Action>PlasmaRifleAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>PlasmaCasterAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
