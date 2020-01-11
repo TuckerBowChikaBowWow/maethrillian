@@ -1,5 +1,225 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="SesaAggressorSentinel">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>_POWER_SesaAggressorSentinel</TechScript>
+			<Cost Supplies="0" Power="0" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+	</Power>
+	<Power name="SesaArkCleansing">
+		<Attributes>
+			<PowerType>AircraftPatrol</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<PatrolPatternType>Spokes</PatrolPatternType>
+			<Cost Supplies="700" Power="525" />
+			<AutoRecharge>280000</AutoRecharge>
+			<UIRadius>6</UIRadius>
+			<Decal>Point</Decal>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>8</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="bool" name="TargetStructuresOnly">false</Data>
+				<Data type="int" name="NumWaves">2</Data>
+				<Data type="float" name="TimeBetweenWaves">20</Data>
+				<Data type="int" name="NumAircraftPerWave">8</Data>
+				<Data type="float" name="SpawnRadius">30</Data>
+				<Data type="float" name="SpokeRotationOffset">25</Data>
+				<Data type="float" name="PatrolDuration">600</Data>
+				<Data type="protosquad" name="AircraftSquad">pow_for_enforcercleanse_01</Data>
+				<Data type="protoobject" name="TargetBeam">fx_proj_arkcleansing</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="CovSpiritSesaGunship1">
+		<Attributes>
+			<PowerType>Gunship</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<Pop type="Unit">10</Pop>
+			<Cost Supplies="340" Power="250" />
+			<AutoRecharge>165000</AutoRecharge>
+			<UIRadius>6</UIRadius>
+			<Decal>Drop</Decal>
+			<ShowTransportArrows>true</ShowTransportArrows>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="int" name="NumGunships">1</Data>
+				<Data type="float" name="WaitDuration">3</Data>
+				<Data type="protoobject" name="Gunship">cov_air_spiritgunship_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_OFF_SpiritAssault_I</Data>
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>cov_inf_hunter_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_hunter_01</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="CovSpiritSesaGunship2">
+		<Attributes>
+			<PowerType>Gunship</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<Pop type="Unit">14</Pop>
+			<Cost Supplies="540" Power="250" />
+			<AutoRecharge>165000</AutoRecharge>
+			<UIRadius>6</UIRadius>
+			<Decal>Drop</Decal>
+			<ShowTransportArrows>true</ShowTransportArrows>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="int" name="NumGunships">1</Data>
+				<Data type="float" name="WaitDuration">3</Data>
+				<Data type="protoobject" name="Gunship">cov_air_spiritgunship_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_OFF_SpiritAssault_II</Data>
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>cov_inf_hunter_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_hunter_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_generic_arbiterenforcer</ProtoSquadID>
+						<VeterancyLevel>2</VeterancyLevel>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="CovSpiritSesaGunship3">
+		<Attributes>
+			<PowerType>Gunship</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<Pop type="Unit">18</Pop>
+			<Cost Supplies="600" Power="350" />
+			<AutoRecharge>165000</AutoRecharge>
+			<UIRadius>6</UIRadius>
+			<Decal>Drop</Decal>
+			<ShowTransportArrows>true</ShowTransportArrows>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="int" name="NumGunships">1</Data>
+				<Data type="float" name="WaitDuration">3</Data>
+				<Data type="protoobject" name="Gunship">cov_air_spiritgunship_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_OFF_SpiritAssault_III</Data>
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>cov_inf_hunter_01</ProtoSquadID>
+						<VeterancyLevel>3</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_hunter_01</ProtoSquadID>
+						<VeterancyLevel>3</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_generic_arbiterenforcer</ProtoSquadID>
+						<VeterancyLevel>3</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_generic_arbiterenforcer</ProtoSquadID>
+						<VeterancyLevel>3</VeterancyLevel>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="HereticHolo">
 		<Attributes>
 			<NotAffectedByCeasefire />

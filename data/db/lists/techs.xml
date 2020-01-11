@@ -2379,6 +2379,45 @@
 		<Effects>
 			<Effect type="GodPower" amount="1">_RallyPoint</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_air_hereticspirit_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_hereticspirit_01" relativity="Absolute">
@@ -5317,7 +5356,7 @@
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscTurretDrop1">UnscTurretDrop2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscLureBeacon</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscSentinelSynergy</Effect>
-			<Effect type="UnlockableGodPower" tier="5">UnscArkCleansing</Effect>
+			<Effect type="UnlockableGodPower" tier="5">SesaArkCleansing</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscRetrieverSentinel</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">neutralfor_sentineltier2_01</Target>
@@ -9133,6 +9172,55 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="_POWER_SesaAggressorSentinel" type="Normal">
+		<DBID>1963</DBID>
+		<DisplayNameID>26016</DisplayNameID>
+		<RolloverTextID>26016</RolloverTextID>
+		<PrereqTextID>26016</PrereqTextID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="neutralfor_sentineltier2_generic" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_aggressor_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="covenant_LeaderHeretic" type="Normal">
 		<DBID>2104</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -9178,24 +9266,27 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
-			<Effect type="UnlockableGodPower" tier="1">CovTeleport1</Effect>
-			<Effect type="UnlockableGodPower" tier="1">ArbiterStasisMine1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="ArbiterStasisMine1">ArbiterStasisMine2</Effect>
-			<Effect type="UnlockableGodPower" tier="2">ArbiterConduitofRage1</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterConduitofRage1">ArbiterConduitofRage2</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterConduitofRage2">ArbiterConduitofRage3</Effect>
-			<Effect type="UnlockableGodPower" tier="2">ArbiterPlasmaBolt1</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt1">ArbiterPlasmaBolt2</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt2">ArbiterPlasmaBolt3</Effect>
-			<Effect type="UnlockableGodPower" tier="3">HereticSpirit</Effect>
-			<Effect type="UnlockableGodPower" tier="3">ArbiterSpiritEliteTeam1</Effect>
-			<Effect type="UnlockableGodPower" tier="4">ArbiterStasis1</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="ArbiterStasis1">ArbiterStasis2</Effect>
-			<Effect type="UnlockableGodPower" tier="4">ArbiterCDReduction1</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="ArbiterCDReduction1">ArbiterCDReduction2</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="ArbiterCDReduction2">ArbiterCDReduction3</Effect>
-			<Effect type="UnlockableGodPower" tier="5">ArbiterMassStasis</Effect>
-			<Effect type="UnlockableGodPower" tier="5">CovInvisibleArmy</Effect>
+			<Effect type="UnlockableGodPower" tier="1">CovScoutMine1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="CovScoutMine1">CovScoutMine2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">Unbrk_Overcharge1_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="Unbrk_Overcharge1_mp">Unbrk_Overcharge2_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="Unbrk_Overcharge2_mp">Unbrk_Overcharge3_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="2">CovExtraction1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="CovExtraction1">CovExtraction2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">UnscArkDefense1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="UnscArkDefense1">UnscArkDefense2</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="UnscArkDefense2">UnscArkDefense3</Effect>
+			<Effect type="UnlockableGodPower" tier="3">Unbrk_ScatterBeam1_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam1_mp">Unbrk_ScatterBeam2_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam2_mp">Unbrk_ScatterBeam3_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="4">SesaAggressorSentinel</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="SesaAggressorSentinel">UnscSentinelSynergy</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovDisplacement</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovSpiritSesaGunship1</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="CovSpiritSesaGunship1">CovSpiritSesaGunship2</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="CovSpiritSesaGunship2">CovSpiritSesaGunship3</Effect>
+			<Effect type="UnlockableGodPower" tier="5">SesaArkCleansing</Effect>
+			<Effect type="UnlockableGodPower" tier="5">CovBoundlessRage</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_arbiter_assaultteam_01</Target>
 			</Effect>
@@ -17091,6 +17182,12 @@
 			</Effect>
 			<Effect type="Data" amount="17000" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="ProtoUnit">pow_for_andersultimate_01</Target>
+			</Effect>
+			<Effect type="Data" amount="2500" subtype="Shieldpoints" relativity="Absolute">
+				<Target type="ProtoUnit">pow_for_enforcercleanse_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">pow_for_enforcercleanse_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
