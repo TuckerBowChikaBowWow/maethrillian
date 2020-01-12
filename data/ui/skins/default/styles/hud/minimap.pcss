@@ -1,2 +1,54 @@
 hud {
+	minimap {
+		screen {
+			source = "default\flash\screens_hud_Minimap.swf";
+			priority = screen-normal;
+			scale-mode = preserve-aspect;
+			scale-up-mode = hud;
+			anchor-horizontal = right;
+			anchor-vertical =  bottom;
+		}
+        
+        blurImage {
+        	image-rendering = "smooth";
+        }
+		
+		component { 
+			.terrainParent {
+				.terrainBorder {}
+				.terrain {}
+			}
+		}
+		
+		leaderPowerButton:idle {
+			.image{
+				image-path = "../textures/hud/icons/hudButtons/leaderPower_icon";
+				@extend = "rostermode.RMFontStyles.centerFitImage";
+			}
+		}
+		leaderPowerButton:over  { 
+			.image{	image-path = "../textures/hud/icons/hudButtons/leaderPowerHighlight_icon";	}
+		}
+		leaderPowerButton:down  { 
+			.image{	image-path = "../textures/hud/icons/hudButtons/leaderPower_icon"; }
+		}
+		leaderPowerButton:focus  { 
+			.image{	image-path = "../textures/hud/icons/hudButtons/leaderPowerHighlight_icon";	}
+		}
+
+		mapFrame {
+			image-rendering = "smooth";
+			image-path = "../textures/hud/Minimap/Minimap_Map_Frame";
+		}
+
+		mapFrameTop {
+			image-rendering = "smooth";
+			image-path = "../textures/hud/Minimap/Minimap_Map_FrameTop";
+		}
+
+		minimapBracket {
+			image-rendering = "smooth";
+			image-path = "../textures/hud/Minimap/Minimap_Bracket";
+		}
+	}
 }

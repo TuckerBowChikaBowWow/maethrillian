@@ -1,2 +1,33 @@
 hud {
+	hudButtons {
+        screen {
+            source = "default\flash\screens_hud_HUDButtons.swf";
+			priority = screen-normal;
+			scale-mode = preserve-aspect;
+			scale-up-mode = hud;
+			anchor-horizontal = right;
+			anchor-vertical =  bottom;
+        }
+		
+		missionSummaryButton {
+			.image{
+				image-path = "../textures/hud/icons/hudButtons/missionSummary_icon";
+				@extend = "rostermode.RMFontStyles.centerFitImage";
+			}
+		}
+		
+		statsButton {
+			.image{
+				image-path = "../textures/hud/icons/hudButtons/stats_icon";
+				@extend = "rostermode.RMFontStyles.centerFitImage";
+			}
+		}
+		
+		optionsButton {
+			.image{
+				image-path = "../textures/hud/icons/hudButtons/options_icon";
+				@extend = "rostermode.RMFontStyles.centerFitImage";
+			}
+		}
+    }
 }

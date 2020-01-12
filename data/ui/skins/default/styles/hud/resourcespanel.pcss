@@ -1,2 +1,119 @@
 hud {
+	resourcePanel {
+     
+        component {
+            .resourcePanelElement0 
+			{
+                
+                .label {
+                    text-align = "right";
+                    text-scale-mode = none;
+					text-multiline = true;
+                    @extend = "hud.fontStyles.hudStatsTier2";
+                    @extend = "hud.skin.colors.whiteLabels";
+ 
+                }
+
+                .resourceSymbol {
+                }
+            }
+			
+			.labelManaIncomeIncrease {
+                text-align = "right";
+				text-scale-mode = none;
+				text-multiline = false;
+				@extend = "hud.fontStyles.hudStatsTier2";
+				@extend = "hud.skin.colors.labels";
+				font-size = "18";
+				@extend = "hud.skin.colors.whiteLabels";
+            }
+
+            .resourcePanelElement1 {
+
+                .label {
+                    text-align = "right";
+                    text-scale-mode = none;
+                    @extend = "hud.fontStyles.hudStatsTier2";
+                    font-color = "0x38b1ff";
+                }
+
+                .resourceSymbol {
+                }
+            }
+
+            .resourcePanelElement2 {
+
+                .label {
+                    text-align = "right";
+                    text-scale-mode = none;
+                    @extend = "hud.fontStyles.hudStatsTier2";
+                    font-color = "0xfefb58";
+                }
+
+                .resourceSymbol {
+                }
+            }
+
+            .resourcePanelElement3 {
+
+                .label {
+                    
+                    text-scale-mode = none;
+                    @extend = "hud.fontStyles.hudStatsTier1";
+                    @extend = "hud.skin.colors.whiteLabels";
+                    text-align = center;
+                }
+
+                .resourceSymbol {
+                }
+            }
+			
+            .resourcePanelElement4 {
+
+                .label {
+                    text-align = "left";
+                    text-scale-mode = none;
+                    @extend = "hud.fontStyles.hudStatsTier2";
+                    @extend = "hud.skin.colors.whiteLabels";
+                }
+
+                .resourceSymbol {
+                }
+
+                .progressBar {
+                    effect-glow-y = "20";
+                    effect-glow-x = "20";
+                    effect-glow-strength = "0.5";
+                    effect-glow-knockout = "false";
+                    effect-glow-inner = "false";
+                    effect-glow-alpha = "1";
+                    @extend = "hud.skin.colors.glows.glow";
+                }
+            }
+
+            .resourcePanelElement5 {
+
+                .label {
+                    text-align = "left";
+                    text-scale-mode = none;
+                    @extend = "hud.fontStyles.hudStatsTier2";
+                    @extend = "hud.skin.colors.whiteLabels";
+                }
+
+                .resourceSymbol {
+                }
+
+                .progressBar {
+                    effect-glow-y = "20";
+                    effect-glow-x = "20";
+                    effect-glow-strength = "0.5";
+                    effect-glow-knockout = "false";
+                    effect-glow-inner = "false";
+                    effect-glow-alpha = "1";
+                    @extend = "hud.skin.colors.glows.glow";
+                }
+            }
+        }
+		
+    }
 }
