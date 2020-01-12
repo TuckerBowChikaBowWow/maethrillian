@@ -1,5 +1,158 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="Sesa_ScatterBeam1_mp">
+		<Attributes>
+			<PowerType>AircraftPatrol</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<PatrolPatternType>Circle</PatrolPatternType>
+			<Cost Supplies="350" Power="300" />
+			<AutoRecharge>210000</AutoRecharge>
+			<UIRadius>24</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="bool" name="IgnorePlacement">true</Data>
+				<Data type="bool" name="RandomiseSpawnPoints">true</Data>
+				<Data type="bool" name="TargetStructuresOnly">false</Data>
+				<Data type="int" name="NumWaves">1</Data>
+				<Data type="float" name="TimeBetweenWaves">0</Data>
+				<Data type="int" name="NumAircraftPerWave">8</Data>
+				<Data type="float" name="SpawnRadius">14</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMin">5</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMax">24</Data>
+				<Data type="float" name="SpokeRotationOffset">0</Data>
+				<Data type="float" name="PatrolDuration">7</Data>
+				<Data type="protosquad" name="AircraftSquad">pow_gp_sesa_scatterbeam_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_BAN_OFF_ScatterBeamsLv1_MP</Data>
+				<Data type="bool" name="TieToTheGround">true</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m1-5s</Data>
+				<Data type="float" name="TelegraphDuration">1.29999995</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="Sesa_ScatterBeam2_mp">
+		<Attributes>
+			<PowerType>AircraftPatrol</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<PatrolPatternType>Circle</PatrolPatternType>
+			<Cost Supplies="450" Power="400" />
+			<AutoRecharge>210000</AutoRecharge>
+			<UIRadius>30</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="bool" name="IgnorePlacement">true</Data>
+				<Data type="bool" name="RandomiseSpawnPoints">true</Data>
+				<Data type="bool" name="TargetStructuresOnly">false</Data>
+				<Data type="int" name="NumWaves">1</Data>
+				<Data type="float" name="TimeBetweenWaves">0</Data>
+				<Data type="int" name="NumAircraftPerWave">11</Data>
+				<Data type="float" name="SpawnRadius">14</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMin">5</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMax">28</Data>
+				<Data type="float" name="SpokeRotationOffset">0</Data>
+				<Data type="float" name="PatrolDuration">9</Data>
+				<Data type="protosquad" name="AircraftSquad">pow_gp_sesa_scatterbeam_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_BAN_OFF_ScatterBeamsLv1_MP</Data>
+				<Data type="bool" name="TieToTheGround">true</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m1-5s</Data>
+				<Data type="float" name="TelegraphDuration">1.29999995</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="Sesa_ScatterBeam3_mp">
+		<Attributes>
+			<PowerType>AircraftPatrol</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<PatrolPatternType>Circle</PatrolPatternType>
+			<Cost Supplies="550" Power="500" />
+			<AutoRecharge>210000</AutoRecharge>
+			<UIRadius>40</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="bool" name="IgnorePlacement">true</Data>
+				<Data type="bool" name="RandomiseSpawnPoints">true</Data>
+				<Data type="bool" name="TargetStructuresOnly">false</Data>
+				<Data type="int" name="NumWaves">1</Data>
+				<Data type="float" name="TimeBetweenWaves">0</Data>
+				<Data type="int" name="NumAircraftPerWave">15</Data>
+				<Data type="float" name="SpawnRadius">14</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMin">5</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMax">28</Data>
+				<Data type="float" name="SpokeRotationOffset">0</Data>
+				<Data type="float" name="PatrolDuration">9</Data>
+				<Data type="protosquad" name="AircraftSquad">pow_gp_sesa_scatterbeam_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_BAN_OFF_ScatterBeamsLv1_MP</Data>
+				<Data type="bool" name="TieToTheGround">true</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m1-5s</Data>
+				<Data type="float" name="TelegraphDuration">1.29999995</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="SesaMegaTurretDrop">
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
