@@ -9032,10 +9032,16 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_hereticleaderclone_01</Target>
 			</Effect>
-			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_sesahereticleader_upgrade3">
+			<Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_inf_hereticleader_02">
 				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
 			</Effect>
-			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_sesahereticleader_upgrade3">
+			<Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_inf_hereticleaderclone_02">
+				<Target type="ProtoSquad">cov_inf_hereticleaderclone_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_inf_hereticleader_02">
+				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_inf_hereticleaderclone_02">
 				<Target type="ProtoSquad">cov_inf_hereticleaderclone_01</Target>
 			</Effect>
 		</Effects>

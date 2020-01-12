@@ -394,6 +394,16 @@
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>OrbitalCleansingAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>OrbitalCleansingActionUpgrade</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
 			<Action>OrbitalCleansingAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
