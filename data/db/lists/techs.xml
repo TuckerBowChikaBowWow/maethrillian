@@ -16994,6 +16994,12 @@
 			<Effect type="Data" amount="17000" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="ProtoUnit">pow_for_andersultimate_01</Target>
 			</Effect>
+			<Effect type="Data" amount="5000" subtype="Shieldpoints" relativity="Absolute">
+				<Target type="ProtoUnit">pow_for_enforcercleanse_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="ShieldAction" relativity="Absolute">
+				<Target type="ProtoUnit">pow_for_enforcercleanse_01</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="_POWER_UnscRaidTech1" type="Normal">

@@ -204,7 +204,14 @@
 			<LostSound>DIA_3D_WAL_ENFORCER_Enemy_Lost</LostSound>
 		</SpecificData>
 	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_wraithshield</ProtoObject>
+		<StartDisabled />
+	</Action>
 	<Tactic>
+		<PersistentAction>ShieldAction</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
