@@ -9133,6 +9133,12 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="GrenadeAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_hereticleaderclone_01</Target>
 			</Effect>
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_sesahereticleader_upgrade3">
+				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_sesahereticleader_upgrade3">
+				<Target type="ProtoSquad">cov_inf_hereticleaderclone_01</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="_POWER_SesaAggressorSentinel" type="Normal">
@@ -9235,7 +9241,7 @@
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovSpiritSesaGunship2">CovSpiritSesaGunship3</Effect>
 			<Effect type="UnlockableGodPower" tier="4">SesaAggressorSentinel</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="SesaAggressorSentinel">UnscSentinelSynergy</Effect>
-			<Effect type="UnlockableGodPower" tier="4">CovDisplacement</Effect>
+			<Effect type="UnlockableGodPower" tier="4">SesaMegaTurretDrop</Effect>
 			<Effect type="UnlockableGodPower" tier="5">SesaArkCleansing</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovBoundlessRage</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
@@ -13924,9 +13930,6 @@
 		<Effects>
 			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_chaingun_01" />
 			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_chaingun_01" />
-			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_spartan_chaingun_01">
-				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
-			</Effect>
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
