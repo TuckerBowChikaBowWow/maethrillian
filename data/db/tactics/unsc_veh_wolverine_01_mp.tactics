@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>MissileLauncherRight</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>155</DamagePerSecond>
+		<DamagePerSecond>75</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -32,7 +32,7 @@
 	<Weapon>
 		<Name>MissileLauncherLeft</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>155</DamagePerSecond>
+		<DamagePerSecond>75</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -155,7 +155,7 @@
 		<Anim>BarrageAttack</Anim>
 		<FullBodyAttackAnim />
 		<Weapon>BarrageWeapon</Weapon>
-		<CanOrientOwner>false</CanOrientOwner>
+		<CanOrientOwner>true</CanOrientOwner>
 	</Action>
 	<Action>
 		<Name>Garrison</Name>
