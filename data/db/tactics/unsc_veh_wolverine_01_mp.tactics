@@ -9,7 +9,7 @@
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
 		<MaxVelocityLead>6.1500001</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
-		<Hardpoint>Turret</Hardpoint>
+		<Hardpoint>TurretRight</Hardpoint>
 		<TargetPriority type="Flying">10</TargetPriority>
 		<ProjectileLaunchDirY />
 		<AOEData>
@@ -137,17 +137,19 @@
 		<Name>MissileLauncherRightAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>MissileRightAttack</Anim>
-		<FullBodyAttackAnim />
 		<Weapon>MissileLauncherRight</Weapon>
 		<CanOrientOwner>false</CanOrientOwner>
+		<DontCheckOrientTolerance />
+		<OrientOwnerToTargetWhileNotMoving />
 	</Action>
 	<Action>
 		<Name>MissileLauncherLeftAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>MissileLeftAttack</Anim>
-		<FullBodyAttackAnim />
 		<Weapon>MissileLauncherLeft</Weapon>
 		<CanOrientOwner>false</CanOrientOwner>
+		<DontCheckOrientTolerance />
+		<OrientOwnerToTargetWhileNotMoving />
 	</Action>
 	<Action>
 		<Name>BarrageAttackAction</Name>
