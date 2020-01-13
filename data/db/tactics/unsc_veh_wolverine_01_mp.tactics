@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>MissileLauncher</Name>
+		<Name>MissileLauncherRight</Name>
 		<AttackRate>6</AttackRate>
 		<DamagePerSecond>155</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
@@ -9,6 +9,65 @@
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
 		<MaxVelocityLead>6.1500001</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<ProjectileLaunchDirY />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>3</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>15</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>MissileLauncherLeft</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>155</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
+		<MaxVelocityLead>6.1500001</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<ProjectileLaunchDirY />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>3</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>15</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>BarrageWeapon</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>2000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
+		<MaxVelocityLead>6.1500001</MaxVelocityLead>
+		<MaxRange>90</MaxRange>
 		<Hardpoint>Turret</Hardpoint>
 		<TargetPriority type="Flying">10</TargetPriority>
 		<ProjectileLaunchDirY />
@@ -75,11 +134,27 @@
 		<CanOrientOwner>false</CanOrientOwner>
 	</Action>
 	<Action>
-		<Name>MissileAttackAction</Name>
+		<Name>MissileLauncherRightAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>MissileAttack</Anim>
+		<Anim>MissileRightAttack</Anim>
 		<FullBodyAttackAnim />
-		<Weapon>MissileLauncher</Weapon>
+		<Weapon>MissileLauncherRight</Weapon>
+		<CanOrientOwner>false</CanOrientOwner>
+	</Action>
+	<Action>
+		<Name>MissileLauncherLeftAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MissileLeftAttack</Anim>
+		<FullBodyAttackAnim />
+		<Weapon>MissileLauncherLeft</Weapon>
+		<CanOrientOwner>false</CanOrientOwner>
+	</Action>
+	<Action>
+		<Name>BarrageAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BarrageAttack</Anim>
+		<FullBodyAttackAnim />
+		<Weapon>BarrageWeapon</Weapon>
 		<CanOrientOwner>false</CanOrientOwner>
 	</Action>
 	<Action>
@@ -121,15 +196,27 @@
 	</Action>
 	<Tactic>
 		<PersistentAction>GrenadeLauncherAttackAction</PersistentAction>
+		<PersistentAction>MissileLauncherRightAttackAction</PersistentAction>
+		<PersistentAction>MissileLauncherLeftAttackAction</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
 			<Action>GatherCollectables</Action>
 		</TargetRule>
 		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>BarrageAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
-			<Action>MissileAttackAction</Action>
+			<Action>MissileLauncherRightAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>MissileLauncherLeftAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
