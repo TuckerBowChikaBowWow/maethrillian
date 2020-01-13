@@ -91,7 +91,7 @@
 	<Weapon>
 		<Name>GrenadeLauncher</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>100</DamagePerSecond>
+		<DamagePerSecond>75</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_grenade_01</Projectile>
 		<ImpactEffect size="Medium">SmallGrenadeExplosion</ImpactEffect>
@@ -155,9 +155,8 @@
 		<Name>BarrageAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>BarrageAttack</Anim>
-		<FullBodyAttackAnim />
 		<Weapon>BarrageWeapon</Weapon>
-		<CanOrientOwner>true</CanOrientOwner>
+		<CanOrientOwner>false</CanOrientOwner>
 	</Action>
 	<Action>
 		<Name>Garrison</Name>
