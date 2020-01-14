@@ -61,7 +61,7 @@
 	<Weapon>
 		<Name>BarrageWeapon</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>2000</DamagePerSecond>
+		<DamagePerSecond>400</DamagePerSecond>
 		<WeaponType>TankSpecial</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -206,6 +206,7 @@
 			<Action>GatherCollectables</Action>
 		</TargetRule>
 		<TargetRule>
+			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
 			<Action>BarrageAttackAction</Action>
 			<TargetType>NonFlying</TargetType>
