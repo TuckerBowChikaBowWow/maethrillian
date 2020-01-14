@@ -1,9 +1,38 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>MissileLauncher</Name>
+		<Name>MissileLauncherRight</Name>
 		<AttackRate>6</AttackRate>
-		<DamagePerSecond>155</DamagePerSecond>
+		<DamagePerSecond>75</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
+		<MaxVelocityLead>6.1500001</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Hardpoint>TurretRight</Hardpoint>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<ProjectileLaunchDirY />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>3</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>15</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
+		<Name>MissileLauncherLeft</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>75</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -30,9 +59,39 @@
 		</AOEData>
 	</Weapon>
 	<Weapon>
+		<Name>BarrageWeapon</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>2000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_missile_01</Projectile>
+		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
+		<MaxVelocityLead>6.1500001</MaxVelocityLead>
+		<MaxRange>90</MaxRange>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<ProjectileLaunchDirY />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>3</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>15</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Weapon>
 		<Name>GrenadeLauncher</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>100</DamagePerSecond>
+		<DamagePerSecond>75</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_grenade_01</Projectile>
 		<ImpactEffect size="Medium">SmallGrenadeExplosion</ImpactEffect>
@@ -75,11 +134,28 @@
 		<CanOrientOwner>false</CanOrientOwner>
 	</Action>
 	<Action>
-		<Name>MissileAttackAction</Name>
+		<Name>MissileLauncherRightAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>MissileAttack</Anim>
-		<FullBodyAttackAnim />
-		<Weapon>MissileLauncher</Weapon>
+		<Anim>MissileRightAttack</Anim>
+		<Weapon>MissileLauncherRight</Weapon>
+		<CanOrientOwner>false</CanOrientOwner>
+		<DontCheckOrientTolerance />
+		<OrientOwnerToTargetWhileNotMoving />
+	</Action>
+	<Action>
+		<Name>MissileLauncherLeftAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MissileLeftAttack</Anim>
+		<Weapon>MissileLauncherLeft</Weapon>
+		<CanOrientOwner>false</CanOrientOwner>
+		<DontCheckOrientTolerance />
+		<OrientOwnerToTargetWhileNotMoving />
+	</Action>
+	<Action>
+		<Name>BarrageAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>BarrageAttack</Anim>
+		<Weapon>BarrageWeapon</Weapon>
 		<CanOrientOwner>false</CanOrientOwner>
 	</Action>
 	<Action>
@@ -121,15 +197,27 @@
 	</Action>
 	<Tactic>
 		<PersistentAction>GrenadeLauncherAttackAction</PersistentAction>
+		<PersistentAction>MissileLauncherRightAttackAction</PersistentAction>
+		<PersistentAction>MissileLauncherLeftAttackAction</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
 			<Action>GatherCollectables</Action>
 		</TargetRule>
 		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
+			<Action>BarrageAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
-			<Action>MissileAttackAction</Action>
+			<Action>MissileLauncherRightAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>MissileLauncherLeftAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
