@@ -62,13 +62,12 @@
 		<Name>BarrageWeapon</Name>
 		<AttackRate>6</AttackRate>
 		<DamagePerSecond>2000</DamagePerSecond>
-		<UseDPSasDPA />
 		<WeaponType>TankSpecial</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
 		<MaxVelocityLead>6.1500001</MaxVelocityLead>
 		<MaxRange>90</MaxRange>
-		<Hardpoint>Turret</Hardpoint>
+		<Hardpoint>Barrage</Hardpoint>
 		<TargetPriority type="Flying">10</TargetPriority>
 		<ProjectileLaunchDirY />
 		<AOEData>
@@ -156,9 +155,9 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>BarrageAttack</Anim>
 		<Weapon>BarrageWeapon</Weapon>
-		<CanOrientOwner>true</CanOrientOwner>
-		<ForceAttachmentAnim />
-		<DontAutoRestart />
+		<CanOrientOwner>false</CanOrientOwner>
+		<DontCheckOrientTolerance />
+		<OrientOwnerToTargetWhileNotMoving />
 	</Action>
 	<Action>
 		<Name>Garrison</Name>
@@ -205,6 +204,12 @@
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
 			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>BarrageAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
