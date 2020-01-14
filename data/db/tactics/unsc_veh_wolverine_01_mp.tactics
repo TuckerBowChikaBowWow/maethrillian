@@ -208,18 +208,12 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>BarrageAttackAction</Action>
-			<TargetType>NonFlying</TargetType>
-			<SquadMode>Normal</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
 			<Action>MissileLauncherRightAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>Flying</TargetType>
+			<TargetType>NonFlying</TargetType>
 			<Action>MissileLauncherLeftAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
