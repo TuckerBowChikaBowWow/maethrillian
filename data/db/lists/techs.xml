@@ -10033,9 +10033,6 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_spawner_01" relativity="Absolute">
 				<Target type="ProtoUnit">fld_bldg_drophivebase_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_shieldtower_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_turretSocket_01_base</Target>
-			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_cloaktower_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_turretSocket_01_base</Target>
 			</Effect>
@@ -11042,6 +11039,7 @@
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_temple_01" ToType="cov_bldg_temple_01_aom" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_turret_01" ToType="cov_bldg_turret_01_aom" />
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_watchtower_01" ToType="cov_bldg_watchtower_01_aom" />
+			<Effect type="ReparentProtoObject" FromType="cov_bldg_shieldtower_01" ToType="cov_bldg_shieldtower_01_aom" />
 		</Effects>
 	</Tech>
 	<Tech name="_Power_FloodBuffAOM" type="Normal">
