@@ -9946,6 +9946,15 @@
 		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
 		<Flag>UniqueProtoUnitInstance</Flag>
 		<Effects>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_turret_upgradeAI" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_turret_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_turret_upgradeAV" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_turret_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_turret_upgradeAA" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_turret_01_base</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_bruteChopper_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_minibase1sock_01_base</Target>
 			</Effect>
