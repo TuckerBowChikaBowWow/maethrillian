@@ -11042,6 +11042,37 @@
 			<Effect type="ReparentProtoObject" FromType="cov_bldg_shieldtower_01" ToType="cov_bldg_shieldtower_01_aom" />
 		</Effects>
 	</Tech>
+	<Tech name="flood_aomiconinstant_upgrade" type="Normal">
+		<DBID>2041</DBID>
+		<DisplayNameID>1072</DisplayNameID>
+		<RolloverTextID>1073</RolloverTextID>
+		<ResearchPoints>5</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchAnim>Upgrade</ResearchAnim>
+		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects>
+			<Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_bldg_turret_01_aom">
+				<Target type="ProtoSquad">cov_bldg_turret_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_bldg_turret_01_aom">
+				<Target type="ProtoSquad">cov_bldg_turret_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_bldg_watchtower_01_aom">
+				<Target type="ProtoSquad">cov_bldg_watchtower_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_bldg_watchtower_01_aom">
+				<Target type="ProtoSquad">cov_bldg_watchtower_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_bldg_shieldtower_01_aom">
+				<Target type="ProtoSquad">cov_bldg_shieldtower_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_bldg_shieldtower_01_aom">
+				<Target type="ProtoSquad">cov_bldg_shieldtower_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="_Power_FloodBuffAOM" type="Normal">
 		<DBID>1963</DBID>
 		<DisplayNameID>26016</DisplayNameID>
@@ -11090,6 +11121,9 @@
 			</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">flood_aominstant_upgrade</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">flood_aomiconinstant_upgrade</Target>
 			</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">flood_instant_disabledcov</Target>

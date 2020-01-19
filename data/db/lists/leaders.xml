@@ -232,17 +232,6 @@
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02_aom" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="50,0,0">flood_inf_generic_aomcore</StartingSquad>
 		<StartingSquad FlyIn="false" Offset="50,0,20">flood_inf_generic_aomcore</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,0">vfx_episode2_environmentalvfx_Ep2M5FireFlies</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,50">vfx_episode2_environmentalvfx_M02_butterflies</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,-30">vfx_episode2_environmentalvfx_M02_Flies</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,20">flood_air_sporecloud_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,20">flood_air_sporecloud_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,20">flood_air_sporecloud_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,20">flood_air_sporecloud_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,20">flood_air_sporecloud_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,20">flood_air_sporecloud_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,20">flood_air_sporecloud_01</StartingSquad>
-		<StartingSquad FlyIn="false" Offset="50,0,20">flood_air_sporecloud_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -254,6 +243,7 @@
 		<Pop Type="HonorGuard" Max="3">3</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 		<Pop Type="Decimus" Max="5">3</Pop>
+		<Pop Type="ShieldTower" Max="99">99</Pop>
 	</Leader>
 	<Leader Name="TheCreated" Icon="ui\game\icon\covenant\leader\Elite General" GUID="#B4781CEE-A96E-45EE-9D8C-C9A3C3205487">
 		<Civ>UNSC</Civ>

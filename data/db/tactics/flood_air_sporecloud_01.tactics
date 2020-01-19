@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Infect</Name>
+		<DamagePerSecond>800</DamagePerSecond>
+		<WeaponType>InfectionForm</WeaponType>
+		<TimeToInfect>4</TimeToInfect>
+		<InfectionJumpDelay>0.25</InfectionJumpDelay>
+		<InfectionTargetType>Military</InfectionTargetType>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">-1</TargetPriority>
+		<TargetPriority type="TurretBuilding">-1</TargetPriority>
+		<TargetPriority type="Building">-1</TargetPriority>
+	</Weapon>
+	<Action>
+		<Name>Infect</Name>
+		<ActionType>Infect</ActionType>
+		<Infection />
+		<Weapon>Infect</Weapon>
+		<WorkRange>4</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>Infect</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>
