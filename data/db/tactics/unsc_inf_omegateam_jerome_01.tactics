@@ -105,6 +105,7 @@
 		<FullBodyAttackAnim />
 		<PersistBetweenOpps />
 		<FindBetterAction />
+		<Fatality attacker="fatality_spartan02_v_arbiter_attacker_01" target="fatality_spartan02_v_arbiter_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_arbiter_01</Fatality>
 	</Action>
 	<Action>
 		<Name>HydraVehicleAttackAction</Name>
@@ -125,6 +126,7 @@
 		<FullBodyAttackAnim />
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<FindBetterAction />
+		<Fatality attacker="fatality_spartan02_v_arbiter_attacker_01" target="fatality_spartan02_v_arbiter_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_arbiter_01</Fatality>
 	</Action>
 	<Action>
 		<Name>FireFlareAction</Name>

@@ -458,6 +458,474 @@
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<StartDisabled />
 	</Action>
+	<Weapon>
+		<Name>BrutegunSiphon</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>463</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_01</Projectile>
+		<ImpactEffect size="small">BruteShotImpact</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+	</Weapon>
+	<Weapon>
+		<Name>AOEBrutegunSiphon</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>463</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_02</Projectile>
+		<ImpactEffect size="small">BruteShotImpact2</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<Slow TargetType="NonFlying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+	</Weapon>
+	<Weapon>
+		<Name>AOEDOTBrutegunSiphon</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>463</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_03</Projectile>
+		<ImpactEffect doShockwaveAction="true">BruteShotImpact3</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<Slow TargetType="NonFlying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+	</Weapon>
+	<Weapon>
+		<Name>LongAOEDOTBrutegunSiphon</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>463</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_03</Projectile>
+		<ImpactEffect doShockwaveAction="true">BruteShotImpact3</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<Slow TargetType="NonFlying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+	</Weapon>
+	<Weapon>
+		<Name>AirBrutegunSiphon</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>463</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_01</Projectile>
+		<ImpactEffect size="small">BruteShotImpactAir</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Flying">7</TargetPriority>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+	</Weapon>
+	<Weapon>
+		<Name>AirAOEBrutegunSiphon</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>463</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_02</Projectile>
+		<ImpactEffect size="small">BruteShotImpactAir2</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<Slow TargetType="NonFlying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Flying">7</TargetPriority>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+	</Weapon>
+	<Weapon>
+		<Name>AirAOEDOTBrutegunSiphon</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>463</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_03</Projectile>
+		<ImpactEffect size="small">BruteShotImpactAir3</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<Slow TargetType="NonFlying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Flying">7</TargetPriority>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+	</Weapon>
+	<Weapon>
+		<Name>AirLongAOEDOTBrutegunSiphon</Name>
+		<AttackRate>2</AttackRate>
+		<DamagePerSecond>463</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_bruteshot_03</Projectile>
+		<ImpactEffect size="small">BruteShotImpactAir3</ImpactEffect>
+		<MaxVelocityLead>22</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>1</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>300</PhysicsForceMin>
+		<PhysicsForceMax>500</PhysicsForceMax>
+		<VisualAmmo>4</VisualAmmo>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Hardpoint>Torso</Hardpoint>
+		<Slow TargetType="NonFlying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.39999998</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.39999998</PostAttackCooldownMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Flying">7</TargetPriority>
+		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+	</Weapon>
+	<Action>
+		<Name>AOEBrutegunSiphonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<Weapon>AOEBrutegunSiphon</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>BrutegunSiphonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<Weapon>BrutegunSiphon</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AOEDOTBrutegunSiphonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<Weapon>AOEDOTBrutegunSiphon</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>LongAOEDOTBrutegunSiphonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LongAttack</Anim>
+		<MoveAnim>LongAttackJog</MoveAnim>
+		<Weapon>LongAOEDOTBrutegunSiphon</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AirAOEBrutegunSiphonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<Weapon>AirAOEBrutegunSiphon</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AirBrutegunSiphonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<Weapon>AirBrutegunSiphon</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AirAOEDOTBrutegunSiphonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackJog</MoveAnim>
+		<Weapon>AirAOEDOTBrutegunSiphon</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>AirLongAOEDOTBrutegunSiphonAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LongAttack</Anim>
+		<MoveAnim>LongAttackJog</MoveAnim>
+		<Weapon>AirLongAOEDOTBrutegunSiphon</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<StartDisabled />
+	</Action>
 	<Action>
 		<Name>PersonalCloak</Name>
 		<ActionType>StealthManager</ActionType>
@@ -678,6 +1146,46 @@
 			<Relation>Self</Relation>
 			<TargetType>TeleportDropoff</TargetType>
 			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>LongAOEDOTBrutegunSiphonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>AOEDOTBrutegunSiphonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>AOEBrutegunSiphonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>BrutegunSiphonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>AirLongAOEDOTBrutegunSiphonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>AirAOEDOTBrutegunSiphonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>AirAOEBrutegunSiphonAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>AirBrutegunSiphonAttackAction</Action>
 		</TargetRule>
 		<PersistentAction>PersonalCloak</PersistentAction>
 	</Tactic>

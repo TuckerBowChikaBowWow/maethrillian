@@ -1,27 +1,53 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>Magnum</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>550</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
-		<Projectile>fx_proj_bruteGun_01</Projectile>
-		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+		<Name>InCoverSMG</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>115</DamagePerSecond>
+		<WeaponType>MediumArms</WeaponType>
+		<Projectile>fx_proj_herorifle_01</Projectile>
+		<ImpactEffect size="Medium">SmallBallisticImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>45</MaxRange>
-		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="Infantry">9</TargetPriority>
-		<TargetPriority type="Aircraft">8</TargetPriority>
-		<TargetPriority type="GroundVehicle">6</TargetPriority>
-		<TargetPriority type="TurretBuilding">4</TargetPriority>
-		<TargetPriority type="Building">2</TargetPriority>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
+		<VisualAmmo>8</VisualAmmo>
+		<ReloadAnimation>SMGReload</ReloadAnimation>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>SMG</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>115</DamagePerSecond>
+		<WeaponType>MediumArms</WeaponType>
+		<Projectile>fx_proj_herorifle_01</Projectile>
+		<ImpactEffect size="Medium">SmallBallisticImpact</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>8</VisualAmmo>
+		<ReloadAnimation>SMGReload</ReloadAnimation>
+		<TargetPriority type="Infantry">6</TargetPriority>
+		<TargetPriority type="Aircraft">5</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
 	</Weapon>
 	<Weapon>
 		<Name>GroundPound</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>2200</DamagePerSecond>
+		<DamagePerSecond>1000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Hero</WeaponType>
 		<MaxRange>1.84500003</MaxRange>
@@ -54,7 +80,7 @@
 	<Weapon>
 		<Name>GroundPoundHijack</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>2200</DamagePerSecond>
+		<DamagePerSecond>0</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Hero</WeaponType>
 		<MaxRange>1.84500003</MaxRange>
@@ -117,36 +143,23 @@
 		<Daze TargetType="NonFlying" MovementModifier="0" AOEDaze="true" SmartTargeting="false">5.0f</Daze>
 	</Weapon>
 	<Action>
-		<Name>MagnumAttackAction</Name>
+		<Name>InCoverSMGAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MagnumAttack</Anim>
+		<ReloadAnim>CombatIdle</ReloadAnim>
+		<Weapon>InCoverSMG</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>SMGAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>MagnumAttack</Anim>
 		<MoveAnim>JogAttack</MoveAnim>
-		<Weapon>Magnum</Weapon>
-		<Strafing turnRate="90" trackingSpeed="40" />
+		<ReloadAnim>CombatIdle</ReloadAnim>
+		<Weapon>SMG</Weapon>
 		<FullBodyAttackAnim />
-		<PersistBetweenOpps />
-		<Fatality attacker="fatality_spartan02_v_brutehon01_attacker_01" target="fatality_spartan02_v_brutehon01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_bruteHonour_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_elitehon01_attacker_01" target="fatality_spartan02_v_elitehon01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_eliteCommando_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_eliteranger01_attacker_01" target="fatality_spartan02_v_eliteranger01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_jackal_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_brute01_attacker_01" target="fatality_spartan02_v_brute01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_bruteLeader_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_jpbrute01_attacker_01" target="fatality_spartan02_v_jpbrute01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_bruteJumpPack_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_spartan03_attacker_01" target="fatality_spartan02_v_spartan03_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_spartan_rocket_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_spartan04_attacker_01" target="fatality_spartan02_v_spartan04_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_spartan_laser_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_spartan05_attacker_01" target="fatality_spartan02_v_spartan05_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_spartan_chaingun_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_spartan03_attacker_01" target="fatality_spartan02_v_spartan03_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cpgn_inf_spartanRocket_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_spartan04_attacker_01" target="fatality_spartan02_v_spartan04_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cpgn_inf_spartanSniper_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_spartan05_attacker_01" target="fatality_spartan02_v_spartan05_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cpgn_inf_spartanMG_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_marine01_attacker_01" target="fatality_spartan02_v_marine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_generic_engineer_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_marine01_attacker_01" target="fatality_spartan02_v_marine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_engineer_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_marine01_attacker_01" target="fatality_spartan02_v_marine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_marine_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_marine01_attacker_01" target="fatality_spartan02_v_marine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_generic_malemarine_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_flamer01_attacker_01" target="fatality_spartan02_v_flamer01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_flamemarine_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_fmarine01_attacker_01" target="fatality_spartan02_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_generic_femalemarine_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_fmarine01_attacker_01" target="fatality_spartan02_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_femalemarine_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_odst01_attacker_01" target="fatality_spartan02_v_odst01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_odst_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_sniper01_attacker_01" target="fatality_spartan02_v_sniper01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_sniper_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_spartan02_attacker_01" target="fatality_spartan02_v_spartan02_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_generic_spartan_01</Fatality>
-		<Fatality attacker="fatality_spartan02_v_spartan02_attacker_01" target="fatality_spartan02_v_spartan02_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_spartan_01</Fatality>
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<Fatality attacker="fatality_spartan02_v_arbiter_attacker_01" target="fatality_spartan02_v_arbiter_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_arbiter_01</Fatality>
 	</Action>
 	<Action>
 		<Name>GroundPoundAction</Name>
@@ -164,23 +177,6 @@
 		<JumpArcInitialSpeed>0.25</JumpArcInitialSpeed>
 	</Action>
 	<Action>
-		<Name>GroundPoundHijackAction</Name>
-		<ActionType>JumpHijack</ActionType>
-		<StartAnim noInterrupt="true" motionExtraction="true">GroundPoundTakeoff</StartAnim>
-		<Anim>GroundPoundArc</Anim>
-		<Weapon>GroundPoundHijack</Weapon>
-		<MaxDistance>55</MaxDistance>
-		<VelocityScalar>40</VelocityScalar>
-		<FollowTarget />
-		<MaxFollowDistance>65</MaxFollowDistance>
-		<MinRelativeHeight>17</MinRelativeHeight>
-		<MaxRelativeHeight>19</MaxRelativeHeight>
-		<LandingDelay>0.100000001</LandingDelay>
-		<JumpArcLerpWindow>0.200000003</JumpArcLerpWindow>
-		<JumpArcInitialSpeed>0.25</JumpArcInitialSpeed>
-		<StartDisabled />
-	</Action>
-	<Action>
 		<Name>NukeGroundPoundAction</Name>
 		<ActionType>JumpAttack</ActionType>
 		<StartAnim noInterrupt="true" motionExtraction="true">GroundPoundTakeoff</StartAnim>
@@ -195,6 +191,22 @@
 		<JumpArcLerpWindow>0.200000003</JumpArcLerpWindow>
 		<JumpArcInitialSpeed>0.25</JumpArcInitialSpeed>
 		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>GroundPoundHijackAction</Name>
+		<ActionType>JumpHijack</ActionType>
+		<StartAnim noInterrupt="true" motionExtraction="true">GroundPoundTakeoff</StartAnim>
+		<Anim>GroundPoundArc</Anim>
+		<Weapon>GroundPoundHijack</Weapon>
+		<MaxDistance>55</MaxDistance>
+		<VelocityScalar>40</VelocityScalar>
+		<FollowTarget />
+		<MaxFollowDistance>65</MaxFollowDistance>
+		<MinRelativeHeight>17</MinRelativeHeight>
+		<MaxRelativeHeight>19</MaxRelativeHeight>
+		<LandingDelay>0.100000001</LandingDelay>
+		<JumpArcLerpWindow>0.200000003</JumpArcLerpWindow>
+		<JumpArcInitialSpeed>0.25</JumpArcInitialSpeed>
 	</Action>
 	<Action>
 		<Name>Garrison</Name>
@@ -247,7 +259,6 @@
 		<ProtoObject>fx_hijacked</ProtoObject>
 		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="2" unjoinMaxDist="25">Board</JoinType>
 		<DamageModifiers damage="1.29999995" damageTaken="0.769999981" byCombatValue="false" />
-		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>UpgradedVehicleJoin</Name>
@@ -284,6 +295,11 @@
 		<Fatality attacker="HijackColossusIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_johnson_colossus_01</Fatality>
 		<Fatality attacker="HijackMantisIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_johnson_mantis_01</Fatality>
 		<Fatality attacker="HijackMastadonIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_battleapc_01</Fatality>
+		<Fatality attacker="HijackWarthogIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_rm_warthog_01</Fatality>
+		<Fatality attacker="HijackWarthogIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_rm_warthog_02</Fatality>
+		<Fatality attacker="HijackWarthogIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_rm_gausswarthog_01</Fatality>
+		<Fatality attacker="HijackScorpionIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_rm_scorpion_02</Fatality>
+		<Fatality attacker="HijackJackrabbitIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_rm_mongoose_02</Fatality>
 		<Fatality attacker="HijackWarthogIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_flamehog_01</Fatality>
 		<Fatality attacker="HijackWraithInvaderIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_wraithapc_01</Fatality>
 	</Action>
@@ -304,8 +320,8 @@
 		<Fatality attacker="HijackHornetIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_air_hawk_01</Fatality>
 		<Fatality attacker="HijackHornetIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_air_hornet_01</Fatality>
 		<Fatality attacker="HijackNightingaleIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_air_nightingale_01</Fatality>
-		<Fatality attacker="HijackHornetIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_air_rm_wingmenhornet_01</Fatality>
 		<Fatality attacker="HijackPegasusIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_air_serina_pegasus_01</Fatality>
+		<Fatality attacker="HijackHornetIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_air_rm_wingmenhornet_01</Fatality>
 		<Fatality attacker="HijackPhantomIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_air_phantom_01</Fatality>
 		<Fatality attacker="HijackPhantomIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_air_rm_phantom_01</Fatality>
 	</Action>
@@ -410,6 +426,16 @@
 			<Action>GatherCollectables</Action>
 		</TargetRule>
 		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>SMGAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverSMGAttackAction</Action>
+			<SquadMode>Cover</SquadMode>
+		</TargetRule>
+		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>transport</TargetType>
 			<Action>GarrisonPelican</Action>
@@ -495,10 +521,6 @@
 			<Action>NukeGroundPoundAction</Action>
 			<SquadMode>Normal</SquadMode>
 			<TargetsGround />
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>MagnumAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>

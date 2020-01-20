@@ -4,7 +4,7 @@
 		<Name>SpartanLaser</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>600</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
+		<WeaponType>ChainGun</WeaponType>
 		<Projectile>fx_proj_spartanlaser_01</Projectile>
 		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
@@ -42,7 +42,7 @@
 		<Name>AntiVehicleSpartanLaser</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>700</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
+		<WeaponType>ChainGun</WeaponType>
 		<Projectile>fx_proj_spartanlaser_01</Projectile>
 		<ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
@@ -81,7 +81,7 @@
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>2100</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Hero</WeaponType>
+		<WeaponType>ChainGun</WeaponType>
 		<MaxRange>1.84500003</MaxRange>
 		<MinRange>0</MinRange>
 		<ThrowUnits />
@@ -121,7 +121,7 @@
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>0</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Hero</WeaponType>
+		<WeaponType>ChainGun</WeaponType>
 		<MaxRange>1.84500003</MaxRange>
 		<MinRange>0</MinRange>
 		<ThrowUnits />
@@ -154,7 +154,7 @@
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>6000</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Hero</WeaponType>
+		<WeaponType>ChainGun</WeaponType>
 		<MaxRange>1.84500003</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -212,6 +212,7 @@
 		<Fatality attacker="fatality_spartan04_v_sniper01_attacker_01" target="fatality_spartan04_v_sniper01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_sniper_01</Fatality>
 		<Fatality attacker="fatality_spartan04_v_spartan02_attacker_01" target="fatality_spartan04_v_spartan02_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_generic_spartan_01</Fatality>
 		<Fatality attacker="fatality_spartan04_v_spartan02_attacker_01" target="fatality_spartan04_v_spartan02_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_spartan_01</Fatality>
+		<Fatality attacker="fatality_spartan02_v_arbiter_attacker_01" target="fatality_spartan02_v_arbiter_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_arbiter_01</Fatality>
 	</Action>
 	<Action>
 		<Name>SpartanLaserAttackAction</Name>
@@ -244,6 +245,7 @@
 		<Fatality attacker="fatality_spartan04_v_sniper01_attacker_01" target="fatality_spartan04_v_sniper01_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_sniper_01</Fatality>
 		<Fatality attacker="fatality_spartan04_v_spartan02_attacker_01" target="fatality_spartan04_v_spartan02_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_generic_spartan_01</Fatality>
 		<Fatality attacker="fatality_spartan04_v_spartan02_attacker_01" target="fatality_spartan04_v_spartan02_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">unsc_inf_spartan_01</Fatality>
+		<Fatality attacker="fatality_spartan02_v_arbiter_attacker_01" target="fatality_spartan02_v_arbiter_victim_01" cooldown="0" orientationOffset="180" maxPosOffset="12" lastUnitOnly="true">cov_inf_arbiter_01</Fatality>
 	</Action>
 	<Action>
 		<Name>GroundPoundAction</Name>

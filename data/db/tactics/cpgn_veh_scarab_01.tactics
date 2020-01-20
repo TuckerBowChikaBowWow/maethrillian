@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>InfectionBomb</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>1200</DamagePerSecond>
+		<DamagePerSecond>1100</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Mines</WeaponType>
 		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
@@ -12,21 +12,29 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>16</Radius>
+				<Radius>10</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>16</Radius>
+				<DamageRatio>80</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
 		</AOEData>
-		<Apply>5</Apply>
+		<Apply>6</Apply>
 		<Filter>Medium</Filter>
 		<InfectionTargetType>Infantry</InfectionTargetType>
 	</Weapon>
 	<Weapon>
 		<Name>InfectionBombReduced</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>650</DamagePerSecond>
+		<DamagePerSecond>750</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Mines</WeaponType>
 		<ImpactEffect size="Medium">FloodEggExplosion</ImpactEffect>
@@ -42,7 +50,7 @@
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
-		<Apply>1.5</Apply>
+		<Apply>2</Apply>
 		<Filter>Medium</Filter>
 		<InfectionTargetType>Infantry</InfectionTargetType>
 	</Weapon>
