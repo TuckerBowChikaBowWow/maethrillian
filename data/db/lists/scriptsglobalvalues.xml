@@ -17,7 +17,7 @@
 	</Table>
 	<Table Name="FirefightGameRulesEasy">
 		<Value Name="StartingWave" Type="int" Value="1" />
-		<Value Name="EndingWave" Type="int" Value="100" />
+		<Value Name="EndingWave" Type="int" Value="500" />
 		<Value Name="WavesInACycle" Type="int" Value="5" />
 		<Value Name="PopPerTerritory" Type="float" Value="10" />
 		<Value Name="VelocityModifier" Type="float" Value="3" />
@@ -45,7 +45,7 @@
 	</Table>
 	<Table Name="FirefightGameRules">
 		<Value Name="StartingWave" Type="int" Value="1" />
-		<Value Name="EndingWave" Type="int" Value="100" />
+		<Value Name="EndingWave" Type="int" Value="500" />
 		<Value Name="WavesInACycle" Type="int" Value="5" />
 		<Value Name="PopPerTerritory" Type="float" Value="10" />
 		<Value Name="VelocityModifier" Type="float" Value="3" />
@@ -73,9 +73,9 @@
 	</Table>
 	<Table Name="FirefightGameRulesHeroic">
 		<Value Name="StartingWave" Type="int" Value="1" />
-		<Value Name="EndingWave" Type="int" Value="100" />
+		<Value Name="EndingWave" Type="int" Value="500" />
 		<Value Name="WavesInACycle" Type="int" Value="5" />
-		<Value Name="PopPerTerritory" Type="float" Value="10" />
+		<Value Name="PopPerTerritory" Type="float" Value="15" />
 		<Value Name="VelocityModifier" Type="float" Value="3" />
 		<Value Name="ShowIntroText?" Type="bool" Value="false" />
 		<Value Name="ShowStartingWaypoint?" Type="bool" Value="false" />
@@ -101,9 +101,9 @@
 	</Table>
 	<Table Name="FirefightGameRulesLegendary">
 		<Value Name="StartingWave" Type="int" Value="1" />
-		<Value Name="EndingWave" Type="int" Value="100" />
+		<Value Name="EndingWave" Type="int" Value="500" />
 		<Value Name="WavesInACycle" Type="int" Value="5" />
-		<Value Name="PopPerTerritory" Type="float" Value="10" />
+		<Value Name="PopPerTerritory" Type="float" Value="20" />
 		<Value Name="VelocityModifier" Type="float" Value="3" />
 		<Value Name="ShowIntroText?" Type="bool" Value="false" />
 		<Value Name="ShowStartingWaypoint?" Type="bool" Value="false" />
@@ -220,15 +220,15 @@
 		</Value>
 	</Table>
 	<Table Name="FirefightPlayerRulesLegendary">
-		<Value Name="DefaultPop" Type="float" Value="40" />
-		<Value Name="StartingSupplies" Type="float" Value="600" />
-		<Value Name="StartingPower" Type="float" Value="400" />
+		<Value Name="DefaultPop" Type="float" Value="50" />
+		<Value Name="StartingSupplies" Type="float" Value="2000" />
+		<Value Name="StartingPower" Type="float" Value="1000" />
 		<Value Name="TechLevelToStart" Type="int" Value="2" />
-		<Value Name="LeaderPointsToStart" Type="int" Value="0" />
-		<Value Name="StartingSupplyDepots" Type="int" Value="0" />
-		<Value Name="StartingPowerGenerators" Type="int" Value="0" />
-		<Value Name="StartingUpgradedResources?" Type="bool" Value="false" />
-		<Value Name="StartingBarracks?" Type="bool" Value="false" />
+		<Value Name="LeaderPointsToStart" Type="int" Value="1" />
+		<Value Name="StartingSupplyDepots" Type="int" Value="1" />
+		<Value Name="StartingPowerGenerators" Type="int" Value="1" />
+		<Value Name="StartingUpgradedResources?" Type="bool" Value="true" />
+		<Value Name="StartingBarracks?" Type="bool" Value="true" />
 		<Value Name="StartingGarages?" Type="bool" Value="false" />
 		<Value Name="StartingAirpads?" Type="bool" Value="false" />
 		<Value Name="StartingArmoury?" Type="bool" Value="false" />
@@ -248,12 +248,12 @@
 		</Value>
 	</Table>
 	<Table Name="FirefightVeterancyRules">
-		<Value Name="MaxVeterancyLevel" Type="int" Value="3" />
+		<Value Name="MaxVeterancyLevel" Type="int" Value="5" />
 		<Value Name="DamagePerLevelVeterancyMultiplier" Type="float" Value="1.5" />
 	</Table>
 	<Table Name="FirefightNexusRules">
-		<Value Name="NexusHitpoints" Type="float" Value="120000" />
-		<Value Name="SpireHitpoints" Type="float" Value="30000" />
+		<Value Name="NexusHitpoints" Type="float" Value="240000" />
+		<Value Name="SpireHitpoints" Type="float" Value="60000" />
 		<Value Name="SpireHealingHealPerTick" Type="float" Value="0.00999999978" />
 		<Value Name="SpireHealingTickRate" Type="int" Value="500" />
 	</Table>
@@ -262,7 +262,7 @@
 		<Value Name="WaveSizeIncreasePerWave1Player" Type="int" Value="2" />
 		<Value Name="WaveSizeScale1Player" Type="float" Value="1" />
 		<Value Name="PerWaveUnitCap1Player" Type="int" Value="40" />
-		<Value Name="GlobalUnitCap1Player" Type="int" Value="60" />
+		<Value Name="GlobalUnitCap1Player" Type="int" Value="100" />
 		<Value Name="WaveBaseSize2Player" Type="int" Value="10" />
 		<Value Name="WaveSizeIncreasePerWave2Player" Type="int" Value="3" />
 		<Value Name="WaveSizeScale2Player" Type="float" Value="1" />
@@ -710,7 +710,7 @@
 			<Entry>unsc_veh_scorpion_01</Entry>
 			<Entry>unsc_inf_cyclops_01</Entry>
 			<Entry>unsc_inf_cyclops_01</Entry>
-			<Entry>unsc_inf_flamemarine_01</Entry>
+			<Entry>unsc_inf_odstsniper_01_mp</Entry>
 			<Entry>unsc_air_hornet_01</Entry>
 			<Entry>unsc_air_hornet_01</Entry>
 		</Value>
@@ -751,9 +751,9 @@
 		<Value Name="Icon" Type="string" Value="MixLight_icon" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000012" />
 		<Value Name="Composition" Type="protosquad">
-			<Entry>unsc_inf_marine_01</Entry>
-			<Entry>unsc_inf_marine_01</Entry>
-			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_serina_cryomarines_01</Entry>
+			<Entry>unsc_inf_marineguard_02</Entry>
+			<Entry>unsc_inf_marineguard_02</Entry>
 			<Entry>unsc_veh_warthog_01</Entry>
 			<Entry>unsc_inf_cyclops_01</Entry>
 			<Entry>unsc_veh_warthog_01</Entry>
@@ -784,8 +784,8 @@
 			<Entry>unsc_veh_wolverine_01</Entry>
 			<Entry>unsc_inf_cyclops_01</Entry>
 			<Entry>unsc_veh_scorpion_01</Entry>
-			<Entry>unsc_veh_warthog_01</Entry>
-			<Entry>unsc_inf_cyclops_01</Entry>
+			<Entry>unsc_air_serina_pegasus_01</Entry>
+			<Entry>unsc_air_fire_pegasus_01</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Basic\UNSC\WaveCombinedHeavy.triggerscript">
@@ -806,8 +806,8 @@
 			<Entry>unsc_air_nightingale_01</Entry>
 			<Entry>unsc_inf_cyclops_01</Entry>
 			<Entry>unsc_inf_cyclops_01</Entry>
-			<Entry>unsc_veh_scorpion_01</Entry>
-			<Entry>unsc_veh_scorpion_01</Entry>
+			<Entry>unsc_veh_flamescorpion_01</Entry>
+			<Entry>unsc_veh_grizzly_01</Entry>
 			<Entry>unsc_air_vulture_01</Entry>
 		</Value>
 	</Table>
@@ -852,7 +852,7 @@
 			<Entry>unsc_veh_wolverine_01</Entry>
 			<Entry>unsc_inf_cyclops_01</Entry>
 			<Entry>unsc_veh_scorpion_01</Entry>
-			<Entry>unsc_veh_warthog_01</Entry>
+			<Entry>unsc_veh_flamehog_01</Entry>
 			<Entry>unsc_inf_cyclops_01</Entry>
 		</Value>
 	</Table>
@@ -871,9 +871,9 @@
 		<Value Name="Icon" Type="string" Value="MixHeavy_icon" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000017" />
 		<Value Name="Composition" Type="protosquad">
-			<Entry>unsc_inf_cyclops_01</Entry>
-			<Entry>unsc_inf_cyclops_01</Entry>
-			<Entry>unsc_veh_scorpion_01</Entry>
+			<Entry>unsc_veh_warthogguard_01</Entry>
+			<Entry>unsc_veh_johnson_mantis_01</Entry>
+			<Entry>unsc_veh_grizzly_01</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Basic\UNSC\WaveInfBasic.triggerscript">
@@ -892,7 +892,8 @@
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000018" />
 		<Value Name="Composition" Type="protosquad">
 			<Entry>unsc_inf_marine_01</Entry>
-			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_marineguard_02</Entry>
+			<Entry>unsc_inf_generic_odst2</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Basic\UNSC\WaveInfHeavy.triggerscript">
@@ -918,6 +919,7 @@
 			<Entry>unsc_inf_cyclops_01</Entry>
 			<Entry>unsc_inf_cyclops_01</Entry>
 			<Entry>unsc_inf_sniper_01</Entry>
+			<Entry>unsc_inf_odstsniper_01_mp</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Basic\UNSC\WaveInfMedium.triggerscript">
@@ -935,8 +937,8 @@
 		<Value Name="Icon" Type="string" Value="InfantryMedium_icon" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000020" />
 		<Value Name="Composition" Type="protosquad">
-			<Entry>unsc_inf_marine_01</Entry>
-			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_marineguard_02</Entry>
+			<Entry>unsc_inf_marineguard_02</Entry>
 			<Entry>unsc_inf_odst_01</Entry>
 			<Entry>unsc_inf_odst_01</Entry>
 			<Entry>unsc_inf_cyclops_01</Entry>
@@ -958,7 +960,7 @@
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000021" />
 		<Value Name="Composition" Type="protosquad">
 			<Entry>unsc_inf_sniper_01</Entry>
-			<Entry>unsc_inf_odst_01</Entry>
+			<Entry>unsc_inf_odstsniper_01_mp</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Basic\UNSC\WaveInfTankKiller.triggerscript">
@@ -998,7 +1000,7 @@
 		<Value Name="Composition" Type="protosquad">
 			<Entry>unsc_veh_mongoose_01</Entry>
 			<Entry>unsc_veh_warthog_01</Entry>
-			<Entry>unsc_veh_mongoose_01</Entry>
+			<Entry>unsc_veh_flamehog_01</Entry>
 			<Entry>unsc_veh_wolverine_01</Entry>
 		</Value>
 	</Table>
@@ -1060,6 +1062,9 @@
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000026" />
 		<Value Name="Composition" Type="protosquad">
 			<Entry>unsc_veh_scorpion_01</Entry>
+			<Entry>unsc_veh_cryoscorpion_01</Entry>
+			<Entry>unsc_veh_flamescorpion_01</Entry>
+			<Entry>unsc_veh_grizzly_01</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Basic\Banished\WaveAirHeavy.triggerscript">
@@ -1133,10 +1138,28 @@
 		<Value Name="Icon" Type="string" Value="AntiTurret_icon" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000030" />
 		<Value Name="Composition" Type="protosquad">
-			<Entry>cov_veh_locust_01</Entry>
-			<Entry>cov_veh_locust_01</Entry>
-			<Entry>cov_veh_locust_01</Entry>
-			<Entry>cov_veh_wraith_01</Entry>
+			<Entry>cov_inf_lekgologoliath_01</Entry>
+			<Entry>cov_inf_lekgologoliath_01</Entry>
+			<Entry>cov_inf_lekgologoliath_01</Entry>
+			<Entry>cov_inf_lekgologoliath_01</Entry>
+			<Entry>cov_inf_lekgologoliath_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Basic\Banished\WaveCombinedLight.triggerscript">
@@ -1155,7 +1178,7 @@
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000031" />
 		<Value Name="Composition" Type="protosquad">
 			<Entry>cov_inf_grunt_01</Entry>
-			<Entry>cov_inf_brutejumppack_01</Entry>
+			<Entry>cov_inf_brutegrenadier_01</Entry>
 			<Entry>cov_veh_ghost_01</Entry>
 			<Entry>cov_veh_brutechopper_01</Entry>
 			<Entry>cov_air_banshee_01</Entry>
@@ -1178,10 +1201,11 @@
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000032" />
 		<Value Name="Composition" Type="protosquad">
 			<Entry>cov_inf_jackal_01</Entry>
-			<Entry>cov_veh_brutechopper_01</Entry>
+			<Entry>cov_inf_gruntgoblin01</Entry>
 			<Entry>cov_veh_locust_01</Entry>
 			<Entry>cov_veh_prowler_01</Entry>
 			<Entry>cov_air_banshee_01</Entry>
+			<Entry>cov_air_phantom_01</Entry>
 			<Entry>cov_inf_engineer_01</Entry>
 		</Value>
 	</Table>
@@ -1201,7 +1225,7 @@
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000033" />
 		<Value Name="Composition" Type="protosquad">
 			<Entry>cov_inf_hunter_01</Entry>
-			<Entry>cov_inf_hunter_01</Entry>
+			<Entry>cov_inf_impervioushunter_01</Entry>
 			<Entry>cov_inf_hunter_01</Entry>
 			<Entry>cov_veh_prowler_01</Entry>
 			<Entry>cov_veh_prowler_01</Entry>
@@ -1230,7 +1254,7 @@
 	</Table>
 	<Table Name="Firefight\Waves_Basic\Banished\WaveInfMeleeBasic.triggerscript">
 		<Value Name="StartWave" Type="int" Value="5" />
-		<Value Name="EndWave" Type="int" Value="15" />
+		<Value Name="EndWave" Type="int" Value="105" />
 		<Value Name="DeployTimeBase" Type="int" Value="1000" />
 		<Value Name="DeployTimePerInc" Type="int" Value="100" />
 		<Value Name="WaveSizeMultiplier" Type="float" Value="1.20000005" />
@@ -1265,9 +1289,9 @@
 		<Value Name="Composition" Type="protosquad">
 			<Entry>cov_inf_grunt_01</Entry>
 			<Entry>cov_inf_grunt_01</Entry>
-			<Entry>cov_inf_brutejumppack_01</Entry>
-			<Entry>cov_inf_brutejumppack_01</Entry>
-			<Entry>cov_inf_jackal_01</Entry>
+			<Entry>cov_inf_lekgologoliath_01</Entry>
+			<Entry>cov_inf_lekgologoliath_01</Entry>
+			<Entry>cov_inf_arbitersniper_01</Entry>
 			<Entry>cov_inf_hunter_01</Entry>
 			<Entry>cov_inf_hunter_01</Entry>
 			<Entry>cov_inf_engineer_01</Entry>
@@ -1288,12 +1312,12 @@
 		<Value Name="Icon" Type="string" Value="InfantryMedium_icon" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000037" />
 		<Value Name="Composition" Type="protosquad">
-			<Entry>cov_inf_grunt_01</Entry>
-			<Entry>cov_inf_grunt_01</Entry>
-			<Entry>cov_inf_brutejumppack_01</Entry>
-			<Entry>cov_inf_brutejumppack_01</Entry>
-			<Entry>cov_inf_jackal_01</Entry>
-			<Entry>cov_inf_jackal_01</Entry>
+			<Entry>cov_inf_generic_heavygrunt</Entry>
+			<Entry>cov_inf_generic_heavygrunt</Entry>
+			<Entry>cov_inf_generic_arbiterenforcer</Entry>
+			<Entry>cov_inf_generic_arbiterenforcer</Entry>
+			<Entry>cov_inf_arbitersniper_01</Entry>
+			<Entry>cov_inf_arbitersniper_01</Entry>
 			<Entry>cov_inf_engineer_01</Entry>
 		</Value>
 	</Table>
@@ -1313,7 +1337,7 @@
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000038" />
 		<Value Name="Composition" Type="protosquad">
 			<Entry>cov_inf_hunter_01</Entry>
-			<Entry>cov_inf_hunter_01</Entry>
+			<Entry>cov_inf_impervioushunter_01</Entry>
 			<Entry>cov_inf_hunter_01</Entry>
 		</Value>
 	</Table>
@@ -1399,7 +1423,7 @@
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000042" />
 		<Value Name="Composition" Type="protosquad">
 			<Entry>cov_inf_grunt_01</Entry>
-			<Entry>cov_inf_brutejumppack_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
 			<Entry>cov_veh_ghost_01</Entry>
 			<Entry>cov_veh_brutechopper_01</Entry>
 		</Value>
@@ -1420,7 +1444,10 @@
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000043" />
 		<Value Name="Composition" Type="protosquad">
 			<Entry>cov_inf_jackal_01</Entry>
-			<Entry>cov_veh_brutechopper_01</Entry>
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_veh_grunt_methanewagon_01</Entry>
 			<Entry>cov_veh_locust_01</Entry>
 			<Entry>cov_veh_prowler_01</Entry>
 		</Value>
@@ -1523,10 +1550,10 @@
 		<Value Name="Icon" Type="string" Value="VehLight_icon" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000048" />
 		<Value Name="Composition" Type="protosquad">
-			<Entry>flood_inf_infected_humelee_01</Entry>
+			<Entry>flood_infectedhumelee_carrier_01</Entry>
 			<Entry>flood_inf_infected_brutemelee_01</Entry>
 			<Entry>flood_veh_infected_brutechopper_01_base</Entry>
-			<Entry>flood_inf_infected_humelee_01</Entry>
+			<Entry>flood_infectedhumelee_carrier_01</Entry>
 			<Entry>flood_inf_infected_brutemelee_01</Entry>
 			<Entry>flood_veh_infected_warthog_01_base</Entry>
 		</Value>
@@ -1583,13 +1610,13 @@
 		<Value Name="Icon" Type="string" Value="VehLight_icon" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000051" />
 		<Value Name="Composition" Type="protosquad">
-			<Entry>flood_inf_infected_humelee_01</Entry>
+			<Entry>flood_infectedhumelee_carrier_01</Entry>
 			<Entry>flood_veh_infected_brutechopper_01_base</Entry>
-			<Entry>flood_inf_infected_elitemelee_01</Entry>
+			<Entry>flood_infectedhumelee_carrier_01</Entry>
 			<Entry>flood_veh_infected_warthog_01_base</Entry>
-			<Entry>flood_inf_infected_elitemelee_01</Entry>
+			<Entry>fld_custom_railgunflood</Entry>
 			<Entry>flood_air_infected_banshee_01_base</Entry>
-			<Entry>flood_inf_infected_humelee_01</Entry>
+			<Entry>fld_custom_railgunflood</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Basic\Flood\WaveInfMedium.triggerscript">
@@ -1607,10 +1634,10 @@
 		<Value Name="Icon" Type="string" Value="InfantryLight_icon" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000052" />
 		<Value Name="Composition" Type="protosquad">
-			<Entry>flood_inf_infected_humelee_01</Entry>
+			<Entry>flood_infectedhumelee_carrier_01</Entry>
 			<Entry>flood_inf_infected_assaultrifle_01</Entry>
 			<Entry>flood_inf_infected_assaultrifle_02</Entry>
-			<Entry>flood_inf_infected_elitemelee_01</Entry>
+			<Entry>flood_infectedhumelee_carrier_01</Entry>
 			<Entry>flood_inf_infected_brutemelee_01</Entry>
 			<Entry>flood_inf_infected_brutespiker_01</Entry>
 		</Value>
@@ -1667,7 +1694,7 @@
 			<Entry>flood_inf_infected_humelee_01</Entry>
 			<Entry>flood_veh_infected_brutechopper_01_base</Entry>
 			<Entry>flood_veh_infected_prowler_01_base</Entry>
-			<Entry>flood_veh_infected_scorpion_01_base</Entry>
+			<Entry>flood_veh_infected_grizzly_01_base</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Basic\Flood\WaveAirMedium.triggerscript">
@@ -1706,20 +1733,20 @@
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000056" />
 		<Value Name="Composition" Type="protosquad">
 			<Entry>flood_inf_infected_elitecarbine_01</Entry>
-			<Entry>flood_inf_infected_brutemelee_01</Entry>
-			<Entry>flood_inf_infected_humelee_01</Entry>
-			<Entry>flood_veh_infected_warthog_01_base</Entry>
+			<Entry>fld_custom_railgunflood</Entry>
+			<Entry>fld_custom_railgunflood</Entry>
+			<Entry>fld_custom_railgunflood</Entry>
 			<Entry>flood_inf_infected_elitemelee_01</Entry>
 			<Entry>flood_air_infected_banshee_01_base</Entry>
 			<Entry>flood_veh_infected_prowler_01_base</Entry>
 			<Entry>flood_veh_infected_warthog_01_base</Entry>
 			<Entry>flood_veh_infected_brutechopper_01_base</Entry>
 			<Entry>flood_veh_infected_warthog_01_base</Entry>
-			<Entry>flood_inf_infected_brutemelee_01</Entry>
-			<Entry>flood_inf_infected_humelee_01</Entry>
+			<Entry>flood_infectedhumelee_carrier_01</Entry>
+			<Entry>fld_custom_railgunflood</Entry>
 			<Entry>flood_air_infected_banshee_01_base</Entry>
 			<Entry>flood_veh_infected_brutechopper_01_base</Entry>
-			<Entry>flood_veh_infected_prowler_01_base</Entry>
+			<Entry>flood_veh_infected_grizzly_01_base</Entry>
 			<Entry>flood_veh_infected_scorpion_01_base</Entry>
 		</Value>
 	</Table>
@@ -1825,7 +1852,7 @@
 		<Value Name="Icon" Type="string" Value="AirLight_icon" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000061" />
 		<Value Name="Composition" Type="protosquad">
-			<Entry>cov_air_banshee_01</Entry>
+			<Entry>cov_air_phantom_01</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_MiniBoss\UNSC\WaveDirectAir.triggerscript">
@@ -1982,16 +2009,16 @@
 		<Value Name="Composition" Type="protosquad">
 			<Entry>flood_inf_infectfrm_01</Entry>
 			<Entry>flood_inf_infectfrm_01</Entry>
-			<Entry>flood_inf_infected_assaultrifle_02</Entry>
+			<Entry>flood_infectedhumelee_carrier_01</Entry>
 			<Entry>flood_inf_infectfrm_01</Entry>
 			<Entry>flood_inf_infectfrm_01</Entry>
-			<Entry>flood_inf_infected_brutemelee_01</Entry>
+			<Entry>flood_infectedhumelee_carrier_01</Entry>
 			<Entry>flood_inf_infectfrm_01</Entry>
 			<Entry>flood_inf_infectfrm_01</Entry>
-			<Entry>flood_inf_infected_assaultrifle_01</Entry>
+			<Entry>flood_infectedhumelee_carrier_01</Entry>
 			<Entry>flood_inf_infectfrm_01</Entry>
 			<Entry>flood_inf_infectfrm_01</Entry>
-			<Entry>flood_inf_infected_brutespiker_01</Entry>
+			<Entry>flood_infectedhumelee_carrier_01</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_MiniBoss\Flood\WaveFloodAirInfectors.triggerscript">
@@ -2077,7 +2104,7 @@
 		<Value Name="Icon" Type="string" Value="boss" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000073" />
 		<Value Name="Composition" Type="protosquad">
-			<Entry>unsc_air_destroyer_01</Entry>
+			<Entry>unsc_veh_johnson_colossus_01</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Boss\Banished\WaveUberUnit.triggerscript">
@@ -2095,7 +2122,7 @@
 		<Value Name="Icon" Type="string" Value="boss" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000074" />
 		<Value Name="Composition" Type="protosquad">
-			<Entry>cov_veh_scarab_01</Entry>
+			<Entry>cov_veh_corruptedscarab_01</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Boss\Forerunner\WaveUberUnit.triggerscript">
@@ -2153,26 +2180,28 @@
 		<Value Name="Icon" Type="string" Value="boss" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000077" />
 		<Value Name="Composition" Type="protosquad">
+			<Entry>unsc_inf_generic_odst2</Entry>
 			<Entry>unsc_inf_marine_01</Entry>
-			<Entry>unsc_inf_marine_01</Entry>
-			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_veh_flamehog_01</Entry>
 			<Entry>unsc_inf_marine_01</Entry>
 			<Entry>unsc_inf_cyclops_01</Entry>
-			<Entry>unsc_inf_cyclops_01</Entry>
+			<Entry>unsc_veh_cryoscorpion_01</Entry>
 			<Entry>unsc_veh_warthog_01</Entry>
-			<Entry>unsc_veh_warthog_01</Entry>
+			<Entry>unsc_veh_johnson_mantis_01</Entry>
 			<Entry>unsc_veh_warthog_01</Entry>
 			<Entry>unsc_veh_wolverine_01</Entry>
 			<Entry>unsc_veh_wolverine_01</Entry>
 			<Entry>unsc_veh_scorpion_01</Entry>
-			<Entry>unsc_veh_scorpion_01</Entry>
+			<Entry>unsc_inf_generic_odst2</Entry>
 			<Entry>unsc_air_hornet_01</Entry>
 			<Entry>unsc_air_hornet_01</Entry>
 		</Value>
 		<Value Name="Leaders" Type="protosquad">
-			<Entry>unsc_inf_spartan_mpalice_01</Entry>
-			<Entry>unsc_inf_spartan_mpdoug_01</Entry>
-			<Entry>unsc_inf_spartan_mpjerome_01</Entry>
+			<Entry>unsc_veh_warthogspartan_01</Entry>
+			<Entry>unsc_veh_forgehog_01</Entry>
+			<Entry>unsc_inf_johnson_hero_01</Entry>
+			<Entry>unsc_inf_omegateam_jerome_01</Entry>
+			<Entry>unsc_veh_serina_hero_01</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Boss\Banished\WaveLeaderArmy.triggerscript">
@@ -2194,12 +2223,12 @@
 		<Value Name="Icon" Type="string" Value="boss" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000078" />
 		<Value Name="Composition" Type="protosquad">
-			<Entry>cov_inf_grunt_01</Entry>
-			<Entry>cov_inf_grunt_01</Entry>
-			<Entry>cov_inf_grunt_01</Entry>
-			<Entry>cov_inf_grunt_01</Entry>
-			<Entry>cov_inf_grunt_01</Entry>
-			<Entry>cov_inf_grunt_01</Entry>
+			<Entry>cov_inf_elitecommando_01</Entry>
+			<Entry>cov_inf_elitecommando_01</Entry>
+			<Entry>cov_inf_brutehonour_01</Entry>
+			<Entry>cov_inf_brutehonour_01</Entry>
+			<Entry>cov_inf_elitecommando_01</Entry>
+			<Entry>cov_inf_brutehonour_01</Entry>
 			<Entry>cov_veh_brutechopper_01</Entry>
 			<Entry>cov_veh_brutechopper_01</Entry>
 			<Entry>cov_veh_ghost_01</Entry>
@@ -2212,9 +2241,12 @@
 			<Entry>cov_air_banshee_01</Entry>
 		</Value>
 		<Value Name="Leaders" Type="protosquad">
-			<Entry>cov_inf_elitecommando_01</Entry>
-			<Entry>cov_inf_brutehonour_01</Entry>
 			<Entry>cov_inf_atrioxchosen_01</Entry>
+			<Entry>cov_inf_impervioushunter_01</Entry>
+			<Entry>cov_inf_arbiter_01</Entry>
+			<Entry>cov_inf_gruntgoblin01</Entry>
+			<Entry>cov_inf_corruptedwarlord_01</Entry>
+			<Entry>cov_inf_hereticleader_01</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Boss\Flood\WaveBossInfectors.triggerscript">
@@ -2239,6 +2271,21 @@
 			<Entry>flood_inf_infectfrm_01</Entry>
 			<Entry>flood_inf_infectfrm_01</Entry>
 			<Entry>flood_inf_infectfrm_01</Entry>
+			<Entry>flood_inf_infected_rocket_01</Entry>
+			<Entry>flood_inf_infected_rocket_01</Entry>
+			<Entry>flood_inf_infected_rocket_01</Entry>
+			<Entry>flood_inf_infected_rocket_01</Entry>
+			<Entry>flood_inf_infected_rocket_01</Entry>
+			<Entry>flood_inf_infected_rocket_01</Entry>
+			<Entry>flood_inf_infected_rocket_01</Entry>
+			<Entry>flood_inf_infected_sniper_01_base</Entry>
+			<Entry>flood_inf_infected_sniper_01_base</Entry>
+			<Entry>flood_inf_infected_rocket_01</Entry>
+			<Entry>fld_custom_douglas_t3</Entry>
+			<Entry>fld_custom_machinegun</Entry>
+			<Entry>fld_inf_atrioxchosen_01_t3</Entry>
+			<Entry>fld_custom_arbiter_t3</Entry>
+			<Entry>flood_inf_vehinfector_01</Entry>
 			<Entry>flood_inf_vehinfector_01</Entry>
 			<Entry>flood_inf_vehinfector_01</Entry>
 			<Entry>flood_air_airborneinfector_01</Entry>
@@ -2262,9 +2309,11 @@
 		<Value Name="Icon" Type="string" Value="boss" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000080" />
 		<Value Name="Composition" Type="protosquad">
-			<Entry>unsc_inf_spartan_mpalice_01</Entry>
-			<Entry>unsc_inf_spartan_mpdoug_01</Entry>
-			<Entry>unsc_inf_spartan_mpjerome_01</Entry>
+			<Entry>unsc_veh_warthogspartan_01</Entry>
+			<Entry>unsc_veh_forgehog_01</Entry>
+			<Entry>unsc_inf_johnson_hero_01</Entry>
+			<Entry>unsc_inf_omegateam_jerome_01</Entry>
+			<Entry>unsc_veh_serina_hero_01</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Boss\Banished\WaveBig3.triggerscript">
@@ -2282,9 +2331,12 @@
 		<Value Name="Icon" Type="string" Value="boss" />
 		<Value Name="CmsWaveId" Type="string" Value="00000000-0000-0000-0000-000000000081" />
 		<Value Name="Composition" Type="protosquad">
-			<Entry>cov_inf_elitecommando_01</Entry>
-			<Entry>cov_inf_brutehonour_01</Entry>
 			<Entry>cov_inf_atrioxchosen_01</Entry>
+			<Entry>cov_inf_impervioushunter_01</Entry>
+			<Entry>cov_inf_arbiter_01</Entry>
+			<Entry>cov_inf_gruntgoblin01</Entry>
+			<Entry>cov_inf_corruptedwarlord_01</Entry>
+			<Entry>cov_inf_hereticleader_01</Entry>
 		</Value>
 	</Table>
 	<Table Name="Firefight\Waves_Boss\UNSC\WaveBigGuns.triggerscript">
@@ -2339,30 +2391,30 @@
 		<Value Name="FreePopPercentToReinforce" Type="float" Value="0.899999976" />
 		<Value Name="ScorePerUnitIfNoPop" Type="float" Value="1000" />
 		<Value Name="ReinforcementsUNSC" Type="protosquad">
-			<Entry>unsc_inf_marine_01</Entry>
-			<Entry>unsc_inf_marine_01</Entry>
+			<Entry>unsc_inf_marineguard_02</Entry>
+			<Entry>unsc_inf_marineguard_02</Entry>
 			<Entry>unsc_inf_cyclops_01</Entry>
 			<Entry>unsc_veh_wolverine_01</Entry>
-			<Entry>unsc_veh_warthog_01</Entry>
+			<Entry>unsc_veh_johnson_mantis_01</Entry>
 			<Entry>unsc_inf_odst_01</Entry>
-			<Entry>unsc_veh_warthog_01</Entry>
+			<Entry>unsc_veh_johnson_mantis_01</Entry>
 			<Entry>unsc_veh_wolverine_01</Entry>
+			<Entry>unsc_veh_flamescorpion_01</Entry>
 			<Entry>unsc_air_hornet_01</Entry>
-			<Entry>unsc_air_hornet_01</Entry>
-			<Entry>unsc_veh_scorpion_01</Entry>
+			<Entry>unsc_veh_grizzly_01</Entry>
 			<Entry>unsc_air_vulture_01</Entry>
 		</Value>
 		<Value Name="ReinforcementsBAN" Type="protosquad">
-			<Entry>cov_inf_grunt_01</Entry>
-			<Entry>cov_veh_ghost_01</Entry>
-			<Entry>cov_veh_ghost_01</Entry>
-			<Entry>cov_inf_jackal_01</Entry>
+			<Entry>cov_inf_generic_arbiterenforcer</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
+			<Entry>cov_veh_skitterer_01</Entry>
 			<Entry>cov_veh_brutechopper_01</Entry>
 			<Entry>cov_inf_hunter_01</Entry>
 			<Entry>cov_veh_gorgon_01</Entry>
-			<Entry>cov_veh_locust_01</Entry>
-			<Entry>cov_veh_prowler_01</Entry>
-			<Entry>cov_air_banshee_01</Entry>
+			<Entry>cov_veh_wraithapc_01</Entry>
+			<Entry>cov_veh_wraithapc_01</Entry>
+			<Entry>cov_veh_wraithapc_01</Entry>
 			<Entry>cov_veh_wraith_01</Entry>
 			<Entry>cov_veh_wraith_01</Entry>
 			<Entry>cov_air_blisterback_01</Entry>
