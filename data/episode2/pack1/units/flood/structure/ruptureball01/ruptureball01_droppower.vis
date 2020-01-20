@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="ruptureball01">
+	<model name="ruptureball01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2\pack1\units\flood\structure\ruptureball01\mesh_ruptureball01</file>
+				<damagefile>episode2/pack1/units/flood/structure/ruptureball01/ruptureball01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="leg_01_small" tobone="GrannyRootBone_ruptureball01" frombone="GrannyRootBone_ruptureleg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="leg_02_medium" tobone="GrannyRootBone_ruptureball01" frombone="GrannyRootBone_ruptureleg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="leg_03_large" tobone="GrannyRootBone_ruptureball01" frombone="GrannyRootBone_ruptureleg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="leg_04_small" tobone="GrannyRootBone_ruptureball01" frombone="GrannyRootBone_ruptureleg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="leg_05_small" tobone="GrannyRootBone_ruptureball01" frombone="GrannyRootBone_ruptureleg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="leg_06_small" tobone="GrannyRootBone_ruptureball01" frombone="GrannyRootBone_ruptureleg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="leg_07_small" tobone="GrannyRootBone_ruptureball01" frombone="GrannyRootBone_ruptureleg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="leg_08_medium" tobone="GrannyRootBone_ruptureball01" frombone="GrannyRootBone_ruptureleg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="leg_09_medium" tobone="GrannyRootBone_ruptureball01" frombone="GrannyRootBone_ruptureleg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="leg_10_large" tobone="GrannyRootBone_ruptureball01" frombone="GrannyRootBone_ruptureleg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="leg_11_small" tobone="GrannyRootBone_ruptureball01" frombone="GrannyRootBone_ruptureleg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="leg_12_small" tobone="GrannyRootBone_ruptureball01" frombone="GrannyRootBone_ruptureleg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Incoming" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_deploy01_ball</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/episode2/Units/FloodRuptureBallGroundBreak" tobone="GrannyRootBone_ruptureball01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="AdvancedCameraShake" start="0" position_type="Time" position="0" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="4" fadeOutTime="0.200000003" translationStrength="0.200000003" translationFrequency="6" yawPitchStrength="0.200000003" rollStrength="0.200000003" rotationFrequency="6" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/episode2/Units/FloodRuptureBallDeployTop" tobone="b_top_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="26.2199993" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.00600000005" end="1" name="PLAY_SFX_3D_FLD_Rupture_Deploy" tobone="GrannyRootBone_ruptureball01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.847999871" end="1" name="vfx/episode2/Units/FloodRuptureBallGroundLand" tobone="GrannyRootBone_ruptureball01" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="AdvancedCameraShake" start="0" position_type="Time" position="0.84799999" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0" fadeOutTime="0.25" translationStrength="0.5" translationFrequency="6" yawPitchStrength="0.5" rollStrength="0.5" rotationFrequency="6" />
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_deploy01_ball</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/episode2/Units/FloodRuptureBallGroundBreak" tobone="GrannyRootBone_ruptureball01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="AdvancedCameraShake" start="0" position_type="Time" position="0" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="4" fadeOutTime="0.200000003" translationStrength="0.200000003" translationFrequency="6" yawPitchStrength="0.200000003" rollStrength="0.200000003" rotationFrequency="6" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/episode2/Units/FloodRuptureBallDeployTop" tobone="b_top_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="26.2199993" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.00600000005" end="1" name="PLAY_SFX_3D_FLD_Rupture_Deploy" tobone="GrannyRootBone_ruptureball01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.847999871" end="1" name="vfx/episode2/Units/FloodRuptureBallGroundLand" tobone="GrannyRootBone_ruptureball01" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="AdvancedCameraShake" start="0" position_type="Time" position="0.84799999" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0" fadeOutTime="0.25" translationStrength="0.5" translationFrequency="6" yawPitchStrength="0.5" rollStrength="0.5" rotationFrequency="6" />
+			</asset>
+		</anim>
+		<anim type="Spawn" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_ball</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/episode2/Units/FloodRuptureBallIdle" tobone="GrannyRootBone_ruptureball01" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Outgoing" exitAction="Freeze" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_burst01_ball</file>
+				<weight>1</weight>
+				<tag type="AdvancedCameraShake" start="0" position_type="Time" position="0" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="1" fadeOutTime="0.200000003" translationStrength="0.200000003" translationFrequency="6" yawPitchStrength="0.200000003" rollStrength="0.200000003" rotationFrequency="6" />
+				<tag type="Sound" start="0" position_type="Time" position="0.00600000005" end="1" name="PLAY_SFX_3D_FLD_Rupture_Death" tobone="GrannyRootBone_ruptureball01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="AdvancedCameraShake" start="0" position_type="Time" position="0.860000014" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0" fadeOutTime="1" translationStrength="2" translationFrequency="5" yawPitchStrength="2" rollStrength="2" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.860000014" end="1" tobone="GrannyRootBone_ruptureball01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.860000074" end="1" name="vfx/episode2/Units/FloodRuptureBallExplosion" tobone="b_mid_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_burst01_ball</file>
+				<weight>1</weight>
+				<tag type="AdvancedCameraShake" start="0" position_type="Time" position="0" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="1" fadeOutTime="0.200000003" translationStrength="0.200000003" translationFrequency="6" yawPitchStrength="0.200000003" rollStrength="0.200000003" rotationFrequency="6" />
+				<tag type="Sound" start="0" position_type="Time" position="0.00600000005" end="1" name="PLAY_SFX_3D_FLD_Rupture_Death" tobone="GrannyRootBone_ruptureball01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="AdvancedCameraShake" start="0" position_type="Time" position="0.860000014" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0" fadeOutTime="1" translationStrength="2" translationFrequency="5" yawPitchStrength="2" rollStrength="2" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.860000014" end="1" tobone="GrannyRootBone_ruptureball01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.860000074" end="1" name="vfx/episode2/Units/FloodRuptureBallExplosion" tobone="b_mid_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_ball</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.99000001" end="1" name="Play_SFX_3D_FLD_WPN_SlimeImpact" tobone="GrannyRootBone_ruptureball01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.99000001" end="1" tobone="GrannyRootBone_ruptureball01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/episode2/Units/FloodRuptureBallIdle" tobone="GrannyRootBone_ruptureball01" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+	</model>
+	<model name="leg_01_small">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/ruptureleg01/mesh_ruptureleg01_sml</file>
+			</asset>
+		</component>
+		<anim type="Train" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_deploy01_leg01_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg01_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_burst01_leg01_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spawn" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg01_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="leg_02_medium">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/ruptureleg01/mesh_ruptureleg01_med</file>
+			</asset>
+		</component>
+		<anim type="Train" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_deploy01_leg02_medium</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg02_medium</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_burst01_leg02_medium</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spawn" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg02_medium</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="leg_03_large">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/ruptureleg01/mesh_ruptureleg01</file>
+			</asset>
+		</component>
+		<anim type="Train" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_deploy01_leg03_large</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg03_large</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_burst01_leg03_large</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spawn" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg03_large</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="leg_04_small">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/ruptureleg01/mesh_ruptureleg01_sml</file>
+			</asset>
+		</component>
+		<anim type="Train" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_deploy01_leg04_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="0" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg04_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_burst01_leg04_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spawn" exitAction="Loop" tweenTime="10" tweenToAnimation="0" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg04_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="leg_05_small">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/ruptureleg01/mesh_ruptureleg01_sml</file>
+			</asset>
+		</component>
+		<anim type="Train" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_deploy01_leg05_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg05_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_burst01_leg05_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spawn" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg05_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="leg_06_small">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/ruptureleg01/mesh_ruptureleg01_sml</file>
+			</asset>
+		</component>
+		<anim type="Train" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_deploy01_leg06_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg06_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_burst01_leg06_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spawn" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg06_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="leg_07_small">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/ruptureleg01/mesh_ruptureleg01_sml</file>
+			</asset>
+		</component>
+		<anim type="Train" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_deploy01_leg07_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg07_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_burst01_leg07_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spawn" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg07_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="leg_08_medium">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/ruptureleg01/mesh_ruptureleg01_med</file>
+			</asset>
+		</component>
+		<anim type="Train" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_deploy01_leg08_medium</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg08_medium</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_burst01_leg08_medium</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spawn" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg08_medium</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="leg_09_medium">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/ruptureleg01/mesh_ruptureleg01_med</file>
+			</asset>
+		</component>
+		<anim type="Train" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_deploy01_leg09_medium</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg09_medium</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_burst01_leg09_medium</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spawn" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg09_medium</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="leg_10_large">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/ruptureleg01/mesh_ruptureleg01</file>
+			</asset>
+		</component>
+		<anim type="Train" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_deploy01_leg010_large</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg010_large</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_burst01_leg010_large</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spawn" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg010_large</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="leg_11_small">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/ruptureleg01/mesh_ruptureleg01_sml</file>
+			</asset>
+		</component>
+		<anim type="Train" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_deploy01_leg011_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg011_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_burst01_leg011_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spawn" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg011_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="leg_12_small">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>episode2/pack1/units/flood/structure/ruptureleg01/mesh_ruptureleg01_sml</file>
+			</asset>
+		</component>
+		<anim type="Train" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_deploy01_leg012_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg012_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_burst01_leg012_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spawn" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/flood/structure/rupture_01/rupture_idle01_leg012_small</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>
