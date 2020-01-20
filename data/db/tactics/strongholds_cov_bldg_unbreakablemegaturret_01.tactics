@@ -1,185 +1,221 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>ShadeTurret</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>36</DamagePerSecond>
-		<WeaponType>MediumArms</WeaponType>
-		<Projectile>fx_proj_rocket_01</Projectile>
-		<ImpactEffect size="Medium">BanishedMissileExplosion</ImpactEffect>
-		<MaxVelocityLead>18.4500008</MaxVelocityLead>
-		<MaxRange>65</MaxRange>
-		<Hardpoint>ShadeTurret</Hardpoint>
-		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="TurretBuilding">1</TargetPriority>
-		<TargetPriority type="GroundVehicle">5</TargetPriority>
-		<TargetPriority type="Infantry">5</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<TargetPriority type="Flying">3</TargetPriority>
-		<TargetPriority type="Aircraft">3</TargetPriority>
-		<ProjectileLaunchDirY />
+		<Name>MegaCannon</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.20000005</PreAttackCooldownMax>
-		<PostAttackCooldownMin>4</PostAttackCooldownMin>
-		<PostAttackCooldownMax>5.69999981</PostAttackCooldownMax>
-		<Slow TargetType="Unit" MovementModifier="0.5" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">2.2f</Slow>
+		<PreAttackCooldownMax>0.800000012</PreAttackCooldownMax>
+		<PostAttackCooldownMin>6</PostAttackCooldownMin>
+		<PostAttackCooldownMax>7</PostAttackCooldownMax>
+		<WeaponType>MegaTurret</WeaponType>
+		<Projectile>fx_proj_MegaTurretProjectile1</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">megaTurretImpact1</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1" yawpitchstrength="2" rollstrength="0.800000012" rotationfrequency="3" translationstrength="0" translationfrequency="6" />
+		<MaxVelocityLead>12.3000002</MaxVelocityLead>
+		<MaxRange>300</MaxRange>
+		<MinRange>50</MinRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>5</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>1</Radius>
+				<Radius>12</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>7</Radius>
-				<DamageRatio>70</DamageRatio>
+				<Radius>17</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>22</Radius>
+				<DamageRatio>25</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>10</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>100</PhysicsForceMin>
+		<PhysicsForceMax>200</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
 	<Weapon>
-		<Name>Artillery</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>104</DamagePerSecond>
-		<WeaponType>MediumArms</WeaponType>
-		<Projectile>fx_proj_shadeplasma_01</Projectile>
-		<ImpactEffect size="Small">SmallPlasmaExplosion</ImpactEffect>
-		<MaxVelocityLead>22</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
-		<MinRange>0</MinRange>
+		<Name>ScorchMegaCannon</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.800000012</PreAttackCooldownMax>
+		<PostAttackCooldownMin>6</PostAttackCooldownMin>
+		<PostAttackCooldownMax>7</PostAttackCooldownMax>
+		<WeaponType>MegaTurret</WeaponType>
+		<Projectile>fx_proj_MegaTurretProjectile2</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true" doShockwaveAction="true">megaTurretImpact2</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1" yawpitchstrength="3.5" rollstrength="1.60000002" rotationfrequency="3" translationstrength="0" translationfrequency="6" />
+		<MaxVelocityLead>12.3000002</MaxVelocityLead>
+		<MaxRange>300</MaxRange>
+		<MinRange>30</MinRange>
 		<Accuracy>1</Accuracy>
-		<MaxDeviation>3</MaxDeviation>
-		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>4.5</MovingMaxDeviation>
+		<MaxDeviation>5</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>17</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>22</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>10</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>100</PhysicsForceMin>
+		<PhysicsForceMax>200</PhysicsForceMax>
 		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="Infantry">9</TargetPriority>
-		<TargetPriority type="GroundVehicle">7</TargetPriority>
-		<TargetPriority type="Flying">5</TargetPriority>
-		<TargetPriority type="Building">3</TargetPriority>
-		<PreAttackCooldownMin>0.5</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.699999988</PreAttackCooldownMax>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+	</Weapon>
+	<Weapon>
+		<Name>TargetingLaser</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<Projectile>vfx_episode2_units_megaturretBeam</Projectile>
+		<MaxVelocityLead>99</MaxVelocityLead>
+		<MaxRange>301</MaxRange>
+		<Hardpoint>Laser</Hardpoint>
+	</Weapon>
+	<Weapon>
+		<Name>megaTurret</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>8400</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>MegaTurretCampaignBlocker</WeaponType>
+		<Projectile>vfx_episode2_units_megaturretprojectile3</Projectile>
+		<ImpactEffect size="Large" alwaysHorizontal="true" doShockwaveAction="true">megaTurretImpact3</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1" yawpitchstrength="1.5" rollstrength="0.600000024" rotationfrequency="3" translationstrength="0" translationfrequency="6" />
+		<MaxVelocityLead>0</MaxVelocityLead>
+		<MaxRange>3075</MaxRange>
+		<Accuracy>0.25</Accuracy>
+		<MaxDeviation>100</MaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12.3000002</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1200</PhysicsForceMin>
+		<PhysicsForceMax>1500</PhysicsForceMax>
+		<Hardpoint>Turret</Hardpoint>
+		<TargetPriority type="FloodBoss">14</TargetPriority>
+		<TargetPriority type="FloodTentacleBlocker">12</TargetPriority>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">8</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">2</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
 	<Action>
-		<Name>ArtilleryAttackAction</Name>
+		<Name>TargetingLaserAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>Attack</Anim>
-		<Weapon>Artillery</Weapon>
-		<CanOrientOwner>false</CanOrientOwner>
+		<Anim>LaserAttack</Anim>
+		<Weapon>TargetingLaser</Weapon>
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Strafing maxDistance="301" turnRate="180" trackingSpeed="20" jitter="0" />
 		<PersistBetweenOpps />
-		<FullBodyAttackAnim />
-		<ForceAttachmentAnim />
+		<LoopAttackAnim />
 	</Action>
 	<Action>
-		<Name>ShadeTurretAttackAction</Name>
+		<Name>ScorchMegaCannonAttack</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>PeashootAttack</Anim>
-		<Weapon>ShadeTurret</Weapon>
-		<CanOrientOwner>false</CanOrientOwner>
-		<DontCheckOrientTolerance />
+		<Anim>MegaTurretAttack</Anim>
+		<Weapon>ScorchMegaCannon</Weapon>
+		<FullBodyAttackAnim />
+		<StartDisabled />
+		<SlaveAttackAction>TargetingLaserAction</SlaveAttackAction>
 	</Action>
 	<Action>
-		<Name>PersonalCloak</Name>
-		<ActionType>StealthManager</ActionType>
-		<StealthType>Cloak</StealthType>
+		<Name>MegaCannonAttack</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MegaTurretAttack</Anim>
+		<Weapon>MegaCannon</Weapon>
+		<FullBodyAttackAnim />
+		<SlaveAttackAction>TargetingLaserAction</SlaveAttackAction>
 	</Action>
 	<Action>
-		<Name>Garrison</Name>
-		<ActionType>Garrison</ActionType>
-		<WorkRange>3.07500005</WorkRange>
+		<Name>DeliverBuilding</Name>
+		<ActionType>AnimDeliver</ActionType>
+		<Hardpoint>Spirit</Hardpoint>
+		<Hardpoint2>Building</Hardpoint2>
+		<DeliveryType>Building</DeliveryType>
+		<DeliveryDelay>14</DeliveryDelay>
+		<AllowDuplicate />
 	</Action>
 	<Action>
-		<Name>GarrisonPelican</Name>
-		<ActionType>Garrison</ActionType>
-		<Anim>PelicanGarrison</Anim>
-		<WorkRange>8.61000061</WorkRange>
-	</Action>
-	<Action>
-		<Name>UngarrisonPelican</Name>
-		<ActionType>Ungarrison</ActionType>
-		<Anim>PelicanUngarrison</Anim>
-		<WorkRange>0</WorkRange>
-	</Action>
-	<Action>
-		<Name>GarrisonTeleport</Name>
-		<ActionType>Garrison</ActionType>
-		<Anim>TeleportOut</Anim>
-		<WorkRange>9.22500038</WorkRange>
-	</Action>
-	<Action>
-		<Name>UngarrisonTeleport</Name>
-		<ActionType>Ungarrison</ActionType>
-		<Anim>TeleportIn</Anim>
-		<WorkRange>0</WorkRange>
-	</Action>
-	<Action>
-		<Name>GatherCollectables</Name>
-		<ActionType>Gather</ActionType>
-		<Anim>Gather</Anim>
-		<Resource>Collectable</Resource>
-		<WorkRate>1</WorkRate>
-		<WorkRange>4</WorkRange>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_wraithshield</ProtoObject>
+		<StartDisabled />
 	</Action>
 	<Tactic>
-		<PersistentAction>PersonalCloak</PersistentAction>
-		<PersistentAction>ShadeTurretAttackAction</PersistentAction>
+		<PersistentAction>ShieldAction</PersistentAction>
 		<TargetRule>
-			<GaiaOwned />
-			<TargetType>Collectable</TargetType>
-			<Action>GatherCollectables</Action>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>ScorchMegaCannonAttack</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>ArtilleryAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>ShadeTurretAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>PersonalCloak</Action>
-			<Relation>Self</Relation>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>PersonalCloak</Action>
-			<TargetsGround />
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>PersonalCloak</Action>
-			<Relation>Enemy</Relation>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Ally</Relation>
-			<TargetType>transport</TargetType>
-			<Action>GarrisonPelican</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Ungarrison</Ability>
-			<Relation>Ally</Relation>
-			<TargetType>transport</TargetType>
-			<Action>UngarrisonPelican</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<Relation>Self</Relation>
-			<TargetType>TeleportPickup</TargetType>
-			<Action>GarrisonTeleport</Action>
-		</TargetRule>
-		<TargetRule>
-			<GaiaOwned />
-			<Ability>Ungarrison</Ability>
-			<Relation>Self</Relation>
-			<TargetType>TeleportDropoff</TargetType>
-			<Action>UngarrisonTeleport</Action>
+			<TargetType>NonFlying</TargetType>
+			<Action>MegaCannonAttack</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>
