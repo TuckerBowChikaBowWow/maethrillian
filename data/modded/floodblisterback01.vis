@@ -6,8 +6,8 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>episode2/pack1/units/covenant/vehicles/floodblisterback01/mesh_blisterback02</file>
-				<damagefile>units/covenant/vehicles/blisterback02/blisterback02</damagefile>
+				<file>episode2/pack1/units/flood/aerial/floodblisterback01/mesh_blisterback02</file>
+				<damagefile>episode2/pack1/units/flood/aerial/floodblisterback01/blisterback02</damagefile>
 			</asset>
 			<attach type="LightFile" name="Lights/HeadlightBlisterBack" tobone="bone_vfx_HeadLightLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/HeadlightBlisterBack" tobone="bone_vfx_HeadLightRight" syncanims="false" disregardorient="false" removeimmediately="false" />
@@ -52,7 +52,7 @@
 			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/BlisterBackEngines" tobone="bone_vfx_MiddleLeftLegJetPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/BlisterBackEngines" tobone="bone_vfx_MiddleRightLegJetPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
 		</anim>
-		<anim type="AnchorDown" exitAction="Freeze" tweenTime="12" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>animations/covenant/vehicles/blisterback02/blisterback02_land_lockdown_main</file>
 				<weight>1</weight>
@@ -61,7 +61,7 @@
 				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/BlisterBackEngines" tobone="bone_vfx_MiddleLeftLegJetPoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.0999999" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/MiscUnitVFX/BlisterBackEngines" tobone="bone_vfx_MiddleRightLegJetPoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1.89999998" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="0.552999973" name="WakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Sound" start="0" position_type="Time" position="0.100000001" end="1" name="PLAY_SFX_3D_VEH_BAN_BlisterbackLanding" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.100000001" end="1" name="PLAY_SFX_3D_VEH_BAN_BlisterbackLanding" tobone="GrannyRootBone_blisterback02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Particle" start="0" position_type="Time" position="0.340000004" end="1" name="vfx/UnitVFX/MiscUnitVFX/BlisterBackLandingJetSmoke" tobone="bone_vfx_BackLeftLegJetPoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="10" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Particle" start="0" position_type="Time" position="0.340000004" end="1" name="vfx/UnitVFX/MiscUnitVFX/BlisterBackLandingJetSmoke" tobone="bone_vfx_BackRightLegJetPoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="10" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Particle" start="0" position_type="Time" position="0.340000004" end="1" name="vfx/UnitVFX/MiscUnitVFX/BlisterBackLandingJetSmoke" tobone="bone_vfx_MiddleLeftLegJetPoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="10" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
@@ -139,13 +139,27 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.0199999996" end="1" name="PLAY_SFX_3D_VEH_BAN_BlisterbackAirEngineOutgoing" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 		</anim>
-		<anim type="Transform" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>episode2/pack1/animations/flood/aerial/infectedbliback_01/air_transform_01</file>
+				<file>animations/covenant/vehicles/blisterback02/spartan_hijack_blisterback_air_in</file>
 				<weight>1</weight>
-				<tag type="Sound" start="0" position_type="Time" position="0.600000024" end="1" name="PLAY_SFX_3D_FLY_FLD_TransformGrowth_Vehicle" tobone="bone_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0270000007" end="1" name="Play_SFX_3D_VEH_HijackAirVehicleInitialDropCOV" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.105999999" end="1" name="PLAY_SFX_3D_VEH_BAN_BlisterbackAirHijackEngineRevs" tobone="GrannyRootBone_blisterback02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.754999995" end="1" name="PLAY_SFX_3D_VFX_SpartanHijackEMPChargeLoop" tobone="GrannyRootBone_blisterback02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
-			<attach type="ModelRef" name="AirborneInfector" tobone="GrannyRootBone_blisterback02" frombone="GrannyRootBone_airborneInfector_01" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/blisterback02/spartan_hijack_blisterback_air_loop</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateExit" position="0" end="1" name="STOP_SFX_3D_VFX_SpartanHijackEMPChargeLoop" tobone="GrannyRootBone_blisterback02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Transform" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>episode2/pack1/animations/covenant/aerial/blisterback01/air_transform_01</file>
+				<weight>1</weight>
+			</asset>
 		</anim>
 	</model>
 	<model name="Lockdown">
@@ -154,7 +168,7 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>episode2/pack1/units/covenant/vehicles/floodblisterback01/mesh_blisterback02</file>
+				<file>episode2/pack1/units/flood/aerial/floodblisterback01/mesh_blisterback02</file>
 				<damagefile>units/covenant/vehicles/blisterback02/blisterback02</damagefile>
 			</asset>
 			<attach type="LightFile" name="Lights/HeadlightBlisterBack" tobone="bone_vfx_HeadLightRight" syncanims="false" disregardorient="false" removeimmediately="false" />
@@ -177,7 +191,7 @@
 			<asset type="Anim">
 				<file>animations/covenant/vehicles/blisterback02/blisterback02_land_lockdown_main</file>
 				<weight>1</weight>
-				<tag type="Sound" start="0" position_type="Time" position="0.0199999996" end="1" name="PLAY_SFX_3D_VEH_BAN_BlisterbackLanding" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0199999996" end="1" name="PLAY_SFX_3D_VEH_BAN_BlisterbackLanding" tobone="GrannyRootBone_blisterback02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Particle" start="0" position_type="Time" position="0.122000001" end="1" name="vfx/UnitVFX/MiscUnitVFX/BlisterBackTakeOffEngines" tobone="bone_leg_right_back_end" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Particle" start="0" position_type="Time" position="0.122000001" end="1" name="vfx/UnitVFX/MiscUnitVFX/BlisterBackTakeOffEngines" tobone="bone_leg_left_back_end" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Particle" start="0" position_type="Time" position="0.122000001" end="1" name="vfx/UnitVFX/MiscUnitVFX/BlisterBackTakeOffEngines" tobone="bone_leg_right_front_end" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
@@ -200,6 +214,7 @@
 			<asset type="Anim">
 				<file>animations/covenant/vehicles/blisterback02/blisterback02_lockdown_fire_main</file>
 				<weight>1</weight>
+				<tag type="PhysicsImpulse" start="0" position_type="Time" position="0" end="1" name="WakeMedium" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Attack" start="0" position_type="Time" position="0.00999999978" end="1" tobone="bone_vfx_BackLeftMuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Particle" start="0" position_type="Time" position="0.00999999978" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/BlisterBackMissileMuzzle" tobone="bone_vfx_BackLeftMuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.00999999978" end="1" name="PLAY_SFX_3D_WPN_BAN_GuidedPlasmaGround" tobone="GrannyRootBone_blisterback02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
@@ -268,20 +283,44 @@
 				<weight>1</weight>
 			</asset>
 		</anim>
-	</model>
-	<model name="AirborneInfector">
-		<component>
-			<asset type="Model">
-				<uvOffset channel="0" uOfs="0" vOfs="0" />
-				<uvOffset channel="1" uOfs="0" vOfs="0" />
-				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>episode2/pack1/units/flood/aerial/airborneinfector_01/mesh_airborneinfector_01</file>
-			</asset>
-		</component>
-		<anim type="Transform" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-				<file>episode2/pack1/animations/flood/aerial/airborneinfector_01/transform_blisterback_air_01</file>
+				<file>animations/covenant/vehicles/blisterback02/spartan_hijack_blisterback_ground_in</file>
 				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/covenant/vehicles/blisterback02/spartan_hijack_blisterback_ground_loop</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0.5</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.5</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+				<tag type="Sound" start="0" position_type="Time" position="0.074000001" end="1" name="PLAY_SFX_3D_FTS_BAN_BlisterbackFootstep" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.137999997" end="1" name="PLAY_SFX_3D_FTS_BAN_BlisterbackFootstep" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.217999995" end="1" name="PLAY_SFX_3D_FTS_BAN_BlisterbackFootstep" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.282000005" end="1" name="PLAY_SFX_3D_FTS_BAN_BlisterbackFootstep" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.441000015" end="1" name="PLAY_SFX_3D_FTS_BAN_BlisterbackFootstep" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.537" end="1" name="PLAY_SFX_3D_FTS_BAN_BlisterbackFootstep" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.542999983" end="1" name="PLAY_SFX_3D_FTS_BAN_BlisterbackFootstep" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.601000011" end="1" name="PLAY_SFX_3D_FTS_BAN_BlisterbackFootstep" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.628000021" end="1" name="PLAY_SFX_3D_FTS_BAN_BlisterbackFootstep" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.680999994" end="1" name="PLAY_SFX_3D_FTS_BAN_BlisterbackFootstep" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.947000027" end="1" name="PLAY_SFX_3D_FTS_BAN_BlisterbackFootstep" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="1" end="1" name="PLAY_SFX_3D_FTS_BAN_BlisterbackFootstep" tobone="GrannyRootBone_blisterback02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 		</anim>
 	</model>
