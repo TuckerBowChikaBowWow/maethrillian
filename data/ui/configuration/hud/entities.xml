@@ -1,6 +1,978 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <group>
 	<entry>
+		<key>cov_bldg_turret_01_aom</key>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_tentacle_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_tentacle_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_bldg_turret_01.RadialEdge.Name</value>
+		<value>UIENT.cov_bldg_turret_01.RadialEdge.Role</value>
+		<value>turret</value>
+	</entry>
+	<entry>
+		<key>cov_bldg_watchtower_01_aom</key>
+		<value>..\textures\hud\icons\entityIcons\fld_inf_tentacle_01</value>
+		<value>..\textures\hud\icons\entityIcons\fld_inf_tentacle_01</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_bldg_watchtower_01.RadialCenter.Name</value>
+		<value>UIENT.unsc_bldg_watchtower_01.RadialEdge.Role</value>
+		<value>turret</value>
+	</entry>
+	<entry>
+		<key>cov_bldg_shieldtower_01_aom</key>
+		<value>..\textures\hud\icons\entityIcons\fld_rupturedrop</value>
+		<value>..\textures\hud\icons\entityIcons\fld_rupturedrop</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_bldg_shieldtower_01_aom.RadialEdge.Name</value>
+		<value>UIENT.cov_bldg_shieldtower_01_aom.RadialEdge.Role</value>
+		<value>turretShield</value>
+	</entry>
+	<entry>
+		<key>Sesa_ScatterBeam1_mp</key>
+		<value>..\textures\hud\icons\entityIcons\powers\Unbrk_ScatterBeams_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscScatterbomb1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>Sesa_ScatterBeam2_mp</key>
+		<value>..\textures\hud\icons\entityIcons\powers\Unbrk_ScatterBeams_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscScatterbomb1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>Sesa_ScatterBeam3_mp</key>
+		<value>..\textures\hud\icons\entityIcons\powers\Unbrk_ScatterBeams_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscScatterbomb1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>cov_inf_hereticleader_02</key>
+		<value>..\textures\hud\icons\entityIcons\hereticleader_t3</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_hereticleader_02.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_hereticleader_02.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>cov_inf_hereticleaderclone_02</key>
+		<value>..\textures\hud\icons\entityIcons\hereticleader_t3</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_hereticleaderclone_02.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_hereticleaderclone_02.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>SesaMegaTurretDrop</key>
+		<value>..\textures\hud\icons\entityIcons\powers\Unbrk_MegaTurret_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscTurretDrop1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>cov_inf_hereticelite_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_grunt_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_grunt_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>cov_inf_hereticelite_02</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_grunt_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_grunt_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>SesaAggressorSentinel</key>
+		<value>..\textures\hud\icons\entityIcons\powers\UNSCAggressorSentinel_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UNSCAggressorSentinel_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>SesaArkCleansing</key>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscArkCleansing_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscArkCleansing_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>CovSpiritSesaGunship1</key>
+		<value>..\textures\hud\icons\entityIcons\powers\CovSpiritGunship1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\CovSpiritGunship1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>CovSpiritSesaGunship2</key>
+		<value>..\textures\hud\icons\entityIcons\powers\CovSpiritGunship1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\CovSpiritGunship2_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>CovSpiritSesaGunship3</key>
+		<value>..\textures\hud\icons\entityIcons\powers\CovSpiritGunship1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\CovSpiritGunship3_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>cov_hereticelite_upgrade1</key>
+		<value>..\textures\hud\icons\entityIcons\cov_grunt_upgrade1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_grunt_upgrade1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_hereticelite_upgrade1.RadialCenter.Name</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>cov_hereticelite_upgrade2</key>
+		<value>..\textures\hud\icons\entityIcons\cov_grunt_upgrade2_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_grunt_upgrade2_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_hereticelite_upgrade2.RadialCenter.Name</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>cov_sesahereticleader_upgrade1</key>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscHoloDecoy1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscHoloDecoy1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_sesahereticleader_upgrade1.RadialCenter.Name</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>cov_sesahereticleader_upgrade2</key>
+		<value>..\textures\hud\icons\entityIcons\powers\Grunt_Ceasefire_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\CovExtraction1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_sesahereticleader_upgrade2.RadialCenter.Name</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>cov_sesahereticleader_upgrade3</key>
+		<value>..\textures\hud\icons\entityIcons\cov_arbiter_assaultteam_upgrade1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\CovExtraction1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_sesahereticleader_upgrade3.RadialCenter.Name</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>cov_inf_hereticleader_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_arbiter_assaultteam_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscHoloDecoy1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_hereticleader_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_hereticleader_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>cov_inf_hereticleaderclone_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_arbiter_assaultteam_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscHoloDecoy1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_hereticleaderclone_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_hereticleaderclone_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>flood_veh_infected_bruteChopper_01_fear</key>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_rm_bruteChopper_02_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_rm_bruteChopper_02_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.flood_veh_infected_bruteChopper_01_fear.RadialEdge.Name</value>
+		<value>UIENT.flood_veh_infected_bruteChopper_01_fear.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>cov_bldg_builder_01_aom</key>
+		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_bldg_builder_01_aom.RadialEdge.Name</value>
+		<value>UIENT.cov_bldg_builder_01_aom.RadialEdge.Role</value>
+		<value>hq</value>
+	</entry>
+	<entry>
+		<key>cov_bldg_builder_02_aom</key>
+		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_02_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_02_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_bldg_builder_02_aom.RadialEdge.Name</value>
+		<value>UIENT.cov_bldg_builder_02_aom.RadialEdge.Role</value>
+		<value>hq</value>
+	</entry>
+	<entry>
+		<key>cov_bldg_builder_03_aom</key>
+		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_03_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_03_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_bldg_builder_03_aom.RadialEdge.Name</value>
+		<value>UIENT.cov_bldg_builder_03_aom.RadialEdge.Role</value>
+		<value>hq</value>
+	</entry>
+	<entry>
+		<key>cov_bldg_builder_04_aom</key>
+		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_04_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_04_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_bldg_builder_04_aom.RadialEdge.Name</value>
+		<value>UIENT.cov_bldg_builder_04_aom.RadialEdge.Role</value>
+		<value>hq</value>
+	</entry>
+	<entry>
+		<key>flood_inf_generic_odst</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_odst_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_odst_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.flood_inf_generic_odst.RadialEdge.Name</value>
+		<value>UIENT.flood_inf_generic_odst.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>fld_custom_carrierform_human</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_marine_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_gorgon_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_locked_icon</value>
+		<value>UIENT.flood_inf_infected_gruntmelee_01.RadialEdge.Name</value>
+		<value>UIENT.flood_inf_infected_gruntmelee_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>fld_custom_bruteshot</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_atrioxchosen_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_atrioxchosen_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.COV_INF_ATRIOXCHOSEN_01.RADIALEDGE.NAME</value>
+		<value>UIENT.COV_INF_ATRIOXCHOSEN_01.RADIALEDGE.ROLE</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_bruteshot_t3</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_atrioxchosen_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_atrioxchosen_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.COV_INF_ATRIOXCHOSEN_01.RADIALEDGE.NAME</value>
+		<value>UIENT.COV_INF_ATRIOXCHOSEN_01.RADIALEDGE.ROLE</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_inf_atrioxchosen_01_t3</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_atrioxchosen_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_atrioxchosen_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.COV_INF_ATRIOXCHOSEN_01.RADIALEDGE.NAME</value>
+		<value>UIENT.COV_INF_ATRIOXCHOSEN_01.RADIALEDGE.ROLE</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_machinegun</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_rocket_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_inf_spartan_03.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_spartan_03.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>flood_inf_infectedarbitersniper</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_jackal_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_jackal_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_arbitersniper_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_arbitersniper_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>fld_custom_weakswordelite</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_eliteCommando_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_eliteCommando_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_eliteCommando_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_eliteCommando_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>flood_inf_infectedhonorcarbine_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_eliteCommando_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_eliteCommando_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_eliteCommando_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_eliteCommando_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_strongbrutehammer</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_bruteHonour_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_bruteHonour_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_bruteHonour_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_bruteHonour_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_strongbrutehammer_t2</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_bruteHonour_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_bruteHonour_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_bruteHonour_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_bruteHonour_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_strongbrutehammer_t3</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_bruteHonour_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_bruteHonour_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_bruteHonour_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_bruteHonour_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_siphonbrutehammer</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_bruteHonour_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_bruteHonour_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_bruteHonour_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_bruteHonour_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_siphonbrutehammer_t2</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_bruteHonour_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_bruteHonour_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_bruteHonour_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_bruteHonour_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_siphonbrutehammer_t3</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_bruteHonour_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_bruteHonour_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_bruteHonour_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_bruteHonour_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_inf_gruntgoblin01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_gruntrebellion_goblin_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_gruntrebellion_goblin_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_gruntgoblin01.RADIALEDGE.NAME</value>
+		<value>UIENT.cov_inf_gruntgoblin01.RADIALEDGE.ROLE</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_inf_gruntgoblin01_t2</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_gruntrebellion_goblin_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_gruntrebellion_goblin_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_gruntgoblin01.RADIALEDGE.NAME</value>
+		<value>UIENT.cov_inf_gruntgoblin01.RADIALEDGE.ROLE</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_inf_gruntgoblin01_t3</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_gruntrebellion_goblin_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_gruntrebellion_goblin_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_gruntgoblin01.RADIALEDGE.NAME</value>
+		<value>UIENT.cov_inf_gruntgoblin01.RADIALEDGE.ROLE</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_douglas</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_rocket_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_inf_spartan_03.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_spartan_03.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_douglas_t2</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_rocket_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_inf_spartan_03.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_spartan_03.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_douglas_t3</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_rocket_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_inf_spartan_03.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_spartan_03.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_august</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_omegateamaugust_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_flamecyclops_01_icon</value>
+		<value>UIENT.unsc_inf_omegateam_august_01.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_omegateam_august_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_august_t2</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_omegateamaugust_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_flamecyclops_01_icon</value>
+		<value>UIENT.unsc_inf_omegateam_august_01.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_omegateam_august_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_august_t3</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_omegateamaugust_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_flamecyclops_01_icon</value>
+		<value>UIENT.unsc_inf_omegateam_august_01.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_omegateam_august_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_railgunflood</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_omegateamaugust_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_flamecyclops_01_icon</value>
+		<value>UIENT.fld_custom_railgunflood.RadialEdge.Name</value>
+		<value>UIENT.fld_custom_railgunflood.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_leon</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_omegateamleon_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_inf_omegateam_leon_01.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_omegateam_leon_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_robert</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_omegateamrobert_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_inf_omegateam_robert_01.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_omegateam_robert_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_arbiter_t2</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_arbiter_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_arbiter_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_arbiter_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_arbiter_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>fld_custom_arbiter_t3</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_arbiter_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_arbiter_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_arbiter_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_arbiter_01.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>for_sentineltier0_upgrade1</key>
+		<value>..\textures\hud\icons\entityIcons\for_air_sentineltier0_upgrade1</value>
+		<value>..\textures\hud\icons\entityIcons\cov_grunt_upgrade1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.for_sentineltier0_upgrade1.RadialCenter.Name</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>for_sentineltier0_upgrade2</key>
+		<value>..\textures\hud\icons\entityIcons\for_air_sentineltier0_upgrade2</value>
+		<value>..\textures\hud\icons\entityIcons\cov_grunt_upgrade2_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.for_sentineltier0_upgrade2.RadialCenter.Name</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>for_sentineltier1_upgrade1</key>
+		<value>..\textures\hud\icons\entityIcons\for_air_sentineltier1_upgrade1</value>
+		<value>..\textures\hud\icons\entityIcons\cov_grunt_upgrade1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.for_sentineltier1_upgrade1.RadialCenter.Name</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>for_sentineltier1_upgrade2</key>
+		<value>..\textures\hud\icons\entityIcons\for_air_sentineltier1_upgrade2</value>
+		<value>..\textures\hud\icons\entityIcons\cov_grunt_upgrade2_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.for_sentineltier1_upgrade2.RadialCenter.Name</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>flood_inf_infected_elitemelee_01_mptrain</key>
+		<value>..\textures\hud\icons\entityIcons\custom_infectedelite</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_gorgon_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_locked_icon</value>
+		<value>UIENT.flood_inf_infected_elitemelee_01_mptrain.RadialEdge.Name</value>
+		<value>UIENT.flood_inf_infected_elitemelee_01_mptrain.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>ForDropSquad1</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_corruptedgrenadier_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_corruptedgrenadier_01_ability_icon.png</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>ForDropSquad3</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_heavygrunt_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscOdstDrop_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>ForDropSquad2</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_arbiter_assaultteam_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>UnscArkWeakerDefense1</key>
+		<value>..\textures\hud\icons\entityIcons\for_air_sentineltier1_beam</value>
+		<value>..\textures\hud\icons\entityIcons\for_air_sentineltier1_beam</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>UnscArkWeakerDefense2</key>
+		<value>..\textures\hud\icons\entityIcons\for_air_sentineltier1_beam</value>
+		<value>..\textures\hud\icons\entityIcons\for_air_sentineltier1_beam</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>UnscArkWeakerDefense3</key>
+		<value>..\textures\hud\icons\entityIcons\for_air_sentineltier1_beam</value>
+		<value>..\textures\hud\icons\entityIcons\for_air_sentineltier1_beam</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>unsc_veh_warthogspartan_01</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_veh_warthog_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_veh_warthog_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_veh_warthogspartan_01.RadialEdge.Name</value>
+		<value>UIENT.unsc_veh_warthogspartan_01.RadialEdge.Role</value>
+		<value>heroVehicle</value>
+	</entry>
+	<entry>
+		<key>for_air_sentineltier1_beam</key>
+		<value>..\textures\hud\icons\entityIcons\for_air_sentineltier1_beam</value>
+		<value>..\textures\hud\icons\entityIcons\for_air_sentineltier1_beam</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.for_air_sentineltier1_beam.RadialEdge.Name</value>
+		<value>UIENT.for_air_sentineltier1_beam.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>for_inf_brutegrenadier_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_corruptedgrenadier_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_corruptedgrenadier_01_ability_icon.png</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.for_inf_brutegrenadier_01.RadialEdge.Name</value>
+		<value>UIENT.for_inf_brutegrenadier_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>for_inf_assaultelites_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_arbiter_assaultteam_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.for_inf_assaultelites_01.RadialEdge.Name</value>
+		<value>UIENT.for_inf_assaultelites_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>for_air_enforcer_tech1</key>
+		<value>..\textures\hud\icons\entityIcons\for_air_enforcer_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\for_air_retriever_base_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.for_air_enforcer_tech1.RadialEdge.Name</value>
+		<value>UIENT.for_air_enforcer_tech1.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>for_air_enforcer_tech3</key>
+		<value>..\textures\hud\icons\entityIcons\for_air_enforcer_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\for_air_retriever_base_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.for_air_enforcer_tech3.RadialEdge.Name</value>
+		<value>UIENT.for_air_enforcer_tech3.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>unsc_air_pelicangunship_01_train</key>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscPelicanGunship_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscPelicanGunship_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_air_pelicangunship_01_train.RadialEdge.Name</value>
+		<value>UIENT.unsc_air_pelicangunship_01_train.RadialEdge.Role</value>
+		<value>air</value>
+	</entry>
+	<entry>
+		<key>unsc_inf_odstsniper_01_mp</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_sniper_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_sniper_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_inf_odstsniper_01_mp.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_odstsniper_01_mp.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>unsc_inf_heroodst_02_mp</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_odst_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\neutralfor_sentineltier2_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_inf_heroodst_02_mp.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_heroodst_02_mp.RadialEdge.Role</value>
+		<value>heroInfantry</value>
+	</entry>
+	<entry>
+		<key>unsc_inf_generic_odst</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_odst_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_odst_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_inf_generic_odst.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_generic_odst.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>unsc_inf_generic_odst2</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_odst_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_odst_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_inf_generic_odst2.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_generic_odst2.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>UnscOrbitalBattleGroupNew</key>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscOdstDrop_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscOdstDrop_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>UnscMacCutter1</key>
+		<value>..\textures\hud\icons\entityIcons\powers\EMPMacBlast</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscMacBlast2_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>UnscMacCutter2</key>
+		<value>..\textures\hud\icons\entityIcons\powers\EMPMacBlast</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscMacBlast2_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>UnscMacCutter3</key>
+		<value>..\textures\hud\icons\entityIcons\powers\EMPMacBlast</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscMacBlast2_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>UnscOdstDropNew</key>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscOrbitalBattleGroup_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscOrbitalBattleGroup_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>UnscOdstDropNew2</key>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscOrbitalBattleGroup_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscOrbitalBattleGroup_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>UnscOdstDropNew3</key>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscOrbitalBattleGroup_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscOrbitalBattleGroup_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>unsc_air_fire_pegasus_01</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_air_pegasus_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_air_pegasus_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_air_fire_pegasus_01.RadialEdge.Name</value>
+		<value>UIENT.unsc_air_fire_pegasus_01.RadialEdge.Role</value>
+		<value>air</value>
+	</entry>
+	<entry>
+		<key>unsc_inf_marineguard_01</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_rm_marine_02_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_rm_marine_02_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_inf_marineguard_01.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_marineguard_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>unsc_inf_marineguard_02</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_rm_marine_02_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_rm_marine_02_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_inf_marineguard_02.RadialEdge.Name</value>
+		<value>UIENT.unsc_inf_marineguard_02.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>unsc_veh_warthogguard_01</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_veh_rm_warthog_02_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_veh_rm_warthog_02_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_veh_warthogguard_01.RadialEdge.Name</value>
+		<value>UIENT.unsc_veh_warthogguard_01.RadialEdge.Role</value>
+		<value>vehicle</value>
+	</entry>
+	<entry>
+		<key>for_veh_scorpion_01</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_veh_rm_scorpion_02_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_veh_rm_scorpion_02_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.for_veh_scorpion_01.RadialEdge.Name</value>
+		<value>UIENT.for_veh_scorpion_01.RadialEdge.Role</value>
+		<value>vehicle</value>
+	</entry>
+	<entry>
+		<key>unsc_veh_cryoscorpion_01</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_veh_scorpion_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_veh_scorpion_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_veh_cryoscorpion_01.RadialEdge.Name</value>
+		<value>UIENT.unsc_veh_cryoscorpion_01.RadialEdge.Role</value>
+		<value>vehicle</value>
+	</entry>
+	<entry>
+		<key>unsc_veh_flamescorpion_01</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_veh_scorpion_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_veh_scorpion_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_veh_flamescorpion_01.RadialEdge.Name</value>
+		<value>UIENT.unsc_veh_flamescorpion_01.RadialEdge.Role</value>
+		<value>vehicle</value>
+	</entry>
+	<entry>
+		<key>fld_veh_cryoscorpion_01</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_veh_scorpion_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_veh_scorpion_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_veh_cryoscorpion_01.RadialEdge.Name</value>
+		<value>UIENT.unsc_veh_cryoscorpion_01.RadialEdge.Role</value>
+		<value>vehicle</value>
+	</entry>
+	<entry>
+		<key>fld_veh_flamescorpion_01</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_veh_scorpion_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_veh_scorpion_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.unsc_veh_flamescorpion_01.RadialEdge.Name</value>
+		<value>UIENT.unsc_veh_flamescorpion_01.RadialEdge.Role</value>
+		<value>vehicle</value>
+	</entry>
+	<entry>
+		<key>Cutter_NukeBombing</key>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscNapalmMissiles1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscNapalmMissiles1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>hero</value>
+	</entry>
+	<entry>
+		<key>Anders_NukeBombing</key>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscNapalmMissiles1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscNapalmMissiles1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>hero</value>
+	</entry>
+	<entry>
+		<key>Anders_NukeBombing2</key>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscImmolation_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscImmolation_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>hero</value>
+	</entry>
+	<entry>
+		<key>cov_inf_arbitersniper_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_jackal_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_jackal_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_arbitersniper_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_arbitersniper_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>cov_inf_elitescout_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_specopsElite_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_specopsElite_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_elitescout_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_elitescout_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>cov_elitescout_upgrade1</key>
+		<value>..\textures\hud\icons\entityIcons\cov_specopsElite_upgrade1_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_specopsElite_upgrade1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>cov_elitescout_upgrade2</key>
+		<value>..\textures\hud\icons\entityIcons\cov_specopsElite_upgrade2_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_specopsElite_upgrade2_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>upgrade</value>
+	</entry>
+	<entry>
+		<key>cov_air_corruptedlich_01</key>
+		<value>..\textures\hud\icons\entityIcons\powers\Unbrk_LichAssault_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_scarab_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_air_corruptedlich_01.RadialEdge.Name</value>
+		<value>UIENT.cov_air_corruptedlich_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>cov_air_traininglich_01</key>
+		<value>..\textures\hud\icons\entityIcons\powers\Unbrk_LichAssault_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_scarab_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_air_traininglich_01.RadialEdge.Name</value>
+		<value>UIENT.cov_air_traininglich_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>cov_veh_shadelocust_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_locust_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_locust_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_veh_shadelocust_01.RadialEdge.Name</value>
+		<value>UIENT.cov_veh_shadelocust_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>cov_veh_methanescarab_01_base</key>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_scarab_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_scarab_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_veh_methanescarab_01_base.RadialEdge.Name</value>
+		<value>UIENT.cov_veh_methanescarab_01_base.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>cov_veh_arbiterscarab_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_scarab_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_scarab_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_veh_arbiterscarab_01.RadialEdge.Name</value>
+		<value>UIENT.cov_veh_arbiterscarab_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>cov_veh_arbitergorgon_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_gorgon_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_gorgon_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_veh_arbitergorgon_01.RadialEdge.Name</value>
+		<value>UIENT.cov_veh_arbitergorgon_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
 		<key>cov_inf_bruteJumpPack_02</key>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_ability_icon</value>
@@ -55,12 +1027,39 @@
 		<value>unit</value>
 	</entry>
 	<entry>
+		<key>flood_bldg_eggdropaom_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.flood_bldg_eggdrop_01.RadialEdge.Name</value>
+		<value>UIENT.flood_bldg_eggdrop_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>flood_bldg_eggdropaom_02</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.flood_bldg_eggdrop_01.RadialEdge.Name</value>
+		<value>UIENT.flood_bldg_eggdrop_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
 		<key>flood_inf_generic_core</key>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
-		<value>UIENT.cov_inf_grunt_01.RadialEdge.Name</value>
-		<value>UIENT.cov_inf_grunt_01.RadialEdge.Role</value>
+		<value>UIENT.flood_inf_generic_core.RadialEdge.Name</value>
+		<value>UIENT.flood_inf_generic_core.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>flood_inf_generic_aomcore</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.flood_inf_generic_aomcore.RadialEdge.Name</value>
+		<value>UIENT.flood_inf_generic_aomcore.RadialEdge.Role</value>
 		<value>unit</value>
 	</entry>
 	<entry>
@@ -137,6 +1136,15 @@
 	</entry>
 	<entry>
 		<key>cov_inf_mpdecimus_01</key>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_mpdecimus_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_inf_mpdecimus_01.RadialEdge.Name</value>
+		<value>UIENT.cov_inf_mpdecimus_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>cov_inf_mpdecimus_02</key>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_mpdecimus_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_mpdecimus_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
@@ -301,6 +1309,15 @@
 		<key>cov_veh_prowler_01</key>
 		<value>..\textures\hud\icons\entityIcons\cov_veh_prowler_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_veh_prowler_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.cov_veh_prowler_01.RadialEdge.Name</value>
+		<value>UIENT.cov_veh_prowler_01.RadialEdge.Role</value>
+		<value>vehicle</value>
+	</entry>
+	<entry>
+		<key>cov_veh_prowler_02</key>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_rm_prowler_02_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_rm_prowler_02_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
 		<value>UIENT.cov_veh_prowler_01.RadialEdge.Name</value>
 		<value>UIENT.cov_veh_prowler_01.RadialEdge.Role</value>
@@ -723,7 +1740,7 @@
 	<entry>
 		<key>unsc_veh_wolverine_01</key>
 		<value>..\textures\hud\icons\entityIcons\unsc_veh_wolverine_01_icon</value>
-		<value>..\textures\hud\icons\entityIcons\unsc_veh_wolverine_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_air_vulture_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
 		<value>UIENT.unsc_veh_wolverine_01.RadialEdge.Name</value>
 		<value>UIENT.unsc_veh_wolverine_01.RadialEdge.Role</value>
@@ -873,7 +1890,7 @@
 		<value>UIENT.cov_bldg_builder_04.RadialEdge.Role</value>
 		<value>hq</value>
 	</entry>
-		<entry>
+	<entry>
 		<key>cov_bldg_builder_01_mp</key>
 		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bldg_builder_01_ability_icon</value>
@@ -1748,8 +2765,8 @@
 	</entry>
 	<entry>
 		<key>unsc_spartan_upgrade2_rocket</key>
-		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_rocket_01_upgrade2_icon</value>
-		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_rocket_01_upgrade2_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_chaingun_01_upgrade2_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_chaingun_01_upgrade2_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
 		<value>UIENT.UNSC_SPARTAN_UPGRADE2_ROCKET.RADIALCENTER.NAME</value>
 		<value>N/A</value>
@@ -1757,8 +2774,8 @@
 	</entry>
 	<entry>
 		<key>unsc_spartan_upgrade2_laser</key>
-		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_laser_01_upgrade2_icon</value>
-		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_laser_01_upgrade2_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_chaingun_01_upgrade2_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_chaingun_01_upgrade2_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
 		<value>UIENT.UNSC_SPARTAN_UPGRADE2_LASER.RADIALCENTER.NAME</value>
 		<value>N/A</value>
@@ -1793,10 +2810,10 @@
 	</entry>
 	<entry>
 		<key>unsc_spartan_upgrade3_laser</key>
-		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_laser_01_upgrade3_icon</value>
-		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_laser_01_upgrade3_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_laser_01_upgrade2_icon</value>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_spartan_laser_01_upgrade2_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
-		<value>UIENT.UNSC_SPARTAN_UPGRADE3_LASER.RADIALCENTER.NAME</value>
+		<value>UIENT.UNSC_SPARTAN_UPGRADE2_LASER.RADIALCENTER.NAME</value>
 		<value>N/A</value>
 		<value>upgrade</value>
 	</entry>
@@ -4195,6 +5212,15 @@
 		<value>hero</value>
 	</entry>
 	<entry>
+		<key>CovDecimusDrop1</key>
+		<value>..\textures\hud\icons\entityIcons\powers\CovDecimusDrop_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\CovDecimusDrop_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>hero</value>
+	</entry>
+	<entry>
 		<key>CovBuffLeech1</key>
 		<value>..\textures\hud\icons\entityIcons\powers\CovBuffLeech1_icon</value>
 		<value>..\textures\hud\icons\entityIcons\powers\CovBuffLeech1_ability_icon</value>
@@ -5275,6 +6301,15 @@
 		<value>vehicle</value>
 	</entry>
 	<entry>
+		<key>FloodGrizzlyBattalion</key>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscGrizzlyBattalion_icon</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscGrizzlyBattalion_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>vehicle</value>
+	</entry>
+	<entry>
 		<key>UnscForgePelicanTransport</key>
 		<value>..\textures\hud\icons\entityIcons\powers\UnscCivTransport_icon</value>
 		<value>..\textures\hud\icons\entityIcons\powers\UnscCivTransport_ability_icon</value>
@@ -5996,7 +7031,16 @@
 	</entry>
 	<entry>
 		<key>FloodBuff</key>
-		<value>..\textures\hud\icons\entityIcons\powers\UnscHeroism01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\fld_globalupgrade</value>
+		<value>..\textures\hud\icons\entityIcons\powers\UnscHoloDecoy1_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>FloodBuffAOM</key>
+		<value>..\textures\hud\icons\entityIcons\fld_globalupgrade</value>
 		<value>..\textures\hud\icons\entityIcons\powers\UnscHoloDecoy1_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
 		<value>N/A</value>
@@ -6068,6 +7112,15 @@
 	</entry>
 	<entry>
 		<key>Serina_Pegasus</key>
+		<value>..\textures\hud\icons\entityIcons\powers\Cryo_Pegasus</value>
+		<value>..\textures\hud\icons\entityIcons\powers\Cryo_Pegasus</value>
+		<value>..\textures\hud\icons\entityIcons\powers\Cryo_Pegasus</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>Cutter_Pegasus</key>
 		<value>..\textures\hud\icons\entityIcons\powers\Cryo_Pegasus</value>
 		<value>..\textures\hud\icons\entityIcons\powers\Cryo_Pegasus</value>
 		<value>..\textures\hud\icons\entityIcons\powers\Cryo_Pegasus</value>
@@ -8029,6 +9082,24 @@
 		<value>commander</value>
 	</entry>
 	<entry>
+		<key>FloodEggAOMDrop1</key>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_egg_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_egg_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>FloodEggAOMDrop2</key>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_egg_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_egg_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
 		<key>FloodEggDrop1</key>
 		<value>..\textures\hud\icons\entityIcons\flood_bldg_egg_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\flood_bldg_egg_01_icon</value>
@@ -8056,8 +9127,17 @@
 		<value>commander</value>
 	</entry>
 	<entry>
+		<key>FloodBaseDropAOM</key>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_rupture_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_rupture_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
 		<key>Flood_Emerge_Infectors</key>
-		<value>..\textures\hud\icons\entityIcons\flood_inf_infectfrm_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\fld_rupturedrop</value>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
 		<value>N/A</value>
@@ -8066,7 +9146,25 @@
 	</entry>
 	<entry>
 		<key>Flood_Emerge_Infectors2</key>
-		<value>..\textures\hud\icons\entityIcons\flood_inf_infectfrm_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\fld_rupturedrop</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>Flood_Emerge_InfectorsAOM</key>
+		<value>..\textures\hud\icons\entityIcons\fld_rupturedrop</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>N/A</value>
+		<value>N/A</value>
+		<value>commander</value>
+	</entry>
+	<entry>
+		<key>Flood_Emerge_InfectorsAOM2</key>
+		<value>..\textures\hud\icons\entityIcons\fld_rupturedrop</value>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
 		<value>N/A</value>
@@ -8075,8 +9173,8 @@
 	</entry>
 	<entry>
 		<key>FloodRuptureEmerge</key>
-		<value>..\textures\hud\icons\entityIcons\flood_bldg_tentacle_01_icon</value>
-		<value>..\textures\hud\icons\entityIcons\flood_bldg_tentacle_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\fld_inf_tentacle_01</value>
+		<value>..\textures\hud\icons\entityIcons\fld_inf_tentacle_01</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
 		<value>N/A</value>
 		<value>N/A</value>
@@ -8129,6 +9227,15 @@
 	</entry>
 	<entry>
 		<key>fld_bldg_drophivebase_01</key>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_hive_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\flood_bldg_hive_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
+		<value>UIENT.fld_bldg_drophivebase_01.RadialEdge.Name</value>
+		<value>UIENT.fld_bldg_drophivebase_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>fld_bldg_drophivebaseaom_01</key>
 		<value>..\textures\hud\icons\entityIcons\flood_bldg_hive_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\flood_bldg_hive_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_bruteJumpPack_upgrade1_locked_icon</value>
@@ -8363,7 +9470,7 @@
 	</entry>
 	<entry>
 		<key>flood_infectedbrute_carrier_01</key>
-		<value>..\textures\hud\icons\entityIcons\cov_inf_bruteJumpPack_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\custom_infectedbrute</value>
 		<value>..\textures\hud\icons\entityIcons\cov_veh_gorgon_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_locked_icon</value>
 		<value>UIENT.flood_infectedbrute_carrier_01.RadialEdge.Name</value>
@@ -8435,6 +9542,15 @@
 	</entry>
 	<entry>
 		<key>flood_inf_infected_humelee_01</key>
+		<value>..\textures\hud\icons\entityIcons\unsc_inf_marine_01_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_veh_gorgon_01_ability_icon</value>
+		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_locked_icon</value>
+		<value>UIENT.flood_inf_infected_gruntmelee_01.RadialEdge.Name</value>
+		<value>UIENT.flood_inf_infected_gruntmelee_01.RadialEdge.Role</value>
+		<value>unit</value>
+	</entry>
+	<entry>
+		<key>flood_infectedhumelee_carrier_01</key>
 		<value>..\textures\hud\icons\entityIcons\unsc_inf_marine_01_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_veh_gorgon_01_ability_icon</value>
 		<value>..\textures\hud\icons\entityIcons\cov_inf_grunt_01_locked_icon</value>
