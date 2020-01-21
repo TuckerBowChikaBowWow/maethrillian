@@ -2387,6 +2387,9 @@
 		</Prereqs>
 		<Effects>
 			<Effect type="GodPower" amount="1">_RallyPoint</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_locust_01_mp_blitz" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
 			</Effect>
@@ -8862,12 +8865,14 @@
 		<ResearchPoints>0</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Effects>
-			<Effect type="ReparentProtoObject" FromType="cov_veh_locust_01_mp" ToType="cov_veh_locust_01_mp_blitz" />
-			<Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_veh_locust_01_mp_blitz">
-				<Target type="ProtoSquad">cov_veh_locust_01</Target>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_locust_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
 			</Effect>
-			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_veh_locust_01_mp_blitz">
-				<Target type="ProtoSquad">cov_veh_locust_01</Target>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_locust_01_mp_blitz" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_locust_01_mp_blitz</Target>
 			</Effect>
 		</Effects>
 	</Tech>
