@@ -1,5 +1,593 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="Sesa_ScatterBeam1_mp">
+		<Attributes>
+			<PowerType>AircraftPatrol</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<PatrolPatternType>Circle</PatrolPatternType>
+			<Cost Supplies="350" Power="300" />
+			<AutoRecharge>210000</AutoRecharge>
+			<UIRadius>24</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="bool" name="IgnorePlacement">true</Data>
+				<Data type="bool" name="RandomiseSpawnPoints">true</Data>
+				<Data type="bool" name="TargetStructuresOnly">false</Data>
+				<Data type="int" name="NumWaves">1</Data>
+				<Data type="float" name="TimeBetweenWaves">0</Data>
+				<Data type="int" name="NumAircraftPerWave">8</Data>
+				<Data type="float" name="SpawnRadius">14</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMin">5</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMax">24</Data>
+				<Data type="float" name="SpokeRotationOffset">0</Data>
+				<Data type="float" name="PatrolDuration">15</Data>
+				<Data type="protosquad" name="AircraftSquad">pow_gp_sesa_scatterbeam_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_BAN_OFF_ScatterBeamsLv1_MP</Data>
+				<Data type="bool" name="TieToTheGround">true</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m1-5s</Data>
+				<Data type="float" name="TelegraphDuration">1.29999995</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="Sesa_ScatterBeam2_mp">
+		<Attributes>
+			<PowerType>AircraftPatrol</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<PatrolPatternType>Circle</PatrolPatternType>
+			<Cost Supplies="450" Power="400" />
+			<AutoRecharge>210000</AutoRecharge>
+			<UIRadius>30</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="bool" name="IgnorePlacement">true</Data>
+				<Data type="bool" name="RandomiseSpawnPoints">true</Data>
+				<Data type="bool" name="TargetStructuresOnly">false</Data>
+				<Data type="int" name="NumWaves">1</Data>
+				<Data type="float" name="TimeBetweenWaves">0</Data>
+				<Data type="int" name="NumAircraftPerWave">11</Data>
+				<Data type="float" name="SpawnRadius">14</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMin">5</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMax">28</Data>
+				<Data type="float" name="SpokeRotationOffset">0</Data>
+				<Data type="float" name="PatrolDuration">17</Data>
+				<Data type="protosquad" name="AircraftSquad">pow_gp_sesa_scatterbeam_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_BAN_OFF_ScatterBeamsLv1_MP</Data>
+				<Data type="bool" name="TieToTheGround">true</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m1-5s</Data>
+				<Data type="float" name="TelegraphDuration">1.29999995</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="Sesa_ScatterBeam3_mp">
+		<Attributes>
+			<PowerType>AircraftPatrol</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<PatrolPatternType>Circle</PatrolPatternType>
+			<Cost Supplies="550" Power="500" />
+			<AutoRecharge>210000</AutoRecharge>
+			<UIRadius>40</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="bool" name="IgnorePlacement">true</Data>
+				<Data type="bool" name="RandomiseSpawnPoints">true</Data>
+				<Data type="bool" name="TargetStructuresOnly">false</Data>
+				<Data type="int" name="NumWaves">1</Data>
+				<Data type="float" name="TimeBetweenWaves">0</Data>
+				<Data type="int" name="NumAircraftPerWave">15</Data>
+				<Data type="float" name="SpawnRadius">14</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMin">5</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMax">28</Data>
+				<Data type="float" name="SpokeRotationOffset">0</Data>
+				<Data type="float" name="PatrolDuration">21</Data>
+				<Data type="protosquad" name="AircraftSquad">pow_gp_sesa_scatterbeam_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_BAN_OFF_ScatterBeamsLv1_MP</Data>
+				<Data type="bool" name="TieToTheGround">true</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m1-5s</Data>
+				<Data type="float" name="TelegraphDuration">1.29999995</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="SesaMegaTurretDrop">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>BunkerDrop</AIPowerUseType>
+			<SoundName>TurretDrop</SoundName>
+			<Cost Supplies="600" Power="150" />
+			<AutoRecharge>180000</AutoRecharge>
+			<UIRadius>8</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>true</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">false</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">false</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">0.5</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_SonicBooms</Data>
+				<Data type="protoobject" name="Projectile">vfx_dlc3_powers_trails_johnsonbunkerdroptrail</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="OverrideCameraDirWithRandomFacing">true</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>cov_bldg_rm_unbreakablemegadropturret_01</ProtoSquadID>
+						<ProjectileOverride>cov_air_megaturretpod_01</ProjectileOverride>
+						<PlayTrainAnim>true</PlayTrainAnim>
+						<ConformToSlopedTerrain />
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="SesaAggressorSentinel">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>_POWER_SesaAggressorSentinel</TechScript>
+			<Cost Supplies="0" Power="0" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+	</Power>
+	<Power name="SesaArkCleansing">
+		<Attributes>
+			<PowerType>AircraftPatrol</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<PatrolPatternType>Spokes</PatrolPatternType>
+			<Cost Supplies="700" Power="525" />
+			<AutoRecharge>280000</AutoRecharge>
+			<UIRadius>6</UIRadius>
+			<Decal>Point</Decal>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>8</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="bool" name="TargetStructuresOnly">false</Data>
+				<Data type="int" name="NumWaves">2</Data>
+				<Data type="float" name="TimeBetweenWaves">20</Data>
+				<Data type="int" name="NumAircraftPerWave">8</Data>
+				<Data type="float" name="SpawnRadius">30</Data>
+				<Data type="float" name="SpokeRotationOffset">25</Data>
+				<Data type="float" name="PatrolDuration">600</Data>
+				<Data type="protosquad" name="AircraftSquad">pow_for_enforcercleanse_01</Data>
+				<Data type="protoobject" name="TargetBeam">fx_proj_arkcleansing</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="CovSpiritSesaGunship1">
+		<Attributes>
+			<PowerType>Gunship</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<Pop type="Unit">10</Pop>
+			<Cost Supplies="340" Power="250" />
+			<AutoRecharge>165000</AutoRecharge>
+			<UIRadius>6</UIRadius>
+			<Decal>Drop</Decal>
+			<ShowTransportArrows>true</ShowTransportArrows>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="int" name="NumGunships">1</Data>
+				<Data type="float" name="WaitDuration">3</Data>
+				<Data type="protoobject" name="Gunship">cov_air_spiritgunship_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_OFF_SpiritAssault_I</Data>
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>cov_inf_hunter_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_hunter_01</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="CovSpiritSesaGunship2">
+		<Attributes>
+			<PowerType>Gunship</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<Pop type="Unit">14</Pop>
+			<Cost Supplies="540" Power="250" />
+			<AutoRecharge>165000</AutoRecharge>
+			<UIRadius>6</UIRadius>
+			<Decal>Drop</Decal>
+			<ShowTransportArrows>true</ShowTransportArrows>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="int" name="NumGunships">1</Data>
+				<Data type="float" name="WaitDuration">3</Data>
+				<Data type="protoobject" name="Gunship">cov_air_spiritgunship_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_OFF_SpiritAssault_II</Data>
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>cov_inf_hunter_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_hunter_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_generic_arbiterenforcer</ProtoSquadID>
+						<VeterancyLevel>2</VeterancyLevel>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="CovSpiritSesaGunship3">
+		<Attributes>
+			<PowerType>Gunship</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<Pop type="Unit">18</Pop>
+			<Cost Supplies="600" Power="350" />
+			<AutoRecharge>165000</AutoRecharge>
+			<UIRadius>6</UIRadius>
+			<Decal>Drop</Decal>
+			<ShowTransportArrows>true</ShowTransportArrows>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="int" name="NumGunships">1</Data>
+				<Data type="float" name="WaitDuration">3</Data>
+				<Data type="protoobject" name="Gunship">cov_air_spiritgunship_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_OFF_SpiritAssault_III</Data>
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>cov_inf_hunter_01</ProtoSquadID>
+						<VeterancyLevel>3</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_hunter_01</ProtoSquadID>
+						<VeterancyLevel>3</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_generic_arbiterenforcer</ProtoSquadID>
+						<VeterancyLevel>3</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_generic_arbiterenforcer</ProtoSquadID>
+						<VeterancyLevel>3</VeterancyLevel>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="HereticHolo">
+		<Attributes>
+			<NotAffectedByCeasefire />
+			<PowerType>HoloDecoy</PowerType>
+			<AIPowerUseType>BuffAllies</AIPowerUseType>
+			<AutoRecharge>110000</AutoRecharge>
+			<UIRadius>34</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>4</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DataLevel level="0">
+				<Data type="objecttype" name="FilterType">cov_inf_hereticleader_01</Data>
+				<Data type="float" name="PowerRadius">5</Data>
+				<Data type="int" name="MaxHolograms">2</Data>
+				<Data type="float" name="HologramLifespan">120</Data>
+				<Data type="float" name="HologramDamageTakenScalar">1.64999998</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_DEF_HoloDecoy</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="HereticUnit">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<AutoRecharge>150000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>1</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">0</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Projectile">cov_air_hereticdrop_01</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="float" name="AreaDropExpandingStep">5</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">5</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>cov_inf_hereticleaderclone_01</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="HereticSpirit">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>_POWER_HereticSpirit</TechScript>
+			<Cost Supplies="0" Power="0" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+	</Power>
+	<Power name="DecimusScatterBeam1_mp">
+		<Attributes>
+			<PowerType>AircraftPatrol</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<PatrolPatternType>Circle</PatrolPatternType>
+			<AutoRecharge>210000</AutoRecharge>
+			<UIRadius>40</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="bool" name="IgnorePlacement">true</Data>
+				<Data type="bool" name="RandomiseSpawnPoints">true</Data>
+				<Data type="bool" name="TargetStructuresOnly">false</Data>
+				<Data type="int" name="NumWaves">1</Data>
+				<Data type="float" name="TimeBetweenWaves">0</Data>
+				<Data type="int" name="NumAircraftPerWave">7</Data>
+				<Data type="float" name="SpawnRadius">20</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMin">5</Data>
+				<Data type="float" name="RandomiseSpawnRadiusMax">20</Data>
+				<Data type="float" name="SpokeRotationOffset">0</Data>
+				<Data type="float" name="PatrolDuration">8</Data>
+				<Data type="protosquad" name="AircraftSquad">pow_gp_unbrk_scatterbeam_03_mp</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_LP_BAN_OFF_ScatterBeamsLv3_MP</Data>
+				<Data type="bool" name="TieToTheGround">true</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="_Repair">
 		<Attributes>
 			<AutoRecharge>1</AutoRecharge>
@@ -1886,6 +2474,729 @@
 					</Drop>
 				</Data>
 			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="ForDropSquad3">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<Cost Supplies="250" Power="10" />
+			<Pop type="Unit">9</Pop>
+			<AutoRecharge>150000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>1</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">2</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.100000001</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="float" name="AreaDropExpandingStep">25</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">25</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>for_inf_generic_heavygrunt</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>for_inf_generic_heavygrunt</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>for_inf_generic_heavygrunt</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="ForDropSquad2">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<Cost Supplies="350" Power="50" />
+			<Pop type="Unit">3</Pop>
+			<AutoRecharge>150000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>1</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">2</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.100000001</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="float" name="AreaDropExpandingStep">25</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">25</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>for_inf_assaultelites_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>for_inf_assaultelites_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>for_inf_assaultelites_01</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="ForDropSquad1">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<Cost Supplies="150" Power="20" />
+			<Pop type="Unit">3</Pop>
+			<AutoRecharge>150000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>1</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">2</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.100000001</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="float" name="AreaDropExpandingStep">25</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">25</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>for_inf_brutegrenadier_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>for_inf_brutegrenadier_01</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="UnscArkWeakerDefense1">
+		<Attributes>
+			<PowerType>AircraftPatrol</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<PatrolPatternType>Circle</PatrolPatternType>
+			<Cost Supplies="200" Power="100" />
+			<AutoRecharge>150000</AutoRecharge>
+			<UIRadius>20</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="bool" name="IgnorePlacement">true</Data>
+				<Data type="bool" name="RandomiseSpawnPoints">true</Data>
+				<Data type="bool" name="TargetStructuresOnly">false</Data>
+				<Data type="int" name="NumWaves">1</Data>
+				<Data type="float" name="TimeBetweenWaves">0</Data>
+				<Data type="int" name="NumAircraftPerWave">7</Data>
+				<Data type="int" name="SentinelSynergyBonus">1</Data>
+				<Data type="float" name="SpawnRadius">22.5</Data>
+				<Data type="float" name="SpokeRotationOffset">0</Data>
+				<Data type="float" name="PatrolDuration">30</Data>
+				<Data type="protosquad" name="AircraftSquad">for_air_sentineltier1_power</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_VEH_FORE_SentinelGroupFlyIn</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="UnscArkWeakerDefense2">
+		<Attributes>
+			<PowerType>AircraftPatrol</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<PatrolPatternType>Circle</PatrolPatternType>
+			<Cost Supplies="200" Power="200" />
+			<AutoRecharge>150000</AutoRecharge>
+			<UIRadius>28</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="bool" name="IgnorePlacement">true</Data>
+				<Data type="bool" name="RandomiseSpawnPoints">true</Data>
+				<Data type="bool" name="TargetStructuresOnly">false</Data>
+				<Data type="int" name="NumWaves">2</Data>
+				<Data type="float" name="TimeBetweenWaves">22.5</Data>
+				<Data type="int" name="NumAircraftPerWave">7</Data>
+				<Data type="int" name="SentinelSynergyBonus">1</Data>
+				<Data type="float" name="SpawnRadius">22.5</Data>
+				<Data type="float" name="SpokeRotationOffset">0</Data>
+				<Data type="float" name="PatrolDuration">45</Data>
+				<Data type="protosquad" name="AircraftSquad">for_air_sentineltier1_power</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_VEH_FORE_SentinelGroupFlyIn</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="UnscArkWeakerDefense3">
+		<Attributes>
+			<PowerType>AircraftPatrol</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<PatrolPatternType>Circle</PatrolPatternType>
+			<Cost Supplies="300" Power="300" />
+			<AutoRecharge>150000</AutoRecharge>
+			<UIRadius>35</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="bool" name="IgnorePlacement">true</Data>
+				<Data type="bool" name="RandomiseSpawnPoints">true</Data>
+				<Data type="bool" name="TargetStructuresOnly">false</Data>
+				<Data type="int" name="NumWaves">3</Data>
+				<Data type="float" name="TimeBetweenWaves">20</Data>
+				<Data type="int" name="NumAircraftPerWave">7</Data>
+				<Data type="int" name="SentinelSynergyBonus">1</Data>
+				<Data type="float" name="SpawnRadius">22.5</Data>
+				<Data type="float" name="SpokeRotationOffset">0</Data>
+				<Data type="float" name="PatrolDuration">60</Data>
+				<Data type="protosquad" name="AircraftSquad">for_air_sentineltier1_power</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_VEH_FORE_SentinelGroupFlyIn</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="UnscOdstDropNew">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<SoundName>TurretDrop</SoundName>
+			<Cost Supplies="300" Power="50" />
+			<Pop type="Unit">8</Pop>
+			<AutoRecharge>150000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>true</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">false</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="TargetingDelay">0.5</Data>
+				<Data type="float" name="SquadSpawnDelay">1.20000005</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">2</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>unsc_inf_odst_01</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="UnscOdstDropNew2">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<SoundName>TurretDrop</SoundName>
+			<Cost Supplies="450" Power="100" />
+			<Pop type="Unit">16</Pop>
+			<AutoRecharge>150000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>true</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">false</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="TargetingDelay">0.5</Data>
+				<Data type="float" name="SquadSpawnDelay">1.20000005</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">4</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>unsc_inf_odst_01</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="UnscOdstDropNew3">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<SoundName>TurretDrop</SoundName>
+			<Cost Supplies="800" Power="200" />
+			<Pop type="Unit">24</Pop>
+			<AutoRecharge>150000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>true</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">false</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="TargetingDelay">0.5</Data>
+				<Data type="float" name="SquadSpawnDelay">1.20000005</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">6</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>unsc_inf_odst_01</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="UnscOrbitalBattleGroupNew">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<SoundName>OrbBattleGroup</SoundName>
+			<Cost Supplies="300" Power="100" />
+			<Pop type="Unit">9</Pop>
+			<AutoRecharge>360000</AutoRecharge>
+			<UIRadius>4</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>8</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">1.20000005</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.200000003</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="float" name="AreaDropInitialCircularDistanceOffset">0</Data>
+				<Data type="float" name="AreaDropExpandingStep">10</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">12.5</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_ULT_OrbitalBattleGroup</Data>
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>unsc_inf_heroodst_02_mp</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="UnscMacCutter1">
+		<Attributes>
+			<PowerType>Orbital</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<Cost Supplies="400" Power="300" />
+			<AutoRecharge>200000</AutoRecharge>
+			<UIRadius>24</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5026</DisplayNameID>
+			<RolloverTextID>5027</RolloverTextID>
+			<PrereqTextID>5027</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>0</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<CameraEffectIn>OrbitalPower</CameraEffectIn>
+			<CameraEffectOut>OrbitalPowerToNormal</CameraEffectOut>
+			<BaseDataLevel>
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="float" name="TargetingDelay">1.60000002</Data>
+				<Data type="float" name="AutoShotDelay">0</Data>
+				<Data type="float" name="AutoShotInnerRadius">5</Data>
+				<Data type="float" name="AutoShotOuterRadius">20</Data>
+				<Data type="float" name="XOffset">15</Data>
+				<Data type="float" name="YOffset">35</Data>
+				<Data type="float" name="ZOffset">15</Data>
+				<Data type="float" name="CommandInterval">0.200000003</Data>
+				<Data type="float" name="ShotInterval">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_OFF_MacBlastProjectileLv2</Data>
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+			</BaseDataLevel>
+			<DataLevel level="0">
+				<Data type="protoobject" name="Projectile">pow_gp_macCannonLVL2</Data>
+				<Data type="int" name="NumShots">1</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m2s</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="UnscMacCutter2">
+		<Attributes>
+			<PowerType>Orbital</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<Cost Supplies="500" Power="400" />
+			<AutoRecharge>200000</AutoRecharge>
+			<UIRadius>24</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5026</DisplayNameID>
+			<RolloverTextID>5027</RolloverTextID>
+			<PrereqTextID>5027</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>0</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<CameraEffectIn>OrbitalPower</CameraEffectIn>
+			<CameraEffectOut>OrbitalPowerToNormal</CameraEffectOut>
+			<BaseDataLevel>
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="float" name="TargetingDelay">1.60000002</Data>
+				<Data type="float" name="AutoShotDelay">0</Data>
+				<Data type="float" name="AutoShotInnerRadius">5</Data>
+				<Data type="float" name="AutoShotOuterRadius">20</Data>
+				<Data type="float" name="XOffset">15</Data>
+				<Data type="float" name="YOffset">35</Data>
+				<Data type="float" name="ZOffset">15</Data>
+				<Data type="float" name="CommandInterval">0.200000003</Data>
+				<Data type="float" name="ShotInterval">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_OFF_MacBlastProjectileLv2</Data>
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+			</BaseDataLevel>
+			<DataLevel level="0">
+				<Data type="protoobject" name="Projectile">pow_gp_macCannonLVL2</Data>
+				<Data type="int" name="NumShots">2</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m2s</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="UnscMacCutter3">
+		<Attributes>
+			<PowerType>Orbital</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<Cost Supplies="600" Power="500" />
+			<AutoRecharge>200000</AutoRecharge>
+			<UIRadius>24</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5026</DisplayNameID>
+			<RolloverTextID>5027</RolloverTextID>
+			<PrereqTextID>5027</PrereqTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\orbital_b</Icon>
+			<IconLocation>0</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<CameraEffectIn>OrbitalPower</CameraEffectIn>
+			<CameraEffectOut>OrbitalPowerToNormal</CameraEffectOut>
+			<BaseDataLevel>
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="float" name="TargetingDelay">1.60000002</Data>
+				<Data type="float" name="AutoShotDelay">0</Data>
+				<Data type="float" name="AutoShotInnerRadius">5</Data>
+				<Data type="float" name="AutoShotOuterRadius">20</Data>
+				<Data type="float" name="XOffset">15</Data>
+				<Data type="float" name="YOffset">35</Data>
+				<Data type="float" name="ZOffset">15</Data>
+				<Data type="float" name="CommandInterval">0.200000003</Data>
+				<Data type="float" name="ShotInterval">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_OFF_MacBlastProjectileLv2</Data>
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+			</BaseDataLevel>
+			<DataLevel level="0">
+				<Data type="protoobject" name="Projectile">pow_gp_macCannonLVL2</Data>
+				<Data type="int" name="NumShots">3</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m2s</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="Cutter_Pegasus">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>_POWER_Cutter_Pegasus</TechScript>
+			<Cost Supplies="0" Power="0" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
 		</Attributes>
 	</Power>
 	<Power name="CutterAdrenaline">
@@ -10786,6 +12097,56 @@
 			</FlashUI>
 		</Attributes>
 	</Power>
+	<Power name="CovDecimusDrop1">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<SoundName>OrbBattleGroup</SoundName>
+			<Pop type="Unit">10</Pop>
+			<Pop type="Decimus">1</Pop>
+			<Cost Supplies="750" Power="750" />
+			<AutoRecharge>360000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>8</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">1.5</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.200000003</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_ULT_DecimusDropIncoming</Data>
+				<Data type="protoobject" name="Projectile">cov_inf_decimusdroppod_01</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>cov_inf_mpdecimus_01</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="CovDecimusDrop">
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
@@ -10830,7 +12191,7 @@
 				<Data type="protoobject" name="Projectile">cov_inf_decimusdroppod_01</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
-						<ProtoSquadID>cov_inf_mpdecimus_01</ProtoSquadID>
+						<ProtoSquadID>cov_inf_mpdecimus_02</ProtoSquadID>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -27531,6 +28892,447 @@
 			</DataLevel>
 		</Attributes>
 	</Power>
+	<Power name="FloodGrizzlyBattalion">
+		<Attributes>
+			<PowerType>Gunship</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<Pop type="Unit">27</Pop>
+			<Cost Supplies="1864" Power="324" />
+			<AutoRecharge>330000</AutoRecharge>
+			<UIRadius>30</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<ShowTransportArrows>true</ShowTransportArrows>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>8</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="int" name="NumGunships">3</Data>
+				<Data type="float" name="AOERadius">20</Data>
+				<Data type="float" name="WaitDuration">2</Data>
+				<Data type="protoobject" name="Gunship">unsc_air_pelicangunship_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_ULT_GrizzlyBattalion</Data>
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>flood_veh_infected_grizzly_01_base</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_veh_infected_grizzly_01_base</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_veh_infected_grizzly_01_base</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="Flood_Emerge_InfectorsAOM">
+		<Attributes>
+			<PowerType>Gunship</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<Pop type="Unit">14</Pop>
+			<Cost Supplies="600" Power="400" />
+			<AutoRecharge>330000</AutoRecharge>
+			<UIRadius>30</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<ShowTransportArrows>true</ShowTransportArrows>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>8</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="int" name="NumGunships">3</Data>
+				<Data type="float" name="AOERadius">20</Data>
+				<Data type="float" name="WaitDuration">1</Data>
+				<Data type="protoobject" name="Gunship">flood_inf_ruptureemerge_LP_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_ULT_GrizzlyBattalion</Data>
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="Flood_Emerge_InfectorsAOM2">
+		<Attributes>
+			<PowerType>Gunship</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<Pop type="Unit">25</Pop>
+			<Cost Supplies="800" Power="600" />
+			<AutoRecharge>330000</AutoRecharge>
+			<UIRadius>30</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<ShowTransportArrows>true</ShowTransportArrows>
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>8</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="int" name="NumGunships">3</Data>
+				<Data type="float" name="AOERadius">20</Data>
+				<Data type="float" name="WaitDuration">1</Data>
+				<Data type="protoobject" name="Gunship">flood_inf_ruptureemerge_LP_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_ULT_GrizzlyBattalion</Data>
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_vehinfector_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_vehinfector_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_vehinfector_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_02</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="FloodEggAOMDrop1">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<SoundName>TurretDrop</SoundName>
+			<Cost Supplies="100" Power="100" />
+			<Pop type="Unit">0</Pop>
+			<AutoRecharge>110000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>true</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">true</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">true</Data>
+				<Data type="bool" name="CanDropOnSquads">false</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="TargetingDelay">0.5</Data>
+				<Data type="float" name="SquadSpawnDelay">1.20000005</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_lotusminepod_01</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">2</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>flood_bldg_eggdropaom_01</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="FloodEggAOMDrop2">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<SoundName>TurretDrop</SoundName>
+			<Cost Supplies="130" Power="130" />
+			<Pop type="Unit">0</Pop>
+			<AutoRecharge>110000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>true</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">true</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">true</Data>
+				<Data type="bool" name="CanDropOnSquads">false</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="TargetingDelay">0.5</Data>
+				<Data type="float" name="SquadSpawnDelay">1.20000005</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_lotusminepod_01</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">2</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>flood_bldg_eggdropaom_02</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="FloodWormBuff">
 		<Attributes>
 			<PowerType>Orbital</PowerType>
@@ -27682,7 +29484,7 @@
 				<Data type="float" name="BuffDuration">15</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
-				<Data type="float" name="DamageMitigationScalar">0.45</Data>
+				<Data type="float" name="DamageMitigationScalar">0.5</Data>
 				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
 				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
 				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
@@ -27727,7 +29529,7 @@
 				<Data type="float" name="BuffDuration">15</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
-				<Data type="float" name="DamageMitigationScalar">0.35</Data>
+				<Data type="float" name="DamageMitigationScalar">0.4</Data>
 				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
 				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
 				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
@@ -27765,10 +29567,10 @@
 			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">18</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
-				<Data type="float" name="BuffDuration">15</Data>
+				<Data type="float" name="BuffDuration">12</Data>
 				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
 				<Data type="float" name="SlowModifier">0.8</Data>
-				<Data type="float" name="PercentHealthDamageOverTime">0.35</Data>
+				<Data type="float" name="PercentHealthDamageOverTime">0.3</Data>
 				<Data type="sound" name="HudUpSound">play_unsc_heal_vo_ready</Data>
 				<Data type="sound" name="HudAbortSound">play_unsc_heal_vo_exit</Data>
 				<Data type="sound" name="HudFireSound">play_unsc_heal_vo_target</Data>
@@ -27845,7 +29647,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_03</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -27857,7 +29659,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -27881,7 +29683,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_03</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -27893,7 +29695,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_05</ProjectileOverride>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -27943,9 +29745,9 @@
 				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
 				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
 				<Data type="float" name="AreaDropInitialCircularDistanceOffset">0</Data>
-				<Data type="float" name="AreaDropExpandingStep">8</Data>
-				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">12</Data>
-				<Data type="float" name="AreaDropRandomLaunchDelay">4</Data>
+				<Data type="float" name="AreaDropExpandingStep">7</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">11</Data>
+				<Data type="float" name="AreaDropRandomLaunchDelay">3</Data>
 				<Data type="float" name="AreaDropRandomPosOffset">10</Data>
 				<Data type="bool" name="OneProjectilePerUnit">true</Data>
 				<Data type="bool" name="CanDropOnSquads">true</Data>
@@ -27980,7 +29782,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -28004,7 +29806,7 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_03</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -28016,11 +29818,11 @@
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_05</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_bitsofinfectedship_04</ProjectileOverride>
+						<ProjectileOverride>pow_proj_bitsofinfectedship_01</ProjectileOverride>
 					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_returned_plasma_01</ProtoObjectID>
@@ -28100,6 +29902,64 @@
 			</DataLevel>
 		</Attributes>
 	</Power>
+	<Power name="FloodBaseDropAOM">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>BunkerDrop</AIPowerUseType>
+			<SoundName>TurretDrop</SoundName>
+			<Pop type="Decimus">1</Pop>
+			<Cost Supplies="300" Power="300" />
+			<AutoRecharge>150000</AutoRecharge>
+			<UIRadius>28</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>true</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">true</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">false</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">0.9</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="sound" name="FiredSound" />
+				<Data type="protoobject" name="Projectile">vfx_dlc3_powers_trails_johnsonbunkerdroptrail</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>fld_bldg_drophivebaseaom_01</ProtoSquadID>
+						<ProjectileOverride>unsc_air_bunkerpod_01</ProjectileOverride>
+						<PlayTrainAnim>true</PlayTrainAnim>
+						<ConformToSlopedTerrain />
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="Flood_Emerge_Infectors">
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
@@ -28133,7 +29993,7 @@
 				<Data type="bool" name="CanDropOnSquads">true</Data>
 				<Data type="bool" name="OneProjectilePerUnit">true</Data>
 				<Data type="int" name="OverlayStringID">25023</Data>
-				<Data type="float" name="SquadSpawnDelay">0.8</Data>
+				<Data type="float" name="SquadSpawnDelay">1</Data>
 				<Data type="float" name="ProjectileSpawnDelay">0.2</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
@@ -28189,8 +30049,8 @@
 				<Data type="bool" name="CanDropOnSquads">true</Data>
 				<Data type="bool" name="OneProjectilePerUnit">true</Data>
 				<Data type="int" name="OverlayStringID">25023</Data>
-				<Data type="float" name="SquadSpawnDelay">0.8</Data>
-				<Data type="float" name="ProjectileSpawnDelay">0.2</Data>
+				<Data type="float" name="SquadSpawnDelay">1.20000005</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -28465,6 +30325,7 @@
 			<ProcOnChangeOwnerSameTeam />
 			<ProcOnPowerGranted />
 			<ProcOnPowerUpgraded />
+			<DependsOnPopulation />
 			<BuffName>Inspire</BuffName>
 			<ProcBuffName>Inspire</ProcBuffName>
 			<Cost Supplies="0" Power="0" />
@@ -28481,9 +30342,10 @@
 			<DataLevel level="0">
 				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
-				<Data type="float" name="DamageDealtModifier">1.05f</Data>
-				<Data type="float" name="SlowModifier">1.05</Data>
-				<Data type="float" name="DamageMitigationScalar">0.95</Data>
+				<Data type="float" name="DamageDealtModifier">1.13f</Data>
+				<Data type="float" name="SlowModifier">1.06</Data>
+				<Data type="float" name="DamageMitigationScalar">0.97</Data>
+				<Data type="float" name="PopulationThreshold">120</Data>
 				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
 				<Data type="objecttype" name="BuffActivateFXOverrideType1">Flying</Data>
 				<Data type="protoobject" name="BuffActivateFXOverride1">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
@@ -28491,9 +30353,59 @@
 			</DataLevel>
 			<DataLevel level="1">
 				<Data type="bool" name="BuffDurationInfinite">true</Data>
-				<Data type="float" name="DamageDealtModifier">1.075f</Data>
-				<Data type="float" name="SlowModifier">1.075</Data>
-				<Data type="float" name="DamageMitigationScalar">0.925</Data>
+				<Data type="float" name="DamageDealtModifier">1.13f</Data>
+				<Data type="float" name="SlowModifier">1.06</Data>
+				<Data type="float" name="DamageMitigationScalar">0.97</Data>
+				<Data type="float" name="PopulationThreshold">120</Data>
+				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
+				<Data type="objecttype" name="BuffActivateFXOverrideType1">Flying</Data>
+				<Data type="protoobject" name="BuffActivateFXOverride1">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
+				<Data type="bool" name="OverwritesSelf">true</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="FloodBuffAOM">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>_Power_FloodBuffAOM</TechScript>
+			<ProcOnSquadSpawned />
+			<ProcOnChangeOwner />
+			<ProcOnChangeOwnerSameTeam />
+			<ProcOnPowerGranted />
+			<ProcOnPowerUpgraded />
+			<DependsOnPopulation />
+			<BuffName>Inspire</BuffName>
+			<ProcBuffName>Inspire</ProcBuffName>
+			<Cost Supplies="0" Power="0" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
+				<Data type="bool" name="BuffDurationInfinite">true</Data>
+				<Data type="float" name="DamageDealtModifier">1.13f</Data>
+				<Data type="float" name="SlowModifier">1.06</Data>
+				<Data type="float" name="DamageMitigationScalar">0.97</Data>
+				<Data type="float" name="PopulationThreshold">120</Data>
+				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
+				<Data type="objecttype" name="BuffActivateFXOverrideType1">Flying</Data>
+				<Data type="protoobject" name="BuffActivateFXOverride1">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
+				<Data type="bool" name="OverwritesSelf">true</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="bool" name="BuffDurationInfinite">true</Data>
+				<Data type="float" name="DamageDealtModifier">1.13f</Data>
+				<Data type="float" name="SlowModifier">1.06</Data>
+				<Data type="float" name="DamageMitigationScalar">0.97</Data>
+				<Data type="float" name="PopulationThreshold">120</Data>
 				<Data type="protoobject" name="BuffActivateFX">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
 				<Data type="objecttype" name="BuffActivateFXOverrideType1">Flying</Data>
 				<Data type="protoobject" name="BuffActivateFXOverride1">vfx_episode2_environmentalvfx_e2m4groundpollen</Data>
@@ -30149,6 +32061,540 @@
 			</FlashUI>
 		</Attributes>
 	</Power>
+	<Power name="Cutter_NukeBombing">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<SoundName>LotusMine</SoundName>
+			<Cost Supplies="2000" Power="2000" />
+			<AutoRecharge>150000</AutoRecharge>
+			<UIRadius>40</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">1</Data>
+				<Data type="float" name="ProjectileSpawnDelay">7</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_MOM_LP_DEF_BAN_MethaneBombingProjectile</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_napalmmissile_03</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="float" name="AreaDropInitialCircularDistanceOffset">2</Data>
+				<Data type="float" name="AreaDropExpandingStep">7.5</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">8</Data>
+				<Data type="float" name="AreaDropRandomLaunchDelay">7</Data>
+				<Data type="float" name="AreaDropRandomPosOffset">9</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="bool" name="AllowDisplacedAimPoint">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="bool" name="NoDropNearBase">false</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad40m2s</Data>
+				<Data type="float" name="DropStartHeight">90</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="Anders_NukeBombing">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<SoundName>LotusMine</SoundName>
+			<Cost Supplies="2000" Power="2000" />
+			<AutoRecharge>150000</AutoRecharge>
+			<UIRadius>40</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">1</Data>
+				<Data type="float" name="ProjectileSpawnDelay">7</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_MOM_LP_DEF_BAN_MethaneBombingProjectile</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_nukemissile_01</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="float" name="AreaDropInitialCircularDistanceOffset">0</Data>
+				<Data type="float" name="AreaDropExpandingStep">10</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">16</Data>
+				<Data type="float" name="AreaDropRandomLaunchDelay">3</Data>
+				<Data type="float" name="AreaDropRandomPosOffset">10</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="bool" name="AllowDisplacedAimPoint">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="bool" name="NoDropNearBase">true</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad40m2s</Data>
+				<Data type="float" name="DropStartHeight">90</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="Anders_NukeBombing2">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<SoundName>LotusMine</SoundName>
+			<Cost Supplies="4000" Power="4000" />
+			<AutoRecharge>300000</AutoRecharge>
+			<UIRadius>40</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">1</Data>
+				<Data type="float" name="ProjectileSpawnDelay">1.75</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_MOM_LP_DEF_BAN_MethaneBombingProjectile</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_nukemissile_02</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="float" name="AreaDropInitialCircularDistanceOffset">0</Data>
+				<Data type="float" name="AreaDropExpandingStep">12</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">16</Data>
+				<Data type="float" name="AreaDropRandomLaunchDelay">6</Data>
+				<Data type="float" name="AreaDropRandomPosOffset">13</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="bool" name="AllowDisplacedAimPoint">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="bool" name="NoDropNearBase">true</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad40m2s</Data>
+				<Data type="float" name="DropStartHeight">90</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="Serina_CryoBlast1">
 		<Attributes>
 			<PowerType>Orbital</PowerType>
@@ -31379,7 +33825,7 @@
 						<VeterancyLevel>2</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>unsc_veh_scorpion_01</ProtoSquadID>
+						<ProtoSquadID>unsc_veh_cryoscorpion_01</ProtoSquadID>
 						<ProjectileOverride>unsc_air_serina_vehiclepod_01</ProjectileOverride>
 						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
@@ -31387,7 +33833,7 @@
 						<ProtoObjectID>pow_gp_scatterbombDummy_01</ProtoObjectID>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>unsc_veh_scorpion_01</ProtoSquadID>
+						<ProtoSquadID>unsc_veh_cryoscorpion_01</ProtoSquadID>
 						<ProjectileOverride>unsc_air_serina_vehiclepod_01</ProjectileOverride>
 						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
