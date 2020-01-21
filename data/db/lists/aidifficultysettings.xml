@@ -5,7 +5,7 @@
 			<DataPoint Input="0" Output="1" />
 			<DataPoint Input="0.340000004" Output="1" />
 			<DataPoint Input="0.670000017" Output="1" />
-			<DataPoint Input="1" Output="0.5" />
+			<DataPoint Input="1" Output="1" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffDistractionTime" InputLabel="Difficulty" OutputLabel="Seconds" Comment="amount of time spent in distraction topic">
@@ -59,9 +59,9 @@
 	<AIDifficultySetting Name="DiffUsePullbackMicro" InputLabel="Difficulty" OutputLabel="Bool" Comment="Pullback micro is active (1.0) or inactive (0.0)">
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="0" />
-			<DataPoint Input="0.340000004" Output="1" />
+			<DataPoint Input="0.340000004" Output="0" />
 			<DataPoint Input="0.670000017" Output="1" />
-			<DataPoint Input="1" Output="0" />
+			<DataPoint Input="1" Output="1" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffUseHoldGroundMicro" InputLabel="Difficulty" OutputLabel="Bool" Comment="Hold Ground micro is active (1.0) or inactive (0.0)">
@@ -101,15 +101,15 @@
 			<DataPoint Input="0" Output="50" />
 			<DataPoint Input="0.340000004" Output="30" />
 			<DataPoint Input="0.670000017" Output="10" />
-			<DataPoint Input="1" Output="2" />
+			<DataPoint Input="1" Output="5" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffPullbackMicroThreshold" InputLabel="Difficulty" OutputLabel="Pct" Comment="Percentage of a squads health under which they begin using the pull back micro">
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="0.550000012" />
 			<DataPoint Input="0.340000004" Output="0.550000012" />
-			<DataPoint Input="0.670000017" Output="0.150000012" />
-			<DataPoint Input="1" Output="0.150000012" />
+			<DataPoint Input="0.670000017" Output="0.550000012" />
+			<DataPoint Input="1" Output="0.550000012" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffSendAutoDefendMissions" InputLabel="Difficulty" OutputLabel="Bool" Comment="AI can send auto defend missions (1.0) or not (0.0). This is for campaign only as in skirmish this variable will always be on">
@@ -162,25 +162,25 @@
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffAutoGenerateBuildingBids" InputLabel="Difficulty" OutputLabel="Bool" Comment="AI can generate building bids if the strategy table buildings have been exhausted.">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" />
-			<DataPoint Input="0.340000004" Output="1" />
-			<DataPoint Input="0.670000017" Output="1" />
+			<DataPoint Input="0" Output="0" />
+			<DataPoint Input="0.340000004" Output="0" />
+			<DataPoint Input="0.670000017" Output="0" />
 			<DataPoint Input="1" Output="1" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffAutoGenerateTechBids" InputLabel="Difficulty" OutputLabel="Bool" Comment="AI can generate tech bids if the strategy table techs have been exhausted.">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" />
-			<DataPoint Input="0.340000004" Output="1" />
-			<DataPoint Input="0.670000017" Output="1" />
+			<DataPoint Input="0" Output="0" />
+			<DataPoint Input="0.340000004" Output="0" />
+			<DataPoint Input="0.670000017" Output="0" />
 			<DataPoint Input="1" Output="1" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffAutoGenerateLeaderPowersBids" InputLabel="Difficulty" OutputLabel="Bool" Comment="AI can generate leader powers bids if the strategy table leader powers have been exhausted.">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" />
-			<DataPoint Input="0.340000004" Output="1" />
-			<DataPoint Input="0.670000017" Output="1" />
+			<DataPoint Input="0" Output="0" />
+			<DataPoint Input="0.340000004" Output="0" />
+			<DataPoint Input="0.670000017" Output="0" />
 			<DataPoint Input="1" Output="1" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
@@ -189,7 +189,7 @@
 			<DataPoint Input="0" Output="100000" />
 			<DataPoint Input="0.340000004" Output="6000" />
 			<DataPoint Input="0.670000017" Output="3500" />
-			<DataPoint Input="1" Output="2000" />
+			<DataPoint Input="1" Output="3000" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffAutoBuildingBidPowerThreshold" InputLabel="Difficulty" OutputLabel="Int" Comment="Once the AI gets above this power threshold it will bid on buildings despite their prereqs">
@@ -197,7 +197,7 @@
 			<DataPoint Input="0" Output="100000" />
 			<DataPoint Input="0.340000004" Output="6000" />
 			<DataPoint Input="0.670000017" Output="3500" />
-			<DataPoint Input="1" Output="2000" />
+			<DataPoint Input="1" Output="3000" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffAutoBuildingBidResourceThreshold" InputLabel="Difficulty" OutputLabel="Int" Comment="Once the AI gets above this resource threshold it will bid on buildings despite their prereqs">
@@ -205,7 +205,7 @@
 			<DataPoint Input="0" Output="100000" />
 			<DataPoint Input="0.340000004" Output="6000" />
 			<DataPoint Input="0.670000017" Output="3500" />
-			<DataPoint Input="1" Output="2000" />
+			<DataPoint Input="1" Output="3000" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffAutoLeaderPowersBidPowerThreshold" InputLabel="Difficulty" OutputLabel="Int" Comment="Once the AI gets above this power threshold it will bid on leader powers despite their prereqs">
@@ -213,7 +213,7 @@
 			<DataPoint Input="0" Output="100000" />
 			<DataPoint Input="0.340000004" Output="6000" />
 			<DataPoint Input="0.670000017" Output="3500" />
-			<DataPoint Input="1" Output="2000" />
+			<DataPoint Input="1" Output="3000" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffAutoLeaderPowersBidResourceThreshold" InputLabel="Difficulty" OutputLabel="Int" Comment="Once the AI gets above this resource threshold it will bid on leader powers despite their prereqs">
@@ -221,7 +221,7 @@
 			<DataPoint Input="0" Output="100000" />
 			<DataPoint Input="0.340000004" Output="6000" />
 			<DataPoint Input="0.670000017" Output="3500" />
-			<DataPoint Input="1" Output="2000" />
+			<DataPoint Input="1" Output="3000" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffOverHeal" InputLabel="Difficulty" OutputLabel="Bool" Comment="AI assigns too many healers to an injured squad (1.0) or not (0.0).">
@@ -330,8 +330,8 @@
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffUseRushStrategies" InputLabel="Difficulty" OutputLabel="Bool" Comment="Should the AI use Rush strategies">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" />
-			<DataPoint Input="0.340000004" Output="1" />
+			<DataPoint Input="0" Output="0" />
+			<DataPoint Input="0.340000004" Output="0" />
 			<DataPoint Input="0.670000017" Output="1" />
 			<DataPoint Input="1" Output="1" />
 		</PiecewiseFunc>
@@ -340,14 +340,14 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="1" />
 			<DataPoint Input="0.340000004" Output="1" />
-			<DataPoint Input="0.670000017" Output="1" />
-			<DataPoint Input="1" Output="1" />
+			<DataPoint Input="0.670000017" Output="0" />
+			<DataPoint Input="1" Output="0" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffUseFastTechStrategies" InputLabel="Difficulty" OutputLabel="Bool" Comment="Should the AI use FastTech strategies">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" />
-			<DataPoint Input="0.340000004" Output="1" />
+			<DataPoint Input="0" Output="0" />
+			<DataPoint Input="0.340000004" Output="0" />
 			<DataPoint Input="0.670000017" Output="1" />
 			<DataPoint Input="1" Output="1" />
 		</PiecewiseFunc>
@@ -357,23 +357,23 @@
 			<DataPoint Input="0" Output="1" />
 			<DataPoint Input="0.340000004" Output="1" />
 			<DataPoint Input="0.670000017" Output="1" />
-			<DataPoint Input="1" Output="1" />
+			<DataPoint Input="1" Output="0" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffUseMapControlStrategies" InputLabel="Difficulty" OutputLabel="Bool" Comment="Should the AI use MapControl strategies">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" />
-			<DataPoint Input="0.340000004" Output="1" />
+			<DataPoint Input="0" Output="0" />
+			<DataPoint Input="0.340000004" Output="0" />
 			<DataPoint Input="0.670000017" Output="1" />
 			<DataPoint Input="1" Output="1" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffUseBoomStrategiesInTeamGames" InputLabel="Difficulty" OutputLabel="Bool" Comment="Should the AI use Boom strategies in team games">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" />
-			<DataPoint Input="0.340000004" Output="1" />
-			<DataPoint Input="0.670000017" Output="1" />
-			<DataPoint Input="1" Output="1" />
+			<DataPoint Input="0" Output="0" />
+			<DataPoint Input="0.340000004" Output="0" />
+			<DataPoint Input="0.670000017" Output="0" />
+			<DataPoint Input="1" Output="0" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffMaximumUberUnits" InputLabel="Difficulty" OutputLabel="Int" Comment="The maximum number of Uber units an AI Agent should have on the field at any one time">
@@ -498,9 +498,9 @@
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffPopulationLimit" InputLabel="Difficulty" OutputLabel="Int" Comment="The maximum number of squads the AI Agent will train before the enemy passes this limit e.g. on easy the AI Agent will train up to 15 squads. It will then wait until the enemy has trained more than 15 before it continues training">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="10000" />
-			<DataPoint Input="0.340000004" Output="10000" />
-			<DataPoint Input="0.670000017" Output="10000" />
+			<DataPoint Input="0" Output="10" />
+			<DataPoint Input="0.340000004" Output="25" />
+			<DataPoint Input="0.670000017" Output="60" />
 			<DataPoint Input="1" Output="10000" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
@@ -573,7 +573,7 @@
 			<DataPoint Input="0" Output="90" />
 			<DataPoint Input="0.340000004" Output="60" />
 			<DataPoint Input="0.670000017" Output="30" />
-			<DataPoint Input="1" Output="15" />
+			<DataPoint Input="1" Output="0" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffAddedTimeFromCanDispatchToActualDispatch" InputLabel="Difficulty" OutputLabel="Int" Comment="How many extra seconds is each mission to wait before dispatching in auto toned down missions">
@@ -602,8 +602,8 @@
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffDefaultRangeOfRandomSquadsToSendOnAutoMissions" InputLabel="Difficulty" OutputLabel="Float" Comment="On Auto defend missions what range of squads do we want being sent. 0.1 would be very specific counters while 1.0 would be a bit of everything">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" />
-			<DataPoint Input="0.340000004" Output="1" />
+			<DataPoint Input="0" Output="0.300000012" />
+			<DataPoint Input="0.340000004" Output="0.200000003" />
 			<DataPoint Input="0.670000017" Output="0.150000006" />
 			<DataPoint Input="1" Output="0.100000001" />
 		</PiecewiseFunc>
@@ -629,7 +629,7 @@
 			<DataPoint Input="0" Output="1" Comment="On easy, AI gets 50% normal supplies" />
 			<DataPoint Input="0.340000004" Output="1" Comment="At diff 0.33, non-cheating (normal) supplies" />
 			<DataPoint Input="0.670000017" Output="1" Comment="At diff 0.67, non-cheating (normal) supplies" />
-			<DataPoint Input="1" Output="2" Comment="On legendary, AI gets 133% normal supplies" />
+			<DataPoint Input="1" Output="1" Comment="On legendary, AI gets 133% normal supplies" />
 			<DataPoint Input="2" Output="1" Comment="On hyper-legendary, AI gets 233% normal supplies" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
@@ -637,7 +637,7 @@
 		<PiecewiseFunc>
 			<DataPoint Input="0" Output="1" Comment="Damage given always normal...feature disabled" />
 			<DataPoint Input="0.670000017" Output="1" Comment="Damage given always normal...feature disabled" />
-			<DataPoint Input="1" Output="1.33" Comment="33% Boost for Legendary" />
+			<DataPoint Input="1" Output="1" Comment="33% Boost for Legendary" />
 			<DataPoint Input="2" Output="1" Comment="133% Boost for Hyper-Legendary" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
@@ -646,7 +646,7 @@
 			<DataPoint Input="0" Output="1" Comment="On easy, takes 3x damage" />
 			<DataPoint Input="0.340000004" Output="1" Comment="At normal, normal damage" />
 			<DataPoint Input="0.670000017" Output="1" Comment="At hard, normal damage" />
-			<DataPoint Input="1" Output="0.9" Comment="On legendary, AI takes 75%% normal damage" />
+			<DataPoint Input="1" Output="1" Comment="On legendary, AI takes 75%% normal damage" />
 			<DataPoint Input="2" Output="1" Comment="On legendary, AI takes 40% normal damage" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
