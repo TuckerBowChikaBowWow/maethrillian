@@ -116,12 +116,16 @@
 	</Weapon>
 	<Weapon>
 		<Name>TargetingLaser</Name>
-		<AttackRate>0.100000001</AttackRate>
+		<AttackRate>1</AttackRate>
 		<DamagePerSecond>0</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>vfx_episode2_units_megaturretBeam</Projectile>
 		<MaxVelocityLead>99</MaxVelocityLead>
 		<MaxRange>301</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
 		<Hardpoint>Laser</Hardpoint>
 	</Weapon>
 	<Weapon>
@@ -168,10 +172,8 @@
 		<ActionType>RangedAttack</ActionType>
 		<Anim>LaserAttack</Anim>
 		<Weapon>TargetingLaser</Weapon>
-		<Beam collideWithUnits="false" collideWithTerrain="false" />
-		<Strafing maxDistance="301" turnRate="180" trackingSpeed="20" jitter="0" />
-		<PersistBetweenOpps />
-		<LoopAttackAnim />
+		<Beam collideWithUnits="true" collideWithTerrain="false" />
+		<Strafing maxDistance="100" turnRate="180" trackingSpeed="50" jitter="0" />
 	</Action>
 	<Action>
 		<Name>ScorchMegaCannonAttack</Name>
@@ -196,7 +198,7 @@
 		<Hardpoint>Spirit</Hardpoint>
 		<Hardpoint2>Building</Hardpoint2>
 		<DeliveryType>Building</DeliveryType>
-		<DeliveryDelay>14</DeliveryDelay>
+		<DeliveryDelay>0</DeliveryDelay>
 		<AllowDuplicate />
 	</Action>
 	<Action>
@@ -204,6 +206,14 @@
 		<ActionType>EnergyShield</ActionType>
 		<ProtoObject>cov_wraithshield</ProtoObject>
 		<StartDisabled />
+	</Action>
+	<Action>
+		<Name>megaTurretAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MegaTurretAttack</Anim>
+		<Weapon>megaTurret</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
 	</Action>
 	<Tactic>
 		<PersistentAction>ShieldAction</PersistentAction>
@@ -216,6 +226,10 @@
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
 			<Action>MegaCannonAttack</Action>
+		</TargetRule>
+		<TargetRule>
+			<TargetsGround />
+			<Action>megaTurretAttackAction</Action>
 		</TargetRule>
 	</Tactic>
 </TacticData>

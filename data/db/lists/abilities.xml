@@ -96,16 +96,13 @@
 		<TargetType>Location</TargetType>
 	</Ability>
 	<Ability Name="UnscWolverineBarrage">
-		<DisplayNameID>6014</DisplayNameID>
-		<RolloverTextID>6015</RolloverTextID>
+		<DisplayNameID>24552</DisplayNameID>
 		<Type>Work</Type>
-		<TargetType>UnitOrLocation</TargetType>
+		<TargetType>Unit</TargetType>
 		<RecoverStart>Attack</RecoverStart>
 		<RecoverType>Ability</RecoverType>
 		<RecoverTime>30</RecoverTime>
 		<DontInterruptAttack>true</DontInterruptAttack>
-		<Priority Vehicle="8" Air="0" Terrain="0" Infantry="8" Building="8" />
-		<Application Vehicle="mono" Air="mono" Terrain="disabled" Infantry="mono" Building="mono" />
 	</Ability>
 	<Ability Name="UnscMarineRockets">
 		<DisplayNameID>6014</DisplayNameID>
@@ -738,18 +735,6 @@
 		<TargetType>UnitOrLocation</TargetType>
 		<RecoverType>Ability</RecoverType>
 		<RecoverTime>90</RecoverTime>
-		<NoAbilityReticle>true</NoAbilityReticle>
-		<Priority Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
-		<Application Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
-	</Ability>
-	<Ability Name="CovHereticLeaderAbility">
-		<DisplayNameID>24272</DisplayNameID>
-		<RolloverTextID>24273</RolloverTextID>
-		<Type>Work</Type>
-		<KeepSquadMode>true</KeepSquadMode>
-		<TargetType>UnitOrLocation</TargetType>
-		<RecoverType>Ability</RecoverType>
-		<RecoverTime>120</RecoverTime>
 		<NoAbilityReticle>true</NoAbilityReticle>
 		<Priority Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
 		<Application Vehicle="1" Air="1" Terrain="1" Infantry="1" Building="1" />
