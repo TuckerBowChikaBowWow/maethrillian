@@ -8876,21 +8876,6 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="cov_heretic_blister" type="Normal">
-		<DBID>1963</DBID>
-		<ResearchPoints>0</ResearchPoints>
-		<Status>OBTAINABLE</Status>
-		<Effects>
-			<Effect type="ReparentProtoObject" FromType="cov_air_blisterbackLockdown_01" ToType="cov_air_rm_blisterbackLockdown_02" />
-			<Effect type="ReparentProtoObject" FromType="cov_air_blisterback_01" ToType="cov_air_rm_blisterback_02" />
-			<Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_air_rm_blisterback_02">
-				<Target type="ProtoSquad">cov_air_blisterback_01</Target>
-			</Effect>
-			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_air_rm_blisterback_02">
-				<Target type="ProtoSquad">cov_air_blisterback_01</Target>
-			</Effect>
-		</Effects>
-	</Tech>
 	<Tech name="cov_heretic_gruntsquad" type="Normal">
 		<DBID>1963</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -9151,9 +9136,6 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_sesahereticleader_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
-			</Effect>
-			<Effect type="Data" subtype="Enable">
-				<Target type="Tech">cov_heretic_blister</Target>
 			</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">cov_heretic_locust</Target>
