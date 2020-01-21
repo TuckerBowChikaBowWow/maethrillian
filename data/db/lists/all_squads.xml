@@ -3655,6 +3655,48 @@
 		<Tactics>cov_veh_locust_01_mp.tactics</Tactics>
 	</Squad>
 	<Squad name="cov_veh_locust_01_sp" parent_element="cov_veh_locust_01_base" dbid="15158496091250718490" />
+	<Squad name="cov_veh_locust_01_mp_blitz" dbid="15261052440451981076">
+		<CombatRank>5</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_chimera</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3070</DisplayNameID>
+		<RolloverTextID>3071</RolloverTextID>
+		<RoleTextID>507</RoleTextID>
+		<PrereqTextID>243</PrereqTextID>
+		<SubSelectSort>1405</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>3</AIAttackRank>
+		<BuildPoints>25</BuildPoints>
+		<Pop Type="Unit">4</Pop>
+		<Cost ResourceType="Supplies">300</Cost>
+		<Cost ResourceType="Power">200</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
+		<HPBar offset="0,7.38000011,0">COV_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_veh_locust_01_mp_blitz</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="0.5" max="6" />
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Locust_01</Counters>
+		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
+	</Squad>
 	<Squad name="cov_veh_m01scarab_01" dbid="7693109984603721276" parent_element="cov_veh_scarab_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>

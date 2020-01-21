@@ -5371,7 +5371,6 @@
         	<Effect type="ReparentProtoObject" FromType="cov_inf_bruteLeader_01" ToType="cov_inf_bruteLeader_01_mp_blitz" />
         	<Effect type="ReparentProtoObject" FromType="cov_inf_bruteSubLeader_01" ToType="cov_inf_bruteSubLeader_01_mp_blitz" />
         	<Effect type="ReparentProtoObject" FromType="cov_inf_grunt_01" ToType="cov_inf_grunt_01_mp_blitz" />
-        	<Effect type="ReparentProtoObject" FromType="cov_veh_locust_01" ToType="cov_veh_locust_01_mp_blitz" />
         	<Effect type="ReparentProtoObject" FromType="cov_inf_bruteHonour_01" ToType="cov_inf_bruteHonour_01_mp_blitz" />
             <Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverBrutegunAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_bruteLeader_01_mp</Target>
@@ -8858,6 +8857,20 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="cov_heretic_locust" type="Normal">
+		<DBID>1963</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Effects>
+			<Effect type="ReparentProtoObject" FromType="cov_veh_locust_01" ToType="cov_veh_locust_01_mp_blitz" />
+			<Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_veh_locust_01_mp_blitz">
+				<Target type="ProtoSquad">cov_veh_locust_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="cov_veh_locust_01_mp_blitz">
+				<Target type="ProtoSquad">cov_veh_locust_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="cov_heretic_gruntsquad" type="Normal">
 		<DBID>1963</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -9118,6 +9131,9 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_sesahereticleader_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">cov_heretic_locust</Target>
 			</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">cov_heretic_gruntsquad</Target>
