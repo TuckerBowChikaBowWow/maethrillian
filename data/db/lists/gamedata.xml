@@ -333,6 +333,21 @@
 	<InfantryCorpseDecayTime>3</InfantryCorpseDecayTime>
 	<CorpseSinkingSpacing>3</CorpseSinkingSpacing>
 	<InfectionMap>
+		<InfectionMapEntry targetUnit="cov_inf_hereticelite_01">
+			<Infected weight="99" infectedUnit="flood_inf_hereticelite_01" infectedSquad="flood_inf_hereticelite_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_hereticleader_01">
+			<Infected weight="99" infectedUnit="flood_inf_hereticleader_01" infectedSquad="flood_inf_hereticleader_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_hereticleader_02">
+			<Infected weight="99" infectedUnit="flood_inf_hereticleader_02" infectedSquad="flood_inf_hereticleader_02" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_hereticleaderclone_01">
+			<Infected weight="99" infectedUnit="flood_inf_hereticleaderclone_01" infectedSquad="flood_inf_hereticleaderclone_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_veh_locust_01_mp_blitz">
+			<Infected weight="99" infectedUnit="cov_veh_locust_01_mp_blitz" infectedSquad="cov_veh_locust_01_mp_blitz" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_grunt_01_mp_blitz">
 			<Infected weight="99" infectedUnit="flood_inf_infected_gruntpistol_01" infectedSquad="flood_inf_infected_gruntpistol_01" deathByInfectionAnim="Transform" />
 			<Infected weight="1" infectedUnit="fld_custom_carrierform_grunt" infectedSquad="fld_custom_carrierform_grunt" deathByInfectionAnim="Transform" />
