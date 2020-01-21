@@ -9041,7 +9041,6 @@
 			<TechStatus status="Active">cov_sesahereticleader_upgrade2</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="ReparentProtoObject" FromType="cov_inf_hereticleader_01" ToType="cov_inf_hereticleader_02" />
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
 			</Effect>
