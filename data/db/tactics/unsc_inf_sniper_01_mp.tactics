@@ -100,6 +100,56 @@
 		<Slow TargetType="Infantry" MovementModifier="0.600000024" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">2.0f</Slow>
 		<Hardpoint>Torso</Hardpoint>
 	</Weapon>
+	<Weapon>
+		<Name>SniperRiflePod</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_lightCannon_01</Projectile>
+		<ImpactEffect size="Small">AutoCannonImpact</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>2</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<MaxVelocityLead>99</MaxVelocityLead>
+		<MaxRange>100</MaxRange>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Mine">1</TargetPriority>
+		<TargetPriority type="Aircraft">-1</TargetPriority>
+		<TargetPriority type="GroundVehicle">-1</TargetPriority>
+		<TargetPriority type="Turretbuilding">-1</TargetPriority>
+		<TargetPriority type="building">-1</TargetPriority>
+		<VisualAmmo>1</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.89999998</PostAttackCooldownMax>
+		<RequirePreciseAiming />
+	</Weapon>
+	<Action>
+		<Name>SniperRiflePodAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>SniperRifleAttack</Anim>
+		<MoveAnim>JogSniperRifleAttack</MoveAnim>
+		<ReloadAnim>SniperRifleReload</ReloadAnim>
+		<Weapon>SniperRiflePod</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
 	<Action>
 		<Name>SniperRifleAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -287,6 +337,12 @@
 			<Relation>Enemy</Relation>
 			<TargetType>Garrison</TargetType>
 			<Action>StanchionRifleAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>flood_inf_infectfrm_01</TargetType>
+			<TargetType>flood_inf_infectfrm_02</TargetType>
+			<Action>SniperRiflePodAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>

@@ -50,6 +50,10 @@
 		<PostAttackCooldownMax>0.3</PostAttackCooldownMax>
 		<Filter>Light</Filter>
 	</Weapon>
+	<Weapon>
+		<Name>PointDefenseWeapon</Name>
+		<ImpactEffect size="small">FloodSpawnerSpineImpact</ImpactEffect>
+	</Weapon>
 	<Action>
 		<Name>RifleAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -65,6 +69,16 @@
 		<Weapon>RifleScarab</Weapon>
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>PointDefense</Name>
+		<ActionType>PointDefense</ActionType>
+		<Weapon>PointDefenseWeapon</Weapon>
+		<MaxCharge>1</MaxCharge>
+		<RechargeDelay>0.3</RechargeDelay>
+		<RechargeRate>0.25</RechargeRate>
+		<WorkRange>30</WorkRange>
+		<ProtoObject bone="bone_vfx_MuzzlePoint">episode2_pack1_units_flood_infantry_FloodSpawnerSpine</ProtoObject>
 	</Action>
 	<Action>
 		<Name>GarrisonSpirit</Name>
@@ -103,6 +117,7 @@
 		<WorkRange>0</WorkRange>
 	</Action>
 	<Tactic>
+		<PersistentAction>PointDefense</PersistentAction>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>

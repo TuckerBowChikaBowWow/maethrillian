@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Autocannon</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>225</DamagePerSecond>
+		<DamagePerSecond>250</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -30,7 +30,7 @@
 	<Weapon>
 		<Name>Railgun</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>213</DamagePerSecond>
+		<DamagePerSecond>700</DamagePerSecond>
 		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
@@ -74,7 +74,7 @@
 	<Weapon>
 		<Name>StompWeapon</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>4600</DamagePerSecond>
+		<DamagePerSecond>9000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Stomp</WeaponType>
 		<MaxRange>4</MaxRange>
@@ -125,7 +125,7 @@
 	<Weapon>
 		<Name>SelfStompWeapon</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>4600</DamagePerSecond>
+		<DamagePerSecond>9000</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>Stomp</WeaponType>
 		<MaxRange>4</MaxRange>
@@ -173,6 +173,36 @@
 		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">4.0f</Daze>
 		<AlwaysReplaceTargetWithItsPosition />
 	</Weapon>
+	<Weapon>
+		<Name>StompAttackWeapon</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>200</DamagePerSecond>
+		<WeaponType>Basic</WeaponType>
+		<UseDPSasDPA />
+		<ImpactEffect size="Medium">ScarabStomp</ImpactEffect>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>900</PhysicsForceMax>
+	</Weapon>
+	<Action>
+		<Name>StompAttack</Name>
+		<ActionType>CollisionAttack</ActionType>
+		<Weapon>StompAttackWeapon</Weapon>
+		<TrampleAttack />
+	</Action>
 	<Action>
 		<Name>RailgunAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
