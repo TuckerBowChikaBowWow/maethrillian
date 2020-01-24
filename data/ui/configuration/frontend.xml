@@ -125,6 +125,26 @@
 					<key>Heretic</key>
 					<value>../textures/hud/icons/entityicons/img_leaderboard_Heretic</value>
 				</entry>
+				<entry>
+					<key>ALLUNSC</key>
+					<value>../textures/common/gamertag/img_leader_gamertag_Kinsano</value>
+				</entry>
+				<entry>
+					<key>ALLBANISHED</key>
+					<value>../textures/common/gamertag/img_leader_gamertag_Shipmaster</value>
+				</entry>
+				<entry>
+					<key>ALLUNSCNEW</key>
+					<value>../textures/common/gamertag/img_leader_gamertag_Kinsano</value>
+				</entry>
+				<entry>
+					<key>ALLBANISHEDNEW</key>
+					<value>../textures/common/gamertag/img_leader_gamertag_Shipmaster</value>
+				</entry>
+				<entry>
+					<key>ALLFLOOD</key>
+					<value>../textures/hud/icons/entityicons/img_leaderboard_mFlood</value>
+				</entry>
 			</group>
 			<group name="carousel">
 				<entry>
@@ -264,6 +284,36 @@
 					<value>../textures/hud/icons/entityicons/img_leader_carousel_Heretic</value>
 					<value>../textures/hud/icons/entityicons/img_leader_carousel_Heretic</value>
 					<value>../textures/hud/icons/entityicons/img_leader_carousel_Heretic</value>
+				</entry>
+				<entry>
+					<key>ALLBANISHED</key>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Shipmaster</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_locked_Shipmaster</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Shipmaster_unselected</value>
+				</entry>
+				<entry>
+					<key>ALLUNSC</key>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Kinsano</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_locked_Kinsano</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Kinsano</value>
+				</entry>
+				<entry>
+					<key>ALLBANISHEDNEW</key>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Shipmaster</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_locked_Shipmaster</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Shipmaster_unselected</value>
+				</entry>
+				<entry>
+					<key>ALLUNSCNEW</key>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Kinsano</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_locked_Kinsano</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Kinsano</value>
+				</entry>
+				<entry>
+					<key>ALLFLOOD</key>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_mFlood</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_mFlood</value>
+					<value>../textures/hud/icons/entityicons/img_leader_carousel_mFlood</value>
 				</entry>
 			</group>
 			<group name="startingArmy">
@@ -919,6 +969,56 @@
 				<value>UIMP.FINDMATCH.NA</value>
 				<value>UIENT.LEADERSELECT.ROLE02.HERETIC</value>
 				<value>UIENT.LEADERSELECT.SHORTDESCR.HERETIC.BLITZ</value>
+			</entry>
+			<entry>
+				<key>ALLUNSC</key>
+				<value>UIENT.LEADERSELECT.TITLE.ALLUNSC</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.ALLUNSC</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+			</entry>
+			<entry>
+				<key>ALLBANISHED</key>
+				<value>UIENT.LEADERSELECT.TITLE.ALLBANISHED</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.ALLBANISHED</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+			</entry>
+			<entry>
+				<key>ALLUNSCNEW</key>
+				<value>UIENT.LEADERSELECT.TITLE.ALLUNSCNEW</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.ALLUNSCNEW</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+			</entry>
+			<entry>
+				<key>ALLBANISHEDNEW</key>
+				<value>UIENT.LEADERSELECT.TITLE.ALLBANISHEDNEW</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.ALLBANISHEDNEW</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+			</entry>
+			<entry>
+				<key>ALLFLOOD</key>
+				<value>UIENT.LEADERSELECT.TITLE.ALLFLOOD</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.ALLFLOOD</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIMP.FINDMATCH.NA</value>
 			</entry>
 		</group>
 	</group>

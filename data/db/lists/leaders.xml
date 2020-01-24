@@ -24,7 +24,7 @@
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="500">80</Pop>
+		<Pop Type="Unit" Max="9999">999</Pop>
 		<Pop Type="Spartan" Max="3">3</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 	</Leader>
@@ -48,9 +48,14 @@
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Spartan" Max="1">1</Pop>
+		<Pop Type="Unit" Max="999">999</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 		<IsZeroCost>true</IsZeroCost>
 	</Leader>
 	<Leader Name="Anders" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" GUID="#2BBE175C-7DE4-44A3-A9DC-92571626BFA2">
@@ -74,10 +79,15 @@
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Spartan" Max="1">1</Pop>
+		<Pop Type="Unit" Max="999">999</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="Retriever" Max="1">1</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
+		<Pop Type="Retriever" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="Johnson" Icon="ui\game\icon\unsc\leader\Captain Cutter" GUID="#5BF3A738-B080-4D33-BEBA-BD6889092317">
 		<Civ>UNSC</Civ>
@@ -99,10 +109,14 @@
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Spartan" Max="1">1</Pop>
+		<Pop Type="Unit" Max="999">999</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="Rhino" Max="20">3</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="Atriox" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>Covenant</Civ>
@@ -126,12 +140,14 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Leader" Max="1">1</Pop>
-		<Pop Type="HonorGuard" Max="3">1</Pop>
+		<Pop Type="Unit" Max="999">999</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="Decimus" Max="5">1</Pop>
-		<Pop Type="ShieldTower" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="TheEliteLeader" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>Covenant</Civ>
@@ -154,11 +170,14 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Spartan" Max="1">1</Pop>
-		<Pop Type="HonorGuard" Max="3">1</Pop>
+		<Pop Type="Unit" Max="999">999</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="ShieldTower" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="Lekgolo" Icon="ui\game\icon\covenant\leader\Elite General" GUID="#B769F16E-77D2-4DBC-A38A-3C897C7CAB1D">
 		<Civ>Covenant</Civ>
@@ -183,11 +202,14 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Leader" Max="1">1</Pop>
-		<Pop Type="HonorGuard" Max="3">1</Pop>
+		<Pop Type="Unit" Max="999">999</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="ShieldTower" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="GruntGeneral" Icon="ui\game\icon\covenant\leader\Elite General" GUID="#B4781CEE-A96E-45EE-9D8C-C9A3C3205487">
 		<Civ>Covenant</Civ>
@@ -212,11 +234,14 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Leader" Max="1">1</Pop>
-		<Pop Type="HonorGuard" Max="3">3</Pop>
+		<Pop Type="Unit" Max="999">999</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="ShieldTower" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="CorruptBrute" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>Covenant</Civ>
@@ -240,12 +265,14 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Leader" Max="1">1</Pop>
-		<Pop Type="HonorGuard" Max="3">3</Pop>
+		<Pop Type="Unit" Max="999">999</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="Decimus" Max="5">3</Pop>
-		<Pop Type="ShieldTower" Max="99">99</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="TheCreated" Icon="ui\game\icon\covenant\leader\Elite General" GUID="#B4781CEE-A96E-45EE-9D8C-C9A3C3205487">
 		<Civ>UNSC</Civ>
@@ -269,10 +296,14 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Spartan" Max="1">1</Pop>
-		<Pop Type="HonorGuard" Max="3">3</Pop>
+		<Pop Type="Unit" Max="999">999</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="Heretic" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>Covenant</Civ>
@@ -297,11 +328,157 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Spartan" Max="1">1</Pop>
-		<Pop Type="HonorGuard" Max="3">1</Pop>
+		<Pop Type="Unit" Max="999">999</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="ShieldTower" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
+	</Leader>
+	<Leader Name="ALLUNSC" Icon="ui\game\icon\unsc\leader\Captain Cutter" GUID="#CEE2C115-EAB0-4183-ACC4-ED8342D9A84F">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderAll</Tech>
+		<NameID>7000</NameID>
+		<RichPresenceID>LEADER_CUTTER</RichPresenceID>
+		<CmsId>1</CmsId>
+		<DescriptionID>7001</DescriptionID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">400</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_everything" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="999">80</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
+		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
+	</Leader>
+	<Leader Name="ALLUNSCNEW" Icon="ui\game\icon\unsc\leader\Captain Cutter" GUID="#CEE2C115-EAB0-4183-ACC4-ED8342D9A84F">
+		<Civ>UNSC</Civ>
+		<Tech>unsc_LeaderAllNEW</Tech>
+		<NameID>7000</NameID>
+		<RichPresenceID>LEADER_CUTTER</RichPresenceID>
+		<CmsId>1</CmsId>
+		<DescriptionID>7001</DescriptionID>
+		<FlashImg>orbital</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">400</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_everything" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<Pop Type="Unit" Max="999">999</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
+		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
+	</Leader>
+	<Leader Name="ALLBANISHED" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
+		<Civ>Covenant</Civ>
+		<Tech>covenant_LeaderALL</Tech>
+		<NameID>7012</NameID>
+		<DescriptionID>7013</DescriptionID>
+		<RichPresenceID>LEADER_ATRIOX</RichPresenceID>
+		<CmsId>5</CmsId>
+		<FlashImg>bruteleader</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_brutechief.ddx</UIControlBackground>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">400</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_everything" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="999">80</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
+		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
+	</Leader>
+	<Leader Name="ALLBANISHEDNEW" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
+		<Civ>Covenant</Civ>
+		<Tech>covenant_LeaderALLNEW</Tech>
+		<NameID>7012</NameID>
+		<DescriptionID>7013</DescriptionID>
+		<RichPresenceID>LEADER_ATRIOX</RichPresenceID>
+		<CmsId>5</CmsId>
+		<FlashImg>bruteleader</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_brutechief.ddx</UIControlBackground>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">400</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_everything" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="999">80</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
+		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
+	</Leader>
+	<Leader Name="ALLFLOOD" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
+		<Civ>Covenant</Civ>
+		<Tech>creep_LeaderALLFlood</Tech>
+		<NameID>7014</NameID>
+		<RichPresenceID>LEADER_GRUNTLEADER</RichPresenceID>
+		<CmsId>14</CmsId>
+		<DescriptionID>7015</DescriptionID>
+		<FlashImg>prophet</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\prophet.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_prophet.ddx</UIControlBackground>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">400</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="flood_bldg_builder_everything" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="999">80</Pop>
+		<Pop Type="Leader" Max="999">999</Pop>
+		<Pop Type="HonorGuard" Max="999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
+		<Pop Type="Rhino" Max="999">999</Pop>
+		<Pop Type="Reactor" Max="20">0</Pop>
+		<Pop Type="Decimus" Max="999">999</Pop>
+		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
 	<Leader Name="UNSC Single Player" Icon="ui\game\icon\unsc\leader\Captain Cutter" SinglePlayerOnly="true">
 		<Civ>UNSC</Civ>
@@ -322,8 +499,8 @@
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Spartan" Max="1">1</Pop>
+		<Pop Type="Unit" Max="9999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 		<Pop Type="Retriever" Max="1">1</Pop>
 	</Leader>
@@ -346,8 +523,8 @@
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Spartan" Max="1">1</Pop>
+		<Pop Type="Unit" Max="9999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 		<Pop Type="Retriever" Max="1">1</Pop>
 	</Leader>
@@ -371,7 +548,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="500">80</Pop>
+		<Pop Type="Unit" Max="9999">999</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="HonorGuard" Max="3">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
@@ -395,8 +572,8 @@
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="500">80</Pop>
-		<Pop Type="Spartan" Max="1">1</Pop>
+		<Pop Type="Unit" Max="9999">999</Pop>
+		<Pop Type="Spartan" Max="999">999</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 		<Pop Type="Retriever" Max="1">1</Pop>
 	</Leader>
@@ -420,7 +597,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="500">80</Pop>
+		<Pop Type="Unit" Max="9999">999</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="HonorGuard" Max="3">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
@@ -444,7 +621,7 @@
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="500">80</Pop>
+		<Pop Type="Unit" Max="9999">999</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="HonorGuard" Max="3">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
@@ -468,7 +645,7 @@
 		<RepairDelay>20</RepairDelay>
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
-		<Pop Type="Unit" Max="500">80</Pop>
+		<Pop Type="Unit" Max="9999">999</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="HonorGuard" Max="3">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
@@ -493,7 +670,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="500">80</Pop>
+		<Pop Type="Unit" Max="9999">999</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="HonorGuard" Max="3">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
@@ -518,7 +695,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="500">80</Pop>
+		<Pop Type="Unit" Max="9999">999</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="HonorGuard" Max="3">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
