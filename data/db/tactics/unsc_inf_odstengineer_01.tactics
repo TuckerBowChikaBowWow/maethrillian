@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>InCoverRocketWeapon</Name>
+		<Name>InCoverLaserWeapon</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>51</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
@@ -25,7 +25,7 @@
 		<ProjectileLaunchDirY />
 	</Weapon>
 	<Weapon>
-		<Name>RocketWeapon</Name>
+		<Name>LaserWeapon</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>51</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
@@ -52,7 +52,7 @@
 		<PostAttackCooldownMax>4</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
-		<Name>AirRocketWeapon</Name>
+		<Name>AirLaserWeapon</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>51</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
@@ -75,25 +75,33 @@
 		<PostAttackCooldownMin>3</PostAttackCooldownMin>
 		<PostAttackCooldownMax>4</PostAttackCooldownMax>
 	</Weapon>
-	<Action>
-		<Name>InCoverRocketAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>RocketAttack</Anim>
-		<ReloadAnim>RocketReload</ReloadAnim>
-		<Weapon>InCoverRocketWeapon</Weapon>
-		<FullBodyAttackAnim />
-		<FindBetterAction />
-	</Action>
-	<Action>
-		<Name>AirRocketAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>RocketAttack</Anim>
-		<MoveAnim>JogAttack</MoveAnim>
-		<ReloadAnim>RocketReload</ReloadAnim>
-		<Weapon>AirRocketWeapon</Weapon>
-		<FullBodyAttackAnim />
-		<Strafing turnRate="180" trackingSpeed="60" />
-	</Action>
+	<Weapon>
+		<Name>RocketWeapon</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_engmissile_01</Projectile>
+		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>60</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>1</VisualAmmo>
+		<ReloadAnimation>RocketReload</ReloadAnimation>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>3</PreAttackCooldownMax>
+		<PostAttackCooldownMin>3</PostAttackCooldownMin>
+		<PostAttackCooldownMax>4</PostAttackCooldownMax>
+	</Weapon>
 	<Action>
 		<Name>RocketAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -101,6 +109,37 @@
 		<MoveAnim>JogAttack</MoveAnim>
 		<ReloadAnim>RocketReload</ReloadAnim>
 		<Weapon>RocketWeapon</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>+
+		<DontAutoRestart />
+	</Action>
+	<Action>
+		<Name>InCoverLaserAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LaserAttack</Anim>
+		<ReloadAnim>RocketReload</ReloadAnim>
+		<Weapon>InCoverLaserWeapon</Weapon>
+		<FullBodyAttackAnim />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>AirLaserAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LaserAttack</Anim>
+		<MoveAnim>JogAttack</MoveAnim>
+		<ReloadAnim>RocketReload</ReloadAnim>
+		<Weapon>AirLaserWeapon</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+	</Action>
+	<Action>
+		<Name>LaserAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LaserAttack</Anim>
+		<MoveAnim>JogAttack</MoveAnim>
+		<ReloadAnim>RocketReload</ReloadAnim>
+		<Weapon>LaserWeapon</Weapon>
 		<FullBodyAttackAnim />
 		<Strafing turnRate="180" trackingSpeed="60" />
 	</Action>
@@ -263,20 +302,26 @@
 			<Action>UngarrisonPelican</Action>
 		</TargetRule>
 		<TargetRule>
+			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
-			<Action>InCoverRocketAttackAction</Action>
+			<Action>RocketAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>InCoverLaserAttackAction</Action>
 			<SquadMode>Cover</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
-			<Action>AirRocketAttackAction</Action>
+			<Action>AirLaserAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
-			<Action>RocketAttackAction</Action>
+			<Action>LaserAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>

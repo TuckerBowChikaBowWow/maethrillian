@@ -1500,7 +1500,6 @@
 				<Target type="ProtoUnit">unsc_inf_Marine_02</Target>
 				<Target type="ProtoUnit">unsc_inf_femalemarine_01</Target>
 				<Target type="ProtoUnit">unsc_inf_engineer_01</Target>
-				<Target type="ProtoUnit">unsc_inf_odstengineer_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="Marines_03">
 				<Target type="ProtoSquad">unsc_inf_marine_01</Target>
@@ -4794,7 +4793,6 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_odst_01_trainable</Target>
-				<Target type="ProtoUnit">unsc_inf_odstengineer_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_generic_odst" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
