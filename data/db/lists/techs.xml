@@ -5046,7 +5046,6 @@
 			<Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase1sock_01" ToType="unsc_bldg_minibase1sock_01_for" />
 			<Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase2sock_01" ToType="unsc_bldg_minibase2sock_01_for" />
 			<Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase3sock_01" ToType="unsc_bldg_minibase3sock_01_for" />
-			<Effect type="ReparentProtoObject" FromType="unsc_bldg_turret_01_mp" ToType="for_building_turretld_01" />
 		</Effects>
 	</Tech>
 	<Tech name="unsc_LeaderIsabel" type="Normal">
@@ -5055,15 +5054,6 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_turret_upgradeAI" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_turret_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_turret_upgradeAV" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_turret_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_turret_upgradeAA" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_turret_01_base</Target>
-			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_Sniper_upgrade0" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01_base</Target>
 			</Effect>
