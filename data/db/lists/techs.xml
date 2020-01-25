@@ -1421,12 +1421,11 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_Marine_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_Marine_02</Target>
 				<Target type="ProtoUnit">unsc_inf_femalemarine_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_engineer_01</Target>
+				<Target type="ProtoUnit">unsc_inf_odst_01_trainable</Target>
+				<Target type="ProtoUnit">unsc_inf_marineguard_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="Marines_02">
 				<Target type="ProtoSquad">unsc_inf_marine_01</Target>
@@ -1443,10 +1442,16 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_generic_odst</Target>
 			</Effect>
-			<Effect type="Data" amount="1.1833333329999999" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_odst_01_trainable</Target>
 			</Effect>
-			<Effect type="Data" amount="1.333333329999999" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_inf_odst_01_trainable</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="InCoverRocketAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_odst_01_trainable</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="RocketAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_odst_01_trainable</Target>
 			</Effect>
 		</Effects>
@@ -1495,6 +1500,7 @@
 				<Target type="ProtoUnit">unsc_inf_Marine_02</Target>
 				<Target type="ProtoUnit">unsc_inf_femalemarine_01</Target>
 				<Target type="ProtoUnit">unsc_inf_engineer_01</Target>
+				<Target type="ProtoUnit">unsc_inf_odstengineer_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="Marines_03">
 				<Target type="ProtoSquad">unsc_inf_marine_01</Target>
@@ -1502,19 +1508,19 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_marineguard_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.1833333329999999" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_marineguard_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.333333329999999" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_marineguard_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_generic_odst</Target>
 			</Effect>
-			<Effect type="Data" amount="1.1833333329999999" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_odst_01_trainable</Target>
 			</Effect>
-			<Effect type="Data" amount="1.333333329999999" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_odst_01_trainable</Target>
 			</Effect>
 		</Effects>
@@ -4785,6 +4791,10 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_generic_odst2</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_odst_01_trainable</Target>
+				<Target type="ProtoUnit">unsc_inf_odstengineer_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_generic_odst" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
