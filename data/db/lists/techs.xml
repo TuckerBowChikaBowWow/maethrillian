@@ -5055,6 +5055,15 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_turret_upgradeAI" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_turret_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_turret_upgradeAV" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_turret_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_turret_upgradeAA" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_turret_01_base</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_Sniper_upgrade0" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01_base</Target>
 			</Effect>
