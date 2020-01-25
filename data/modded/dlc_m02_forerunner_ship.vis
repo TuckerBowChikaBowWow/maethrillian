@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="dlc_m02_forerunner_ship">
+	<model name="dlc_m02_forerunner_ship">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc4\maps\mc_stop_the_signal\dlc_m02_forerunner_ship\mesh_dlc_m02_forerunner_ship</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc4/pack1/animations/maps/m02_forerunner_ship/forerunner_ship_Idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc4/pack1/animations/maps/m02_forerunner_ship/forerunner_ship_damage_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc4/pack1/animations/maps/m02_forerunner_ship/forerunner_ship_damage_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc4/pack1/animations/maps/m02_forerunner_ship/forerunner_ship_damage_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="RangedAttack" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc4/pack1/animations/maps/m02_forerunner_ship/forerunner_ship_damage_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Abort" exitAction="Transition" tweenTime="0" tweenToAnimation="Abort_Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc4/pack1/animations/maps/m02_forerunner_ship/forerunner_ship_abort_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Emerge" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc4/pack1/animations/maps/m02_forerunner_ship/forerunner_ship_emerge_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Abort_Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc4/pack1/animations/maps/m02_forerunner_ship/forerunner_ship_abort_Idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>
