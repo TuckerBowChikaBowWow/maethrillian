@@ -8,7 +8,7 @@
 		<Projectile>fx_proj_retrieversmallbeam_01</Projectile>
 		<ImpactEffect size="Medium">RetreiverSmallLaserBeam</ImpactEffect>
 		<MaxVelocityLead>18.4500008</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>1</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
@@ -19,7 +19,7 @@
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
-		<Hardpoint>Turret</Hardpoint>
+		<Hardpoint>LaserTurret</Hardpoint>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
 		<PostAttackCooldownMin>1.10000002</PostAttackCooldownMin>
@@ -42,11 +42,6 @@
 	</Action>
 	<Tactic>
 		<PersistentAction>ShieldAction</PersistentAction>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>UberUnit</TargetType>
-			<Action>ForerunnerBeamAttackAction</Action>
-		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>ForerunnerBeamAttackAction</Action>
