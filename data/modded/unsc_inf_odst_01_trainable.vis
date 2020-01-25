@@ -1506,4 +1506,15 @@
 			</asset>
 		</component>
 	</model>
+	<model name="rocket_launcher">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/weapons/rocket_launcher01/weaponmesh_rocket_launcher01_stormrocketmarine01</file>
+			</asset>
+			<attach type="LightFile" name="Lights/Riflelight" tobone="bone_vfx_GunLightPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+	</model>
 </visual>

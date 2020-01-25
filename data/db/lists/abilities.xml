@@ -132,6 +132,19 @@
 		<Application Vehicle="mono" Air="disabled" Terrain="disabled" Infantry="mono" Building="mono" />
 		<StopMovementOnceInRange />
 	</Ability>
+	<Ability Name="UnscODSTRocketsMP">
+		<DisplayNameID>6014</DisplayNameID>
+		<RolloverTextID>6015</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>UnitOrLocation</TargetType>
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>45</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<Priority Vehicle="8" Air="8" Terrain="0" Infantry="8" Building="8" />
+		<Application Vehicle="mono" Air="mono" Terrain="disabled" Infantry="mono" Building="mono" />
+		<StopMovementOnceInRange />
+	</Ability>
 	<Ability Name="UnscMarineGrenades">
 		<DisplayNameID>6014</DisplayNameID>
 		<RolloverTextID>6015</RolloverTextID>
