@@ -5039,10 +5039,6 @@
 		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
 		<Flag>UniqueProtoUnitInstance</Flag>
 		<Effects>
-			<Effect type="ReparentProtoObject" FromType="unsc_bldg_command_04" ToType="unsc_bldg_command_04_for" />
-			<Effect type="ReparentProtoObject" FromType="unsc_bldg_command_03" ToType="unsc_bldg_command_03_for" />
-			<Effect type="ReparentProtoObject" FromType="unsc_bldg_command_02" ToType="unsc_bldg_command_02_for" />
-			<Effect type="ReparentProtoObject" FromType="unsc_bldg_command_01" ToType="unsc_bldg_command_01_for" />
 			<Effect type="ReparentProtoObject" FromType="unsc_bldg_barracks_01" ToType="unsc_bldg_barracks_01_for" />
 			<Effect type="ReparentProtoObject" FromType="unsc_bldg_airpad_01" ToType="unsc_bldg_airPad_01_for" />
 			<Effect type="ReparentProtoObject" FromType="unsc_bldg_vehicledepot_01" ToType="unsc_bldg_vehicledepot_01_for" />
@@ -5050,6 +5046,7 @@
 			<Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase1sock_01" ToType="unsc_bldg_minibase1sock_01_for" />
 			<Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase2sock_01" ToType="unsc_bldg_minibase2sock_01_for" />
 			<Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase3sock_01" ToType="unsc_bldg_minibase3sock_01_for" />
+			<Effect type="ReparentProtoObject" FromType="unsc_bldg_turret_01_mp" ToType="for_building_turretld_01" />
 		</Effects>
 	</Tech>
 	<Tech name="unsc_LeaderIsabel" type="Normal">
@@ -5075,33 +5072,6 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">for_inf_brutegrenadier_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_inf_brutegrenadier_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_inf_brutegrenadier_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_inf_brutegrenadier_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_inf_brutegrenadier_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_04</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">for_inf_assaultelites_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_inf_assaultelites_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_inf_assaultelites_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_inf_assaultelites_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="for_inf_assaultelites_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_04</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">pow_for_andersultimate_01</Target>
@@ -5138,9 +5108,6 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">for_veh_scorpion_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_generic_marine</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
@@ -5195,18 +5162,6 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cyclops_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_barracks_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_generic_marine" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_generic_marine" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_02_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_generic_marine" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_03_base</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_generic_marine" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_04_base</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_generic_marine" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_minibase1sock_01_base</Target>
