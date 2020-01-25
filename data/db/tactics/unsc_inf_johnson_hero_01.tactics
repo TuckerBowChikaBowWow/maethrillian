@@ -74,50 +74,32 @@
 		<PostAttackCooldownMax>3.00999999</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
-		<Name>PlacedHealingBeacon</Name>
+		<Name>FireFlare</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>0</DamagePerSecond>
-		<WeaponType>Explosive</WeaponType>
-		<Projectile>fx_proj_bomb_01</Projectile>
-		<ImpactEffect size="Small">fuelrod_01</ImpactEffect>
-		<Mine>fx_mine_johnsonBeacon_01</Mine>
-		<MaxRange>7</MaxRange>
-		<MaxPlantRange>9</MaxPlantRange>
-	</Weapon>
-	<Weapon>
-		<Name>SelfPlacedHealingBeacon</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>0</DamagePerSecond>
-		<WeaponType>Explosive</WeaponType>
-		<Projectile>fx_proj_bomb_01</Projectile>
-		<ImpactEffect size="Small">fuelrod_01</ImpactEffect>
-		<Mine>fx_mine_johnsonBeacon_01</Mine>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_sniperflare_01</Projectile>
+		<ImpactEffect size="Small">GrenadeExplosion</ImpactEffect>
+		<Mine>fx_mine_sniperrevealer_02</Mine>
+		<MaxRange>90</MaxRange>
 		<AlwaysReplaceTargetWithItsPosition />
-		<MaxRange>7</MaxRange>
-		<MaxPlantRange>9</MaxPlantRange>
+		<RequirePreciseAiming />
+		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.400000006</PreAttackCooldownMax>
 	</Weapon>
 	<Weapon>
-		<Name>PlacedUpgradeHealingBeacon</Name>
+		<Name>FireFlareUpgrade</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>0</DamagePerSecond>
-		<WeaponType>Explosive</WeaponType>
-		<Projectile>fx_proj_bomb_01</Projectile>
-		<ImpactEffect size="Small">fuelrod_01</ImpactEffect>
-		<Mine>fx_mine_johnsonBeacon_02</Mine>
-		<MaxRange>7</MaxRange>
-		<MaxPlantRange>9</MaxPlantRange>
-	</Weapon>
-	<Weapon>
-		<Name>SelfPlacedUpgradeHealingBeacon</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>0</DamagePerSecond>
-		<WeaponType>Explosive</WeaponType>
-		<Projectile>fx_proj_bomb_01</Projectile>
-		<ImpactEffect size="Small">fuelrod_01</ImpactEffect>
-		<Mine>fx_mine_johnsonBeacon_02</Mine>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>fx_proj_sniperflare_01</Projectile>
+		<ImpactEffect size="Small">GrenadeExplosion</ImpactEffect>
+		<Mine>fx_mine_sniperrevealer_02</Mine>
+		<MaxRange>90</MaxRange>
 		<AlwaysReplaceTargetWithItsPosition />
-		<MaxRange>7</MaxRange>
-		<MaxPlantRange>9</MaxPlantRange>
+		<RequirePreciseAiming />
+		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.400000006</PreAttackCooldownMax>
 	</Weapon>
 	<Action>
 		<Name>MinigunAttackAction</Name>
@@ -157,37 +139,27 @@
 		<StartDisabled />
 	</Action>
 	<Action>
-		<Name>PlaceBeaconAction</Name>
+		<Name>FireFlareAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>HealingBeacons</Anim>
-		<Weapon>PlacedHealingBeacon</Weapon>
+		<Weapon>FireFlare</Weapon>
 		<FullBodyAttackAnim />
+		<DontLoopAttackAnim />
 		<DontAutoRestart />
-	</Action>
-	<Action>
-		<Name>SelfPlaceBeaconAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>HealingBeacons</Anim>
-		<Weapon>SelfPlacedHealingBeacon</Weapon>
-		<FullBodyAttackAnim />
-		<DontAutoRestart />
-	</Action>
-	<Action>
-		<Name>PlaceUpgradeBeaconAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>HealingBeaconsUpgrade</Anim>
-		<Weapon>PlacedUpgradeHealingBeacon</Weapon>
-		<FullBodyAttackAnim />
-		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+		<ProjectileInvokePower>UnscJeromeMechDrop</ProjectileInvokePower>
 		<StartDisabled />
 	</Action>
 	<Action>
-		<Name>SelfPlaceUpgradeBeaconAction</Name>
+		<Name>UpgradeFireFlareAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>HealingBeaconsUpgrade</Anim>
-		<Weapon>SelfPlacedUpgradeHealingBeacon</Weapon>
+		<Weapon>FireFlareUpgrade</Weapon>
 		<FullBodyAttackAnim />
+		<DontLoopAttackAnim />
 		<DontAutoRestart />
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+		<ProjectileInvokePower>UnscJeromeMechDrop2</ProjectileInvokePower>
 		<StartDisabled />
 	</Action>
 	<Action>
@@ -299,43 +271,31 @@
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
-			<Relation>Self</Relation>
-			<Action>SelfPlaceBeaconAction</Action>
+			<TargetsGround />
+			<IgnoreOtherTargetsWhileTargetingGround />
+			<Action>FireFlareAction</Action>
+			<OwnersNumberOfSquadsLessThan>unsc_veh_jerome_mantis_01</OwnersNumberOfSquadsLessThan>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<Action>SelfPlaceBeaconAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Ally</Relation>
-			<Action>PlaceBeaconAction</Action>
+			<Relation>Any</Relation>
+			<TargetsGround />
+			<TargetType>NonFlying</TargetType>
+			<Action>FireFlareAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
 			<TargetsGround />
-			<Action>PlaceBeaconAction</Action>
+			<IgnoreOtherTargetsWhileTargetingGround />
+			<Action>UpgradeFireFlareAction</Action>
+			<OwnersNumberOfSquadsLessThan>unsc_veh_jerome_mantis_01</OwnersNumberOfSquadsLessThan>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
-			<Relation>Self</Relation>
-			<Action>SelfPlaceUpgradeBeaconAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<Action>SelfPlaceUpgradeBeaconAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Ally</Relation>
-			<Action>PlaceUpgradeBeaconAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
+			<Relation>Any</Relation>
 			<TargetsGround />
-			<Action>PlaceUpgradeBeaconAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<Action>UpgradeFireFlareAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>

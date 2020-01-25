@@ -7067,6 +7067,9 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">for_instant_disable</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
 			</Effect>
@@ -15229,7 +15232,16 @@
 			<Effect type="Data" amount="1.35000002" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ArtilleryAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="FireFlareAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="FireFlareAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_johnson_hero_02">
@@ -15265,16 +15277,16 @@
 			<Effect type="Data" amount="1.79999995" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="PlaceBeaconAction" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="FireFlareAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="SelfPlaceBeaconAction" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="FireFlareAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="PlaceUpgradeBeaconAction" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradeFireFlareAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="SelfPlaceUpgradeBeaconAction" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradeFireFlareAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_johnson_hero_03">
