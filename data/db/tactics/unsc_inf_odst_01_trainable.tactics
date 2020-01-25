@@ -105,7 +105,7 @@
 	<Weapon>
 		<Name>RocketWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
+		<DamagePerSecond>100</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -145,7 +145,7 @@
 		<Weapon>InCoverRocketWeapon</Weapon>
 		<FullBodyAttackAnim />
 		<FindBetterAction />
-		<MaxNumUnitsPerformAction>2</MaxNumUnitsPerformAction>
+		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
 		<StartDisabled />
 	</Action>
 	<Action>
