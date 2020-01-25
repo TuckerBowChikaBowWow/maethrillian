@@ -8,63 +8,49 @@
 			<MapName />
 			<Commander>CorruptBrute</Commander>
 			<Reserved>false</Reserved>
-			<AutoAI>false</AutoAI>
 			<RallyPointMovementPopulationThreshold>10</RallyPointMovementPopulationThreshold>
+			<AutoAI>false</AutoAI>
 		</Settings>
 		<LeaderPower>
-			<LeaderPowerType>FloodEggDrop1</LeaderPowerType>
-			<TargetType>_CapturePoint</TargetType>
-			<NumberOfTimesToBeUsed>4</NumberOfTimesToBeUsed>
+			<LeaderPowerType>FloodEggAOMDrop1</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>FloodEggDrop2</LeaderPowerType>
-			<TargetType>_Enemy</TargetType>
+			<LeaderPowerType>FloodEggAOMDrop2</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>3</MinimumTargetPopToCast>
+			<NumberOfTimesToBeUsed>6</NumberOfTimesToBeUsed>
+			<MinimumHealPointsToHeal>13000</MinimumHealPointsToHeal>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>FloodFeast1</LeaderPowerType>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>FloodBaseDrop1</LeaderPowerType>
+			<LeaderPowerType>CovBuffLeech1</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
-			<NumberOfTimesToBeUsed>5</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>15</MinimumTargetPopToCast>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>6</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>Flood_Barrage1</LeaderPowerType>
-			<TargetType>_Enemy</TargetType>
-			<NumberOfTimesToBeUsed>3</NumberOfTimesToBeUsed>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
 			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>Flood_Barrage2</LeaderPowerType>
-			<TargetType>_Enemy</TargetType>
-			<NumberOfTimesToBeUsed>7</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>FloodRuptureEmerge</LeaderPowerType>
-			<TargetType>_Enemy</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>Flood_Emerge_Infectors</LeaderPowerType>
+			<LeaderPowerType>Flood_Emerge_InfectorsAOM</LeaderPowerType>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
 			<AssignedMissionID>2</AssignedMissionID>
@@ -72,7 +58,7 @@
 			<AssignedMissionID>4</AssignedMissionID>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>Flood_Emerge_Infectors2</LeaderPowerType>
+			<LeaderPowerType>Flood_Emerge_InfectorsAOM2</LeaderPowerType>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<MinimumTargetPopToCast>60</MinimumTargetPopToCast>
 			<AssignedMissionID>2</AssignedMissionID>
@@ -80,17 +66,25 @@
 			<AssignedMissionID>4</AssignedMissionID>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>FloodSpeedBuff</LeaderPowerType>
+			<LeaderPowerType>CovBuffLeech2</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CovInvulnerability</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
 			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>3</NumberOfTimesToBeUsed>
+			<NumberOfTimesToBeUsed>7</NumberOfTimesToBeUsed>
 			<MinimumHealPointsToHeal>5000</MinimumHealPointsToHeal>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>FloodSpeedBuff2</LeaderPowerType>
+			<LeaderPowerType>Unbrk_HealingArea1</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
@@ -99,215 +93,447 @@
 			<MinimumHealPointsToHeal>18000</MinimumHealPointsToHeal>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>Flood_InfantryRecycle</LeaderPowerType>
+			<LeaderPowerType>CovBuffLeech3</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
+			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Unbrk_HealingArea2</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>6</NumberOfTimesToBeUsed>
+			<MinimumHealPointsToHeal>18000</MinimumHealPointsToHeal>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>FloodBuffAOM</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Flood_Barrage2</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<NumberOfTimesToBeUsed>3</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>FloodGrizzlyBattalion</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>FloodBuff</LeaderPowerType>
+			<LeaderPowerType>FloodRuptureEmerge</LeaderPowerType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
 		</LeaderPower>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<DontTakeSquadsFromThisMission>false</DontTakeSquadsFromThisMission>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<DontTakeSquadsFromThisMission>false</DontTakeSquadsFromThisMission>
+		</Mission>
+		<Building>
+			<BuildingType>cov_bldg_reactor_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_reactor_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+		</Building>
 		<Building>
 			<BuildingType>cov_bldg_supplyDepot_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_supplyDepot_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_supplyDepot_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_barracks_01_aom</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+		</Building>
+		<Mission>
+			<MissionType>Attack</MissionType>
+			<TargetType>_Base</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<FocusFireOnTarget>true</FocusFireOnTarget>
+			<TargetType>_Settlement</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
+			<TargetType>_Base</TargetType>
+			<TargetBaseType>Start</TargetBaseType>
+			<FocusFireOnTarget>true</FocusFireOnTarget>
+			<MissionID>1</MissionID>
+			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
+			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
+			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
+			<SquadTypeToSend>flood_inf_arbiter_assaultteam_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>10</NumberOfSquadsToSend>
+			<MinimumNumberOfSquadsToSend>9</MinimumNumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<StreamReplaceSquads>true</StreamReplaceSquads>
+			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
+			<PrerequisiteObtainedObjectType>cov_bldg_supplyDepot_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_veh_infected_bruteChopper_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<PrerequisiteObtainedObjectType>flood_inf_arbiter_assaultteam_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>9</PrerequisiteObtainedObjectCount>
+		</Mission>
+		<Tech>
+			<TechToResearch>cov_tech_global_infantry_01</TechToResearch>
+			<PrerequisiteObtainedObjectType>flood_inf_arbiter_assaultteam_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>8</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Building>
+			<BuildingType>cov_bldg_supplyDepot_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<PrerequisiteTech>cov_tech_global_infantry_01</PrerequisiteTech>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_barracks_01</BuildingType>
+			<RecycleBuilding>true</RecycleBuilding>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<PrerequisiteTech>cov_tech_global_infantry_01</PrerequisiteTech>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_reactor_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_supplyDepot_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_reactor_02</BuildingType>
 			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-		</Building>
-		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>flood_inf_generic_core</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-		</Mission>
-		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>flood_inf_generic_core</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-		</Mission>
-		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>flood_inf_generic_core</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-		</Mission>
-		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>flood_inf_generic_core</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-		</Mission>
-		<Mission>
-			<MissionType>Defend</MissionType>
-			<InitializeAfterPreviousMissionsComplete>true</InitializeAfterPreviousMissionsComplete>
-			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
-			<SquadTypeToSend>flood_inf_generic_core</SquadTypeToSend>
-			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
-			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
-			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<PrerequisiteObtainedObjectType>cov_bldg_supplyDepot_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
-		</Mission>
-		<Building>
-			<BuildingType>cov_bldg_turret_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_supplyDepot_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_bldg_reactor_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_turret_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_supplyDepot_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
+			<PrerequisiteSightingObjectType>cov_veh_ghost_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>5</PrerequisiteSightingObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_turret_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>4</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_reactor_01</PrerequisiteObtainedObjectType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<PrerequisiteSightingObjectType>cov_veh_brutechopper_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>5</PrerequisiteSightingObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_turret_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<PrerequisiteSightingObjectType>cov_veh_skitterer_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>7</PrerequisiteSightingObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_turret_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<PrerequisiteSightingObjectType>unsc_veh_mongoose_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>5</PrerequisiteSightingObjectCount>
+		</Building>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>cov_veh_gorgon_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>unsc_air_destroyer_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>unsc_air_destroyer_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>fld_custom_railgunflood</SquadTypeToSend>
+			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>cov_veh_scarab_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_air_infected_blisterback_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>cov_veh_scarab_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>fld_custom_railgunflood</SquadTypeToSend>
+			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>cov_veh_corruptedscarab_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_air_infected_blisterback_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>cov_veh_corruptedscarab_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
+			<NumberOfSquadsToSend>10</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>unsc_veh_mongoose_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
+			<NumberOfSquadsToSend>10</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>cov_veh_brutechopper_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
+			<NumberOfSquadsToSend>10</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>cov_veh_skitterer_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
+			<NumberOfSquadsToSend>10</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>cov_veh_ghost_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>BaseScout</MissionType>
+			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
+			<SquadTypeToSend>flood_veh_infected_bruteChopper_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
+		</Mission>
+		<Building>
+			<BuildingType>_Minibase</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_supplyDepot_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>4</NumberOfBuildingTypeNeeded>
+			<NumberOfBuildingTypeNeeded>6</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>_Minibase</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_supplyDepot_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>7</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>_Minibase</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Mission>
+			<MissionType>BaseScout</MissionType>
+			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
+			<SquadTypeToSend>flood_veh_infected_bruteChopper_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
+		</Mission>
+		<Building>
+			<BuildingType>cov_bldg_builder_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_03</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_supplyDepot_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>5</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>_Minibase</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Mission>
-			<MissionType>BaseScout</MissionType>
-			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>flood_inf_infectedrocket_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
-			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
-		</Mission>
-		<Building>
-			<BuildingType>_Minibase</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_turret_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Mission>
-			<MissionType>Scout</MissionType>
-			<TargetType>_Base</TargetType>
-			<TargetBaseType>Start</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Mini</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Mini</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Mini</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Mini</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Mini</TargetBaseType>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_03</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-		</Mission>
-		<Building>
-			<BuildingType>cov_bldg_builder_03</BuildingType>
-			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_reactor_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_supplyDepot_02</BuildingType>
-			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_03</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>cov_bldg_heavyfactory_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_03</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+			<NumberOfBuildingTypeNeeded>7</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_lightfactory_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_03</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Mission>
-			<MissionType>BaseScout</MissionType>
-			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>flood_inf_generic_core</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
-			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
-		</Mission>
-		<Building>
-			<BuildingType>cov_bldg_builder_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_lightfactory_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>cov_bldg_supplyDepot_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>9</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
-			<BuildingType>cov_bldg_supplyDepot_02</BuildingType>
-			<NumberOfBuildingTypeNeeded>9</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>cov_bldg_builder_02</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_supplyDepot_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>cov_bldg_temple_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<BuildingType>cov_bldg_reactor_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
+		<Building>
+			<BuildingType>cov_bldg_reactor_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_builder_03</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_reactor_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Mission>
+			<MissionType>Scout</MissionType>
+			<TargetType>_Settlement</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<TargetType>_Settlement</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<TargetType>_Settlement</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<TargetType>_Settlement</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<TargetType>_Settlement</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<TargetType>_Settlement</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<TargetType>_Settlement</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<TargetType>_Settlement</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<TargetType>_Settlement</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<TargetMustBeOwnedByEnemy>true</TargetMustBeOwnedByEnemy>
+			<SquadTypeToSend>flood_veh_infected_bruteChopper_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
+			<TimeUntilSquadsAreReplaced>30</TimeUntilSquadsAreReplaced>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_03</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
+			<AssignReservesToMission>false</AssignReservesToMission>
+			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
+		</Mission>
+		<Mission>
+			<MissionType>Attack</MissionType>
+			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
+			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
+			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
+		</Mission>
+		<Mission>
+			<MissionType>Attack</MissionType>
+			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
+			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
+			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
+		</Mission>
+		<Mission>
+			<MissionType>Attack</MissionType>
+			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
+			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
+			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
+			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
+			<MissionID>2</MissionID>
+			<SquadTypeToSend>flood_inf_generic_aomcore</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>6</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
+			<SquadTypeToSend>unsc_air_nightingale_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<StreamReplaceSquads>true</StreamReplaceSquads>
+			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
+			<PrerequisiteObtainedObjectType>cov_bldg_lightfactory_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>flood_air_airborneinfector_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_gorgon_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -316,49 +542,161 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>flood_air_airborneinfector_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<SquadTypeToSend>cov_veh_gorgon_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
 			<PrerequisiteSightingObjectType>_Air</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>10</PrerequisiteSightingObjectCount>
 		</Mission>
-		<Building>
-			<BuildingType>cov_bldg_builder_04</BuildingType>
-			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
-		</Building>
 		<Mission>
-			<MissionType>Defend</MissionType>
-			<MissionID>1</MissionID>
-			<TargetType>_Base</TargetType>
-			<TimeToWaitAtTarget>160</TimeToWaitAtTarget>
-			<SquadTypeToSend>flood_air_infected_banshee_01_base</SquadTypeToSend>
-			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
-			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
-			<SquadTypeToSend>flood_veh_infected_warthog_01_base</SquadTypeToSend>
-			<MinimumNumberOfSquadsToSend>3</MinimumNumberOfSquadsToSend>
-			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
-			<SquadTypeToSend>flood_inf_corruptedengineer_01</SquadTypeToSend>
-			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>fld_custom_railgunflood</SquadTypeToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
-			<PrerequisiteObtainedObjectType>cov_bldg_heavyfactory_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-			<StreamReplaceSquads>true</StreamReplaceSquads>
-			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>_Vehicle</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>8</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>fld_custom_railgunflood</SquadTypeToSend>
+			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>_Vehicle</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>12</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_inf_jackal_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>cov_inf_hunter_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>4</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_inf_jackal_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>cov_inf_hunter_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>6</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_inf_jackal_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>unsc_inf_cyclops_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>5</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_infectedhumelee_carrier_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>_Infantry</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>10</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_inf_jackal_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>unsc_inf_cyclops_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>8</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Building>
-			<BuildingType>cov_bldg_turret_01</BuildingType>
+			<BuildingType>cov_bldg_builder_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_03</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_heavyfactory_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_03</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_supplyDepot_02</BuildingType>
 			<NumberOfBuildingTypeNeeded>5</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_03</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_temple_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
+			<BuildingType>cov_bldg_supplyDepot_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>7</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Mission>
+			<MissionID>3</MissionID>
+			<MissionType>Attack</MissionType>
+			<TargetType>_Base</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<TargetType>_Settlement</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
+			<TargetType>_Base</TargetType>
+			<TargetBaseType>Start</TargetBaseType>
+			<SquadTypeToSend>cov_veh_gorgon_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_veh_infected_prowler_01_base</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>3</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
+			<SquadTypeToSend>unsc_air_nightingale_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_infectedhumelee_carrier_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>5</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_air_infected_banshee_01_base</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
+			<SquadTypeToSend>fld_custom_railgunflood</SquadTypeToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_inf_jackal_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_inf_generic_odst</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_03</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
+			<StreamReplaceSquads>true</StreamReplaceSquads>
+			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
+		</Mission>
+		<Building>
 			<BuildingType>cov_bldg_turret_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>6</NumberOfBuildingTypeNeeded>
+			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_shieldtower_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_cloaktower_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
@@ -368,175 +706,44 @@
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
-		<Mission>
-			<MissionType>Attack</MissionType>
-			<TargetType>_Base</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
-			<TargetType>_Base</TargetType>
-			<TargetBaseType>Start</TargetBaseType>
-			<MissionID>2</MissionID>
-			<SquadTypeToSend>flood_inf_corruptedengineer_01</SquadTypeToSend>
-			<MinimumNumberOfSquadsToSend>3</MinimumNumberOfSquadsToSend>
-			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
-			<SquadTypeToSend>flood_air_infected_blisterback_01_base</SquadTypeToSend>
-			<MinimumNumberOfSquadsToSend>3</MinimumNumberOfSquadsToSend>
-			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
-			<SquadTypeToSend>flood_veh_infected_scorpion_01_base</SquadTypeToSend>
-			<MinimumNumberOfSquadsToSend>3</MinimumNumberOfSquadsToSend>
-			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
-			<SquadTypeToSend>flood_inf_spawner_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>2</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_04</PrerequisiteObtainedObjectType>
+		<Tech>
+			<TechToResearch>cov_tech_global_vehicle_01</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Vehicle</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_tech_global_vehicle_02</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Vehicle</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_brutegrenadier_upgrade1</TechToResearch>
+			<PrerequisiteObtainedObjectType>cov_inf_brutegrenadier_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_brutegrenadier_upgrade2</TechToResearch>
+			<PrerequisiteObtainedObjectType>cov_inf_brutegrenadier_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_tech_followers_1</TechToResearch>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_03</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-			<StreamReplaceSquads>true</StreamReplaceSquads>
-			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
-		</Mission>
-		<Tech>
-			<TechToResearch>unsc_scorpion_upgrade2</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_veh_infected_scorpion_01_base</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>10</PrerequisiteObtainedObjectCount>
 		</Tech>
-		<Tech>
-			<TechToResearch>unsc_warthog_upgrade3</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_veh_infected_warthog_01_base</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>flood_tech_global_unsc_01</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_inf_infectedrocket_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>flood_tech_global_banished_01</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_inf_jackal_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>flood_tech_global_banished_02</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_air_infected_banshee_01_base</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>flood_tech_global_unsc_02</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_veh_infected_warthog_01_base</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>flood_tech_global_unsc_03</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_veh_infected_scorpion_01_base</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>flood_tech_global_banished_03</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_air_infected_blisterback_01_base</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Mission>
-			<MissionType>Attack</MissionType>
-			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
-			<SquadTypeToSend>flood_inf_infectedrocket_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
-			<AssignReservesToMission>false</AssignReservesToMission>
-			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
-		</Mission>
-		<Mission>
-			<MissionType>Attack</MissionType>
-			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
-			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
-			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
-			<TargetMustBeOwnedByEnemy>true</TargetMustBeOwnedByEnemy>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
-			<TimeUntilSquadsAreReplaced>30</TimeUntilSquadsAreReplaced>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
-			<AssignReservesToMission>false</AssignReservesToMission>
-			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
-		</Mission>
-		<Mission>
-			<MissionType>Scout</MissionType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetMustBeOwnedByEnemy>true</TargetMustBeOwnedByEnemy>
-			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
-			<TimeUntilSquadsAreReplaced>30</TimeUntilSquadsAreReplaced>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_04</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
-			<AssignReservesToMission>false</AssignReservesToMission>
-			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
-		</Mission>
-		<Mission>
-			<MissionType>Attack</MissionType>
-			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
-			<SquadTypeToSend>flood_inf_generic_core</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
-			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
-			<AssignReservesToMission>false</AssignReservesToMission>
-			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
-		</Mission>
 		<Mission>
 			<MissionType>BaseScout</MissionType>
 			<TimeToWaitAtTarget>8</TimeToWaitAtTarget>
-			<SquadTypeToSend>flood_inf_generic_core</SquadTypeToSend>
+			<SquadTypeToSend>flood_veh_infected_bruteChopper_01_base</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
-			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
 		<Building>
 			<BuildingType>cov_bldg_builder_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_04</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>cov_bldg_supplyDepot_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>11</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>cov_bldg_supplyDepot_02</BuildingType>
-			<NumberOfBuildingTypeNeeded>11</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_bldg_reactor_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
@@ -548,6 +755,12 @@
 		<Building>
 			<BuildingType>cov_bldg_reactor_02</BuildingType>
 			<NumberOfBuildingTypeNeeded>4</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_heavyfactory_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
 		</Building>
@@ -560,68 +773,96 @@
 		<Building>
 			<BuildingType>cov_bldg_builder_02</BuildingType>
 			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_supplyDepot_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
+			<PrerequisiteObtainedObjectType>cov_bldg_heavyfactory_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_supplyDepot_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>9</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_supplyDepot_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>9</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_reactor_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>4</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_reactor_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>4</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_turret_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>8</NumberOfBuildingTypeNeeded>
+			<NumberOfBuildingTypeNeeded>7</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
-			<BuildingType>unsc_bldg_siegegun_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<BuildingType>cov_bldg_shieldtower_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
-			<BuildingType>cov_bldg_watchtower_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+			<BuildingType>cov_bldg_cloaktower_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_builder_04</BuildingType>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_builder_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>5</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>unsc_bldg_siegegun_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_builder_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>4</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_builder_02</BuildingType>
 			<NumberOfBuildingTypeNeeded>5</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_turret_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>10</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
-			<BuildingType>cov_bldg_supplyDepot_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>12</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
+			<BuildingType>cov_bldg_shieldtower_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>4</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
-			<BuildingType>cov_bldg_supplyDepot_02</BuildingType>
-			<NumberOfBuildingTypeNeeded>12</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
+			<BuildingType>cov_bldg_turret_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>13</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
-			<BuildingType>cov_bldg_reactor_01</BuildingType>
+			<BuildingType>cov_bldg_shieldtower_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>5</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>cov_bldg_reactor_02</BuildingType>
-			<NumberOfBuildingTypeNeeded>5</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
-		</Building>
-		<Building>
-			<BuildingType>cov_bldg_temple_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_heavyfactory_01</BuildingType>
@@ -637,102 +878,205 @@
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_supplyDepot_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>16</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
+			<NumberOfBuildingTypeNeeded>14</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
 			<BuildingType>cov_bldg_supplyDepot_02</BuildingType>
-			<NumberOfBuildingTypeNeeded>16</NumberOfBuildingTypeNeeded>
-			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
+			<NumberOfBuildingTypeNeeded>14</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
-			<BuildingType>cov_bldg_turret_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>13</NumberOfBuildingTypeNeeded>
+			<BuildingType>cov_bldg_temple_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
+			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
 		</Building>
-		<Tech>
-			<TechToResearch>flood_cancer_upgrade1</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_inf_spawner_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>flood_hivetech_upgrade1</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_inf_spawner_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-		</Tech>
-		<Tech>
-			<TechToResearch>flood_hivetech_upgrade2</TechToResearch>
-			<PrerequisiteObtainedObjectType>flood_inf_spawner_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-		</Tech>
+		<Building>
+			<BuildingType>cov_bldg_supplyDepot_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>15</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_supplyDepot_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>15</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_reactor_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>5</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
+		</Building>
+		<Building>
+			<BuildingType>cov_bldg_reactor_02</BuildingType>
+			<NumberOfBuildingTypeNeeded>5</NumberOfBuildingTypeNeeded>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>5</PrerequisiteObtainedObjectCount>
+		</Building>
 		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>flood_inf_commander_01</SquadTypeToSend>
-			<AlternateSquadTypeToSend>flood_veh_infected_scorpion_01_base</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>flood_air_infected_blisterback_01_base</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<PrerequisiteTech>flood_hivetech_upgrade1</PrerequisiteTech>
-		</Mission>
-		<Mission>
-			<MissionType>Attack</MissionType>
-			<TargetType>_Base</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
-			<TargetType>_Base</TargetType>
-			<TargetBaseType>Start</TargetBaseType>
-			<MissionID>3</MissionID>
-			<SquadTypeToSend>flood_inf_corruptedengineer_01</SquadTypeToSend>
-			<MinimumNumberOfSquadsToSend>5</MinimumNumberOfSquadsToSend>
-			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
-			<SquadTypeToSend>flood_inf_commander_01</SquadTypeToSend>
-			<AlternateSquadTypeToSend>flood_veh_infected_scorpion_01_base</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>flood_air_infected_blisterback_01_base</AlternateSquadTypeToSend>
-			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
-			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
-			<SquadTypeToSend>flood_inf_spawner_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
-			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
-			<StreamReplaceSquads>true</StreamReplaceSquads>
-			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
-			<PrerequisiteObtainedObjectType>flood_inf_commander_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-		</Mission>
-		<Mission>
-			<MissionType>Attack</MissionType>
-			<TargetType>_Base</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<TargetType>_Settlement</TargetType>
-			<TargetBaseType>Expansion</TargetBaseType>
-			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
-			<TargetType>_Base</TargetType>
-			<TargetBaseType>Start</TargetBaseType>
 			<MissionID>4</MissionID>
-			<SquadTypeToSend>flood_inf_corruptedengineer_01</SquadTypeToSend>
+			<MissionType>Attack</MissionType>
+			<TargetType>_Base</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<TargetType>_Settlement</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
+			<TargetType>_Base</TargetType>
+			<TargetBaseType>Start</TargetBaseType>
+			<SquadTypeToSend>cov_veh_gorgon_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_veh_infected_wraith_01_base</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_infectedhumelee_carrier_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>5</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
+			<SquadTypeToSend>unsc_air_nightingale_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_air_infected_banshee_01_base</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
+			<SquadTypeToSend>fld_custom_railgunflood</SquadTypeToSend>
+			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_inf_jackal_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_air_infected_blisterback_01_base</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_inf_generic_odst</SquadTypeToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_04</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
+			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
+			<StreamReplaceSquads>true</StreamReplaceSquads>
+			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
+		</Mission>
+		<Tech>
+			<TechToResearch>cov_tech_global_vehicle_03</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Vehicle</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_prowler_upgrade1</TechToResearch>
+			<PrerequisiteObtainedObjectType>flood_veh_infected_prowler_01_base</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_wraith_upgrade1</TechToResearch>
+			<PrerequisiteObtainedObjectType>flood_veh_infected_wraith_01_base</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_banshee_upgrade1</TechToResearch>
+			<PrerequisiteObtainedObjectType>flood_air_infected_banshee_01_base</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>8</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_tech_followers_2</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>10</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_tech_global_infantry_02</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Infantry</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>8</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_arbiter_assaultteam_upgrade1</TechToResearch>
+			<PrerequisiteObtainedObjectType>flood_inf_arbiter_assaultteam_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_tech_global_infantry_03</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Infantry</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>8</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_tech_global_aircraft_01</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Air</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_tech_global_aircraft_02</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Air</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_tech_global_aircraft_03</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Air</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_tech_followers_2</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>10</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_tech_recruitTraining_1</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>10</PrerequisiteObtainedObjectCount>
+			<PrerequisiteTech>cov_tech_followers_2</PrerequisiteTech>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_tech_recruitTraining_2</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>10</PrerequisiteObtainedObjectCount>
+			<PrerequisiteTech>cov_tech_followers_2</PrerequisiteTech>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_tech_global_structure_01</TechToResearch>
+			<PrerequisiteTech>cov_tech_followers_2</PrerequisiteTech>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_tech_global_structure_02</TechToResearch>
+			<PrerequisiteTech>cov_tech_followers_2</PrerequisiteTech>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_tech_global_structure_03</TechToResearch>
+			<PrerequisiteTech>cov_tech_followers_2</PrerequisiteTech>
+		</Tech>
+		<Mission>
+			<MissionType>Attack</MissionType>
+			<TargetType>_Base</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<TargetType>_Settlement</TargetType>
+			<TargetBaseType>Expansion</TargetBaseType>
+			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
+			<TargetType>_Base</TargetType>
+			<TargetBaseType>Start</TargetBaseType>
+			<MissionID>5</MissionID>
 			<SquadTypeToSend>flood_inf_commander_01</SquadTypeToSend>
-			<AlternateSquadTypeToSend>flood_veh_infected_scorpion_01_base</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_veh_infected_wraith_01_base</AlternateSquadTypeToSend>
 			<AlternateSquadTypeToSend>flood_air_infected_blisterback_01_base</AlternateSquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
-			<SquadTypeToSend>flood_inf_spawner_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<SquadTypeToSend>unsc_air_nightingale_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_air_infected_banshee_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_inf_generic_odst</SquadTypeToSend>
+			<NumberOfSquadsToSend>7</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
 			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
+			<PrerequisiteTech>cov_tech_followers_2</PrerequisiteTech>
 			<StreamReplaceSquads>true</StreamReplaceSquads>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
-			<PrerequisiteObtainedObjectType>flood_inf_commander_01</PrerequisiteObtainedObjectType>
-			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Mission>
+		<Tech>
+			<TechToResearch>cov_tech_recruitTraining_3</TechToResearch>
+			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>10</PrerequisiteObtainedObjectCount>
+		</Tech>
 	</Table>
 </Tables>
