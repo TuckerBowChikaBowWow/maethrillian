@@ -15,10 +15,6 @@
 			<LeaderPowerType>CovSkitterer</LeaderPowerType>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CutterBattleHardened1</LeaderPowerType>
-			<PrerequisiteLeaderPower>CovSkitterer</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
 			<LeaderPowerType>LekgoloPincerBeam1</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>2</AssignedMissionID>
@@ -28,16 +24,22 @@
 			<PrerequisiteLeaderPower>CutterBattleHardened1</PrerequisiteLeaderPower>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CovPlasmaMines1</LeaderPowerType>
+			<LeaderPowerType>Unbrk_MegaTurret</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CorruptedPoolbuff1</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CorruptedPoolbuff2</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Unbrk_LichAssault</LeaderPowerType>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
+			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>3</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>LekgoloPincerBeam1</PrerequisiteLeaderPower>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>CovMassAssault</LeaderPowerType>
@@ -48,23 +50,11 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>CovPlasmaMines1</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovPlasmaMines2</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>15</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>CovMassAssault</PrerequisiteLeaderPower>
+			<PrerequisiteLeaderPower>Unbrk_MegaTurret</PrerequisiteLeaderPower>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>LekgoloEverlasting</LeaderPowerType>
-			<PrerequisiteLeaderPower>CovPlasmaMines2</PrerequisiteLeaderPower>
+			<PrerequisiteLeaderPower>CorruptedPoolbuff1</PrerequisiteLeaderPower>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>LekgoloPincerBeam2</LeaderPowerType>
@@ -205,7 +195,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_brutegrenadier_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -429,7 +419,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_brutegrenadier_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>10</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>

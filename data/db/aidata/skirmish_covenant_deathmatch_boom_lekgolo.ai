@@ -30,6 +30,24 @@
 			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
 		</LeaderPower>
 		<LeaderPower>
+			<LeaderPowerType>Unbrk_MegaTurret</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CorruptedPoolbuff1</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CorruptedPoolbuff2</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Unbrk_LichAssault</LeaderPowerType>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<TargetType>_Unit</TargetType>
+			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+		</LeaderPower>
+		<LeaderPower>
 			<LeaderPowerType>CovWormBuff1</LeaderPowerType>
 			<TargetType>BasicVehicle</TargetType>
 			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
@@ -99,9 +117,6 @@
 			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>CutterBattleHardened1</LeaderPowerType>
-		</LeaderPower>
-		<LeaderPower>
 			<LeaderPowerType>LekgoloSwarmHeal3</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>2</AssignedMissionID>
@@ -136,21 +151,6 @@
 			<AssignedMissionID>4</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<MinimumTargetPopToCast>45</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovPlasmaMines1</LeaderPowerType>
-			<TargetType>_Minibase</TargetType>
-			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovPlasmaMines2</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
 		</LeaderPower>
 		<Mission>
 			<MissionType>Forage</MissionType>
@@ -691,7 +691,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_brutegrenadier_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>

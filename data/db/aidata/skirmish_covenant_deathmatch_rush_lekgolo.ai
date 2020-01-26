@@ -70,6 +70,24 @@
 			<MinimumTargetPopToCast>45</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
+			<LeaderPowerType>Unbrk_MegaTurret</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CorruptedPoolbuff1</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CorruptedPoolbuff2</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Unbrk_LichAssault</LeaderPowerType>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<TargetType>_Unit</TargetType>
+			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+		</LeaderPower>
+		<LeaderPower>
 			<LeaderPowerType>CovMassAssault</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>1</AssignedMissionID>
@@ -79,9 +97,6 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CutterBattleHardened1</LeaderPowerType>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>LekgoloSwarmHeal2</LeaderPowerType>
@@ -139,24 +154,6 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<MinimumTargetPopToCast>40</MinimumTargetPopToCast>
 			<PrerequisiteLeaderPower>CovWormBuff2</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovPlasmaMines1</LeaderPowerType>
-			<TargetType>_Minibase</TargetType>
-			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
-			<PrerequisiteLeaderPower>CovWormBuff3</PrerequisiteLeaderPower>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CovPlasmaMines2</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
-			<PrerequisiteLeaderPower>CovPlasmaMines1</PrerequisiteLeaderPower>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>LekgoloWalls1</LeaderPowerType>
@@ -505,7 +502,7 @@
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
 			<MissionID>2</MissionID>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_brutegrenadier_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>6</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_inf_engineer_01</SquadTypeToSend>
