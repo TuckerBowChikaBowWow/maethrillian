@@ -6,7 +6,7 @@
 			<GameMode>Deathmatch</GameMode>
 			<StrategyType>Turtle</StrategyType>
 			<MapName />
-			<Commander>Serina</Commander>
+			<Commander>Anders</Commander>
 			<Reserved>false</Reserved>
 			<AutoAI>false</AutoAI>
 			<RallyPointMovementPopulationThreshold>10</RallyPointMovementPopulationThreshold>
@@ -167,6 +167,24 @@
 			<LeaderPowerType>Serina_CryoMine2</LeaderPowerType>
 			<TargetType>_Base</TargetType>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Anders_NukeBombing</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Anders_NukeBombing2</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>50</MinimumTargetPopToCast>
 		</LeaderPower>
 		<Building>
 			<BuildingType>unsc_bldg_supplypad_01</BuildingType>
@@ -452,7 +470,7 @@
 			<SquadTypeToSend>unsc_air_vulture_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>3</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
-			<SquadTypeToSend>unsc_veh_scorpion_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_veh_cryoscorpion_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>3</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
 			<SquadTypeToSend>unsc_veh_serina_hero_01</SquadTypeToSend>
