@@ -6,7 +6,7 @@
 			<GameMode>Deathmatch</GameMode>
 			<StrategyType>Turtle</StrategyType>
 			<MapName />
-			<Commander>Arbiter</Commander>
+			<Commander>TheEliteLeader</Commander>
 			<Reserved>false</Reserved>
 			<RallyPointMovementPopulationThreshold>10</RallyPointMovementPopulationThreshold>
 			<AutoAI>false</AutoAI>
@@ -594,9 +594,9 @@
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Start</TargetBaseType>
 			<MissionID>3</MissionID>
-			<SquadTypeToSend>cov_veh_scarab_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_arbiterscarab_01</SquadTypeToSend>
 			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_air_blisterback_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_air_traininglich_01</AlternateSquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_inf_engineer_01</SquadTypeToSend>
@@ -709,12 +709,12 @@
 		</Building>
 		<Tech>
 			<TechToResearch>cov_tech_global_structure_02</TechToResearch>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
 			<TechToResearch>cov_tech_global_structure_03</TechToResearch>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Building>
@@ -722,7 +722,7 @@
 			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>cov_bldg_supplyDepot_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
@@ -730,7 +730,7 @@
 			<NumberOfBuildingTypeNeeded>7</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
@@ -738,7 +738,7 @@
 			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Building>
@@ -746,62 +746,62 @@
 			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_02</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Building>
 		<Tech>
 			<TechToResearch>cov_tech_followers_2</TechToResearch>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
 			<TechToResearch>cov_arbiter_upgrade2</TechToResearch>
 			<PrerequisiteObtainedObjectType>cov_inf_arbiter_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
 			<TechToResearch>cov_arbiter_upgrade3</TechToResearch>
 			<PrerequisiteObtainedObjectType>cov_inf_arbiter_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
 			<TechToResearch>cov_tech_followers_2</TechToResearch>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
 			<TechToResearch>cov_tech_global_aircraft_01</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Air</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
 			<TechToResearch>cov_tech_global_aircraft_02</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Air</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
 			<TechToResearch>cov_tech_global_aircraft_03</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Air</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
 			<TechToResearch>cov_tech_recruitTraining_2</TechToResearch>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
 			<TechToResearch>cov_tech_recruitTraining_3</TechToResearch>
-			<PrerequisiteObtainedObjectType>cov_veh_scarab_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>cov_veh_arbiterscarab_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 	</Table>

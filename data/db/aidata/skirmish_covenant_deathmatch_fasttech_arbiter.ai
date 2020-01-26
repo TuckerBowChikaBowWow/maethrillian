@@ -6,7 +6,7 @@
 			<GameMode>Deathmatch</GameMode>
 			<StrategyType>FastTech</StrategyType>
 			<MapName />
-			<Commander>Arbiter</Commander>
+			<Commander>TheEliteLeader</Commander>
 			<Reserved>false</Reserved>
 			<RallyPointMovementPopulationThreshold>10</RallyPointMovementPopulationThreshold>
 			<AutoAI>false</AutoAI>
@@ -231,7 +231,7 @@
 		</Building>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_inf_generic_suicidegrunt</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_elitescout_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<PrerequisiteSightingObjectType>_Infantry</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>10</PrerequisiteSightingObjectCount>
@@ -671,7 +671,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_inf_jackal_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_arbitersniper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -680,7 +680,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_inf_jackal_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_arbitersniper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -689,7 +689,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_inf_jackal_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_arbitersniper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -709,7 +709,7 @@
 			<SquadTypeToSend>cov_inf_hunter_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
-			<SquadTypeToSend>cov_inf_jackal_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_arbitersniper_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_veh_locust_01</SquadTypeToSend>
@@ -724,6 +724,9 @@
 			<SquadTypeToSend>cov_air_shroud_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
+			<SquadTypeToSend>cov_inf_eliteCommando_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_veh_gorgon_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
@@ -816,6 +819,16 @@
 			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Building>
+		<Tech>
+			<TechToResearch>cov_eliteCommando_upgrade1</TechToResearch>
+			<PrerequisiteObtainedObjectType>cov_inf_eliteCommando_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+		</Tech>
+		<Tech>
+			<TechToResearch>cov_eliteCommando_upgrade2</TechToResearch>
+			<PrerequisiteObtainedObjectType>cov_inf_eliteCommando_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
+		</Tech>
 		<Building>
 			<BuildingType>cov_bldg_supplyDepot_01</BuildingType>
 			<NumberOfBuildingTypeNeeded>6</NumberOfBuildingTypeNeeded>
@@ -824,7 +837,7 @@
 		</Building>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_inf_jackal_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_arbitersniper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -1147,7 +1160,7 @@
 			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
 			<SquadTypeToSend>cov_air_banshee_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
-			<SquadTypeToSend>cov_inf_jackal_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_arbitersniper_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
 			<SquadTypeToSend>cov_veh_wraith_01</SquadTypeToSend>
@@ -1258,14 +1271,17 @@
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Start</TargetBaseType>
 			<MissionID>5</MissionID>
-			<SquadTypeToSend>cov_veh_scarab_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_veh_arbiterscarab_01</SquadTypeToSend>
 			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_air_blisterback_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_air_traininglich_01</AlternateSquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_inf_engineer_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_air_shroud_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
+			<SquadTypeToSend>cov_inf_eliteCommando_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
 			<SquadTypeToSend>cov_inf_arbiter_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
