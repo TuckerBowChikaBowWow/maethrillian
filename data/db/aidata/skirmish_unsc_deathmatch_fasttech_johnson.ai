@@ -38,6 +38,22 @@
 			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</LeaderPower>
 		<LeaderPower>
+			<LeaderPowerType>Jerome_LowPopInspire1</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Jerome_LowPopInspire2</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Jerome_Omegateam</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
 			<LeaderPowerType>UnscMedDrones1_MP</LeaderPowerType>
 			<TargetType>_Base</TargetType>
 			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
@@ -127,24 +143,6 @@
 			<AssignedMissionID>5</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<MinimumHealPointsToHeal>20000</MinimumHealPointsToHeal>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscSiegeTurretDrop</LeaderPowerType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscSiegeTurretDrop2</LeaderPowerType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscBunkerDrop2_MP</LeaderPowerType>
@@ -955,7 +953,7 @@
 			<SquadTypeToSend>unsc_air_hornet_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
-			<SquadTypeToSend>unsc_veh_johnson_colossus_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_veh_scorpion_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
 			<SquadTypeToSend>unsc_inf_johnson_hero_01</SquadTypeToSend>
@@ -1043,8 +1041,8 @@
 			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>unsc_colossus_upgrade1</TechToResearch>
-			<PrerequisiteObtainedObjectType>unsc_veh_johnson_colossus_01</PrerequisiteObtainedObjectType>
+			<TechToResearch>unsc_scorpion_upgrade2</TechToResearch>
+			<PrerequisiteObtainedObjectType>unsc_veh_scorpion_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
@@ -1115,8 +1113,8 @@
 		</Tech>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_air_destroyer_01</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_johnson_colossus_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_veh_johnson_colossus_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_scorpion_01</AlternateSquadTypeToSend>
 			<AlternateSquadTypeToSend>unsc_air_vulture_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<PrerequisiteTech>unsc_tech_reinforcements_2</PrerequisiteTech>
@@ -1134,8 +1132,8 @@
 			<SquadTypeToSend>unsc_air_nightingale_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>5</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
-			<SquadTypeToSend>unsc_air_destroyer_01</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_johnson_colossus_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_veh_johnson_colossus_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_scorpion_01</AlternateSquadTypeToSend>
 			<AlternateSquadTypeToSend>unsc_air_vulture_01</AlternateSquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
@@ -1147,7 +1145,7 @@
 			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
 			<StreamReplaceSquads>true</StreamReplaceSquads>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
-			<PrerequisiteObtainedObjectType>unsc_air_destroyer_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>unsc_veh_johnson_colossus_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Mission>
 		<Tech>
