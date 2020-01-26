@@ -12,90 +12,20 @@
 			<RallyPointMovementPopulationThreshold>10</RallyPointMovementPopulationThreshold>
 		</Settings>
 		<LeaderPower>
-			<LeaderPowerType>UnscRaidTech1</LeaderPowerType>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscMedDrones1_MP</LeaderPowerType>
-			<TargetType>_Base</TargetType>
-			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
-			<MinimumHealPointsToHeal>25000</MinimumHealPointsToHeal>
-			<PrerequisiteSightingObjectType>unsc_inf_flamemarine_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscMedDrones1_MP</LeaderPowerType>
-			<TargetType>_Base</TargetType>
-			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
-			<MinimumHealPointsToHeal>25000</MinimumHealPointsToHeal>
-			<PrerequisiteSightingObjectType>cov_inf_generic_brutejumppack</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscMedDrones1_MP</LeaderPowerType>
-			<TargetType>_Base</TargetType>
-			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
-			<MinimumHealPointsToHeal>25000</MinimumHealPointsToHeal>
-			<PrerequisiteSightingObjectType>cov_inf_lekgologoliath_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscMedDrones1_MP</LeaderPowerType>
+			<LeaderPowerType>UnscHoloDecoy1_MP</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<NumberOfTimesToBeUsed>4</NumberOfTimesToBeUsed>
-			<MinimumHealPointsToHeal>18000</MinimumHealPointsToHeal>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscBombingRun1</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>1</AssignedMissionID>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>UnscBombingRun2</LeaderPowerType>
+			<LeaderPowerType>UnscHoloDecoy2_MP</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscBombingRun3</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscPelicanGunship</LeaderPowerType>
-			<TargetType>_Enemy</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscOrbitalBattleGroup</LeaderPowerType>
-			<TargetType>_Enemy</TargetType>
-			<AssignedMissionID>2</AssignedMissionID>
-			<AssignedMissionID>3</AssignedMissionID>
-			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>UnscMedDrones2_MP</LeaderPowerType>
@@ -104,6 +34,15 @@
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
 			<AssignedMissionID>5</AssignedMissionID>
+			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
+			<MinimumHealPointsToHeal>18000</MinimumHealPointsToHeal>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscMedDrones1_MP</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
 			<NumberOfTimesToBeUsed>2</NumberOfTimesToBeUsed>
 			<MinimumHealPointsToHeal>18000</MinimumHealPointsToHeal>
 		</LeaderPower>
@@ -118,48 +57,94 @@
 			<MinimumHealPointsToHeal>20000</MinimumHealPointsToHeal>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>UnscOdstDrop</LeaderPowerType>
+			<LeaderPowerType>UnscMacCutter1</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscMacCutter2</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<NumberOfTimesToBeUsed>3</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>25</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscOdstDropNew</LeaderPowerType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>UnscRaidTech2</LeaderPowerType>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>UnscTurretDrop1</LeaderPowerType>
+			<LeaderPowerType>UnscMacCutter3</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
-			<AssignedMissionID>5</AssignedMissionID>
-			<NumberOfTimesToBeUsed>1</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>UnscTurretDrop2</LeaderPowerType>
+			<LeaderPowerType>Cutter_Pegasus</LeaderPowerType>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscOdstDropNew2</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscOdstDropNew3</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>30</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscImmolation</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Cutter_NukeBombing</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>UnscPelicanGunship</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
 			<AssignedMissionID>5</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
+			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>UnscCyclopsDrop</LeaderPowerType>
-			<TargetType>_Unit</TargetType>
+			<LeaderPowerType>UnscOrbitalBattleGroupNew</LeaderPowerType>
+			<TargetType>_Enemy</TargetType>
 			<AssignedMissionID>2</AssignedMissionID>
 			<AssignedMissionID>3</AssignedMissionID>
 			<AssignedMissionID>4</AssignedMissionID>
 			<AssignedMissionID>5</AssignedMissionID>
 			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
-			<MinimumTargetPopToCast>10</MinimumTargetPopToCast>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CutterBattleHardened1</LeaderPowerType>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>CutterBattleHardened2</LeaderPowerType>
+			<MinimumTargetPopToCast>35</MinimumTargetPopToCast>
 		</LeaderPower>
 		<Tech>
 			<TechToResearch>unsc_mongoose_upgrade1</TechToResearch>
@@ -168,7 +153,7 @@
 		</Tech>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_odst</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -176,7 +161,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_odst</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -188,7 +173,7 @@
 		</Building>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_odst</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -196,7 +181,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_odst</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -206,7 +191,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_odst</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -221,7 +206,7 @@
 		<Mission>
 			<MissionType>Defend</MissionType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_odst</SquadTypeToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
@@ -664,12 +649,12 @@
 		</Mission>
 		<Tech>
 			<TechToResearch>unsc_marine_upgrade1</TechToResearch>
-			<PrerequisiteObtainedObjectType>unsc_inf_generic_marine</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>unsc_inf_generic_odst</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>8</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
 			<TechToResearch>unsc_marine_upgrade2</TechToResearch>
-			<PrerequisiteObtainedObjectType>unsc_inf_generic_marine</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>unsc_inf_generic_odst</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>8</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Mission>
@@ -684,7 +669,7 @@
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<MissionID>2</MissionID>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_odst</SquadTypeToSend>
 			<NumberOfSquadsToSend>12</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -710,7 +695,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_odst</SquadTypeToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -773,7 +758,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_sniper_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odstsniper_01_mp</SquadTypeToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -782,7 +767,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_sniper_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odstsniper_01_mp</SquadTypeToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -791,7 +776,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_sniper_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odstsniper_01_mp</SquadTypeToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -800,7 +785,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_sniper_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odstsniper_01_mp</SquadTypeToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -822,7 +807,7 @@
 		<Mission>
 			<MissionType>Attack</MissionType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_odst</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -834,7 +819,7 @@
 		<Mission>
 			<MissionType>Attack</MissionType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_generic_odst</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
@@ -853,7 +838,7 @@
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Start</TargetBaseType>
 			<MissionID>3</MissionID>
-			<SquadTypeToSend>unsc_veh_warthog_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_veh_flamehog_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>10</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>15</NumberOfSquadsToSend>
 			<SquadTypeToSend>unsc_air_nightingale_01</SquadTypeToSend>
@@ -989,13 +974,13 @@
 			<TargetType>_Base</TargetType>
 			<TargetBaseType>Start</TargetBaseType>
 			<MissionID>4</MissionID>
-			<SquadTypeToSend>unsc_veh_warthog_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_veh_flamehog_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
 			<SquadTypeToSend>unsc_air_nightingale_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<SquadTypeToSend>unsc_air_vulture_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
-			<SquadTypeToSend>unsc_veh_scorpion_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_veh_flamescorpion_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
 			<SquadTypeToSend>unsc_inf_spartan_mpjerome_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
@@ -1009,8 +994,8 @@
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
 		<Tech>
-			<TechToResearch>unsc_warthog_upgrade3</TechToResearch>
-			<PrerequisiteObtainedObjectType>unsc_veh_warthog_01</PrerequisiteObtainedObjectType>
+			<TechToResearch>unsc_flamehog_upgrade3</TechToResearch>
+			<PrerequisiteObtainedObjectType>unsc_veh_flamehog_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
@@ -1020,7 +1005,7 @@
 		</Tech>
 		<Tech>
 			<TechToResearch>unsc_scorpion_upgrade2</TechToResearch>
-			<PrerequisiteObtainedObjectType>unsc_veh_scorpion_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>unsc_veh_flamescorpion_01</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
@@ -1084,8 +1069,8 @@
 		</Tech>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_air_destroyer_01</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_scorpion_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_air_pelicangunship_01_train</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_flamescorpion_01</AlternateSquadTypeToSend>
 			<AlternateSquadTypeToSend>unsc_air_vulture_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<PrerequisiteTech>unsc_tech_reinforcements_2</PrerequisiteTech>
@@ -1103,8 +1088,8 @@
 			<SquadTypeToSend>unsc_air_nightingale_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>5</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
-			<SquadTypeToSend>unsc_air_destroyer_01</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_scorpion_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_air_pelicangunship_01_train</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_flamescorpion_01</AlternateSquadTypeToSend>
 			<AlternateSquadTypeToSend>unsc_air_vulture_01</AlternateSquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
@@ -1116,7 +1101,7 @@
 			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
 			<StreamReplaceSquads>true</StreamReplaceSquads>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
-			<PrerequisiteObtainedObjectType>unsc_air_destroyer_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectType>unsc_air_pelicangunship_01_train</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Mission>
 		<Tech>
