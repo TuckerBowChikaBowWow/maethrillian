@@ -13900,9 +13900,9 @@
 			<TechStatus status="Active">unsc_spartan_upgrade2_laser</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_laser_01" />
-			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_laser_01" />
-			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_spartan_laser_01">
+			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_rocket_01" />
+			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_rocket_01" />
+			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_spartan_rocket_01">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
@@ -13914,7 +13914,7 @@
 			<Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
-			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2_rocket">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
 		</Effects>
