@@ -3,7 +3,7 @@
    <Weapon>
       <Name>TopMG</Name>
       <AttackRate>0.25</AttackRate>
-      <DamagePerSecond>161.0</DamagePerSecond>
+      <DamagePerSecond>145.0</DamagePerSecond>
       <WeaponType>SmallArms</WeaponType>
       <Projectile>fx_proj_machineGun_01</Projectile>
       <ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -97,11 +97,14 @@
    <Weapon>
       <Name>SpecialAttack</Name>
       <AttackRate>45.0</AttackRate>
-      <DamagePerSecond>1400.00</DamagePerSecond>
+      <DamagePerSecond>1200.00</DamagePerSecond>
       <UseDPSasDPA />
     <WeaponType>Grenade</WeaponType>
       <Projectile>fx_proj_seismicshell_01</Projectile>
       <ImpactEffect size="Medium" alwaysHorizontal="true">SeismicCharge1</ImpactEffect>
+      <Shatter TargetType="Unit" />
+      <Shatter TargetType="Building" />
+      <Shatter TargetType="TurretBuilding" />
       <MaxVelocityLead>20</MaxVelocityLead>
       <MaxRange>70.0</MaxRange>
       <Accuracy>1.00</Accuracy> 
@@ -240,6 +243,28 @@
     <StartDisabled></StartDisabled>
   </Action>
   <Action>
+    <Name>ChillAura</Name>
+    <ActionType>AreaBuff</ActionType>
+    <WorkRange>14</WorkRange>
+    <SpecificData>
+      <BuffParams BuffType="ChillAura" ChillOverTime="5.5f">1.0f</BuffParams>
+      <TargetTypes>
+        <Type>Infantry</Type>
+        <Type>CryoBuilding</Type>
+        <Type>TurretBuilding</Type>
+        <Type>Aircraft</Type>
+        <Type>BasicAircraft</Type>
+        <Type>DontChill</Type>
+        <Type>GroundVehicle</Type>
+      </TargetTypes>
+      <Relations>
+        <Relation>Enemy</Relation>
+      </Relations>
+    </SpecificData>
+    <ProtoObject>vfx_dlc4_units_cryoauratierleader</ProtoObject>
+    <StartDisabled />
+  </Action>
+  <Action>
       <Name>GarrisonPelican</Name>
       <ActionType>Garrison</ActionType>
       <Anim>PelicanGarrison</Anim>
@@ -277,6 +302,7 @@
       <WorkRange>4.0</WorkRange>
    </Action>
    <Tactic>
+    <PersistentAction>ChillAura</PersistentAction>
       <TargetRule>
          <GaiaOwned></GaiaOwned>
          <TargetType>Collectable</TargetType>

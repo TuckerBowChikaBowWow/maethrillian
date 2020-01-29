@@ -9677,6 +9677,9 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ShieldAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_serina_cryomarines_01</Target>
 			</Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_veh_cryoscorpion_01</Target>
+            </Effect>
 			<Effect type="Data" amount="250" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_serina_cryoleader_01</Target>
 			</Effect>
