@@ -2914,35 +2914,54 @@
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="0.800000012" subtype="buildPoints" allactions="1" relativity="Percent">
-				<Target type="ProtoSquad">unsc_inf_generic_marine</Target>
-				<Target type="ProtoSquad">unsc_inf_Sniper_01</Target>
 				<Target type="ProtoSquad">unsc_inf_flameMarine_01</Target>
-				<Target type="ProtoSquad">unsc_inf_cyclops_01</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
-				<Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
-				<Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
-				<Target type="ProtoSquad">unsc_inf_omegateam_jerome_01</Target>
-				<Target type="ProtoSquad">unsc_veh_mongoose_01</Target>
-				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
-				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
-				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
-				<Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
-				<Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
-				<Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
-				<Target type="ProtoSquad">unsc_veh_foxcannon_01</Target>
-				<Target type="ProtoSquad">unsc_air_hornet_01</Target>
-				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
-				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
-				<Target type="ProtoSquad">unsc_air_destroyer_01</Target>
-				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
-				<Target type="ProtoSquad">unsc_veh_flamehog_01</Target>
-				<Target type="ProtoSquad">unsc_veh_battleapc_01</Target>
-				<Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
-				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
-				<Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
-				<Target type="ProtoSquad">unsc_air_serina_pegasus_01</Target>
+                <Target type="ProtoSquad">unsc_inf_sniper_01</Target>
+                <Target type="ProtoSquad">unsc_inf_odstsniper_01_mp</Target>
+                <Target type="ProtoSquad">unsc_inf_cyclops_01</Target>
+                <Target type="ProtoSquad">unsc_veh_warthog_01</Target>
+                <Target type="ProtoSquad">unsc_veh_warthogguard_01</Target>
+                <Target type="ProtoSquad">unsc_veh_flamehog_01</Target>
+                <Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
+                <Target type="ProtoSquad">unsc_veh_foxcannon_01</Target>
+                <Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
+                <Target type="ProtoSquad">unsc_veh_cryoscorpion_01</Target>
+                <Target type="ProtoSquad">unsc_veh_flamescorpion_01</Target>
+                <Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
+                <Target type="ProtoSquad">unsc_air_hornet_01</Target>
+                <Target type="ProtoSquad">unsc_air_nightingale_01</Target>
+                <Target type="ProtoSquad">unsc_air_vulture_01</Target>
+                <Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
+                <Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
+                <Target type="ProtoSquad">unsc_inf_generic_marine</Target>
+                <Target type="ProtoSquad">unsc_inf_marineguard_01</Target>
+                <Target type="ProtoSquad">unsc_inf_marineguard_02</Target>
+                <Target type="ProtoSquad">unsc_inf_generic_odst</Target>
+                <Target type="ProtoSquad">unsc_inf_generic_odst2</Target>
+                <Target type="ProtoSquad">unsc_veh_mongoose_01</Target>
+                <Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
+                <Target type="ProtoSquad">unsc_veh_battleapc_01</Target>
+                <Target type="ProtoSquad">unsc_air_serina_pegasus_01</Target>
+                <Target type="ProtoSquad">unsc_air_fire_pegasus_01</Target>
+                <Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
+                <Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
+                <Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
+                <Target type="ProtoSquad">unsc_air_destroyer_01</Target>
+                <Target type="ProtoSquad">unsc_air_pelicangunship_01_train</Target>
+                <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
+                <Target type="ProtoSquad">unsc_inf_omegateam_jerome_01</Target>
+                <Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
+                <Target type="ProtoSquad">unsc_veh_warthogspartan_01</Target>
+                <Target type="ProtoSquad">pow_for_andersultimate_01</Target>
+                <Target type="ProtoSquad">for_air_sentineltier1_beam</Target>
+                <Target type="ProtoSquad">for_air_sentineltier1_custom</Target>
+                <Target type="ProtoSquad">cov_veh_prowler_02</Target>
+                <Target type="ProtoSquad">cov_veh_gorgon_01</Target>
+                <Target type="ProtoSquad">cov_veh_locust_01</Target>
+                <Target type="ProtoSquad">for_veh_scorpion_01</Target>
+                <Target type="ProtoSquad">cov_inf_corruptedengineer_01</Target>
+                <Target type="ProtoSquad">cov_air_shroud_01</Target>
+                <Target type="ProtoSquad">cov_inf_generic_heavygrunt</Target>
+                <Target type="ProtoSquad">cov_inf_hunter_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -2962,35 +2981,54 @@
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="0.8125" subtype="buildPoints" allactions="1" relativity="Percent">
-				<Target type="ProtoSquad">unsc_inf_generic_marine</Target>
-				<Target type="ProtoSquad">unsc_inf_Sniper_01</Target>
 				<Target type="ProtoSquad">unsc_inf_flameMarine_01</Target>
-				<Target type="ProtoSquad">unsc_inf_cyclops_01</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
-				<Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
-				<Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
-				<Target type="ProtoSquad">unsc_inf_omegateam_jerome_01</Target>
-				<Target type="ProtoSquad">unsc_veh_mongoose_01</Target>
-				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
-				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
-				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
-				<Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
-				<Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
-				<Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
-				<Target type="ProtoSquad">unsc_veh_foxcannon_01</Target>
-				<Target type="ProtoSquad">unsc_air_hornet_01</Target>
-				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
-				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
-				<Target type="ProtoSquad">unsc_air_destroyer_01</Target>
-				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
-				<Target type="ProtoSquad">unsc_veh_flamehog_01</Target>
-				<Target type="ProtoSquad">unsc_veh_battleapc_01</Target>
-				<Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
-				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
-				<Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
-				<Target type="ProtoSquad">unsc_air_serina_pegasus_01</Target>
+                <Target type="ProtoSquad">unsc_inf_sniper_01</Target>
+                <Target type="ProtoSquad">unsc_inf_odstsniper_01_mp</Target>
+                <Target type="ProtoSquad">unsc_inf_cyclops_01</Target>
+                <Target type="ProtoSquad">unsc_veh_warthog_01</Target>
+                <Target type="ProtoSquad">unsc_veh_warthogguard_01</Target>
+                <Target type="ProtoSquad">unsc_veh_flamehog_01</Target>
+                <Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
+                <Target type="ProtoSquad">unsc_veh_foxcannon_01</Target>
+                <Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
+                <Target type="ProtoSquad">unsc_veh_cryoscorpion_01</Target>
+                <Target type="ProtoSquad">unsc_veh_flamescorpion_01</Target>
+                <Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
+                <Target type="ProtoSquad">unsc_air_hornet_01</Target>
+                <Target type="ProtoSquad">unsc_air_nightingale_01</Target>
+                <Target type="ProtoSquad">unsc_air_vulture_01</Target>
+                <Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
+                <Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
+                <Target type="ProtoSquad">unsc_inf_generic_marine</Target>
+                <Target type="ProtoSquad">unsc_inf_marineguard_01</Target>
+                <Target type="ProtoSquad">unsc_inf_marineguard_02</Target>
+                <Target type="ProtoSquad">unsc_inf_generic_odst</Target>
+                <Target type="ProtoSquad">unsc_inf_generic_odst2</Target>
+                <Target type="ProtoSquad">unsc_veh_mongoose_01</Target>
+                <Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
+                <Target type="ProtoSquad">unsc_veh_battleapc_01</Target>
+                <Target type="ProtoSquad">unsc_air_serina_pegasus_01</Target>
+                <Target type="ProtoSquad">unsc_air_fire_pegasus_01</Target>
+                <Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
+                <Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
+                <Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
+                <Target type="ProtoSquad">unsc_air_destroyer_01</Target>
+                <Target type="ProtoSquad">unsc_air_pelicangunship_01_train</Target>
+                <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
+                <Target type="ProtoSquad">unsc_inf_omegateam_jerome_01</Target>
+                <Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
+                <Target type="ProtoSquad">unsc_veh_warthogspartan_01</Target>
+                <Target type="ProtoSquad">pow_for_andersultimate_01</Target>
+                <Target type="ProtoSquad">for_air_sentineltier1_beam</Target>
+                <Target type="ProtoSquad">for_air_sentineltier1_custom</Target>
+                <Target type="ProtoSquad">cov_veh_prowler_02</Target>
+                <Target type="ProtoSquad">cov_veh_gorgon_01</Target>
+                <Target type="ProtoSquad">cov_veh_locust_01</Target>
+                <Target type="ProtoSquad">for_veh_scorpion_01</Target>
+                <Target type="ProtoSquad">cov_inf_corruptedengineer_01</Target>
+                <Target type="ProtoSquad">cov_air_shroud_01</Target>
+                <Target type="ProtoSquad">cov_inf_generic_heavygrunt</Target>
+                <Target type="ProtoSquad">cov_inf_hunter_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -3010,35 +3048,54 @@
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="0.769999981" subtype="buildPoints" allactions="1" relativity="Percent">
-				<Target type="ProtoSquad">unsc_inf_generic_marine</Target>
-				<Target type="ProtoSquad">unsc_inf_Sniper_01</Target>
 				<Target type="ProtoSquad">unsc_inf_flameMarine_01</Target>
-				<Target type="ProtoSquad">unsc_inf_cyclops_01</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
-				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
-				<Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
-				<Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
-				<Target type="ProtoSquad">unsc_inf_omegateam_jerome_01</Target>
-				<Target type="ProtoSquad">unsc_veh_mongoose_01</Target>
-				<Target type="ProtoSquad">unsc_veh_warthog_01</Target>
-				<Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
-				<Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
-				<Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
-				<Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
-				<Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
-				<Target type="ProtoSquad">unsc_veh_foxcannon_01</Target>
-				<Target type="ProtoSquad">unsc_air_hornet_01</Target>
-				<Target type="ProtoSquad">unsc_air_vulture_01</Target>
-				<Target type="ProtoSquad">unsc_air_nightingale_01</Target>
-				<Target type="ProtoSquad">unsc_air_destroyer_01</Target>
-				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
-				<Target type="ProtoSquad">unsc_veh_flamehog_01</Target>
-				<Target type="ProtoSquad">unsc_veh_battleapc_01</Target>
-				<Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
-				<Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
-				<Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
-				<Target type="ProtoSquad">unsc_air_serina_pegasus_01</Target>
+                <Target type="ProtoSquad">unsc_inf_sniper_01</Target>
+                <Target type="ProtoSquad">unsc_inf_odstsniper_01_mp</Target>
+                <Target type="ProtoSquad">unsc_inf_cyclops_01</Target>
+                <Target type="ProtoSquad">unsc_veh_warthog_01</Target>
+                <Target type="ProtoSquad">unsc_veh_warthogguard_01</Target>
+                <Target type="ProtoSquad">unsc_veh_flamehog_01</Target>
+                <Target type="ProtoSquad">unsc_veh_wolverine_01</Target>
+                <Target type="ProtoSquad">unsc_veh_foxcannon_01</Target>
+                <Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
+                <Target type="ProtoSquad">unsc_veh_cryoscorpion_01</Target>
+                <Target type="ProtoSquad">unsc_veh_flamescorpion_01</Target>
+                <Target type="ProtoSquad">unsc_veh_grizzly_01</Target>
+                <Target type="ProtoSquad">unsc_air_hornet_01</Target>
+                <Target type="ProtoSquad">unsc_air_nightingale_01</Target>
+                <Target type="ProtoSquad">unsc_air_vulture_01</Target>
+                <Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
+                <Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
+                <Target type="ProtoSquad">unsc_inf_generic_marine</Target>
+                <Target type="ProtoSquad">unsc_inf_marineguard_01</Target>
+                <Target type="ProtoSquad">unsc_inf_marineguard_02</Target>
+                <Target type="ProtoSquad">unsc_inf_generic_odst</Target>
+                <Target type="ProtoSquad">unsc_inf_generic_odst2</Target>
+                <Target type="ProtoSquad">unsc_veh_mongoose_01</Target>
+                <Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
+                <Target type="ProtoSquad">unsc_veh_battleapc_01</Target>
+                <Target type="ProtoSquad">unsc_air_serina_pegasus_01</Target>
+                <Target type="ProtoSquad">unsc_air_fire_pegasus_01</Target>
+                <Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
+                <Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
+                <Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
+                <Target type="ProtoSquad">unsc_air_destroyer_01</Target>
+                <Target type="ProtoSquad">unsc_air_pelicangunship_01_train</Target>
+                <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
+                <Target type="ProtoSquad">unsc_inf_omegateam_jerome_01</Target>
+                <Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
+                <Target type="ProtoSquad">unsc_veh_warthogspartan_01</Target>
+                <Target type="ProtoSquad">pow_for_andersultimate_01</Target>
+                <Target type="ProtoSquad">for_air_sentineltier1_beam</Target>
+                <Target type="ProtoSquad">for_air_sentineltier1_custom</Target>
+                <Target type="ProtoSquad">cov_veh_prowler_02</Target>
+                <Target type="ProtoSquad">cov_veh_gorgon_01</Target>
+                <Target type="ProtoSquad">cov_veh_locust_01</Target>
+                <Target type="ProtoSquad">for_veh_scorpion_01</Target>
+                <Target type="ProtoSquad">cov_inf_corruptedengineer_01</Target>
+                <Target type="ProtoSquad">cov_air_shroud_01</Target>
+                <Target type="ProtoSquad">cov_inf_generic_heavygrunt</Target>
+                <Target type="ProtoSquad">cov_inf_hunter_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5280,58 +5337,72 @@
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="0.800000012" subtype="buildPoints" allactions="1" relativity="Percent">
-				<Target type="ProtoSquad">cov_inf_generic_grunt</Target>
-				<Target type="ProtoSquad">cov_inf_jackal_01</Target>
-				<Target type="ProtoSquad">cov_inf_generic_bruteJumpPack</Target>
-				<Target type="ProtoSquad">cov_inf_generic_suicideGrunt</Target>
-				<Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
-				<Target type="ProtoSquad">cov_inf_hunter_01</Target>
-				<Target type="ProtoSquad">cov_inf_engineer_01</Target>
-				<Target type="ProtoSquad">cov_inf_bruteHonour_01</Target>
-				<Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
-				<Target type="ProtoSquad">cov_inf_impervioushunter_01</Target>
-				<Target type="ProtoSquad">cov_inf_lekgologoliath_01</Target>
-				<Target type="ProtoSquad">cov_veh_skitterer_01</Target>
-				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
-				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
-				<Target type="ProtoSquad">cov_veh_prowler_01</Target>
-				<Target type="ProtoSquad">cov_veh_wraith_01</Target>
-				<Target type="ProtoSquad">cov_veh_gorgon_01</Target>
-				<Target type="ProtoSquad">cov_veh_locust_01</Target>
-				<Target type="ProtoSquad">cov_veh_scarab_01</Target>
-				<Target type="ProtoSquad">cov_veh_corruptedscarab_01</Target>
-				<Target type="ProtoSquad">cov_air_banshee_01</Target>
-				<Target type="ProtoSquad">cov_air_shroud_01</Target>
-				<Target type="ProtoSquad">cov_air_blisterback_01</Target>
-				<Target type="ProtoSquad">cov_inf_arbiter_01</Target>
-				<Target type="ProtoSquad">cov_inf_arbiter_assaultteam_01</Target>
 				<Target type="ProtoSquad">cov_inf_arbiter_assaultteam_02</Target>
-				<Target type="ProtoSquad">cov_inf_arbiter_gruntsquad_01</Target>
 				<Target type="ProtoSquad">cov_inf_arbiter_gruntsquad_02</Target>
-				<Target type="ProtoSquad">cov_air_phantom_01</Target>
-				<Target type="ProtoSquad">cov_inf_gruntgoblin01</Target>
-				<Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
-				<Target type="ProtoSquad">cov_inf_bruteRider_01</Target>
-				<Target type="ProtoSquad">cov_inf_heavygrunt_01</Target>
-				<Target type="ProtoSquad">cov_veh_grunt_methanewagon_01</Target>
-				<Target type="ProtoSquad">cov_inf_corruptedengineer_01</Target>
-				<Target type="ProtoSquad">cov_inf_corruptedwarlord_01</Target>
-				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
-				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
-				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_brutespiker_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
-				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
-				<Target type="ProtoSquad">flood_inf_generic_core</Target>
-				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
-				<Target type="ProtoSquad">flood_inf_jackal_01</Target>
-				<Target type="ProtoSquad">flood_inf_flameMarine_01</Target>
-				<Target type="ProtoSquad">flood_inf_infectedrocket_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_eliteplasmacaster_01</Target>
-				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_02</Target>
+                <Target type="ProtoSquad">cov_inf_generic_bruteJumpPack</Target>
+                <Target type="ProtoSquad">cov_inf_generic_suicideGrunt</Target>
+                <Target type="ProtoSquad">cov_inf_elitescout_01</Target>
+                <Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
+                <Target type="ProtoSquad">cov_inf_jackal_01</Target>
+                <Target type="ProtoSquad">cov_inf_arbitersniper_01</Target>
+                <Target type="ProtoSquad">cov_inf_hunter_01</Target>
+                <Target type="ProtoSquad">cov_inf_lekgologoliath_01</Target>
+                <Target type="ProtoSquad">cov_inf_generic_arbiterenforcer</Target>
+                <Target type="ProtoSquad">cov_inf_bruteRider_01</Target>
+                <Target type="ProtoSquad">cov_inf_generic_heavygrunt</Target>
+                <Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
+                <Target type="ProtoSquad">flood_infectedhumelee_carrier_01</Target>
+                <Target type="ProtoSquad">flood_inf_jackal_01</Target>
+                <Target type="ProtoSquad">fld_custom_railgunflood</Target>
+                <Target type="ProtoSquad">cov_veh_shadelocust_01</Target>
+                <Target type="ProtoSquad">cov_veh_prowler_01</Target>
+                <Target type="ProtoSquad">cov_veh_gorgon_01</Target>
+                <Target type="ProtoSquad">cov_veh_arbitergorgon_01</Target>
+                <Target type="ProtoSquad">cov_veh_locust_01</Target>
+                <Target type="ProtoSquad">cov_veh_locust_01_mp_blitz</Target>
+                <Target type="ProtoSquad">cov_veh_wraith_01</Target>
+                <Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+                <Target type="ProtoSquad">cov_inf_engineer_01</Target>
+                <Target type="ProtoSquad">cov_inf_corruptedengineer_01</Target>
+                <Target type="ProtoSquad">cov_air_banshee_01</Target>
+                <Target type="ProtoSquad">cov_air_shroud_01</Target>
+                <Target type="ProtoSquad">cov_air_blisterback_01</Target>
+                <Target type="ProtoSquad">unsc_air_nightingale_01</Target>
+                <Target type="ProtoSquad">flood_air_infected_banshee_01_base</Target>
+                <Target type="ProtoSquad">cov_air_shroud_01</Target>
+                <Target type="ProtoSquad">flood_air_infected_blisterback_01_base</Target>
+                <Target type="ProtoSquad">cov_inf_hereticelite_01</Target>
+                <Target type="ProtoSquad">cov_inf_hereticelite_02</Target>
+                <Target type="ProtoSquad">cov_inf_generic_grunt</Target>
+                <Target type="ProtoSquad">cov_veh_ghost_01</Target>
+                <Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
+                <Target type="ProtoSquad">cov_air_phantom_01</Target>
+                <Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
+                <Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
+                <Target type="ProtoSquad">cov_veh_skitterer_01</Target>
+                <Target type="ProtoSquad">cov_inf_generic_arbitergruntsquad</Target>
+                <Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
+                <Target type="ProtoSquad">cov_veh_grunt_methanewagon_01</Target>
+                <Target type="ProtoSquad">flood_inf_generic_aomcore</Target>
+                <Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+                <Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
+                <Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
+                <Target type="ProtoSquad">cov_inf_bruteHonour_01</Target>
+                <Target type="ProtoSquad">cov_veh_scarab_01</Target>
+                <Target type="ProtoSquad">cov_air_traininglich_01</Target>
+                <Target type="ProtoSquad">cov_inf_impervioushunter_01</Target>
+                <Target type="ProtoSquad">cov_inf_arbiter_01</Target>
+                <Target type="ProtoSquad">cov_veh_arbiterscarab_01</Target>
+                <Target type="ProtoSquad">cov_inf_gruntgoblin01</Target>
+                <Target type="ProtoSquad">cov_veh_methanescarab_01_base</Target>
+                <Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
+                <Target type="ProtoSquad">cov_inf_corruptedwarlord_01</Target>
+                <Target type="ProtoSquad">cov_veh_corruptedscarab_01</Target>
+                <Target type="ProtoSquad">cov_air_corruptedlich_01</Target>
+                <Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+                <Target type="ProtoSquad">flood_inf_generic_odst</Target>
+                <Target type="ProtoSquad">flood_inf_commander_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5351,58 +5422,72 @@
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="0.8125" subtype="buildPoints" allactions="1" relativity="Percent">
-				<Target type="ProtoSquad">cov_inf_generic_grunt</Target>
-				<Target type="ProtoSquad">cov_inf_jackal_01</Target>
-				<Target type="ProtoSquad">cov_inf_generic_bruteJumpPack</Target>
-				<Target type="ProtoSquad">cov_inf_generic_suicideGrunt</Target>
-				<Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
-				<Target type="ProtoSquad">cov_inf_hunter_01</Target>
-				<Target type="ProtoSquad">cov_inf_engineer_01</Target>
-				<Target type="ProtoSquad">cov_inf_bruteHonour_01</Target>
-				<Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
-				<Target type="ProtoSquad">cov_inf_impervioushunter_01</Target>
-				<Target type="ProtoSquad">cov_inf_lekgologoliath_01</Target>
-				<Target type="ProtoSquad">cov_veh_skitterer_01</Target>
-				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
-				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
-				<Target type="ProtoSquad">cov_veh_prowler_01</Target>
-				<Target type="ProtoSquad">cov_veh_wraith_01</Target>
-				<Target type="ProtoSquad">cov_veh_gorgon_01</Target>
-				<Target type="ProtoSquad">cov_veh_locust_01</Target>
-				<Target type="ProtoSquad">cov_veh_scarab_01</Target>
-				<Target type="ProtoSquad">cov_veh_corruptedscarab_01</Target>
-				<Target type="ProtoSquad">cov_air_banshee_01</Target>
-				<Target type="ProtoSquad">cov_air_shroud_01</Target>
-				<Target type="ProtoSquad">cov_air_blisterback_01</Target>
-				<Target type="ProtoSquad">cov_inf_arbiter_01</Target>
-				<Target type="ProtoSquad">cov_inf_arbiter_assaultteam_01</Target>
 				<Target type="ProtoSquad">cov_inf_arbiter_assaultteam_02</Target>
-				<Target type="ProtoSquad">cov_inf_arbiter_gruntsquad_01</Target>
-				<Target type="ProtoSquad">cov_inf_arbiter_gruntsquad_02</Target>
-				<Target type="ProtoSquad">cov_air_phantom_01</Target>
-				<Target type="ProtoSquad">cov_inf_gruntgoblin01</Target>
-				<Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
-				<Target type="ProtoSquad">cov_inf_bruteRider_01</Target>
-				<Target type="ProtoSquad">cov_inf_heavygrunt_01</Target>
-				<Target type="ProtoSquad">cov_veh_grunt_methanewagon_01</Target>
-				<Target type="ProtoSquad">cov_inf_corruptedengineer_01</Target>
-				<Target type="ProtoSquad">cov_inf_corruptedwarlord_01</Target>
-				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
-				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
-				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_brutespiker_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
-				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
-				<Target type="ProtoSquad">flood_inf_generic_core</Target>
-				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
-				<Target type="ProtoSquad">flood_inf_jackal_01</Target>
-				<Target type="ProtoSquad">flood_inf_flameMarine_01</Target>
-				<Target type="ProtoSquad">flood_inf_infectedrocket_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_eliteplasmacaster_01</Target>
-				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_02</Target>
+                <Target type="ProtoSquad">cov_inf_arbiter_gruntsquad_02</Target>
+                <Target type="ProtoSquad">cov_inf_generic_bruteJumpPack</Target>
+                <Target type="ProtoSquad">cov_inf_generic_suicideGrunt</Target>
+                <Target type="ProtoSquad">cov_inf_elitescout_01</Target>
+                <Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
+                <Target type="ProtoSquad">cov_inf_jackal_01</Target>
+                <Target type="ProtoSquad">cov_inf_arbitersniper_01</Target>
+                <Target type="ProtoSquad">cov_inf_hunter_01</Target>
+                <Target type="ProtoSquad">cov_inf_lekgologoliath_01</Target>
+                <Target type="ProtoSquad">cov_inf_generic_arbiterenforcer</Target>
+                <Target type="ProtoSquad">cov_inf_bruteRider_01</Target>
+                <Target type="ProtoSquad">cov_inf_generic_heavygrunt</Target>
+                <Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
+                <Target type="ProtoSquad">flood_infectedhumelee_carrier_01</Target>
+                <Target type="ProtoSquad">flood_inf_jackal_01</Target>
+                <Target type="ProtoSquad">fld_custom_railgunflood</Target>
+                <Target type="ProtoSquad">cov_veh_shadelocust_01</Target>
+                <Target type="ProtoSquad">cov_veh_prowler_01</Target>
+                <Target type="ProtoSquad">cov_veh_gorgon_01</Target>
+                <Target type="ProtoSquad">cov_veh_arbitergorgon_01</Target>
+                <Target type="ProtoSquad">cov_veh_locust_01</Target>
+                <Target type="ProtoSquad">cov_veh_locust_01_mp_blitz</Target>
+                <Target type="ProtoSquad">cov_veh_wraith_01</Target>
+                <Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+                <Target type="ProtoSquad">cov_inf_engineer_01</Target>
+                <Target type="ProtoSquad">cov_inf_corruptedengineer_01</Target>
+                <Target type="ProtoSquad">cov_air_banshee_01</Target>
+                <Target type="ProtoSquad">cov_air_shroud_01</Target>
+                <Target type="ProtoSquad">cov_air_blisterback_01</Target>
+                <Target type="ProtoSquad">unsc_air_nightingale_01</Target>
+                <Target type="ProtoSquad">flood_air_infected_banshee_01_base</Target>
+                <Target type="ProtoSquad">cov_air_shroud_01</Target>
+                <Target type="ProtoSquad">flood_air_infected_blisterback_01_base</Target>
+                <Target type="ProtoSquad">cov_inf_hereticelite_01</Target>
+                <Target type="ProtoSquad">cov_inf_hereticelite_02</Target>
+                <Target type="ProtoSquad">cov_inf_generic_grunt</Target>
+                <Target type="ProtoSquad">cov_veh_ghost_01</Target>
+                <Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
+                <Target type="ProtoSquad">cov_air_phantom_01</Target>
+                <Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
+                <Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
+                <Target type="ProtoSquad">cov_veh_skitterer_01</Target>
+                <Target type="ProtoSquad">cov_inf_generic_arbitergruntsquad</Target>
+                <Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
+                <Target type="ProtoSquad">cov_veh_grunt_methanewagon_01</Target>
+                <Target type="ProtoSquad">flood_inf_generic_aomcore</Target>
+                <Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+                <Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
+                <Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
+                <Target type="ProtoSquad">cov_inf_bruteHonour_01</Target>
+                <Target type="ProtoSquad">cov_veh_scarab_01</Target>
+                <Target type="ProtoSquad">cov_air_traininglich_01</Target>
+                <Target type="ProtoSquad">cov_inf_impervioushunter_01</Target>
+                <Target type="ProtoSquad">cov_inf_arbiter_01</Target>
+                <Target type="ProtoSquad">cov_veh_arbiterscarab_01</Target>
+                <Target type="ProtoSquad">cov_inf_gruntgoblin01</Target>
+                <Target type="ProtoSquad">cov_veh_methanescarab_01_base</Target>
+                <Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
+                <Target type="ProtoSquad">cov_inf_corruptedwarlord_01</Target>
+                <Target type="ProtoSquad">cov_veh_corruptedscarab_01</Target>
+                <Target type="ProtoSquad">cov_air_corruptedlich_01</Target>
+                <Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+                <Target type="ProtoSquad">flood_inf_generic_odst</Target>
+                <Target type="ProtoSquad">flood_inf_commander_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5422,58 +5507,72 @@
 		<ResearchCompleteSound>play_vog_tech_reserves</ResearchCompleteSound>
 		<Effects>
 			<Effect type="Data" amount="0.769999981" subtype="buildPoints" allactions="1" relativity="Percent">
-				<Target type="ProtoSquad">cov_inf_generic_grunt</Target>
-				<Target type="ProtoSquad">cov_inf_jackal_01</Target>
-				<Target type="ProtoSquad">cov_inf_generic_bruteJumpPack</Target>
-				<Target type="ProtoSquad">cov_inf_generic_suicideGrunt</Target>
-				<Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
-				<Target type="ProtoSquad">cov_inf_hunter_01</Target>
-				<Target type="ProtoSquad">cov_inf_engineer_01</Target>
-				<Target type="ProtoSquad">cov_inf_bruteHonour_01</Target>
-				<Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
-				<Target type="ProtoSquad">cov_inf_impervioushunter_01</Target>
-				<Target type="ProtoSquad">cov_inf_lekgologoliath_01</Target>
-				<Target type="ProtoSquad">cov_veh_skitterer_01</Target>
-				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
-				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
-				<Target type="ProtoSquad">cov_veh_prowler_01</Target>
-				<Target type="ProtoSquad">cov_veh_wraith_01</Target>
-				<Target type="ProtoSquad">cov_veh_gorgon_01</Target>
-				<Target type="ProtoSquad">cov_veh_locust_01</Target>
-				<Target type="ProtoSquad">cov_veh_scarab_01</Target>
-				<Target type="ProtoSquad">cov_veh_corruptedscarab_01</Target>
-				<Target type="ProtoSquad">cov_air_banshee_01</Target>
-				<Target type="ProtoSquad">cov_air_shroud_01</Target>
-				<Target type="ProtoSquad">cov_air_blisterback_01</Target>
-				<Target type="ProtoSquad">cov_inf_arbiter_01</Target>
-				<Target type="ProtoSquad">cov_inf_arbiter_assaultteam_01</Target>
 				<Target type="ProtoSquad">cov_inf_arbiter_assaultteam_02</Target>
-				<Target type="ProtoSquad">cov_inf_arbiter_gruntsquad_01</Target>
-				<Target type="ProtoSquad">cov_inf_arbiter_gruntsquad_02</Target>
-				<Target type="ProtoSquad">cov_air_phantom_01</Target>
-				<Target type="ProtoSquad">cov_inf_gruntgoblin01</Target>
-				<Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
-				<Target type="ProtoSquad">cov_inf_bruteRider_01</Target>
-				<Target type="ProtoSquad">cov_inf_heavygrunt_01</Target>
-				<Target type="ProtoSquad">cov_veh_grunt_methanewagon_01</Target>
-				<Target type="ProtoSquad">cov_inf_corruptedengineer_01</Target>
-				<Target type="ProtoSquad">cov_inf_corruptedwarlord_01</Target>
-				<Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
-				<Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
-				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_brutespiker_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
-				<Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
-				<Target type="ProtoSquad">flood_inf_generic_core</Target>
-				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
-				<Target type="ProtoSquad">flood_inf_jackal_01</Target>
-				<Target type="ProtoSquad">flood_inf_flameMarine_01</Target>
-				<Target type="ProtoSquad">flood_inf_infectedrocket_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
-				<Target type="ProtoSquad">flood_inf_infected_eliteplasmacaster_01</Target>
-				<Target type="ProtoSquad">flood_inf_arbiter_assaultteam_02</Target>
+                <Target type="ProtoSquad">cov_inf_arbiter_gruntsquad_02</Target>
+                <Target type="ProtoSquad">cov_inf_generic_bruteJumpPack</Target>
+                <Target type="ProtoSquad">cov_inf_generic_suicideGrunt</Target>
+                <Target type="ProtoSquad">cov_inf_elitescout_01</Target>
+                <Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
+                <Target type="ProtoSquad">cov_inf_jackal_01</Target>
+                <Target type="ProtoSquad">cov_inf_arbitersniper_01</Target>
+                <Target type="ProtoSquad">cov_inf_hunter_01</Target>
+                <Target type="ProtoSquad">cov_inf_lekgologoliath_01</Target>
+                <Target type="ProtoSquad">cov_inf_generic_arbiterenforcer</Target>
+                <Target type="ProtoSquad">cov_inf_bruteRider_01</Target>
+                <Target type="ProtoSquad">cov_inf_generic_heavygrunt</Target>
+                <Target type="ProtoSquad">flood_inf_arbiter_assaultteam_01</Target>
+                <Target type="ProtoSquad">flood_infectedhumelee_carrier_01</Target>
+                <Target type="ProtoSquad">flood_inf_jackal_01</Target>
+                <Target type="ProtoSquad">fld_custom_railgunflood</Target>
+                <Target type="ProtoSquad">cov_veh_shadelocust_01</Target>
+                <Target type="ProtoSquad">cov_veh_prowler_01</Target>
+                <Target type="ProtoSquad">cov_veh_gorgon_01</Target>
+                <Target type="ProtoSquad">cov_veh_arbitergorgon_01</Target>
+                <Target type="ProtoSquad">cov_veh_locust_01</Target>
+                <Target type="ProtoSquad">cov_veh_locust_01_mp_blitz</Target>
+                <Target type="ProtoSquad">cov_veh_wraith_01</Target>
+                <Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+                <Target type="ProtoSquad">cov_inf_engineer_01</Target>
+                <Target type="ProtoSquad">cov_inf_corruptedengineer_01</Target>
+                <Target type="ProtoSquad">cov_air_banshee_01</Target>
+                <Target type="ProtoSquad">cov_air_shroud_01</Target>
+                <Target type="ProtoSquad">cov_air_blisterback_01</Target>
+                <Target type="ProtoSquad">unsc_air_nightingale_01</Target>
+                <Target type="ProtoSquad">flood_air_infected_banshee_01_base</Target>
+                <Target type="ProtoSquad">cov_air_shroud_01</Target>
+                <Target type="ProtoSquad">flood_air_infected_blisterback_01_base</Target>
+                <Target type="ProtoSquad">cov_inf_hereticelite_01</Target>
+                <Target type="ProtoSquad">cov_inf_hereticelite_02</Target>
+                <Target type="ProtoSquad">cov_inf_generic_grunt</Target>
+                <Target type="ProtoSquad">cov_veh_ghost_01</Target>
+                <Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
+                <Target type="ProtoSquad">cov_air_phantom_01</Target>
+                <Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
+                <Target type="ProtoSquad">neutralfor_sentineltier2_generic</Target>
+                <Target type="ProtoSquad">cov_veh_skitterer_01</Target>
+                <Target type="ProtoSquad">cov_inf_generic_arbitergruntsquad</Target>
+                <Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
+                <Target type="ProtoSquad">cov_veh_grunt_methanewagon_01</Target>
+                <Target type="ProtoSquad">flood_inf_generic_aomcore</Target>
+                <Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+                <Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
+                <Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
+                <Target type="ProtoSquad">cov_inf_bruteHonour_01</Target>
+                <Target type="ProtoSquad">cov_veh_scarab_01</Target>
+                <Target type="ProtoSquad">cov_air_traininglich_01</Target>
+                <Target type="ProtoSquad">cov_inf_impervioushunter_01</Target>
+                <Target type="ProtoSquad">cov_inf_arbiter_01</Target>
+                <Target type="ProtoSquad">cov_veh_arbiterscarab_01</Target>
+                <Target type="ProtoSquad">cov_inf_gruntgoblin01</Target>
+                <Target type="ProtoSquad">cov_veh_methanescarab_01_base</Target>
+                <Target type="ProtoSquad">cov_inf_mortarwarlord_01</Target>
+                <Target type="ProtoSquad">cov_inf_corruptedwarlord_01</Target>
+                <Target type="ProtoSquad">cov_veh_corruptedscarab_01</Target>
+                <Target type="ProtoSquad">cov_air_corruptedlich_01</Target>
+                <Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
+                <Target type="ProtoSquad">flood_inf_generic_odst</Target>
+                <Target type="ProtoSquad">flood_inf_commander_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -11254,6 +11353,9 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ShieldAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_serina_cryomarines_01</Target>
 			</Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_veh_cryoscorpion_01</Target>
+            </Effect>
 			<Effect type="Data" amount="250" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_serina_cryoleader_01</Target>
 			</Effect>
@@ -15390,6 +15492,27 @@
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade1">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
+            <Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_chaingun_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_chaingun_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
+            </Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="GroundPoundHijackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
@@ -15489,12 +15612,27 @@
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.79999995" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.79999995" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
-			</Effect>
+			<Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_chaingun_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_chaingun_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
+            </Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
@@ -15550,14 +15688,14 @@
 				<Target type="ProtoUnit">unsc_inf_spartan_mpdoug_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpdoug_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpdoug_01</Target>
-			</Effect>
-			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
-				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
-			</Effect>
+                <Target type="ProtoUnit">unsc_inf_spartan_mpdoug_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_mpdoug_01</Target>
+            </Effect>
+            <Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
+                <Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
+            </Effect>
 		</Effects>
 	</Tech>
 	<Tech name="unsc_spartan_upgrade3_laser" type="Normal" Alpha="0">
@@ -15576,21 +15714,30 @@
 			<TechStatus status="Active">unsc_spartan_upgrade2_laser</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_laser_01" />
-			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_laser_01" />
-			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_spartan_laser_01">
+			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_rocket_01" />
+			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_rocket_01" />
+			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_spartan_rocket_01">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
-			</Effect>
-			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
+			<Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
+            </Effect>
+			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2_rocket">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
 		</Effects>
