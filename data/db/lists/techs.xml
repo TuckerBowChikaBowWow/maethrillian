@@ -6578,6 +6578,9 @@
 				<Target type="ProtoSquad">unsc_inf_generic_odst2</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_inf_odst_01_trainable</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_generic_odst" relativity="Absolute">
@@ -15491,44 +15494,20 @@
 			<TechStatus status="Active">unsc_basic</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35000002" subtype="Hitpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1.35000002" subtype="Shieldpoints" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
-			</Effect>
-			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade1">
-				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
-			</Effect>
-            <Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+			<Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
             </Effect>
             <Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+                <Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
             </Effect>
-            <Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_chaingun_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_chaingun_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
-            </Effect>
+            <Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="GroundPoundHijackAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="VehicleJoin" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+				<Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -15618,32 +15597,24 @@
 			<TechStatus status="Active">unsc_spartan_upgrade1_laser</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_chaingun_01" />
-			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_chaingun_01" />
-			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
-			</Effect>
 			<Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+                <Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
             </Effect>
             <Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+                <Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
             </Effect>
-            <Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_chaingun_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_chaingun_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
-            </Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="InCoverSMGAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="SMGAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AntiInfantryChaingunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="ChaingunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
+			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
@@ -15725,29 +15696,27 @@
 			<TechStatus status="Active">unsc_spartan_upgrade2_laser</TechStatus>
 		</Prereqs>
 		<Effects>
-			<Effect type="ReparentProtoObject" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_rocket_01" />
-			<Effect type="ReparentProtoSquad" FromType="unsc_inf_spartan_mpjerome_01" ToType="unsc_inf_spartan_rocket_01" />
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_spartan_rocket_01">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+			<Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
             </Effect>
-            <Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
+            <Effect type="Data" amount="1.3" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
             </Effect>
-            <Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_mpjerome_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_spartan_rocket_01</Target>
-            </Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AntiInfantryChaingunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="ChaingunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AntiAircraftRocketLauncherAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="RocketLauncherAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_inf_spartanaom_01</Target>
+			</Effect>
 			<Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_spartan_upgrade2_rocket">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
 			</Effect>
