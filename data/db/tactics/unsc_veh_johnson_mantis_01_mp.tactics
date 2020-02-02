@@ -264,6 +264,24 @@
 		<ProtoObject>cov_locustshield</ProtoObject>
 	</Action>
 	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>4</WorkRate>
+		<WorkRange>4</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Action>
 		<Name>GatherCollectables</Name>
 		<ActionType>Gather</ActionType>
 		<Anim>Gather</Anim>
@@ -274,6 +292,16 @@
 	<Tactic>
 		<PersistentAction>ShieldAction</PersistentAction>
 		<PersistentAction>MantisLaserAttackAction</PersistentAction>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Supplies</TargetType>
+			<Action>GatherSupplies</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Resource_Power</TargetType>
+			<Action>GatherPower</Action>
+		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
