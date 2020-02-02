@@ -1376,6 +1376,19 @@
 	<Squad name="cov_inf_bruteHonour_01_sp" parent_element="cov_inf_bruteHonour_01_base" dbid="2549950187233219961">
 		<LeashDistance>73</LeashDistance>
 	</Squad>
+	<Squad name="cov_inf_bruteHonour_01_mp_blitz" parent_element="cov_inf_bruteHonour_01_base" dbid="2578682625095953063">
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">285</Cost>
+		<Cost ResourceType="Power">75</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<FrozenThreshold>400</FrozenThreshold>
+		<ShatterThreshold>3000</ShatterThreshold>
+		<DamageOnShatter>7000</DamageOnShatter>
+		<ChillDecayPerSecond>80</ChillDecayPerSecond>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_bruteHonour_01_mp_blitz</Unit>
+		</Units>
+	</Squad>
 	<Squad name="fld_custom_strongbrutehammer" dbid="18379756352825295055">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -1716,6 +1729,15 @@
 	</Squad>
 	<Squad name="cov_inf_bruteJumpPack_01_sp" parent_element="cov_inf_bruteJumpPack_01_base" dbid="1889929119706753225">
 		<LeashDistance>73</LeashDistance>
+	</Squad>
+	<Squad name="cov_inf_bruteJumpPack_01_mp_blitz" parent_element="cov_inf_bruteJumpPack_01_base" dbid="1887980785101941783">
+		<BuildPoints>17</BuildPoints>
+		<Cost ResourceType="Supplies">90</Cost>
+		<Cost ResourceType="Power">50</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<Units>
+			<Unit count="3" role="normal">cov_inf_bruteJumpPack_01_mp_blitz</Unit>
+		</Units>
 	</Squad>
 	<Squad name="cov_inf_bruteJumpPack_02" dbid="17762396584411432240" formationType="Flock" parent_element="cov_inf_bruteJumpPack_02_sp" />
 	<Squad name="cov_inf_bruteJumpPack_02_base" parent_element="cov_inf_bruteJumpPack_01" dbid="10298302148551947952">
@@ -12539,6 +12561,9 @@
 			<WriteToMergeStencil>True</WriteToMergeStencil>
 		</Selection>
 		<Flag>AlwaysRenderSelectionDecal</Flag>
+		<Units>
+			<Unit count="1" role="normal">unsc_inf_spartan_mpalice_01</Unit>
+		</Units>
 	</Squad>
 	<Squad name="unsc_inf_spartan_laser_01" dbid="7182421881767245134" parent_element="unsc_inf_mp_spartan_01">
 		<Flag>UseNameForSelectionDecal</Flag>

@@ -484,8 +484,6 @@
 				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
 				<Target type="ProtoSquad">unsc_inf_rm_marinesiphon_01</Target>
-				<Target type="ProtoSquad">unsc_inf_rm_flameMarine_02</Target>
-				<Target type="ProtoSquad">unsc_inf_rm_marinesiphon_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_laser_01</Target>
 			</Effect>
 		</Effects>
@@ -672,9 +670,8 @@
 				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
 				<Target type="ProtoSquad">unsc_inf_rm_marinesiphon_01</Target>
-				<Target type="ProtoSquad">unsc_inf_rm_flameMarine_02</Target>
-				<Target type="ProtoSquad">unsc_inf_rm_marinesiphon_01</Target>
 				<Target type="ProtoSquad">unsc_inf_spartan_laser_01</Target>
+				<Target type="ProtoSquad">cov_inf_rm_bruteJumpPack_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -684,6 +681,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_spartan_chaingun_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_spartan_laser_01</Target>
 			</Effect>
@@ -1110,6 +1110,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_spartan_chaingun_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_spartan_laser_01</Target>
 			</Effect>
