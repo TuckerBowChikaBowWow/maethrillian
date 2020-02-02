@@ -1377,6 +1377,9 @@
 		<LeashDistance>73</LeashDistance>
 	</Squad>
 	<Squad name="cov_inf_bruteHonour_01_mp_blitz" parent_element="cov_inf_bruteHonour_01_base" dbid="2578682625095953063">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
 		<BuildPoints>30</BuildPoints>
 		<Cost ResourceType="Supplies">285</Cost>
 		<Cost ResourceType="Power">75</Cost>
@@ -1730,7 +1733,7 @@
 	<Squad name="cov_inf_bruteJumpPack_01_sp" parent_element="cov_inf_bruteJumpPack_01_base" dbid="1889929119706753225">
 		<LeashDistance>73</LeashDistance>
 	</Squad>
-	<Squad name="cov_inf_bruteJumpPack_01_mp_blitz" parent_element="cov_inf_bruteJumpPack_01_base" dbid="1887980785101941783">
+	<Squad name="cov_inf_generic_brutejumppack_blitz" parent_element="cov_inf_bruteJumpPack_01_base" dbid="1887980785101941783">
 		<BuildPoints>17</BuildPoints>
 		<Cost ResourceType="Supplies">90</Cost>
 		<Cost ResourceType="Power">50</Cost>
