@@ -11605,8 +11605,8 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="leader">unsc_inf_herodropodstRocket_01_mp</Unit>
-			<Unit count="4" role="normal">unsc_inf_herodropodst_02_mp</Unit>
+			<Unit count="2" role="leader">unsc_inf_herodropodstRocket_01_mp</Unit>
+			<Unit count="3" role="normal">unsc_inf_odst_01</Unit>
 		</Units>
 		<Pop Type="Unit">9</Pop>
 		<Flag>Repairable</Flag>
@@ -12379,6 +12379,7 @@
 		<Units>
 			<Unit count="1" role="normal">unsc_inf_odstsniper_01_mp</Unit>
 		</Units>
+		<HPBar offset="0,5.53499985,0">UNSC_HealthShield</HPBar>
 	</Squad>
 	<Squad name="unsc_inf_spartan_01" dbid="13960817158359654890">
 		<HealValue>1.29999995</HealValue>
