@@ -481,11 +481,12 @@
 				<Target type="ProtoSquad">flood_inf_vehinfectoraom_01</Target>
 				<Target type="ProtoSquad">flood_air_airborneinfectoraom_01</Target>
 				<Target type="ProtoSquad">flood_inf_spawneraom_01</Target>
-				<Target type="ProtoSquad">unsc_inf_rm_marinereflect_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
 				<Target type="ProtoSquad">unsc_inf_rm_marinesiphon_01</Target>
-				<Target type="ProtoSquad">unsc_veh_rm_scorpion_02</Target>
-				<Target type="ProtoSquad">unsc_air_rm_nightingale_02</Target>
-				<Target type="ProtoSquad">unsc_air_rm_wingmenhornet_01</Target>
+				<Target type="ProtoSquad">unsc_inf_rm_flameMarine_02</Target>
+				<Target type="ProtoSquad">unsc_inf_rm_marinesiphon_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_laser_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -668,11 +669,12 @@
 				<Target type="ProtoSquad">fld_veh_cryoscorpion_01</Target>
 				<Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_fear</Target>
 				<Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
-				<Target type="ProtoSquad">unsc_inf_rm_marinereflect_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
 				<Target type="ProtoSquad">unsc_inf_rm_marinesiphon_01</Target>
-				<Target type="ProtoSquad">unsc_veh_rm_scorpion_02</Target>
-				<Target type="ProtoSquad">unsc_air_rm_nightingale_02</Target>
-				<Target type="ProtoSquad">unsc_air_rm_wingmenhornet_01</Target>
+				<Target type="ProtoSquad">unsc_inf_rm_flameMarine_02</Target>
+				<Target type="ProtoSquad">unsc_inf_rm_marinesiphon_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_laser_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -683,34 +685,28 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_laser_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_rm_marinereflect_01</Target>
+				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_rm_marinesiphon_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_veh_rm_scorpion_02</Target>
+				<Target type="ProtoSquad">unsc_inf_rm_flameMarine_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_air_rm_nightingale_02</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_air_rm_wingmenhornet_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_omegateam_august_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_omegateam_leon_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_omegateam_robert_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_generic_odst</Target>
@@ -1091,6 +1087,21 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_air_corruptedlich_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_rm_banshee_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_rm_blisterback_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_rm_blisterback_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_rm_wraith_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_rm_bruteJumpPack_02</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="unsc_LeaderAllNEW" type="Normal">
@@ -1099,6 +1110,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_spartan_laser_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_generic_odst</Target>
 			</Effect>
@@ -1230,6 +1244,39 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_flameMarine_01_op</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_omegateam_august_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_omegateam_leon_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_omegateam_robert_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_flamecyclops_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_rm_marinesiphon_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_rm_flameMarine_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_air_rm_nightingale_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_air_rm_wingmenhornet_01</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscHeroism2</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscUnstableCon3</Effect>
@@ -1481,6 +1528,21 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_air_corruptedlich_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_rm_banshee_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_rm_blisterback_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_rm_blisterback_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_rm_wraith_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_inf_rm_bruteJumpPack_02</Target>
 			</Effect>
 		</Effects>
 	</Tech>
