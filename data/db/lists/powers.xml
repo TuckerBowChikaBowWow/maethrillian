@@ -4358,7 +4358,7 @@
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">50</Data>
-				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="BuffDuration">5000</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
@@ -4376,7 +4376,7 @@
 			</DataLevel>
 			<DataLevel level="1">
 				<Data type="float" name="AreaRadius">90</Data>
-				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="BuffDuration">5000</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
@@ -4398,7 +4398,7 @@
 			</DataLevel>
 			<DataLevel level="2">
 				<Data type="float" name="AreaRadius">120</Data>
-				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="BuffDuration">5000</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
@@ -4447,7 +4447,7 @@
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">40</Data>
-				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="BuffDuration">5000</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
@@ -4465,7 +4465,7 @@
 			</DataLevel>
 			<DataLevel level="1">
 				<Data type="float" name="AreaRadius">40</Data>
-				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="BuffDuration">5000</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
@@ -4483,7 +4483,7 @@
 			</DataLevel>
 			<DataLevel level="2">
 				<Data type="float" name="AreaRadius">40</Data>
-				<Data type="float" name="BuffDuration">10</Data>
+				<Data type="float" name="BuffDuration">5000</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
@@ -8512,7 +8512,7 @@
 			<DataLevel level="0">
 				<Data type="float" name="AreaRadius">14</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
-				<Data type="float" name="BuffDuration">20</Data>
+				<Data type="float" name="BuffDuration">5000</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="SlowModifier">1.29999995</Data>
@@ -12125,7 +12125,7 @@
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
-				<Data type="float" name="BuffDuration">6</Data>
+				<Data type="float" name="BuffDuration">5000</Data>
 				<Data type="float" name="DamageDealtModifier">1.5</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_bloodlustactivate_01</Data>
 			</DataLevel>
@@ -18058,7 +18058,7 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterType2">TurretBuilding</Data>
 				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
-				<Data type="float" name="BuffDuration">18</Data>
+				<Data type="float" name="BuffDuration">5000</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="bool" name="AffectsAllByFilterType">true</Data>
@@ -21378,7 +21378,7 @@
 				<Data type="objecttype" name="FilterType">Aircraft</Data>
 				<Data type="objecttype" name="FilterType2">GroundVehicle</Data>
 				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
-				<Data type="float" name="BuffDuration">13</Data>
+				<Data type="float" name="BuffDuration">5000</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageDealtModifier">1.29999995</Data>
 				<Data type="sound" name="HudUpSound" />
@@ -21422,7 +21422,7 @@
 				<Data type="objecttype" name="FilterType">Aircraft</Data>
 				<Data type="objecttype" name="FilterType2">GroundVehicle</Data>
 				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
-				<Data type="float" name="BuffDuration">18</Data>
+				<Data type="float" name="BuffDuration">5000</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageDealtModifier">1.39999998</Data>
 				<Data type="sound" name="HudUpSound" />
@@ -27836,7 +27836,7 @@
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
-				<Data type="float" name="BuffDuration">5.5</Data>
+				<Data type="float" name="BuffDuration">5000</Data>
 				<Data type="float" name="DamageMitigationScalar">0.400000006</Data>
 				<Data type="float" name="DamageDealtModifier">1.20000005</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_invulnerability</Data>
@@ -39190,7 +39190,7 @@
 				<Data type="objecttype" name="FilterType">Unit</Data>
 				<Data type="objecttype" name="FilterExcludeType">UberUnit</Data>
 				<Data type="objecttype" name="FilterExcludeType2">HoloDecoy</Data>
-				<Data type="float" name="BuffDuration">26</Data>
+				<Data type="float" name="BuffDuration">5000</Data>
 				<Data type="float" name="SlowModifier">1.14999998</Data>
 				<Data type="float" name="DamageDealtModifier">1.29999995</Data>
 				<Data type="bool" name="ProcPowerOnSquadDeath">true</Data>
