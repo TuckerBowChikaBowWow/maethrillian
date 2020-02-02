@@ -270,7 +270,7 @@
 	<Action>
 		<Name>AreaBuff</Name>
 		<ActionType>AreaBuff</ActionType>
-		<WorkRange>25</WorkRange>
+		<WorkRange>150</WorkRange>
 		<SpecificData>
 			<BuffParams BuffType="MethaneBuff" DamageMitigationScalar="0.800000012" DamageDealtModifier="1.20000005">1.0f</BuffParams>
 			<TargetTypes>
@@ -299,7 +299,7 @@
 	<Action>
 		<Name>AreaBuffUpgrade</Name>
 		<ActionType>AreaBuff</ActionType>
-		<WorkRange>35</WorkRange>
+		<WorkRange>150</WorkRange>
 		<SpecificData>
 			<BuffParams BuffType="MethaneBuff" DamageMitigationScalar="0.800000012" DamageDealtModifier="1.20000005">1.0f</BuffParams>
 			<TargetTypes>
