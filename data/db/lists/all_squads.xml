@@ -2020,6 +2020,40 @@
 	<Squad name="cov_inf_eliteCommando_01_sp" parent_element="cov_inf_eliteCommando_01_base" dbid="7467523159594432857">
 		<LeashDistance>73</LeashDistance>
 	</Squad>
+	<Squad name="cov_inf_eliteCommando_01_sword" parent_element="cov_inf_eliteCommando_01_base" dbid="7496255597457165959">
+		<HealValue>1.3</HealValue>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">285</Cost>
+		<Cost ResourceType="Power">75</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<FrozenThreshold>400</FrozenThreshold>
+		<ShatterThreshold>3000</ShatterThreshold>
+		<DamageOnShatter>7000</DamageOnShatter>
+		<ChillDecayPerSecond>80</ChillDecayPerSecond>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_eliteCommando_01_sword</Unit>
+		</Units>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+	</Squad>
+	<Squad name="cov_inf_eliteCommando_01_normal" parent_element="cov_inf_eliteCommando_01_base" dbid="7496255597457165959">
+		<HealValue>1.3</HealValue>
+		<BuildPoints>30</BuildPoints>
+		<Cost ResourceType="Supplies">285</Cost>
+		<Cost ResourceType="Power">75</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<FrozenThreshold>400</FrozenThreshold>
+		<ShatterThreshold>3000</ShatterThreshold>
+		<DamageOnShatter>7000</DamageOnShatter>
+		<ChillDecayPerSecond>80</ChillDecayPerSecond>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_eliteCommando_01_normal</Unit>
+		</Units>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+	</Squad>
 	<Squad name="fld_custom_weakswordelite" dbid="3238269967063524271">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
