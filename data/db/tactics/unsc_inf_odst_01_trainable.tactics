@@ -106,7 +106,7 @@
 		<Name>RocketWeapon</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>100</DamagePerSecond>
-		<WeaponType>MediumArms</WeaponType>
+		<WeaponType>AntiBuildingFire</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
@@ -122,6 +122,7 @@
 		<TargetPriority type="GroundVehicle">4</TargetPriority>
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
+		<DamageModifier rating="1" type="Building">4</DamageModifier>
 		<Hardpoint>Torso</Hardpoint>
 		<ProjectileLaunchDirY />
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>

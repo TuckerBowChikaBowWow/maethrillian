@@ -30,7 +30,7 @@
   <Weapon>
     <Name>CryoRay</Name>
     <AttackRate>0.125</AttackRate>
-    <DamagePerSecond>33.00</DamagePerSecond>
+    <DamagePerSecond>45.00</DamagePerSecond>
     <WeaponType>ChainGun</WeaponType>
     <Projectile>fx_proj_pegasus_cryobeam</Projectile>
     <ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
@@ -53,7 +53,7 @@
    <Weapon>
       <Name>Cannon</Name>
       <AttackRate>3.0</AttackRate>
-      <DamagePerSecond>155.0</DamagePerSecond>
+      <DamagePerSecond>190.0</DamagePerSecond>
       <WeaponType>TankExplosive</WeaponType>
       <Projectile>fx_proj_cannon_03</Projectile>
       <ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>
@@ -97,9 +97,9 @@
    <Weapon>
       <Name>SpecialAttack</Name>
       <AttackRate>45.0</AttackRate>
-      <DamagePerSecond>1200.00</DamagePerSecond>
+      <DamagePerSecond>1300.00</DamagePerSecond>
       <UseDPSasDPA />
-    <WeaponType>Grenade</WeaponType>
+    <WeaponType>TankSpecial</WeaponType>
       <Projectile>fx_proj_seismicshell_01</Projectile>
       <ImpactEffect size="Medium" alwaysHorizontal="true">SeismicCharge1</ImpactEffect>
       <Shatter TargetType="Unit" />

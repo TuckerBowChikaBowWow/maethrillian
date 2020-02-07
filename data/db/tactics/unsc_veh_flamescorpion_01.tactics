@@ -99,7 +99,7 @@
    <Weapon>
       <Name>Cannon</Name>
       <AttackRate>3.0</AttackRate>
-      <DamagePerSecond>155.0</DamagePerSecond>
+      <DamagePerSecond>200.0</DamagePerSecond>
       <WeaponType>TankExplosive</WeaponType>
       <Projectile>fx_proj_cannon_03</Projectile>
       <ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>
@@ -143,9 +143,9 @@
    <Weapon>
       <Name>SpecialAttack</Name>
       <AttackRate>45.0</AttackRate>
-      <DamagePerSecond>1400.00</DamagePerSecond>
+      <DamagePerSecond>2000.00</DamagePerSecond>
       <UseDPSasDPA />
-   	<WeaponType>Grenade</WeaponType>
+   	<WeaponType>TankSpecial</WeaponType>
       <Projectile>fx_proj_canistershell_01</Projectile>
       <ImpactEffect size="Medium" alwaysHorizontal="true">CanisterExplosion</ImpactEffect>
       <MaxVelocityLead>20</MaxVelocityLead>

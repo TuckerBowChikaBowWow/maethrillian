@@ -8872,7 +8872,8 @@
 			<Effect type="UnlockableGodPower" tier="2" prereq="UnscBunkerDrop1_MP">UnscBunkerDrop2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3">JohnsonEMPBlast1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="JohnsonEMPBlast1">JohnsonEMPBlast2</Effect>
-			<Effect type="UnlockableGodPower" tier="3">JohnsonMapAwareness1</Effect>
+			<Effect type="UnlockableGodPower" tier="3">Jerome_BattleAPC</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="Jerome_BattleAPC">JohnsonMapAwareness1</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscHeroism1</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="UnscHeroism1">UnscHeroism2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">JohnsonMechBuff</Effect>
@@ -10721,11 +10722,11 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
 				<Target type="ProtoUnit">cov_inf_hereticleaderclone_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.5" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
 				<Target type="ProtoUnit">cov_inf_hereticleaderclone_01</Target>
 			</Effect>
