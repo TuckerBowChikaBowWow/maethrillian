@@ -16504,6 +16504,27 @@
 			<Effect type="SquadCounter" NewCounterName="AtrioxChosen_02">
 				<Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="1.35000002" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="1.35000002" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AOEBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AirAOEBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="BrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AirBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="cov_atrioxchosen_upgrade2" type="Normal">
@@ -16546,6 +16567,27 @@
 			<Effect type="SquadCounter" NewCounterName="AtrioxChosen_03">
 				<Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="1.70000005" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="1.70000005" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AOEDOTBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AirAOEDOTBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AOEBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AirAOEBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="cov_atrioxchosen_upgrade3" type="Normal">
@@ -16587,6 +16629,27 @@
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="AtrioxChosen_04">
 				<Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="1.79999995" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="1.79999995" subtype="Shieldpoints" relativity="Percent">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="LongAOEDOTBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="AirLongAOEDOTBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AOEDOTBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="AirAOEDOTBrutegunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_inf_corruptedwarlord_01_warlord</Target>
 			</Effect>
 		</Effects>
 	</Tech>

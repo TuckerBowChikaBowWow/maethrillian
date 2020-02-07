@@ -1137,6 +1137,35 @@
 	<Squad name="cov_inf_atrioxchosen_01_sp" parent_element="cov_inf_atrioxchosen_01_base" dbid="14267739596009274637">
 		<LeashDistance>15</LeashDistance>
 	</Squad>
+	<Squad name="cov_inf_atrioxchosen_01_mp_crazy" parent_element="cov_inf_atrioxchosen_01_base" dbid="14258138660473628435">
+		<BuildPoints>55</BuildPoints>
+		<Cost ResourceType="Supplies">300</Cost>
+		<Cost ResourceType="Power">275</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<FrozenThreshold>400</FrozenThreshold>
+		<ShatterThreshold>3000</ShatterThreshold>
+		<DamageOnShatter>7000</DamageOnShatter>
+		<ChillDecayPerSecond>80</ChillDecayPerSecond>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_atrioxchosen_01_mp_crazy</Unit>
+		</Units>
+	</Squad>
+	<Squad name="cov_inf_corruptedwarlord_01_warlord" parent_element="cov_inf_atrioxchosen_01_base" dbid="14258138660473628435">
+		<BuildPoints>55</BuildPoints>
+		<Cost ResourceType="Supplies">300</Cost>
+		<Cost ResourceType="Power">275</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<FrozenThreshold>400</FrozenThreshold>
+		<ShatterThreshold>3000</ShatterThreshold>
+		<DamageOnShatter>7000</DamageOnShatter>
+		<ChillDecayPerSecond>80</ChillDecayPerSecond>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_corruptedwarlord_01_warlord</Unit>
+		</Units>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+	</Squad>
 	<Squad name="fld_custom_bruteshot" dbid="17750208265744882891">
 		<CombatRank>9</CombatRank>
 		<HealValue>1.69</HealValue>
@@ -1910,6 +1939,22 @@
 	</Squad>
 	<Squad name="cov_inf_corruptedwarlord_01_sp" parent_element="cov_inf_corruptedwarlord_01_base" dbid="13146570298214245745">
 		<LeashDistance>73</LeashDistance>
+	</Squad>
+	<Squad name="cov_inf_corruptedwarlord_01_warlord_blitz" parent_element="cov_inf_corruptedwarlord_01_base" dbid="13129387130491970287">
+		<BuildPoints>55</BuildPoints>
+		<FrozenThreshold>400</FrozenThreshold>
+		<ShatterThreshold>3000</ShatterThreshold>
+		<DamageOnShatter>7000</DamageOnShatter>
+		<ChillDecayPerSecond>80</ChillDecayPerSecond>
+		<Cost ResourceType="Supplies">300</Cost>
+		<Cost ResourceType="Power">275</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_corruptedwarlord_01_warlord_blitz</Unit>
+		</Units>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
 	<Squad name="cov_inf_decimus_base" dbid="8526262054344364042" formationType="Line">
 		<HealValue>1.29999995</HealValue>
