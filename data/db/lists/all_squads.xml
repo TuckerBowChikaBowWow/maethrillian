@@ -1156,6 +1156,22 @@
 		<Flag>UseNameForSelectionIcon</Flag>
 		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
+	<Squad name="cov_inf_atrioxchosen_01_mp_evencrazier" parent_element="cov_inf_atrioxchosen_01_base" dbid="14258138660473628435">
+		<BuildPoints>55</BuildPoints>
+		<Cost ResourceType="Supplies">300</Cost>
+		<Cost ResourceType="Power">275</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<FrozenThreshold>400</FrozenThreshold>
+		<ShatterThreshold>3000</ShatterThreshold>
+		<DamageOnShatter>7000</DamageOnShatter>
+		<ChillDecayPerSecond>80</ChillDecayPerSecond>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_atrioxchosen_01_mp_evencrazier</Unit>
+		</Units>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+	</Squad>
 	<Squad name="cov_inf_corruptedwarlord_01_warlord" parent_element="cov_inf_atrioxchosen_01_base" dbid="14258138660473628435">
 		<BuildPoints>55</BuildPoints>
 		<Cost ResourceType="Supplies">300</Cost>
