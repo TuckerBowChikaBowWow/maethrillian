@@ -8,8 +8,6 @@
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
 				<file>units/covenant/infantry/stormelitesniper01/mesh_stormelite01</file>
 			</asset>
-			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_magnum_01" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_magnum_01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</component>
 		<anim type="fatality_spartan05_v_eliteranger01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -28,6 +26,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.748000026" end="1" name="PLAY_SFX_3D_Fatality_BodyFallHeavy_SmallUnit" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.882000029" end="1" name="PLAY_SFX_3D_Fatality_BodyFallLight" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_spartan04_v_eliteranger01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -46,6 +46,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.748000026" end="1" name="PLAY_SFX_3D_Fatality_BodyFallHeavy_SmallUnit" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.882000029" end="1" name="PLAY_SFX_3D_Fatality_BodyFallLight" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_spartan03_v_eliteranger01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -64,6 +66,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.748000026" end="1" name="PLAY_SFX_3D_Fatality_BodyFallHeavy_SmallUnit" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.882000029" end="1" name="PLAY_SFX_3D_Fatality_BodyFallLight" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_spartan02_v_eliteranger01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -82,6 +86,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.748000026" end="1" name="PLAY_SFX_3D_Fatality_BodyFallHeavy_SmallUnit" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.882000029" end="1" name="PLAY_SFX_3D_Fatality_BodyFallLight" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_jpbrute01_v_eliteranger01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -107,6 +113,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.827000022" end="1" name="DIA_3D_WAL_EGSQL_Death" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.89200002" end="1" name="PLAY_SFX_3D_Fatality_BodyFallLight" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_brutehon01_v_eliteranger01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -129,6 +137,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.736999989" end="1" name="DIA_3D_WAL_EGSQL_Death" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.787999988" end="1" name="PLAY_SFX_3D_Fatality_BodyFallLight" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_elitehon01_v_eliteranger01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -147,6 +157,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.82099998" end="1" name="DIA_3D_WAL_EGSQL_Death" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.899999976" end="1" name="PLAY_SFX_3D_Fatality_BodyFallLight" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="JogIdle" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -156,12 +168,16 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.280000001" end="1" name="PLAY_SFX_3D_FTS_COV_EliteHonourGuardRun" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.699999988" end="1" name="PLAY_SFX_3D_FTS_COV_EliteHonourGuardWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="IdleJog" exitAction="Transition" tweenTime="15" tweenToAnimation="Jog" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>dlc2/pack2/animations/covenant/infantry/eliteassault01/eliteassault_idle_to_run</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="RunIdle" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -171,12 +187,16 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.280000001" end="1" name="PLAY_SFX_3D_FTS_COV_EliteHonourGuardRun" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.699999988" end="1" name="PLAY_SFX_3D_FTS_COV_EliteHonourGuardWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="IdleRun" exitAction="Transition" tweenTime="15" tweenToAnimation="Run" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>dlc2/pack2/animations/covenant/infantry/eliteassault01/eliteassault_idle_to_run</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="WalkIdle" exitAction="Transition" tweenTime="15" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -186,12 +206,16 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.324000001" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.862999976" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="IdleWalk" exitAction="Transition" tweenTime="15" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>dlc2/pack2/animations/covenant/infantry/eliteassault01/eliteassault_idle_to_walk</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="TurnRight" exitAction="Loop" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -201,6 +225,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.5" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.800000012" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="TurnLeft" exitAction="Loop" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -210,6 +236,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.107000001" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.800000012" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="DeathByMelee" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -240,6 +268,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.419999987" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.603999972" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperFallHard" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="DeathByMachinegun" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -270,6 +300,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.419999987" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.603999972" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperFallHard" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="DeathByFire" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -298,6 +330,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.419999987" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.603999972" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperFallHard" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="CombatIdle" exitAction="Transition" tweenTime="15" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -311,17 +345,19 @@
 				<file>dlc2/pack2/animations/covenant/infantry/eliteassault01/eliteassault_idle01</file>
 				<weight>5</weight>
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Attack" exitAction="Transition" tweenTime="15" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>dlc2/pack2/animations/covenant/infantry/eliteassault01/eliteassault_attack01</file>
 				<weight>1</weight>
 				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Attack" start="0" position_type="Time" position="0.277999997" end="1" tobone="bone_vfx_MuzzlePointLeft" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Particle" start="0" position_type="Time" position="0.277999997" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="bone_vfx_MuzzlePointLeft" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.277999997" end="1" tobone="b_hand_grip_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.277999997" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="b_hand_grip_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.277999997" end="1" name="PLAY_SFX_3D_WPN_UNSC_SpartanMagnum" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Attack" start="0" position_type="Time" position="0.518000007" end="1" tobone="bone_vfx_MuzzlePointLeft" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Particle" start="0" position_type="Time" position="0.518000007" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="bone_vfx_MuzzlePointLeft" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.518000007" end="1" tobone="b_hand_grip_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.518000007" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="b_hand_grip_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.518000007" end="1" name="PLAY_SFX_3D_WPN_UNSC_SpartanMagnum" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<asset type="Anim">
@@ -329,24 +365,30 @@
 				<weight>1</weight>
 				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.324000001" end="1" name="PLAY_SFX_3D_WPN_UNSC_SpartanMagnum" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Particle" start="0" position_type="Time" position="0.324000001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="bone_vfx_MuzzlePointRight" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Attack" start="0" position_type="Time" position="0.324000001" end="1" tobone="bone_vfx_MuzzlePointRight" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Attack" start="0" position_type="Time" position="0.56400001" end="1" tobone="bone_vfx_MuzzlePointRight" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Particle" start="0" position_type="Time" position="0.56400001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="bone_vfx_MuzzlePointRight" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.324000001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="b_hand_grip_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.324000001" end="1" tobone="b_hand_grip_right" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.56400001" end="1" tobone="b_hand_grip_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.56400001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="b_hand_grip_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.56400001" end="1" name="PLAY_SFX_3D_WPN_UNSC_SpartanMagnum" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Repair" exitAction="Transition" tweenTime="0" tweenToAnimation="Repair" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>dlc2/pack2/animations/covenant/infantry/eliteassault01/eliteassault_idle01</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Build" exitAction="Transition" tweenTime="10" tweenToAnimation="Build" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>dlc2/pack2/animations/covenant/infantry/eliteassault01/eliteassault_idle01</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Gather" exitAction="Transition" tweenTime="10" tweenToAnimation="Gather" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -357,6 +399,8 @@
 				<file>dlc2/pack2/animations/covenant/infantry/eliteassault01/eliteassault_gather02</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Stunned" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -364,6 +408,8 @@
 				<weight>1</weight>
 				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="DIA_3D_WAL_CRBEL_Pain" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Spin" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -378,6 +424,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.723999977" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.92900002" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Flail" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -392,6 +440,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.723999977" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.92900002" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -421,6 +471,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.505999982" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperFallHard" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Particle" start="0" position_type="Time" position="0.578999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedImpactVFX/EliteDeathBlood" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Run" exitAction="Loop" tweenTime="15" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -440,6 +492,8 @@
 			</asset>
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/CyclopsFootTrail" tobone="b_foot_left" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/CyclopsFootTrail" tobone="b_foot_right" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Jog" exitAction="Loop" tweenTime="15" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -459,6 +513,8 @@
 			</asset>
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/CyclopsFootTrail" tobone="b_foot_left" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/CyclopsFootTrail" tobone="b_foot_right" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Walk" exitAction="Loop" tweenTime="15" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -472,6 +528,8 @@
 			</asset>
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/CyclopsFootTrail" tobone="b_foot_left" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/CyclopsFootTrail" tobone="b_foot_right" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Idle" exitAction="Transition" tweenTime="15" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -479,6 +537,8 @@
 				<weight>10</weight>
 			</asset>
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/CyclopsFootIdle" tobone="GrannyRootBone_stormelite01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Cower" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -519,6 +579,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.810000002" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.879999995" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="AttackMove" exitAction="Transition" tweenTime="15" tweenToAnimation="Jog" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -527,21 +589,23 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.00600000005" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.165999994" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperRun" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.257999986" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Attack" start="0" position_type="Time" position="0.342000008" end="1" tobone="bone_vfx_MuzzlePointLeft" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Particle" start="0" position_type="Time" position="0.342000008" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="bone_vfx_MuzzlePointLeft" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.342000008" end="1" tobone="b_hand_grip_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.342000008" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="b_hand_grip_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.342000008" end="1" name="PLAY_SFX_3D_WPN_UNSC_SpartanMagnum" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.423000008" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperRun" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Attack" start="0" position_type="Time" position="0.442000002" end="1" tobone="bone_vfx_MuzzlePointLeft" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Particle" start="0" position_type="Time" position="0.442000002" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="bone_vfx_MuzzlePointLeft" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.442000002" end="1" tobone="b_hand_grip_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.442000002" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="b_hand_grip_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.472000003" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Attack" start="0" position_type="Time" position="0.541999996" end="1" tobone="bone_vfx_MuzzlePointLeft" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Particle" start="0" position_type="Time" position="0.541999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="bone_vfx_MuzzlePointLeft" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Attack" start="0" position_type="Time" position="0.64200002" end="1" tobone="bone_vfx_MuzzlePointLeft" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
-				<tag type="Particle" start="0" position_type="Time" position="0.64200002" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="bone_vfx_MuzzlePointLeft" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.541999996" end="1" tobone="b_hand_grip_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.541999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="b_hand_grip_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.64200002" end="1" tobone="b_hand_grip_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.64200002" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SniperRifleMuzzl" tobone="b_hand_grip_left" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.66900003" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperRun" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.736000001" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.925999999" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperRun" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="AttackGrenade" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -553,6 +617,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.42899999" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.74000001" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Knockdown" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -582,6 +648,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.725000024" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.779999971" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Capture" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -591,6 +659,8 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.529999971" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.699999988" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="StasisGrenade" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -602,12 +672,16 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.42899999" end="1" name="PLAY_SFX_3D_FTS_COV_EliteSniperWalk" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.74000001" end="1" name="PLAY_SFX_3D_FLY_COV_EliteSniperMoveShort" tobone="GrannyRootBone_stormelite01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Transform" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>episode2/pack1/animations/flood/infantry/infectedelitecarbine_01/carbineelite_transform01</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="magnumleft" tobone="b_hand_grip_left" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="magnumright" tobone="b_hand_grip_right" frombone="GrannyRootBone_carbine01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 	</model>
 	<model name="magnumleft">
