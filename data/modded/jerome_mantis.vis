@@ -14,25 +14,13 @@
 			<attach type="ModelRef" name="missle_launchers" tobone="socketbone_rocketarms_0" frombone="GrannyRootBone_rocketarms_0" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/HeroGodRay" tobone="GrannyRootBone_body_0" syncanims="false" disregardorient="true" removeimmediately="false" />
 		</component>
-		<anim type="Attack" exitAction="Transition" tweenTime="0" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
-			<asset type="Anim">
-				<file>dlc2/pack1/animations/unsc/vehicles/jerome_mantis/mantis_Idle_main01</file>
-				<weight>1</weight>
-			</asset>
-		</anim>
 		<anim type="UpgradeAttack" exitAction="Transition" tweenTime="0" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
-			<file>dlc2/pack1/animations/unsc/vehicles/jerome_mantis/mantis_Idle_main01</file>
+				<file>dlc2/pack1/animations/unsc/vehicles/jerome_mantis/mantis_Idle_body01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
 		<anim type="WalkUpgradeAttack" exitAction="Transition" tweenTime="15" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
-			<asset type="Anim">
-				<file>dlc2/pack1/animations/unsc/vehicles/jerome_mantis/mantis_walk01_main</file>
-				<weight>1</weight>
-			</asset>
-		</anim>
-		<anim type="WalkAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>dlc2/pack1/animations/unsc/vehicles/jerome_mantis/mantis_walk01_main</file>
 				<weight>1</weight>
@@ -198,25 +186,13 @@
 			</asset>
 			<attach type="ModelRef" name="body_0" tobone="socketbone_body_0" frombone="GrannyRootBone_body_0" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</component>
-		<anim type="Attack" exitAction="Transition" tweenTime="0" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+		<anim type="UpgradeAttack" exitAction="Transition" tweenTime="0" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>dlc2/pack1/animations/unsc/vehicles/jerome_mantis/mantis_Idle_main01</file>
 				<weight>1</weight>
 			</asset>
 		</anim>
-		<anim type="UpgradeAttack" exitAction="Transition" tweenTime="0" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
-			<asset type="Anim">
-			<file>dlc2/pack1/animations/unsc/vehicles/jerome_mantis/mantis_Idle_main01</file>
-				<weight>1</weight>
-			</asset>
-		</anim>
 		<anim type="WalkUpgradeAttack" exitAction="Transition" tweenTime="15" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
-			<asset type="Anim">
-				<file>dlc2/pack1/animations/unsc/vehicles/jerome_mantis/mantis_walk01_main</file>
-				<weight>1</weight>
-			</asset>
-		</anim>
-		<anim type="WalkAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>dlc2/pack1/animations/unsc/vehicles/jerome_mantis/mantis_walk01_main</file>
 				<weight>1</weight>
