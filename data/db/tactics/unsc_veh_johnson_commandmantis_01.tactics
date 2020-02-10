@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Chaingun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>132</DamagePerSecond>
+		<DamagePerSecond>163</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_chaingunmantis_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -30,7 +30,7 @@
 	<Weapon>
 		<Name>MissilePod</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>72</DamagePerSecond>
+		<DamagePerSecond>156</DamagePerSecond>
 		<WeaponType>Missile</WeaponType>
 		<Projectile>fx_proj_johnson_mantis_missile_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">UNSCAntiAirExplosion</ImpactEffect>
@@ -80,9 +80,9 @@
 		<Name>MissileLaunchers</Name>
 		<AttackRate>3</AttackRate>
 		<DamagePerSecond>450</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
-		<Projectile>fx_proj_jerome_mech_missile_01</Projectile>
-		<ImpactEffect size="Medium" alwaysHorizontal="true">UNSCAntiAirExplosion</ImpactEffect>
+		<WeaponType>AntiAir</WeaponType>
+		<Projectile>fx_proj_engmissile_01</Projectile>
+		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
 		<MaxRange>95</MaxRange>
 		<MinRange>25</MinRange>
@@ -260,6 +260,7 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
 			<Action>HeavyMissileLaunchersAttackAction</Action>
 			<RequireHavingGarrisonedSquads />
 		</TargetRule>
