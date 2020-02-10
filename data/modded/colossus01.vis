@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="colossus01">
+	<model name="colossus01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc3\pack1\units\unsc\vehicles\colossus01\mesh_colossus01</file>
+				<damagefile>dlc3/pack1/units/unsc/vehicles/colossus01/colossus01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="body" tobone="socketbone_upperbody_0" frombone="GrannyRootBone_upperbody_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="FoliageForceFile" name="Foliage/gorgon" tobone="bone_vfx_RightFoot" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="FoliageForceFile" name="Foliage/gorgon" tobone="bone_vfx_LeftFoot" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<point pointType="Board" bone="b_hijack_0" pointData="Metal" />
+		</component>
+		<anim type="Train" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_drop</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/dlc3/Units/ColossusDropTrail" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="19.0200005" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_DropProjectile" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0799999982" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_DropImpact" tobone="GrannyRootBone_colossus01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.108999997" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonLand" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="AdvancedCameraShake" start="0" position_type="Time" position="0.135000005" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.00999999978" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.00999999978" fadeOutTime="0.899999976" translationStrength="1.10000002" translationFrequency="1.10000002" yawPitchStrength="3" rollStrength="2" rotationFrequency="3.5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.42899999" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.448000014" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.533999979" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.693000019" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.754999995" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.754999995" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_combat_idle02</file>
+				<weight>3</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.245000005" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.263999999" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.289999992" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFoot" tobone="bone_vfx_RightFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.300999999" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.712000012" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.760999978" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.778999984" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.791000009" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFoot" tobone="bone_vfx_LeftFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFootTrail" tobone="bone_vfx_RightFoot" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFootTrail" tobone="bone_vfx_LeftFoot" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="IdleWalk" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle_to_walk</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.57099998" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.723999977" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.769999981" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFoot" tobone="bone_vfx_LeftFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFootTrail" tobone="bone_vfx_LeftFoot" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="WalkIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_to_idle</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.324999988" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.361999989" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.400000006" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFoot" tobone="bone_vfx_RightFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFootTrail" tobone="bone_vfx_RightFoot" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Flail" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_flail</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Support" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_combat_idle01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Stunned" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_stunned</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/MediumElectricalArc" tobone="bone_vfx_StunElecPoint2" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/MediumElectricalArc" tobone="bone_vfx_StunElecPoint3" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_death01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Death" tobone="GrannyRootBone_colossus01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0299999993" end="1" name="PLAY_SFX_3D_VFX_SmallVehicleExplosion" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0920000002" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.159999996" end="1" name="PLAY_SFX_3D_VFX_SmallVehicleExplosion" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.319999993" end="1" name="PLAY_SFX_3D_VFX_MediumDestruction" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.689999998" end="1" name="PLAY_SFX_3D_VFX_MediumDestruction" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Deploy" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_drop</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/dlc3/Units/ColossusDropTrail" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="19.0200005" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_DropProjectile" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0799999982" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_DropImpact" tobone="GrannyRootBone_colossus01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.108999997" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonLand" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="AdvancedCameraShake" start="0" position_type="Time" position="0.135000005" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.00999999978" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.00999999978" fadeOutTime="0.899999976" translationStrength="1.10000002" translationFrequency="1.10000002" yawPitchStrength="3" rollStrength="2" rotationFrequency="3.5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.42899999" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.448000014" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.533999979" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.693000019" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.754999995" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.754999995" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/spartan_hijack_colossus_in</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.00600000005" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_HijackSuspension" tobone="GrannyRootBone_colossus01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0250000004" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_HijackClank" tobone="GrannyRootBone_colossus01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.675000012" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_HijackSuspension" tobone="GrannyRootBone_colossus01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.754999995" end="1" name="PLAY_SFX_3D_VFX_SpartanHijackEMPChargeLoop" tobone="GrannyRootBone_grizzly01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/spartan_hijack_colossus_loop</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateExit" position="0" end="1" name="STOP_SFX_3D_VFX_SpartanHijackEMPChargeLoop" tobone="GrannyRootBone_grizzly01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.349999994" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_HijackHydraulics" tobone="GrannyRootBone_colossus01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.785000026" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_HijackClank" tobone="GrannyRootBone_colossus01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.797999978" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_HijackSuspension" tobone="GrannyRootBone_colossus01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_turn_left</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.0610000007" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.178000003" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.287999988" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.448000014" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.509000003" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.736000001" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.889999986" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_turn_right</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.0859999657" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.178000003" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.287999988" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.42899999" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.527999997" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.785000026" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.883000016" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.907999992" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="AttackMove" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_attack</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.0979999974" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.123000003" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.159999996" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.601000011" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.620000005" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.66900003" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Cower" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AttackStomp" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_stomp01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_StompAnim" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_StompServo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.486000001" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Stomp" tobone="GrannyRootBone_colossus01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.49000001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonLand" tobone="bone_vfx_LeftFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="AdvancedCameraShake" start="0" position_type="Time" position="0.49000001" end="1" tobone="bone_vfx_LeftFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.00999999978" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.00999999978" fadeOutTime="0.600000024" translationStrength="0" translationFrequency="4" yawPitchStrength="4.5" rollStrength="1.5" rotationFrequency="4" />
+				<tag type="Attack" start="0" position_type="Time" position="0.49000001" end="1" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.49000001" end="1" name="vfx/dlc3/Units/ColossusStompShockwave" tobone="bone_vfx_LeftFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.49000001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/WarthogGaussMuzzle" tobone="bone_vfx_LeftFoot" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.870000005" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.949999988" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="RailgunAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_attack02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.0429999828" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_RailgunAttack_A" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.712000012" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_RailgunAttack_B" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_drop</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/dlc3/Units/ColossusDropTrail" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_DropProjectile" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0949999988" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_DropImpact" tobone="GrannyRootBone_colossus01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.119999997" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonLand" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="AdvancedCameraShake" start="0" position_type="Time" position="0.135000005" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.00999999978" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.00999999978" fadeOutTime="0.899999976" translationStrength="1.10000002" translationFrequency="1.10000002" yawPitchStrength="3" rollStrength="2" rotationFrequency="3.5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.460000008" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.483999997" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.651000023" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.823000014" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.898000002" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.943000019" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="CombatIdle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_combat_idle02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.245000005" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.263999999" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.289999992" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFoot" tobone="bone_vfx_RightFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.300999999" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.712000012" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.760999978" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.778999984" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.791000009" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFoot" tobone="bone_vfx_LeftFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFootTrail" tobone="bone_vfx_RightFoot" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFootTrail" tobone="bone_vfx_LeftFoot" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="IdleJog" exitAction="Transition" tweenTime="10" tweenToAnimation="Jog" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle_to_walk</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.57099998" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.723999977" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.769999981" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFoot" tobone="bone_vfx_LeftFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFootTrail" tobone="bone_vfx_LeftFoot" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_to_idle</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.324999988" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.361999989" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.400000006" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFoot" tobone="bone_vfx_RightFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFootTrail" tobone="bone_vfx_RightFoot" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.245000005" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.263999999" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.289999992" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFoot" tobone="bone_vfx_RightFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.300999999" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.712000012" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.760999978" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.778999984" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.791000009" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFoot" tobone="bone_vfx_LeftFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFootTrail" tobone="bone_vfx_RightFoot" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFootTrail" tobone="bone_vfx_LeftFoot" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="IdleRun" exitAction="Transition" tweenTime="10" tweenToAnimation="Run" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle_to_walk</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.57099998" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Servo" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.723999977" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.769999981" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFoot" tobone="bone_vfx_LeftFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFootTrail" tobone="bone_vfx_LeftFoot" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="RunIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_to_idle</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.324999988" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Footstep" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.361999989" end="1" name="PLAY_SFX_3D_VEH_UNSC_Colossus_Clank" tobone="GrannyRootBone_colossus01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="TerrainEffect" start="0" position_type="Time" position="0.400000006" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFoot" tobone="bone_vfx_RightFoot" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GorgonFootTrail" tobone="bone_vfx_RightFoot" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+	</model>
+	<model name="body">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc3/pack1/units/unsc/vehicles/colossus01/mesh_upperbody_0</file>
+				<damagefile>dlc3/pack1/units/unsc/vehicles/colossus01/body</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Arm_left" tobone="socketbone_hand_left" frombone="GrannyRootBone_hand_left" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_combat_idle02_upperbody</file>
+				<weight>3</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleWalk" exitAction="Transition" tweenTime="5" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle_to_walk_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="WalkIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_to_idle_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_flail_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Support" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_combat_idle01_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AutocannonAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_attack01_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Stunned" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_stunned_upperbody</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/MediumElectricalArc" tobone="bone_vfx_StunElecPoint1" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_death01_upperbody</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0260000005" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.159999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.32100001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionMedium" tobone="b_body_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.691999972" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_twist_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.910000026" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCVehicleExplosionLarge" tobone="bone_vfx_body" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.930000007" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCVehicleExplosionMedium" tobone="bone_vfx_DamagePoint_arm_right" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Deploy" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_drop_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/spartan_hijack_colossus_in_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/spartan_hijack_colossus_loop_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_turn_left_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_turn_right_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AttackMove" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_attack_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cower" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle02_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AttackStomp" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_stomp01_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="RailgunAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_attack02_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_drop_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatIdle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_combat_idle02_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleJog" exitAction="Transition" tweenTime="5" tweenToAnimation="Jog" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle_to_walk_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_to_idle_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleRun" exitAction="Transition" tweenTime="5" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle_to_walk_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="RunIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_to_idle_upperbody</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Arm_left">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc3/pack1/units/unsc/vehicles/colossus01/mesh_hand_left</file>
+				<damagefile>dlc3/pack1/units/unsc/vehicles/colossus01/arm_left</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Rail_gun" tobone="socketbone_rail_gun_base_0" frombone="GrannyRootBone_rail_gun_base_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="AutocannonAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_attack01_hand_left</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0.136000007" end="1" tobone="bone_vfx_RifleMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.136000007" end="1" name="vfx/dlc3/Units/ColossusAutoCannonMuzzle" tobone="bone_vfx_RifleMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.143999994" end="1" name="PLAY_SFX_3D_WPN_UNSC_ColossusAutoCannonFire" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.35800001" end="1" tobone="bone_vfx_RifleMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.35800001" end="1" name="vfx/dlc3/Units/ColossusAutoCannonMuzzle" tobone="bone_vfx_RifleMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.360000014" end="1" name="PLAY_SFX_3D_WPN_UNSC_ColossusAutoCannonFire" tobone="GrannyRootBone_riffle_muzzle_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.579999983" end="1" name="PLAY_SFX_3D_WPN_UNSC_ColossusAutoCannonFire" tobone="GrannyRootBone_riffle_muzzle_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.58099997" end="1" tobone="bone_vfx_RifleMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.58099997" end="1" name="vfx/dlc3/Units/ColossusAutoCannonMuzzle" tobone="bone_vfx_RifleMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.815999985" end="1" tobone="bone_vfx_RifleMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.815999985" end="1" name="vfx/dlc3/Units/ColossusAutoCannonMuzzle" tobone="bone_vfx_RifleMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.819999993" end="1" name="PLAY_SFX_3D_WPN_UNSC_ColossusAutoCannonFire" tobone="GrannyRootBone_riffle_muzzle_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="RunIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_to_idle_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleRun" exitAction="Transition" tweenTime="5" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle_to_walk_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_to_idle_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleJog" exitAction="Transition" tweenTime="5" tweenToAnimation="Jog" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle_to_walk_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatIdle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_combat_idle02_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_drop_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AttackStomp" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_stomp01_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cower" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle02_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AttackMove" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_attack_hand_left</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0" end="1" tobone="b_riffle_muzzle_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_turn_right_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_turn_left_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/spartan_hijack_colossus_loop_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/spartan_hijack_colossus_in_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Deploy" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_drop_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_death01_hand_left</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0260000005" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.159999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.32100001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionMedium" tobone="b_body_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.691999972" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_twist_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Stunned" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_stunned_hand_left</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/MediumElectricalArc" tobone="bone_vfx_StunElecPoint1" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Support" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_combat_idle01_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_flail_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="WalkIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_to_idle_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleWalk" exitAction="Transition" tweenTime="5" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle_to_walk_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle01_hand_left</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle02_hand_left</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle03_hand_left</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Rail_gun">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc3/pack1/units/unsc/vehicles/colossus01/mesh_rail_gun_base_0</file>
+				<damagefile>dlc3/pack1/units/unsc/vehicles/colossus01/rail_gun</damagefile>
+			</asset>
+		</component>
+		<anim type="RailgunAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_attack02_rail_gun</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0839999989" end="1" name="vfx/dlc3/Units/ColossusRailGunMuzzle" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="16.0799999" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.0839999989" end="1" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0839999989" end="1" name="PLAY_SFX_3D_WPN_UNSC_ColossusRailgunFire" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/dlc3/Units/ColossusRailGunCharge" tobone="b_railgun_0" syncanims="false" disregardorient="false" removeimmediately="true" />
+		</anim>
+		<anim type="RunIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_to_idle_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleRun" exitAction="Transition" tweenTime="5" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle_to_walk_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="JogIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_to_idle_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleJog" exitAction="Transition" tweenTime="5" tweenToAnimation="Jog" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle_to_walk_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CombatIdle" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_combat_idle02_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Incoming" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_drop_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AttackStomp" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_stomp01_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cower" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle02_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AttackMove" exitAction="Transition" tweenTime="10" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_attack_rail_gun</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0" end="1" tobone="b_riffle_muzzle_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="TurnRight" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_turn_right_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="TurnLeft" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_turn_left_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/spartan_hijack_colossus_loop_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/spartan_hijack_colossus_in_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Deploy" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_drop_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_death01_rail_gun</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0260000005" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.159999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.32100001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionMedium" tobone="b_body_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.691999972" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_twist_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Stunned" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_stunned_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/MediumElectricalArc" tobone="bone_vfx_StunElecPoint1" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="Support" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_combat_idle01_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_flail_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="WalkIdle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_to_idle_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="IdleWalk" exitAction="Transition" tweenTime="5" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle_to_walk_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_walk_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle01_rail_gun</file>
+				<weight>3</weight>
+			</asset>
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle02_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_idle03_rail_gun</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>
