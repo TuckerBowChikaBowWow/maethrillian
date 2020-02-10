@@ -151,18 +151,6 @@
 		<StartDisabled />
 	</Action>
 	<Action>
-		<Name>UpgradeFireFlareAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>HealingBeaconsUpgrade</Anim>
-		<Weapon>FireFlareUpgrade</Weapon>
-		<FullBodyAttackAnim />
-		<DontLoopAttackAnim />
-		<DontAutoRestart />
-		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
-		<ProjectileInvokePower>UnscJohnsonMechDrop2</ProjectileInvokePower>
-		<StartDisabled />
-	</Action>
-	<Action>
 		<Name>Garrison</Name>
 		<ActionType>Garrison</ActionType>
 		<WorkRange>3.07500005</WorkRange>
@@ -282,20 +270,6 @@
 			<TargetsGround />
 			<TargetType>NonFlying</TargetType>
 			<Action>FireFlareAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<TargetsGround />
-			<IgnoreOtherTargetsWhileTargetingGround />
-			<Action>UpgradeFireFlareAction</Action>
-			<OwnersNumberOfSquadsLessThan>unsc_veh_johnson_commandmantis_01</OwnersNumberOfSquadsLessThan>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Any</Relation>
-			<TargetsGround />
-			<TargetType>NonFlying</TargetType>
-			<Action>UpgradeFireFlareAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>

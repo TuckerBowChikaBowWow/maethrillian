@@ -896,7 +896,7 @@
 			<Effect type="UnlockableGodPower" tier="4">UnscImmolation</Effect>
 			<Effect type="UnlockableGodPower" tier="4">Anders_NukeBombing2</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Cutter_NukeBombing</Effect>
-			<Effect type="UnlockableGodPower" tier="5">UnscPelicanGunship</Effect>
+			<Effect type="UnlockableGodPower" tier="5">ColossosOPDrop</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
@@ -17104,6 +17104,12 @@
 			<Effect type="SquadCounter" NewCounterName="Johnson_02">
 				<Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1.20000005" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_johnson_commandmantis_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.7000002" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_johnson_commandmantis_01</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="unsc_johnsonhero_upgrade2" type="Normal" Alpha="0">
@@ -17131,23 +17137,17 @@
 			<Effect type="Data" amount="1.79999995" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
 			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="FireFlareAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="FireFlareAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradeFireFlareAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="UpgradeFireFlareAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
-			</Effect>
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_johnson_hero_03">
 				<Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="Johnson_03">
 				<Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.45000005" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_johnson_commandmantis_01</Target>
+			</Effect>
+			<Effect type="Data" amount="2.4" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_johnson_commandmantis_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -17187,6 +17187,12 @@
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="Johnson_04">
 				<Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.5" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_johnson_commandmantis_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.9" subtype="Hitpoints" relativity="Percent">
+				<Target type="ProtoUnit">unsc_veh_johnson_commandmantis_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>

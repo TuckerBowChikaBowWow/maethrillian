@@ -1,5 +1,64 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	</Power>
+	<Power name="UnscOdstDropNew3">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<SoundName>TurretDrop</SoundName>
+			<Cost Supplies="8000" Power="8000" />
+			<Pop type="Unit">120</Pop>
+			<AutoRecharge>150000</AutoRecharge>
+			<UIRadius>5</UIRadius>
+			<Decal>Drop</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>true</CameraEnableUserYaw>
+			<CameraEnableUserZoom>true</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="NoDropNearBase">false</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="TargetingDelay">0.5</Data>
+				<Data type="float" name="SquadSpawnDelay">1.20000005</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.300000012</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad08mpt75s</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_LP_DEF_BAN_ShadeDropProjectile</Data>
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
+				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
+				<Data type="int" name="NumShots">3</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoSquadID>unsc_veh_johnson_colossus_01</ProtoSquadID>
+						<PlayTrainAnim>true</PlayTrainAnim>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="UnscJohnsonMechDrop">
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
@@ -48,105 +107,6 @@
 					<Drop>
 						<ProtoSquadID>unsc_veh_johnson_commandmantis_01</ProtoSquadID>
 						<PlayTrainAnim>true</PlayTrainAnim>
-					</Drop>
-				</Data>
-			</DataLevel>
-		</Attributes>
-	</Power>
-	<Power name="UnscJohnsonMechDrop2">
-		<Attributes>
-			<PowerType>UnitDrop</PowerType>
-			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<SoundName>UnscJeromeMechDrop2</SoundName>
-			<Cost Supplies="100" Power="60" />
-			<Pop type="Decimus">1</Pop>
-			<AutoRecharge>90000</AutoRecharge>
-			<UIRadius>4</UIRadius>
-			<Decal>Drop</Decal>
-			<DisplayNameID>5012</DisplayNameID>
-			<RolloverTextID>5013</RolloverTextID>
-			<PrereqTextID>252</PrereqTextID>
-			<ShowLimit />
-			<LeaderPower />
-			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
-			<IconLocation>4</IconLocation>
-			<CameraZoomMin>200</CameraZoomMin>
-			<CameraZoomMax>200</CameraZoomMax>
-			<CameraPitchMin>55</CameraPitchMin>
-			<CameraPitchMax>55</CameraPitchMax>
-			<CameraEnableUserScroll>true</CameraEnableUserScroll>
-			<CameraEnableUserYaw>false</CameraEnableUserYaw>
-			<CameraEnableUserZoom>false</CameraEnableUserZoom>
-			<DoNotUsePathTestSourcePosForObjectSpawning />
-			<FlashUI>
-				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
-				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
-			</FlashUI>
-			<DataLevel level="0">
-				<Data type="bool" name="RequiresLOS">true</Data>
-				<Data type="int" name="OverlayStringID">25023</Data>
-				<Data type="float" name="SquadSpawnDelay">2</Data>
-				<Data type="float" name="ProjectileSpawnDelay">0.800000012</Data>
-				<Data type="sound" name="HudUpSound" />
-				<Data type="sound" name="HudAbortSound" />
-				<Data type="sound" name="HudFireSound" />
-				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_UNSC_LaserBarrageIncoming</Data>
-				<Data type="sound" name="HudLastFireSound" />
-				<Data type="sound" name="HudStartEnvSound" />
-				<Data type="sound" name="HudStopEnvSound" />
-				<Data type="protoobject" name="Projectile">unsc_air_mantisdrop_01</Data>
-				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad12m_1s</Data>
-				<Data type="bool" name="AreaDropMode">true</Data>
-				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
-				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
-				<Data type="float" name="AreaDropInitialCircularDistanceOffset">0</Data>
-				<Data type="float" name="AreaDropExpandingStep">6</Data>
-				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">4</Data>
-				<Data type="float" name="AreaDropRandomLaunchDelay">1.29999995</Data>
-				<Data type="float" name="AreaDropRandomPosOffset">8</Data>
-				<Data type="bool" name="OneProjectilePerUnit">true</Data>
-				<Data type="bool" name="AllowDisplacedAimPoint">true</Data>
-				<Data type="bool" name="NoDropNearBase">false</Data>
-				<Data type="unitdrops" name="unitdrops">
-					<Drop>
-						<ProtoSquadID>unsc_veh_johnson_commandmantis_01</ProtoSquadID>
-						<PlayTrainAnim>true</PlayTrainAnim>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
 					</Drop>
 				</Data>
 			</DataLevel>
