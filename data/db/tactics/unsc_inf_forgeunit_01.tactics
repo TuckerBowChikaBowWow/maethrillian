@@ -256,20 +256,14 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>Flying</TargetType>
-			<Action>AirAssaultRifleAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
 			<Action>AssaultRifleAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
-			<Ability>Command</Ability>
+			<TargetType>Flying</TargetType>
+			<TargetType>GroundVehicle</TargetType>
 			<Relation>Enemy</Relation>
 			<Action>RocketAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
