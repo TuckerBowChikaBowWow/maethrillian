@@ -4,6 +4,104 @@
 	<Squad name="FlyingFlood" dbid="16256726101795934130" />
 	<Squad name="Forerunner" dbid="12943458503600554757" />
 	<Squad name="Rebel" dbid="10443232853206385951" />
+	<Squad name="creep_veh_mariokart_base" dbid="15770811218352086746">
+		<CombatRank>5</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>26249</DisplayNameID>
+		<RolloverTextID>23667</RolloverTextID>
+		<RoleTextID>518</RoleTextID>
+		<SubSelectSort>1500</SubSelectSort>
+		<LeashDistance>25</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>2.20000005</AIAttackRank>
+		<BuildPoints>1</BuildPoints>
+		<HPBar offset="0,7.38000011,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="0.200000003" max="3" />
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Jackrabbit_01</Counters>
+	</Squad>
+	<Squad name="unsc_inf_forgeunit_01" dbid="8454786750728801355" formationType="Flock">
+		<CombatRank>3</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3000</DisplayNameID>
+		<RolloverTextID>3001</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>600</SubSelectSort>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>21.5249996</AggroDistance>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.5</AIAttackRank>
+		<UnlockableActiveAbilityType>Grenade</UnlockableActiveAbilityType>
+		<BuildPoints>18</BuildPoints>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">150</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_inf_forgeunit_01</Unit>
+		</Units>
+		<OverrideUnitSoundNames />
+		<LeaderDiesLast />
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>Marines_01</Counters>
+	</Squad>unsc_inf_forgeunit_01
+	<Squad name="creep_veh_mariokart_marine" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_marine</Unit>
+		</Units>
+	</Squad>
+	<Squad name="creep_veh_mariokart_marine1" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_marine1</Unit>
+		</Units>
+	</Squad>
+	<Squad name="creep_veh_mariokart_marine2" dbid="9010248538996267698" parent_element="creep_veh_mariokart_base">
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Units>
+			<Unit count="1" role="normal">creep_veh_mariokart_marine2</Unit>
+		</Units>
+	</Squad>
 	<Squad name="cov_air_banshee_01" dbid="14987140697294280779" parent_element="cov_air_banshee_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
