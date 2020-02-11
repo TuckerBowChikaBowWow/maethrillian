@@ -35,7 +35,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="1" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="rocket_launcher" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="SniperRifle" tobone="b_spine_2" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="SniperRifle" tobone="b_spine_1" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="AssaultRifleAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -219,7 +219,7 @@
 			</asset>
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GruntTailIdle" tobone="GrannyRootBone_stormmarine01" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -233,7 +233,7 @@
 			</asset>
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GruntTail" tobone="GrannyRootBone_stormmarine01" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -256,7 +256,7 @@
 			</asset>
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GruntTail" tobone="GrannyRootBone_stormmarine01" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -270,7 +270,7 @@
 			</asset>
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GruntTail" tobone="GrannyRootBone_stormmarine01" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Build" exitAction="Loop" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -278,7 +278,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Heal" exitAction="Loop" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -286,7 +286,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Stunned" exitAction="Transition" tweenTime="5" tweenToAnimation="Stunned" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -294,7 +294,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Flail" exitAction="Loop" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -310,7 +310,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="FragGrenadeAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -323,7 +323,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.907999992" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="LaserAttack" exitAction="Transition" tweenTime="15" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -334,7 +334,7 @@
 				<tag type="Particle" start="0" position_type="Time" position="0.294999987" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/SpartanLaserMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="CombatIdle" exitAction="Transition" tweenTime="15" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -349,7 +349,7 @@
 				<weight>5</weight>
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Support" exitAction="Transition" tweenTime="10" tweenToAnimation="Support" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -357,7 +357,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="PelicanUngarrison" exitAction="Freeze" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -365,7 +365,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -373,7 +373,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -530,7 +530,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.416999996" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="DeathByFire" exitAction="Freeze" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -574,7 +574,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.826094985" end="1" name="DIA_3D_WAL_MARNM_Death" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="DeathByHeadshot" exitAction="Freeze" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -638,7 +638,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.416999996" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="DeathByMachinegun" exitAction="Freeze" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -668,7 +668,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.67900002" end="1" name="DIA_3D_WAL_MARNM_Death" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="DeathByMelee" exitAction="Freeze" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -754,7 +754,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.416999996" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_elitehon01_v_marine01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -769,7 +769,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.75999999" end="1" name="PLAY_SFX_3D_Fatality_BodyFallLight" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_brutehon01_v_marine01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -787,7 +787,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.75999999" end="1" name="PLAY_SFX_3D_Fatality_BodyDragStop" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_jpbrute01_v_marine01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -812,7 +812,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.691999972" end="1" name="DIA_3D_WAL_MARNM_Death_Fatality" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_spartan02_v_marine01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -820,7 +820,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_spartan03_v_marine01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -828,7 +828,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_spartan04_v_marine01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -836,7 +836,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_spartan05_v_marine01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -844,7 +844,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="JogIdle" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -854,7 +854,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.55400002" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="WalkIdle" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -879,7 +879,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.486999989" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="RunIdle" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -903,7 +903,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.486999989" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="TurnLeft" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -913,7 +913,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="1" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="TurnRight" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -923,7 +923,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="1" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="IdleWalk" exitAction="Transition" tweenTime="2" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -945,7 +945,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.808000028" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="IdleJog" exitAction="Transition" tweenTime="2" tweenToAnimation="Jog" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -967,7 +967,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.809000015" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineRun" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="IdleRun" exitAction="Transition" tweenTime="2" tweenToAnimation="Run" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -989,7 +989,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.809000015" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineRun" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Capture" exitAction="Transition" tweenTime="10" tweenToAnimation="Capture" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -1011,7 +1011,7 @@
 			</asset>
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GruntTailIdle" tobone="GrannyRootBone_stormmarine01" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Cower" exitAction="Transition" tweenTime="10" tweenToAnimation="Cower" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -1023,7 +1023,7 @@
 				<weight>5</weight>
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="JogAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="Jog" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -1045,7 +1045,7 @@
 			</asset>
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GruntTail" tobone="GrannyRootBone_stormmarine01" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Knockdown" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -1065,7 +1065,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.915000021" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Transform" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -1073,7 +1073,7 @@
 				<weight>1</weight>
 			</asset>
 			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_2" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="b_spine_1" frombone="GrannyRootBone_rocket_launcher01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 	</model>
 	<model name="SniperRifle">
