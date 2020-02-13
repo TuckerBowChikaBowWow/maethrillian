@@ -9,19 +9,12 @@
 				<file>units\unsc\aerial\nightingale01\mesh_nightingale01</file>
 				<damagefile>units/unsc/aerial/nightingale01/nightingale</damagefile>
 			</asset>
-			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleEngine" tobone="bone_vfx_LeftRearEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleEngine" tobone="bone_vfx_RightRearEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="FoliageForceFile" name="Foliage/blisterback" tobone="bone_vfx_RightPropPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/BlisterBackHover" tobone="bone_vfx_RightPropPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/BlisterBackHover" tobone="bone_vfx_LeftPropPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="FoliageForceFile" name="Foliage/blisterback" tobone="bone_vfx_LeftPropPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="nightingaleDrone_Base_01" tobone="GrannyRootBone_nightingale01" frombone="GrannyRootBone_nightingaledrone01" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="nightingaleDrone_Base_02" tobone="GrannyRootBone_nightingale01" frombone="GrannyRootBone_nightingaledrone01" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="nightingaleDrone_Base_03" tobone="GrannyRootBone_nightingale01" frombone="GrannyRootBone_nightingaledrone01" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="SmokeGun" tobone="bone_vfx_MuzzlePoint" frombone="GrannyRootBone" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleHover" tobone="bone_vfx_Hover" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleEngine" tobone="bone_vfx_RightMidEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleEngine" tobone="bone_vfx_LeftMidEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/AirUnitWhiteLightLarge" tobone="bone_vfx_RearWhiteLight" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/AirUnitGreenLightLarge" tobone="bone_vfx_RightRearLight" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/AirUnitGreenLightLarge" tobone="bone_vfx_RightEngineLight" syncanims="false" disregardorient="false" removeimmediately="false" />
