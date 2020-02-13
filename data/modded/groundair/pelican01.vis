@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="pelican01">
+	<model name="pelican01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\unsc\aerial\pelican01\mesh_pelican01</file>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/PelicanEngine" tobone="bone_vfx_right_wing_engine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/PelicanEngine" tobone="bone_vfx_left_wing_engine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/PelicanEngine" tobone="bone_vfx_left_back_wing_engine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/PelicanEngine" tobone="bone_vfx_right_back_wing_engine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/PelicanEngineBottom" tobone="bone_vfx_left_wingfront_engine001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/PelicanEngineBottom" tobone="bone_vfx_right_wingfront_engine001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/PelicanEngineBottom" tobone="bone_vfx_right_back_wingbottom_engine001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/PelicanEngineBottom" tobone="bone_vfx_left_back_wingbottom_engine001" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="turret" tobone="socketbone_gun_turret_01" frombone="GrannyRootBone_gun_turret_01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitWhiteLightLarge" tobone="bone_vfx_left_frontwing_light02" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitWhiteLightLarge" tobone="bone_vfx_right_frontwing_light02" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitGreenLightLarge" tobone="bone_vfx_right_frontwing_light01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitGreenLightLarge" tobone="bone_vfx_right_rearwing_light01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitRedLightLarge" tobone="bone_vfx_left_frontwing_light01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitRedLightLarge" tobone="bone_vfx_left_rearwing_light01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitWhiteLightLarge" tobone="bone_vfx_bottom_light01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitWhiteLightLarge" tobone="bone_vfx_rear_light01" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+	</model>
+	<model name="turret">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/aerial/pelican01/mesh_gun_turret_01</file>
+			</asset>
+		</component>
+	</model>
+</visual>

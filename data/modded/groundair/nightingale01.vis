@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="nightingale01">
+	<model name="nightingale01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\unsc\aerial\nightingale01\mesh_nightingale01</file>
+				<damagefile>units/unsc/aerial/nightingale01/nightingale</damagefile>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleEngine" tobone="bone_vfx_LeftRearEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleEngine" tobone="bone_vfx_RightRearEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="FoliageForceFile" name="Foliage/blisterback" tobone="bone_vfx_RightPropPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/BlisterBackHover" tobone="bone_vfx_RightPropPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/BlisterBackHover" tobone="bone_vfx_LeftPropPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="FoliageForceFile" name="Foliage/blisterback" tobone="bone_vfx_LeftPropPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="nightingaleDrone_Base_01" tobone="GrannyRootBone_nightingale01" frombone="GrannyRootBone_nightingaledrone01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="nightingaleDrone_Base_02" tobone="GrannyRootBone_nightingale01" frombone="GrannyRootBone_nightingaledrone01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="nightingaleDrone_Base_03" tobone="GrannyRootBone_nightingale01" frombone="GrannyRootBone_nightingaledrone01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="SmokeGun" tobone="bone_vfx_MuzzlePoint" frombone="GrannyRootBone" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleHover" tobone="bone_vfx_Hover" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleEngine" tobone="bone_vfx_RightMidEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleEngine" tobone="bone_vfx_LeftMidEngine" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitWhiteLightLarge" tobone="bone_vfx_RearWhiteLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitGreenLightLarge" tobone="bone_vfx_RightRearLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitGreenLightLarge" tobone="bone_vfx_RightEngineLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitRedLightLarge" tobone="bone_vfx_LeftRearLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitRedLightLarge" tobone="bone_vfx_LeftEngineLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitWhiteLightLarge" tobone="bone_vfx_FrontWhiteLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<point pointType="Board" bone="bone_hijack_0" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_front" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_rear" pointData="Metal" />
+		</component>
+	</model>
+	<model name="nightingaleDrone_Base_01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/vehicles/nightingaledrone01/mesh_nightingaledrone01</file>
+			</asset>
+			<attach type="ModelRef" name="nightingaleDrone_Body_01" tobone="socketbone_bodybase_0" frombone="GrannyRootBone_bodybase_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone01_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="OpenBay" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_open_01_drone01_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LoopBay" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone01_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CloseBay" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_close_01_drone01_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone01_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_idle01_drone01_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Heal" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone01_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone01_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone01_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/nightingale01/spartan_hijack_nightingale_drone_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/nightingale01/spartan_hijack_nightingale_drone_in</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="nightingaleDrone_Body_01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/vehicles/nightingaledrone01/mesh_bodybase_0</file>
+			</asset>
+			<attach type="ModelFile" name="units/unsc/vehicles/nightingaledrone01/mesh_cannon_0" tobone="socketbone_cannon_0" frombone="GrannyRootBone_cannon_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleDroneTrails" tobone="bone_vfx_EnginePoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleDroneLight" tobone="bone_vfx_CameraPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+	</model>
+	<model name="nightingaleDrone_Base_02">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/vehicles/nightingaledrone01/mesh_nightingaledrone01</file>
+			</asset>
+			<attach type="ModelRef" name="nightingaleDrone_Body_02" tobone="socketbone_bodybase_0" frombone="GrannyRootBone_bodybase_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone02_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone02_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone02_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="OpenBay" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_open_01_drone02_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LoopBay" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone02_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CloseBay" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_close_01_drone02_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone02_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_idle01_drone02_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Heal" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone02_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/nightingale01/spartan_hijack_nightingale_drone_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/nightingale01/spartan_hijack_nightingale_drone_in</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="Play_SFX_3D_VEH_HijackAirVehicleInitialDropUNSC" tobone="GrannyRootBone_nightingaledrone01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.754999995" end="1" name="PLAY_SFX_3D_VFX_SpartanHijackEMPChargeLoop" tobone="GrannyRootBone_nightingaledrone01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="nightingaleDrone_Body_02">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/vehicles/nightingaledrone01/mesh_bodybase_0</file>
+			</asset>
+			<attach type="ModelFile" name="units/unsc/vehicles/nightingaledrone01/mesh_cannon_0" tobone="socketbone_cannon_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleDroneTrails" tobone="bone_vfx_EnginePoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleDroneLight" tobone="bone_vfx_CameraPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+	</model>
+	<model name="nightingaleDrone_Base_03">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/vehicles/nightingaledrone01/mesh_nightingaledrone01</file>
+			</asset>
+			<attach type="ModelRef" name="nightingaleDrone_Body_03" tobone="socketbone_bodybase_0" frombone="GrannyRootBone_bodybase_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone03_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone03_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone03_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="OpenBay" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_open_01_drone03_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LoopBay" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone03_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="CloseBay" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_close_01_drone03_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone03_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_idle01_drone03_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Heal" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/vehicles/nightingaledrone01/nightingale01_barrage_loop_01_drone03_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackLoop" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/nightingale01/spartan_hijack_nightingale_drone_loop</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="HijackIn" exitAction="Transition" tweenTime="0" tweenToAnimation="HijackLoop" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/nightingale01/spartan_hijack_nightingale_drone_in</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="nightingaleDrone_Body_03">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/vehicles/nightingaledrone01/mesh_bodybase_0</file>
+			</asset>
+			<attach type="ModelFile" name="units/unsc/vehicles/nightingaledrone01/mesh_cannon_0" tobone="socketbone_cannon_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleDroneTrails" tobone="bone_vfx_EnginePoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/NightingaleDroneLight" tobone="bone_vfx_CameraPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+	</model>
+	<model name="SmokeGun">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>vfx/effects/fx_dummy</file>
+			</asset>
+		</component>
+		<anim type="Attack" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>vfx/effects/fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/BuildingVFX/LightsBuildingVFX/YellowBlinkingLightLarge" tobone="bone_FX01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="1" end="1" tobone="bone_FX01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+</visual>
