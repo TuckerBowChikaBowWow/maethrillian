@@ -161,145 +161,175 @@
 		</Effects>
 	</Tech>
 	<Tech name="_RECORD_ALLUpgrades" type="Normal">
-		<DisplayNameID>24398</DisplayNameID>
-		<RolloverTextID>24399</RolloverTextID>
-		<Cost resourcetype="Supplies">0</Cost>
-		<ResearchPoints>1</ResearchPoints>
-		<Status>OBTAINABLE</Status>
-		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-		<ResearchCompleteSound>play_vog_tech_shieldoftheforerunners</ResearchCompleteSound>
-		<Effects>
-			<Effect type="Data" subtype="Enable">
-				<Target type="Tech">cov_phantom_upgrade1</Target>
-				<Target type="Tech">cov_phantom_upgrade2</Target>
-				<Target type="Tech">cov_veh_wraithapc_01_upgrade1</Target>
-				<Target type="Tech">cov_ghost_upgrade1</Target>
-				<Target type="Tech">cov_bruteChopper_upgrade4</Target>
-				<Target type="Tech">cov_grunt_upgrade1</Target>
-				<Target type="Tech">cov_grunt_upgrade2</Target>
-				<Target type="Tech">cov_skitterer_upgrade1</Target>
-				<Target type="Tech">cov_arbiter_gruntsquad_upgrade1</Target>
-				<Target type="Tech">cov_arbiter_gruntsquad_upgrade2</Target>
-				<Target type="Tech">cov_gruntswarm_upgrade1</Target>
-				<Target type="Tech">cov_gruntswarm_upgrade2</Target>
-				<Target type="Tech">cov_methanewagon_upgrade1</Target>
-				<Target type="Tech">cov_tech_global_infantry_01</Target>
-				<Target type="Tech">cov_tech_global_infantry_02</Target>
-				<Target type="Tech">cov_tech_global_infantry_03</Target>
-				<Target type="Tech">cov_hunter_upgrade1</Target>
-				<Target type="Tech">cov_suicideGrunt_upgrade2</Target>
-				<Target type="Tech">cov_elitescout_upgrade1</Target>
-				<Target type="Tech">cov_elitescout_upgrade2</Target>
-				<Target type="Tech">cov_brutegrenadier_upgrade1</Target>
-				<Target type="Tech">cov_brutegrenadier_upgrade2</Target>
-				<Target type="Tech">cov_bruteJumpPack_upgrade3</Target>
-				<Target type="Tech">cov_tech_global_vehicle_01</Target>
-				<Target type="Tech">cov_tech_global_vehicle_02</Target>
-				<Target type="Tech">cov_tech_global_vehicle_03</Target>
-				<Target type="Tech">cov_wraith_upgrade1</Target>
-				<Target type="Tech">cov_prowler_upgrade1</Target>
-				<Target type="Tech">cov_tech_global_aircraft_01</Target>
-				<Target type="Tech">cov_tech_global_aircraft_02</Target>
-				<Target type="Tech">cov_tech_global_aircraft_03</Target>
-				<Target type="Tech">cov_banshee_upgrade1</Target>
-				<Target type="Tech">cov_tech_global_structure_01</Target>
-				<Target type="Tech">cov_tech_global_structure_02</Target>
-				<Target type="Tech">cov_tech_global_structure_03</Target>
-				<Target type="Tech">cov_bruteHonour_upgrade1</Target>
-				<Target type="Tech">cov_bruteHonour_upgrade2</Target>
-				<Target type="Tech">cov_atrioxchosen_upgrade1</Target>
-				<Target type="Tech">cov_atrioxchosen_upgrade2</Target>
-				<Target type="Tech">cov_atrioxchosen_upgrade3</Target>
-				<Target type="Tech">cov_eliteCommando_upgrade1</Target>
-				<Target type="Tech">cov_eliteCommando_upgrade2</Target>
-				<Target type="Tech">cov_impervioushunter_upgrade1</Target>
-				<Target type="Tech">cov_impervioushunter_upgrade2</Target>
-				<Target type="Tech">cov_impervioushunter_upgrade3</Target>
-				<Target type="Tech">cov_arbiter_upgrade1</Target>
-				<Target type="Tech">cov_arbiter_upgrade2</Target>
-				<Target type="Tech">cov_arbiter_upgrade3</Target>
-				<Target type="Tech">cov_gruntgoblin_upgrade1</Target>
-				<Target type="Tech">cov_gruntgoblin_upgrade2</Target>
-				<Target type="Tech">cov_gruntgoblin_upgrade3</Target>
-				<Target type="Tech">cov_mortarwarlord_upgrade1</Target>
-				<Target type="Tech">cov_mortarwarlord_upgrade2</Target>
-				<Target type="Tech">cov_mortarwarlord_upgrade3</Target>
-				<Target type="Tech">cov_corruptedwarlord_upgrade1</Target>
-				<Target type="Tech">cov_corruptedwarlord_upgrade2</Target>
-				<Target type="Tech">cov_corruptedwarlord_upgrade3</Target>
-				<Target type="Tech">unsc_aggressor_upgrade1</Target>
-				<Target type="Tech">unsc_aggressor_upgrade2</Target>
-				<Target type="Tech">unsc_mongoose_upgrade1</Target>
-				<Target type="Tech">unsc_mongoose_upgrade2</Target>
-				<Target type="Tech">unsc_marine_upgrade1</Target>
-				<Target type="Tech">unsc_marine_upgrade2</Target>
-				<Target type="Tech">cov_grunt_upgrade2</Target>
-				<Target type="Tech">unsc_cyclops_upgrade1</Target>
-				<Target type="Tech">unsc_Sniper_upgrade0</Target>
-				<Target type="Tech">unsc_Sniper_upgrade1</Target>
-				<Target type="Tech">unsc_flameMarine_upgrade3</Target>
-				<Target type="Tech">unsc_mantis_upgrade1</Target>
-				<Target type="Tech">unsc_mantis_upgrade2</Target>
-				<Target type="Tech">unsc_scorpion_upgrade2</Target>
-				<Target type="Tech">unsc_grizzly_upgrade1</Target>
-				<Target type="Tech">unsc_warthog_upgrade3</Target>
-				<Target type="Tech">unsc_flamehog_upgrade3</Target>
-				<Target type="Tech">unsc_hornet_upgrade1</Target>
-				<Target type="Tech">unsc_serina_cryomarines_upgrade1</Target>
-				<Target type="Tech">unsc_colossus_upgrade1</Target>
-				<Target type="Tech">unsc_forgehog_upgrade1</Target>
-				<Target type="Tech">unsc_forgehog_upgrade2</Target>
-				<Target type="Tech">unsc_forgehog_upgrade3</Target>
-				<Target type="Tech">unsc_johnsonhero_upgrade1</Target>
-				<Target type="Tech">unsc_johnsonhero_upgrade2</Target>
-				<Target type="Tech">unsc_johnsonhero_upgrade3</Target>
-				<Target type="Tech">unsc_jerome_upgrade1</Target>
-				<Target type="Tech">unsc_jerome_upgrade2</Target>
-				<Target type="Tech">unsc_jerome_upgrade3</Target>
-				<Target type="Tech">unsc_serinahero_upgrade1</Target>
-				<Target type="Tech">unsc_serinahero_upgrade2</Target>
-				<Target type="Tech">unsc_serinahero_upgrade3</Target>
-				<Target type="Tech">unsc_battleapc_upgrade1</Target>
-				<Target type="Tech">unsc_serina_pegasus_upgrade1</Target>
-				<Target type="Tech">for_sentineltier1_upgrade1</Target>
-				<Target type="Tech">for_sentineltier1_upgrade2</Target>
-				<Target type="Tech">for_sentineltier0_upgrade1</Target>
-				<Target type="Tech">for_sentineltier0_upgrade2</Target>
-				<Target type="Tech">flood_tech_global_flood_01</Target>
-				<Target type="Tech">flood_tech_global_flood_02</Target>
-				<Target type="Tech">flood_tech_global_flood_03</Target>
-				<Target type="Tech">flood_vehinfector_upgrade1</Target>
-				<Target type="Tech">flood_generic_core_upgrade1</Target>
-				<Target type="Tech">flood_generic_core_upgrade2</Target>
-				<Target type="Tech">flood_tech_global_unsc_01</Target>
-				<Target type="Tech">flood_tech_global_unsc_02</Target>
-				<Target type="Tech">flood_tech_global_unsc_03</Target>
-				<Target type="Tech">flood_tech_global_banished_01</Target>
-				<Target type="Tech">flood_tech_global_banished_02</Target>
-				<Target type="Tech">flood_tech_global_banished_03</Target>
-				<Target type="Tech">flood_hivetech_upgrade1</Target>
-				<Target type="Tech">flood_hivetech_upgrade2</Target>
-				<Target type="Tech">flood_cancer_upgrade1</Target>
-				<Target type="Tech">unsc_flamecyclops_upgrade1</Target>
-				<Target type="Tech">unsc_flamecyclops_upgrade2</Target>
-				<Target type="Tech">unsc_flamecyclops_upgrade3</Target>
-				<Target type="Tech">cov_goliath_upgrade1</Target>
-				<Target type="Tech">cov_arbiter_assaultteam_upgrade1</Target>
-				<Target type="Tech">cov_bruterider_upgrade1</Target>
-				<Target type="Tech">cov_heavygrunt_upgrade1</Target>
-				<Target type="Tech">cov_heavygrunt_upgrade2</Target>
-				<Target type="Tech">unsc_tech_reinforcements_1</Target>
-				<Target type="Tech">unsc_tech_reinforcements_2</Target>
-				<Target type="Tech">unsc_tech_recruitTraining_1</Target>
-				<Target type="Tech">unsc_tech_recruitTraining_2</Target>
-				<Target type="Tech">unsc_tech_recruitTraining_3</Target>
-				<Target type="Tech">cov_sesahereticleader_upgrade1</Target>
-				<Target type="Tech">cov_sesahereticleader_upgrade2</Target>
-				<Target type="Tech">cov_sesahereticleader_upgrade3</Target>
-				<Target type="Tech">cov_hereticspirit_upgrade2</Target>
-			</Effect>
-		</Effects>
-	</Tech>
+        <DisplayNameID>24398</DisplayNameID>
+        <RolloverTextID>24399</RolloverTextID>
+        <Cost resourcetype="Supplies">0</Cost>
+        <ResearchPoints>1</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <ResearchCompleteSound>play_vog_tech_shieldoftheforerunners</ResearchCompleteSound>
+        <Effects>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_tech_global_infantry_01</Target>
+                <Target type="Tech">unsc_tech_global_infantry_02</Target>
+                <Target type="Tech">unsc_tech_global_infantry_03</Target>
+                <Target type="Tech">unsc_tech_global_vehicle_01</Target>
+                <Target type="Tech">unsc_tech_global_vehicle_02</Target>
+                <Target type="Tech">unsc_tech_global_vehicle_03</Target>
+                <Target type="Tech">unsc_tech_global_aircraft_01</Target>
+                <Target type="Tech">unsc_tech_global_aircraft_02</Target>
+                <Target type="Tech">unsc_tech_global_aircraft_03</Target>
+                <Target type="Tech">unsc_tech_global_structure_01</Target>
+                <Target type="Tech">unsc_tech_global_structure_02</Target>
+                <Target type="Tech">unsc_tech_global_structure_03</Target>
+                <Target type="Tech">unsc_aggressor_upgrade1</Target>
+                <Target type="Tech">unsc_aggressor_upgrade2</Target>
+                <Target type="Tech">unsc_mongoose_upgrade1</Target>
+                <Target type="Tech">unsc_mongoose_upgrade2</Target>
+                <Target type="Tech">unsc_marine_upgrade1</Target>
+                <Target type="Tech">unsc_marine_upgrade2</Target>
+                <Target type="Tech">unsc_cyclops_upgrade1</Target>
+                <Target type="Tech">unsc_Sniper_upgrade0</Target>
+                <Target type="Tech">unsc_Sniper_upgrade1</Target>
+                <Target type="Tech">unsc_flameMarine_upgrade3</Target>
+                <Target type="Tech">unsc_mantis_upgrade1</Target>
+                <Target type="Tech">unsc_mantis_upgrade2</Target>
+                <Target type="Tech">unsc_scorpion_upgrade2</Target>
+                <Target type="Tech">unsc_grizzly_upgrade1</Target>
+                <Target type="Tech">unsc_warthog_upgrade3</Target>
+                <Target type="Tech">unsc_flamehog_upgrade3</Target>
+                <Target type="Tech">unsc_hornet_upgrade1</Target>
+                <Target type="Tech">unsc_serina_cryomarines_upgrade1</Target>
+                <Target type="Tech">unsc_colossus_upgrade1</Target>
+                <Target type="Tech">unsc_forgehog_upgrade1</Target>
+                <Target type="Tech">unsc_forgehog_upgrade2</Target>
+                <Target type="Tech">unsc_forgehog_upgrade3</Target>
+                <Target type="Tech">unsc_johnsonhero_upgrade1</Target>
+                <Target type="Tech">unsc_johnsonhero_upgrade2</Target>
+                <Target type="Tech">unsc_johnsonhero_upgrade3</Target>
+                <Target type="Tech">unsc_jerome_upgrade1</Target>
+                <Target type="Tech">unsc_jerome_upgrade2</Target>
+                <Target type="Tech">unsc_jerome_upgrade3</Target>
+                <Target type="Tech">unsc_serinahero_upgrade1</Target>
+                <Target type="Tech">unsc_serinahero_upgrade2</Target>
+                <Target type="Tech">unsc_serinahero_upgrade3</Target>
+                <Target type="Tech">unsc_battleapc_upgrade1</Target>
+                <Target type="Tech">unsc_serina_pegasus_upgrade1</Target>
+                <Target type="Tech">for_sentineltier1_upgrade1</Target>
+                <Target type="Tech">for_sentineltier1_upgrade2</Target>
+                <Target type="Tech">for_sentineltier0_upgrade1</Target>
+                <Target type="Tech">for_sentineltier0_upgrade2</Target>
+                <Target type="Tech">unsc_flamecyclops_upgrade1</Target>
+                <Target type="Tech">unsc_flamecyclops_upgrade2</Target>
+                <Target type="Tech">unsc_flamecyclops_upgrade3</Target>
+                <Target type="Tech">unsc_tech_reinforcements_1</Target>
+                <Target type="Tech">unsc_tech_reinforcements_2</Target>
+                <Target type="Tech">unsc_tech_recruitTraining_1</Target>
+                <Target type="Tech">unsc_tech_recruitTraining_2</Target>
+                <Target type="Tech">unsc_tech_recruitTraining_3</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="_RECORD_ALLUpgradesBanished" type="Normal">
+        <DisplayNameID>24398</DisplayNameID>
+        <RolloverTextID>24399</RolloverTextID>
+        <Cost resourcetype="Supplies">0</Cost>
+        <ResearchPoints>1</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <ResearchCompleteSound>play_vog_tech_shieldoftheforerunners</ResearchCompleteSound>
+        <Effects>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">cov_phantom_upgrade1</Target>
+                <Target type="Tech">cov_phantom_upgrade2</Target>
+                <Target type="Tech">cov_veh_wraithapc_01_upgrade1</Target>
+                <Target type="Tech">cov_ghost_upgrade1</Target>
+                <Target type="Tech">cov_bruteChopper_upgrade4</Target>
+                <Target type="Tech">cov_grunt_upgrade1</Target>
+                <Target type="Tech">cov_grunt_upgrade2</Target>
+                <Target type="Tech">cov_skitterer_upgrade1</Target>
+                <Target type="Tech">cov_arbiter_gruntsquad_upgrade1</Target>
+                <Target type="Tech">cov_arbiter_gruntsquad_upgrade2</Target>
+                <Target type="Tech">cov_gruntswarm_upgrade1</Target>
+                <Target type="Tech">cov_gruntswarm_upgrade2</Target>
+                <Target type="Tech">cov_methanewagon_upgrade1</Target>
+                <Target type="Tech">cov_tech_global_infantry_01</Target>
+                <Target type="Tech">cov_tech_global_infantry_02</Target>
+                <Target type="Tech">cov_tech_global_infantry_03</Target>
+                <Target type="Tech">cov_hunter_upgrade1</Target>
+                <Target type="Tech">cov_suicideGrunt_upgrade2</Target>
+                <Target type="Tech">cov_elitescout_upgrade1</Target>
+                <Target type="Tech">cov_elitescout_upgrade2</Target>
+                <Target type="Tech">cov_brutegrenadier_upgrade1</Target>
+                <Target type="Tech">cov_brutegrenadier_upgrade2</Target>
+                <Target type="Tech">cov_bruteJumpPack_upgrade3</Target>
+                <Target type="Tech">cov_tech_global_vehicle_01</Target>
+                <Target type="Tech">cov_tech_global_vehicle_02</Target>
+                <Target type="Tech">cov_tech_global_vehicle_03</Target>
+                <Target type="Tech">cov_wraith_upgrade1</Target>
+                <Target type="Tech">cov_prowler_upgrade1</Target>
+                <Target type="Tech">cov_tech_global_aircraft_01</Target>
+                <Target type="Tech">cov_tech_global_aircraft_02</Target>
+                <Target type="Tech">cov_tech_global_aircraft_03</Target>
+                <Target type="Tech">cov_banshee_upgrade1</Target>
+                <Target type="Tech">cov_tech_global_structure_01</Target>
+                <Target type="Tech">cov_tech_global_structure_02</Target>
+                <Target type="Tech">cov_tech_global_structure_03</Target>
+                <Target type="Tech">cov_bruteHonour_upgrade1</Target>
+                <Target type="Tech">cov_bruteHonour_upgrade2</Target>
+                <Target type="Tech">cov_atrioxchosen_upgrade1</Target>
+                <Target type="Tech">cov_atrioxchosen_upgrade2</Target>
+                <Target type="Tech">cov_atrioxchosen_upgrade3</Target>
+                <Target type="Tech">cov_eliteCommando_upgrade1</Target>
+                <Target type="Tech">cov_eliteCommando_upgrade2</Target>
+                <Target type="Tech">cov_impervioushunter_upgrade1</Target>
+                <Target type="Tech">cov_impervioushunter_upgrade2</Target>
+                <Target type="Tech">cov_impervioushunter_upgrade3</Target>
+                <Target type="Tech">cov_arbiter_upgrade1</Target>
+                <Target type="Tech">cov_arbiter_upgrade2</Target>
+                <Target type="Tech">cov_arbiter_upgrade3</Target>
+                <Target type="Tech">cov_gruntgoblin_upgrade1</Target>
+                <Target type="Tech">cov_gruntgoblin_upgrade2</Target>
+                <Target type="Tech">cov_gruntgoblin_upgrade3</Target>
+                <Target type="Tech">cov_mortarwarlord_upgrade1</Target>
+                <Target type="Tech">cov_mortarwarlord_upgrade2</Target>
+                <Target type="Tech">cov_mortarwarlord_upgrade3</Target>
+                <Target type="Tech">cov_corruptedwarlord_upgrade1</Target>
+                <Target type="Tech">cov_corruptedwarlord_upgrade2</Target>
+                <Target type="Tech">cov_corruptedwarlord_upgrade3</Target>
+                <Target type="Tech">cov_grunt_upgrade2</Target>
+                <Target type="Tech">flood_tech_global_flood_01</Target>
+                <Target type="Tech">flood_tech_global_flood_02</Target>
+                <Target type="Tech">flood_tech_global_flood_03</Target>
+                <Target type="Tech">flood_vehinfector_upgrade1</Target>
+                <Target type="Tech">flood_generic_core_upgrade1</Target>
+                <Target type="Tech">flood_generic_core_upgrade2</Target>
+                <Target type="Tech">flood_tech_global_unsc_01</Target>
+                <Target type="Tech">flood_tech_global_unsc_02</Target>
+                <Target type="Tech">flood_tech_global_unsc_03</Target>
+                <Target type="Tech">flood_tech_global_banished_01</Target>
+                <Target type="Tech">flood_tech_global_banished_02</Target>
+                <Target type="Tech">flood_tech_global_banished_03</Target>
+                <Target type="Tech">flood_hivetech_upgrade1</Target>
+                <Target type="Tech">flood_hivetech_upgrade2</Target>
+                <Target type="Tech">flood_cancer_upgrade1</Target>
+                <Target type="Tech">cov_goliath_upgrade1</Target>
+                <Target type="Tech">cov_arbiter_assaultteam_upgrade1</Target>
+                <Target type="Tech">cov_bruterider_upgrade1</Target>
+                <Target type="Tech">cov_heavygrunt_upgrade1</Target>
+                <Target type="Tech">cov_heavygrunt_upgrade2</Target>
+                <Target type="Tech">unsc_tech_reinforcements_1</Target>
+                <Target type="Tech">unsc_tech_reinforcements_2</Target>
+                <Target type="Tech">unsc_tech_recruitTraining_1</Target>
+                <Target type="Tech">unsc_tech_recruitTraining_2</Target>
+                <Target type="Tech">unsc_tech_recruitTraining_3</Target>
+                <Target type="Tech">cov_sesahereticleader_upgrade1</Target>
+                <Target type="Tech">cov_sesahereticleader_upgrade2</Target>
+                <Target type="Tech">cov_sesahereticleader_upgrade3</Target>
+                <Target type="Tech">cov_hereticspirit_upgrade2</Target>
+            </Effect>
+        </Effects>
+    </Tech>
 	<Tech name="_RECORD_Buildtime" type="Normal">
 		<DisplayNameID>24398</DisplayNameID>
 		<RolloverTextID>24399</RolloverTextID>
