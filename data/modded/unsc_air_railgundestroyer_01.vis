@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="condor01">
+	<model name="condor01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/aerial/condor_guns01/mesh_condor01</file>
+				<damagefile>units/unsc/aerial/condor_guns01/condor_guns01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="mac_cannon_base" tobone="socketbone_MAC_cannon_base_0" frombone="GrannyRootBone_MAC_cannon_base_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="front_centre_laser_base" tobone="socketbone_front_centre_gun_base_0" frombone="GrannyRootBone_front_centre_gun_base_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="front_right_laser_base" tobone="socketbone_front_right_gun_base_0" frombone="GrannyRootBone_front_right_gun_base_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="front_left_laser_base" tobone="socketbone_front_left_gun_base_0" frombone="GrannyRootBone_front_left_gun_base_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rear_left_laser_base" tobone="socketbone_rear_left_gun_base_0" frombone="GrannyRootBone_rear_left_gun_base_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="rear_right_laser_base" tobone="socketbone_rear_right_gun_base_0" frombone="GrannyRootBone_rear_right_gun_base_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/CondorJetsIdle" tobone="bone_vfx_LowerBackEngineRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/CondorJetsIdle" tobone="bone_vfx_LowerBackEngineLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/CondorJetsIdle" tobone="bone_vfx_UpperBackEngineLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/CondorJetsIdle" tobone="bone_vfx_UpperBackEngineRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/CondorJetsIdle" tobone="bone_vfx_FrontEngineRight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/CondorJetsIdle" tobone="bone_vfx_FrontEngineLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitWhiteLightLarge" tobone="bone_vfx_FrontLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitWhiteLightLarge" tobone="bone_vfx_RearLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitGreenLightLarge" tobone="bone_vfx_FrontRightWingLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitGreenLightLarge" tobone="bone_vfx_RearRightWingLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitRedLightLarge" tobone="bone_vfx_FrontLeftWingLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="LightFile" name="Lights/AirUnitRedLightLarge" tobone="bone_vfx_RearLeftWingLight" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<point pointType="Impact" bone="bone_impact_target_mid" pointData="Metal" />
+			<point pointType="Impact" bone="bone_impact_target_rear" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="8" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_idle01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_idle01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_idle01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_idle01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="SpecialMacCannonAttack" exitAction="Freeze" tweenTime="15" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_special_cannon_attack01_main</file>
+				<weight>1</weight>
+				<tag type="Light" start="0" position_type="Time" position="0" end="1" name="Lights/VultureSpinningLight" tobone="bone_radar_0_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.66700006" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Light" start="0" position_type="Time" position="0" end="1" name="Lights/VultureBlinkingLight" tobone="bone_vfx_FrontLight" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.66700006" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/BuildingVFX/LightsBuildingVFX/YellowBlinkingLightLarge" tobone="bone_vfx_FrontLeftWingLight" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.67000008" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/BuildingVFX/LightsBuildingVFX/YellowBlinkingLightLarge" tobone="bone_vfx_FrontRightWingLight" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.67000008" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/BuildingVFX/LightsBuildingVFX/YellowBlinkingLightLarge" tobone="bone_vfx_RearRightWingLight" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.67000008" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/BuildingVFX/LightsBuildingVFX/YellowBlinkingLightLarge" tobone="bone_vfx_RearLeftWingLight" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.67000008" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/BuildingVFX/LightsBuildingVFX/YellowBlinkingLightLarge" tobone="bone_radar_0_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.67000008" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/BuildingVFX/LightsBuildingVFX/YellowBlinkingLightLarge" tobone="bone_vfx_RearLight" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.67000008" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/BuildingVFX/LightsBuildingVFX/YellowBlinkingLightLarge" tobone="bone_vfx_FrontLight" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.67000008" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Light" start="0" position_type="Time" position="0" end="1" name="Lights/VultureSpinningLight" tobone="socketbone_MAC_cannon_base_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.66700006" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="MacCannonAttack" exitAction="Freeze" tweenTime="15" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_mac_cannon_attack01_main</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/death_death_condor01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionLarge" tobone="bone_vfx_Explosion03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_VEH_UNSC_CondorDestruction" tobone="GrannyRootBone_condor01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.0289999992" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionLarge" tobone="bone_vfx_DamagePointLevel1c" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.122000001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionMedium" tobone="bone_vfx_DamagePointLevel3a" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.263000011" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="bone_vfx_DamagePointLevel3a" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.266000003" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionMedium" tobone="bone_vfx_DamagePointLevel3c" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.275000006" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionMedium" tobone="bone_vfx_DamagePointLevel3a" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.284999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="bone_vfx_DamagePointLevel3a" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.347000122" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirSmallFire" tobone="bone_vfx_DamagePointLevel2b" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.35800001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="bone_vfx_DamagePointLevel1a" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.453000009" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="bone_vfx_DamagePointLevel1b" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.463999987" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionMedium" tobone="bone_vfx_DamagePointLevel3c" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.536000013" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirSmallFire" tobone="bone_vfx_DamagePointLevel3b" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.561999977" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="bone_vfx_DamagePointLevel2c" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.657000005" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="bone_vfx_DamagePointLevel2b" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.739000022" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="bone_vfx_DamagePointLevel3c" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.748000026" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="bone_vfx_DamagePointLevel3a" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.765999973" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="bone_vfx_DamagePointLevel2b" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.772000015" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="bone_vfx_DamagePointLevel3b" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.796000004" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="bone_vfx_Explosion04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.814999878" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="bone_vfx_ExhaustPointRight" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.869000018" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionLarge" tobone="bone_vfx_Explosion03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.875999987" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="bone_vfx_Explosion04" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.922999978" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionLarge" tobone="bone_vfx_SmokeSwap02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.963999987" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionLarge" tobone="bone_vfx_SmokeSwap01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.981999993" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionLarge" tobone="socketbone_front_centre_gun_base_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" outliveAnimation="true" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="mac_cannon_base">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/aerial/condor_guns01/mesh_MAC_cannon_base_0</file>
+			</asset>
+			<attach type="ModelRef" name="mac_cannon" tobone="socketbone_MAC_cannon_pitch_0" frombone="GrannyRootBone_MAC_cannon_pitch_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="SpecialMacCannonAttack" exitAction="Freeze" tweenTime="15" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_special_cannon_attack01_cannon_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MacCannonAttack" exitAction="Transition" tweenTime="15" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_mac_cannon_attack01_mac_cannon_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="mac_cannon">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/aerial/condor_guns01/mesh_MAC_cannon_pitch_0</file>
+			</asset>
+			<attach type="ModelRef" name="dummy" tobone="bone_MAC_cannon_0" frombone="GrannyRootBone" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="MacCannonAttack" exitAction="Freeze" tweenTime="15" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_mac_cannon_attack01_mac_cannon</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="AnimStateExit" position="0" end="1" name="STOP_SFX_3D_WPN_UNSC_MiniMacBlastWindUp" tobone="GrannyRootBone_MAC_cannon_pitch_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.00100000005" end="1" name="STOP_SFX_3D_WPN_UNSC_MiniMacBlastWindUp" tobone="GrannyRootBone_MAC_cannon_pitch_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0790000036" end="1" name="PLAY_SFX_3D_WPN_UNSC_MiniMacBlastWindUp" tobone="bone_MAC_cannon_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.400000006" end="1" tobone="bone_MAC_cannon_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.400000006" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CondorSmallMacCannonMuzzle" tobone="bone_vfx_MacCannonMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="8" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.404000014" end="1" name="PLAY_SFX_3D_WPN_UNSC_MiniMacBlast" tobone="bone_MAC_cannon_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="SpecialMacCannonAttack" exitAction="Freeze" tweenTime="15" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_mac_cannon_attack01_mac_cannon</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/CondorMacCannonMuzzle" tobone="bone_vfx_MacCannonMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.66700006" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0" end="1" name="PLAY_SFX_3D_WPN_UNSC_HighPower_MacBlastWindUp" tobone="bone_MAC_cannon_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0" end="1" name="vfx/BuildingVFX/LightsBuildingVFX/YellowBlinkingLightLarge" tobone="bone_MAC_cannon_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="2.67000008" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="AnimStateExit" position="0.400000006" end="1" name="STOP_SFX_3D_WPN_UNSC_HighPower_MacBlastWindUp" tobone="bone_MAC_cannon_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.400000006" end="1" tobone="bone_MAC_cannon_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.400000006" end="1" name="PLAY_SFX_3D_WPN_UNSC_HighPower_MacBlast" tobone="bone_MAC_cannon_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.400000006" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/LargeShellMuzzle" tobone="bone_vfx_MacCannonMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/death_death_MAC_cannon_pitch_0</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="front_centre_laser_base">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/aerial/condor_guns01/mesh_front_centre_gun_base_0</file>
+			</asset>
+			<attach type="ModelRef" name="front_centre_laser" tobone="socketbone_front_centre_gun_pivot_0" frombone="GrannyRootBone_front_centre_gun_pivot_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="FrontCentreLaserAttack" exitAction="Freeze" tweenTime="5" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_shortattack01_front_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/death_death_front_centre_gun_base_0</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="front_centre_laser">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc3/pack1/units/unsc/vehicles/colossus01/mesh_rail_gun_base_0</file>
+				<damagefile>dlc3/pack1/units/unsc/vehicles/colossus01/rail_gun</damagefile>
+			</asset>
+		</component>
+		<anim type="RailgunAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_attack02_rail_gun</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0839999989" end="1" name="vfx/dlc3/Units/ColossusRailGunMuzzle" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="16.0799999" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.0839999989" end="1" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0839999989" end="1" name="PLAY_SFX_3D_WPN_UNSC_ColossusRailgunFire" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/dlc3/Units/ColossusRailGunCharge" tobone="b_railgun_0" syncanims="false" disregardorient="false" removeimmediately="true" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_death01_rail_gun</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0260000005" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.159999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.32100001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionMedium" tobone="b_body_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.691999972" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_twist_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="front_right_laser_base">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/aerial/condor_guns01/mesh_front_right_gun_base_0</file>
+			</asset>
+			<attach type="ModelRef" name="front_right_laser" tobone="socketbone_front_right_gun_pitch_0" frombone="GrannyRootBone_front_right_gun_pitch_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="FrontRightLaserAttack" exitAction="Freeze" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_shortattack01_front_r_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/death_death_front_right_gun_base_0</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="front_right_laser">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc3/pack1/units/unsc/vehicles/colossus01/mesh_rail_gun_base_0</file>
+				<damagefile>dlc3/pack1/units/unsc/vehicles/colossus01/rail_gun</damagefile>
+			</asset>
+		</component>
+		<anim type="RailgunAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_attack02_rail_gun</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0839999989" end="1" name="vfx/dlc3/Units/ColossusRailGunMuzzle" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="16.0799999" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.0839999989" end="1" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0839999989" end="1" name="PLAY_SFX_3D_WPN_UNSC_ColossusRailgunFire" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/dlc3/Units/ColossusRailGunCharge" tobone="b_railgun_0" syncanims="false" disregardorient="false" removeimmediately="true" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_death01_rail_gun</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0260000005" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.159999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.32100001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionMedium" tobone="b_body_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.691999972" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_twist_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="front_left_laser_base">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/aerial/condor_guns01/mesh_front_left_gun_base_0</file>
+			</asset>
+			<attach type="ModelRef" name="front_left_laser" tobone="socketbone_front_left_gun_pitch_0" frombone="GrannyRootBone_front_left_gun_pitch_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="FrontLeftLaserAttack" exitAction="Freeze" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_shortattack01_front_l_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/death_death_front_left_gun_base_0</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="front_left_laser">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc3/pack1/units/unsc/vehicles/colossus01/mesh_rail_gun_base_0</file>
+				<damagefile>dlc3/pack1/units/unsc/vehicles/colossus01/rail_gun</damagefile>
+			</asset>
+		</component>
+		<anim type="RailgunAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_attack02_rail_gun</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0839999989" end="1" name="vfx/dlc3/Units/ColossusRailGunMuzzle" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="16.0799999" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.0839999989" end="1" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0839999989" end="1" name="PLAY_SFX_3D_WPN_UNSC_ColossusRailgunFire" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/dlc3/Units/ColossusRailGunCharge" tobone="b_railgun_0" syncanims="false" disregardorient="false" removeimmediately="true" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_death01_rail_gun</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0260000005" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.159999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.32100001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionMedium" tobone="b_body_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.691999972" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_twist_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="rear_left_laser_base">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/aerial/condor_guns01/mesh_rear_left_gun_base_0</file>
+			</asset>
+			<attach type="ModelRef" name="rear_left_laser" tobone="socketbone_rear_left_gun_pitch_0" frombone="GrannyRootBone_rear_left_gun_pitch_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="RearLeftLaserAttack" exitAction="Freeze" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_shortattack01_rear_l_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/death_death_rear_left_gun_base_0</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="rear_left_laser">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc3/pack1/units/unsc/vehicles/colossus01/mesh_rail_gun_base_0</file>
+				<damagefile>dlc3/pack1/units/unsc/vehicles/colossus01/rail_gun</damagefile>
+			</asset>
+		</component>
+		<anim type="RailgunAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_attack02_rail_gun</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0839999989" end="1" name="vfx/dlc3/Units/ColossusRailGunMuzzle" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="16.0799999" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.0839999989" end="1" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0839999989" end="1" name="PLAY_SFX_3D_WPN_UNSC_ColossusRailgunFire" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/dlc3/Units/ColossusRailGunCharge" tobone="b_railgun_0" syncanims="false" disregardorient="false" removeimmediately="true" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_death01_rail_gun</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0260000005" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.159999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.32100001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionMedium" tobone="b_body_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.691999972" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_twist_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="rear_right_laser_base">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/aerial/condor_guns01/mesh_rear_right_gun_base_0</file>
+			</asset>
+			<attach type="ModelRef" name="rear_right_laser" tobone="socketbone_rear_right_gun_pitch_0" frombone="GrannyRootBone_rear_right_gun_pitch_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="RearRightLaserAttack" exitAction="Freeze" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_shortattack01_rear_r_base</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/death_death_rear_right_gun_base_0</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="rear_right_laser">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc3/pack1/units/unsc/vehicles/colossus01/mesh_rail_gun_base_0</file>
+				<damagefile>dlc3/pack1/units/unsc/vehicles/colossus01/rail_gun</damagefile>
+			</asset>
+		</component>
+		<anim type="RailgunAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_attack02_rail_gun</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0839999989" end="1" name="vfx/dlc3/Units/ColossusRailGunMuzzle" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="16.0799999" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.0839999989" end="1" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0839999989" end="1" name="PLAY_SFX_3D_WPN_UNSC_ColossusRailgunFire" tobone="bone_vfx_RailGunMuzzle" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ParticleFile" name="vfx/dlc3/Units/ColossusRailGunCharge" tobone="b_railgun_0" syncanims="false" disregardorient="false" removeimmediately="true" />
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>dlc3/pack1/animations/unsc/vehicles/colossus01/colossus_death01_rail_gun</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position_type="Time" position="0.0260000005" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.159999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.32100001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionMedium" tobone="b_body_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.691999972" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitDestructionVFX/UNSCAirExplosionSmall" tobone="b_arm_twist_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.29999995" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+	</model>
+	<model name="dummy">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>vfx/effects/fx_dummy</file>
+			</asset>
+		</component>
+		<anim type="LaserAttack" exitAction="Transition" tweenTime="2" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_mac_cannon_attack01_mac_cannon</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/aerial/condor_guns01/condor_mac_cannon_attack01_mac_cannon</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>
