@@ -20,7 +20,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>OrbitalBombardment</Name>
-		<DamagePerSecond>5775</DamagePerSecond>
+		<DamagePerSecond>6500</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>pow_gp_macCannonLVL1</Projectile>
@@ -57,15 +57,7 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>2</Radius>
-				<DamageRatio>125</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-				<IgnoreY>true</IgnoreY>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>6</Radius>
+				<Radius>8</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -73,15 +65,15 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>16</Radius>
-				<DamageRatio>50</DamageRatio>
+				<Radius>14</Radius>
+				<DamageRatio>60</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<IgnoreY>true</IgnoreY>
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>22</Radius>
+				<Radius>20</Radius>
 				<DamageRatio>40</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>

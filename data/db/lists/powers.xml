@@ -23836,7 +23836,7 @@
 		<Attributes>
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
-			<Cost Supplies="350" Power="250" />
+			<Cost Supplies="400" Power="250" />
 			<AutoRecharge>200000</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -23890,9 +23890,9 @@
 		<Attributes>
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
-			<Cost Supplies="450" Power="350" />
+			<Cost Supplies="500" Power="350" />
 			<AutoRecharge>200000</AutoRecharge>
-			<UIRadius>24</UIRadius>
+			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
 			<RolloverTextID>5027</RolloverTextID>
@@ -23934,9 +23934,9 @@
 				<Data type="sound" name="HudStopEnvSound" />
 			</BaseDataLevel>
 			<DataLevel level="0">
-				<Data type="protoobject" name="Projectile">pow_gp_macCannonLVL2</Data>
-				<Data type="int" name="NumShots">1</Data>
-				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m2s</Data>
+				<Data type="protoobject" name="Projectile">pow_gp_macCannonLVL1</Data>
+				<Data type="int" name="NumShots">2</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad20m2s</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
@@ -23944,9 +23944,9 @@
 		<Attributes>
 			<PowerType>Orbital</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
-			<Cost Supplies="550" Power="450" />
+			<Cost Supplies="600" Power="450" />
 			<AutoRecharge>200000</AutoRecharge>
-			<UIRadius>30</UIRadius>
+			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
 			<RolloverTextID>5027</RolloverTextID>
@@ -23988,9 +23988,9 @@
 				<Data type="sound" name="HudStopEnvSound" />
 			</BaseDataLevel>
 			<DataLevel level="0">
-				<Data type="protoobject" name="Projectile">pow_gp_macCannonLVL3</Data>
-				<Data type="int" name="NumShots">1</Data>
-				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad30m2s</Data>
+				<Data type="protoobject" name="Projectile">pow_gp_macCannonLVL1</Data>
+				<Data type="int" name="NumShots">3</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad20m2s</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
