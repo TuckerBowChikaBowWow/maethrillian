@@ -1,13 +1,40 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
+		<Name>Chaingun</Name>
+		<AttackRate>0.25</AttackRate>
+		<DamagePerSecond>163</DamagePerSecond>
+		<WeaponType>MediumArms</WeaponType>
+		<Projectile>fx_proj_chaingunmantis_01</Projectile>
+		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
+		<MaxVelocityLead>9.22500038</MaxVelocityLead>
+		<MaxRange>50</MaxRange>
+		<Accuracy>0.100000001</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>0.100000001</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<MaxToTargetAngleWhileStationary>30</MaxToTargetAngleWhileStationary>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="Infantry">5</TargetPriority>
+		<TargetPriority type="Flying">4</TargetPriority>
+		<TargetPriority type="Building">3</TargetPriority>
+		<Hardpoint>Maingun</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.400000006</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.20000005</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.60000002</PostAttackCooldownMax>
+		<Filter>Heavy</Filter>
+	</Weapon>
+	<Weapon>
 		<Name>Flamer</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>241</DamagePerSecond>
+		<DamagePerSecond>234</DamagePerSecond>
 		<WeaponType>KinsanoWarthogFire</WeaponType>
 		<Projectile>fx_proj_flamehogBeam_01</Projectile>
 		<MaxVelocityLead>27.6749992</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
+		<MaxRange>50</MaxRange>
 		<MaxRangeThresholdFactor>1.10000002</MaxRangeThresholdFactor>
 		<MaxRangeThresholdTime>1</MaxRangeThresholdTime>
 		<Accuracy>0.100000001</Accuracy>
@@ -46,55 +73,6 @@
 		<PostAttackCooldownMin>0.800000012</PostAttackCooldownMin>
 		<PostAttackCooldownMax>1</PostAttackCooldownMax>
 		<Filter>Medium</Filter>
-	</Weapon>
-	<Weapon>
-		<Name>MissilePod</Name>
-		<AttackRate>3</AttackRate>
-		<DamagePerSecond>156</DamagePerSecond>
-		<WeaponType>Missile</WeaponType>
-		<Projectile>fx_proj_johnson_mantis_missile_01</Projectile>
-		<ImpactEffect size="Medium" alwaysHorizontal="true">UNSCAntiAirExplosion</ImpactEffect>
-		<MaxVelocityLead>12.3000002</MaxVelocityLead>
-		<MaxRange>60</MaxRange>
-		<Accuracy>1</Accuracy>
-		<MaxDeviation>7</MaxDeviation>
-		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>10</MovingMaxDeviation>
-		<EnableHeightBonusDamage />
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>4</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>6</Radius>
-				<DamageRatio>40</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
-		<Hardpoint>MissilePod</Hardpoint>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>800</PhysicsForceMin>
-		<PhysicsForceMax>1200</PhysicsForceMax>
-		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
-		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="GroundVehicle">9</TargetPriority>
-		<TargetPriority type="TurretBuilding">5</TargetPriority>
-		<TargetPriority type="Infantry">3</TargetPriority>
-		<TargetPriority type="Flying">2</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
-		<Filter>Heavy</Filter>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.60000002</PreAttackCooldownMax>
-		<PostAttackCooldownMin>4</PostAttackCooldownMin>
-		<PostAttackCooldownMax>4.5</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>MissileLaunchers</Name>
@@ -179,16 +157,6 @@
 		<DontCheckOrientTolerance />
 	</Action>
 	<Action>
-		<Name>MissilePodAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>UpgradeAttack</Anim>
-		<MoveAnim>WalkUpgradeAttack</MoveAnim>
-		<Weapon>MissilePod</Weapon>
-		<ForceAttachmentAnim />
-		<DontCheckOrientTolerance />
-		<SquadMode>Normal</SquadMode>
-	</Action>
-	<Action>
 		<Name>FlamerAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>FlameAttack</Anim>
@@ -199,7 +167,20 @@
 		<FullBodyAttackAnim />
 		<PersistBetweenOpps />
 		<LoopAttackAnim />
-		<SlaveAttackAction>MissilePodAttackAction</SlaveAttackAction>
+		<SquadMode>Normal</SquadMode>
+	</Action>
+	<Action>
+		<Name>ChaingunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<Duration DurationSpread="0">2</Duration>
+		<Weapon>Chaingun</Weapon>
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<PersistBetweenOpps />
+		<ForceAttachmentAnim />
+		<LoopAttackAnim />
+		<SlaveAttackAction>FlamerAttackAction</SlaveAttackAction>
 		<SquadMode>Normal</SquadMode>
 	</Action>
 	<Action>
@@ -276,7 +257,7 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>FlamerAttackAction</Action>
+			<Action>ChaingunAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
