@@ -39,7 +39,7 @@
 		<Projectile>pow_proj_nukemissile_02</Projectile>
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="1.39999998" yawpitchstrength="4" rollstrength="2" rotationfrequency="5" translationstrength="0" translationfrequency="4" />
 		<ImpactRumble leftRumbleType="Fixed" leftStrength="1" rightRumbleType="Fixed" rightStrength="1" duration="0.800000012" />
-		<ImpactEffect size="Medium">VultureNuke</ImpactEffect>
+		<ImpactEffect size="Large">VultureNuke</ImpactEffect>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
@@ -50,17 +50,10 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>6</Radius>
+				<Radius>250</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>20</Radius>
-				<DamageRatio>5</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFire>true</FriendlyFire>
 			</Hitbox>
 		</AOEData>
 	</Weapon>
@@ -104,7 +97,7 @@
 	<Weapon>
 		<Name>FrontCentreGun</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>700</DamagePerSecond>
+		<DamagePerSecond>400</DamagePerSecond>
 		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
@@ -142,7 +135,7 @@
 	<Weapon>
 		<Name>FrontRightGun</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>700</DamagePerSecond>
+		<DamagePerSecond>400</DamagePerSecond>
 		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
@@ -180,7 +173,7 @@
 	<Weapon>
 		<Name>FrontLeftGun</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>700</DamagePerSecond>
+		<DamagePerSecond>400</DamagePerSecond>
 		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
@@ -218,7 +211,7 @@
 	<Weapon>
 		<Name>RearRightGun</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>700</DamagePerSecond>
+		<DamagePerSecond>400</DamagePerSecond>
 		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
@@ -256,7 +249,7 @@
 	<Weapon>
 		<Name>RearLeftGun</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>700</DamagePerSecond>
+		<DamagePerSecond>400</DamagePerSecond>
 		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
@@ -389,10 +382,6 @@
 			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
 			<Action>SpecialMacCannonAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>MacCannonAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
