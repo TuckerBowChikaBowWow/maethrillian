@@ -1,31 +1,51 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>Chaingun</Name>
+		<Name>Flamer</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>163</DamagePerSecond>
-		<WeaponType>MediumArms</WeaponType>
-		<Projectile>fx_proj_chaingunmantis_01</Projectile>
-		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
-		<MaxVelocityLead>9.22500038</MaxVelocityLead>
-		<MaxRange>60</MaxRange>
+		<DamagePerSecond>241</DamagePerSecond>
+		<WeaponType>KinsanoWarthogFire</WeaponType>
+		<Projectile>fx_proj_flamehogBeam_01</Projectile>
+		<MaxVelocityLead>27.6749992</MaxVelocityLead>
+		<MaxRange>35</MaxRange>
+		<MaxRangeThresholdFactor>1.10000002</MaxRangeThresholdFactor>
+		<MaxRangeThresholdTime>1</MaxRangeThresholdTime>
 		<Accuracy>0.100000001</Accuracy>
 		<MaxDeviation>1.5</MaxDeviation>
 		<MovingAccuracy>0.100000001</MovingAccuracy>
 		<MovingMaxDeviation>2</MovingMaxDeviation>
-		<MaxToTargetAngleWhileStationary>30</MaxToTargetAngleWhileStationary>
 		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
 		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="GroundVehicle">6</TargetPriority>
-		<TargetPriority type="Infantry">5</TargetPriority>
-		<TargetPriority type="Flying">4</TargetPriority>
-		<TargetPriority type="Building">3</TargetPriority>
-		<Hardpoint>Maingun</Hardpoint>
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.400000006</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1.20000005</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1.60000002</PostAttackCooldownMax>
-		<Filter>Heavy</Filter>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="TurretBuilding">6</TargetPriority>
+		<TargetPriority type="GroundVehicle">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<TargetPriority type="Aircraft">-1</TargetPriority>
+		<AOEData>
+			<Hitbox>
+				<Type>Segment</Type>
+				<Length>ReachTarget</Length>
+				<Width>3</Width>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>4</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.800000012</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+		<Filter>Medium</Filter>
 	</Weapon>
 	<Weapon>
 		<Name>MissilePod</Name>
@@ -79,7 +99,7 @@
 	<Weapon>
 		<Name>MissileLaunchers</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>450</DamagePerSecond>
+		<DamagePerSecond>250</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_engmissile_01</Projectile>
 		<ImpactEffect size="Medium">UNSCAntiAirExplosion</ImpactEffect>
@@ -169,15 +189,15 @@
 		<SquadMode>Normal</SquadMode>
 	</Action>
 	<Action>
-		<Name>ChaingunAttackAction</Name>
+		<Name>FlamerAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>Attack</Anim>
-		<Duration DurationSpread="0">2</Duration>
-		<Weapon>Chaingun</Weapon>
-		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Anim>FlameAttack</Anim>
+		<Duration DurationSpread="1.5">3</Duration>
+		<Weapon>Flamer</Weapon>
+		<Beam collideWithUnits="false" collideWithTerrain="true" />
 		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<FullBodyAttackAnim />
 		<PersistBetweenOpps />
-		<ForceAttachmentAnim />
 		<LoopAttackAnim />
 		<SlaveAttackAction>MissilePodAttackAction</SlaveAttackAction>
 		<SquadMode>Normal</SquadMode>
@@ -256,11 +276,10 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>ChaingunAttackAction</Action>
+			<Action>FlamerAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>Flying</TargetType>
 			<Action>HeavyMissileLaunchersAttackAction</Action>
 			<RequireHavingGarrisonedSquads />
 		</TargetRule>
