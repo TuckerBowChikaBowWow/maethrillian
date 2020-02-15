@@ -27568,6 +27568,7 @@
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_MOM_UNSC_LaserBarrageIncoming</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_lotusminepod_01</Data>
 				<Data type="sound" name="HudLastFireSound" />
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
@@ -28140,7 +28141,7 @@
 			<Pop type="Decimus">1</Pop>
 			<Cost Supplies="300" Power="300" />
 			<AutoRecharge>150000</AutoRecharge>
-			<UIRadius>28</UIRadius>
+			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5014</DisplayNameID>
 			<RolloverTextID>5015</RolloverTextID>
