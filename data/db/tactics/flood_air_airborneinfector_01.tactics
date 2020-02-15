@@ -28,7 +28,7 @@
 	<Weapon>
 		<Name>RifleScarab</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>450</DamagePerSecond>
+		<DamagePerSecond>500</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>episode2_pack1_units_flood_infantry_FloodSpawnerSpine</Projectile>
 		<ImpactEffect size="small">FloodSpawnerSpineImpact</ImpactEffect>
@@ -68,15 +68,8 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>5</Radius>
+				<Radius>8</Radius>
 				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>25</Radius>
-				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
@@ -98,10 +91,6 @@
 		<CanOrientOwner>true</CanOrientOwner>
 		<ProjectileInvokePower>FloodWebDrop</ProjectileInvokePower>
 	</Action>
-	<Weapon>
-		<Name>PointDefenseWeapon</Name>
-		<ImpactEffect size="small">FloodSpawnerSpineImpact</ImpactEffect>
-	</Weapon>
 	<Action>
 		<Name>RifleAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -117,16 +106,6 @@
 		<Weapon>RifleScarab</Weapon>
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<FullBodyAttackAnim />
-	</Action>
-	<Action>
-		<Name>PointDefense</Name>
-		<ActionType>PointDefense</ActionType>
-		<Weapon>PointDefenseWeapon</Weapon>
-		<MaxCharge>1</MaxCharge>
-		<RechargeDelay>0.3</RechargeDelay>
-		<RechargeRate>0.25</RechargeRate>
-		<WorkRange>30</WorkRange>
-		<ProtoObject bone="bone_vfx_MuzzlePoint">episode2_pack1_units_flood_infantry_FloodSpawnerSpine</ProtoObject>
 	</Action>
 	<Action>
 		<Name>GarrisonSpirit</Name>
@@ -165,7 +144,6 @@
 		<WorkRange>0</WorkRange>
 	</Action>
 	<Tactic>
-		<PersistentAction>PointDefense</PersistentAction>
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>

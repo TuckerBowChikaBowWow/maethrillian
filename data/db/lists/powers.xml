@@ -27537,7 +27537,6 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>UnscJeromeMechDrop2</SoundName>
 			<Cost Supplies="100" Power="60" />
-			<Pop type="Decimus">1</Pop>
 			<AutoRecharge>90000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
@@ -27573,58 +27572,11 @@
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
 				<Data type="protoobject" name="Projectile">unsc_air_mantisdrop_01</Data>
-				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad12m_1s</Data>
-				<Data type="bool" name="AreaDropMode">true</Data>
-				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
-				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
-				<Data type="float" name="AreaDropInitialCircularDistanceOffset">0</Data>
-				<Data type="float" name="AreaDropExpandingStep">6</Data>
-				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">4</Data>
-				<Data type="float" name="AreaDropRandomLaunchDelay">1.29999995</Data>
-				<Data type="float" name="AreaDropRandomPosOffset">8</Data>
-				<Data type="bool" name="OneProjectilePerUnit">true</Data>
-				<Data type="bool" name="AllowDisplacedAimPoint">true</Data>
 				<Data type="bool" name="NoDropNearBase">false</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoObjectID>flood_terrain_sporeclouds_01</ProtoObjectID>
 						<PlayTrainAnim>true</PlayTrainAnim>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_laserbarrage_01</ProtoObjectID>
-						<ProjectileOverride>pow_proj_laserbarrage_01</ProjectileOverride>
 					</Drop>
 				</Data>
 			</DataLevel>
