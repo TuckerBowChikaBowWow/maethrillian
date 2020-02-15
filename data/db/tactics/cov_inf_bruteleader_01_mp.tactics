@@ -357,16 +357,7 @@
 		<WorkRate>1</WorkRate>
 		<WorkRange>4</WorkRange>
 	</Action>
-	<Action>
-		<Name>SpawnDrone</Name>
-		<ActionType>SpawnSquad</ActionType>
-		<SquadType>cov_inf_grunt_01_no_brute</SquadType>
-		<WorkRate>0</WorkRate>
-		<Count>1</Count>
-		<DroneAttach />
-	</Action>
 	<Tactic>
-		<PersistentAction>SpawnDrone</PersistentAction>
 		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>Garrison</TargetType>

@@ -1442,42 +1442,6 @@
 			<Unit count="4" role="normal">cov_inf_gruntswarm_01_frommine</Unit>
 		</Units>
 	</Squad>
-	<Squad name="cov_inf_grunt_01_no_brute" dbid="12271812702842287940">
-		<CombatRank>3</CombatRank>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_grunt</PortraitIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3036</DisplayNameID>
-		<RolloverTextID>3037</RolloverTextID>
-		<RoleTextID>500</RoleTextID>
-		<SubSelectSort>1005</SubSelectSort>
-		<LeashDistance>30</LeashDistance>
-		<LeashDeadzone>9</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<AIAttackRank>1</AIAttackRank>
-		<BuildPoints>13</BuildPoints>
-		<Pop Type="Unit">2</Pop>
-		<Cost ResourceType="Supplies">100</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
-		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="4" role="normal">cov_inf_grunt_01</Unit>
-		</Units>
-		<Flag>Repairable</Flag>
-		<Flag>Chatter</Flag>
-		<Flag>KBAware</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>All</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<AvoidanceMass>Light</AvoidanceMass>
-		<Counters>Grunts_01</Counters>
-		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
-	</Squad>
 	<Squad name="cov_inf_grunt_01" dbid="13564817270134799132" formationType="Flock" parent_element="cov_inf_grunt_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -1506,7 +1470,7 @@
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
 			<Unit count="1" role="leader">cov_inf_bruteLeader_01</Unit>
-			<Unit count="4" role="normal">cov_inf_grunt_01</Unit>
+			<Unit count="4" role="leader">cov_inf_grunt_01</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
