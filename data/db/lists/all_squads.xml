@@ -13081,6 +13081,54 @@
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>80</ChillDecayPerSecond>
 	</Squad>
+	<Squad name="unsc_veh_johnson_commandmantis_01" dbid="2049545898729024492">
+		<CombatRank>6</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3016</DisplayNameID>
+		<RolloverTextID>3017</RolloverTextID>
+		<RoleTextID>518</RoleTextID>
+		<PrereqTextID>230</PrereqTextID>
+		<SubSelectSort>94</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>3.5</AIAttackRank>
+		<ActiveAbilityType>Garrison</ActiveAbilityType>
+		<BuildPoints>30</BuildPoints>
+		<Pop Type="Decimus">1</Pop>
+		<Cost ResourceType="Supplies">500</Cost>
+		<Cost ResourceType="Power">100</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
+		<HPBar offset="0,14,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_veh_johnson_commandmantis_01</Unit>
+		</Units>
+		<Flag>Chatter</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>AlwaysRenderSelectionDecal</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>HasAltGarrisonSlotIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>Units</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="1.5" max="4" />
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Mantis_01</Counters>
+		<Flag>CanBeKnockedDown</Flag>
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>80</ChillDecayPerSecond>
+	</Squad>
 	<Squad name="unsc_veh_johnson_colossus_01" dbid="9959253001190891698">
 		<CombatRank>7</CombatRank>
 		<HealValue>2.75</HealValue>
