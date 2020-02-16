@@ -3906,14 +3906,20 @@
         <Status>UNOBTAINABLE</Status>
         <Flag>Shadow</Flag>
         <Effects>
-           <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">unsc_inf_heroodst_01</Target>
+                <Target type="ProtoSquad">unsc_inf_omegateam_jerome_01</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">gamemode_reparent_protos_mp</Target>
@@ -4222,14 +4228,8 @@
         <Status>UNOBTAINABLE</Status>
         <Flag>Shadow</Flag>
         <Effects>
-            <Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">cov_veh_ghost_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">cov_inf_bruteHonour_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
@@ -4242,6 +4242,27 @@
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">cov_inf_arbiter_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_inf_brutegrenadier_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_inf_lekgologoliath_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_veh_skitterer_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_inf_generic_heavygrunt</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_inf_generic_arbiterenforcer</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_inf_generic_arbitergruntsquad</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">gamemode_reparent_protos_mp</Target>
