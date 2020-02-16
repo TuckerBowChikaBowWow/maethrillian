@@ -6487,6 +6487,23 @@
             </Effect>
         </Effects>
     </Tech>
+    <Tech name="flood_instant_upgrade" type="Normal">
+        <DBID>2041</DBID>
+        <DisplayNameID>1072</DisplayNameID>
+        <RolloverTextID>1073</RolloverTextID>
+        <ResearchPoints>5</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <ResearchAnim>Upgrade</ResearchAnim>
+        <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+        <Flag>UniqueProtoUnitInstance</Flag>
+        <Effects>
+            <Effect type="ReparentProtoObject" FromType="cov_bldg_builder_04" ToType="cov_bldg_builder_01_hive" />
+            <Effect type="ReparentProtoObject" FromType="cov_bldg_builder_03" ToType="cov_bldg_builder_01_hive" />
+            <Effect type="ReparentProtoObject" FromType="cov_bldg_builder_02" ToType="cov_bldg_builder_01_hive" />
+            <Effect type="ReparentProtoObject" FromType="cov_bldg_builder_01" ToType="cov_bldg_builder_01_hive" />
+        </Effects>
+    </Tech>
     <Tech name="flood_LeaderCorruptBrute" type="Normal">
         <DBID>2104</DBID>
         <ResearchPoints>0</ResearchPoints>
@@ -6495,6 +6512,9 @@
         <Effects>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">gamemode_reparent_protos_mp</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">flood_instant_upgrade</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">flood_inf_infected_humelee_01</Target>
