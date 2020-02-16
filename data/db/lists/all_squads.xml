@@ -8385,11 +8385,12 @@
 			<Unit count="3" role="normal">unsc_inf_heroodst_01_mp</Unit>
 			<Unit count="1" role="normal">unsc_inf_heroodstsniper_01_mp</Unit>
 		</Units>
-		<Pop Type="Spartan">1</Pop>
-		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power">275</Cost>
+		<ActiveAbilityType>cpgnUnload</ActiveAbilityType>
+		<BuildPoints>1</BuildPoints>
+		<Pop Type="Leader">1</Pop>
+		<Cost ResourceType="Supplies">0</Cost>
+		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
-		<BuildPoints>45</BuildPoints>
 	</Squad>
 	<Squad name="unsc_inf_johnson_hero_01" dbid="15268622866869143349">
 		<HealValue>1.29999995</HealValue>
@@ -8404,15 +8405,15 @@
 		<BobbleHead>UNSC_Spartan</BobbleHead>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
-		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
-		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power">275</Cost>
+		<ActiveAbilityType>cpgnUnload</ActiveAbilityType>
+		<BuildPoints>1</BuildPoints>
+		<Pop Type="Leader">1</Pop>
+		<Cost ResourceType="Supplies">0</Cost>
+		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,6.5,0">UNSC_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<ActiveAbilityType>DisruptionField</ActiveAbilityType>
 		<Flag>Repairable</Flag>
 		<Flag>CreateAudioReactions</Flag>
 		<Flag>KBAware</Flag>
@@ -9702,11 +9703,11 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
-		<UnlockableActiveAbilityType>CryoLockdown</UnlockableActiveAbilityType>
-		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
-		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power">275</Cost>
+		<ActiveAbilityType>cpgnUnload</ActiveAbilityType>
+		<BuildPoints>1</BuildPoints>
+		<Pop Type="Leader">1</Pop>
+		<Cost ResourceType="Supplies">0</Cost>
+		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,7.5,0">UNSC_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>

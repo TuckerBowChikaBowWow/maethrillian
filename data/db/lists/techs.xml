@@ -3906,77 +3906,14 @@
         <Status>UNOBTAINABLE</Status>
         <Flag>Shadow</Flag>
         <Effects>
+           <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
+            </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
+                <Target type="ProtoSquad">unsc_inf_heroodst_01</Target>
             </Effect>
-            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpjerome_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpdoug_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpalice_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpalice_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpdoug_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_forgehog_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_laser" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_rocket" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_chaingun" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_laser" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_rocket" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_chaingun" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_laser" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_rocket" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_chaingun" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forgehog_upgrade2" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forgehog_upgrade3" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">unsc_inf_operative_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_operative_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_operative_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_fieldArmory_02</Target>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">gamemode_reparent_protos_mp</Target>
@@ -4285,78 +4222,6 @@
         <Status>UNOBTAINABLE</Status>
         <Flag>Shadow</Flag>
         <Effects>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_eliteCommando_01" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_eliteCommando_01" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_02</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_bruteHonour_01" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_bruteHonour_01" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_02</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_atrioxchosen_01" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_atrioxchosen_01" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_02</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade1" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade2" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade3" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade1" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_02</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade2" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_02</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade3" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_02</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade2" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade3" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_02</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade2" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_02</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade3" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_02</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade2" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade3" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_02</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade2" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_02</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade3" relativity="Absolute">
-                <Target type="ProtoUnit">cov_bldg_temple_02</Target>
-            </Effect>
             <Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">cov_veh_ghost_01</Target>
             </Effect>
@@ -4371,6 +4236,12 @@
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_inf_impervioushunter_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_inf_arbiter_01</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">gamemode_reparent_protos_mp</Target>

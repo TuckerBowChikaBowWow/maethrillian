@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
+	<Action>
+		<Name>GatherPower</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Power</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>0.61500001</WorkRange>
+		<ShareResourcesWithTeam />
+	</Action>
     <Action>
         <Name>GatherSupplies</Name>
         <ActionType>Gather</ActionType>
@@ -9,24 +18,19 @@
         <WorkRange>0.61500001</WorkRange>
         <ShareResourcesWithTeam />
     </Action>
-    <Action>
-        <Name>GatherPower</Name>
-        <ActionType>Gather</ActionType>
-        <Anim>Gather</Anim>
-        <Resource>Power</Resource>
-        <WorkRate>1</WorkRate>
-        <WorkRange>0.61500001</WorkRange>
-        <ShareResourcesWithTeam />
-    </Action>
-    <Action>
-        <Name>CaptureFade</Name>
-        <ActionType>CaptureFade</ActionType>
-        <CaptureRate>0.25</CaptureRate>
-        <DecaptureRate>0.25</DecaptureRate>
-    </Action>
-    <Tactic>
-        <PersistentSquadAction>GatherSupplies</PersistentSquadAction>
-        <PersistentSquadAction>GatherPower</PersistentSquadAction>
-        <PersistentSquadAction>CaptureFade</PersistentSquadAction>
-    </Tactic>
+	<Action>
+		<Name>CaptureFade</Name>
+		<ActionType>CaptureFade</ActionType>
+		<CaptureRate>1</CaptureRate>
+		<DecaptureRate>1</DecaptureRate>
+	</Action>
+	<Action>
+		<Name>GatherSuppliesSquad</Name>
+		<ActionType>SquadActionGather</ActionType>
+	</Action>
+	<Tactic>
+		<PersistentAction>GatherPower</PersistentAction>
+        <PersistentAction>GatherSupplies</PersistentAction>
+		<PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
+	</Tactic>
 </TacticData>
