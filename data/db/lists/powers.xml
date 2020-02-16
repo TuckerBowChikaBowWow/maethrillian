@@ -6111,6 +6111,16 @@
 				<Data type="protoobject" name="Projectile">pow_proj_bombingrunmissile_01</Data>
 				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraphlane_telegraphlane60x10-2s</Data>
 			</DataLevel>
+			<DataLevel level="1">
+				<Data type="int" name="MaxBombs">7</Data>
+				<Data type="float" name="MaxBombOffset">9</Data>
+				<Data type="float" name="BombSpacing">9</Data>
+				<Data type="float" name="LengthMultiplier">63</Data>
+				<Data type="float" name="WedgeLengthMultiplier">1</Data>
+				<Data type="float" name="WedgeMinOffset">1</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_bombingrunmissile_01</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraphlane_telegraphlane60x10-2s</Data>
+			</DataLevel>
 		</Attributes>
 	</Power>
 	<Power name="UnscBombingRun2_MP">
@@ -6162,7 +6172,17 @@
 				<Data type="float" name="LengthMultiplier">70</Data>
 				<Data type="float" name="WedgeLengthMultiplier">1</Data>
 				<Data type="float" name="WedgeMinOffset">1</Data>
-				<Data type="protoobject" name="Projectile">pow_proj_bombingrunmissile_02</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_bombingrunmissile_01</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraphlane_telegraphlane70x10-2s</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="int" name="MaxBombs">8</Data>
+				<Data type="float" name="MaxBombOffset">9</Data>
+				<Data type="float" name="BombSpacing">9</Data>
+				<Data type="float" name="LengthMultiplier">72</Data>
+				<Data type="float" name="WedgeLengthMultiplier">1</Data>
+				<Data type="float" name="WedgeMinOffset">1</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_bombingrunmissile_01</Data>
 				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraphlane_telegraphlane70x10-2s</Data>
 			</DataLevel>
 		</Attributes>
@@ -6214,6 +6234,16 @@
 				<Data type="float" name="MaxBombOffset">9</Data>
 				<Data type="float" name="BombSpacing">10</Data>
 				<Data type="float" name="LengthMultiplier">80</Data>
+				<Data type="float" name="WedgeLengthMultiplier">1</Data>
+				<Data type="float" name="WedgeMinOffset">1</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_bombingrunmissile_03</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraphlane_telegraphlane80x10-2s</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="int" name="MaxBombs">9</Data>
+				<Data type="float" name="MaxBombOffset">9</Data>
+				<Data type="float" name="BombSpacing">9</Data>
+				<Data type="float" name="LengthMultiplier">81</Data>
 				<Data type="float" name="WedgeLengthMultiplier">1</Data>
 				<Data type="float" name="WedgeMinOffset">1</Data>
 				<Data type="protoobject" name="Projectile">pow_proj_bombingrunmissile_03</Data>
