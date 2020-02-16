@@ -4409,6 +4409,9 @@
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">cov_basic</Target>
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="covenant_LeaderShipmaster" type="Normal">
@@ -6481,6 +6484,29 @@
             </Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade3" relativity="Absolute">
                 <Target type="ProtoUnit">cov_bldg_temple_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="flood_LeaderCorruptBrute" type="Normal">
+        <DBID>2104</DBID>
+        <ResearchPoints>0</ResearchPoints>
+        <Status>UNOBTAINABLE</Status>
+        <Flag>Shadow</Flag>
+        <Effects>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">flood_inf_infected_humelee_01</Target>
+            </Effect>
+             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+            </Effect>
+             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">flood_inf_infected_brutemelee_01</Target>
+            </Effect>
+             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">flood_inf_infectfrm_01</Target>
             </Effect>
         </Effects>
     </Tech>
