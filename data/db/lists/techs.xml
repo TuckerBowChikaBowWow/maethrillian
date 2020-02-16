@@ -3906,6 +3906,9 @@
         <Status>UNOBTAINABLE</Status>
         <Flag>Shadow</Flag>
         <Effects>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
+                <Target type="ProtoUnit">game_base_Socket_01</Target>
+            </Effect>
             <Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_inf_omegateam_jerome_01</Target>
             </Effect>
@@ -4234,6 +4237,12 @@
         <Status>UNOBTAINABLE</Status>
         <Flag>Shadow</Flag>
         <Effects>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
+                <Target type="ProtoUnit">game_base_Socket_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_builder_01" relativity="Absolute">
+                <Target type="ProtoUnit">game_base_Socket_01</Target>
+            </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">cov_veh_ghost_01</Target>
             </Effect>
