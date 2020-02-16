@@ -3996,7 +3996,7 @@
             <Effect type="UnlockableGodPower" tier="5">UnscOrbitalBattleGroup</Effect>
             <Effect type="UnlockableGodPower" tier="5">UnscPelicanGunship</Effect>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
         </Effects>
     </Tech>
@@ -4100,7 +4100,7 @@
             <Effect type="UnlockableGodPower" tier="5">UnscVehicleRecycle</Effect>
             <Effect type="UnlockableGodPower" tier="5">UnscGhostInTheMachine</Effect>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
         </Effects>
     </Tech>
@@ -4188,7 +4188,7 @@
                 <Target type="ProtoUnit">neutralfor_sentineltier2_01</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
         </Effects>
     </Tech>
@@ -4292,7 +4292,7 @@
                 <Target type="ProtoUnit">cov_bldg_temple_02</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
         </Effects>
     </Tech>
@@ -4407,7 +4407,7 @@
                 <Target type="ProtoSquad">cov_inf_atrioxchosen_01</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
         </Effects>
     </Tech>
@@ -4418,7 +4418,7 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
             <Effect type="UnlockableGodPower" tier="1">CovRaidTech1</Effect>
             <Effect type="UnlockableGodPower" tier="1" prereq="CovRaidTech1">CovRaidTech2</Effect>
@@ -4713,7 +4713,7 @@
             <Effect type="UnlockableGodPower" tier="5">UnscVehicleRecycle</Effect>
             <Effect type="UnlockableGodPower" tier="5">UnscGrizzlyBattalion</Effect>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_forge_grizzlyLOS</Target>
@@ -4771,7 +4771,7 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_flamecyclops_upgrade1" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
@@ -4951,7 +4951,7 @@
             <Effect type="UnlockableGodPower" tier="5">CovMassAssault</Effect>
             <Effect type="UnlockableGodPower" tier="5">LekgoloEverlasting</Effect>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
                 <Target type="ProtoUnit">cov_bldg_temple_01</Target>
@@ -5087,7 +5087,7 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
             <Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
@@ -5586,7 +5586,7 @@
                 <Target type="ProtoUnit">unsc_bldg_fieldArmory_02</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
         </Effects>
     </Tech>
@@ -5597,7 +5597,7 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
             <Effect type="UnlockableGodPower" tier="1">Grunt_AmbushMine1</Effect>
             <Effect type="UnlockableGodPower" tier="1" prereq="Grunt_AmbushMine1">Grunt_AmbushMine2</Effect>
@@ -5886,7 +5886,7 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
             <Effect type="UnlockableGodPower" tier="1">Unbrk_MegaTurret</Effect>
             <Effect type="UnlockableGodPower" tier="1">Unbrk_Overcharge1_mp</Effect>
@@ -6066,7 +6066,7 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
             <Effect type="UnlockableGodPower" tier="1">CorruptedMines1</Effect>
             <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedMines1">CorruptedMines2</Effect>
@@ -6574,7 +6574,7 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
         </Effects>
     </Tech>
@@ -6647,7 +6647,7 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
             <Effect type="UnlockableGodPower" tier="1">CovTeleport1</Effect>
             <Effect type="UnlockableGodPower" tier="1">ArbiterStasisMine1</Effect>
@@ -6850,7 +6850,7 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_jerome_upgrade1" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
@@ -7001,7 +7001,7 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_multiplayer_marines1</Target>
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_serinahero_upgrade1" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
@@ -15303,7 +15303,7 @@
             </Effect>
         </Effects>
     </Tech>
-    <Tech name="unsc_multiplayer_marines1" type="Normal">
+    <Tech name="gamemode_reparent_protos_mp" type="Normal">
         <DBID>1963</DBID>
         <ResearchPoints>0</ResearchPoints>
         <Status>OBTAINABLE</Status>
