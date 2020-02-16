@@ -3978,23 +3978,6 @@
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_operative_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_fieldArmory_02</Target>
             </Effect>
-            <Effect type="UnlockableGodPower" tier="1">UnscRaidTech1</Effect>
-            <Effect type="UnlockableGodPower" tier="1" prereq="UnscRaidTech1">UnscRaidTech2</Effect>
-            <Effect type="UnlockableGodPower" tier="1">CutterBattleHardened1</Effect>
-            <Effect type="UnlockableGodPower" tier="1" prereq="CutterBattleHardened1">CutterBattleHardened2</Effect>
-            <Effect type="UnlockableGodPower" tier="2">UnscLotusMines1_MP</Effect>
-            <Effect type="UnlockableGodPower" tier="2">UnscMedDrones1_MP</Effect>
-            <Effect type="UnlockableGodPower" tier="2" prereq="UnscMedDrones1_MP">UnscMedDrones2_MP</Effect>
-            <Effect type="UnlockableGodPower" tier="2" prereq="UnscMedDrones2_MP">UnscMedDrones3_MP</Effect>
-            <Effect type="UnlockableGodPower" tier="3">UnscBombingRun1_MP</Effect>
-            <Effect type="UnlockableGodPower" tier="3" prereq="UnscBombingRun1_MP">UnscBombingRun2_MP</Effect>
-            <Effect type="UnlockableGodPower" tier="3" prereq="UnscBombingRun2_MP">UnscBombingRun3_MP</Effect>
-            <Effect type="UnlockableGodPower" tier="3">UnscOdstDrop</Effect>
-            <Effect type="UnlockableGodPower" tier="4">UnscTurretDrop1</Effect>
-            <Effect type="UnlockableGodPower" tier="4" prereq="UnscTurretDrop1">UnscTurretDrop2</Effect>
-            <Effect type="UnlockableGodPower" tier="4">UnscCyclopsDrop</Effect>
-            <Effect type="UnlockableGodPower" tier="5">UnscOrbitalBattleGroup</Effect>
-            <Effect type="UnlockableGodPower" tier="5">UnscPelicanGunship</Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
@@ -4302,23 +4285,6 @@
         <Status>UNOBTAINABLE</Status>
         <Flag>Shadow</Flag>
         <Effects>
-            <Effect type="UnlockableGodPower" tier="1">CovResourceControl</Effect>
-            <Effect type="UnlockableGodPower" tier="1">CovLucrativeExpansion1</Effect>
-            <Effect type="UnlockableGodPower" tier="1" prereq="CovLucrativeExpansion1">CovLucrativeExpansion2</Effect>
-            <Effect type="UnlockableGodPower" tier="2">CovPlasmaMines1_MP</Effect>
-            <Effect type="UnlockableGodPower" tier="2" prereq="CovPlasmaMines1_MP">CovPlasmaMines2_MP</Effect>
-            <Effect type="UnlockableGodPower" tier="2">CovDyingBreath</Effect>
-            <Effect type="UnlockableGodPower" tier="3">CovStructuralShielding1</Effect>
-            <Effect type="UnlockableGodPower" tier="3" prereq="CovStructuralShielding1">CovStructuralShielding2</Effect>
-            <Effect type="UnlockableGodPower" tier="3" prereq="CovStructuralShielding2">CovStructuralShielding3</Effect>
-            <Effect type="UnlockableGodPower" tier="3">CovSpiritGunship1</Effect>
-            <Effect type="UnlockableGodPower" tier="3" prereq="CovSpiritGunship1">CovSpiritGunship2</Effect>
-            <Effect type="UnlockableGodPower" tier="3" prereq="CovSpiritGunship2">CovSpiritGunship3</Effect>
-            <Effect type="UnlockableGodPower" tier="4">CovCleansingBeamPath1_MP</Effect>
-            <Effect type="UnlockableGodPower" tier="4" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
-            <Effect type="UnlockableGodPower" tier="4">CovTeleport1</Effect>
-            <Effect type="UnlockableGodPower" tier="5">CovInvulnerability</Effect>
-            <Effect type="UnlockableGodPower" tier="5">CovPlanetaryCleansing</Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_eliteCommando_01" relativity="Absolute">
                 <Target type="ProtoUnit">cov_bldg_temple_01</Target>
             </Effect>
