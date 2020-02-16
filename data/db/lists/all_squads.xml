@@ -634,11 +634,11 @@
 		<BobbleHead>UNSC_Spartan</BobbleHead>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
-		<ActiveAbilityType>Rage</ActiveAbilityType>
-		<BuildPoints>45</BuildPoints>
-		<Pop Type="HonorGuard">1</Pop>
-		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power">275</Cost>
+		<ActiveAbilityType>cpgnUnload</ActiveAbilityType>
+		<BuildPoints>1</BuildPoints>
+		<Pop Type="Leader">1</Pop>
+		<Cost ResourceType="Supplies">0</Cost>
+		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,10,0">UNSC_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -783,10 +783,11 @@
 		<BobbleHead>UNSC_Spartan</BobbleHead>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
-		<BuildPoints>40</BuildPoints>
+		<ActiveAbilityType>cpgnUnload</ActiveAbilityType>
+		<BuildPoints>1</BuildPoints>
 		<Pop Type="Leader">1</Pop>
-		<Cost ResourceType="Supplies">450</Cost>
-		<Cost ResourceType="Power">400</Cost>
+		<Cost ResourceType="Supplies">0</Cost>
+		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,10,0">UNSC_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -814,9 +815,9 @@
 		</Units>
 	</Squad>
 	<Squad name="cov_inf_atrioxchosen_01_mp" parent_element="cov_inf_atrioxchosen_01_base" dbid="14258138660473628435">
-		<BuildPoints>45</BuildPoints>
-		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power">275</Cost>
+		<BuildPoints>1</BuildPoints>
+		<Cost ResourceType="Supplies">0</Cost>
+		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<FrozenThreshold>400</FrozenThreshold>
 		<ShatterThreshold>3000</ShatterThreshold>
@@ -1405,7 +1406,7 @@
 		<AIAttackRank>1</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
 		<Pop Type="Unit">2</Pop>
-		<Cost ResourceType="Supplies">0</Cost>
+		<Cost ResourceType="Supplies">10</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.5,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -1643,11 +1644,11 @@
 		<BobbleHead>UNSC_Spartan</BobbleHead>
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
-		<UnlockableActiveAbilityType>Taunt</UnlockableActiveAbilityType>
-		<BuildPoints>40</BuildPoints>
+		<ActiveAbilityType>cpgnUnload</ActiveAbilityType>
+		<BuildPoints>1</BuildPoints>
 		<Pop Type="Leader">1</Pop>
-		<Cost ResourceType="Supplies">450</Cost>
-		<Cost ResourceType="Power">400</Cost>
+		<Cost ResourceType="Supplies">0</Cost>
+		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,10,0">UNSC_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -1670,9 +1671,9 @@
 		<MaxConvertedtoDroneSlots>2</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="cov_inf_impervioushunter_01_mp" parent_element="cov_inf_impervioushunter_01_base" dbid="8680689815167798317">
-		<BuildPoints>45</BuildPoints>
-		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power">275</Cost>
+		<BuildPoints>1</BuildPoints>
+		<Cost ResourceType="Supplies">0</Cost>
+		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 	</Squad>
 	<Squad name="cov_inf_impervioushunter_01_sp" parent_element="cov_inf_impervioushunter_01_base" dbid="8671088879632152115" />
