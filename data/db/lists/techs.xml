@@ -1166,7 +1166,7 @@
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_reinforcements</ResearchCompleteSound>
         <Effects>
-            <Effect type="Data" subtype="PopCap" amount="20" popType="Unit" relativity="Absolute">
+            <Effect type="Data" subtype="PopCap" amount="10" popType="Unit" relativity="Absolute">
                 <Target type="Player">
                 </Target>
             </Effect>
@@ -1187,7 +1187,7 @@
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_reinforcements</ResearchCompleteSound>
         <Effects>
-            <Effect type="Data" subtype="PopCap" amount="20" popType="Unit" relativity="Absolute">
+            <Effect type="Data" subtype="PopCap" amount="5" popType="Unit" relativity="Absolute">
                 <Target type="Player">
                 </Target>
             </Effect>
@@ -1198,10 +1198,10 @@
         <DisplayNameID>1014</DisplayNameID>
         <RolloverTextID>1015</RolloverTextID>
         <PrereqTextID>231</PrereqTextID>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">400</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
-        <ResearchPoints>25</ResearchPoints>
+        <Prereqs>
+            <TechStatus status="Active">unsc_tech_global_infantry_02</TechStatus>
+        </Prereqs>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
@@ -1229,12 +1229,9 @@
         <RolloverTextID>1017</RolloverTextID>
         <PrereqTextID>232</PrereqTextID>
         <Prereqs>
-            <TechStatus status="Active">unsc_marine_upgrade1</TechStatus>
+            <TechStatus status="Active">unsc_tech_global_infantry_03</TechStatus>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">600</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
-        <ResearchPoints>30</ResearchPoints>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_rpg</ResearchCompleteSound>
@@ -1279,12 +1276,9 @@
         <DisplayNameID>26251</DisplayNameID>
         <RolloverTextID>26252</RolloverTextID>
         <Prereqs>
-            <TechStatus status="Active">unsc_basic</TechStatus>
+            <TechStatus status="Active">unsc_tech_global_infantry_01</TechStatus>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">200</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
-        <ResearchPoints>25</ResearchPoints>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
@@ -1309,12 +1303,9 @@
         <RolloverTextID>26254</RolloverTextID>
         <PrereqTextID>231</PrereqTextID>
         <Prereqs>
-            <TechStatus status="Active">unsc_mongoose_upgrade1</TechStatus>
+            <TechStatus status="Active">unsc_tech_global_infantry_02</TechStatus>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">450</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
-        <ResearchPoints>30</ResearchPoints>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
@@ -1344,10 +1335,10 @@
         <DisplayNameID>22425</DisplayNameID>
         <RolloverTextID>22426</RolloverTextID>
         <PrereqTextID>233</PrereqTextID>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">600</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
-        <ResearchPoints>30</ResearchPoints>
+        <Prereqs>
+            <TechStatus status="Active">unsc_tech_global_infantry_01</TechStatus>
+        </Prereqs>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_oxidetank</ResearchCompleteSound>
@@ -1385,12 +1376,9 @@
         <DisplayNameID>22363</DisplayNameID>
         <RolloverTextID>22364</RolloverTextID>
         <Prereqs>
-            <TechStatus status="Active">unsc_basic</TechStatus>
+            <TechStatus status="Active">unsc_tech_global_infantry_02</TechStatus>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">700</Cost>
-        <Cost resourcetype="HQLevel">3</Cost>
-        <ResearchPoints>30</ResearchPoints>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -1443,12 +1431,9 @@
         <DisplayNameID>27218</DisplayNameID>
         <RolloverTextID>27219</RolloverTextID>
         <Prereqs>
-            <TechStatus status="Active">unsc_Sniper_upgrade0</TechStatus>
+            <TechStatus status="Active">unsc_tech_global_infantry_02</TechStatus>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">700</Cost>
-        <Cost resourcetype="HQLevel">3</Cost>
-        <ResearchPoints>30</ResearchPoints>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -1462,12 +1447,6 @@
             <Effect type="SquadCounter" NewCounterName="Sniper_02">
                 <Target type="ProtoSquad">unsc_inf_sniper_01</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="ActionEnable" action="DroneLaserAction" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_veh_sniperdrone_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="ActionEnable" action="DroneLaserAction2" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_veh_sniperdrone_01</Target>
-            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_warthog_upgrade3" type="Normal">
@@ -1476,12 +1455,9 @@
         <RolloverTextID>1115</RolloverTextID>
         <PrereqTextID>233</PrereqTextID>
         <Prereqs>
-            <TechStatus status="Active">unsc_basic</TechStatus>
+            <TechStatus status="Active">unsc_tech_global_infantry_03</TechStatus>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">750</Cost>
-        <Cost resourcetype="HQLevel">3</Cost>
-        <ResearchPoints>30</ResearchPoints>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
@@ -1548,11 +1524,9 @@
         <RolloverTextID>1033</RolloverTextID>
         <PrereqTextID>233</PrereqTextID>
         <Prereqs>
+            <TechStatus status="Active">unsc_tech_global_infantry_03</TechStatus>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">900</Cost>
-        <Cost resourcetype="HQLevel">3</Cost>
-        <ResearchPoints>30</ResearchPoints>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -1609,8 +1583,7 @@
         <DisplayNameID>27085</DisplayNameID>
         <RolloverTextID>27097</RolloverTextID>
         <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">400</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
+        <Cost resourcetype="Power">375</Cost>
         <ResearchPoints>60</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1641,8 +1614,7 @@
             <TechStatus status="Active">unsc_tech_global_infantry_01</TechStatus>
         </Prereqs>
         <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">600</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
+        <Cost resourcetype="Power">425</Cost>
         <ResearchPoints>80</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1673,8 +1645,7 @@
             <TechStatus status="Active">unsc_tech_global_infantry_02</TechStatus>
         </Prereqs>
         <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">800</Cost>
-        <Cost resourcetype="HQLevel">3</Cost>
+        <Cost resourcetype="Power">600</Cost>
         <ResearchPoints>100</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -3516,11 +3487,9 @@
         <RolloverTextID>27110</RolloverTextID>
         <PrereqTextID>231</PrereqTextID>
         <Prereqs>
+            <TechStatus status="Active">cov_tech_global_infantry_03</TechStatus>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">700</Cost>
-        <Cost resourcetype="HQLevel">3</Cost>
-        <ResearchPoints>30</ResearchPoints>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
@@ -10441,7 +10410,6 @@
         <RolloverTextID>27799</RolloverTextID>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">400</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
         <ResearchPoints>30</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -10485,7 +10453,6 @@
         <PrereqTextID>233</PrereqTextID>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">600</Cost>
-        <Cost ResourceType="HQLevel">2</Cost>
         <ResearchPoints>30</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -10595,7 +10562,6 @@
         <RolloverTextID>27799</RolloverTextID>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">300</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
         <ResearchPoints>25</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -10637,7 +10603,6 @@
         <PrereqTextID>233</PrereqTextID>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">450</Cost>
-        <Cost ResourceType="HQLevel">2</Cost>
         <ResearchPoints>30</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -10750,16 +10715,13 @@
         <DBID>1915</DBID>
         <DisplayNameID>27798</DisplayNameID>
         <RolloverTextID>27799</RolloverTextID>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">400</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
-        <ResearchPoints>25</ResearchPoints>
+        <Prereqs>
+            <TechStatus status="Active">unsc_tech_global_infantry_02</TechStatus>
+        </Prereqs>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
-        <Prereqs>
-            <TechStatus status="Active">unsc_basic</TechStatus>
-        </Prereqs>
         <Effects>
             <Effect type="Data" amount="0" subtype="ActionEnable" action="CryoSprayAttackAction1" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_inf_serina_cryomarines_01</Target>
@@ -11371,7 +11333,6 @@
         <RolloverTextID>27799</RolloverTextID>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">300</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
         <ResearchPoints>30</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -11407,7 +11368,6 @@
         <PrereqTextID>233</PrereqTextID>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">450</Cost>
-        <Cost ResourceType="HQLevel">2</Cost>
         <ResearchPoints>35</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -11423,18 +11383,6 @@
                 <Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
             </Effect>
             <Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="ActionEnable" action="PlaceBeaconAction" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="ActionEnable" action="SelfPlaceBeaconAction" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="ActionEnable" action="PlaceUpgradeBeaconAction" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="ActionEnable" action="SelfPlaceUpgradeBeaconAction" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
             </Effect>
             <Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_inf_johnson_hero_03">
@@ -11520,12 +11468,9 @@
         <RolloverTextID>1033</RolloverTextID>
         <PrereqTextID>233</PrereqTextID>
         <Prereqs>
-            <TechStatus status="Active">unsc_basic</TechStatus>
+            <TechStatus status="Active">unsc_tech_global_infantry_02</TechStatus>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">400</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
-        <ResearchPoints>25</ResearchPoints>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -11556,12 +11501,9 @@
         <RolloverTextID>1033</RolloverTextID>
         <PrereqTextID>233</PrereqTextID>
         <Prereqs>
-            <TechStatus status="Active">unsc_mantis_upgrade1</TechStatus>
+            <TechStatus status="Active">unsc_tech_global_infantry_03</TechStatus>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">800</Cost>
-        <Cost resourcetype="HQLevel">3</Cost>
-        <ResearchPoints>35</ResearchPoints>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
