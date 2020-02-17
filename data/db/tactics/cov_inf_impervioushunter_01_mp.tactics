@@ -500,8 +500,6 @@
         </FullBodyAttackAnim>
         <DontAutoRestart>
         </DontAutoRestart>
-        <StartDisabled>
-        </StartDisabled>
         <SpecificData>
             <TauntDuration>10</TauntDuration>
             <TauntRange>25</TauntRange>
@@ -519,8 +517,6 @@
         </FullBodyAttackAnim>
         <DontAutoRestart>
         </DontAutoRestart>
-        <StartDisabled>
-        </StartDisabled>
         <SpecificData>
             <TauntDuration>15</TauntDuration>
             <TauntRange>40</TauntRange>
@@ -607,7 +603,14 @@
         <ActionType>EnergyShield</ActionType>
         <ProtoObject>cov_locustshield</ProtoObject>
     </Action>
+    <Action>
+        <Name>MedicHeal</Name>
+        <ActionType>Heal</ActionType>
+        <WorkRate>2.5</WorkRate>
+        <MinIdleDuration>5</MinIdleDuration>
+    </Action>
     <Tactic>
+        <PersistentAction>MedicHeal</PersistentAction>
         <PersistentAction>ShieldAction</PersistentAction>
         <TargetRule>
             <GaiaOwned>

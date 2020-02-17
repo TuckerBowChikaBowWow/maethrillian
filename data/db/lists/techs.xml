@@ -1159,8 +1159,7 @@
         <RolloverTextID>1163</RolloverTextID>
         <PrereqTextID>231</PrereqTextID>
         <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">750</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
+        <Cost resourcetype="Power">400</Cost>
         <ResearchPoints>30</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -1180,8 +1179,7 @@
             <TechStatus status="Active">unsc_tech_reinforcements_1</TechStatus>
         </Prereqs>
         <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">1250</Cost>
-        <Cost resourcetype="HQLevel">3</Cost>
+        <Cost resourcetype="Power">500</Cost>
         <ResearchPoints>35</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -3157,8 +3155,7 @@
         <DisplayNameID>1172</DisplayNameID>
         <RolloverTextID>1173</RolloverTextID>
         <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">750</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
+        <Cost resourcetype="Power">400</Cost>
         <ResearchPoints>30</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -3177,8 +3174,7 @@
             <TechStatus status="Active">cov_tech_followers_1</TechStatus>
         </Prereqs>
         <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">1250</Cost>
-        <Cost resourcetype="HQLevel">3</Cost>
+        <Cost resourcetype="Power">500</Cost>
         <ResearchPoints>35</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -11141,12 +11137,6 @@
                 <Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
             </Effect>
             <Effect type="Data" amount="1.35" subtype="Shieldpoints" relativity="Percent">
-                <Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="ActionEnable" action="TauntAction" relativity="Absolute">
-                <Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
             </Effect>
             <Effect type="SquadCounter" NewCounterName="Impervious_02">

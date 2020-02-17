@@ -411,7 +411,14 @@
         <ActionType>EnergyShield</ActionType>
         <ProtoObject>cov_locustshield</ProtoObject>
     </Action>
+    <Action>
+        <Name>MedicHeal</Name>
+        <ActionType>Heal</ActionType>
+        <WorkRate>2.5</WorkRate>
+        <MinIdleDuration>5</MinIdleDuration>
+    </Action>
     <Tactic>
+        <PersistentAction>MedicHeal</PersistentAction>
         <PersistentAction>ShieldAction</PersistentAction>
         <PersistentAction>RageBuff</PersistentAction>
         <PersistentSquadAction>FiendishReturn</PersistentSquadAction>
