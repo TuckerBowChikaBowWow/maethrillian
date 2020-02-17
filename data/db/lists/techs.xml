@@ -4243,6 +4243,9 @@
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_builder_01" relativity="Absolute">
                 <Target type="ProtoUnit">game_base_Socket_01</Target>
             </Effect>
+            <Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
+            </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">cov_veh_ghost_01</Target>
             </Effect>
