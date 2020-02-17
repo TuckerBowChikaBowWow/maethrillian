@@ -3193,7 +3193,7 @@
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_followers</ResearchCompleteSound>
         <Effects>
-            <Effect type="Data" subtype="PopCap" amount="20" popType="Unit" relativity="Absolute">
+            <Effect type="Data" subtype="PopCap" amount="10" popType="Unit" relativity="Absolute">
                 <Target type="Player">
                 </Target>
             </Effect>
@@ -3213,7 +3213,7 @@
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_followers</ResearchCompleteSound>
         <Effects>
-            <Effect type="Data" subtype="PopCap" amount="20" popType="Unit" relativity="Absolute">
+            <Effect type="Data" subtype="PopCap" amount="5" popType="Unit" relativity="Absolute">
                 <Target type="Player">
                 </Target>
             </Effect>
@@ -3223,10 +3223,10 @@
         <DBID>1915</DBID>
         <DisplayNameID>27494</DisplayNameID>
         <RolloverTextID>27495</RolloverTextID>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">300</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
-        <ResearchPoints>25</ResearchPoints>
+        <Prereqs>
+            <TechStatus status="Active">cov_tech_global_infantry_02</TechStatus>
+        </Prereqs>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
@@ -3248,12 +3248,9 @@
         <RolloverTextID>1077</RolloverTextID>
         <PrereqTextID>241</PrereqTextID>
         <Prereqs>
-            <TechStatus status="Active">cov_grunt_upgrade1</TechStatus>
+            <TechStatus status="Active">cov_tech_global_infantry_03</TechStatus>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">550</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
-        <ResearchPoints>30</ResearchPoints>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
@@ -3303,13 +3300,10 @@
         <DisplayNameID>24170</DisplayNameID>
         <RolloverTextID>24171</RolloverTextID>
         <PrereqTextID>240</PrereqTextID>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">600</Cost>
-        <Cost resourcetype="HQLevel">3</Cost>
-        <ResearchPoints>30</ResearchPoints>
         <Prereqs>
-            <TechStatus status="Active">cov_basic</TechStatus>
+            <TechStatus status="Active">cov_tech_global_infantry_02</TechStatus>
         </Prereqs>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <Effects>
@@ -3336,7 +3330,9 @@
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_jumppack</ResearchCompleteSound>
         <Prereqs>
+            <TechStatus status="Active">cov_tech_global_infantry_01</TechStatus>
         </Prereqs>
+        <Flag>Shadow</Flag>
         <Effects>
             <Effect type="Data" amount="3" subtype="Techlevel" allactions="1" relativity="Absolute">
                 <Target type="ProtoSquad">cov_inf_bruteJumpPack_01</Target>
@@ -3353,10 +3349,10 @@
         <DisplayNameID>22376</DisplayNameID>
         <RolloverTextID>22377</RolloverTextID>
         <PrereqTextID>244</PrereqTextID>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">900</Cost>
-        <Cost resourcetype="HQLevel">3</Cost>
-        <ResearchPoints>30</ResearchPoints>
+        <Prereqs>
+            <TechStatus status="Active">cov_tech_global_infantry_03</TechStatus>
+        </Prereqs>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_assaultbeam</ResearchCompleteSound>
@@ -3398,16 +3394,13 @@
         <DisplayNameID>22378</DisplayNameID>
         <RolloverTextID>22379</RolloverTextID>
         <PrereqTextID>241</PrereqTextID>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">450</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
-        <ResearchPoints>30</ResearchPoints>
+        <Prereqs>
+            <TechStatus status="Active">cov_tech_global_infantry_02</TechStatus>
+        </Prereqs>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_boostedram</ResearchCompleteSound>
-        <Prereqs>
-            <TechStatus status="Active">cov_basic</TechStatus>
-        </Prereqs>
         <Effects>
             <Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
                 <Target type="ProtoSquad">cov_veh_ghost_01</Target>
@@ -3487,10 +3480,10 @@
         <DisplayNameID>22386</DisplayNameID>
         <RolloverTextID>22387</RolloverTextID>
         <PrereqTextID>243</PrereqTextID>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">450</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
-        <ResearchPoints>30</ResearchPoints>
+        <Prereqs>
+            <TechStatus status="Active">cov_tech_global_infantry_03</TechStatus>
+        </Prereqs>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -3549,7 +3542,6 @@
         <PrereqTextID>231</PrereqTextID>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">375</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
         <ResearchPoints>60</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -3586,8 +3578,7 @@
             <TechStatus status="Active">cov_tech_global_infantry_01</TechStatus>
         </Prereqs>
         <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">575</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
+        <Cost resourcetype="Power">425</Cost>
         <ResearchPoints>80</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -3624,8 +3615,7 @@
             <TechStatus status="Active">cov_tech_global_infantry_02</TechStatus>
         </Prereqs>
         <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">775</Cost>
-        <Cost resourcetype="HQLevel">3</Cost>
+        <Cost resourcetype="Power">600</Cost>
         <ResearchPoints>100</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -10923,13 +10913,9 @@
         <Status>OBTAINABLE</Status>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">300</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
         <ResearchPoints>25</ResearchPoints>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
-        <Prereqs>
-            <TechStatus status="Active">cov_basic</TechStatus>
-        </Prereqs>
         <Effects>
             <Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">cov_inf_atrioxchosen_01</Target>
@@ -10965,7 +10951,6 @@
         <Status>OBTAINABLE</Status>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">450</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
         <ResearchPoints>30</ResearchPoints>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_cloak</ResearchCompleteSound>
@@ -11182,14 +11167,10 @@
         <PrereqTextID>243</PrereqTextID>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">300</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
         <ResearchPoints>25</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
-        <Prereqs>
-            <TechStatus status="Active">cov_basic</TechStatus>
-        </Prereqs>
         <Effects>
             <Effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
@@ -11218,7 +11199,6 @@
         <PrereqTextID>243</PrereqTextID>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">450</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
         <ResearchPoints>30</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -11294,13 +11274,14 @@
         <DisplayNameID>1114</DisplayNameID>
         <RolloverTextID>1115</RolloverTextID>
         <PrereqTextID>233</PrereqTextID>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">650</Cost>
-        <Cost resourcetype="HQLevel">3</Cost>
         <ResearchPoints>30</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_gausscannon</ResearchCompleteSound>
+        <Prereqs>
+            <TechStatus status="Active">cov_tech_global_infantry_01</TechStatus>
+        </Prereqs>
+        <Flag>Shadow</Flag>
         <Effects>
             <Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
                 <Target type="ProtoSquad">cov_inf_lekgologoliath_01</Target>
@@ -11327,10 +11308,10 @@
         <DisplayNameID>22376</DisplayNameID>
         <RolloverTextID>22377</RolloverTextID>
         <PrereqTextID>244</PrereqTextID>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">400</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
-        <ResearchPoints>30</ResearchPoints>
+        <Prereqs>
+            <TechStatus status="Active">cov_tech_global_infantry_02</TechStatus>
+        </Prereqs>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_assaultbeam</ResearchCompleteSound>
@@ -11609,14 +11590,10 @@
         <PrereqTextID>243</PrereqTextID>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">300</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
         <ResearchPoints>25</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
-        <Prereqs>
-            <TechStatus status="Active">cov_basic</TechStatus>
-        </Prereqs>
         <Effects>
             <Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">cov_inf_arbiter_01</Target>
@@ -11660,7 +11637,6 @@
         <PrereqTextID>243</PrereqTextID>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">450</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
         <ResearchPoints>30</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
@@ -11867,13 +11843,10 @@
         </Effects>
     </Tech>
     <Tech name="cov_arbiter_gruntsquad_upgrade1" type="Normal">
-        <Prereqs>
-            <TechStatus status="Active">cov_basic</TechStatus>
+       <Prereqs>
+            <TechStatus status="Active">cov_tech_global_infantry_01</TechStatus>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">300</Cost>
-        <Cost resourcetype="HQLevel">1</Cost>
-        <ResearchPoints>25</ResearchPoints>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_newblood</ResearchCompleteSound>
@@ -11891,13 +11864,10 @@
         <DisplayNameID>1076</DisplayNameID>
         <RolloverTextID>1077</RolloverTextID>
         <PrereqTextID>241</PrereqTextID>
-        <Prereqs>
-            <TechStatus status="Active">cov_arbiter_gruntsquad_upgrade1</TechStatus>
+       <Prereqs>
+            <TechStatus status="Active">cov_tech_global_infantry_03</TechStatus>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">550</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
-        <ResearchPoints>30</ResearchPoints>
+        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
@@ -11915,11 +11885,9 @@
     <Tech name="cov_arbiter_assaultteam_upgrade1" type="Normal">
         <DBID>1915</DBID>
         <Prereqs>
-            <TechStatus status="Active">cov_basic</TechStatus>
+            <TechStatus status="Active">cov_tech_global_infantry_02</TechStatus>
         </Prereqs>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">350</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
+        <Flag>Shadow</Flag>
         <ResearchPoints>30</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <ResearchCompleteSound>play_vog_tech_peons</ResearchCompleteSound>
@@ -12495,16 +12463,14 @@
         </Effects>
     </Tech>
     <Tech name="cov_brutegrenadier_upgrade1" type="Normal">
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">400</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
         <ResearchPoints>30</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
         <Prereqs>
-            <TechStatus status="Active">cov_basic</TechStatus>
+            <TechStatus status="Active">cov_tech_global_infantry_02</TechStatus>
         </Prereqs>
+        <Flag>Shadow</Flag>
         <Effects>
             <Effect type="Data" amount="0" subtype="ActionEnable" action="AOEBrutegunAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_brutegrenadier_01</Target>
