@@ -9421,6 +9421,313 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="_POWER_InstantNukeTech" type="Normal">
+		<DBID>1963</DBID>
+		<DisplayNameID>26016</DisplayNameID>
+		<RolloverTextID>26016</RolloverTextID>
+		<PrereqTextID>26016</PrereqTextID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Effects>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscScatterbomb1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscScatterbomb1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscScatterbomb1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscScatterbomb2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscScatterbomb2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscScatterbomb2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="JohnsonEMPBlast1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="JohnsonEMPBlast1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="JohnsonEMPBlast1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="JohnsonEMPBlast2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="JohnsonEMPBlast2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="JohnsonEMPBlast2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="Jerome_Barrage1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="Jerome_Barrage1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="Jerome_Barrage1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="Jerome_Barrage2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="Jerome_Barrage2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="Jerome_Barrage2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="Jerome_Barrage3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="Jerome_Barrage3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="Jerome_Barrage3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscNapalmMissiles1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscNapalmMissiles1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscNapalmMissiles1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscNapalmMissiles2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscNapalmMissiles2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscNapalmMissiles2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscNapalmMissiles3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscNapalmMissiles3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscNapalmMissiles3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscMacBlast1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscMacBlast1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscMacBlast1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscMacBlast2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscMacBlast2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscMacBlast2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscMacBlast3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscMacBlast3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscMacBlast3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscBombingRun1_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscBombingRun1_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscBombingRun1_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscBombingRun2_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscBombingRun2_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscBombingRun2_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscBombingRun3_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscBombingRun3_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscBombingRun3_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscArkDefense1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscArkDefense1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscArkDefense1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscArkDefense2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscArkDefense2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscArkDefense2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscArkDefense3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscArkDefense3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscArkDefense3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscArkCleansing" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscArkCleansing" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscArkCleansing" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="UnscImmolation" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="UnscImmolation" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="UnscImmolation" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="test_LeaderNukem" type="Normal">
+		<DBID>1917</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="UnlockableGodPower" tier="1">UnscScatterbomb1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="UnscScatterbomb1">UnscScatterbomb2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">JohnsonEMPBlast1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="JohnsonEMPBlast1">JohnsonEMPBlast2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">Jerome_Barrage1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="Jerome_Barrage1">Jerome_Barrage2</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="Jerome_Barrage2">Jerome_Barrage3</Effect>
+			<Effect type="UnlockableGodPower" tier="2">UnscNapalmMissiles1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="UnscNapalmMissiles1">UnscNapalmMissiles2</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="UnscNapalmMissiles2">UnscNapalmMissiles3</Effect>
+			<Effect type="UnlockableGodPower" tier="3">UnscMacBlast1</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="UnscMacBlast1">UnscMacBlast2</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="UnscMacBlast2">UnscMacBlast3</Effect>
+			<Effect type="UnlockableGodPower" tier="3">UnscBombingRun1_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="UnscBombingRun1_MP">UnscBombingRun2_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="UnscBombingRun2_MP">UnscBombingRun3_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="4">UnscArkDefense1</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="UnscArkDefense1">UnscArkDefense2</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="UnscArkDefense2">UnscArkDefense3</Effect>
+			<Effect type="UnlockableGodPower" tier="4">InstantNukeTech</Effect>
+			<Effect type="UnlockableGodPower" tier="5">UnscArkCleansing</Effect>
+			<Effect type="UnlockableGodPower" tier="5">UnscImmolation</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">unsc_multiplayer_marines1</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_operative_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_operative_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_operative_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpjerome_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpdoug_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpalice_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_forgehog_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_spartan_mpdoug_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_laser" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_rocket" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_chaingun" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_laser" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_rocket" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_chaingun" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_laser" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_rocket" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_chaingun" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_laser" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_rocket" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_chaingun" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forgehog_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forgehog_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="GameMode_DesignTest" type="Normal">
 		<DBID>0</DBID>
 		<Status>UNOBTAINABLE</Status>
