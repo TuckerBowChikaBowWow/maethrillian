@@ -2,7 +2,7 @@
 <TacticData>
 	<Weapon>
 		<Name>ScatterBomb</Name>
-		<DamagePerSecond>730</DamagePerSecond>
+		<DamagePerSecond>700</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>LeaderPowerScatterBomb</WeaponType>
 		<Projectile>pow_proj_scatterbomb_01</Projectile>
@@ -13,14 +13,6 @@
 				<Type>Circle</Type>
 				<Radius>6</Radius>
 				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-				<IgnoreY>true</IgnoreY>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>8</Radius>
-				<DamageRatio>90</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<IgnoreY>true</IgnoreY>

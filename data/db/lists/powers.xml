@@ -19826,7 +19826,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="300" Power="200" />
 			<AutoRecharge>195000</AutoRecharge>
-			<UIRadius>22</UIRadius>
+			<UIRadius>24</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
 			<RolloverTextID>5027</RolloverTextID>
@@ -19872,6 +19872,16 @@
 				<Data type="int" name="NumShots">1</Data>
 				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad20m2s</Data>
 			</DataLevel>
+			<DataLevel level="1">
+				<Data type="protoobject" name="Projectile">pow_gp_JohnsonEMPBlast_01_upg2</Data>
+				<Data type="int" name="NumShots">1</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad20m2s</Data>
+			</DataLevel>
+			<DataLevel level="2">
+				<Data type="protoobject" name="Projectile">pow_gp_JohnsonEMPBlast_01_upg3</Data>
+				<Data type="int" name="NumShots">1</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad20m2s</Data>
+			</DataLevel>
 		</Attributes>
 	</Power>
 	<Power name="JohnsonEMPBlast2">
@@ -19880,7 +19890,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Cost Supplies="400" Power="300" />
 			<AutoRecharge>195000</AutoRecharge>
-			<UIRadius>26</UIRadius>
+			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5026</DisplayNameID>
 			<RolloverTextID>5027</RolloverTextID>
@@ -19923,6 +19933,16 @@
 			</BaseDataLevel>
 			<DataLevel level="0">
 				<Data type="protoobject" name="Projectile">pow_gp_JohnsonEMPBlast_02</Data>
+				<Data type="int" name="NumShots">1</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m2s</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="protoobject" name="Projectile">pow_gp_JohnsonEMPBlast_02_upg2</Data>
+				<Data type="int" name="NumShots">1</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m2s</Data>
+			</DataLevel>
+			<DataLevel level="2">
+				<Data type="protoobject" name="Projectile">pow_gp_JohnsonEMPBlast_02_upg3</Data>
 				<Data type="int" name="NumShots">1</Data>
 				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad24m2s</Data>
 			</DataLevel>
@@ -20009,7 +20029,7 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">24</Data>
+				<Data type="float" name="AreaRadius">28</Data>
 				<Data type="objecttype" name="FilterType">Aircraft</Data>
 				<Data type="objecttype" name="FilterType2">GroundVehicle</Data>
 				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
@@ -20053,13 +20073,189 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">28</Data>
+				<Data type="float" name="AreaRadius">32</Data>
 				<Data type="objecttype" name="FilterType">Aircraft</Data>
 				<Data type="objecttype" name="FilterType2">GroundVehicle</Data>
 				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
 				<Data type="float" name="BuffDuration">18</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageDealtModifier">1.39999998</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="protoobject" name="BuffActivateFX">vfx_dlc3_powers_buffs_johnsonempbuff</Data>
+				<Data type="protoobject" name="BuffDeactivateFX">fx_heavymetalend</Data>
+				<Data type="sound" name="FiredSound" />
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="JohnsonEMPBlast1ProcBuff_upg2">
+		<Attributes>
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<BuffName>JohnsonEMPBuff</BuffName>
+			<Cost Supplies="0" Power="0" />
+			<AutoRecharge>180000</AutoRecharge>
+			<UIRadius>20</UIRadius>
+			<Decal>AOE_Medium</Decal>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>3</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DataLevel level="0">
+				<Data type="float" name="AreaRadius">28</Data>
+				<Data type="objecttype" name="FilterType">Aircraft</Data>
+				<Data type="objecttype" name="FilterType2">GroundVehicle</Data>
+				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
+				<Data type="float" name="BuffDuration">15</Data>
+				<Data type="bool" name="AffectsEnemies">false</Data>
+				<Data type="float" name="DamageDealtModifier">1.35</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="protoobject" name="BuffActivateFX">vfx_dlc3_powers_buffs_johnsonempbuff</Data>
+				<Data type="protoobject" name="BuffDeactivateFX">fx_heavymetalend</Data>
+				<Data type="sound" name="FiredSound" />
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="JohnsonEMPBlast2ProcBuff_upg2">
+		<Attributes>
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<BuffName>JohnsonEMPBuff</BuffName>
+			<Cost Supplies="0" Power="0" />
+			<AutoRecharge>180000</AutoRecharge>
+			<UIRadius>24</UIRadius>
+			<Decal>AOE_Medium</Decal>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>3</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DataLevel level="0">
+				<Data type="float" name="AreaRadius">32</Data>
+				<Data type="objecttype" name="FilterType">Aircraft</Data>
+				<Data type="objecttype" name="FilterType2">GroundVehicle</Data>
+				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
+				<Data type="float" name="BuffDuration">20</Data>
+				<Data type="bool" name="AffectsEnemies">false</Data>
+				<Data type="float" name="DamageDealtModifier">1.45</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="protoobject" name="BuffActivateFX">vfx_dlc3_powers_buffs_johnsonempbuff</Data>
+				<Data type="protoobject" name="BuffDeactivateFX">fx_heavymetalend</Data>
+				<Data type="sound" name="FiredSound" />
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="JohnsonEMPBlast1ProcBuff_upg3">
+		<Attributes>
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<BuffName>JohnsonEMPBuff</BuffName>
+			<Cost Supplies="0" Power="0" />
+			<AutoRecharge>180000</AutoRecharge>
+			<UIRadius>20</UIRadius>
+			<Decal>AOE_Medium</Decal>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>3</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DataLevel level="0">
+				<Data type="float" name="AreaRadius">28</Data>
+				<Data type="objecttype" name="FilterType">Aircraft</Data>
+				<Data type="objecttype" name="FilterType2">GroundVehicle</Data>
+				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
+				<Data type="float" name="BuffDuration">17</Data>
+				<Data type="bool" name="AffectsEnemies">false</Data>
+				<Data type="float" name="DamageDealtModifier">1.4</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="protoobject" name="BuffActivateFX">vfx_dlc3_powers_buffs_johnsonempbuff</Data>
+				<Data type="protoobject" name="BuffDeactivateFX">fx_heavymetalend</Data>
+				<Data type="sound" name="FiredSound" />
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="JohnsonEMPBlast2ProcBuff_upg3">
+		<Attributes>
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<BuffName>JohnsonEMPBuff</BuffName>
+			<Cost Supplies="0" Power="0" />
+			<AutoRecharge>180000</AutoRecharge>
+			<UIRadius>24</UIRadius>
+			<Decal>AOE_Medium</Decal>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>3</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DataLevel level="0">
+				<Data type="float" name="AreaRadius">32</Data>
+				<Data type="objecttype" name="FilterType">Aircraft</Data>
+				<Data type="objecttype" name="FilterType2">GroundVehicle</Data>
+				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
+				<Data type="float" name="BuffDuration">22</Data>
+				<Data type="bool" name="AffectsEnemies">false</Data>
+				<Data type="float" name="DamageDealtModifier">1.5</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -29261,18 +29457,6 @@
 				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad30m1-5s</Data>
 				<Data type="float" name="DropStartHeight">80</Data>
 				<Data type="unitdrops" name="unitdrops">
-					<Drop>
-						<ProtoObjectID>pow_gp_scatterbombDummy_01</ProtoObjectID>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_scatterbombDummy_01</ProtoObjectID>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_scatterbombDummy_01</ProtoObjectID>
-					</Drop>
-					<Drop>
-						<ProtoObjectID>pow_gp_scatterbombDummy_01</ProtoObjectID>
-					</Drop>
 					<Drop>
 						<ProtoObjectID>pow_gp_scatterbombDummy_01</ProtoObjectID>
 					</Drop>
