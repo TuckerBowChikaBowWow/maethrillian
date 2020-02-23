@@ -1,34 +1,30 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>StasisBeam</Name>
-		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>0</DamagePerSecond>
-		<WeaponType>AntiVehicle</WeaponType>
-		<Projectile>fx_proj_EMPbeam_01</Projectile>
-		<ImpactEffect size="Medium">HeavyGruntFuelRodImpact</ImpactEffect>
+		<Name>AssaultRifle</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>5</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_plasmaPistol_01</Projectile>
+		<ImpactEffect size="small">PlasmaPistolImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>40</MaxRange>
 		<Accuracy>1</Accuracy>
-		<MaxDeviation>0</MaxDeviation>
+		<MaxDeviation>1.5</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>1250</PhysicsForceMin>
-		<PhysicsForceMax>2000</PhysicsForceMax>
-		<TargetPriority type="GroundVehicle">10</TargetPriority>
-		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
-		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
-		<Filter>Medium</Filter>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.899999976</PostAttackCooldownMax>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<Filter>Light</Filter>
 		<Daze TargetType="Unit" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">6f</Daze>
 		<Slow TargetType="Unit" MovementModifier="0.100000001" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">6f</Slow>
 	</Weapon>
@@ -124,16 +120,13 @@
 		<RechargeDelay>3</RechargeDelay>
 	</Action>
 	<Action>
-		<Name>StasisBeamAttackAction</Name>
+		<Name>AssaultRifleAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>HackBeamAttack</Anim>
-		<Weapon>StasisBeam</Weapon>
+		<Anim>AssaultRifleAttack</Anim>
+		<MoveAnim>AssaultRifleAttackMove</MoveAnim>
+		<Weapon>AssaultRifle</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
 		<FullBodyAttackAnim />
-		<Strafing turnRate="180" trackingSpeed="60" jitter="0" />
-		<Beam collideWithUnits="false" collideWithTerrain="false" />
-		<PersistBetweenOpps />
-		<Duration DurationSpread="0.5">3</Duration>
-		<LoopAttackAnim />
 	</Action>
 	<Action>
 		<Name>PlaceBeaconAction</Name>
@@ -143,8 +136,8 @@
 		<FullBodyAttackAnim />
 		<DontAutoRestart />
 		<DisableStealthWhileWorking />
-		<Duration>3</Duration>
-		<DeployUnit DestroyBuiltUnitOnInterrupt="true" StartDeployAnim="Emerge" DeployedAnim="Deploy" />
+		<Duration>2.5</Duration>
+		<ProjectileInvokePower>OperativeMine</ProjectileInvokePower>
 	</Action>
 	<Action>
 		<Name>BrainstormAction</Name>
@@ -155,6 +148,7 @@
 		<SpecificData>
 			<HackingDuration>10</HackingDuration>
 		</SpecificData>
+		<ProjectileInvokePower>OPERATIVEEMPBlast</ProjectileInvokePower>
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -304,7 +298,7 @@
 			<Relation>Enemy</Relation>
 			<TargetType>Flying</TargetType>
 			<TargetType>GroundVehicle</TargetType>
-			<Action>StasisBeamAttackAction</Action>
+			<Action>AssaultRifleAttackAction</Action>
 		</TargetRule>
 		<PersistentAction>StealthManager</PersistentAction>
 	</Tactic>

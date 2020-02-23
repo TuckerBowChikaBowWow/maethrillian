@@ -9,7 +9,6 @@
 				<file>units/unsc/infantry/stormodst01/mesh_stormmarine01</file>
 				<damagefile />
 			</asset>
-			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="FoliageForceFile" name="Foliage/unit" tobone="b_root" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<point pointType="Launch" bone="b_hand_left" pointData="Metal" />
 		</component>
@@ -18,18 +17,21 @@
 				<file>animations/unsc/infantry/stormoperative01/operative_beacon_deploy</file>
 				<weight>2</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="BeaconLooping" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>animations/unsc/infantry/stormoperative01/operative_beacon_01</file>
 				<weight>2</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="HackAttack" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>animations/unsc/infantry/stormoperative01/operative_hack_attack_01</file>
 				<weight>2</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="HackBeamAttack" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -37,12 +39,14 @@
 				<weight>2</weight>
 			</asset>
 			<tag type="Attack" start="0" position_type="Time" position="0.0329999998" end="1" tobone="GrannyRootBone_stormmarine01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Brainstorm_Hack" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>animations/unsc/infantry/stormoperative01/operative_hack_loop</file>
 				<weight>2</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -58,6 +62,7 @@
 				<weight>4</weight>
 			</asset>
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GruntTailIdle" tobone="GrannyRootBone_stormmarine01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -109,6 +114,7 @@
 				<file>animations/unsc/infantry/stormmarine01/rifle_gather_04</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Build" exitAction="Loop" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -123,6 +129,7 @@
 				<file>animations/unsc/infantry/stormoperative01/operative_idle_03</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Repair" exitAction="Loop" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -137,6 +144,7 @@
 				<file>animations/unsc/infantry/stormoperative01/operative_idle_03</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Stunned" exitAction="Transition" tweenTime="5" tweenToAnimation="Stunned" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -147,6 +155,126 @@
 				<file>animations/unsc/infantry/stormmarine01/marine_stunned_02</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="AssaultRifleAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations\unsc\infantry\stormmarine01\rifle_attack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.0909999982" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.107000001" end="1" tobone="b_launchpoint_right_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.107000001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.35800001" end="1" tobone="b_launchpoint_right_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.35800001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.472000003" end="1" tobone="b_launchpoint_right_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.472000003" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.61500001" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.620000005" end="1" tobone="b_launchpoint_right_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<asset type="Anim">
+				<file>animations\unsc\infantry\stormmarine01\rifle_attack_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.050999999" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveLong" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.159999996" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.164000005" end="1" tobone="b_launchpoint_right_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.224000007" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.300000012" end="1" tobone="b_launchpoint_right_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.460000008" end="1" tobone="b_launchpoint_right_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.460000008" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.462000012" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.689999998" end="1" tobone="bone_vfx_MuzzlePoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.869000018" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveLong" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<asset type="Anim">
+				<file>animations\unsc\infantry\stormmarine01\rifle_attack_03</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.0189999994" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.0960000008" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineJumpLand" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.219999999" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.219999999" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.219999999" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.256000012" end="1" name="DIA_3D_WAL_MARNM_Battle_Cries" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.25999999" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.300000012" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.5" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.521000028" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.550000012" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.589999974" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.629999995" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.795000017" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.878000021" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineJumpLand" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormmarine01/rifle_attack_04</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.195999995" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.200000003" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.200000003" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.25" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.272000015" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.540000021" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.540000021" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1.70000005" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.565999985" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.600000024" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.660000026" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.686999977" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormmarine01/rifle_attack_05</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.159999996" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.200000003" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.200000003" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3.5" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.398000002" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.439999998" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.550000012" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.588" end="1" name="PLAY_SFX_3D_WPN_UNSC_AssaultRifleSingle" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.601000011" end="1" name="PLAY_SFX_3D_WPN_UNSC_AssaultRifleSingle" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.612999976" end="1" name="PLAY_SFX_3D_WPN_UNSC_AssaultRifleSingle" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.758000016" end="1" name="PLAY_SFX_3D_WPN_UNSC_AssaultRifleSingle" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.771000028" end="1" name="PLAY_SFX_3D_WPN_UNSC_AssaultRifleSingle" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormmarine01/rifle_attack_06</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.180999994" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.219999999" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.219999999" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="3" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.330000013" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.367000014" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.439999998" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.456" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.550000012" end="1" tobone="b_launchpoint_right_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.606000006" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ModelRef" name="Weapon2" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</anim>
+		<anim type="AssaultRifleAttackMove" exitAction="Transition" tweenTime="10" tweenToAnimation="Jog" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormmarine01/rifle_jog_attack01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.104000002" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.123000003" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineRun" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.219999999" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.230000004" end="1" tobone="b_launchpoint_right_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.232999995" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.263999999" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.263999999" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineRun" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.349999994" end="1" tobone="b_launchpoint_right_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.349999994" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.43599999" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineRun" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.460000008" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.57099998" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.603999972" end="1" tobone="b_launchpoint_right_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.606999993" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineRun" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.620000005" end="1" name="PLAY_SFX_3D_WPN_BAN_PlasmaPistol" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Particle" start="0" position_type="Time" position="0.620000005" end="1" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitWeaponVFX/SharedMuzzleVFX/PlasmaPistolMuzzle" tobone="bone_vfx_MuzzlePoint" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.76700002" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.80400002" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineRun" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.920000017" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.939999998" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineRun" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ModelRef" name="Weapon2" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -296,6 +424,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.0489999987" end="1" name="DIA_3D_WAL_ODSTL_Death" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.194999993" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTFallHard" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="DeathByFire" exitAction="Freeze" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -336,6 +465,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.513000011" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTFallSoft" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.722000003" end="1" name="DIA_3D_WAL_ODSTL_Death" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="DeathByHeadshot" exitAction="Freeze" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -401,6 +531,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.256999999" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTFallHard" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.492000014" end="1" name="PLAY_SFX_3D_FTS_UNSC_ODSTWalk" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="DeathByMachinegun" exitAction="Freeze" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -436,6 +567,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.0270000007" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTMoveShort" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.629000008" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTFallHard" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="DeathByMelee" exitAction="Freeze" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -495,6 +627,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.236000001" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTMoveShort" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.676999986" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTFallSoft" tobone="b_root" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Flail" exitAction="Loop" tweenTime="5" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -509,6 +642,7 @@
 				<file>animations/unsc/infantry/stormmarine01/flail03</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Mine" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -521,6 +655,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.560000002" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTSwing" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Attack" start="0" position_type="Time" position="0.560000002" end="1" tobone="b_hand_left" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="SMGAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -619,6 +754,7 @@
 				<tag type="Attack" start="0" position_type="Time" position="0.689999998" end="1" tobone="bone_vfx_MuzzlePoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.869000018" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineMoveLong" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="CombatIdle" exitAction="Transition" tweenTime="5" tweenToAnimation="SMGAttack" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -649,6 +785,7 @@
 				<weight>10</weight>
 				<tag type="Sound" start="0" position_type="Time" position="0.34799999" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineReload2" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Gather" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -667,6 +804,7 @@
 				<file>animations/unsc/infantry/stormodst/odst_gather_04</file>
 				<weight>2</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="IdleRun" exitAction="Transition" tweenTime="2" tweenToAnimation="Run" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -674,6 +812,7 @@
 				<weight>1</weight>
 				<tag type="Sound" start="0" position_type="Time" position="0.159999996" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="RunIdle" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -698,6 +837,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.572000027" end="1" name="PLAY_SFX_3D_FTS_UNSC_ODSTWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.629370213" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="IdleJog" exitAction="Transition" tweenTime="2" tweenToAnimation="Jog" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -705,6 +845,7 @@
 				<weight>1</weight>
 				<tag type="Sound" start="0" position_type="Time" position="0.270000011" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="JogIdle" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -729,6 +870,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.572000027" end="1" name="PLAY_SFX_3D_FTS_UNSC_ODSTWalkIdle" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.629370213" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="IdleWalk" exitAction="Transition" tweenTime="2" tweenToAnimation="Walk" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -736,6 +878,7 @@
 				<weight>1</weight>
 				<tag type="Sound" start="0" position_type="Time" position="0.232999995" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="WalkIdle" exitAction="Transition" tweenTime="5" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -745,6 +888,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.374000013" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTMoveShortIdle" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.800000012" end="1" name="PLAY_SFX_3D_FTS_UNSC_ODSTIdle" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="TurnLeft" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -754,6 +898,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.414999992" end="1" name="PLAY_SFX_3D_FTS_UNSC_ODSTWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.800000012" end="1" name="PLAY_SFX_3D_FTS_UNSC_ODSTWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="TurnRight" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -763,30 +908,35 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.629370213" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTMoveShort" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.800000012" end="1" name="PLAY_SFX_3D_FTS_UNSC_ODSTWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="AimLeft" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>animations/unsc/infantry/stormodst/odst_aim_left</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="AimFront" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>animations/unsc/infantry/stormodst/odst_aim_front</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="AimRight" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>animations/unsc/infantry/stormodst/odst_aim_right</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="AimFire" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>animations/unsc/infantry/stormodst/odst_aim_fire</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_elitehon01_v_odst01_victim_01" exitAction="Freeze" tweenTime="15" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -801,6 +951,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.745999992" end="1" name="PLAY_SFX_3D_Fatality_BodyFallLight" tobone="GrannyRootBone_stormflamer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.749000013" end="1" name="PLAY_SFX_3D_FLY_Fatality_UNSC_MoveShort" tobone="GrannyRootBone_stormflamer01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_brutehon01_v_odst01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -819,6 +970,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.774999976" end="1" name="PLAY_SFX_3D_Fatality_BodyDragStop" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.774999976" end="1" name="PLAY_SFX_3D_Fatality_BodyFallLight" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_jpbrute01_v_odst01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -842,6 +994,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.680999994" end="1" name="PLAY_SFX_3D_Fatality_BodyFallHeavy_SmallUnit" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.68599999" end="1" name="DIA_3D_WAL_MARNM_Death_Fatality" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_spartan02_v_odst01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -855,6 +1008,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.552999973" end="1" name="PLAY_SFX_3D_FLY_Fatality_UNSC_MoveShort" tobone="GrannyRootBone_stormspartan01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.63499999" end="1" name="PLAY_SFX_3D_Fatality_BodyFallHeavy_SmallUnit" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_spartan03_v_odst01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -868,6 +1022,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.552999973" end="1" name="PLAY_SFX_3D_FLY_Fatality_UNSC_MoveShort" tobone="GrannyRootBone_stormspartan01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.63499999" end="1" name="PLAY_SFX_3D_Fatality_BodyFallHeavy_SmallUnit" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_spartan04_v_odst01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -881,6 +1036,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.552999973" end="1" name="PLAY_SFX_3D_FLY_Fatality_UNSC_MoveShort" tobone="GrannyRootBone_stormspartan01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.63499999" end="1" name="PLAY_SFX_3D_Fatality_BodyFallHeavy_SmallUnit" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="fatality_spartan05_v_odst01_victim_01" exitAction="Freeze" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -894,6 +1050,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.552999973" end="1" name="PLAY_SFX_3D_FLY_Fatality_UNSC_MoveShort" tobone="GrannyRootBone_stormspartan01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.63499999" end="1" name="PLAY_SFX_3D_Fatality_BodyFallHeavy_SmallUnit" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="FragGrenadeAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -913,6 +1070,7 @@
 				<tag type="Attack" start="0" position_type="Time" position="0.377000004" end="1" tobone="b_hand_left" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.859000027" end="1" name="PLAY_SFX_3D_FTS_UNSC_MarineWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Capture" exitAction="Transition" tweenTime="10" tweenToAnimation="Capture" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -927,6 +1085,7 @@
 				<file>animations/unsc/infantry/stormodst/odst_combat_action_03</file>
 				<weight>1</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Cower" exitAction="Transition" tweenTime="10" tweenToAnimation="Cower" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -961,6 +1120,7 @@
 				<file>animations/unsc/infantry/stormodst/odst_cower_08</file>
 				<weight>15</weight>
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="JogAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -982,6 +1142,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.944999993" end="1" name="PLAY_SFX_3D_FTS_UNSC_ODSTRun" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GruntTail" tobone="GrannyRootBone_stormmarine01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Knockdown" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -1000,6 +1161,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.602999985" end="1" name="PLAY_SFX_3D_FTS_UNSC_ODSTWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 				<tag type="Sound" start="0" position_type="Time" position="0.915000021" end="1" name="PLAY_SFX_3D_FTS_UNSC_ODSTWalk" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="JogAttackGrenade" exitAction="Transition" tweenTime="5" tweenToAnimation="CombatIdle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -1015,6 +1177,7 @@
 				<tag type="Sound" start="0" position_type="Time" position="0.944999993" end="1" name="PLAY_SFX_3D_FTS_UNSC_ODSTRun" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GruntTail" tobone="GrannyRootBone_stormmarine01" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 	</model>
 	<model name="Weapon">
@@ -1024,6 +1187,16 @@
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
 				<file>units\unsc\weapons\operative_tablet01\mesh_operative_tablet01</file>
+			</asset>
+		</component>
+	</model>
+	<model name="Weapon2">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>modded\oathsworn_shotgun01\mesh_magnum_01</file>
 			</asset>
 		</component>
 	</model>
