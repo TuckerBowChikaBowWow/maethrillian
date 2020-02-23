@@ -25,8 +25,8 @@
 		<PostAttackCooldownMin>1</PostAttackCooldownMin>
 		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
 		<Filter>Light</Filter>
-		<Daze TargetType="Unit" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">6f</Daze>
-		<Slow TargetType="Unit" MovementModifier="0.100000001" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">6f</Slow>
+		<Daze TargetType="Unit" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">0.5f</Daze>
+		<Slow TargetType="Unit" MovementModifier="0.100000001" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">2f</Slow>
 	</Weapon>
 	<Weapon>
 		<Name>PlacedScoutBeacon</Name>
@@ -137,7 +137,17 @@
 		<DontAutoRestart />
 		<DisableStealthWhileWorking />
 		<Duration>2.5</Duration>
-		<ProjectileInvokePower>OperativeMine</ProjectileInvokePower>
+		<SpecificData>
+			<CleansingBeams>
+				<Beam>
+					<PowerName>OperativeMine</PowerName>
+					<Waypoints>
+						<wp x="2" z="0" />
+						<wp x="2" z="0" />
+					</Waypoints>
+				</Beam>
+			</CleansingBeams>
+		</SpecificData>
 	</Action>
 	<Action>
 		<Name>BrainstormAction</Name>
@@ -148,7 +158,17 @@
 		<SpecificData>
 			<HackingDuration>10</HackingDuration>
 		</SpecificData>
-		<ProjectileInvokePower>OPERATIVEEMPBlast</ProjectileInvokePower>
+		<SpecificData>
+			<CleansingBeams>
+				<Beam>
+					<PowerName>OPERATIVEEMPBlast</PowerName>
+					<Waypoints>
+						<wp x="7" z="0" />
+						<wp x="41" z="0" />
+					</Waypoints>
+				</Beam>
+			</CleansingBeams>
+		</SpecificData>
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
