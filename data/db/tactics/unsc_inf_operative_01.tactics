@@ -9,8 +9,8 @@
 		<ImpactEffect size="Small">LargeEMPImpact</ImpactEffect>
 		<MaxVelocityLead>999</MaxVelocityLead>
 		<MaxRange>40</MaxRange>
-		<Daze TargetType="Unit" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">6f</Daze>
-		<Slow TargetType="Unit" MovementModifier="0.100000001" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">6f</Slow>
+		<Daze TargetType="Unit" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">1f</Daze>
+		<Slow TargetType="Unit" MovementModifier="0.100000001" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">2f</Slow>
 		<HardPoint>Torso</HardPoint>
 	</Weapon>
 	<Action>
@@ -87,7 +87,7 @@
 		<ImpactEffect size="Small">LargeEMPImpact</ImpactEffect>
 		<MaxVelocityLead>999</MaxVelocityLead>
 		<MaxRange>40</MaxRange>
-		<Buff TargetType="Unit" BuffType="UnscGhostInTheMachineOp1">20</Buff>
+		<Buff TargetType="Unit" BuffType="GhostInTheMachine">20</Buff>
 		<HardPoint>Torso</HardPoint>
 	</Weapon>
 	<Weapon>
@@ -99,7 +99,7 @@
 		<ImpactEffect size="Small">LargeEMPImpact</ImpactEffect>
 		<MaxVelocityLead>999</MaxVelocityLead>
 		<MaxRange>40</MaxRange>
-		<Buff TargetType="Unit" BuffType="UnscGhostInTheMachineOp2">999999999999999</Buff>
+		<Buff TargetType="Unit" BuffType="GhostInTheMachine">999999999999999</Buff>
 		<HardPoint>Torso</HardPoint>
 	</Weapon>
 	<Action>
@@ -141,16 +141,18 @@
 	<Action>
 		<Name>HijackSentinelAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>Brainstorm_Hack</Anim>
+		<Anim>Brainstorm_BeamHack</Anim>
 		<Weapon>HijackBeam</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
 		<DontAutoRestart />
 		<FullBodyAttackAnim />
 	</Action>
 	<Action>
 		<Name>HijackAllAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>Brainstorm_Hack</Anim>
+		<Anim>Brainstorm_BeamHack</Anim>
 		<Weapon>HijackAllBeam</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
 		<DontAutoRestart />
 		<FullBodyAttackAnim />
 	</Action>
@@ -295,12 +297,6 @@
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
 			<TargetType>Forerunner</TargetType>
-			<Action>HijackSentinelAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<TargetType>MainBaseBuilding</TargetType>
 			<Action>HijackSentinelAction</Action>
 		</TargetRule>
 		<TargetRule>

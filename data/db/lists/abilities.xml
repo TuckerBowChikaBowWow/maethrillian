@@ -346,6 +346,20 @@
 		<Priority Vehicle="8" Air="0" Terrain="9" Infantry="8" Building="3" />
 		<Application Vehicle="mono" Air="disabled" Terrain="mono" Infantry="mono" Building="mono" />
 	</Ability>
+	<Ability Name="UNSCopeMine">
+		<DisplayNameID>6024</DisplayNameID>
+		<RolloverTextID>6025</RolloverTextID>
+		<Type>Work</Type>
+		<TargetType>Location</TargetType>
+		<StopMovementOnceInRange />
+		<RecoverStart>Attack</RecoverStart>
+		<RecoverType>Ability</RecoverType>
+		<RecoverTime>75</RecoverTime>
+		<DontInterruptAttack>true</DontInterruptAttack>
+		<AmmoCost>1</AmmoCost>
+		<Priority Vehicle="8" Air="3" Terrain="9" Infantry="8" Building="3" />
+		<Application Vehicle="mono" Air="mono" Terrain="mono" Infantry="mono" Building="mono" />
+	</Ability>
 	<Ability Name="UNSCHeroODSTEMP">
 		<DisplayNameID>6024</DisplayNameID>
 		<RolloverTextID>6025</RolloverTextID>
