@@ -4,33 +4,104 @@
 		<Name>StasisBeam</Name>
 		<AttackRate>0.100000001</AttackRate>
 		<DamagePerSecond>0</DamagePerSecond>
-		<WeaponType>Beam</WeaponType>
+		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_EMPbeam_01</Projectile>
-		<ImpactEffect size="Small">LargeEMPImpact</ImpactEffect>
-		<MaxVelocityLead>999</MaxVelocityLead>
+		<ImpactEffect size="Medium">HeavyGruntFuelRodImpact</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>40</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>25</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>45</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1250</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
+		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.899999976</PostAttackCooldownMax>
 		<Daze TargetType="Unit" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">6f</Daze>
 		<Slow TargetType="Unit" MovementModifier="0.100000001" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">6f</Slow>
-		<HardPoint>Torso</HardPoint>
 	</Weapon>
 	<Weapon>
 		<Name>PlacedScoutBeacon</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>0</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
-		<Projectile>fx_proj_bomb_01</Projectile>
-		<ImpactEffect size="Small">fuelrod_01</ImpactEffect>
-		<Mine>fx_mine_scoutBeacon_01</Mine>
-		<AlwaysReplaceTargetWithItsPosition />
-		<MaxRange>1.5</MaxRange>
-		<MaxPlantRange>10</MaxPlantRange>
+		<Projectile isSpawnedSquad="true">unsc_bldg_operativemine_01</Projectile>
+		<ImpactEffect size="small">HeavyGruntFuelRodImpact</ImpactEffect>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>2</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>0</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>0</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<VisualAmmo>1</VisualAmmo>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<ProjectileLaunchDirY />
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>3</PreAttackCooldownMax>
+		<PostAttackCooldownMin>3</PostAttackCooldownMin>
+		<PostAttackCooldownMax>4</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>BeaconEMP</Name>
-		<AttackRate>1</AttackRate>
 		<DamagePerSecond>0</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
-		<ImpactEffect size="Medium" doShockwaveAction="true">LargeEMPImpact</ImpactEffect>
+		<WeaponType>Explosive</WeaponType>
+		<Projectile>fx_proj_energyWeb_01</Projectile>
+		<ImpactEffect size="Large">johnsonEMPImpactLvl1</ImpactEffect>
+		<ImpactAdvancedCameraShake fadein="0" duration="0.00999999978" fadeout="2" yawpitchstrength="5" rollstrength="3.5" rotationfrequency="4" translationstrength="0" translationfrequency="6" />
+		<ImpactCameraEffect>
+			<ColorTransformFactor>
+				<Value time="0">0.600000024</Value>
+				<Value time="0.300000012">0.300000012</Value>
+				<Value time="0.600000024">0</Value>
+			</ColorTransformFactor>
+			<BlurFactor>
+				<Value time="0">0.600000024</Value>
+				<Value time="0.300000012">0.600000024</Value>
+				<Value time="0.600000024">0</Value>
+			</BlurFactor>
+			<ColorTransformR>
+				<Value time="0">0.899999976,0,0</Value>
+			</ColorTransformR>
+			<ColorTransformG>
+				<Value time="0">0,0.899999976,0</Value>
+			</ColorTransformG>
+			<ColorTransformB>
+				<Value time="0">0,0,1</Value>
+			</ColorTransformB>
+			<BlurXY />
+			<RadialBlurFactor use3DPos="true">
+				<Value time="0">0.100000001,0.200000003</Value>
+				<Value time="0.300000012">0.200000003,0.200000003</Value>
+				<Value time="0.600000024">0,0</Value>
+			</RadialBlurFactor>
+			<FOV />
+		</ImpactCameraEffect>
+		<MaxVelocityLead>4.92000008</MaxVelocityLead>
+		<MaxRange>21.5249996</MaxRange>
+		<Accuracy>0</Accuracy>
+		<MaxDeviation>8</MaxDeviation>
+		<MovingAccuracy>0</MovingAccuracy>
+		<MovingMaxDeviation>12</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
@@ -38,9 +109,10 @@
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
+				<IgnoreY>true</IgnoreY>
 			</Hitbox>
 		</AOEData>
-		<Daze TargetType="Unit" MovementModifier="0" AffectsBuildings="true" SmartTargeting="false">2.0f</Daze>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" AffectsBuildings="true" SmartTargeting="false">5.0f</Daze>
 		<Shockwave duration="12" />
 	</Weapon>
 	<Action>
@@ -53,9 +125,14 @@
 		<Name>StasisBeamAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>HackBeamAttack</Anim>
+		<MoveAnim>BeamJogAttack</MoveAnim>
 		<Weapon>StasisBeam</Weapon>
-		<Strafing turnRate="180" trackingSpeed="60" />
 		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" jitter="0" />
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<PersistBetweenOpps />
+		<Duration DurationSpread="0.5">3</Duration>
+		<LoopAttackAnim />
 	</Action>
 	<Action>
 		<Name>PlaceBeaconAction</Name>
@@ -66,17 +143,14 @@
 		<DontAutoRestart />
 		<DisableStealthWhileWorking />
 		<Duration>7</Duration>
-		<DeployUnit DestroyBuiltUnitOnInterrupt="true" StartDeployAnim="Emerge" DeployedAnim="Deploy" />
 	</Action>
 	<Action>
 		<Name>BrainstormAction</Name>
-		<ActionType>Brainstorm</ActionType>
+		<ActionType>RangedAttack</ActionType>
 		<Weapon>BeaconEMP</Weapon>
-		<WorkRange>50</WorkRange>
+		<WorkRange>20</WorkRange>
 		<Anim>Brainstorm_Hack</Anim>
-		<SpecificData>
-			<HackingDuration>8</HackingDuration>
-		</SpecificData>
+		<Duration>10</Duration>
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>

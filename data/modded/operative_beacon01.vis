@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="operative_beacon01">
+	<model name="operative_beacon01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\unsc\weapons\operative_beacon01\mesh_operative_beacon01</file>
+			</asset>
+			<attach type="ParticleFile" name="vfx/UnitVFX/MiscUnitVFX/OperativeHackingBeacon" tobone="bone_vfx_beacon" syncanims="false" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>animations/unsc/weapons/operative_beacon01/operative_beacon_deployed01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Deploy" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>animations/unsc/weapons/operative_beacon01/operative_beacon_deploy01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Emerge" exitAction="Transition" tweenTime="0" tweenToAnimation="Deploying">
+			<asset type="Anim">
+				<file>animations/unsc/weapons/operative_beacon01/operative_beacon_nondeployed_emerge01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Deploying" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>animations/unsc/weapons/operative_beacon01/operative_beacon_nondeployed01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spawn" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/weapons/operative_beacon01/operative_beacon_nondeployed_emerge01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/weapons/operative_beacon01/operative_beacon_nondeployed_emerge01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Emmerge" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/weapons/operative_beacon01/operative_beacon_nondeployed_emerge01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>
