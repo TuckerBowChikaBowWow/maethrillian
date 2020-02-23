@@ -31,7 +31,15 @@
 		<DamagePerSecond>0</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<ImpactEffect size="Medium" doShockwaveAction="true">LargeEMPImpact</ImpactEffect>
-		<AOERadius>35</AOERadius>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>35</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<Daze TargetType="Unit" MovementModifier="0" AffectsBuildings="true" SmartTargeting="false">2.0f</Daze>
 		<Shockwave duration="12" />
 	</Weapon>
@@ -41,7 +49,15 @@
 		<DamagePerSecond>0</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<ImpactEffect size="Medium" doShockwaveAction="true">LargeEMPImpact</ImpactEffect>
-		<AOERadius>35</AOERadius>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>35</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<Daze TargetType="Unit" MovementModifier="0" AffectsBuildings="true" SmartTargeting="false">2.0f</Daze>
 		<Shockwave duration="12" />
 	</Weapon>
@@ -58,7 +74,6 @@
 		<Weapon>StasisBeam</Weapon>
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<FullBodyAttackAnim />
-		<DisableStealthWhileWorking />
 	</Action>
 	<Action>
 		<Name>PlaceBeaconAction</Name>
@@ -76,9 +91,9 @@
 		<Name>BrainstormAction</Name>
 		<ActionType>Brainstorm</ActionType>
 		<Weapon>BeaconEMP</Weapon>
+		<SecondaryWeapon>BaseEMP</SecondaryWeapon>
 		<WorkRange>50</WorkRange>
 		<Anim SoundLoopStartEvent="PLAY_SFX_3D_UNSC_OperativeBrainstormHack" SoundLoopEndEvent="STOP_SFX_3D_UNSC_OperativeBrainstormHack">Brainstorm_Hack</Anim>
-		<DisableStealthWhileWorking />
 		<SpecificData>
 			<HackingDuration>8</HackingDuration>
 		</SpecificData>
