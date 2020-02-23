@@ -39,6 +39,8 @@
 		<WeaponType>Explosive</WeaponType>
 		<Projectile isSpawnedSquad="true">unsc_bldg_operativemine_01</Projectile>
 		<ImpactEffect size="small">HeavyGruntFuelRodImpact</ImpactEffect>
+		<Mine>unsc_bldg_operativemine_01</Mine>
+		<MaxPlantRange>35</MaxPlantRange>
 		<MaxVelocityLead>30</MaxVelocityLead>
 		<MaxRange>2</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -125,7 +127,6 @@
 		<Name>StasisBeamAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Anim>HackBeamAttack</Anim>
-		<MoveAnim>BeamJogAttack</MoveAnim>
 		<Weapon>StasisBeam</Weapon>
 		<FullBodyAttackAnim />
 		<Strafing turnRate="180" trackingSpeed="60" jitter="0" />
@@ -142,15 +143,18 @@
 		<FullBodyAttackAnim />
 		<DontAutoRestart />
 		<DisableStealthWhileWorking />
-		<Duration>7</Duration>
+		<Duration>3</Duration>
+		<DeployUnit DestroyBuiltUnitOnInterrupt="true" StartDeployAnim="Emerge" DeployedAnim="Deploy" />
 	</Action>
 	<Action>
 		<Name>BrainstormAction</Name>
 		<ActionType>RangedAttack</ActionType>
 		<Weapon>BeaconEMP</Weapon>
 		<WorkRange>20</WorkRange>
-		<Anim>Brainstorm_Hack</Anim>
-		<Duration>10</Duration>
+		<Anim SoundLoopStartEvent="PLAY_SFX_3D_UNSC_OperativeBrainstormHack" SoundLoopEndEvent="STOP_SFX_3D_UNSC_OperativeBrainstormHack">Brainstorm_Hack</Anim>
+		<SpecificData>
+			<HackingDuration>10</HackingDuration>
+		</SpecificData>
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
