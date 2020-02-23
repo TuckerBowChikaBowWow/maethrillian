@@ -1,6 +1,28 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
+		<Name>StasisBeam</Name>
+		<AttackRate>0.100000001</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Beam</WeaponType>
+		<Projectile>fx_proj_EMPbeam_01</Projectile>
+		<ImpactEffect size="Small">LargeEMPImpact</ImpactEffect>
+		<MaxVelocityLead>999</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<Daze TargetType="Unit" MovementModifier="0" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">6f</Daze>
+		<Slow TargetType="Unit" MovementModifier="0.100000001" AOEEffect="false" AffectsBuildings="true" SmartTargeting="true">6f</Slow>
+		<HardPoint>Torso</HardPoint>
+	</Weapon>
+	<Action>
+		<Name>StasisBeamAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>HackBeamAttack</Anim>
+		<Weapon>StasisBeam</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FullBodyAttackAnim />
+		<DisableStealthWhileWorking />
+	</Action>
+	<Weapon>
 		<Name>AssaultRifle</Name>
 		<AttackRate>1</AttackRate>
 		<DamagePerSecond>5</DamagePerSecond>
@@ -65,7 +87,7 @@
 		<ImpactEffect size="Small">LargeEMPImpact</ImpactEffect>
 		<MaxVelocityLead>999</MaxVelocityLead>
 		<MaxRange>40</MaxRange>
-		<Buff TargetType="Unit" BuffType="GhostInTheMachine">20</Buff>
+		<Buff TargetType="Unit" BuffType="UnscGhostInTheMachineOp1">20</Buff>
 		<HardPoint>Torso</HardPoint>
 	</Weapon>
 	<Weapon>
@@ -77,7 +99,7 @@
 		<ImpactEffect size="Small">LargeEMPImpact</ImpactEffect>
 		<MaxVelocityLead>999</MaxVelocityLead>
 		<MaxRange>40</MaxRange>
-		<Buff TargetType="Unit" BuffType="GhostInTheMachine">999999999999999</Buff>
+		<Buff TargetType="Unit" BuffType="UnscGhostInTheMachineOp2">999999999999999</Buff>
 		<HardPoint>Torso</HardPoint>
 	</Weapon>
 	<Action>
@@ -119,20 +141,18 @@
 	<Action>
 		<Name>HijackSentinelAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim SoundLoopStartEvent="PLAY_SFX_3D_UNSC_OperativeBrainstormHack" SoundLoopEndEvent="STOP_SFX_3D_UNSC_OperativeBrainstormHack">Brainstorm_Hack</Anim>
+		<Anim>Brainstorm_Hack</Anim>
 		<Weapon>HijackBeam</Weapon>
 		<DontAutoRestart />
 		<FullBodyAttackAnim />
-		<DisableStealthWhileWorking />
 	</Action>
 	<Action>
 		<Name>HijackAllAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim SoundLoopStartEvent="PLAY_SFX_3D_UNSC_OperativeBrainstormHack" SoundLoopEndEvent="STOP_SFX_3D_UNSC_OperativeBrainstormHack">Brainstorm_Hack</Anim>
+		<Anim>Brainstorm_Hack</Anim>
 		<Weapon>HijackAllBeam</Weapon>
 		<DontAutoRestart />
 		<FullBodyAttackAnim />
-		<DisableStealthWhileWorking />
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -307,7 +327,7 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>CyclopsRepairable</TargetType>
-			<Action>AssaultRifleAttackAction</Action>
+			<Action>StasisBeamAttackAction</Action>
 		</TargetRule>
 		<PersistentAction>StealthManager</PersistentAction>
 	</Tactic>

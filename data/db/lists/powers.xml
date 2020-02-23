@@ -1,5 +1,98 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="UnscGhostInTheMachineOp1">
+		<Attributes>
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>BuffEnemies</AIPowerUseType>
+			<BuffName>GhostInTheMachine</BuffName>
+			<Cost Supplies="0" Power="0" />
+			<AutoRecharge>0</AutoRecharge>
+			<UIRadius>16</UIRadius>
+			<Decal>AOE_Medium</Decal>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>8</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DataLevel level="0">
+				<Data type="float" name="AreaRadius">1</Data>
+				<Data type="objecttype" name="FilterType">BasicVehicle</Data>
+				<Data type="objecttype" name="FilterType2">BasicAircraft</Data>
+				<Data type="objecttype" name="FilterExcludeType">Transport</Data>
+				<Data type="objecttype" name="FilterExcludeType2">CantGhostintheMachine</Data>
+				<Data type="float" name="AlertDuration">1.5</Data>
+				<Data type="bool" name="UseRevealer">true</Data>
+				<Data type="float" name="RevealerRadius">20</Data>
+				<Data type="float" name="BuffDuration">20</Data>
+				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
+				<Data type="bool" name="NeedsValidTarget">false</Data>
+				<Data type="protoobject" name="BuffActivateFX">fx_ghostmachineactivate_01</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="protoobject" name="CastVfx">vfx_RMvfx_Powers_rmGhostAOE</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
+	<Power name="UnscGhostInTheMachineOp2">
+		<Attributes>
+			<PowerType>AreaBuff</PowerType>
+			<AIPowerUseType>BuffEnemies</AIPowerUseType>
+			<Cost Supplies="0" Power="0" />
+			<AutoRecharge>0</AutoRecharge>
+			<UIRadius>16</UIRadius>
+			<Decal>AOE_Medium</Decal>
+			<DisplayNameID>5000</DisplayNameID>
+			<RolloverTextID>5001</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<ShowTargetHighlight ObjectType="Military" Relation="Ally" />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>8</IconLocation>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<DataLevel level="0">
+				<Data type="float" name="AreaRadius">1</Data>
+				<Data type="objecttype" name="FilterType">BasicVehicle</Data>
+				<Data type="objecttype" name="FilterType2">BasicAircraft</Data>
+				<Data type="objecttype" name="FilterExcludeType">Transport</Data>
+				<Data type="objecttype" name="FilterExcludeType2">CantGhostintheMachine</Data>
+				<Data type="float" name="AlertDuration">1.5</Data>
+				<Data type="bool" name="UseRevealer">true</Data>
+				<Data type="float" name="RevealerRadius">20</Data>
+				<Data type="float" name="BuffDuration">999999999999999</Data>
+				<Data type="bool" name="AffectsEnemiesOnly">true</Data>
+				<Data type="bool" name="NeedsValidTarget">false</Data>
+				<Data type="protoobject" name="BuffActivateFX">fx_ghostmachineactivate_01</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="protoobject" name="CastVfx">vfx_RMvfx_Powers_rmGhostAOE</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="OperativeMine">
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>

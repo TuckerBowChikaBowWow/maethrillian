@@ -37,14 +37,15 @@
 			<asset type="Anim">
 				<file>animations/unsc/infantry/stormoperative01/operative_hack_attack_01</file>
 				<weight>2</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0.0329999998" end="1" tobone="GrannyRootBone_stormmarine01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
-			<tag type="Attack" start="0" position_type="Time" position="0.0329999998" end="1" tobone="GrannyRootBone_stormmarine01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Brainstorm_Hack" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>animations/unsc/infantry/stormoperative01/operative_hack_loop</file>
 				<weight>2</weight>
+				<tag type="Attack" start="0" position_type="Time" position="0.107000001" end="1" tobone="b_launchpoint_right_0" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
