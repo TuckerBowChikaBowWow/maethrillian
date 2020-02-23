@@ -43,24 +43,6 @@
 		<Daze TargetType="Unit" MovementModifier="0" AffectsBuildings="true" SmartTargeting="false">2.0f</Daze>
 		<Shockwave duration="12" />
 	</Weapon>
-	<Weapon>
-		<Name>BaseEMP</Name>
-		<AttackRate>1</AttackRate>
-		<DamagePerSecond>0</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
-		<ImpactEffect size="Medium" doShockwaveAction="true">LargeEMPImpact</ImpactEffect>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>35</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
-		<Daze TargetType="Unit" MovementModifier="0" AffectsBuildings="true" SmartTargeting="false">2.0f</Daze>
-		<Shockwave duration="12" />
-	</Weapon>
 	<Action>
 		<Name>StealthManager</Name>
 		<ActionType>StealthManager</ActionType>
@@ -70,7 +52,7 @@
 	<Action>
 		<Name>StasisBeamAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>HackAttack</Anim>
+		<Anim>HackBeamAttack</Anim>
 		<Weapon>StasisBeam</Weapon>
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<FullBodyAttackAnim />
@@ -83,7 +65,6 @@
 		<FullBodyAttackAnim />
 		<DontAutoRestart />
 		<DisableStealthWhileWorking />
-		<LoopAnim>BeaconLooping</LoopAnim>
 		<Duration>7</Duration>
 		<DeployUnit DestroyBuiltUnitOnInterrupt="true" StartDeployAnim="Emerge" DeployedAnim="Deploy" />
 	</Action>
@@ -91,9 +72,8 @@
 		<Name>BrainstormAction</Name>
 		<ActionType>Brainstorm</ActionType>
 		<Weapon>BeaconEMP</Weapon>
-		<SecondaryWeapon>BaseEMP</SecondaryWeapon>
 		<WorkRange>50</WorkRange>
-		<Anim SoundLoopStartEvent="PLAY_SFX_3D_UNSC_OperativeBrainstormHack" SoundLoopEndEvent="STOP_SFX_3D_UNSC_OperativeBrainstormHack">Brainstorm_Hack</Anim>
+		<Anim>Brainstorm_Hack</Anim>
 		<SpecificData>
 			<HackingDuration>8</HackingDuration>
 		</SpecificData>

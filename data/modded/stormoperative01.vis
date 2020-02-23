@@ -13,7 +13,7 @@
 			<attach type="FoliageForceFile" name="Foliage/unit" tobone="b_root" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<point pointType="Launch" bone="b_hand_left" pointData="Metal" />
 		</component>
-		<anim type="Beacon" exitAction="Transition" tweenTime="10" tweenToAnimation="BeaconLooping" uvScrollSpeedX="0" uvScrollSpeedY="0">
+		<anim type="Beacon" exitAction="Transition" tweenTime="10" tweenToAnimation="Brainstorm_Hack" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>animations/unsc/infantry/stormoperative01/operative_beacon_deploy</file>
 				<weight>2</weight>
@@ -30,6 +30,13 @@
 				<file>animations/unsc/infantry/stormoperative01/operative_hack_attack_01</file>
 				<weight>2</weight>
 			</asset>
+		</anim>
+		<anim type="HackBeamAttack" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormoperative01/operative_hack_attack_01</file>
+				<weight>2</weight>
+			</asset>
+			<tag type="Attack" start="0" position_type="Time" position="0.0329999998" end="1" tobone="GrannyRootBone_stormmarine01" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 		</anim>
 		<anim type="Brainstorm_Hack" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
