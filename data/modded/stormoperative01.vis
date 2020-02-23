@@ -48,6 +48,16 @@
 			</asset>
 			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
+		<anim type="Mine" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/unsc/infantry/stormoperative01/operative_beacon_deploy</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position_type="Time" position="0.36500001" end="1" name="DIA_3D_WAL_ODSTL_C4Throw" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Sound" start="0" position_type="Time" position="0.560000002" end="1" name="PLAY_SFX_3D_FLY_UNSC_ODSTSwing" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+				<tag type="Attack" start="0" position_type="Time" position="0.560000002" end="1" tobone="b_hand_left" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
+			</asset>
+			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</anim>
 		<anim type="Idle" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
 				<file>animations/unsc/infantry/stormoperative01/operative_idle_01</file>
@@ -62,7 +72,7 @@
 				<weight>4</weight>
 			</asset>
 			<attach type="TerrainEffect" name="vfx/UnitVFX/SharedUnitVFX/SharedUnitTerrainVFX/TerrainEffectsFiles/GruntTailIdle" tobone="GrannyRootBone_stormmarine01" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="ShotgunDefault" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Walk" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -785,7 +795,7 @@
 				<weight>10</weight>
 				<tag type="Sound" start="0" position_type="Time" position="0.34799999" end="1" name="PLAY_SFX_3D_FLY_UNSC_MarineReload2" tobone="GrannyRootBone_stormmarine01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" playInReverse="false" fadeInTime="0.25" fadeOutTime="0.25" translationStrength="1" translationFrequency="5" yawPitchStrength="1" rollStrength="1" rotationFrequency="5" />
 			</asset>
-			<attach type="ModelRef" name="Weapon" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="Weapon2" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_silenced_smg01" syncanims="true" disregardorient="false" removeimmediately="false" />
 		</anim>
 		<anim type="Gather" exitAction="Loop" tweenTime="10" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
 			<asset type="Anim">
@@ -1196,7 +1206,37 @@
 				<uvOffset channel="0" uOfs="0" vOfs="0" />
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>dlc2\pack1\units\unsc\weapons\spartan_siphon01\mesh_magnum_01</file>
+			</asset>
+		</component>
+	</model>
+	<model name="Shotgun">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
 				<file>modded\oathsworn_shotgun01\mesh_magnum_01</file>
+			</asset>
+		</component>
+	</model>
+	<model name="ShotgunDefault">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units\unsc\weapons\oathsworn_shotgun01\mesh_magnum_01</file>
+			</asset>
+		</component>
+	</model>
+	<model name="SniperRifle">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/unsc/weapons/sniper_rifle_new/mesh_sniperrifle</file>
 			</asset>
 		</component>
 	</model>

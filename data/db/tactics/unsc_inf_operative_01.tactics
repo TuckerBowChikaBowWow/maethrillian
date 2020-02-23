@@ -131,8 +131,7 @@
 	<Action>
 		<Name>PlaceBeaconAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>Beacon</Anim>
-		<Weapon>PlacedScoutBeacon</Weapon>
+		<Anim>Mine</Anim>
 		<FullBodyAttackAnim />
 		<DontAutoRestart />
 		<DisableStealthWhileWorking />
@@ -152,12 +151,8 @@
 	<Action>
 		<Name>BrainstormAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Weapon>BeaconEMP</Weapon>
 		<WorkRange>20</WorkRange>
 		<Anim SoundLoopStartEvent="PLAY_SFX_3D_UNSC_OperativeBrainstormHack" SoundLoopEndEvent="STOP_SFX_3D_UNSC_OperativeBrainstormHack">Brainstorm_Hack</Anim>
-		<SpecificData>
-			<HackingDuration>10</HackingDuration>
-		</SpecificData>
 		<SpecificData>
 			<CleansingBeams>
 				<Beam>
