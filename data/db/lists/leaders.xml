@@ -45,6 +45,7 @@
 		<Resource Type="Power">400</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="gaia_bldg_lichspawner_johnson" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_johnson_hero_01</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_generic_marine</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -70,6 +71,8 @@
 		<Resource Type="Power">400</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="gaia_bldg_lichspawner_spartan" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_omegateam_jerome_01</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_flameMarine_01</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,20">unsc_inf_flameMarine_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -95,6 +98,7 @@
 		<Resource Type="Power">400</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="gaia_bldg_lichspawner_cryo" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_serina_hero_01</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_serina_cryomarines_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -120,6 +124,8 @@
 		<Resource Type="Power">400</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="gaia_bldg_lichspawner_atriox" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_atrioxchosen_01</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_bruteJumpPack</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,20">cov_inf_generic_bruteJumpPack</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -146,6 +152,7 @@
 		<Resource Type="Power">400</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="gaia_bldg_lichspawner_hunter" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_impervioushunter_01</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_hunter_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -172,6 +179,8 @@
 		<Resource Type="Power">400</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="gaia_bldg_lichspawner_elite" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_arbiter_01</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_suicideGrunt</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,20">cov_inf_generic_suicideGrunt</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
