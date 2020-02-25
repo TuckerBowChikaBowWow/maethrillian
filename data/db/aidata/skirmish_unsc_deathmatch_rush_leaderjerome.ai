@@ -2,11 +2,11 @@
 <Tables>
 	<Table>
 		<Settings>
-			<Faction>Covenant</Faction>
+			<Faction>UNSC</Faction>
 			<GameMode>Deathmatch</GameMode>
-			<StrategyType>Boom</StrategyType>
+			<StrategyType>Rush</StrategyType>
 			<MapName />
-			<Commander>Atriox</Commander>
+			<Commander>LeaderJerome</Commander>
 			<Reserved>false</Reserved>
 			<AutoAI>false</AutoAI>
 			<RallyPointMovementPopulationThreshold>10</RallyPointMovementPopulationThreshold>
@@ -15,9 +15,8 @@
 			<MissionType>Defend</MissionType>
 			<TargetType>_Gatherable</TargetType>
 			<TimeToWaitAtTarget>15</TimeToWaitAtTarget>
-			<SquadTypeToSend>cov_inf_atrioxchosen_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_omegateam_jerome_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
@@ -28,12 +27,10 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_flameMarine_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
@@ -41,12 +38,10 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_flameMarine_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
@@ -54,12 +49,10 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_flameMarine_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -68,14 +61,12 @@
 			<MissionType>Defend</MissionType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<TimeToWaitAtTarget>15</TimeToWaitAtTarget>
-			<SquadTypeToSend>cov_inf_atrioxchosen_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_omegateam_jerome_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_flameMarine_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
@@ -92,14 +83,12 @@
 			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<MissionID>1</MissionID>
-			<SquadTypeToSend>cov_inf_atrioxchosen_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_omegateam_jerome_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_flameMarine_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
@@ -111,12 +100,10 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_flameMarine_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
@@ -125,12 +112,10 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_flameMarine_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
@@ -139,12 +124,10 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_flameMarine_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
@@ -154,14 +137,12 @@
 		<Mission>
 			<MissionType>Reserves</MissionType>
 			<MissionID>2</MissionID>
-			<SquadTypeToSend>cov_inf_atrioxchosen_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_omegateam_jerome_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_flameMarine_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
@@ -179,14 +160,12 @@
 			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
 			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<MissionID>3</MissionID>
-			<SquadTypeToSend>cov_inf_atrioxchosen_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_omegateam_jerome_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_flameMarine_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
@@ -200,14 +179,12 @@
 			<MissionType>Attack</MissionType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
-			<SquadTypeToSend>cov_inf_atrioxchosen_01</SquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_omegateam_jerome_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_generic_bruteJumpPack</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_brutegrenadier_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_inf_jackal_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_bruteChopper_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>cov_veh_wraith_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>unsc_inf_odst_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_sniper_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_inf_flameMarine_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>unsc_veh_warthog_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
@@ -218,37 +195,37 @@
 			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
 		</Mission>
 		<Tech>
-			<TechToResearch>cov_tech_followers_1</TechToResearch>
+			<TechToResearch>unsc_tech_reinforcements_1</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>cov_tech_followers_2</TechToResearch>
+			<TechToResearch>unsc_tech_reinforcements_2</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>cov_atrioxchosen_upgrade1</TechToResearch>
+			<TechToResearch>unsc_jerome_upgrade1</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>cov_atrioxchosen_upgrade2</TechToResearch>
+			<TechToResearch>unsc_jerome_upgrade2</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>cov_tech_global_infantry_01</TechToResearch>
+			<TechToResearch>unsc_tech_global_infantry_01</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>cov_tech_global_infantry_02</TechToResearch>
+			<TechToResearch>unsc_tech_global_infantry_02</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>cov_tech_global_infantry_03</TechToResearch>
+			<TechToResearch>unsc_tech_global_infantry_03</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
 		</Tech>

@@ -4,22 +4,26 @@
 		<Settings>
 			<Faction>UNSC</Faction>
 			<GameMode>Deathmatch</GameMode>
-			<StrategyType>Boom</StrategyType>
+			<StrategyType>Turtle</StrategyType>
 			<MapName />
-			<Commander>Cutter</Commander>
+			<Commander>LeaderJerome</Commander>
 			<Reserved>false</Reserved>
 			<AutoAI>false</AutoAI>
 			<RallyPointMovementPopulationThreshold>10</RallyPointMovementPopulationThreshold>
 		</Settings>
-		<Tech>
-			<TechToResearch>unsc_spartan</TechToResearch>
-		</Tech>
 		<Mission>
-			<MissionType>Reserves</MissionType>
+			<MissionType>Defend</MissionType>
+			<TargetType>_Gatherable</TargetType>
+			<TimeToWaitAtTarget>15</TimeToWaitAtTarget>
 			<SquadTypeToSend>unsc_inf_omegateam_jerome_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
+			<StreamReplaceSquads>true</StreamReplaceSquads>
+			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>

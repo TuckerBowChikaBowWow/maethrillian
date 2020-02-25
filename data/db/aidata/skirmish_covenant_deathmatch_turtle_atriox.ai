@@ -11,15 +11,20 @@
 			<RallyPointMovementPopulationThreshold>10</RallyPointMovementPopulationThreshold>
 			<AutoAI>false</AutoAI>
 		</Settings>
-		<Tech>
-			<TechToResearch>cov_brute</TechToResearch>
-		</Tech>
 		<Mission>
-			<MissionType>Reserves</MissionType>
+			<MissionType>Defend</MissionType>
+			<TargetType>_Gatherable</TargetType>
+			<TimeToWaitAtTarget>15</TimeToWaitAtTarget>
 			<SquadTypeToSend>cov_inf_atrioxchosen_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
+			<StreamReplaceSquads>true</StreamReplaceSquads>
+			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>

@@ -2,36 +2,38 @@
 <Tables>
 	<Table>
 		<Settings>
-			<Faction>UNSC</Faction>
+			<Faction>Covenant</Faction>
 			<GameMode>Deathmatch</GameMode>
-			<StrategyType>MapControl</StrategyType>
+			<StrategyType>Rush</StrategyType>
 			<MapName />
-			<Commander>Cutter</Commander>
+			<Commander>Lekgolo</Commander>
 			<Reserved>false</Reserved>
-			<AutoAI>false</AutoAI>
 			<RallyPointMovementPopulationThreshold>10</RallyPointMovementPopulationThreshold>
+			<AutoAI>false</AutoAI>
 		</Settings>
-		<Tech>
-			<TechToResearch>unsc_johnson</TechToResearch>
-		</Tech>
 		<Mission>
-			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_johnson_hero_01</SquadTypeToSend>
+			<MissionType>Defend</MissionType>
+			<TargetType>_Gatherable</TargetType>
+			<TimeToWaitAtTarget>15</TimeToWaitAtTarget>
+			<SquadTypeToSend>cov_inf_impervioushunter_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
+			<StreamReplaceSquads>true</StreamReplaceSquads>
+			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_johnson_hero_01</SquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
-		</Mission>
-		<Mission>
-			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_cyclops_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_foxcannon_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_johnson_mantis_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_lekgologoliath_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_generic_heavygrunt</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_hunter_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_veh_skitterer_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_gruntswarm_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
@@ -39,10 +41,12 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_cyclops_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_foxcannon_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_johnson_mantis_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_lekgologoliath_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_generic_heavygrunt</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_hunter_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_veh_skitterer_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_gruntswarm_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
@@ -50,10 +54,12 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_cyclops_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_foxcannon_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_johnson_mantis_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_lekgologoliath_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_generic_heavygrunt</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_hunter_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_veh_skitterer_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_gruntswarm_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -62,12 +68,14 @@
 			<MissionType>Defend</MissionType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<TimeToWaitAtTarget>15</TimeToWaitAtTarget>
-			<SquadTypeToSend>unsc_inf_johnson_hero_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_impervioushunter_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_cyclops_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_foxcannon_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_johnson_mantis_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_lekgologoliath_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_generic_heavygrunt</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_hunter_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_veh_skitterer_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_gruntswarm_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
@@ -84,12 +92,14 @@
 			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<MissionID>1</MissionID>
-			<SquadTypeToSend>unsc_inf_johnson_hero_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_impervioushunter_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_cyclops_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_foxcannon_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_johnson_mantis_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_lekgologoliath_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_generic_heavygrunt</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_hunter_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_veh_skitterer_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_gruntswarm_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
@@ -101,10 +111,12 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_cyclops_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_foxcannon_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_johnson_mantis_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_lekgologoliath_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_generic_heavygrunt</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_hunter_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_veh_skitterer_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_gruntswarm_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
@@ -113,10 +125,12 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_cyclops_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_foxcannon_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_johnson_mantis_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_lekgologoliath_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_generic_heavygrunt</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_hunter_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_veh_skitterer_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_gruntswarm_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
@@ -125,10 +139,12 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_cyclops_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_foxcannon_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_johnson_mantis_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_lekgologoliath_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_generic_heavygrunt</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_hunter_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_veh_skitterer_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_gruntswarm_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
@@ -138,12 +154,14 @@
 		<Mission>
 			<MissionType>Reserves</MissionType>
 			<MissionID>2</MissionID>
-			<SquadTypeToSend>unsc_inf_johnson_hero_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_impervioushunter_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_cyclops_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_foxcannon_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_johnson_mantis_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_lekgologoliath_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_generic_heavygrunt</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_hunter_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_veh_skitterer_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_gruntswarm_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
@@ -161,12 +179,14 @@
 			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
 			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<MissionID>3</MissionID>
-			<SquadTypeToSend>unsc_inf_johnson_hero_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_impervioushunter_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_cyclops_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_foxcannon_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_johnson_mantis_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_lekgologoliath_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_generic_heavygrunt</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_hunter_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_veh_skitterer_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_gruntswarm_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
@@ -180,12 +200,14 @@
 			<MissionType>Attack</MissionType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
 			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
-			<SquadTypeToSend>unsc_inf_johnson_hero_01</SquadTypeToSend>
+			<SquadTypeToSend>cov_inf_impervioushunter_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<SquadTypeToSend>unsc_inf_generic_marine</SquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_inf_cyclops_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_foxcannon_01</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>unsc_veh_johnson_mantis_01</AlternateSquadTypeToSend>
+			<SquadTypeToSend>cov_inf_generic_grunt</SquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_lekgologoliath_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_generic_heavygrunt</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_hunter_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_veh_skitterer_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>cov_inf_gruntswarm_01</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
@@ -196,37 +218,37 @@
 			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
 		</Mission>
 		<Tech>
-			<TechToResearch>unsc_tech_reinforcements_1</TechToResearch>
+			<TechToResearch>cov_tech_followers_1</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>unsc_tech_reinforcements_2</TechToResearch>
+			<TechToResearch>cov_tech_followers_2</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>unsc_johnsonhero_upgrade1</TechToResearch>
+			<TechToResearch>cov_impervioushunter_upgrade1</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>unsc_johnsonhero_upgrade2</TechToResearch>
+			<TechToResearch>cov_impervioushunter_upgrade2</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>4</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>unsc_tech_global_infantry_01</TechToResearch>
+			<TechToResearch>cov_tech_global_infantry_01</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>1</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>unsc_tech_global_infantry_02</TechToResearch>
+			<TechToResearch>cov_tech_global_infantry_02</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>3</PrerequisiteObtainedObjectCount>
 		</Tech>
 		<Tech>
-			<TechToResearch>unsc_tech_global_infantry_03</TechToResearch>
+			<TechToResearch>cov_tech_global_infantry_03</TechToResearch>
 			<PrerequisiteObtainedObjectType>_Unit</PrerequisiteObtainedObjectType>
 			<PrerequisiteObtainedObjectCount>6</PrerequisiteObtainedObjectCount>
 		</Tech>
