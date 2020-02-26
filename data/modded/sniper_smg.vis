@@ -9,7 +9,7 @@
 				<file>units/unsc/infantry/stormsniper01/mesh_stormmarine01</file>
 				<damagefile />
 			</asset>
-			<attach type="ModelRef" name="Shotgun" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="SniperRifle" tobone="b_hand_grip_right_0" frombone="GrannyRootBone_sniperrifle" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<point pointType="Launch" bone="b_hand_left" pointData="Metal" />
 			<point pointType="Pickup" bone="b_spine_0" pointData="Metal" />
 		</component>
@@ -759,16 +759,6 @@
 				<uvOffset channel="1" uOfs="0" vOfs="0" />
 				<uvOffset channel="2" uOfs="0" vOfs="0" />
 				<file>units/unsc/weapons/silenced_smg01/mesh_silenced_smg01</file>
-			</asset>
-		</component>
-	</model>
-	<model name="Shotgun">
-		<component>
-			<asset type="Model">
-				<uvOffset channel="0" uOfs="0" vOfs="0" />
-				<uvOffset channel="1" uOfs="0" vOfs="0" />
-				<uvOffset channel="2" uOfs="0" vOfs="0" />
-				<file>modded\oathsworn_shotgun01\mesh_magnum_01</file>
 			</asset>
 		</component>
 	</model>
