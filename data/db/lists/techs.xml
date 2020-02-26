@@ -6401,6 +6401,18 @@
              <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">flood_inf_infectfrm_01</Target>
             </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">flood_inf_infected_brutespiker_01</Target>
+            </Effect>
+             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+            </Effect>
+             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+            </Effect>
+             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="Flood_AI_Enemy" type="Normal">
