@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<sound_banks>
+	<categories max_budget="204.100006" name="none">
+		<category name="VFX" budget="16.5" type="group" />
+		<category name="Foley" budget="11.6000004" type="group" />
+		<category name="Global" budget="6.5" type="group" />
+		<category name="Dialogue" budget="0" type="group" verify="False" />
+		<category name="Briefing Dialogue" budget="1.29999995" type="group" />
+		<category name="Reverb" budget="4.5" type="group" />
+		<category name="Music" budget="0.5" type="group" />
+		<category name="Scenario" budget="10" type="unique" />
+		<category name="Game Mode" budget="153.199997" type="group" />
+	</categories>
+	<sound_bank name="UI_Global" category="Global" />
+	<sound_bank name="UI_Notifications_Streamed" category="Global" />
+	<sound_bank name="UI_Domination" category="Global" />
+	<sound_bank name="Physics" category="Global" />
+	<sound_bank name="Skulls" category="Global" />
+	<sound_bank name="VFX_Explosions" category="VFX" />
+	<sound_bank name="VFX_Fire" category="VFX" />
+	<sound_bank name="VFX_Electricity" category="VFX" />
+	<sound_bank name="VFX_Debris" category="VFX" />
+	<sound_bank name="VFX_Destruction" category="VFX" />
+	<sound_bank name="MUS_HW2" category="Music" />
+	<sound_bank name="MUS_HW2_MC" category="Music" dlc="5" />
+	<sound_bank name="MUS_HW2_Events" category="Music" />
+	<sound_bank name="MUS_HW2_DLC7" category="Music" dlc="7" />
+	<sound_bank name="FLY_Generic" category="Foley" />
+	<sound_bank name="FLY_UNSC" category="Foley" />
+	<sound_bank name="FLY_COV" category="Foley" />
+	<sound_bank name="REV_Tier2" category="Reverb" />
+	<sound_bank name="REV_T3_Reflections" category="Reverb" />
+	<sound_bank name="DIA_HW2" category="Dialogue" />
+	<sound_bank name="DIA_HW2_Pickups" category="Dialogue" />
+	<sound_bank name="DIA_HW2_BMode" category="Dialogue" />
+	<sound_bank name="DIA_HW2_DLC1" category="Dialogue" dlc="1" />
+	<sound_bank name="DIA_HW2_DLC2" category="Dialogue" dlc="2" />
+	<sound_bank name="DIA_HW2_DLC3" category="Dialogue" dlc="3" />
+	<sound_bank name="DIA_HW2_DLC4" category="Dialogue" dlc="4" />
+	<sound_bank name="DIA_HW2_DLC5" category="Dialogue" dlc="5" />
+	<sound_bank name="DIA_HW2_DLC6" category="Dialogue" dlc="6" />
+	<sound_bank name="DIA_HW2_EP2" category="Dialogue" dlc="7" />
+</sound_banks>
