@@ -163,6 +163,421 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="unsc_isabel_nuke_buff_01" type="Normal">
+		<DisplayNameID>27088</DisplayNameID>
+		<RolloverTextID>27100</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<ResearchAnim>Research</ResearchAnim>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_gp_macCannonLVL1</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_isabel_nuke_buff_02" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">unsc_isabel_nuke_buff_01</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>80</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.09090909091" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_gp_macCannonLVL1</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+
+	<Tech name="unsc_isabel_nuke_buff_03" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">unsc_isabel_nuke_buff_02</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">800</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>100</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.083333333334" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_gp_macCannonLVL1</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_cutter_nuke_buff_01" type="Normal">
+		<DisplayNameID>27088</DisplayNameID>
+		<RolloverTextID>27100</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<ResearchAnim>Research</ResearchAnim>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_bombingrunmissile_01</Target>
+				<Target type="ProtoUnit">pow_proj_bombingrunmissile_03</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_cutter_nuke_buff_02" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">unsc_cutter_nuke_buff_01</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>80</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.09090909091" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_bombingrunmissile_01</Target>
+				<Target type="ProtoUnit">pow_proj_bombingrunmissile_03</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_cutter_nuke_buff_03" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">unsc_cutter_nuke_buff_02</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">800</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>100</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.083333333334" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_bombingrunmissile_01</Target>
+				<Target type="ProtoUnit">pow_proj_bombingrunmissile_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="UnscBombingRun1_MP" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="UnscBombingRun2_MP" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="UnscBombingRun3_MP" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_forge_nuke_buff_01" type="Normal">
+		<DisplayNameID>27088</DisplayNameID>
+		<RolloverTextID>27100</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<ResearchAnim>Research</ResearchAnim>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_scatterbomb_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_forge_nuke_buff_02" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">unsc_forge_nuke_buff_01</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>80</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.09090909091" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_scatterbomb_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_forge_nuke_buff_03" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">unsc_forge_nuke_buff_02</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">800</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>100</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.083333333334" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_scatterbomb_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_johnson_nuke_buff_01" type="Normal">
+		<DisplayNameID>27088</DisplayNameID>
+		<RolloverTextID>27100</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<ResearchAnim>Research</ResearchAnim>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_01</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_01_upg2</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_01_upg3</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_02</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_02_upg2</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_02_upg3</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_johnson_nuke_buff_02" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">unsc_johnson_nuke_buff_01</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>80</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.09090909091" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_01</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_01_upg2</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_01_upg3</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_02</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_02_upg2</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_02_upg3</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="JohnsonEMPBlast1" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="JohnsonEMPBlast2" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_johnson_nuke_buff_03" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">unsc_johnson_nuke_buff_02</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">800</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>100</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.083333333334" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_01</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_01_upg2</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_01_upg3</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_02</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_02_upg2</Target>
+				<Target type="ProtoUnit">pow_gp_JohnsonEMPBlast_02_upg3</Target>
+			</Effect>
+			<Effect type="Data" amount="2" subtype="PowerLevel" power="JohnsonEMPBlast1" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="2" subtype="PowerLevel" power="JohnsonEMPBlast2" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_kinsano_nuke_buff_01" type="Normal">
+		<DisplayNameID>27088</DisplayNameID>
+		<RolloverTextID>27100</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<ResearchAnim>Research</ResearchAnim>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.1" subtype="Damage" action="BombingRunAttackAction" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_napalmmissile_01</Target>
+				<Target type="ProtoUnit">pow_proj_napalmmissile_02</Target>
+				<Target type="ProtoUnit">pow_proj_napalmmissile_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1.2" subtype="Damage" action="BombingRunDamageOverTimeAction" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_napalmmissile_01</Target>
+				<Target type="ProtoUnit">pow_proj_napalmmissile_02</Target>
+				<Target type="ProtoUnit">pow_proj_napalmmissile_03</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_kinsano_nuke_buff_02" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">unsc_kinsano_nuke_buff_01</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>80</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.09090909091" subtype="Damage" action="BombingRunAttackAction" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_napalmmissile_01</Target>
+				<Target type="ProtoUnit">pow_proj_napalmmissile_02</Target>
+				<Target type="ProtoUnit">pow_proj_napalmmissile_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1.16666666667" subtype="Damage" action="BombingRunDamageOverTimeAction" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_napalmmissile_01</Target>
+				<Target type="ProtoUnit">pow_proj_napalmmissile_02</Target>
+				<Target type="ProtoUnit">pow_proj_napalmmissile_03</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="unsc_kinsano_nuke_buff_03" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">unsc_kinsano_nuke_buff_02</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">800</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>100</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.083333333334" subtype="Damage" action="BombingRunAttackAction" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_napalmmissile_01</Target>
+				<Target type="ProtoUnit">pow_proj_napalmmissile_02</Target>
+				<Target type="ProtoUnit">pow_proj_napalmmissile_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1.142857142857" subtype="Damage" action="BombingRunDamageOverTimeAction" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_napalmmissile_01</Target>
+				<Target type="ProtoUnit">pow_proj_napalmmissile_02</Target>
+				<Target type="ProtoUnit">pow_proj_napalmmissile_03</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_leader_beam_buff_01" type="Normal">
+		<DisplayNameID>27088</DisplayNameID>
+		<RolloverTextID>27100</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<ResearchAnim>Research</ResearchAnim>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_cleansing_01_mp</Target>
+				<Target type="ProtoUnit">pow_proj_cleansing_02_mp</Target>
+				<Target type="ProtoUnit">pow_proj_cleansing_03_mp</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_leader_beam_buff_02" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">cov_leader_beam_buff_01</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>80</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.16666666667" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_cleansing_01_mp</Target>
+				<Target type="ProtoUnit">pow_proj_cleansing_02_mp</Target>
+				<Target type="ProtoUnit">pow_proj_cleansing_03_mp</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_leader_beam_buff_03" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">cov_leader_beam_buff_02</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">800</Cost>
+		<Cost resourcetype="Power">800</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>100</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.142857142857" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_proj_cleansing_01_mp</Target>
+				<Target type="ProtoUnit">pow_proj_cleansing_02_mp</Target>
+				<Target type="ProtoUnit">pow_proj_cleansing_03_mp</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="hook_turret_upgradeAI" type="Normal">
 		<DBID>1962</DBID>
 		<DisplayNameID>1156</DisplayNameID>
@@ -832,6 +1247,51 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="for_building_turret_01" relativity="Absolute">
 				<Target type="ProtoUnit">hook_bldg_turretsocket_01_sp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cutter_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cutter_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_cutter_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forge_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forge_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forge_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_isabel_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_isabel_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_isabel_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_johnson_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_johnson_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_johnson_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_kinsano_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_kinsano_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_kinsano_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -5045,6 +5505,7 @@
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovSpiritGunship2">CovSpiritGunship3</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovCleansingBeamPath1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovTeleport1</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovInvulnerability</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovPlanetaryCleansing</Effect>

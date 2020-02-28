@@ -2,8 +2,8 @@
 <TacticData>
 	<Weapon>
 		<Name>BombingRunDamageOverTime</Name>
-		<DamagePerSecond>400</DamagePerSecond>
-		<WeaponType>LeaderPowerKinsanoNonFlying</WeaponType>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>LeaderPowerNonFlying</WeaponType>
 		<ThrowUnits />
 		<ThrowDamageParts />
 		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
@@ -16,9 +16,9 @@
 	</Weapon>
 	<Weapon>
 		<Name>BombingRunMissile</Name>
-		<DamagePerSecond>650</DamagePerSecond>
+		<DamagePerSecond>450</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>LeaderPowerKinsano</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>pow_proj_napalmmissile_03</Projectile>
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.300000012" yawpitchstrength="4.5" rollstrength="2.29999995" rotationfrequency="4" translationstrength="0" translationfrequency="4" />
 		<ImpactRumble leftRumbleType="Fixed" leftStrength="0.200000003" rightRumbleType="Fixed" rightStrength="0.200000003" duration="0.200000003" />

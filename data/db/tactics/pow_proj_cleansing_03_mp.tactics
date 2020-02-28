@@ -2,15 +2,15 @@
 <TacticData>
 	<Weapon>
 		<Name>Cleansing</Name>
-		<DamagePerSecond>300</DamagePerSecond>
-		<WeaponType>GlassingBeamT3</WeaponType>
+		<DamagePerSecond>130</DamagePerSecond>
+		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>pow_proj_cleansing_03</Projectile>
 		<ImpactCameraShake duration="0.200000003" strength="0.150000006" />
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>3</Radius>
-				<DamageRatio>107</DamageRatio>
+				<Radius>5</Radius>
+				<DamageRatio>110</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
@@ -19,7 +19,7 @@
 			<Hitbox>
 				<Type>Circle</Type>
 				<Radius>12</Radius>
-				<DamageRatio>100</DamageRatio>
+				<DamageRatio>90</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
@@ -28,7 +28,7 @@
 			<Hitbox>
 				<Type>Circle</Type>
 				<Radius>14</Radius>
-				<DamageRatio>75</DamageRatio>
+				<DamageRatio>70</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
