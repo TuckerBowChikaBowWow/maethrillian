@@ -8697,6 +8697,9 @@
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+            <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_generic_arbiter_eliteLeader_01</Target>
+            </Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
