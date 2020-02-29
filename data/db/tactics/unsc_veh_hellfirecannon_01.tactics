@@ -55,15 +55,14 @@
 		<TargetPriority type="Building">1</TargetPriority>
 	</Weapon>
 	<Weapon>
-		<Name>Flamer</Name>
+		<Name>Machinegun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>65</DamagePerSecond>
-		<WeaponType>KinsanoWarthogFire</WeaponType>
-		<Projectile>fx_proj_flamehogBeam_01</Projectile>
+		<DamagePerSecond>80</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_machinegun_01</Projectile>
+		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
 		<MaxVelocityLead>27.6749992</MaxVelocityLead>
-		<MaxRange>35</MaxRange>
-		<MaxRangeThresholdFactor>1.10000002</MaxRangeThresholdFactor>
-		<MaxRangeThresholdTime>1</MaxRangeThresholdTime>
+		<MaxRange>45</MaxRange>
 		<Accuracy>0.100000001</Accuracy>
 		<MaxDeviation>1.5</MaxDeviation>
 		<MovingAccuracy>0.100000001</MovingAccuracy>
@@ -71,35 +70,14 @@
 		<EnableHeightBonusDamage />
 		<Hardpoint>MG</Hardpoint>
 		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="Infantry">9</TargetPriority>
-		<TargetPriority type="TurretBuilding">6</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Aircraft">3</TargetPriority>
 		<TargetPriority type="GroundVehicle">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
-		<TargetPriority type="Aircraft">-1</TargetPriority>
-		<AOEData>
-			<Hitbox>
-				<Type>Segment</Type>
-				<Length>ReachTarget</Length>
-				<Width>3</Width>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Attacker</Origin>
-				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>4</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
-			</Hitbox>
-		</AOEData>
-		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.800000012</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1</PostAttackCooldownMax>
-		<Filter>Medium</Filter>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.70000005</PostAttackCooldownMax>
 	</Weapon>
 	<Action>
 		<Name>FoxyFireAction</Name>
@@ -109,16 +87,11 @@
 		<FullBodyAttackAnim />
 	</Action>
 	<Action>
-		<Name>FlamerAttackAction</Name>
+		<Name>MachinegunAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>FlameAttack</Anim>
-		<Duration DurationSpread="1.5">3</Duration>
-		<Weapon>Flamer</Weapon>
-		<Beam collideWithUnits="false" collideWithTerrain="true" />
+		<Anim SoundLoopStartEvent="PLAY_SFX_3D_WPN_UNSC_FoxcannonMachineGun" SoundLoopEndEvent="STOP_SFX_3D_WPN_UNSC_FoxcannonMachineGun">MGAttack</Anim>
+		<Weapon>Machinegun</Weapon>
 		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
-		<FullBodyAttackAnim />
-		<PersistBetweenOpps />
-		<LoopAttackAnim />
 	</Action>
 	<Action>
 		<Name>Garrison</Name>
@@ -195,8 +168,7 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>FlamerAttackAction</Action>
+			<Action>MachinegunAttackAction</Action>
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
