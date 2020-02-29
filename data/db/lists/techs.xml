@@ -1,4 +1,131 @@
 <TechTree version="8">
+    <Tech name="unsc_LeaderJohn" type="Normal">
+        <DBID>1917</DBID>
+        <ResearchPoints>0</ResearchPoints>
+        <Status>UNOBTAINABLE</Status>
+        <Flag>Shadow</Flag>
+        <Effects>
+            <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
+            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
+            <Effect type="UnlockableGodPower" tier="1"></Effect>
+            <Effect type="UnlockableGodPower" tier="2">DropMarines</Effect>
+            <Effect type="UnlockableGodPower" tier="2">Up_John1</Effect>
+            <Effect type="UnlockableGodPower" tier="2" prereq="Up_John1">Up_John2</Effect>
+            <Effect type="UnlockableGodPower" tier="3">DropCyclops</Effect>
+            <Effect type="UnlockableGodPower" tier="3">Up_Marine1</Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="Up_Marine1">Up_Marine2</Effect>
+            <Effect type="UnlockableGodPower" tier="4">DropMantis</Effect>
+            <Effect type="UnlockableGodPower" tier="4">Up_Mantis1</Effect>
+            <Effect type="UnlockableGodPower" tier="4" prereq="Up_Mantis1">Up_Mantis2</Effect>
+            <Effect type="UnlockableGodPower" tier="5">DropScorpion</Effect>
+            <Effect type="UnlockableGodPower" tier="5">Up_Cyclops</Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
+                <Target type="ProtoUnit">game_base_Socket_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_omegateam_jerome_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="unsc_LeaderCryo" type="Normal">
+        <DBID>1917</DBID>
+        <ResearchPoints>0</ResearchPoints>
+        <Status>UNOBTAINABLE</Status>
+        <Flag>Shadow</Flag>
+        <Effects>
+            <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
+            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
+            <Effect type="UnlockableGodPower" tier="1"></Effect>
+            <Effect type="UnlockableGodPower" tier="2">DropMarines</Effect>
+            <Effect type="UnlockableGodPower" tier="2">Up_SerHero1</Effect>
+            <Effect type="UnlockableGodPower" tier="2" prereq="Up_SerHero1">Up_SerHero2</Effect>
+            <Effect type="UnlockableGodPower" tier="3">DropCryoFlamers</Effect>
+            <Effect type="UnlockableGodPower" tier="3">Up_Marine1</Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="Up_Marine1">Up_Marine2</Effect>
+            <Effect type="UnlockableGodPower" tier="4">DropJackRab</Effect>
+            <Effect type="UnlockableGodPower" tier="4">Up_CryoMarines</Effect>
+            <Effect type="UnlockableGodPower" tier="4" prereq="Up_CryoMarines">Up_Rabbi1</Effect>
+            <Effect type="UnlockableGodPower" tier="5">DropScorpion</Effect>
+            <Effect type="UnlockableGodPower" tier="5">Up_Scorpion</Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
+                <Target type="ProtoUnit">game_base_Socket_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_omegateam_jerome_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="unsc_LeaderCODST" type="Normal">
+        <DBID>1917</DBID>
+        <ResearchPoints>0</ResearchPoints>
+        <Status>UNOBTAINABLE</Status>
+        <Flag>Shadow</Flag>
+        <Effects>
+            <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
+            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
+            <Effect type="UnlockableGodPower" tier="1"></Effect>
+            <Effect type="UnlockableGodPower" tier="2">UnscOdstDrop</Effect>
+            <Effect type="UnlockableGodPower" tier="2">Up_Jerome1</Effect>
+            <Effect type="UnlockableGodPower" tier="2" prereq="Up_Jerome1">Up_Jerome2</Effect>
+            <Effect type="UnlockableGodPower" tier="3">UnscFlamerDrop</Effect>
+            <Effect type="UnlockableGodPower" tier="3">Up_Flamer</Effect>
+            <Effect type="UnlockableGodPower" tier="4">UnscHogDrop</Effect>
+            <Effect type="UnlockableGodPower" tier="4">Up_Hog</Effect>
+            <Effect type="UnlockableGodPower" tier="5">UnscSniperDrop</Effect>
+            <Effect type="UnlockableGodPower" tier="5">Up_Sniper</Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
+                <Target type="ProtoUnit">game_base_Socket_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_omegateam_jerome_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
+            </Effect>
+        </Effects>
+    </Tech>
     <Tech name="test_game_changes" type="Normal">
         <DBID>1925</DBID>
         <Status>OBTAINABLE</Status>
@@ -1273,10 +1400,6 @@
         <DBID>1915</DBID>
         <DisplayNameID>26251</DisplayNameID>
         <RolloverTextID>26252</RolloverTextID>
-        <Prereqs>
-            <TechStatus status="Active">unsc_tech_global_infantry_01</TechStatus>
-        </Prereqs>
-        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
@@ -1300,10 +1423,6 @@
         <DisplayNameID>26253</DisplayNameID>
         <RolloverTextID>26254</RolloverTextID>
         <PrereqTextID>231</PrereqTextID>
-        <Prereqs>
-            <TechStatus status="Active">unsc_tech_global_infantry_02</TechStatus>
-        </Prereqs>
-        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
@@ -1333,10 +1452,6 @@
         <DisplayNameID>22425</DisplayNameID>
         <RolloverTextID>22426</RolloverTextID>
         <PrereqTextID>233</PrereqTextID>
-        <Prereqs>
-            <TechStatus status="Active">unsc_tech_global_infantry_01</TechStatus>
-        </Prereqs>
-        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_oxidetank</ResearchCompleteSound>
@@ -1373,10 +1488,6 @@
         <DBID>1915</DBID>
         <DisplayNameID>22363</DisplayNameID>
         <RolloverTextID>22364</RolloverTextID>
-        <Prereqs>
-            <TechStatus status="Active">unsc_tech_global_infantry_02</TechStatus>
-        </Prereqs>
-        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -1428,10 +1539,6 @@
         <DBID>1915</DBID>
         <DisplayNameID>27218</DisplayNameID>
         <RolloverTextID>27219</RolloverTextID>
-        <Prereqs>
-            <TechStatus status="Active">unsc_tech_global_infantry_02</TechStatus>
-        </Prereqs>
-        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
@@ -1521,10 +1628,6 @@
         <DisplayNameID>1032</DisplayNameID>
         <RolloverTextID>1033</RolloverTextID>
         <PrereqTextID>233</PrereqTextID>
-        <Prereqs>
-            <TechStatus status="Active">unsc_tech_global_infantry_03</TechStatus>
-        </Prereqs>
-        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -3861,6 +3964,23 @@
         <Status>UNOBTAINABLE</Status>
         <Flag>Shadow</Flag>
         <Effects>
+            <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
+            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
+            <Effect type="UnlockableGodPower" tier="1"></Effect>
+            <Effect type="UnlockableGodPower" tier="2"></Effect>
+            <Effect type="UnlockableGodPower" tier="2"></Effect>
+            <Effect type="UnlockableGodPower" tier="2" prereq="CorruptedVortex1_mp"></Effect>
+            <Effect type="UnlockableGodPower" tier="2" prereq="CorruptedVortex2_mp"></Effect>
+            <Effect type="UnlockableGodPower" tier="3"></Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="CorruptedHealing1"></Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="CorruptedHealing2"></Effect>
+            <Effect type="UnlockableGodPower" tier="3"></Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="CorruptedPoolbuff1"></Effect>
+            <Effect type="UnlockableGodPower" tier="4"></Effect>
+            <Effect type="UnlockableGodPower" tier="4"></Effect>
+            <Effect type="UnlockableGodPower" tier="4" prereq="CorruptedSpiritAssault1"></Effect>
+            <Effect type="UnlockableGodPower" tier="5"></Effect>
+            <Effect type="UnlockableGodPower" tier="5"></Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
                 <Target type="ProtoUnit">game_base_Socket_01</Target>
             </Effect>
@@ -11330,9 +11450,6 @@
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_chaingun</ResearchCompleteSound>
-        <Prereqs>
-            <TechStatus status="Active">unsc_basic</TechStatus>
-        </Prereqs>
         <Effects>
             <Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
@@ -11365,9 +11482,6 @@
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_neuralimplant</ResearchCompleteSound>
-        <Prereqs>
-            <TechStatus status="Active">unsc_johnsonhero_upgrade1</TechStatus>
-        </Prereqs>
         <Effects>
             <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
@@ -11398,9 +11512,6 @@
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_spartanlaser</ResearchCompleteSound>
-        <Prereqs>
-            <TechStatus status="Active">unsc_johnsonhero_upgrade2</TechStatus>
-        </Prereqs>
         <Effects>
             <Effect type="Data" amount="1.3" subtype="Damage" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">unsc_inf_johnson_hero_01</Target>
@@ -11460,10 +11571,6 @@
         <DisplayNameID>1032</DisplayNameID>
         <RolloverTextID>1033</RolloverTextID>
         <PrereqTextID>233</PrereqTextID>
-        <Prereqs>
-            <TechStatus status="Active">unsc_tech_global_infantry_02</TechStatus>
-        </Prereqs>
-        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -11493,10 +11600,6 @@
         <DisplayNameID>1032</DisplayNameID>
         <RolloverTextID>1033</RolloverTextID>
         <PrereqTextID>233</PrereqTextID>
-        <Prereqs>
-            <TechStatus status="Active">unsc_tech_global_infantry_03</TechStatus>
-        </Prereqs>
-        <Flag>Shadow</Flag>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_canistershell</ResearchCompleteSound>
@@ -11944,21 +12047,11 @@
         <DisplayNameID>27810</DisplayNameID>
         <RolloverTextID>27811</RolloverTextID>
         <PrereqTextID>243</PrereqTextID>
-        <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">400</Cost>
-        <Cost resourcetype="HQLevel">2</Cost>
-        <ResearchPoints>30</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
-        <Prereqs>
-            <TechStatus status="Active">cov_basic</TechStatus>
-        </Prereqs>
         <Effects>
             <Effect type="Data" amount="0" subtype="ActionEnable" action="MeleeAttackAction" relativity="Absolute">
-                <Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="ActionEnable" action="MeleeUpgradeAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_gruntswarm_01</Target>
             </Effect>
             <Effect type="Data" amount="0" subtype="ActionEnable" action="ThrowAttackAction" relativity="Absolute">
@@ -11985,7 +12078,6 @@
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
         <Prereqs>
-            <TechStatus status="Active">cov_basic</TechStatus>
             <TechStatus status="Active">cov_gruntswarm_upgrade1</TechStatus>
         </Prereqs>
         <Effects>
