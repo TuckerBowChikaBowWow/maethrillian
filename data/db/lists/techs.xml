@@ -8695,15 +8695,43 @@
 			<Effect type="UnlockableGodPower" tier="2">ArbiterPlasmaBolt1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt1">ArbiterPlasmaBolt2</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt2">ArbiterPlasmaBolt3</Effect>
-			<Effect type="UnlockableGodPower" tier="3">ArbiterPhantom</Effect>
+            <Effect type="UnlockableGodPower" tier="3">CovCleansingBeamPath1_MP</Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3">ArbiterSpiritEliteTeam1</Effect>
-			<Effect type="UnlockableGodPower" tier="4">ArbiterStasis1</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="ArbiterStasis1">ArbiterStasis2</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovDisplacement</Effect>
 			<Effect type="UnlockableGodPower" tier="4">ArbiterCDReduction1</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="ArbiterCDReduction1">ArbiterCDReduction2</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="ArbiterCDReduction2">ArbiterCDReduction3</Effect>
-			<Effect type="UnlockableGodPower" tier="5">ArbiterMassStasis</Effect>
+			<Effect type="UnlockableGodPower" tier="5">CovSlipstreamRift</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovInvisibleArmy</Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_air_phantom_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_phantom_01" relativity="Absolute">
+                <Target type="ProtoUnit">cov_bldg_builder_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_phantom_01" relativity="Absolute">
+                <Target type="ProtoUnit">cov_bldg_builder_02</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_phantom_01" relativity="Absolute">
+                <Target type="ProtoUnit">cov_bldg_builder_03</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_phantom_01" relativity="Absolute">
+                <Target type="ProtoUnit">cov_bldg_builder_04</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_phantom_upgrade2" relativity="Absolute">
+                <Target type="ProtoUnit">cov_bldg_builder_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_phantom_upgrade2" relativity="Absolute">
+                <Target type="ProtoUnit">cov_bldg_builder_02</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_phantom_upgrade2" relativity="Absolute">
+                <Target type="ProtoUnit">cov_bldg_builder_03</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_phantom_upgrade2" relativity="Absolute">
+                <Target type="ProtoUnit">cov_bldg_builder_04</Target>
+            </Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_scarab_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
 			</Effect>
