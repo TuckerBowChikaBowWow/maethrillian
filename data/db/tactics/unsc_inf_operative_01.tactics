@@ -102,6 +102,60 @@
 		<Buff TargetType="Unit" BuffType="GhostInTheMachine">999999999999999</Buff>
 		<HardPoint>Torso</HardPoint>
 	</Weapon>
+	<Weapon>
+		<Name>HijackShort</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_plasmaPistol_01</Projectile>
+		<ImpactEffect size="small">PlasmaPistolImpact</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+		<Buff TargetType="Unit" BuffType="GhostInTheMachine">20</Buff>
+	</Weapon>
+	<Weapon>
+		<Name>HijackLong</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_plasmaPistol_01</Projectile>
+		<ImpactEffect size="small">PlasmaPistolImpact</ImpactEffect>
+		<MaxVelocityLead>40</MaxVelocityLead>
+		<MaxRange>40</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>1.5</MaxDeviation>
+		<MovingAccuracy>1</MovingAccuracy>
+		<MovingMaxDeviation>2</MovingMaxDeviation>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">7</TargetPriority>
+		<TargetPriority type="GroundVehicle">4</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
+		<Filter>Light</Filter>
+		<Buff TargetType="Unit" BuffType="GhostInTheMachine">999999999999999</Buff>
+	</Weapon>
 	<Action>
 		<Name>StealthManager</Name>
 		<ActionType>StealthManager</ActionType>
@@ -141,7 +195,7 @@
 	<Action>
 		<Name>HijackSentinelAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>Brainstorm_BeamHack</Anim>
+		<Anim SoundLoopStartEvent="PLAY_SFX_3D_UNSC_OperativeBrainstormHack" SoundLoopEndEvent="STOP_SFX_3D_UNSC_OperativeBrainstormHack">Brainstorm_BeamHack</Anim>
 		<Weapon>HijackBeam</Weapon>
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<DontAutoRestart />
@@ -150,10 +204,25 @@
 	<Action>
 		<Name>HijackAllAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim>Brainstorm_BeamHack</Anim>
+		<Anim SoundLoopStartEvent="PLAY_SFX_3D_UNSC_OperativeBrainstormHack" SoundLoopEndEvent="STOP_SFX_3D_UNSC_OperativeBrainstormHack">Brainstorm_BeamHack</Anim>
 		<Weapon>HijackAllBeam</Weapon>
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<DontAutoRestart />
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>HijackShortAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim SoundLoopStartEvent="PLAY_SFX_3D_UNSC_OperativeBrainstormHack" SoundLoopEndEvent="STOP_SFX_3D_UNSC_OperativeBrainstormHack">Brainstorm_Hack</Anim>
+		<Weapon>HijackShort</Weapon>
+		<FullBodyAttackAnim />
+	</Action>
+	<Action>
+		<Name>HijackLongAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim SoundLoopStartEvent="PLAY_SFX_3D_UNSC_OperativeBrainstormHack" SoundLoopEndEvent="STOP_SFX_3D_UNSC_OperativeBrainstormHack">Brainstorm_Hack</Anim>
+		<Weapon>HijackLong</Weapon>
+		<Strafing turnRate="180" trackingSpeed="60" />
 		<FullBodyAttackAnim />
 	</Action>
 	<Action>
@@ -290,14 +359,15 @@
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
-			<TargetType>Unsc</TargetType>
-			<Action>HijackAllAction</Action>
+			<TargetType>SpartanBoard</TargetType>
+			<TargetType>SpartanBoardFlying</TargetType>
+			<Action>HijackShortAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
 			<TargetType>Forerunner</TargetType>
-			<Action>HijackSentinelAction</Action>
+			<Action>HijackLongAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
@@ -319,11 +389,6 @@
 			<Ability>Command</Ability>
 			<TargetsGround />
 			<Action>EnemyMineAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>CyclopsRepairable</TargetType>
-			<Action>StasisBeamAttackAction</Action>
 		</TargetRule>
 		<PersistentAction>StealthManager</PersistentAction>
 	</Tactic>
