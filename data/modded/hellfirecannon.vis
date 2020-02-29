@@ -27,7 +27,7 @@
 			<attach type="FoliageForceFile" name="Foliage/warthog" tobone="bone_vfx_WheelRearRightPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="FoliageForceFile" name="Foliage/warthog" tobone="bone_vfx_WheelRearLeftPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="FoliageForceFile" name="Foliage/scorpion_body" tobone="bone_vfx_CentreFoliage" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="cannon_root" tobone="socketbone_machine_gun_0" frombone="bone_machine_gun_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="mg" tobone="socketbone_machine_gun_0" frombone="bone_machine_gun_0" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<point pointType="Impact" bone="bone_impact_front" pointData="Metal" />
 			<point pointType="Impact" bone="bone_impact_rear" pointData="Metal" />
 			<point pointType="Board" bone="bone_hijack_0" pointData="Metal" />
@@ -419,7 +419,7 @@
 			<attach type="ModelRef" name="wheel_02_right" tobone="socketbone_wheel_02_right" frombone="GrannyRootBone_wheel_02_right" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="wheel_03_right" tobone="socketbone_wheel_03_right" frombone="GrannyRootBone_wheel_03_right" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="wheel_04_right" tobone="socketbone_wheel_04_right" frombone="GrannyRootBone_wheel_04_right" syncanims="true" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="cannon_root" tobone="socketbone_machine_gun_0" frombone="bone_machine_gun_0" syncanims="false" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="mg" tobone="socketbone_machine_gun_0" frombone="bone_machine_gun_0" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/Headlight" tobone="bone_vfx_HeadlightRight" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/Headlight" tobone="bone_vfx_HeadlightLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/RearLight" tobone="bone_vfx_RearLightLeft" syncanims="false" disregardorient="false" removeimmediately="false" />
@@ -576,7 +576,7 @@
 			</asset>
 		</anim>
 	</model>
-	<model name="cannon_root">
+	<model name="mg">
 		<component>
 			<logic type="Tech">
 				<logicdata value="rosterMode" modelref="" weight="1">
