@@ -32308,6 +32308,72 @@
 			</DataLevel>
 		</Attributes>
 	</Power>
+	<Power name="Cutter_NukeBombingProc">
+		<Attributes>
+			<PowerType>UnitDrop</PowerType>
+			<AIPowerUseType>Orbital</AIPowerUseType>
+			<SoundName>LotusMine</SoundName>
+			<Cost Supplies="0" Power="0" />
+			<AutoRecharge>360000</AutoRecharge>
+			<UIRadius>40</UIRadius>
+			<Decal>AOE_Large</Decal>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>0</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">0.5</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.5</Data>
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="sound" name="FiredSound">PLAY_SFX_2D_MOM_LP_DEF_BAN_MethaneBombingProjectile</Data>
+				<Data type="protoobject" name="Projectile">pow_proj_napalmmissile_03</Data>
+				<Data type="bool" name="IgnorePlacement">true</Data>
+				<Data type="bool" name="RandomiseSpawnPoints">true</Data>
+				<Data type="bool" name="AreaDropMode">true</Data>
+				<Data type="bool" name="AreaDropOrientToCamera">false</Data>
+				<Data type="bool" name="AreaDropStartOnCursor">true</Data>
+				<Data type="float" name="AreaDropInitialCircularDistanceOffset">2.5</Data>
+				<Data type="float" name="AreaDropExpandingStep">2.5</Data>
+				<Data type="float" name="AreaDropCircularDistanceBetweenUnits">3</Data>
+				<Data type="float" name="AreaDropRandomLaunchDelay">1</Data>
+				<Data type="float" name="AreaDropRandomPosOffset">9</Data>
+				<Data type="bool" name="OneProjectilePerUnit">true</Data>
+				<Data type="bool" name="AllowDisplacedAimPoint">true</Data>
+				<Data type="bool" name="CanDropOnSquads">true</Data>
+				<Data type="bool" name="NoDropNearBase">false</Data>
+				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad40m2s</Data>
+				<Data type="float" name="DropStartHeight">90</Data>
+				<Data type="unitdrops" name="unitdrops">
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+					<Drop>
+						<ProtoObjectID>pow_gp_nukebombDummy_01</ProtoObjectID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="Anders_NukeBombing">
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>

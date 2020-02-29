@@ -12983,6 +12983,50 @@
 		<Cost ResourceType="HQLevel">2</Cost>
 	</Squad>
 	<Squad name="unsc_veh_foxcannon_01_sp" parent_element="unsc_veh_foxcannon_01_base" dbid="14399249836480787483" />
+	<Squad name="unsc_veh_hellfirecannon_01" dbid="13090268300404237989">
+		<CombatRank>5</CombatRank>
+		<HealValue>1.5</HealValue>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_fox</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>26133</DisplayNameID>
+		<RolloverTextID>26132</RolloverTextID>
+		<RoleTextID>521</RoleTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<SubSelectSort>200</SubSelectSort>
+		<LeashDistance>10</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>8</AIAttackRank>
+		<ActiveAbilityType>Lockdown</ActiveAbilityType>
+		<BuildPoints>35</BuildPoints>
+		<Pop Type="Unit">6</Pop>
+		<Cost ResourceType="Supplies">500</Cost>
+		<Cost ResourceType="Power">50</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
+		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_veh_hellfirecannon_01</Unit>
+		</Units>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<SquadType>BasicVehicle_Tech</SquadType>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="2" max="5" />
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Kodiak_01</Counters>
+	</Squad>
 	<Squad name="unsc_veh_grizzlybase_01" dbid="5194054811613372813">
 		<CombatRank>7</CombatRank>
 		<HealValue>2</HealValue>
