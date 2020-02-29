@@ -1,0 +1,380 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<engine_data engine_extras_threshold="40" max_active_engines="15" max_limited_engines="10" min_active_engines="3">
+	<engine name="unsc_veh_warthog" max_rpm="10000" rpm_randomiser="1">
+		<events start="Play_SFX_3D_VEH_WarthogEngine" stop="Stop_SFX_3D_VEH_WarthogEngine" gear_up="Play_SFX_3D_VEH_WarthogGearShiftUp" />
+		<skid event="PLAY_SFX_3D_VEH_GenericSkid" stop="STOP_SFX_3D_VEH_GenericSkid" />
+		<surface event="PLAY_SFX_3D_VEH_LightVehicleSurface" stop="STOP_SFX_3D_VEH_LightVehicleSurface" />
+		<suspension event="PLAY_SFX_3D_VEH_LightVehicleSuspension" stop="STOP_SFX_3D_VEH_LightVehicleSuspension" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_WarthogAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_WarthogDecelerate" decelThreshold="-30" decelRPMThreshold="500" decelTriggerTimeLimit="2" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="0" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+		<gear_def gear="1" min_rpm="0" max_rpm="8500" max_rpm_up_seconds="4" stop_rpm_rate_seconds="0.400000006" gear_change_rate_seconds="0.300000012" max_power="0.100000001" />
+		<gear_def gear="2" min_rpm="2000" max_rpm="8500" max_rpm_up_seconds="5" stop_rpm_rate_seconds="0.400000006" gear_change_rate_seconds="0.300000012" max_power="0.300000012" min_speed="12" />
+		<gear_def gear="3" min_rpm="3000" max_rpm="9000" max_rpm_up_seconds="6" stop_rpm_rate_seconds="0.400000006" gear_change_rate_seconds="0.400000006" />
+		<gear_def gear="4" min_rpm="3500" max_rpm="9500" max_rpm_up_seconds="7" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0.400000006" />
+		<airtime attack_rate_seconds="1.75" sustain_seconds="0.75" release_rate_seconds="5" />
+	</engine>
+	<engine name="unsc_veh_scorpion" max_rpm="10000" rpm_randomiser="1">
+		<events start="PLAY_SFX_3D_VEH_UNSC_ScorpionEngine" stop="STOP_SFX_3D_VEH_UNSC_ScorpionEngine" gear_up="PLAY_SFX_3D_VEH_UNSC_ScorpionGearShift" />
+		<surface event="PLAY_SFX_3D_VEH_GrizzlyVehicleSurface" stop="STOP_SFX_3D_VEH_GrizzlyVehicleSurface" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_ScorpionAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_ScorpionDecelerate" decelThreshold="-8" decelRPMThreshold="1800" decelTriggerTimeLimit="7" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="0" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="0" />
+		<gear_def gear="1" min_rpm="0" max_rpm="5000" max_rpm_up_seconds="4" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="1.5" max_power="0.100000001" />
+		<gear_def gear="2" min_rpm="3000" max_rpm="7500" max_rpm_up_seconds="5" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" min_speed="12" max_power="0.300000012" />
+		<gear_def gear="3" min_rpm="5500" max_rpm="9000" max_rpm_up_seconds="7.5" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" />
+		<gear_def gear="4" min_rpm="6500" max_rpm="10000" max_rpm_up_seconds="8" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" />
+	</engine>
+	<engine name="unsc_inf_cyclops" max_rpm="10000" usePhysics="false">
+		<events start="PLAY_SFX_3D_VEH_UNSC_CyclopsDummyEngine" stop="STOP_SFX_3D_VEH_UNSC_CyclopsDummyEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="unsc_veh_grizzly" max_rpm="10000" rpm_randomiser="1">
+		<events start="PLAY_SFX_3D_VEH_UNSC_GrizzlyEngine" stop="STOP_SFX_3D_VEH_UNSC_GrizzlyEngine" gear_up="PLAY_SFX_3D_VEH_UNSC_GrizzlyGearShift" />
+		<surface event="PLAY_SFX_3D_VEH_GrizzlyVehicleSurface" stop="STOP_SFX_3D_VEH_GrizzlyVehicleSurface" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_GrizzlyAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_GrizzlyDecelerate" decelThreshold="-5" decelRPMThreshold="1400" decelTriggerTimeLimit="8" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="0" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="0" />
+		<gear_def gear="1" min_rpm="0" max_rpm="4000" max_rpm_up_seconds="4" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="1.5" max_power="0.100000001" />
+		<gear_def gear="2" min_rpm="3000" max_rpm="5500" max_rpm_up_seconds="5" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" min_speed="12" max_power="0.300000012" />
+		<gear_def gear="3" min_rpm="4200" max_rpm="7500" max_rpm_up_seconds="6.5" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" />
+		<gear_def gear="4" min_rpm="6500" max_rpm="10000" max_rpm_up_seconds="7" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" />
+	</engine>
+	<engine name="UNSC_VEH_JACKRABBIT" max_rpm="10000" rpm_randomiser="1">
+		<events start="PLAY_SFX_3D_VEH_UNSC_JackRabbitEngine" stop="STOP_SFX_3D_VEH_UNSC_JackRabbitEngine" gear_up="PLAY_SFX_3D_VEH_UNSC_JackRabbitGearShift" />
+		<skid event="PLAY_SFX_3D_VEH_GenericSkid" stop="STOP_SFX_3D_VEH_GenericSkid" />
+		<surface event="PLAY_SFX_3D_VEH_LightVehicleSurface" stop="STOP_SFX_3D_VEH_LightVehicleSurface" />
+		<suspension event="PLAY_SFX_3D_VEH_LightVehicleSuspension" stop="STOP_SFX_3D_VEH_LightVehicleSuspension" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_JackRabbitAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_JackRabbitDecelerate" decelThreshold="-30" decelRPMThreshold="2200" decelTriggerTimeLimit="2" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="0" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="0" />
+		<gear_def gear="1" min_rpm="0" max_rpm="6500" max_rpm_up_seconds="1.5" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="0.300000012" max_power="0.100000001" />
+		<gear_def gear="2" min_rpm="2000" max_rpm="7500" max_rpm_up_seconds="2" stop_rpm_rate_seconds="1.79999995" gear_change_rate_seconds="0.300000012" min_speed="12" max_power="0.300000012" />
+		<gear_def gear="3" min_rpm="2500" max_rpm="8000" max_rpm_up_seconds="3" stop_rpm_rate_seconds="1.79999995" gear_change_rate_seconds="0.400000006" />
+		<gear_def gear="4" min_rpm="3500" max_rpm="9000" max_rpm_up_seconds="4" stop_rpm_rate_seconds="2" gear_change_rate_seconds="0.5" />
+		<gear_def gear="5" min_rpm="4000" max_rpm="9500" max_rpm_up_seconds="5" stop_rpm_rate_seconds="2" gear_change_rate_seconds="0.600000024" />
+		<gear_def gear="6" min_rpm="5000" max_rpm="10000" max_rpm_up_seconds="6" stop_rpm_rate_seconds="2" gear_change_rate_seconds="0.600000024" />
+	</engine>
+	<engine name="unsc_veh_foxcannon" max_rpm="10000" rpm_randomiser="1">
+		<events start="PLAY_SFX_3D_VEH_UNSC_FoxcannonEngine" stop="STOP_SFX_3D_VEH_UNSC_FoxcannonEngine" gear_up="PLAY_SFX_3D_VEH_UNSC_FoxcannonGearShifts" />
+		<surface event="PLAY_SFX_3D_VEH_LightVehicleSurface" stop="STOP_SFX_3D_VEH_LightVehicleSurface" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_FoxcannonAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_FoxcannonDecelerate" decelThreshold="-12" decelRPMThreshold="3000" decelTriggerTimeLimit="4" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="0" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="0" />
+		<gear_def gear="1" min_rpm="0" max_rpm="8000" max_rpm_up_seconds="4" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="1.5" max_power="0.100000001" />
+		<gear_def gear="2" min_rpm="1500" max_rpm="8500" max_rpm_up_seconds="5" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" min_speed="12" max_power="0.300000012" />
+		<gear_def gear="3" min_rpm="3000" max_rpm="9000" max_rpm_up_seconds="6.5" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" />
+		<gear_def gear="4" min_rpm="3500" max_rpm="10000" max_rpm_up_seconds="7" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" />
+	</engine>
+	<engine name="unsc_veh_wolverine" max_rpm="10000" rpm_randomiser="1">
+		<events start="PLAY_SFX_3D_VEH_UNSC_WolverineEngine" stop="STOP_SFX_3D_VEH_UNSC_WolverineEngine" gear_up="Play_SFX_3D_VEH_UNSC_WolverineGearShiftUp" />
+		<skid event="" stop="" />
+		<surface event="PLAY_SFX_3D_VEH_LightVehicleSurface" stop="STOP_SFX_3D_VEH_LightVehicleSurface" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_WolverineAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_WolverineDecelerate" decelThreshold="-15" decelRPMThreshold="900" decelTriggerTimeLimit="4" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="0" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="0" />
+		<gear_def gear="1" min_rpm="0" max_rpm="4000" max_rpm_up_seconds="4" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="1" max_power="0.100000001" />
+		<gear_def gear="2" min_rpm="2400" max_rpm="6000" max_rpm_up_seconds="5" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1" min_speed="12" max_power="0.300000012" />
+		<gear_def gear="3" min_rpm="4000" max_rpm="10000" max_rpm_up_seconds="6" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1" />
+	</engine>
+	<engine name="unsc_air_hornet" max_rpm="10000" type="air">
+		<events start="PLAY_SFX_3D_VEH_UNSC_HornetEngine" stop="STOP_SFX_3D_VEH_UNSC_HornetEngine" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_HornetEngineAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_HornetEngineDecelerate" decelThreshold="-10" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="unsc_air_pelican" max_rpm="10000" type="air">
+		<events start="Play_SFX_3D_VEH_PelicanEngine" stop="Stop_SFX_3D_VEH_PelicanEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="unsc_air_vulture" max_rpm="10000" type="air">
+		<events start="PLAY_SFX_3D_VEH_UNSC_VultureEngine" stop="STOP_SFX_3D_VEH_UNSC_VultureEngine" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_VultureAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_VultureDecelerate" decelThreshold="-10" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="unsc_air_destroyer" max_rpm="10000" type="air" velocityRTPC="RTPC_Engine_Velocity_Condor">
+		<events start="PLAY_SFX_3D_VEH_UNSC_CondorAttackEngine" stop="STOP_SFX_3D_VEH_UNSC_CondorAttackEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="UNSC_AIR_NIGHTINGALE" max_rpm="10000" type="air" usePhysics="false">
+		<events start="PLAY_SFX_3D_VEH_UNSC_NightingaleEngine" stop="STOP_SFX_3D_VEH_UNSC_NightingaleEngine" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_NightingaleAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_NightingaleDecelerate" decelThreshold="-10" cooldown="4" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="3" stop_rpm_rate_seconds="1" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="UNSC_VEH_FLAMEHOG" max_rpm="10000" rpm_randomiser="1" dlc="1">
+		<events start="Play_SFX_3D_VEH_WarthogEngine" stop="Stop_SFX_3D_VEH_WarthogEngine" gear_up="Play_SFX_3D_VEH_WarthogGearShiftUp" />
+		<skid event="PLAY_SFX_3D_VEH_GenericSkid" stop="STOP_SFX_3D_VEH_GenericSkid" />
+		<surface event="PLAY_SFX_3D_VEH_LightVehicleSurface" stop="STOP_SFX_3D_VEH_LightVehicleSurface" />
+		<suspension event="PLAY_SFX_3D_VEH_LightVehicleSuspension" stop="STOP_SFX_3D_VEH_LightVehicleSuspension" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_WarthogAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_WarthogDecelerate" decelThreshold="-30" decelRPMThreshold="1200" decelTriggerTimeLimit="1" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="0" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+		<gear_def gear="1" min_rpm="0" max_rpm="8500" max_rpm_up_seconds="4" stop_rpm_rate_seconds="0.400000006" gear_change_rate_seconds="0.300000012" max_power="0.100000001" />
+		<gear_def gear="2" min_rpm="2000" max_rpm="8500" max_rpm_up_seconds="5" stop_rpm_rate_seconds="0.400000006" gear_change_rate_seconds="0.300000012" max_power="0.300000012" min_speed="12" />
+		<gear_def gear="3" min_rpm="3000" max_rpm="9000" max_rpm_up_seconds="6" stop_rpm_rate_seconds="0.400000006" gear_change_rate_seconds="0.400000006" />
+		<gear_def gear="4" min_rpm="3500" max_rpm="9500" max_rpm_up_seconds="7" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0.400000006" />
+		<airtime attack_rate_seconds="1.75" sustain_seconds="0.75" release_rate_seconds="5" />
+	</engine>
+	<engine name="UNSC_VEH_FORGEWARTHOG" max_rpm="10000" rpm_randomiser="1">
+		<events start="PLAY_SFX_3D_VEH_UNSC_Forgehog_Engine" stop="STOP_SFX_3D_VEH_UNSC_Forgehog_Engine" gear_up="PLAY_SFX_3D_VEH_UNSC_Forgehog_GearShift" />
+		<skid event="PLAY_SFX_3D_VEH_GenericSkid" stop="STOP_SFX_3D_VEH_GenericSkid" />
+		<surface event="PLAY_SFX_3D_VEH_LightVehicleSurface" stop="STOP_SFX_3D_VEH_LightVehicleSurface" />
+		<suspension event="PLAY_SFX_3D_VEH_LightVehicleSuspension" stop="STOP_SFX_3D_VEH_LightVehicleSuspension" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_Forgehog_Accelerate" decel="PLAY_SFX_3D_VEH_UNSC_Forgehog_Decelerate" decelThreshold="-30" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="0" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+		<gear_def gear="1" min_rpm="0" max_rpm="8500" max_rpm_up_seconds="4" stop_rpm_rate_seconds="0.200000003" gear_change_rate_seconds="0.300000012" max_power="0.100000001" />
+		<gear_def gear="2" min_rpm="2000" max_rpm="8500" max_rpm_up_seconds="5" stop_rpm_rate_seconds="0.300000012" gear_change_rate_seconds="0.300000012" max_power="0.300000012" min_speed="12" />
+		<gear_def gear="3" min_rpm="3000" max_rpm="9000" max_rpm_up_seconds="6" stop_rpm_rate_seconds="0.300000012" gear_change_rate_seconds="0.400000006" />
+		<gear_def gear="4" min_rpm="3500" max_rpm="9500" max_rpm_up_seconds="7" stop_rpm_rate_seconds="0.400000006" gear_change_rate_seconds="0.400000006" />
+		<airtime attack_rate_seconds="1.75" sustain_seconds="0.75" release_rate_seconds="5" />
+	</engine>
+	<engine name="unsc_air_spotterdrone" max_rpm="10000" usePhysics="false">
+		<events start="PLAY_SFX_3D_VEH_UNSC_JackRabbitDrone" stop="STOP_SFX_3D_VEH_UNSC_JackRabbitDrone" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="unsc_air_forgedrone" max_rpm="10000" usePhysics="false">
+		<events start="PLAY_SFX_3D_VEH_UNSC_JackRabbitDrone" stop="STOP_SFX_3D_VEH_UNSC_JackRabbitDrone" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="unsc_air_laserdrone" max_rpm="10000" usePhysics="false" dlc="5">
+		<events start="PLAY_SFX_3D_VEH_UNSC_JackRabbitDrone" stop="STOP_SFX_3D_VEH_UNSC_JackRabbitDrone" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="unsc_veh_colossus" max_rpm="10000" usePhysics="false" dlc="3">
+		<events start="PLAY_SFX_3D_VEH_UNSC_Colossus_Engine" stop="STOP_SFX_3D_VEH_UNSC_Colossus_Engine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="UNSC_VEH_BATTLEAPC" max_rpm="10000" rpm_randomiser="1" dlc="4">
+		<events start="PLAY_SFX_3D_VEH_UNSC_FoxcannonEngine" stop="STOP_SFX_3D_VEH_UNSC_FoxcannonEngine" gear_up="PLAY_SFX_3D_VEH_UNSC_FoxcannonGearShifts" />
+		<surface event="PLAY_SFX_3D_VEH_GrizzlyVehicleSurface" stop="STOP_SFX_3D_VEH_GrizzlyVehicleSurface" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_FoxcannonAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_FoxcannonDecelerate" decelThreshold="-12" decelRPMThreshold="3000" decelTriggerTimeLimit="4" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="0" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="0" />
+		<gear_def gear="1" min_rpm="0" max_rpm="8000" max_rpm_up_seconds="4" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="1.5" max_power="0.100000001" />
+		<gear_def gear="2" min_rpm="1500" max_rpm="8500" max_rpm_up_seconds="5" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" min_speed="12" max_power="0.300000012" />
+		<gear_def gear="3" min_rpm="3000" max_rpm="9000" max_rpm_up_seconds="6.5" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" />
+		<gear_def gear="4" min_rpm="3500" max_rpm="10000" max_rpm_up_seconds="7" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" />
+	</engine>
+	<engine name="UNSC_AIR_SERINA_PEGASUS" max_rpm="10000" type="air" dlc="5">
+		<events start="Play_SFX_3D_VEH_UNSC_PegasusEngineAndBlades" stop="Stop_SFX_3D_VEH_UNSC_PegasusEngineAndBlades" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="unsc_veh_serina_hero" max_rpm="10000" rpm_randomiser="1" dlc="5">
+		<events start="PLAY_SFX_3D_VEH_UNSC_CryoBisonEngine" stop="STOP_SFX_3D_VEH_UNSC_CryoBisonEngine" gear_up="PLAY_SFX_3D_VEH_UNSC_CryoBisonGearShift" />
+		<surface event="PLAY_SFX_3D_VEH_LightVehicleSurface" stop="STOP_SFX_3D_VEH_LightVehicleSurface" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_CryoBisonAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_CryoBisonDecelerate" decelThreshold="-10" decelRPMThreshold="1600" decelTriggerTimeLimit="4" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="0" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="0" />
+		<gear_def gear="1" min_rpm="0" max_rpm="8000" max_rpm_up_seconds="4" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="1.5" max_power="0.100000001" />
+		<gear_def gear="2" min_rpm="1500" max_rpm="8500" max_rpm_up_seconds="5" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" min_speed="12" max_power="0.300000012" />
+		<gear_def gear="3" min_rpm="3000" max_rpm="9000" max_rpm_up_seconds="6.5" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" />
+		<gear_def gear="4" min_rpm="3500" max_rpm="10000" max_rpm_up_seconds="7" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" />
+	</engine>
+	<engine name="CPGNH_P01_WARTHOGSPARTAN" max_rpm="10000" rpm_randomiser="1">
+		<events start="Play_SFX_3D_VEH_WarthogEngine" stop="Stop_SFX_3D_VEH_WarthogEngine" gear_up="Play_SFX_3D_VEH_WarthogGearShiftUp" />
+		<skid event="PLAY_SFX_3D_VEH_GenericSkid" stop="STOP_SFX_3D_VEH_GenericSkid" />
+		<surface event="PLAY_SFX_3D_VEH_LightVehicleSurface" stop="STOP_SFX_3D_VEH_LightVehicleSurface" />
+		<suspension event="PLAY_SFX_3D_VEH_LightVehicleSuspension" stop="STOP_SFX_3D_VEH_LightVehicleSuspension" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_WarthogAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_WarthogDecelerate" decelThreshold="-30" decelRPMThreshold="500" decelTriggerTimeLimit="2" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="0" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+		<gear_def gear="1" min_rpm="0" max_rpm="8500" max_rpm_up_seconds="4" stop_rpm_rate_seconds="0.400000006" gear_change_rate_seconds="0.300000012" max_power="0.100000001" />
+		<gear_def gear="2" min_rpm="2000" max_rpm="8500" max_rpm_up_seconds="5" stop_rpm_rate_seconds="0.400000006" gear_change_rate_seconds="0.300000012" max_power="0.300000012" min_speed="12" />
+		<gear_def gear="3" min_rpm="3000" max_rpm="9000" max_rpm_up_seconds="6" stop_rpm_rate_seconds="0.400000006" gear_change_rate_seconds="0.400000006" />
+		<gear_def gear="4" min_rpm="3500" max_rpm="9500" max_rpm_up_seconds="7" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0.400000006" />
+		<airtime attack_rate_seconds="1.75" sustain_seconds="0.75" release_rate_seconds="5" />
+	</engine>
+	<engine name="cov_air_banshee" max_rpm="10000" type="air">
+		<events start="PLAY_SFX_3D_VEH_BAN_BansheeEngine" stop="STOP_SFX_3D_VEH_BAN_BansheeEngine" />
+		<acceleration accel="PLAY_SFX_3D_VEH_BAN_BansheeAccelerate" decel="" decelThreshold="-30" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_air_blisterback" max_rpm="10000" type="air">
+		<events start="PLAY_SFX_3D_VEH_BAN_BlisterbackAirEngine" stop="STOP_SFX_3D_VEH_BAN_BlisterbackAirEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_air_spirit" max_rpm="10000" type="air">
+		<events start="PLAY_SFX_3D_VEH_BAN_SpiritEngine" stop="STOP_SFX_3D_VEH_BAN_SpiritEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_veh_ghost" max_rpm="10000" type="air">
+		<events start="PLAY_SFX_3D_VEH_BAN_GhostEngine" stop="STOP_SFX_3D_VEH_BAN_GhostEngine" />
+		<acceleration accel="PLAY_SFX_3D_VEH_BAN_GhostEngineAccelerate" decel="PLAY_SFX_3D_VEH_BAN_GhostEngineDecelerate" decelThreshold="-30" cooldown="1.5" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="1.5" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_veh_bruteChopper" max_rpm="10000" rpm_randomiser="1">
+		<events start="PLAY_SFX_3D_VEH_BAN_ChopperEngine" stop="STOP_SFX_3D_VEH_BAN_ChopperEngine" gear_up="PLAY_SFX_3D_VEH_BAN_ChopperGearShift" />
+		<acceleration accel="PLAY_SFX_3D_VEH_BAN_ChopperEngine_Accelerate" decel="PLAY_SFX_3D_VEH_BAN_ChopperEngine_Decelerate" decelThreshold="-40" decelRPMThreshold="1200" decelTriggerTimeLimit="1" cooldown="1.5" />
+		<gear_def gear="0" min_rpm="0" max_rpm="7000" max_rpm_up_seconds="1" stop_rpm_rate_seconds="0.899999976" gear_change_rate_seconds="0.5" />
+		<gear_def gear="1" min_rpm="500" max_rpm="7500" max_rpm_up_seconds="2" stop_rpm_rate_seconds="0.899999976" gear_change_rate_seconds="0.5" />
+		<gear_def gear="2" min_rpm="2000" max_rpm="8000" max_rpm_up_seconds="3.5" stop_rpm_rate_seconds="0.899999976" gear_change_rate_seconds="0.5" />
+		<gear_def gear="3" min_rpm="3000" max_rpm="9000" max_rpm_up_seconds="5.5" stop_rpm_rate_seconds="0.899999976" gear_change_rate_seconds="0.5" />
+		<gear_def gear="4" min_rpm="4000" max_rpm="10000" max_rpm_up_seconds="8" stop_rpm_rate_seconds="0.899999976" gear_change_rate_seconds="0.5" />
+	</engine>
+	<engine name="cov_inf_engineer" max_rpm="10000" velocityRTPC="">
+		<events start="PLAY_SFX_3D_VEH_COV_EngineerDummyEngine" stop="STOP_SFX_3D_VEH_COV_EngineerDummyEngine" />
+		<acceleration accel="PLAY_SFX_3D_VEH_COV_EngineerAccelerate" decel="" decelThreshold="-40" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_inf_corruptedengineer" max_rpm="10000" velocityRTPC="" dlc="7">
+		<events start="PLAY_SFX_3D_VEH_COV_EngineerDummyEngine" stop="STOP_SFX_3D_VEH_COV_EngineerDummyEngine" />
+		<acceleration accel="PLAY_SFX_3D_VEH_COV_EngineerAccelerate" decel="" decelThreshold="-40" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_veh_gorgon" max_rpm="10000" usePhysics="false">
+		<events start="PLAY_SFX_3D_VEH_BAN_GorgonDummyEngine" stop="STOP_SFX_3D_VEH_BAN_GorgonDummyEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_veh_locust" max_rpm="10000" usePhysics="false">
+		<events start="PLAY_SFX_3D_VEH_BAN_LocustDummyEngine" stop="STOP_SFX_3D_VEH_BAN_LocustDummyEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_veh_wraith" max_rpm="10000">
+		<events start="PLAY_SFX_3D_VEH_BAN_WraithEngine" stop="STOP_SFX_3D_VEH_BAN_WraithEngine" />
+		<acceleration accel="PLAY_SFX_3D_VEH_BAN_WraithAccelerate" decel="PLAY_SFX_3D_VEH_BAN_WraithDecelerate" decelThreshold="-15" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="1" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_veh_prowler" max_rpm="10000">
+		<events start="PLAY_SFX_3D_VEH_BAN_ProwlerEngine" stop="STOP_SFX_3D_VEH_BAN_ProwlerEngine" />
+		<acceleration accel="PLAY_SFX_3D_VEH_BAN_ProwlerAccelerate" decel="PLAY_SFX_3D_VEH_BAN_ProwlerDecelerate" decelThreshold="-25" decelRPMThreshold="1800" decelTriggerTimeLimit="1" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="5" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_veh_scarab" max_rpm="10000" usePhysics="false">
+		<events start="PLAY_SFX_3D_VEH_BAN_ScarabEngine" stop="STOP_SFX_3D_VEH_BAN_ScarabEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_air_shroud" max_rpm="10000" type="air">
+		<events start="PLAY_SFX_3D_VEH_BAN_ShroudEngine" stop="STOP_SFX_3D_VEH_BAN_ShroudEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_inf_lekgoloengineer" max_rpm="10000" type="air" dlc="2">
+		<events start="PLAY_SFX_3D_VEH_COV_EngineerDummyEngine" stop="STOP_SFX_3D_VEH_COV_EngineerDummyEngine" />
+		<acceleration accel="PLAY_SFX_3D_VEH_COV_EngineerAccelerate" decel="" decelThreshold="-40" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_air_phantom" max_rpm="10000" type="air" velocityRTPC="RTPC_Engine_Velocity_Phantom">
+		<events start="PLAY_SFX_3D_VEH_BAN_PhantomEngine" stop="STOP_SFX_3D_VEH_BAN_PhantomEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_veh_grunt_methanewagon" max_rpm="10000" velocityRTPC="RTPC_Engine_Velocity_Methane_Wagon" dlc="6">
+		<events start="PLAY_SFX_3D_VEH_BAN_MethaneWagonEngine" stop="STOP_SFX_3D_VEH_BAN_MethaneWagonEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="1" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_veh_rm_grunt_methanewagon" max_rpm="10000" velocityRTPC="RTPC_Engine_Velocity_Methane_Wagon" dlc="6">
+		<events start="PLAY_SFX_3D_VEH_BAN_MethaneWagonEngine" stop="STOP_SFX_3D_VEH_BAN_MethaneWagonEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="1" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_veh_wraithapc" max_rpm="10000" velocityRTPC="RTPC_Engine_Velocity_Wraith_APC" dlc="7">
+		<events start="PLAY_SFX_3D_VEH_BAN_WraithAPC_Engine" stop="STOP_SFX_3D_VEH_BAN_WraithAPC_Engine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="1" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cov_air_healdrone" max_rpm="10000" usePhysics="false">
+		<events start="PLAY_SFX_3D_VEH_BAN_HealDroneEngine" stop="STOP_SFX_3D_VEH_BAN_HealDroneEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="for_air_sentinel" max_rpm="10000" type="air">
+		<events start="PLAY_SFX_3D_VEH_FORE_SentinelEngine" stop="STOP_SFX_3D_VEH_FORE_SentinelEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="1" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="FOR_AIR_AGGRESSORSENTINEL" max_rpm="10000" type="air">
+		<events start="PLAY_SFX_3D_VEH_FORE_SentinelEngine" stop="STOP_SFX_3D_VEH_FORE_SentinelEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="1" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="FOR_AIR_RETRIEVERSENTINEL" max_rpm="10000" type="air" velocityRTPC="RTPC_Engine_Velocity_Retriever">
+		<events start="PLAY_SFX_3D_VEH_FORE_RetrieverSentinelEngine" stop="STOP_SFX_3D_VEH_FORE_RetrieverSentinelEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="5" stop_rpm_rate_seconds="4" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="FOR_AIR_PROTECTORSENTINEL" max_rpm="10000" type="air">
+		<events start="PLAY_SFX_3D_VEH_FORE_ProtectorSentinelEngine" stop="STOP_SFX_3D_VEH_FORE_ProtectorSentinelEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="1" stop_rpm_rate_seconds="2.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="cpgnh_retriever" max_rpm="10000" type="air" velocityRTPC="RTPC_Engine_Velocity_Retriever">
+		<events start="PLAY_SFX_3D_VEH_FORE_RetrieverSentinelEngine" stop="STOP_SFX_3D_VEH_FORE_RetrieverSentinelEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="5" stop_rpm_rate_seconds="4" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="for_air_sentineltier2_base" max_rpm="10000" type="air">
+		<events start="PLAY_SFX_3D_VEH_FORE_ProtectorSentinelEngine" stop="STOP_SFX_3D_VEH_FORE_ProtectorSentinelEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="1" stop_rpm_rate_seconds="2.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="UNSC_AIR_PROTECTORSENTINEL" max_rpm="10000" type="air">
+		<events start="PLAY_SFX_3D_VEH_FORE_ProtectorSentinelEngine" stop="STOP_SFX_3D_VEH_FORE_ProtectorSentinelEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="1" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="UNSC_AIR_AGGRESSORSENTINEL" max_rpm="10000" type="air">
+		<events start="PLAY_SFX_3D_VEH_FORE_SentinelEngine" stop="STOP_SFX_3D_VEH_FORE_SentinelEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="1" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="UNSC_AIR_RETRIEVERSENTINEL" max_rpm="10000" type="air" velocityRTPC="RTPC_Engine_Velocity_Retriever">
+		<events start="PLAY_SFX_3D_VEH_FORE_RetrieverSentinelEngine" stop="STOP_SFX_3D_VEH_FORE_RetrieverSentinelEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="1" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="FOR_AIR_ENFORCERSENTINEL" max_rpm="10000" type="air" velocityRTPC="RTPC_Engine_Velocity_EnforcerSentinel" dlc="5">
+		<events start="PLAY_SFX_3D_VEH_FORE_EnforcerSentinelEngine" stop="STOP_SFX_3D_VEH_FORE_EnforcerSentinelEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="for_air_enforcer" max_rpm="10000" type="air" velocityRTPC="RTPC_Engine_Velocity_EnforcerSentinel" dlc="5">
+		<events start="PLAY_SFX_3D_VEH_FORE_EnforcerSentinelEngine" stop="STOP_SFX_3D_VEH_FORE_EnforcerSentinelEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="fx_arbiterrageaudio" max_rpm="10000" velocityRTPC="RTPC_Engine_Velocity_Arbiter" dlc="4">
+		<events start="PLAY_SFX_3D_BAN_ArbiterRageLoop" stop="STOP_SFX_3D_BAN_ArbiterRageLoop" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="flood_air_airborneinfector" max_rpm="10000" type="air" usePhysics="false" velocityRTPC="RTPC_Engine_Velocity_AirInfector" dlc="7">
+		<events start="PLAY_SFX_3D_FLD_AirInfector_MoveLoop" stop="STOP_SFX_3D_FLD_AirInfector_MoveLoop" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="flood_air_infected_hornet" max_rpm="10000" type="air" dlc="7">
+		<events start="PLAY_SFX_3D_VEH_FLD_HornetEngine" stop="STOP_SFX_3D_VEH_FLD_HornetEngine" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_HornetEngineAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_HornetEngineDecelerate" decelThreshold="-10" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="flood_veh_infected_warthog" max_rpm="10000" rpm_randomiser="1" dlc="7">
+		<events start="Play_SFX_3D_VEH_WarthogEngine" stop="Stop_SFX_3D_VEH_WarthogEngine" gear_up="Play_SFX_3D_VEH_WarthogGearShiftUp" />
+		<skid event="PLAY_SFX_3D_VEH_GenericSkid" stop="STOP_SFX_3D_VEH_GenericSkid" />
+		<surface event="PLAY_SFX_3D_VEH_LightVehicleSurface" stop="STOP_SFX_3D_VEH_LightVehicleSurface" />
+		<suspension event="PLAY_SFX_3D_VEH_LightVehicleSuspension" stop="STOP_SFX_3D_VEH_LightVehicleSuspension" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_WarthogAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_WarthogDecelerate" decelThreshold="-30" decelRPMThreshold="500" decelTriggerTimeLimit="2" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="0" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+		<gear_def gear="1" min_rpm="0" max_rpm="8500" max_rpm_up_seconds="4" stop_rpm_rate_seconds="0.400000006" gear_change_rate_seconds="0.300000012" max_power="0.100000001" />
+		<gear_def gear="2" min_rpm="2000" max_rpm="8500" max_rpm_up_seconds="5" stop_rpm_rate_seconds="0.400000006" gear_change_rate_seconds="0.300000012" max_power="0.300000012" min_speed="12" />
+		<gear_def gear="3" min_rpm="3000" max_rpm="9000" max_rpm_up_seconds="6" stop_rpm_rate_seconds="0.400000006" gear_change_rate_seconds="0.400000006" />
+		<gear_def gear="4" min_rpm="3500" max_rpm="9500" max_rpm_up_seconds="7" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0.400000006" />
+		<airtime attack_rate_seconds="1.75" sustain_seconds="0.75" release_rate_seconds="5" />
+	</engine>
+	<engine name="flood_veh_infected_scorpion" max_rpm="10000" rpm_randomiser="1" dlc="7">
+		<events start="PLAY_SFX_3D_VEH_FLD_ScorpionEngine" stop="STOP_SFX_3D_VEH_FLD_ScorpionEngine" gear_up="PLAY_SFX_3D_VEH_UNSC_ScorpionGearShift" />
+		<surface event="PLAY_SFX_3D_VEH_GrizzlyVehicleSurface" stop="STOP_SFX_3D_VEH_GrizzlyVehicleSurface" />
+		<acceleration accel="PLAY_SFX_3D_VEH_UNSC_ScorpionAccelerate" decel="PLAY_SFX_3D_VEH_UNSC_ScorpionDecelerate" decelThreshold="-8" decelRPMThreshold="1800" decelTriggerTimeLimit="7" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="0" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="0" />
+		<gear_def gear="1" min_rpm="0" max_rpm="5000" max_rpm_up_seconds="4" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="1.5" max_power="0.100000001" />
+		<gear_def gear="2" min_rpm="3000" max_rpm="7500" max_rpm_up_seconds="5" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" min_speed="12" max_power="0.300000012" />
+		<gear_def gear="3" min_rpm="5500" max_rpm="9000" max_rpm_up_seconds="7.5" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" />
+		<gear_def gear="4" min_rpm="6500" max_rpm="10000" max_rpm_up_seconds="8" stop_rpm_rate_seconds="2" gear_change_rate_seconds="1.5" />
+	</engine>
+	<engine name="flood_air_infected_banshee" max_rpm="10000" type="air" dlc="7">
+		<events start="PLAY_SFX_3D_VEH_FLD_BansheeEngine" stop="STOP_SFX_3D_VEH_FLD_BansheeEngine" />
+		<acceleration accel="PLAY_SFX_3D_VEH_BAN_BansheeAccelerate" decel="" decelThreshold="-30" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="flood_air_infected_blisterback" max_rpm="10000" type="air" dlc="7">
+		<events start="PLAY_SFX_3D_VEH_FLD_BlisterbackAirEngine" stop="STOP_SFX_3D_VEH_FLD_BlisterbackAirEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="flood_veh_infected_wraith" max_rpm="10000" dlc="7">
+		<events start="PLAY_SFX_3D_VEH_FLD_WraithEngine" stop="STOP_SFX_3D_VEH_FLD_WraithEngine" />
+		<acceleration accel="PLAY_SFX_3D_VEH_BAN_WraithAccelerate" decel="PLAY_SFX_3D_VEH_BAN_WraithDecelerate" decelThreshold="-15" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="1" stop_rpm_rate_seconds="0.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="flood_veh_infected_prowler" max_rpm="10000" dlc="7">
+		<events start="PLAY_SFX_3D_VEH_FLD_ProwlerEngine" stop="STOP_SFX_3D_VEH_FLD_ProwlerEngine" />
+		<acceleration accel="PLAY_SFX_3D_VEH_BAN_ProwlerAccelerate" decel="PLAY_SFX_3D_VEH_BAN_ProwlerDecelerate" decelThreshold="-25" decelRPMThreshold="1800" decelTriggerTimeLimit="1" cooldown="3" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="5" stop_rpm_rate_seconds="1.5" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="flood_veh_infected_bruteChopper" max_rpm="10000" rpm_randomiser="1" dlc="7">
+		<events start="PLAY_SFX_3D_VEH_FLD_ChopperEngine" stop="STOP_SFX_3D_VEH_FLD_ChopperEngine" gear_up="PLAY_SFX_3D_VEH_BAN_ChopperGearShift" />
+		<acceleration accel="PLAY_SFX_3D_VEH_BAN_ChopperEngine_Accelerate" decel="PLAY_SFX_3D_VEH_BAN_ChopperEngine_Decelerate" decelThreshold="-40" decelRPMThreshold="1200" decelTriggerTimeLimit="1" cooldown="1.5" />
+		<gear_def gear="0" min_rpm="0" max_rpm="7000" max_rpm_up_seconds="1" stop_rpm_rate_seconds="0.899999976" gear_change_rate_seconds="0.5" />
+		<gear_def gear="1" min_rpm="500" max_rpm="7500" max_rpm_up_seconds="2" stop_rpm_rate_seconds="0.899999976" gear_change_rate_seconds="0.5" />
+		<gear_def gear="2" min_rpm="2000" max_rpm="8000" max_rpm_up_seconds="3.5" stop_rpm_rate_seconds="0.899999976" gear_change_rate_seconds="0.5" />
+		<gear_def gear="3" min_rpm="3000" max_rpm="9000" max_rpm_up_seconds="5.5" stop_rpm_rate_seconds="0.899999976" gear_change_rate_seconds="0.5" />
+		<gear_def gear="4" min_rpm="4000" max_rpm="10000" max_rpm_up_seconds="8" stop_rpm_rate_seconds="0.899999976" gear_change_rate_seconds="0.5" />
+	</engine>
+	<engine name="COV_VEH_CORRUPTEDSCARAB_SP" max_rpm="10000" usePhysics="false" dlc="7">
+		<events start="PLAY_SFX_3D_VEH_BAN_ScarabEngine" stop="STOP_SFX_3D_VEH_BAN_ScarabEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+	<engine name="COV_VEH_CORRUPTEDSCARAB" max_rpm="10000" usePhysics="false" dlc="7">
+		<events start="PLAY_SFX_3D_VEH_BAN_ScarabEngine" stop="STOP_SFX_3D_VEH_BAN_ScarabEngine" />
+		<gear_def gear="0" min_rpm="0" max_rpm="10000" max_rpm_up_seconds="0.5" stop_rpm_rate_seconds="0.100000001" gear_change_rate_seconds="0" />
+	</engine>
+</engine_data>
