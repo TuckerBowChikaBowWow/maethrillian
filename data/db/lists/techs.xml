@@ -5030,14 +5030,16 @@
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscHoloDecoy1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHoloDecoy1_MP">UnscHoloDecoy2_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="1">UnscForgePelicanTransport</Effect>
+			<Effect type="UnlockableGodPower" tier="1">UnscBloodlust1</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscOdstDropNew</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UnscOdstDropNew">UnscOdstDropNew2</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UnscOdstDropNew2">UnscOdstDropNew3</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscMedDrones1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UnscMedDrones1_MP">UnscMedDrones2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UnscMedDrones2_MP">UnscMedDrones3_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3">UnscBloodlust1</Effect>
+			<Effect type="UnlockableGodPower" tier="3">Jerome_Barrage1</Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="Jerome_Barrage1">Jerome_Barrage2</Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="Jerome_Barrage2">Jerome_Barrage3</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Cutter_Pegasus</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscOrbitalBattleGroupNew</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscMacCutter1</Effect>
@@ -6664,13 +6666,15 @@
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHeavyMetal01">UnscHeavyMetal02</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHeavyMetal02">UnscHeavyMetal03</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscLotusMines1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="2">UnscVehicleDrop1</Effect>
+			<Effect type="UnlockableGodPower" tier="2">UnscForgePelicanTransport</Effect>
 			<Effect type="UnlockableGodPower" tier="3">UnscScatterbomb1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscScatterbomb1">UnscScatterbomb2</Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="UnscScatterbomb2">Cutter_NukeBombing</Effect>
 			<Effect type="UnlockableGodPower" tier="3">UnscMedDrones1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscMedDrones1_MP">UnscMedDrones2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscMedDrones2_MP">UnscMedDrones3_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="4">Cutter_NukeBombing</Effect>
+            <Effect type="UnlockableGodPower" tier="4">UnscVehicleDrop1</Effect>
+            <Effect type="UnlockableGodPower" tier="4" prereq="UnscVehicleDrop1">UnscVehicleDrop2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscVehicleTech1</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="UnscVehicleTech1">UnscVehicleTech2</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscVehicleRecycle</Effect>
