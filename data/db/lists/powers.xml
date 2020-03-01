@@ -172,7 +172,7 @@
 				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
 				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
 			</FlashUI>
-			<BaseDataLevel>
+			<DataLevel level="0">
 				<Data type="bool" name="RequiresLOS">true</Data>
 				<Data type="bool" name="NoDropNearBase">true</Data>
 				<Data type="bool" name="FailIfNotEnoughPop">true</Data>
@@ -193,15 +193,12 @@
 				<Data type="protoobject" name="Projectile">pow_proj_lotusminepod_01</Data>
 				<Data type="bool" name="AreaDropOrientToCamera">true</Data>
 				<Data type="bool" name="AreaDropOrientLastProjectileToCamera">true</Data>
-			</BaseDataLevel>
-			<DataLevel level="0">
 				<Data type="int" name="NumShots">2</Data>
-				<Data type="unitdrops" name="unitdrops">
+				<Data type="unitdrops" name="UnitDrops">
 					<Drop>
 						<ProtoSquadID>flood_structure_floodbosstentacledrop_01</ProtoSquadID>
 						<PlayTrainAnim>true</PlayTrainAnim>
 					</Drop>
-				</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
@@ -1910,7 +1907,7 @@
 	</Power>
 	<Power name="_Repair">
 		<Attributes>
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<DisplayNameID>355</DisplayNameID>
 			<RolloverTextID>356</RolloverTextID>
 			<PrereqTextID>356</PrereqTextID>
@@ -1919,7 +1916,7 @@
 	</Power>
 	<Power name="_RallyPoint">
 		<Attributes>
-			<AutoRecharge>120000</AutoRecharge>
+			<AutoRecharge>1</AutoRecharge>
 			<DisplayNameID>350</DisplayNameID>
 			<RolloverTextID>351</RolloverTextID>
 			<PrereqTextID>351</PrereqTextID>
