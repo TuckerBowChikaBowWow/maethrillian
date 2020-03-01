@@ -146,6 +146,12 @@
             <Effect type="UnlockableGodPower" tier="4">Up_JPack</Effect>
             <Effect type="UnlockableGodPower" tier="5">Drop_Wraith</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Wraith</Effect>
+            <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_generic_arbiter_eliteLeader_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
+            </Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
                 <Target type="ProtoUnit">game_base_Socket_01</Target>
             </Effect>
@@ -267,6 +273,12 @@
             <Effect type="UnlockableGodPower" tier="4" prereq="Up_Goliath">Up_Hunter</Effect>
             <Effect type="UnlockableGodPower" tier="5">Drop_Skitter</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Skitter</Effect>
+            <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_generic_arbiter_eliteLeader_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
+            </Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
                 <Target type="ProtoUnit">game_base_Socket_01</Target>
             </Effect>
@@ -388,6 +400,12 @@
             <Effect type="UnlockableGodPower" tier="4">Up_Ghost</Effect>
             <Effect type="UnlockableGodPower" tier="5">Drop_Prowler</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Prowler</Effect>
+            <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_generic_arbiter_eliteLeader_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
+            </Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
                 <Target type="ProtoUnit">game_base_Socket_01</Target>
             </Effect>
