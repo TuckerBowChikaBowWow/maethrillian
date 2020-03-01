@@ -21,6 +21,8 @@
 		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
 		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+		<TimeToInfect>60</TimeToInfect>
+		<InfectionTargetType>Hero</InfectionTargetType>
 	</Weapon>
 	<Weapon>
 		<Name>JumpAttackHammer</Name>
@@ -54,6 +56,7 @@
 		<Anim>SecondaryAttack</Anim>
 		<Weapon>MeleeAttack</Weapon>
 		<FullBodyAttackAnim />
+		<Infection />
 		<Strafing turnRate="180" trackingSpeed="60" />
 	</Action>
 	<Action>

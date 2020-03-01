@@ -17,8 +17,8 @@
             <Effect type="UnlockableGodPower" tier="4">DropMantis</Effect>
             <Effect type="UnlockableGodPower" tier="4">Up_Mantis1</Effect>
             <Effect type="UnlockableGodPower" tier="4" prereq="Up_Mantis1">Up_Mantis2</Effect>
-            <Effect type="UnlockableGodPower" tier="5">DropScorpion</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Cyclops</Effect>
+            <Effect type="UnlockableGodPower" tier="5"></Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
                 <Target type="ProtoUnit">game_base_Socket_01</Target>
             </Effect>
@@ -278,6 +278,9 @@
             </Effect>
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
             </Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
                 <Target type="ProtoUnit">game_base_Socket_01</Target>
@@ -11583,6 +11586,9 @@
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
         <Effects>
+            <Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
+            </Effect>
             <Effect type="Data" amount="1.2" subtype="Damage" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
             </Effect>

@@ -672,7 +672,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">5</Pop>
 			<Cost Supplies="450" Power="600" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -717,7 +717,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">6</Pop>
 			<Cost Supplies="0" Power="300" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -768,7 +768,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">6</Pop>
 			<Cost Supplies="30" Power="275" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -814,9 +814,9 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Pop type="Unit">3.5</Pop>
+			<Pop type="Unit">6</Pop>
 			<Cost Supplies="75" Power="300" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -843,7 +843,7 @@
 				<Data type="sound" name="HudLastFireSound" />
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
-				<Data type="int" name="NumGunships">2</Data>
+				<Data type="int" name="NumGunships">1</Data>
 				<Data type="float" name="WaitDuration">12</Data>
 				<Data type="protoobject" name="Gunship">unsc_air_pelican_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_VehicleDrop_II</Data>
@@ -861,7 +861,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">12</Pop>
 			<Cost Supplies="50" Power="250" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -912,7 +912,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">3</Pop>
 			<Cost Supplies="30" Power="80" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -957,7 +957,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">7</Pop>
 			<Cost Supplies="235" Power="495" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -1002,7 +1002,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">3</Pop>
 			<Cost Supplies="90" Power="110" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -1045,7 +1045,6 @@
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>unsc_inf_sniper_01</ProtoSquadID>
-						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -1057,7 +1056,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">3</Pop>
 			<Cost Supplies="30" Power="80" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -1111,7 +1110,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="120" Power="160" />
 			<Pop type="Unit">4</Pop>
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -1166,7 +1165,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">6</Pop>
 			<Cost Supplies="0" Power="300" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -1219,7 +1218,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">3</Pop>
 			<Cost Supplies="35" Power="90" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -1266,7 +1265,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">3</Pop>
 			<Cost Supplies="65" Power="110" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -1313,7 +1312,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">6</Pop>
 			<Cost Supplies="325" Power="610" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -1360,7 +1359,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">5</Pop>
 			<Cost Supplies="220" Power="130" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -1407,7 +1406,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">5</Pop>
 			<Cost Supplies="130" Power="210" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -1454,7 +1453,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">6</Pop>
 			<Cost Supplies="110" Power="650" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -1516,7 +1515,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">4</Pop>
 			<Cost Supplies="60" Power="110" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -1563,7 +1562,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">5</Pop>
 			<Cost Supplies="110" Power="320" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -1610,7 +1609,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">3</Pop>
 			<Cost Supplies="55" Power="230" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -1657,7 +1656,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">6</Pop>
 			<Cost Supplies="0" Power="300" />
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -1706,7 +1705,7 @@
 	</Power>
 	<Power name="_Repair">
 		<Attributes>
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<DisplayNameID>355</DisplayNameID>
 			<RolloverTextID>356</RolloverTextID>
 			<PrereqTextID>356</PrereqTextID>
@@ -1715,7 +1714,7 @@
 	</Power>
 	<Power name="_RallyPoint">
 		<Attributes>
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<DisplayNameID>350</DisplayNameID>
 			<RolloverTextID>351</RolloverTextID>
 			<PrereqTextID>351</PrereqTextID>
@@ -26978,7 +26977,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="0" Power="300" />
 			<Pop type="Unit">8</Pop>
-			<AutoRecharge>1</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
