@@ -112,7 +112,7 @@
 	</Leader>
 	<Leader Name="Atriox" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>UNSC</Civ>
-		<Tech>covenant_LeaderAtriox</Tech>
+		<Tech>covLeaderAtriox</Tech>
 		<NameID>7012</NameID>
 		<DescriptionID>7013</DescriptionID>
 		<RichPresenceID>LEADER_ATRIOX</RichPresenceID>
@@ -140,7 +140,7 @@
 	</Leader>
 	<Leader Name="Lekgolo" Icon="ui\game\icon\covenant\leader\Elite General" GUID="#B769F16E-77D2-4DBC-A38A-3C897C7CAB1D">
 		<Civ>UNSC</Civ>
-		<Tech>covenant_LeaderAtriox</Tech>
+		<Tech>covLeaderIHunter</Tech>
 		<NameID>7014</NameID>
 		<DescriptionID>7015</DescriptionID>
 		<CmsId>12</CmsId>
@@ -167,7 +167,7 @@
 	</Leader>
 	<Leader Name="Arbiter" Icon="ui\game\icon\covenant\leader\Elite General" GUID="#E6B2B24F-CDB3-4FF4-B6C7-8F76B14CEBF9">
 		<Civ>UNSC</Civ>
-		<Tech>covenant_LeaderAtriox</Tech>
+		<Tech>covLeaderArbiter</Tech>
 		<NameID>7014</NameID>
 		<DescriptionID>7015</DescriptionID>
 		<RichPresenceID>LEADER_ARBITER</RichPresenceID>
@@ -180,8 +180,7 @@
 		<Resource Type="Power">400</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="gaia_bldg_lichspawner_elite" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_inf_arbiter_01</StartingSquad>
-        <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_suicideGrunt</StartingSquad>
-        <StartingSquad FlyIn="false" Offset="60,0,20">cov_inf_generic_suicideGrunt</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,0">cov_inf_generic_arbiterenforcer</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
