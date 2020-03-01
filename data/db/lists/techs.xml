@@ -3768,6 +3768,12 @@
             <Effect type="SquadCounter" NewCounterName="JumpPack_02">
                 <Target type="ProtoSquad">cov_inf_bruteJumpPack_01</Target>
             </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="JumpAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteJumpPack_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="JumpAttackBombLineAction" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_bruteJumpPack_01</Target>
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="cov_hunter_upgrade1" type="Normal">
