@@ -18,7 +18,7 @@
             <Effect type="UnlockableGodPower" tier="4">Up_Mantis1</Effect>
             <Effect type="UnlockableGodPower" tier="4" prereq="Up_Mantis1">Up_Mantis2</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Cyclops</Effect>
-            <Effect type="UnlockableGodPower" tier="5"></Effect>
+            <Effect type="UnlockableGodPower" tier="5">DropFoxcannon</Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
                 <Target type="ProtoUnit">game_base_Socket_01</Target>
             </Effect>
@@ -6840,6 +6840,9 @@
         <Status>UNOBTAINABLE</Status>
         <Flag>Shadow</Flag>
         <Effects>
+            <Effect type="UnlockableGodPower" tier="1">FloodEggAOMDrop1</Effect>
+            <Effect type="UnlockableGodPower" tier="1">Flood_Emerge_InfectorsAOM</Effect>
+            <Effect type="UnlockableGodPower" tier="2">FloodRuptureEmerge</Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
