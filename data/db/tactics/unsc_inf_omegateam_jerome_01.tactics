@@ -272,7 +272,14 @@
 		<ProtoObject>vfx_dlc2_units_spartanleaderinspiretier2</ProtoObject>
 		<StartDisabled />
 	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>2.5</WorkRate>
+		<MinIdleDuration>5</MinIdleDuration>
+	</Action>
 	<Tactic>
+		<PersistentAction>MedicHeal</PersistentAction>
 		<PersistentAction>ShieldAction</PersistentAction>
 		<PersistentAction>InspireAura</PersistentAction>
 		<PersistentAction>InspireAuraUpgrade</PersistentAction>

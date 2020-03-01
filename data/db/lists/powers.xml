@@ -61,7 +61,7 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Pop type="Unit">15</Pop>
+			<Pop type="Unit">8</Pop>
 			<Cost Supplies="600" Power="0" />
 			<AutoRecharge>330000</AutoRecharge>
 			<UIRadius>30</UIRadius>
@@ -96,6 +96,9 @@
 				<Data type="protoobject" name="Gunship">flood_inf_ruptureemerge_LP_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_ULT_GrizzlyBattalion</Data>
 				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
+					</Drop>
 					<Drop>
 						<ProtoSquadID>flood_inf_infectfrm_01</ProtoSquadID>
 					</Drop>

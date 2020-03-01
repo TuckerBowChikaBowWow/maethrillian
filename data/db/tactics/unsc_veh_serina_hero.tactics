@@ -447,7 +447,14 @@
 		<WorkRange>8</WorkRange>
 		<StartDisabled />
 	</Action>
+	<Action>
+		<Name>MedicHeal</Name>
+		<ActionType>Heal</ActionType>
+		<WorkRate>2.5</WorkRate>
+		<MinIdleDuration>5</MinIdleDuration>
+	</Action>
 	<Tactic>
+		<PersistentAction>MedicHeal</PersistentAction>
 		<PersistentAction>ChillAura</PersistentAction>
 		<PersistentAction>ChillAuraBuildings</PersistentAction>
 		<PersistentAction>ChillAuraUpgrade</PersistentAction>
