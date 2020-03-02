@@ -8973,6 +8973,86 @@
 		<Counters>EliteRangers_01</Counters>
 		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
+	<Squad name="for_air_enforcer_halfshielded_mod" dbid="14347403196790229470">
+		<PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23602</DisplayNameID>
+		<RolloverTextID>23603</RolloverTextID>
+		<RoleTextID>506</RoleTextID>
+		<SubSelectSort>10002</SubSelectSort>
+		<LeashDistance>100</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>5000</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<BuildPoints>25</BuildPoints>
+		<Pop Type="Unit">10</Pop>
+		<Cost ResourceType="Supplies">290</Cost>
+		<Cost ResourceType="Power">28</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,7,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">for_air_enforcer_halfshielded_mod</Unit>
+		</Units>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>AlwaysAttackReviveUnits</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Forerunner</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>None</StencilType>
+		</Selection>
+		<Birth>FlyIn</Birth>
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Aggressor_01</Counters>
+	</Squad>
+	<Squad name="for_air_enforcer_shielded_mod" dbid="14347403196790229470">
+		<PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23602</DisplayNameID>
+		<RolloverTextID>23603</RolloverTextID>
+		<RoleTextID>506</RoleTextID>
+		<SubSelectSort>10002</SubSelectSort>
+		<LeashDistance>100</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>5000</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<BuildPoints>25</BuildPoints>
+		<Pop Type="Unit">20</Pop>
+		<Cost ResourceType="Supplies">290</Cost>
+		<Cost ResourceType="Power">28</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,7,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">for_air_enforcer_shielded_mod</Unit>
+		</Units>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>AlwaysAttackReviveUnits</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>Forerunner</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>None</StencilType>
+		</Selection>
+		<Birth>FlyIn</Birth>
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Aggressor_01</Counters>
+	</Squad>
 	<Squad name="for_inf_assaultelites_01" parent_element="cov_inf_arbiter_assaultteam_01" dbid="15571555391561239374">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
