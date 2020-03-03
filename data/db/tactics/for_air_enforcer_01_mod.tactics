@@ -170,16 +170,16 @@
 		<Name>RepairOther</Name>
 		<ActionType>RepairOther</ActionType>
 		<Anim>Repair</Anim>
-		<WorkRange>500</WorkRange>
-		<WorkRate>1.00000034E-06</WorkRate>
+		<WorkRange>60</WorkRange>
+		<WorkRate>1</WorkRate>
 		<AllowReinforce />
-		<AutoRepair AutoRepairIgnoreTargetHealth="true" AutoRepairNeverChangeTarget="true" AutoRepairIdleTime="0" AutoRepairSearchDistance="500" />
+		<AutoRepair AutoRepairIgnoreTargetHealth="true" AutoRepairNeverChangeTarget="true" AutoRepairIdleTime="0" AutoRepairSearchDistance="60" />
 		<SpecificData>
 			<HealingPoints>
 				<HealingPoint>
 					<HealingBeamProto>vfx_dlc4_environmentalvfx_ForerunnerBeam_Tether</HealingBeamProto>
 					<BoneName>GrannyRootBone_enforcer01</BoneName>
-					<MaxHealingDistance>500</MaxHealingDistance>
+					<MaxHealingDistance>60</MaxHealingDistance>
 					<TargetType>environment_tools_objects_enforcertethertarget</TargetType>
 					<AutoReapairOn />
 					<HealOnTheMove />
@@ -219,14 +219,6 @@
 		<Resource>Collectable</Resource>
 		<WorkRate>1</WorkRate>
 		<WorkRange>1.84500003</WorkRange>
-	</Action>
-	<Action>
-		<Name>PerceiveUnits</Name>
-		<ActionType>Perceive</ActionType>
-		<SpecificData>
-			<PerceivingSound>DIA_3D_WAL_ENFORCER_Enemy_Detected</PerceivingSound>
-			<LostSound>DIA_3D_WAL_ENFORCER_Enemy_Lost</LostSound>
-		</SpecificData>
 	</Action>
 	<Tactic>
 		<TargetRule>
@@ -279,7 +271,6 @@
 			<ExcludeTargetType>Wall</ExcludeTargetType>
 			<Action>TooCloseAttackAction</Action>
 		</TargetRule>
-		<PersistentAction>PerceiveUnits</PersistentAction>
 		<PersistentAction>TooCloseAttackAction</PersistentAction>
 	</Tactic>
 </TacticData>
