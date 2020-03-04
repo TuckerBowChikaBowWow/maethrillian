@@ -52,6 +52,7 @@
 		<WorkRate>0.75</WorkRate>
 		<WorkRange>1</WorkRange>
 		<ShareResourcesWithTeam />
+		<RequireHavingGarrisonedSquads />
 	</Action>
     <Action>
         <Name>GatherSupplies</Name>
@@ -61,21 +62,16 @@
         <WorkRate>0.75</WorkRate>
         <WorkRange>1</WorkRange>
         <ShareResourcesWithTeam />
+        <RequireHavingGarrisonedSquads />
     </Action>
 	<Action>
 		<Name>GatherSuppliesSquad</Name>
 		<ActionType>SquadActionGather</ActionType>
 	</Action>
 	<Tactic>
+		<PersistentAction>GatherPower</PersistentAction>
+        <PersistentAction>GatherSupplies</PersistentAction>
 		<PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
-		<TargetRule>
-			<Action>GatherPower</Action>
-			<RequireHavingGarrisonedSquads />
-		</TargetRule>
-		<TargetRule>
-			<Action>GatherSupplies</Action>
-			<RequireHavingGarrisonedSquads />
-		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
 			<TargetsGround />
