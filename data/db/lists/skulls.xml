@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <CollectiblesDefinitions>
 	<CollectiblesXMLVersion>3</CollectiblesXMLVersion>
-	<Skull id="7" name="CLEAR SKIES" objectdbid="3975" ui_name="ClearSkies" mission="900">
-		<Effect tech="_SKULL_PainTrain">ApplyTechToAllPlayers</Effect>
-	</Skull>
-	<Skull id="8" name="FOG" objectdbid="3975" ui_name="Fog" mission="920">
-		<Effect tech="_SKULL_PainTrain">ApplyTechToAllPlayers</Effect>
-	</Skull>
-	<Skull id="17" name="BOUNCY" objectdbid="3975" ui_name="MOONGRAVITY" mission="930">
-		<Effect tech="_SKULL_PainTrain">ApplyTechToAllPlayers</Effect>
-	</Skull>
-	<Skull id="21" name="WHAT'S IN THE BOX?" objectdbid="3975" ui_name="PainTrain" mission="910">
-		<Effect tech="_SKULL_PainTrain">ApplyTechToAllPlayers</Effect>
-	</Skull>
-	<Skull id="2" name="Grunt Birthday Party" objectdbid="" ui_name="WHATSINTHEBOX" mission="100">
+	<Skull id="2" name="Grunt Birthday Party" objectdbid="" ui_name="GruntBirthdayParty" mission="100">
 		<Effect tech="_SKULL_Party">ApplyTechToAllPlayers</Effect>
 	</Skull>
 	<Skull id="3" name="Paintball" objectdbid="3973" ui_name="Paintball" mission="200">
@@ -80,9 +68,8 @@
 	<Skull id="1" name="After Party" objectdbid="" ui_name="AfterParty" mission="800">
 		<Effect value="0.800000012">Score</Effect>
 	</Skull>
-	<Skull id="18" name="Nightmare" objectdbid="3968" ui_name="Nightmare" mission="810">
-		<Effect value="1.40000105">Score</Effect>
-		<Effect value="1">SaveBlocked</Effect>
+	<Skull id="18" name="WHAT'S IN THE BOX?" objectdbid="3968" ui_name="WHATSINTHEBOX" mission="810">
+		<Effect power="SkullBoxDrop">PowerGrant</Effect>
 	</Skull>
 	<Skull id="19" name="Shadow" objectdbid="3968" ui_name="Shadow" mission="810">
 		<Effect value="0.699999988">Score</Effect>
@@ -98,6 +85,15 @@
 		<MP>
 			<Effect power="SkullShadow_MP">PowerGrant</Effect>
 		</MP>
+	</Skull>
+	<Skull id="7" name="CLEAR SKIES" objectdbid="3975" ui_name="ClearSkies" mission="900">
+		<Effect tech="_SKULL_PainTrain">ApplyTechToAllPlayers</Effect>
+	</Skull>
+	<Skull id="8" name="FOG" objectdbid="3975" ui_name="Fog" mission="920">
+		<Effect tech="_SKULL_PainTrain">ApplyTechToAllPlayers</Effect>
+	</Skull>
+	<Skull id="17" name="BOUNCY" objectdbid="3975" ui_name="MOONGRAVITY" mission="930">
+		<Effect tech="_SKULL_PainTrain">ApplyTechToAllPlayers</Effect>
 	</Skull>
 	<TimeLineEvent eventName="BlackBox01">
 		<BlackBox>3978</BlackBox>
