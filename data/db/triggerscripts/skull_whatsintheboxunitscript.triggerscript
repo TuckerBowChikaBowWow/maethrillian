@@ -8,23 +8,23 @@
 		</UIData>
 		<TriggerSystem Name="SKULL_WhatsInTheBoxUnitScript.triggerscript" Type="TriggerScript" Tags="" External="false">
 			<TriggerVars>
-				<TriggerVar ID="#8f99a659-6cee-4750-8049-2dddffe2c9c1" Type="Integer" Name="" IsNull="false">10</TriggerVar>
+				<TriggerVar ID="#8f99a659-6cee-4750-8049-2dddffe2c9c1" Type="Integer" Name="" IsNull="false">75</TriggerVar>
 				<TriggerVar ID="#8752e0a3-ee96-4c15-b14c-75ee021cf2fa" Type="Integer" Name="T1Chance" IsNull="false" />
 				<TriggerVar ID="#59d4a368-8ba0-4bbd-9a4d-698837f6abe9" Type="Integer" Name="" IsNull="false">40</TriggerVar>
 				<TriggerVar ID="#92cc63aa-91b3-49b0-8185-0a26379edb77" Type="Integer" Name="T2Chance" IsNull="false" />
-				<TriggerVar ID="#cbec0c1b-b325-4eeb-9ca7-bb3c9c35c718" Type="Integer" Name="" IsNull="false">100</TriggerVar>
+				<TriggerVar ID="#cbec0c1b-b325-4eeb-9ca7-bb3c9c35c718" Type="Integer" Name="" IsNull="false">10</TriggerVar>
 				<TriggerVar ID="#ae287b13-6d7c-4412-9167-b296a2d021b6" Type="Integer" Name="T3Chance" IsNull="false" />
-				<TriggerVar ID="#64dd6b2a-db0e-4f4e-a70a-b51e930be66f" Type="ProtoSquadList" Name="" IsNull="false">unsc_inf_generic_marine,unsc_inf_flamemarine_01,unsc_inf_sniper_01,unsc_inf_spartan_01,unsc_veh_mongoose_01</TriggerVar>
+				<TriggerVar ID="#64dd6b2a-db0e-4f4e-a70a-b51e930be66f" Type="ProtoSquadList" Name="" IsNull="false">unsc_inf_generic_marine,unsc_inf_flamemarine_01,unsc_inf_sniper_01,unsc_veh_mongoose_01,unsc_inf_serina_cryomarines_01</TriggerVar>
 				<TriggerVar ID="#8fe96db3-639c-4611-94c1-0bc318ded474" Type="ProtoSquadList" Name="UNSCT1List" IsNull="false" />
-				<TriggerVar ID="#b1d19e8d-284b-42f2-ae59-62c6dd807cab" Type="ProtoSquadList" Name="" IsNull="false">unsc_inf_cyclops_01,unsc_veh_warthog_01,unsc_veh_wolverine_01,unsc_veh_foxcannon_01,unsc_air_hornet_01,unsc_air_nightingale_01</TriggerVar>
+				<TriggerVar ID="#b1d19e8d-284b-42f2-ae59-62c6dd807cab" Type="ProtoSquadList" Name="" IsNull="false">unsc_inf_cyclops_01,unsc_veh_warthog_01,unsc_veh_flamehog_01,unsc_veh_wolverine_01,unsc_veh_foxcannon_01,unsc_air_nightingale_01,unsc_veh_johnson_mantis_01</TriggerVar>
 				<TriggerVar ID="#6d8d5030-ca13-40a0-8dd2-dee7753b0937" Type="ProtoSquadList" Name="UNSCT2List" IsNull="false" />
-				<TriggerVar ID="#f03c5bbd-fc1a-4a9e-b758-03b25b4d15e7" Type="ProtoSquadList" Name="" IsNull="false">unsc_veh_scorpion_01,unsc_air_vulture_01</TriggerVar>
+				<TriggerVar ID="#f03c5bbd-fc1a-4a9e-b758-03b25b4d15e7" Type="ProtoSquadList" Name="" IsNull="false">unsc_veh_scorpion_01,unsc_veh_grizzly_01,unsc_veh_johnson_colossus_01</TriggerVar>
 				<TriggerVar ID="#273c1b76-1e33-4ae0-bb7d-23ab2f8772ac" Type="ProtoSquadList" Name="UNSCT3List" IsNull="false" />
-				<TriggerVar ID="#12d00543-0cad-4296-ac39-257c5cc7a1bd" Type="ProtoSquadList" Name="" IsNull="false">cov_inf_generic_grunt,cov_inf_generic_brutejumppack,cov_inf_engineer_01,cov_inf_generic_suicidegrunt,cov_inf_atrioxchosen_01,cov_inf_brutehonour_01,cov_veh_brutechopper_01,cov_veh_ghost_01</TriggerVar>
+				<TriggerVar ID="#12d00543-0cad-4296-ac39-257c5cc7a1bd" Type="ProtoSquadList" Name="" IsNull="false">cov_inf_generic_grunt,cov_inf_generic_brutejumppack,cov_inf_engineer_01,cov_inf_generic_suicidegrunt,cov_veh_brutechopper_01,cov_inf_generic_arbiterenforcer,cov_inf_bruteRider_01,cov_inf_generic_heavygrunt</TriggerVar>
 				<TriggerVar ID="#8220ee61-30ca-483e-ba70-ac3f420f4fd5" Type="ProtoSquadList" Name="BANT1List" IsNull="false" />
-				<TriggerVar ID="#2fd2c4a3-e383-4c2b-9b3e-1d6ab84c74db" Type="ProtoSquadList" Name="" IsNull="false">cov_inf_hunter_01,cov_inf_jackal_01,cov_air_banshee_01,cov_veh_prowler_01,cov_veh_locust_01,cov_veh_gorgon_01</TriggerVar>
+				<TriggerVar ID="#2fd2c4a3-e383-4c2b-9b3e-1d6ab84c74db" Type="ProtoSquadList" Name="" IsNull="false">cov_inf_hunter_01,cov_inf_jackal_01,cov_air_banshee_01,cov_veh_prowler_01,cov_veh_locust_01,cov_veh_gorgon_01cov_veh_ghost_01,cov_inf_brutegrenadier_01,cov_inf_lekgologoliath_01</TriggerVar>
 				<TriggerVar ID="#cc23b3a2-072e-430a-b2ad-f9ce193a69ec" Type="ProtoSquadList" Name="BANT2List" IsNull="false" />
-				<TriggerVar ID="#d72686a4-9053-4266-bfbe-dcb8ca447d99" Type="ProtoSquadList" Name="" IsNull="false">cov_veh_wraith_01,cov_air_blisterback_01</TriggerVar>
+				<TriggerVar ID="#d72686a4-9053-4266-bfbe-dcb8ca447d99" Type="ProtoSquadList" Name="" IsNull="false">cov_veh_wraith_01</TriggerVar>
 				<TriggerVar ID="#fc5f7786-d286-4790-b4ec-1b74538e821c" Type="ProtoSquadList" Name="BANT3List" IsNull="false" />
 				<TriggerVar ID="#c413cf0a-026c-49f8-81c8-b580c2704915" Type="Trigger" Name="TriggerVar1" IsNull="false">#b45f3535-2d86-423f-86a7-6c464773ea55</TriggerVar>
 				<TriggerVar ID="#369dca3c-5f9e-4fd6-90f2-d46f0bd65864" Type="Integer" Name="" IsNull="false">0</TriggerVar>
@@ -114,12 +114,12 @@
 				<TriggerVar ID="#d4073aef-f939-4558-99e6-3e420772fb72" Type="Float" Name="AlphaVar1" IsNull="true" />
 				<TriggerVar ID="#2161922e-7b22-466a-bee3-3df3eb30f784" Type="Color" Name="ColorVar1" IsNull="true" />
 				<TriggerVar ID="#63448bfe-0760-47c4-9822-e5509b5f0b68" Type="Bool" Name="" IsNull="false">True</TriggerVar>
-				<TriggerVar ID="#93876be0-6d80-4ffd-890e-b1ea39f70b5e" Type="Leader" Name="" IsNull="false">Cutter</TriggerVar>
-				<TriggerVar ID="#e82e9515-4ce9-4a35-996a-7de139786157" Type="Leader" Name="" IsNull="false">Forge</TriggerVar>
-				<TriggerVar ID="#9f8ad34a-f3b4-4be0-813f-8ffdfc06986f" Type="Leader" Name="" IsNull="false">Isabel</TriggerVar>
+				<TriggerVar ID="#93876be0-6d80-4ffd-890e-b1ea39f70b5e" Type="Leader" Name="" IsNull="false">Johnson</TriggerVar>
+				<TriggerVar ID="#e82e9515-4ce9-4a35-996a-7de139786157" Type="Leader" Name="" IsNull="false">LeaderJerome</TriggerVar>
+				<TriggerVar ID="#9f8ad34a-f3b4-4be0-813f-8ffdfc06986f" Type="Leader" Name="" IsNull="false">Serina</TriggerVar>
 				<TriggerVar ID="#c6a86284-24ab-4815-ab8e-1c68a361097a" Type="Leader" Name="" IsNull="false">UNSC Single Player</TriggerVar>
-				<TriggerVar ID="#fc38e71b-2d7e-47ee-9b48-8fa4a45e811a" Type="Leader" Name="" IsNull="false">Decimus</TriggerVar>
-				<TriggerVar ID="#71495347-7742-492b-97a4-13e0d2a4ac01" Type="Leader" Name="" IsNull="false">Shipmaster</TriggerVar>
+				<TriggerVar ID="#fc38e71b-2d7e-47ee-9b48-8fa4a45e811a" Type="Leader" Name="" IsNull="false">Lekgolo</TriggerVar>
+				<TriggerVar ID="#71495347-7742-492b-97a4-13e0d2a4ac01" Type="Leader" Name="" IsNull="false">Arbiter</TriggerVar>
 				<TriggerVar ID="#a369d6e4-389d-444c-9af8-c4960cb43f83" Type="Leader" Name="" IsNull="false">Campaign Enemy</TriggerVar>
 			</TriggerVars>
 			<Triggers>
