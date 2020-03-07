@@ -1,5 +1,15 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
+     <Weapon>
+        <Name>VehicleDelivery</Name>
+        <Hardpoint>hqtankdrop</Hardpoint>
+    </Weapon>
+    <Action>
+        <Name>AnimDeliver1</Name>
+        <ActionType>AnimDeliver</ActionType>
+        <Weapon>VehicleDelivery</Weapon>
+        <DeliveryType>Vehicles</DeliveryType>
+    </Action>
 	<Action>
 		<Name>DeliverBuilding</Name>
 		<ActionType>AnimDeliver</ActionType>
@@ -43,6 +53,7 @@
 		<ActionType>Base</ActionType>
 	</Action>
 	<Tactic>
+        <PersistentAction>AnimDeliver1</PersistentAction>
 		<PersistentAction>InfantryDelivery</PersistentAction>
 		<PersistentAction>PelicanCrates</PersistentAction>
 		<PersistentAction>HQAnimDelivers</PersistentAction>
