@@ -2810,6 +2810,41 @@
 		<BuildPoints>19</BuildPoints>
 		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
+	<Squad name="hook_bldg_EnergyCapturePoint_base_01_base" dbid="13805614027181748747">
+		<CombatRank>6</CombatRank>
+		<SubSelectSort>114</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>3.5</AIAttackRank>
+		<ActiveAbilityType>Garrison</ActiveAbilityType>
+		<BuildPoints>45</BuildPoints>
+		<Pop Type="Unit">0</Pop>
+		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">hook_bldg_EnergyCapturePoint_base_01_base</Unit>
+		</Units>
+		<Flag>Chatter</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>WraithAPC_01</Counters>
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+	</Squad>
 	<Squad name="cov_veh_wraith_01" dbid="12873738608301799939" parent_element="cov_veh_wraith_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
