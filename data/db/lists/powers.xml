@@ -10891,7 +10891,7 @@
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="600" Power="200" />
 			<AutoRecharge>180000</AutoRecharge>
-			<UIRadius>40</UIRadius>
+			<UIRadius>35</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
 			<RolloverTextID>5011</RolloverTextID>
@@ -10921,11 +10921,11 @@
 				<Data type="bool" name="TargetStructuresOnly">false</Data>
 				<Data type="int" name="NumWaves">1</Data>
 				<Data type="float" name="TimeBetweenWaves">0</Data>
-				<Data type="int" name="NumAircraftPerWave">8</Data>
+				<Data type="int" name="NumAircraftPerWave">7</Data>
 				<Data type="int" name="SentinelSynergyBonus">1</Data>
-				<Data type="float" name="SpawnRadius">40</Data>
+				<Data type="float" name="SpawnRadius">35</Data>
 				<Data type="float" name="SpokeRotationOffset">10</Data>
-				<Data type="float" name="PatrolDuration">60</Data>
+				<Data type="float" name="PatrolDuration">45</Data>
 				<Data type="protosquad" name="AircraftSquad">cov_air_banshee_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_VEH_FORE_SentinelGroupFlyIn</Data>
 			</DataLevel>
@@ -25953,10 +25953,10 @@
 			<NotAffectedByCeasefire />
 			<PowerType>Transport</PowerType>
 			<AIPowerUseType>TransportAllies</AIPowerUseType>
-			<Cost Supplies="0" Power="100" />
+			<Cost Supplies="150" Power="150" />
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
-			<AutoRecharge>100000</AutoRecharge>
+			<AutoRecharge>120000</AutoRecharge>
 			<ShowTransportArrows>true</ShowTransportArrows>
 			<DisplayNameID>5010</DisplayNameID>
 			<RolloverTextID>5011</RolloverTextID>
@@ -25976,7 +25976,7 @@
 			</FlashUI>
 			<DataLevel level="0">
 				<Data type="protoobject" name="TransportVehicle">unsc_air_pelicantransport_01</Data>
-				<Data type="bool" name="RequiresLOS">false</Data>
+				<Data type="bool" name="RequiresLOS">true</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -25990,7 +25990,7 @@
 				<Data type="float" name="MinTransportDistance">45</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
-				<Data type="float" name="MaxTransportDistance">550</Data>
+				<Data type="float" name="MaxTransportDistance">600</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>

@@ -4619,6 +4619,7 @@
 			<Effect type="UnlockableGodPower" tier="1">CutterBattleHardened1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="CutterBattleHardened1">CutterBattleHardened2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscLotusMines1_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="UnscLotusMines1_MP">UnscLotusMines2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscMedDrones1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UnscMedDrones1_MP">UnscMedDrones2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UnscMedDrones2_MP">UnscMedDrones3_MP</Effect>
@@ -4729,9 +4730,9 @@
 			<Effect type="UnlockableGodPower" tier="3">UnscMacBlast1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscMacBlast1">UnscMacBlast2</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscMacBlast2">UnscMacBlast3</Effect>
-			<Effect type="UnlockableGodPower" tier="3">UnscLotusMines1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="UnscLotusMines1_MP">UnscLotusMines2_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="3">UnscForgePelicanTransport</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscTurretDrop1</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="UnscTurretDrop1">UnscTurretDrop2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscScorpionTech</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscVehicleRecycle</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscGhostInTheMachine</Effect>
@@ -5613,7 +5614,6 @@
 			<Effect type="UnlockableGodPower" tier="1">CovRaidTech1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="CovRaidTech1">CovRaidTech2</Effect>
 			<Effect type="UnlockableGodPower" tier="1">CovTeleport1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="CovTeleport1">CovTeleport2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">CovScoutMine1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="CovScoutMine1">CovScoutMine2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">CovExtraction1</Effect>
@@ -5890,6 +5890,7 @@
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHeavyMetal01">UnscHeavyMetal02</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHeavyMetal02">UnscHeavyMetal03</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscLotusMines1_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="UnscLotusMines1_MP">UnscLotusMines2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscForgePelicanTransport</Effect>
 			<Effect type="UnlockableGodPower" tier="3">UnscScatterbomb1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscScatterbomb1">UnscScatterbomb2</Effect>
@@ -6062,6 +6063,7 @@
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscNapalmMissiles1">UnscNapalmMissiles2</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscNapalmMissiles2">UnscNapalmMissiles3</Effect>
 			<Effect type="UnlockableGodPower" tier="3">UnscTurretDrop1</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="UnscTurretDrop1">UnscTurretDrop2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscMedDrones1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="UnscMedDrones1_MP">UnscMedDrones2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="UnscMedDrones2_MP">UnscMedDrones3_MP</Effect>
@@ -6444,7 +6446,6 @@
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscMedDrones1_MP">UnscMedDrones2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscMedDrones2_MP">UnscMedDrones3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscForgePelicanTransport</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="UnscForgePelicanTransport">UnscForgePelicanTransport2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscBunkerDrop1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UnscBunkerDrop1_MP">UnscBunkerDrop2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3">JohnsonEMPBlast1</Effect>
@@ -10151,7 +10152,7 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_rocket" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_chaingun" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade1_chaingun" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_laser" relativity="Absolute">
@@ -10160,7 +10161,7 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_rocket" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_chaingun" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_chaingun" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_laser" relativity="Absolute">
@@ -10169,7 +10170,7 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_rocket" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_chaingun" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade2_chaingun" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_laser" relativity="Absolute">
@@ -10178,7 +10179,7 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_rocket" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_chaingun" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_spartan_upgrade3_chaingun" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forgehog_upgrade2" relativity="Absolute">
