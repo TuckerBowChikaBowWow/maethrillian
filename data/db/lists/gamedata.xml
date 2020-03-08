@@ -449,6 +449,27 @@
 		<InfectionMapEntry targetUnit="cov_veh_grunt_methanewagon_01">
 			<Infected infectedUnit="cov_veh_grunt_methanewagon_01" infectedSquad="cov_veh_grunt_methanewagon_01" deathByInfectionAnim="HijackLoop" />
 		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_gruntswarmleader_01">
+			<Infected infectedUnit="flood_inf_infected_gruntmelee_01" infectedSquad="flood_inf_infected_gruntmelee_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_gruntswarm_01">
+			<Infected infectedUnit="flood_inf_infected_gruntmelee_01" infectedSquad="flood_inf_infected_gruntmelee_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_grunt_01">
+			<Infected infectedUnit="flood_inf_infected_gruntpistol_01" infectedSquad="flood_inf_infected_gruntpistol_01" deathByInfectionAnim="HijackLoop" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_generic_elitegrunt_01">
+			<Infected infectedUnit="flood_inf_infected_gruntpistol_01" infectedSquad="flood_inf_infected_gruntpistol_01" deathByInfectionAnim="HijackLoop" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_heavygruntLeader_01">
+			<Infected infectedUnit="flood_inf_infected_gruntfuelrod_01" infectedSquad="flood_inf_infected_gruntfuelrod_01" deathByInfectionAnim="HijackLoop" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_heavygruntsubleader_01">
+			<Infected infectedUnit="flood_inf_infected_gruntfuelrod_01" infectedSquad="flood_inf_infected_gruntfuelrod_01" deathByInfectionAnim="HijackLoop" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="flood_inf_infected_heavygruntpistol_01">
+			<Infected infectedUnit="flood_inf_infected_heavygruntpistol_01" infectedSquad="flood_inf_infected_heavygruntpistol_01" deathByInfectionAnim="HijackLoop" />
+		</InfectionMapEntry>
 	</InfectionMap>
 	<MaxSquadPathsPerFrame>100</MaxSquadPathsPerFrame>
 	<MaxPlatoonPathsPerFrame>100</MaxPlatoonPathsPerFrame>

@@ -1507,6 +1507,11 @@
 			<Unit count="4" role="normal">cov_inf_gruntswarm_01_frommine</Unit>
 		</Units>
 	</Squad>
+	<Squad name="flood_inf_infected_gruntmelee_01" parent_element="cov_inf_gruntswarm_01" dbid="15057269565369737646">
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">flood_inf_infected_gruntmelee_01</Unit>
+		</Units>
+	</Squad>
 	<Squad name="cov_inf_grunt_01" dbid="13564817270134799132" formationType="Flock" parent_element="cov_inf_grunt_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -1556,6 +1561,11 @@
 	</Squad>
 	<Squad name="cov_inf_grunt_01_sp" parent_element="cov_inf_grunt_01_base" dbid="2951099546121161130">
 		<LeashDistance>50</LeashDistance>
+	</Squad>
+	<Squad name="flood_inf_infected_gruntpistol_01" parent_element="cov_inf_grunt_01_base" dbid="2960665297284704580">
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">flood_inf_infected_gruntpistol_01</Unit>
+		</Units>
 	</Squad>
 	<Squad name="cov_inf_grunt_02" dbid="13564820568669683765" formationType="Flock" parent_element="cov_inf_grunt_02_sp" />
 	<Squad name="cov_inf_grunt_02_base" parent_element="cov_inf_grunt_01" dbid="12297911770252449283">
@@ -1622,6 +1632,16 @@
 			<StencilType>All</StencilType>
 			<WriteToMergeStencil>True</WriteToMergeStencil>
 		</Selection>
+	</Squad>
+	<Squad name="flood_inf_infected_heavygruntpistol_01" parent_element="cov_inf_heavygrunt_01" dbid="2289008923150871706">
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">flood_inf_infected_heavygruntpistol_01</Unit>
+		</Units>
+	</Squad>
+	<Squad name="flood_inf_infected_gruntfuelrod_01" parent_element="cov_inf_heavygrunt_01" dbid="2289008923150871706">
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">flood_inf_infected_gruntfuelrod_01</Unit>
+		</Units>
 	</Squad>
 	<Squad name="cov_inf_hunter_01" dbid="5976512545176962304" formationType="Line" parent_element="cov_inf_hunter_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
