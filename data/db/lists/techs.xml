@@ -5624,7 +5624,7 @@
 			<Effect type="UnlockableGodPower" tier="3">CovAdvancedCloaking1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovAdvancedCloaking1">CovAdvancedCloaking2</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovSpiritSupport1</Effect>
-			<Effect type="UnlockableGodPower" tier="4">CovDisplacement</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovBansheePatrol</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovInvisibleArmy</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovSlipstreamRift</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
@@ -10186,6 +10186,51 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forgehog_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cutter_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cutter_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cutter_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_forge_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_forge_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_forge_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_isabel_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_isabel_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_isabel_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_johnson_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_johnson_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_johnson_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_kinsano_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_kinsano_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_kinsano_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
 			</Effect>
 		</Effects>
 	</Tech>
