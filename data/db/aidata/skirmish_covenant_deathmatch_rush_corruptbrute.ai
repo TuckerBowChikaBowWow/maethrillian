@@ -143,6 +143,30 @@
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
 		</Mission>
 		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_inf_infected_sniper_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_veh_infected_bruteChopper_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_inf_infectfrm_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+		</Mission>
+		<Mission>
 			<MissionType>Reserves</MissionType>
 			<MissionID>2</MissionID>
 			<SquadTypeToSend>flood_inf_infected_humelee_01</SquadTypeToSend>
@@ -169,7 +193,7 @@
 			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
 			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<MissionID>3</MissionID>
-			<SquadTypeToSend>flood_inf_infected_humelee_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_infected_sniper_01_base</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>10</NumberOfSquadsToSend>
 			<SquadTypeToSend>flood_inf_infected_elitemelee_01</SquadTypeToSend>
@@ -181,6 +205,9 @@
 			<SquadTypeToSend>flood_inf_infectfrm_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>10</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_veh_infected_bruteChopper_01_base</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
@@ -206,7 +233,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>flood_inf_infected_humelee_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_commander_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -214,7 +241,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>flood_inf_infected_elitemelee_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_spawner_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -222,7 +249,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
-			<SquadTypeToSend>flood_inf_infected_brutemelee_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_veh_infected_scorpion_01_base</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -240,6 +267,15 @@
 			<SquadTypeToSend>flood_inf_infected_elitemelee_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<SquadTypeToSend>flood_inf_spawner_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_veh_infected_scorpion_01_base</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_inf_commander_01</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>

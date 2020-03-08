@@ -493,9 +493,9 @@
     </AIDifficultySetting>
     <AIDifficultySetting Name="DiffUseRushStrategies" InputLabel="Difficulty" OutputLabel="Bool" Comment="Should the AI use Rush strategies">
         <PiecewiseFunc>
-            <DataPoint Input="0" Output="0">
+            <DataPoint Input="0" Output="1">
             </DataPoint>
-            <DataPoint Input="0.34" Output="0">
+            <DataPoint Input="0.34" Output="1">
             </DataPoint>
             <DataPoint Input="0.67" Output="1">
             </DataPoint>
@@ -505,9 +505,9 @@
     </AIDifficultySetting>
     <AIDifficultySetting Name="DiffUseBoomStrategies" InputLabel="Difficulty" OutputLabel="Bool" Comment="Should the AI use Boom strategies">
         <PiecewiseFunc>
-            <DataPoint Input="0" Output="1">
+            <DataPoint Input="0" Output="0">
             </DataPoint>
-            <DataPoint Input="0.34" Output="1">
+            <DataPoint Input="0.34" Output="0">
             </DataPoint>
             <DataPoint Input="0.67" Output="0">
             </DataPoint>
@@ -521,19 +521,19 @@
             </DataPoint>
             <DataPoint Input="0.34" Output="0">
             </DataPoint>
-            <DataPoint Input="0.67" Output="1">
+            <DataPoint Input="0.67" Output="0">
             </DataPoint>
-            <DataPoint Input="1" Output="1">
+            <DataPoint Input="1" Output="0">
             </DataPoint>
         </PiecewiseFunc>
     </AIDifficultySetting>
     <AIDifficultySetting Name="DiffUseTurtleStrategies" InputLabel="Difficulty" OutputLabel="Bool" Comment="Should the AI use Turtle strategies">
         <PiecewiseFunc>
-            <DataPoint Input="0" Output="1">
+            <DataPoint Input="0" Output="0">
             </DataPoint>
-            <DataPoint Input="0.34" Output="1">
+            <DataPoint Input="0.34" Output="0">
             </DataPoint>
-            <DataPoint Input="0.67" Output="1">
+            <DataPoint Input="0.67" Output="0">
             </DataPoint>
             <DataPoint Input="1" Output="0">
             </DataPoint>
@@ -545,9 +545,9 @@
             </DataPoint>
             <DataPoint Input="0.34" Output="0">
             </DataPoint>
-            <DataPoint Input="0.67" Output="1">
+            <DataPoint Input="0.67" Output="0">
             </DataPoint>
-            <DataPoint Input="1" Output="1">
+            <DataPoint Input="1" Output="0">
             </DataPoint>
         </PiecewiseFunc>
     </AIDifficultySetting>
