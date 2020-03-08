@@ -7,7 +7,7 @@
             </DataPoint>
             <DataPoint Input="0.67" Output="1">
             </DataPoint>
-            <DataPoint Input="1" Output="1">
+            <DataPoint Input="1" Output="0.5">
             </DataPoint>
         </PiecewiseFunc>
     </AIDifficultySetting>
@@ -31,7 +31,7 @@
             </DataPoint>
             <DataPoint Input="0.67" Output="4">
             </DataPoint>
-            <DataPoint Input="1" Output="2">
+            <DataPoint Input="1" Output="0">
             </DataPoint>
         </PiecewiseFunc>
     </AIDifficultySetting>
@@ -43,7 +43,7 @@
             </DataPoint>
             <DataPoint Input="0.67" Output="2">
             </DataPoint>
-            <DataPoint Input="1" Output="2">
+            <DataPoint Input="1" Output="0">
             </DataPoint>
         </PiecewiseFunc>
     </AIDifficultySetting>
@@ -85,9 +85,9 @@
     </AIDifficultySetting>
     <AIDifficultySetting Name="DiffUsePullbackMicro" InputLabel="Difficulty" OutputLabel="Bool" Comment="Pullback micro is active (1.0) or inactive (0.0)">
         <PiecewiseFunc>
-            <DataPoint Input="0" Output="0">
+            <DataPoint Input="0" Output="1">
             </DataPoint>
-            <DataPoint Input="0.34" Output="0">
+            <DataPoint Input="0.34" Output="1">
             </DataPoint>
             <DataPoint Input="0.67" Output="1">
             </DataPoint>
@@ -199,7 +199,7 @@
             </DataPoint>
             <DataPoint Input="0.67" Output="1">
             </DataPoint>
-            <DataPoint Input="1" Output="0.75">
+            <DataPoint Input="1" Output="0.5">
             </DataPoint>
         </PiecewiseFunc>
     </AIDifficultySetting>
@@ -715,7 +715,7 @@
             </DataPoint>
             <DataPoint Input="0.67" Output="350">
             </DataPoint>
-            <DataPoint Input="1" Output="350">
+            <DataPoint Input="1" Output="50">
             </DataPoint>
         </PiecewiseFunc>
     </AIDifficultySetting>
@@ -727,7 +727,7 @@
             </DataPoint>
             <DataPoint Input="0.67" Output="100">
             </DataPoint>
-            <DataPoint Input="1" Output="100">
+            <DataPoint Input="1" Output="0">
             </DataPoint>
         </PiecewiseFunc>
     </AIDifficultySetting>
@@ -737,9 +737,9 @@
             </DataPoint>
             <DataPoint Input="0.34" Output="20">
             </DataPoint>
-            <DataPoint Input="0.67" Output="20">
+            <DataPoint Input="0.67" Output="10">
             </DataPoint>
-            <DataPoint Input="1" Output="20">
+            <DataPoint Input="1" Output="0">
             </DataPoint>
         </PiecewiseFunc>
     </AIDifficultySetting>
@@ -943,7 +943,7 @@
             </DataPoint>
             <DataPoint Input="0.67" Output="1" Comment="At diff 0.67, non-cheating (normal) supplies">
             </DataPoint>
-            <DataPoint Input="1" Output="1" Comment="On legendary, AI gets 133% normal supplies">
+            <DataPoint Input="1" Output="1.33" Comment="On legendary, AI gets 133% normal supplies">
             </DataPoint>
             <DataPoint Input="2" Output="1" Comment="On hyper-legendary, AI gets 233% normal supplies">
             </DataPoint>
@@ -955,7 +955,7 @@
             </DataPoint>
             <DataPoint Input="0.67" Output="1" Comment="Damage given always normal...feature disabled">
             </DataPoint>
-            <DataPoint Input="1" Output="1" Comment="33% Boost for Legendary">
+            <DataPoint Input="1" Output="1.33" Comment="33% Boost for Legendary">
             </DataPoint>
             <DataPoint Input="2" Output="1" Comment="133% Boost for Hyper-Legendary">
             </DataPoint>
@@ -969,7 +969,7 @@
             </DataPoint>
             <DataPoint Input="0.67" Output="1" Comment="At hard, normal damage">
             </DataPoint>
-            <DataPoint Input="1" Output="1" Comment="On legendary, AI takes 75%% normal damage">
+            <DataPoint Input="1" Output="0.75" Comment="On legendary, AI takes 75%% normal damage">
             </DataPoint>
             <DataPoint Input="2" Output="1" Comment="On legendary, AI takes 40% normal damage">
             </DataPoint>
@@ -983,7 +983,7 @@
             </DataPoint>
             <DataPoint Input="0.67" Output="2">
             </DataPoint>
-            <DataPoint Input="1" Output="2">
+            <DataPoint Input="1" Output="5">
             </DataPoint>
         </PiecewiseFunc>
     </AIDifficultySetting>
