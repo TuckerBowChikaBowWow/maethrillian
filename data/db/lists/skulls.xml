@@ -50,8 +50,19 @@
         <Effect tech="_SKULL_WuvWoo">ApplyTechToAllPlayers</Effect>
     </Skull>
     <Skull id="16" name="Sugar Cookies" objectdbid="3973" ui_name="SugarCookies" mission="700">
-        <Effect value="1">MinimapDisable</Effect>
-        <Effect tech="_SKULL_EVERYTHING">ApplyTechToAllPlayers</Effect>
+        <Campaign>
+            <Effect tech="_SKULL_SugarCookies">ApplyTechToHumanPlayers</Effect>
+        </Campaign>
+        <DLCCampaign>
+            <Effect tech="_SKULL_SugarCookies">ApplyTechToHumanPlayers</Effect>
+        </DLCCampaign>
+        <Campaign2>
+            <Effect tech="_SKULL_SugarCookies">ApplyTechToHumanPlayers</Effect>
+        </Campaign2>
+        <MP>
+            <Effect tech="_SKULL_SugarCookies_MP">ApplyTechToAllPlayers</Effect>
+        </MP>
+        <Effect value="0.5">Score</Effect>
     </Skull>
     <Skull id="1" name="After Party" objectdbid="Null" ui_name="AfterParty" mission="800">
         <Effect value="0.8">Score</Effect>
