@@ -534,6 +534,9 @@
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_heavygruntLeader_01</Target>
             </Effect>
+            <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+                <Target type="ProtoUnit">cov_inf_gruntgoblin01</Target>
+            </Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
                 <Target type="ProtoUnit">game_base_Socket_01</Target>
             </Effect>
