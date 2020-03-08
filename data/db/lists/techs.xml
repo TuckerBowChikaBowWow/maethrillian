@@ -10082,12 +10082,77 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="test_LeaderNukem" type="Normal">
+	<Tech name="test_LeaderUNSC_nuke_upgrades" type="Normal">
+		<DBID>2041</DBID>
+		<DisplayNameID>1072</DisplayNameID>
+		<RolloverTextID>1073</RolloverTextID>
+		<ResearchPoints>5</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchAnim>Upgrade</ResearchAnim>
+		<ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects>
+			<Effect type="ReparentProtoObject" FromType="unsc_bldg_fieldArmory_01" ToType="unsc_bldg_fieldArmory_01_mp_nuke" />
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cutter_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cutter_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cutter_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_forge_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_forge_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_forge_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_isabel_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_isabel_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_isabel_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_johnson_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_johnson_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_johnson_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_kinsano_nuke_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_kinsano_nuke_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_kinsano_nuke_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp_nuke</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="test_LeaderUNSC_Debug" type="Normal">
 		<DBID>1917</DBID>
 		<ResearchPoints>0</ResearchPoints>
 		<Status>UNOBTAINABLE</Status>
 		<Flag>Shadow</Flag>
 		<Effects>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">unsc_multiplayer_marines1</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">test_LeaderUNSC_nuke_upgrades</Target>
+			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscScatterbomb1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscScatterbomb1">UnscScatterbomb2</Effect>
 			<Effect type="UnlockableGodPower" tier="1">JohnsonEMPBlast1</Effect>
@@ -10110,9 +10175,6 @@
 			<Effect type="UnlockableGodPower" tier="4">InstantNukeTech</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscArkCleansing</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscImmolation</Effect>
-			<Effect type="Data" subtype="Enable">
-				<Target type="Tech">unsc_multiplayer_marines1</Target>
-			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_operative_01</Target>
 			</Effect>
@@ -10122,7 +10184,7 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_operative_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_02</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpjerome_01" relativity="Absolute">
@@ -10131,7 +10193,7 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpdoug_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpalice_01" relativity="Absolute">
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpalice_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_forgehog_01" relativity="Absolute">
@@ -10188,50 +10250,152 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forgehog_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cutter_nuke_buff_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+		</Effects>
+	</Tech>
+	<Tech name="test_LeaderCovy_Debug" type="Normal">
+		<DBID>2104</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cutter_nuke_buff_02" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			<Effect type="UnlockableGodPower" tier="1">CovRaidTech1</Effect>
+			<Effect type="UnlockableGodPower" tier="1" prereq="CovRaidTech1">CovRaidTech2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">CovTeleport1</Effect>
+			<Effect type="UnlockableGodPower" tier="2">CovScoutMine1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="CovScoutMine1">CovScoutMine2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">CovExtraction1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="CovExtraction1">CovExtraction2</Effect>
+			<Effect type="UnlockableGodPower" tier="3">CovCleansingBeamPath1_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
+			<Effect type="UnlockableGodPower" tier="3">CovAdvancedCloaking1</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="CovAdvancedCloaking1">CovAdvancedCloaking2</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovSpiritSupport1</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CovBansheePatrol</Effect>
+			<Effect type="UnlockableGodPower" tier="5">CovInvisibleArmy</Effect>
+			<Effect type="UnlockableGodPower" tier="5">CovSlipstreamRift</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_cutter_nuke_buff_03" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">cov_arbiter_gruntsquad</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_forge_nuke_buff_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">cov_shipmaster_gruntsquad</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_forge_nuke_buff_02" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_forge_nuke_buff_03" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_isabel_nuke_buff_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_isabel_nuke_buff_02" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_isabel_nuke_buff_03" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade4" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_johnson_nuke_buff_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade4" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_johnson_nuke_buff_02" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade4" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_johnson_nuke_buff_03" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteChopper_upgrade4" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_kinsano_nuke_buff_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_kinsano_nuke_buff_02" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="unsc_kinsano_nuke_buff_03" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01_mp</Target>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_grunt_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_gruntsquad_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_gruntsquad_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_gruntsquad_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_gruntsquad_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_gruntsquad_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_gruntsquad_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_02</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_gruntsquad_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_03</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_gruntsquad_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_builder_04</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">cov_veh_bruteChopper_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_atrioxchosen_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_eliteCommando_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_bruteHonour_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_bruteHonour_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_eliteCommando_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_atrioxchosen_upgrade3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>

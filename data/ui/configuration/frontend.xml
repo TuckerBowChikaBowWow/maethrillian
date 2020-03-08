@@ -240,10 +240,16 @@
 					<value>../textures/hud/icons/entityicons/cov_inf_specopselite_01_icon</value>
 				</entry>
 				<entry>
-					<key>TESTLEADER</key>
+					<key>TESTLEADER_UNSC</key>
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_CaptainCutter</value>
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_locked_CaptainCutter</value>
 					<value>../textures/frontend/LeaderSelect/img_leader_carousel_CaptainCutter_unselected</value>
+				</entry>
+				<entry>
+					<key>TESTLEADER_Covy</key>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Arbiter</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_locked_Arbiter</value>
+					<value>../textures/frontend/LeaderSelect/img_leader_carousel_Arbiter</value>
 				</entry>
 			</group>
 			<group name="startingArmy">
@@ -596,8 +602,12 @@
 					<value>../textures/hud/icons/entityicons/cov_inf_specopselite_01_locked_icon</value>
 				</entry>
 				<entry>
-					<key>TESTLEADER</key>
-					<value>../textures/frontend/Leaderboard/img_leaderboard_Voridus</value>
+					<key>TESTLEADER_UNSC</key>
+					<value>../textures/frontend/Leaderboard/img_leaderboard_Cutter</value>
+				</entry>
+				<entry>
+					<key>TESTLEADER_Covy</key>
+					<value>../textures/frontend/Leaderboard/img_leaderboard_Arbiter</value>
 				</entry>
 			</group>
 		</group>
@@ -843,14 +853,24 @@
 				<value>UIENT.LEADERSELECT.SHORTDESCR.GRAVEMIND.BLITZ</value>
 			</entry>
 			<entry>
-				<key>TESTLEADER</key>
-				<value>UIENT.LEADERSELECT.TITLE.TESTLEADER</value>
-				<value>UIENT.LEADERSELECT.SHORTDESCR.TESTLEADER</value>
+				<key>TESTLEADER_UNSC</key>
+				<value>UIENT.LEADERSELECT.TITLE.TESTLEADER_UNSC</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.TESTLEADER_UNSC</value>
 				<value>UIMP.FINDMATCH.NA</value>
-				<value>UIENT.LEADERSELECT.ROLE01.TESTLEADER</value>
+				<value>UIENT.LEADERSELECT.ROLE01.TESTLEADER_UNSC</value>
 				<value>UIMP.FINDMATCH.NA</value>
-				<value>UIENT.LEADERSELECT.ROLE02.TESTLEADER</value>
-				<value>UIENT.LEADERSELECT.SHORTDESCR.TESTLEADER.BLITZ</value>
+				<value>UIENT.LEADERSELECT.ROLE02.TESTLEADER_UNSC</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.TESTLEADER_UNSC.BLITZ</value>
+			</entry>
+			<entry>
+				<key>TESTLEADER_Covy</key>
+				<value>UIENT.LEADERSELECT.TITLE.TESTLEADER_Covy</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.TESTLEADER_Covy</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIENT.LEADERSELECT.ROLE01.TESTLEADER_Covy</value>
+				<value>UIMP.FINDMATCH.NA</value>
+				<value>UIENT.LEADERSELECT.ROLE02.TESTLEADER_Covy</value>
+				<value>UIENT.LEADERSELECT.SHORTDESCR.TESTLEADER_Covy.BLITZ</value>
 			</entry>
 		</group>
 	</group>
