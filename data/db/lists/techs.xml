@@ -15308,6 +15308,15 @@
             </Effect>
         </Effects>
     </Tech>
+    <Tech name="_SKULL_EVERYTHING" type="Normal">
+        <Status>OBTAINABLE</Status>
+        <Effects>
+            <Effect type="Data" subtype="WeaponPhysicsMultiplier" amount="3" relativity="Percent">
+                <Target type="Player" />
+            </Effect>
+        </Effects>
+        <Flag>HiddenFromStats</Flag>
+    </Tech>
     <Tech name="_SKULL_Pestilence" type="Normal">
         <Status>OBTAINABLE</Status>
         <Effects>
