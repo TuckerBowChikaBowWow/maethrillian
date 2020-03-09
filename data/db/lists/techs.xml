@@ -2947,6 +2947,15 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_conduit_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_conduit_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_conduit_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_gruntswarm_01</Target>
 			</Effect>
@@ -7814,6 +7823,66 @@
 			<Target type="Tech">unsc_singleplayer_marines1</Target>
 		</Effect>
 	</Tech>
+	<Tech name="cov_arbiter_conduit_buff_01" type="Normal">
+		<DisplayNameID>27088</DisplayNameID>
+		<RolloverTextID>27100</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<ResearchAnim>Research</ResearchAnim>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">300</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="ArbiterConduitofRage_Proc" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_arbiter_conduit_buff_02" type="Normal">
+		<DisplayNameID>27088</DisplayNameID>
+		<RolloverTextID>27100</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">cov_arbiter_conduit_buff_01</TechStatus>
+		</Prereqs>
+		<ResearchAnim>Research</ResearchAnim>
+		<Cost resourcetype="Supplies">500</Cost>
+		<Cost resourcetype="Power">500</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>80</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="2" subtype="PowerLevel" power="ArbiterConduitofRage_Proc" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_arbiter_conduit_buff_03" type="Normal">
+		<DisplayNameID>27088</DisplayNameID>
+		<RolloverTextID>27100</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">cov_arbiter_conduit_buff_02</TechStatus>
+		</Prereqs>
+		<ResearchAnim>Research</ResearchAnim>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="Power">700</Cost>
+		<Cost resourcetype="HQLevel">3</Cost>
+		<ResearchPoints>100</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="3" subtype="PowerLevel" power="ArbiterConduitofRage_Proc" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="covenant_LeaderArbiter" type="Normal">
 		<DBID>2104</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -8014,6 +8083,15 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_assaultteam_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_conduit_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_conduit_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_arbiter_conduit_buff_03" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
 		</Effects>
 	</Tech>
