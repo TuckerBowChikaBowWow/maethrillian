@@ -113,14 +113,6 @@
 	<Squad name="cov_air_blisterback_01_sp" parent_element="cov_air_blisterback_01_base" dbid="6365938055803573341">
 		<LeashDistance>25</LeashDistance>
 	</Squad>
-	<Squad name="cov_air_blisterback_01_yapyap" parent_element="cov_air_blisterback_01_base" dbid="592825096509403694">
-		<FrozenThreshold>300</FrozenThreshold>
-		<ChillDecayPerSecond>60</ChillDecayPerSecond>
-		<Pop Type="Unit">-1</Pop>
-		<Cost ResourceType="Supplies">650</Cost>
-		<Cost ResourceType="Power">10</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
-	</Squad>
 	<Squad name="cov_air_floodbanshee01" dbid="5328760048924157330" parent_element="cov_air_banshee_01_base">
 		<Units>
 			<Unit count="1" role="normal">cov_air_floodbanshee01</Unit>
@@ -231,51 +223,6 @@
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
 	</Squad>
-	<Squad name="cov_air_phantom_01_yapyap" dbid="7808763914923757825">
-		<CombatRank>5</CombatRank>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\air_hydra</PortraitIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>26135</DisplayNameID>
-		<RolloverTextID>26172</RolloverTextID>
-		<RoleTextID>522</RoleTextID>
-		<HealValue>1.29999995</HealValue>
-		<PrereqTextID>243</PrereqTextID>
-		<SubSelectSort>115</SubSelectSort>
-		<LeashDistance>10</LeashDistance>
-		<LeashDeadzone>12</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>3.07500005</AggroDistance>
-		<MinimapIcon size="8">Triangle</MinimapIcon>
-		<AIAttackRank>0</AIAttackRank>
-		<ActiveAbilityType>Garrison</ActiveAbilityType>
-		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">3</Pop>
-		<Cost ResourceType="Supplies">315</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
-		<HPBar offset="0,8,0">COV_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">cov_air_phantom_01</Unit>
-		</Units>
-		<Flag>DiesWhenFrozen</Flag>
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Selection>
-			<ConformToTerrain>false</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>None</StencilType>
-		</Selection>
-		<Birth>FlyIn</Birth>
-		<AvoidanceMass>Heavy</AvoidanceMass>
-		<Counters>Phantom_01</Counters>
-		<FrozenThreshold>300</FrozenThreshold>
-		<ChillDecayPerSecond>60</ChillDecayPerSecond>
-	</Squad>
 	<Squad name="cov_air_shroud_01" dbid="60482616274102848" parent_element="cov_air_shroud_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -327,11 +274,6 @@
 	</Squad>
 	<Squad name="cov_air_shroud_01_sp" parent_element="cov_air_shroud_01_base" dbid="17288770012400335300">
 		<LeashDistance>75</LeashDistance>
-	</Squad>
-	<Squad name="cov_air_shroud_01_yapyap" parent_element="cov_air_shroud_01_base" dbid="2084525297028912183">
-		<Cost ResourceType="Supplies">460</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
 	</Squad>
 	<Squad name="cov_air_spiritM06A_01" parent_element="cov_air_spirit_01" dbid="5146099656648656394" />
 	<Squad name="cov_air_spirit_01" dbid="5490829095680915314" parent_element="cov_air_spirit_01_sp">
@@ -729,59 +671,6 @@
 		<DamageOnShatter>7000</DamageOnShatter>
 		<ChillDecayPerSecond>80</ChillDecayPerSecond>
 	</Squad>
-	<Squad name="cov_inf_arbiter_01_yapyap" parent_element="cov_inf_arbiter_01" dbid="1045854256668528510">
-		<CombatRank>9</CombatRank>
-		<HealValue>1.29999995</HealValue>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3080</DisplayNameID>
-		<RolloverTextID>3081</RolloverTextID>
-		<RoleTextID>519</RoleTextID>
-		<PrereqTextID>241</PrereqTextID>
-		<SubSelectSort>66</SubSelectSort>
-		<LeashDistance>52.5</LeashDistance>
-		<LeashDeadzone>9</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<BobbleHead>UNSC_Spartan</BobbleHead>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<AIAttackRank>10</AIAttackRank>
-		<ActiveAbilityType>Rage</ActiveAbilityType>
-		<BuildPoints>45</BuildPoints>
-		<Pop Type="HonorGuard">1</Pop>
-		<Cost ResourceType="Supplies">575</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<HPBar offset="0,10,0">UNSC_HealthShield</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">cov_inf_arbiter_01</Unit>
-		</Units>
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>Chatter</Flag>
-		<Flag>Melee</Flag>
-		<CanAttackWhileMoving>false</CanAttackWhileMoving>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>Units</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<Flag>AlwaysRenderSelectionDecal</Flag>
-		<Flag>AvoidanceAgentAffectsBothTeams</Flag>
-		<Flag>HackInterrupAttackWhenChangeMode</Flag>
-		<Birth>Trained</Birth>
-		<AvoidanceMass>None</AvoidanceMass>
-		<Counters>Arbiter_01</Counters>
-		<FrozenThreshold>400</FrozenThreshold>
-		<ShatterThreshold>3000</ShatterThreshold>
-		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillDecayPerSecond>80</ChillDecayPerSecond>
-	</Squad>
 	<Squad name="cov_inf_arbiter_assaultteam_01" dbid="15571555391561239374">
 		<CombatRank>3</CombatRank>
 		<SubSelectSort>615</SubSelectSort>
@@ -795,42 +684,6 @@
 		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">110</Cost>
 		<Cost ResourceType="Power">60</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
-		<HPBar offset="0,4.92000008,0">UNSC_HealthShield</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="2" role="normal">cov_inf_arbiter_assaultteam_01</Unit>
-			<Unit count="1" role="leader">cov_inf_arbiter_assaultteamleader_01</Unit>
-		</Units>
-		<Flag>Repairable</Flag>
-		<Flag>Chatter</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>Units</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<AvoidanceMass>Light</AvoidanceMass>
-		<Counters>AssaultElites_01</Counters>
-	</Squad>
-	<Squad name="cov_inf_arbiter_assaultteam_01_yapyap" parent_element="cov_inf_arbiter_assaultteam_01" dbid="16207040223353021363">
-		<CombatRank>3</CombatRank>
-		<SubSelectSort>615</SubSelectSort>
-		<LeashDistance>20</LeashDistance>
-		<LeashDeadzone>9</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<AIAttackRank>1.20000005</AIAttackRank>
-		<ActiveAbilityType>StasisGrenade</ActiveAbilityType>
-		<BuildPoints>18</BuildPoints>
-		<Pop Type="Unit">4</Pop>
-		<Cost ResourceType="Supplies">180</Cost>
-		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,4.92000008,0">UNSC_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -973,16 +826,6 @@
 	<Squad name="cov_inf_atrioxchosen_01_sp" parent_element="cov_inf_atrioxchosen_01_base" dbid="14267739596009274637">
 		<LeashDistance>15</LeashDistance>
 	</Squad>
-	<Squad name="cov_inf_atrioxchosen_01_yapyap" parent_element="cov_inf_atrioxchosen_01_base" dbid="9559786427434005598">
-		<BuildPoints>45</BuildPoints>
-		<Cost ResourceType="Supplies">575</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<FrozenThreshold>400</FrozenThreshold>
-		<ShatterThreshold>3000</ShatterThreshold>
-		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillDecayPerSecond>80</ChillDecayPerSecond>
-	</Squad>
 	<Squad name="cov_inf_brutegrenadier_01" parent_element="cov_inf_brutegrenadier_01_sp" dbid="13394556157952987105">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -1027,13 +870,6 @@
 		<ChillDecayPerSecond>50</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="cov_inf_brutegrenadier_01_sp" parent_element="cov_inf_brutegrenadier_01_base" dbid="17503818547117350561" />
-	<Squad name="cov_inf_brutegrenadier_01_yapyap" parent_element="cov_inf_brutegrenadier_01_base" dbid="1391076191901008290">
-		<FrozenThreshold>250</FrozenThreshold>
-		<ChillDecayPerSecond>50</ChillDecayPerSecond>
-		<Cost ResourceType="Supplies">230</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-	</Squad>
 	<Squad name="cov_inf_bruteHonour_01" dbid="7151599126364520569" formationType="Line" parent_element="cov_inf_bruteHonour_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -1096,16 +932,6 @@
 	<Squad name="cov_inf_bruteHonour_01_sp" parent_element="cov_inf_bruteHonour_01_base" dbid="2549950187233219961">
 		<LeashDistance>73</LeashDistance>
 	</Squad>
-	<Squad name="cov_inf_bruteHonour_01_yapyap" parent_element="cov_inf_bruteHonour_01_base" dbid="3262431222233340666">
-		<BuildPoints>45</BuildPoints>
-		<Cost ResourceType="Supplies">575</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<FrozenThreshold>400</FrozenThreshold>
-		<ShatterThreshold>3000</ShatterThreshold>
-		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillDecayPerSecond>80</ChillDecayPerSecond>
-	</Squad>
 	<Squad name="cov_inf_bruteJumpPack_01" dbid="17762399882946316873" formationType="Flock" parent_element="cov_inf_bruteJumpPack_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -1157,19 +983,13 @@
 		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
 	</Squad>
 	<Squad name="cov_inf_bruteJumpPack_01_mp" parent_element="cov_inf_bruteJumpPack_01_base" dbid="1887980785101941783">
-		<BuildPoints>17</BuildPoints>
+		<BuildPoints>15</BuildPoints>
 		<Cost ResourceType="Supplies">90</Cost>
 		<Cost ResourceType="Power">50</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 	</Squad>
 	<Squad name="cov_inf_bruteJumpPack_01_sp" parent_element="cov_inf_bruteJumpPack_01_base" dbid="1889929119706753225">
 		<LeashDistance>73</LeashDistance>
-	</Squad>
-	<Squad name="cov_inf_bruteJumpPack_01_yapyap" parent_element="cov_inf_bruteJumpPack_01_base" dbid="6313132531255948298">
-		<BuildPoints>15</BuildPoints>
-		<Cost ResourceType="Supplies">120</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
 	</Squad>
 	<Squad name="cov_inf_bruteJumpPack_02" dbid="17762396584411432240" formationType="Flock" parent_element="cov_inf_bruteJumpPack_02_sp" />
 	<Squad name="cov_inf_bruteJumpPack_02_base" parent_element="cov_inf_bruteJumpPack_01" dbid="10298302148551947952">
@@ -1278,11 +1098,6 @@
 	<Squad name="cov_inf_corruptedengineer_01_sp" parent_element="cov_inf_corruptedengineer_01_base" dbid="1827900802552974797">
 		<LeashDistance>52</LeashDistance>
 	</Squad>
-	<Squad name="cov_inf_corruptedengineer_01_yapyap" parent_element="cov_inf_corruptedengineer_01_base" dbid="451519683860512030">
-		<Cost ResourceType="Supplies">260</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-	</Squad>
 	<Squad name="cov_inf_corruptedwarlord_01" dbid="16149519653373606257" formationType="Line" parent_element="cov_inf_corruptedwarlord_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -1341,16 +1156,6 @@
 	</Squad>
 	<Squad name="cov_inf_corruptedwarlord_01_sp" parent_element="cov_inf_corruptedwarlord_01_base" dbid="13146570298214245745">
 		<LeashDistance>73</LeashDistance>
-	</Squad>
-	<Squad name="cov_inf_corruptedwarlord_01_yapyap" parent_element="cov_inf_corruptedwarlord_01_base" dbid="17514091539955292658">
-		<BuildPoints>45</BuildPoints>
-		<FrozenThreshold>400</FrozenThreshold>
-		<ShatterThreshold>3000</ShatterThreshold>
-		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillDecayPerSecond>80</ChillDecayPerSecond>
-		<Cost ResourceType="Supplies">575</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
 	</Squad>
 	<Squad name="cov_inf_decimus_base" dbid="8526262054344364042" formationType="Line">
 		<HealValue>1.29999995</HealValue>
@@ -1463,16 +1268,6 @@
 	<Squad name="cov_inf_eliteCommando_01_sp" parent_element="cov_inf_eliteCommando_01_base" dbid="7467523159594432857">
 		<LeashDistance>73</LeashDistance>
 	</Squad>
-	<Squad name="cov_inf_eliteCommando_01_yapyap" parent_element="cov_inf_eliteCommando_01_base" dbid="17566553183609135578">
-		<BuildPoints>45</BuildPoints>
-		<Cost ResourceType="Supplies">575</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<FrozenThreshold>400</FrozenThreshold>
-		<ShatterThreshold>3000</ShatterThreshold>
-		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillDecayPerSecond>80</ChillDecayPerSecond>
-	</Squad>
 	<Squad name="cov_inf_engineer_01" dbid="2330547440322255353" formationType="Flock" parent_element="cov_inf_engineer_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -1529,12 +1324,6 @@
 	</Squad>
 	<Squad name="cov_inf_engineer_01_sp" parent_element="cov_inf_engineer_01_base" dbid="2619110616188919289">
 		<LeashDistance>52</LeashDistance>
-	</Squad>
-	<Squad name="cov_inf_engineer_01_yapyap" parent_element="cov_inf_engineer_01_base" dbid="11603944256376040314">
-		<HealValue>1.75</HealValue>
-		<Cost ResourceType="Supplies">260</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
 	</Squad>
 	<Squad name="cov_inf_generic_arbiterenforcer" formationType="Flock" parent_element="cov_inf_arbiter_assaultteam_01" dbid="3060319982525717059" />
 	<Squad name="cov_inf_generic_arbitergruntsquad" formationType="Flock" parent_element="cov_inf_arbiter_gruntsquad_01" dbid="6009979736907931263" />
@@ -1887,12 +1676,6 @@
 		<Cost ResourceType="HQLevel">1</Cost>
 	</Squad>
 	<Squad name="cov_inf_impervioushunter_01_sp" parent_element="cov_inf_impervioushunter_01_base" dbid="8671088879632152115" />
-	<Squad name="cov_inf_impervioushunter_01_yapyap" parent_element="cov_inf_impervioushunter_01_base" dbid="15422717573433262176">
-		<BuildPoints>45</BuildPoints>
-		<Cost ResourceType="Supplies">575</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-	</Squad>
 	<Squad name="cov_inf_jackal_01" dbid="13675945968804927280" parent_element="cov_inf_jackal_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -1942,9 +1725,6 @@
 			<Unit count="3" role="normal">cov_inf_jackal_01</Unit>
 		</Units>
 	</Squad>
-	<Squad name="cov_inf_jackal_01_fromlich_yapyap" dbid="9684196216138382702" formationType="Line" parent_element="cov_inf_jackal_01">
-		<BuildPoints>9</BuildPoints>
-	</Squad>
 	<Squad name="cov_inf_jackal_01_mp" parent_element="cov_inf_jackal_01_base" dbid="16210153980757319136">
 		<Cost ResourceType="Supplies">90</Cost>
 		<Cost ResourceType="Power">125</Cost>
@@ -1957,17 +1737,6 @@
 		</Units>
 	</Squad>
 	<Squad name="cov_inf_jackal_01_sp" parent_element="cov_inf_jackal_01_base" dbid="16208205646152507694" />
-	<Squad name="cov_inf_jackal_01_yapyap" parent_element="cov_inf_jackal_01_base" dbid="17874011772347557933">
-		<Cost ResourceType="Supplies">230</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
-		<FrozenThreshold>100</FrozenThreshold>
-		<ChillDecayPerSecond>20</ChillDecayPerSecond>
-		<BuildPoints>20</BuildPoints>
-		<Units>
-			<Unit count="3" role="normal">cov_inf_jackal_01</Unit>
-		</Units>
-	</Squad>
 	<Squad name="cov_inf_lekgoloengineer_01" parent_element="cov_inf_lekgoloengineer_01_sp" dbid="3710936731597854624" />
 	<Squad name="cov_inf_lekgoloengineer_01_base" dbid="12055298659282504832">
 		<CombatRank>0</CombatRank>
@@ -2067,13 +1836,6 @@
 		<Cost ResourceType="HQLevel">1</Cost>
 	</Squad>
 	<Squad name="cov_inf_lekgologoliath_01_sp" parent_element="cov_inf_lekgologoliath_01_base" dbid="4444592376933581121" />
-	<Squad name="cov_inf_lekgologoliath_01_yapyap" parent_element="cov_inf_lekgologoliath_01_base" dbid="8657169069444479810">
-		<BuildPoints>17</BuildPoints>
-		<Pop Type="Unit">-1</Pop>
-		<Cost ResourceType="Supplies">250</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-	</Squad>
 	<Squad name="cov_inf_mortarwarlord_01" dbid="5074880509138894708" parent_element="cov_inf_mortarwarlord_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -2131,16 +1893,6 @@
 		<ChillDecayPerSecond>80</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="cov_inf_mortarwarlord_01_sp" dbid="17270662925850294786" parent_element="cov_inf_mortarwarlord_01_base" />
-	<Squad name="cov_inf_mortarwarlord_01_yapyap" dbid="17036654483879400273" parent_element="cov_inf_mortarwarlord_01_base">
-		<BuildPoints>45</BuildPoints>
-		<FrozenThreshold>400</FrozenThreshold>
-		<ShatterThreshold>3000</ShatterThreshold>
-		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillDecayPerSecond>80</ChillDecayPerSecond>
-		<Cost ResourceType="Supplies">575</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-	</Squad>
 	<Squad name="cov_inf_mpdecimus_01" dbid="731106582352661977" formationType="Line" parent_element="cov_inf_decimus_base">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -2212,16 +1964,6 @@
 	</Squad>
 	<Squad name="cov_inf_suicideGrunt_01_sp" parent_element="cov_inf_suicideGrunt_01_base" dbid="7351452022440932030">
 		<LeashDistance>73</LeashDistance>
-	</Squad>
-	<Squad name="cov_inf_suicideGrunt_01_yapyap" parent_element="cov_inf_suicideGrunt_01_base" dbid="1379178494916779069">
-		<RammingDistanceScalar>10</RammingDistanceScalar>
-		<RammingSpeedScalar>1.35000002</RammingSpeedScalar>
-		<Cost ResourceType="Supplies">120</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">0</Cost>
-		<MaxConvertedtoDroneSlots>0</MaxConvertedtoDroneSlots>
-		<FrozenThreshold>100</FrozenThreshold>
-		<ChillDecayPerSecond>20</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="cov_inf_suicideGrunt_02" dbid="573177705912686425" formationType="Flock" parent_element="cov_inf_suicideGrunt_02_sp" />
 	<Squad name="cov_inf_suicideGrunt_02_base" parent_element="cov_inf_suicideGrunt_01" dbid="5492844085552370543">
@@ -2511,14 +2253,6 @@
 		<RammingDistanceScalar>10</RammingDistanceScalar>
 	</Squad>
 	<Squad name="cov_veh_bruteChopper_01_sp" parent_element="cov_veh_bruteChopper_01_base" dbid="16952678321375871335" />
-	<Squad name="cov_veh_bruteChopper_01_yapyap" parent_element="cov_veh_bruteChopper_01_base" dbid="9081867834147201732">
-		<Cost ResourceType="Supplies">260</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<BuildPoints>26</BuildPoints>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
-		<RammingDistanceScalar>10</RammingDistanceScalar>
-	</Squad>
 	<Squad name="cov_veh_corruptedscarab_01" parent_element="cov_veh_corruptedscarab_01_sp" dbid="5161212642006074868">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -2536,15 +2270,6 @@
 		<ChillDecayPerSecond>100</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="cov_veh_corruptedscarab_01_sp" parent_element="cov_veh_corruptedscarab_01_base" dbid="6647227294962684290" />
-	<Squad name="cov_veh_corruptedscarab_01_yapyap" parent_element="cov_veh_corruptedscarab_01_base" dbid="3363315211351958225">
-		<FrozenThreshold>500</FrozenThreshold>
-		<ShatterThreshold>5000</ShatterThreshold>
-		<DamageOnShatter>10000</DamageOnShatter>
-		<ChillDecayPerSecond>100</ChillDecayPerSecond>
-		<Cost ResourceType="Supplies">4000</Cost>
-		<Cost ResourceType="Power">4000</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
-	</Squad>
 	<Squad name="cov_veh_floodchopper01" dbid="17500470722608516904" parent_element="cov_veh_bruteChopper_01_base">
 		<Units>
 			<Unit count="1" role="normal">cov_veh_floodchopper01</Unit>
@@ -2619,14 +2344,6 @@
 		<RammingSpeedScalar>2</RammingSpeedScalar>
 	</Squad>
 	<Squad name="cov_veh_ghost_01_sp" parent_element="cov_veh_ghost_01_base" dbid="17274779005911776739" />
-	<Squad name="cov_veh_ghost_01_yapyap" parent_element="cov_veh_ghost_01_base" dbid="1217303453870723024">
-		<Cost ResourceType="Supplies">260</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
-		<BuildPoints>26</BuildPoints>
-		<RammingSpeedScalar>2</RammingSpeedScalar>
-	</Squad>
 	<Squad name="cov_veh_gorgon_01" dbid="17715392104709923058" formationType="Line" parent_element="cov_veh_gorgon_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -2686,14 +2403,6 @@
 		<Cost ResourceType="HQLevel">2</Cost>
 	</Squad>
 	<Squad name="cov_veh_gorgon_01_sp" parent_element="cov_veh_gorgon_01_base" dbid="8233260635317588724" />
-	<Squad name="cov_veh_gorgon_01_yapyap" parent_element="cov_veh_gorgon_01_base" dbid="12392386132224675559">
-		<FrozenThreshold>300</FrozenThreshold>
-		<ChillDecayPerSecond>60</ChillDecayPerSecond>
-		<BuildPoints>22</BuildPoints>
-		<Cost ResourceType="Supplies">4000</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
-	</Squad>
 	<Squad name="cov_veh_grunt_bruteChopper_01" dbid="1131046361057567986" parent_element="cov_veh_bruteChopper_01">
 		<Units>
 			<Unit count="1" role="normal">cov_veh_grunt_bruteChopper_01</Unit>
@@ -2810,12 +2519,6 @@
 		<Tactics>cov_veh_locust_01_mp.tactics</Tactics>
 	</Squad>
 	<Squad name="cov_veh_locust_01_sp" parent_element="cov_veh_locust_01_base" dbid="15158496091250718490" />
-	<Squad name="cov_veh_locust_01_yapyap" parent_element="cov_veh_locust_01_base" dbid="6253652389840233353">
-		<Cost ResourceType="Supplies">500</Cost>
-		<Cost ResourceType="Power">10</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
-		<Tactics>cov_veh_locust_01_mp.tactics</Tactics>
-	</Squad>
 	<Squad name="cov_veh_m01scarab_01" dbid="7693109984603721276" parent_element="cov_veh_scarab_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -2936,16 +2639,6 @@
 		<ChillDecayPerSecond>100</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="cov_veh_scarab_01_sp" parent_element="cov_veh_scarab_01_base" dbid="4169646452843276638" />
-	<Squad name="cov_veh_scarab_01_yapyap" parent_element="cov_veh_scarab_01_base" dbid="4576757784354309853">
-		<DazeResist>0.25</DazeResist>
-		<FrozenThreshold>500</FrozenThreshold>
-		<ShatterThreshold>5000</ShatterThreshold>
-		<DamageOnShatter>10000</DamageOnShatter>
-		<ChillDecayPerSecond>100</ChillDecayPerSecond>
-		<Cost ResourceType="Supplies">4000</Cost>
-		<Cost ResourceType="Power">4000</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
-	</Squad>
 	<Squad name="cov_veh_shortRangeLocust_01" parent_element="cov_veh_locust_01" dbid="13886352206387103037">
 		<Units override_type="absolute">
 			<Unit count="1" role="normal">cov_veh_shortRangeLocust_01</Unit>
@@ -3008,12 +2701,6 @@
 		<BuildPoints>18</BuildPoints>
 	</Squad>
 	<Squad name="cov_veh_skitterer_01_sp" parent_element="cov_veh_skitterer_01_base" dbid="17788622554545119505" />
-	<Squad name="cov_veh_skitterer_01_yapyap" parent_element="cov_veh_skitterer_01_base" dbid="9133652020447386002">
-		<Cost ResourceType="Supplies">170</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<BuildPoints>18</BuildPoints>
-	</Squad>
 	<Squad name="cov_veh_wraithapc_01" dbid="13805614027181748747">
 		<CombatRank>6</CombatRank>
 		<SubSelectSort>114</SubSelectSort>
@@ -3055,44 +2742,6 @@
 	<Squad name="cov_veh_wraithapc_01_fromlich" parent_element="cov_veh_wraithapc_01" dbid="12599756486647917688">
 		<BuildPoints>19</BuildPoints>
 		<Flag>UseNameForMenuIcon</Flag>
-	</Squad>
-	<Squad name="cov_veh_wraithapc_01_yapyap" dbid="18354272889121639732">
-		<CombatRank>6</CombatRank>
-		<SubSelectSort>114</SubSelectSort>
-		<LeashDistance>0</LeashDistance>
-		<LeashDeadzone>12</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<MinimapIcon size="8">Square</MinimapIcon>
-		<AIAttackRank>3.5</AIAttackRank>
-		<ActiveAbilityType>Garrison</ActiveAbilityType>
-		<BuildPoints>28</BuildPoints>
-		<Pop Type="Unit">5</Pop>
-		<Cost ResourceType="Supplies">480</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
-		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">cov_veh_wraithapc_01</Unit>
-		</Units>
-		<Flag>Chatter</Flag>
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>All</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<Birth>Trained</Birth>
-		<AvoidanceMass>Normal</AvoidanceMass>
-		<Counters>WraithAPC_01</Counters>
-		<FrozenThreshold>300</FrozenThreshold>
-		<ChillDecayPerSecond>60</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="cov_veh_wraith_01" dbid="12873738608301799939" parent_element="cov_veh_wraith_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
@@ -3154,15 +2803,6 @@
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="cov_veh_wraith_01_sp" parent_element="cov_veh_wraith_01_base" dbid="7628444388464523791" />
-	<Squad name="cov_veh_wraith_01_yapyap" parent_element="cov_veh_wraith_01_base" dbid="11284130025285330444">
-		<BuildPoints>31</BuildPoints>
-		<Cost ResourceType="Supplies">600</Cost>
-		<Cost ResourceType="Power">10</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
-		<HealValue>2</HealValue>
-		<FrozenThreshold>300</FrozenThreshold>
-		<ChillDecayPerSecond>60</ChillDecayPerSecond>
-	</Squad>
 	<Squad name="cov_veh_rm_bruteChopper_01" parent_element="cov_veh_bruteChopper_01" dbid="2682534899909177345">
 		<Units override_type="absolute">
 			<Unit count="1" role="normal">cov_veh_rm_bruteChopper_01</Unit>
@@ -6905,48 +6545,6 @@
 		<Counters>Aggressor_01</Counters>
 		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 	</Squad>
-	<Squad name="neutralfor_sentineltier2_01_yapyap" dbid="10330835906323042417">
-		<PortraitIcon>ui\npc\air\sentinel\sentinel</PortraitIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>23602</DisplayNameID>
-		<RolloverTextID>23603</RolloverTextID>
-		<RoleTextID>506</RoleTextID>
-		<SubSelectSort>650</SubSelectSort>
-		<LeashDistance>25</LeashDistance>
-		<LeashDeadzone>12</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>0</AggroDistance>
-		<MinimapIcon size="8">Triangle</MinimapIcon>
-		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">4</Pop>
-		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
-		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">neutralfor_sentineltier2_01</Unit>
-		</Units>
-		<Flag>DiesWhenFrozen</Flag>
-		<Flag>Repairable</Flag>
-		<Flag>AlwaysAttackReviveUnits</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>Forerunner</Flag>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<FrozenThreshold>100</FrozenThreshold>
-		<Selection>
-			<ConformToTerrain>false</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>None</StencilType>
-		</Selection>
-		<Birth>FlyIn</Birth>
-		<AvoidanceMass>Heavy</AvoidanceMass>
-		<Counters>Aggressor_01</Counters>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
-	</Squad>
 	<Squad name="neutralfor_sentineltier2_02" dbid="703196797692713965" formationType="Flock" parent_element="neutralfor_sentineltier2_01">
 		<Units>
 			<Unit count="1" role="normal">for_air_sentineltier2_base</Unit>
@@ -7417,15 +7015,6 @@
 	</Squad>
 	<Squad name="unsc_air_destroyer_01_sp" parent_element="unsc_air_destroyer_01_base" dbid="6385909394146687137" />
 	<Squad name="unsc_air_destroyer_01_tutorial" parent_element="unsc_air_destroyer_01_base" dbid="3786461896369043500" />
-	<Squad name="unsc_air_destroyer_01_yapyap" parent_element="unsc_air_destroyer_01_base" dbid="6640952601291553698">
-		<FrozenThreshold>500</FrozenThreshold>
-		<ShatterThreshold>5000</ShatterThreshold>
-		<DamageOnShatter>10000</DamageOnShatter>
-		<ChillDecayPerSecond>100</ChillDecayPerSecond>
-		<Cost ResourceType="Supplies">4000</Cost>
-		<Cost ResourceType="Power">4000</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
-	</Squad>
 	<Squad name="unsc_air_engdrone_01" dbid="2462225331106488824" parent_element="unsc_air_engdrone_01_sp" />
 	<Squad name="unsc_air_engdrone_01_base" dbid="1775672341881803288">
 		<MinimapScale>1</MinimapScale>
@@ -7797,48 +7386,6 @@
 		<AvoidanceMass>Normal</AvoidanceMass>
 		<Counters>Pegasus_01</Counters>
 	</Squad>
-	<Squad name="unsc_air_serina_pegasus_01_yapyap" dbid="2610218912506827184">
-		<CombatRank>2</CombatRank>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_vulture</PortraitIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>26232</DisplayNameID>
-		<RolloverTextID>26233</RolloverTextID>
-		<RoleTextID>522</RoleTextID>
-		<PrereqTextID>236</PrereqTextID>
-		<SubSelectSort>290</SubSelectSort>
-		<LeashDistance>15</LeashDistance>
-		<LeashDeadzone>16.5</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<CryoPoints>150</CryoPoints>
-		<MinimapIcon size="8">Triangle</MinimapIcon>
-		<AIAttackRank>2</AIAttackRank>
-		<ActiveAbilityType>ShatterMissile</ActiveAbilityType>
-		<BuildPoints>30</BuildPoints>
-		<Pop Type="Unit">4</Pop>
-		<Cost ResourceType="Supplies">350</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
-		<HPBar offset="0,4.30499983,0">UNSC_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">unsc_air_serina_pegasus_01</Unit>
-		</Units>
-		<Flag>DiesWhenFrozen</Flag>
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Selection>
-			<ConformToTerrain>false</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>None</StencilType>
-		</Selection>
-		<Birth>FlyIn</Birth>
-		<AvoidanceMass>Normal</AvoidanceMass>
-		<Counters>Pegasus_01</Counters>
-	</Squad>
 	<Squad name="unsc_air_spotterdrone_01" dbid="2412728330307499403" parent_element="unsc_air_spotterdrone_01_sp" />
 	<Squad name="unsc_air_spotterdrone_01_base" dbid="11158246957137917865">
 		<MinimapScale>1</MinimapScale>
@@ -7920,13 +7467,6 @@
 	</Squad>
 	<Squad name="unsc_air_vulture_01_sp" parent_element="unsc_air_vulture_01_base" dbid="14024728550882069381">
 		<DazeResist>0.25</DazeResist>
-	</Squad>
-	<Squad name="unsc_air_vulture_01_yapyap" parent_element="unsc_air_vulture_01_base" dbid="2426219968685705526">
-		<FrozenThreshold>300</FrozenThreshold>
-		<ChillDecayPerSecond>60</ChillDecayPerSecond>
-		<Cost ResourceType="Supplies">750</Cost>
-		<Cost ResourceType="Power">10</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
 	</Squad>
 	<Squad name="unsc_air_rm_destroyer_01" parent_element="unsc_air_destroyer_01" dbid="10680181918916189375">
 		<Units override_type="absolute">
@@ -8638,12 +8178,6 @@
 		<BuildPoints>20</BuildPoints>
 	</Squad>
 	<Squad name="unsc_inf_cyclops_01_sp" parent_element="unsc_inf_cyclops_01_base" dbid="4842002300556241126" />
-	<Squad name="unsc_inf_cyclops_01_yapyap" parent_element="unsc_inf_cyclops_01_base" dbid="6485525863567402789">
-		<BuildPoints>20</BuildPoints>
-		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
-	</Squad>
 	<Squad name="unsc_inf_flamecyclops_01" dbid="4590417787222477861">
 		<CombatRank>10</CombatRank>
 		<SubSelectSort>50</SubSelectSort>
@@ -8659,51 +8193,6 @@
 		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">275</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<HPBar offset="0,10,0">UNSC_HealthShield</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">unsc_inf_flamecyclops_01</Unit>
-		</Units>
-		<Flag>Repairable</Flag>
-		<Flag>CreateAudioReactions</Flag>
-		<Flag>Chatter</Flag>
-		<Flag>Obscurable</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Flag>AlwaysRenderSelectionDecal</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>Units</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<Birth>Trained</Birth>
-		<AvoidanceMass>Heavy</AvoidanceMass>
-		<Counters>Kinsano_01</Counters>
-		<FrozenThreshold>450</FrozenThreshold>
-		<ShatterThreshold>3000</ShatterThreshold>
-		<DamageOnShatter>6000</DamageOnShatter>
-		<ChillDecayPerSecond>90</ChillDecayPerSecond>
-	</Squad>
-	<Squad name="unsc_inf_flamecyclops_01_yapyap" dbid="943083606734864518">
-		<CombatRank>10</CombatRank>
-		<SubSelectSort>50</SubSelectSort>
-		<LeashDistance>20</LeashDistance>
-		<LeashDeadzone>10.5</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>9.22500038</AggroDistance>
-		<BobbleHead>UNSC_Spartan</BobbleHead>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<AIAttackRank>10</AIAttackRank>
-		<UnlockableActiveAbilityType>Flamewall</UnlockableActiveAbilityType>
-		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
-		<Cost ResourceType="Supplies">575</Cost>
-		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,10,0">UNSC_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -8786,15 +8275,6 @@
 	<Squad name="unsc_inf_flameMarine_01_sp" parent_element="unsc_inf_flameMarine_01_base" dbid="11366132454356974694">
 		<DazeResist>0.5</DazeResist>
 	</Squad>
-	<Squad name="unsc_inf_flameMarine_01_yapyap" parent_element="unsc_inf_flameMarine_01_base" dbid="6204925654512513701">
-		<Cost resourcetype="Supplies">80</Cost>
-		<Cost resourcetype="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<BuildPoints>14</BuildPoints>
-		<Units>
-			<Unit Count="4" role="normal">unsc_inf_flameMarine_01</Unit>
-		</Units>
-	</Squad>
 	<Squad name="unsc_inf_flameMarine_02" parent_element="unsc_inf_flameMarine_02_sp" dbid="5321188856006463425" />
 	<Squad name="unsc_inf_flameMarine_02_base" parent_element="unsc_inf_flameMarine_01" formationType="Flock" dbid="11269484153022237111">
 		<Units override_type="absolute">
@@ -8808,12 +8288,6 @@
 		<BuildPoints>14</BuildPoints>
 	</Squad>
 	<Squad name="unsc_inf_flameMarine_02_sp" parent_element="unsc_inf_flameMarine_02_base" dbid="11563677408483054145" />
-	<Squad name="unsc_inf_flameMarine_02_yapyap" parent_element="unsc_inf_flameMarine_02_base" dbid="9775691285258624066">
-		<Cost resourcetype="Supplies">80</Cost>
-		<Cost resourcetype="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<BuildPoints>14</BuildPoints>
-	</Squad>
 	<Squad name="unsc_inf_floodmarine01" dbid="2303681294535005690" formationType="Flock">
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
@@ -8904,18 +8378,7 @@
 		<Birth>Trained</Birth>
 		<Counters>ODST_01</Counters>
 	</Squad>
-	<Squad name="unsc_inf_heroodst_01_mp" formationType="Flock" parent_element="unsc_inf_heroodst_01" dbid="16332387055744031903">
-		<Units>
-			<Unit count="1" role="leader">unsc_inf_heroodstRocket_01_mp</Unit>
-			<Unit count="3" role="normal">unsc_inf_heroodst_01_mp</Unit>
-			<Unit count="1" role="normal">unsc_inf_heroodstsniper_01_mp</Unit>
-		</Units>
-		<Pop Type="Spartan">1</Pop>
-		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power">275</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<BuildPoints>45</BuildPoints>
-	</Squad>
+	<Squad name="unsc_inf_heroodst_01_mp" formationType="Flock" parent_element="unsc_inf_heroodst_01" dbid="16332387055744031903" />
 	<Squad name="unsc_inf_johnson_hero_01" dbid="15268622866869143349">
 		<HealValue>1.29999995</HealValue>
 		<CombatRank>10</CombatRank>
@@ -8933,53 +8396,6 @@
 		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">275</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<HPBar offset="0,6.5,0">UNSC_HealthShield</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<ActiveAbilityType>DisruptionField</ActiveAbilityType>
-		<Flag>Repairable</Flag>
-		<Flag>CreateAudioReactions</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>Obscurable</Flag>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Flag>AlwaysRenderSelectionDecal</Flag>
-		<Units>
-			<Unit count="1" role="normal">unsc_inf_johnson_hero_01</Unit>
-		</Units>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>Units</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<Birth>Trained</Birth>
-		<AvoidanceMass>Heavy</AvoidanceMass>
-		<Counters>Johnson_01</Counters>
-		<FrozenThreshold>400</FrozenThreshold>
-		<ShatterThreshold>3000</ShatterThreshold>
-		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillDecayPerSecond>80</ChillDecayPerSecond>
-	</Squad>
-	<Squad name="unsc_inf_johnson_hero_01_yapyap" dbid="8699966220010290262">
-		<HealValue>1.29999995</HealValue>
-		<CombatRank>10</CombatRank>
-		<MinimapScale>1</MinimapScale>
-		<SubSelectSort>60</SubSelectSort>
-		<LeashDistance>0</LeashDistance>
-		<LeashDeadzone>7.5</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<AggroDistance>9.22500038</AggroDistance>
-		<BobbleHead>UNSC_Spartan</BobbleHead>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<AIAttackRank>10</AIAttackRank>
-		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
-		<Cost ResourceType="Supplies">575</Cost>
-		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,6.5,0">UNSC_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -9096,36 +8512,6 @@
 		<DamageOnShatter>7000</DamageOnShatter>
 		<ChillDecayPerSecond>80</ChillDecayPerSecond>
 	</Squad>
-	<Squad name="unsc_inf_mp_spartan_01_yapyap" dbid="2759068909526287647" parent_element="unsc_inf_spartan_01">
-		<CombatRank>10</CombatRank>
-		<LeashDistance>21.5249996</LeashDistance>
-		<AIAttackRank>10</AIAttackRank>
-		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
-		<UnlockableActiveAbilityType>Hijack</UnlockableActiveAbilityType>
-		<AggroDistance>9.22500038</AggroDistance>
-		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
-		<Cost ResourceType="Supplies">575</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<HPBar offset="0,4.92000008,0">UNSC_HealthShield</HPBar>
-		<Birth>Trained</Birth>
-		<Counters>Spartan_01</Counters>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>Units</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<Flag>AlwaysRenderSelectionDecal</Flag>
-		<FrozenThreshold>400</FrozenThreshold>
-		<ShatterThreshold>3000</ShatterThreshold>
-		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillDecayPerSecond>80</ChillDecayPerSecond>
-	</Squad>
 	<Squad name="unsc_inf_odst_01" dbid="3894714041982495989" formationType="Flock" parent_element="unsc_inf_odst_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -9150,6 +8536,42 @@
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
 			<Unit count="4" role="normal">unsc_inf_odst_01</Unit>
+		</Units>
+		<OverrideUnitSoundNames />
+		<LeaderDiesLast />
+		<ActiveAbilityType>Mines</ActiveAbilityType>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>ODST_01</Counters>
+	</Squad>
+	<Squad name="Cerberus Trooper" dbid="326229415705137091">
+		<CombatRank>5</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3011</DisplayNameID>
+		<RolloverTextID>3010</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>500</RoleTextID>
+		<SubSelectSort>550</SubSelectSort>
+		<LeashDistance>30</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<Pop Type="Unit">4</Pop>
+		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="8" role="normal">unsc_inf_odst_01</Unit>
 		</Units>
 		<OverrideUnitSoundNames />
 		<LeaderDiesLast />
@@ -9231,51 +8653,6 @@
 		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">275</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<HPBar offset="0,7,0">UNSC_HealthShield</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">unsc_inf_omegateam_jerome_01</Unit>
-		</Units>
-		<Flag>Repairable</Flag>
-		<Flag>CreateAudioReactions</Flag>
-		<Flag>Chatter</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>AlwaysRenderSelectionDecal</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>Units</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<Birth>Trained</Birth>
-		<AvoidanceMass>Heavy</AvoidanceMass>
-		<Counters>OmegaTeam_Jerome_01</Counters>
-		<HealValue>1.29999995</HealValue>
-		<FrozenThreshold>400</FrozenThreshold>
-		<ShatterThreshold>3000</ShatterThreshold>
-		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillDecayPerSecond>80</ChillDecayPerSecond>
-	</Squad>
-	<Squad name="unsc_inf_omegateam_jerome_01_yapyap" dbid="17539231441423710485">
-		<CombatRank>10</CombatRank>
-		<SubSelectSort>70</SubSelectSort>
-		<LeashDistance>0</LeashDistance>
-		<LeashDeadzone>7.5</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<AggroDistance>9.22500038</AggroDistance>
-		<BobbleHead>UNSC_Spartan</BobbleHead>
-		<MinimapIcon size="8">Circle</MinimapIcon>
-		<AIAttackRank>10</AIAttackRank>
-		<UnlockableActiveAbilityType>SpawnBuddy</UnlockableActiveAbilityType>
-		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
-		<Cost ResourceType="Supplies">575</Cost>
-		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,7,0">UNSC_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -9498,15 +8875,6 @@
 		<Cost ResourceType="Power">135</Cost>
 	</Squad>
 	<Squad name="unsc_inf_sniper_01_sp" parent_element="unsc_inf_sniper_01_base" dbid="9578785163123814846" />
-	<Squad name="unsc_inf_sniper_01_yapyap" parent_element="unsc_inf_sniper_01_base" dbid="10896110045592455997">
-		<FrozenThreshold>100</FrozenThreshold>
-		<ChillDecayPerSecond>20</ChillDecayPerSecond>
-		<BuildPoints>20</BuildPoints>
-		<Pop Type="Unit">-1</Pop>
-		<Cost ResourceType="Supplies">175</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
-	</Squad>
 	<Squad name="unsc_inf_spartan_01" dbid="13960817158359654890">
 		<HealValue>1.29999995</HealValue>
 		<MinimapScale>1</MinimapScale>
@@ -9605,24 +8973,6 @@
 		<Flag>AlwaysRenderSelectionDecal</Flag>
 		<Units>
 			<Unit count="1" role="normal">unsc_inf_spartan_mpjerome_01</Unit>
-		</Units>
-	</Squad>
-	<Squad name="unsc_inf_spartan_mpjerome_01_yapyap" parent_element="unsc_inf_mp_spartan_01_yapyap" dbid="7374679663343794247">
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<MenuIconName>jerome_magnum</MenuIconName>
-		<SubSelectSort>10</SubSelectSort>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>Units</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<Flag>AlwaysRenderSelectionDecal</Flag>
-		<Units>
-			<Unit count="1" role="leader">unsc_inf_heroodstRocket_01</Unit>
-			<Unit count="3" role="normal">unsc_inf_heroodst_01</Unit>
-			<Unit count="1" role="normal">unsc_inf_heroodstsniper_01</Unit>
 		</Units>
 	</Squad>
 	<Squad name="unsc_inf_spartan_rocket_01" dbid="10260394680907035281" parent_element="unsc_inf_mp_spartan_01">
@@ -9857,49 +9207,6 @@
 		<AvoidanceMass>Normal</AvoidanceMass>
 		<Counters>BattleApc_01</Counters>
 	</Squad>
-	<Squad name="unsc_veh_battleapc_01_yapyap" dbid="16727295885402265040">
-		<CombatRank>6</CombatRank>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3016</DisplayNameID>
-		<RolloverTextID>3017</RolloverTextID>
-		<RoleTextID>518</RoleTextID>
-		<PrereqTextID>230</PrereqTextID>
-		<SubSelectSort>351</SubSelectSort>
-		<LeashDistance>5</LeashDistance>
-		<LeashDeadzone>12</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<MinimapIcon size="8">Square</MinimapIcon>
-		<AIAttackRank>3.5</AIAttackRank>
-		<ActiveAbilityType>Garrison</ActiveAbilityType>
-		<BuildPoints>25</BuildPoints>
-		<Pop Type="Unit">3</Pop>
-		<Cost ResourceType="Supplies">350</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
-		<HPBar offset="0,9,0">UNSC_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">unsc_veh_battleapc_01</Unit>
-		</Units>
-		<Flag>Chatter</Flag>
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>All</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<Birth>Trained</Birth>
-		<TurnRadius min="1.5" max="4" />
-		<AvoidanceMass>Normal</AvoidanceMass>
-		<Counters>BattleApc_01</Counters>
-	</Squad>
 	<Squad name="unsc_veh_flamehog_01" dbid="12134767209203897996">
 		<CombatRank>6</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
@@ -10008,57 +9315,6 @@
 		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 		<ChillDecayPerSecond>80</ChillDecayPerSecond>
 	</Squad>
-	<Squad name="unsc_veh_forgehog_01_yapyap" dbid="11343771073931402169">
-		<CombatRank>6</CombatRank>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3016</DisplayNameID>
-		<RolloverTextID>3017</RolloverTextID>
-		<RoleTextID>518</RoleTextID>
-		<PrereqTextID>230</PrereqTextID>
-		<SubSelectSort>40</SubSelectSort>
-		<LeashDistance>25</LeashDistance>
-		<LeashDeadzone>12</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<BobbleHead>UNSC_Spartan</BobbleHead>
-		<MinimapIcon size="8">Square</MinimapIcon>
-		<AIAttackRank>12</AIAttackRank>
-		<UnlockableActiveAbilityType>VehicleMissile</UnlockableActiveAbilityType>
-		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
-		<Cost ResourceType="Supplies">575</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<HPBar offset="0,6.1500001,0">UNSC_HealthShield</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">unsc_veh_forgehog_01</Unit>
-		</Units>
-		<Flag>Chatter</Flag>
-		<Flag>Repairable</Flag>
-		<Flag>CreateAudioReactions</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Flag>AlwaysRenderSelectionDecal</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>Units</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<Birth>Trained</Birth>
-		<TurnRadius min="1.5" max="4" />
-		<AvoidanceMass>Heavy</AvoidanceMass>
-		<Counters>Forgehog_01</Counters>
-		<FrozenThreshold>400</FrozenThreshold>
-		<ShatterThreshold>3000</ShatterThreshold>
-		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
-		<ChillDecayPerSecond>80</ChillDecayPerSecond>
-	</Squad>
 	<Squad name="unsc_veh_foxcannon_01" dbid="14763455258316856767" parent_element="unsc_veh_foxcannon_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -10111,12 +9367,6 @@
 		<Cost ResourceType="HQLevel">2</Cost>
 	</Squad>
 	<Squad name="unsc_veh_foxcannon_01_sp" parent_element="unsc_veh_foxcannon_01_base" dbid="14399249836480787483" />
-	<Squad name="unsc_veh_foxcannon_01_yapyap" parent_element="unsc_veh_foxcannon_01_base" dbid="17515498565524752584">
-		<BuildPoints>36</BuildPoints>
-		<Cost ResourceType="Supplies">525</Cost>
-		<Cost ResourceType="Power">10</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
-	</Squad>
 	<Squad name="unsc_veh_grizzlybase_01" dbid="5194054811613372813">
 		<CombatRank>7</CombatRank>
 		<HealValue>2</HealValue>
@@ -10155,7 +9405,7 @@
 		<Cost ResourceType="Supplies">850</Cost>
 		<Cost ResourceType="Power">140</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<BuildPoints>43</BuildPoints>
+		<BuildPoints>48</BuildPoints>
 		<HealValue>3.25</HealValue>
 		<Units>
 			<Unit count="1" role="normal">unsc_veh_grizzly_01</Unit>
@@ -10254,56 +9504,6 @@
 		<Counters>Colossus_01</Counters>
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
-	</Squad>
-	<Squad name="unsc_veh_johnson_colossus_01_base" dbid="7513027710664995034">
-		<CombatRank>7</CombatRank>
-		<HealValue>2.75</HealValue>
-		<SubSelectSort>450</SubSelectSort>
-		<LeashDistance>0</LeashDistance>
-		<LeashDeadzone>12.6000004</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<MinimapIcon size="8">Square</MinimapIcon>
-		<AIAttackRank>10</AIAttackRank>
-		<UnlockableActiveAbilityType>Stomp</UnlockableActiveAbilityType>
-		<HPBar offset="0,14,0">UNSC_Health</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Pop Type="Unit">9</Pop>
-		<Cost ResourceType="Supplies">750</Cost>
-		<Cost ResourceType="Power">120</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
-		<BuildPoints>42</BuildPoints>
-		<Units>
-			<Unit count="1" role="normal">unsc_veh_johnson_colossus_01</Unit>
-		</Units>
-		<Flag>Chatter</Flag>
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>All</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<Birth>IncomingAnim</Birth>
-		<TurnRadius min="0.5" max="8" />
-		<AvoidanceMass>Heavy</AvoidanceMass>
-		<Counters>Colossus_01</Counters>
-		<FrozenThreshold>300</FrozenThreshold>
-		<ChillDecayPerSecond>60</ChillDecayPerSecond>
-	</Squad>
-	<Squad name="unsc_veh_johnson_colossus_01_mp" parent_element="unsc_veh_johnson_colossus_01_base" dbid="14868374840075873018">
-		<Cost ResourceType="Supplies">1750</Cost>
-		<Cost ResourceType="Power">120</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
-	</Squad>
-	<Squad name="unsc_veh_johnson_colossus_01_yapyap" parent_element="unsc_veh_johnson_colossus_01_base" dbid="8123598622333410215">
-		<Cost ResourceType="Supplies">750</Cost>
-		<Cost ResourceType="Power">10</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
 	</Squad>
 	<Squad name="unsc_veh_johnson_mantis_01" parent_element="unsc_veh_johnson_mantis_01_sp" dbid="9249260601064486921">
 		<Flag>UseNameForSelectionDecal</Flag>
@@ -10410,15 +9610,6 @@
 		<ChillDecayPerSecond>20</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="unsc_veh_mongoose_01_sp" parent_element="unsc_veh_mongoose_01_base" dbid="1230622642309474740" />
-	<Squad name="unsc_veh_mongoose_01_yapyap" parent_element="unsc_veh_mongoose_01_base" dbid="7856421007514597799">
-		<Cost ResourceType="Supplies">220</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<Pop Type="Unit">1</Pop>
-		<BuildPoints>26</BuildPoints>
-		<FrozenThreshold>100</FrozenThreshold>
-		<ChillDecayPerSecond>20</ChillDecayPerSecond>
-	</Squad>
 	<Squad name="unsc_veh_scorpion_01" dbid="14282291571716084862" parent_element="unsc_veh_scorpion_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -10476,15 +9667,6 @@
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
 	</Squad>
 	<Squad name="unsc_veh_scorpion_01_sp" parent_element="unsc_veh_scorpion_01_base" dbid="16639652582680270064" />
-	<Squad name="unsc_veh_scorpion_01_yapyap" parent_element="unsc_veh_scorpion_01_base" dbid="6867771589455658659">
-		<BuildPoints>38</BuildPoints>
-		<Cost ResourceType="Supplies">700</Cost>
-		<Cost ResourceType="Power">10</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
-		<HealValue>2.20000005</HealValue>
-		<FrozenThreshold>300</FrozenThreshold>
-		<ChillDecayPerSecond>60</ChillDecayPerSecond>
-	</Squad>
 	<Squad name="unsc_veh_serina_hero_01" dbid="12189883730253677644">
 		<CombatRank>6</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
@@ -10504,55 +9686,6 @@
 		<Pop Type="Spartan">1</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">275</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
-		<HPBar offset="0,7.5,0">UNSC_HealthShield</HPBar>
-		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
-		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
-		<Units>
-			<Unit count="1" role="normal">unsc_veh_serina_hero_01</Unit>
-		</Units>
-		<Flag>Chatter</Flag>
-		<Flag>Repairable</Flag>
-		<Flag>KBAware</Flag>
-		<Flag>UseNameForSelectionDecal</Flag>
-		<Flag>UseNameForSelectionIcon</Flag>
-		<Flag>UseNameForMenuIcon</Flag>
-		<Flag>AlwaysRenderSelectionDecal</Flag>
-		<Selection>
-			<ConformToTerrain>true</ConformToTerrain>
-			<AlignToCamera>true</AlignToCamera>
-			<StencilType>Units</StencilType>
-			<WriteToMergeStencil>True</WriteToMergeStencil>
-		</Selection>
-		<Birth>Trained</Birth>
-		<TurnRadius min="1.5" max="4" />
-		<AvoidanceMass>Heavy</AvoidanceMass>
-		<Counters>Serina_01</Counters>
-		<FrozenThreshold>400</FrozenThreshold>
-		<ShatterThreshold>3000</ShatterThreshold>
-		<DamageOnShatter>7000</DamageOnShatter>
-		<ChillDecayPerSecond>80</ChillDecayPerSecond>
-		<HealValue>1.29999995</HealValue>
-	</Squad>
-	<Squad name="unsc_veh_serina_hero_01_yapyap" dbid="4698652734891365897">
-		<CombatRank>6</CombatRank>
-		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
-		<MinimapScale>1</MinimapScale>
-		<DisplayNameID>3016</DisplayNameID>
-		<RolloverTextID>3017</RolloverTextID>
-		<RoleTextID>518</RoleTextID>
-		<PrereqTextID>230</PrereqTextID>
-		<SubSelectSort>80</SubSelectSort>
-		<LeashDistance>0</LeashDistance>
-		<LeashDeadzone>12</LeashDeadzone>
-		<LeashRecallDelay>2500</LeashRecallDelay>
-		<MinimapIcon size="8">Square</MinimapIcon>
-		<AIAttackRank>10</AIAttackRank>
-		<UnlockableActiveAbilityType>CryoLockdown</UnlockableActiveAbilityType>
-		<BuildPoints>45</BuildPoints>
-		<Pop Type="Spartan">1</Pop>
-		<Cost ResourceType="Supplies">575</Cost>
-		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,7.5,0">UNSC_HealthShield</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -10722,13 +9855,6 @@
 		<Cost ResourceType="HQLevel">2</Cost>
 	</Squad>
 	<Squad name="unsc_veh_wolverine_01_sp" parent_element="unsc_veh_wolverine_01_base" dbid="12216031250297457256" />
-	<Squad name="unsc_veh_wolverine_01_yapyap" parent_element="unsc_veh_wolverine_01_base" dbid="12801941394620832411">
-		<ChillSlowModifier>0.600000024</ChillSlowModifier>
-		<BuildPoints>20</BuildPoints>
-		<Cost ResourceType="Supplies">350</Cost>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
-	</Squad>
 	<Squad name="unsc_veh_rm_battleapc_01" parent_element="unsc_veh_battleapc_01" dbid="9239998061677505903">
 		<Units override_type="absolute">
 			<Unit count="1" role="normal">unsc_veh_rm_battleapc_01</Unit>
