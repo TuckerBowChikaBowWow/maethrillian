@@ -1,6 +1,6 @@
 #!/bin/sh
 
-GAME_VERSION="1_11_2929_2"
+GAME_VERSION="1_11_2931_2"
 PKG_BASE_COMMIT="7cebdc80ca43aca55809475c58b19ce3215c1666"
 
 ROOT_DIR="$(dirname "$0")/.."
