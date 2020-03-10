@@ -236,16 +236,17 @@
 			<TechStatus status="Active">Basic</TechStatus>
 		</Prereqs>
 		<Effects>
-					<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">node_base</Target>
 			</Effect>
-					<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">Cerberus Trooper</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_mongoose_01" relativity="Absolute">
 				<Target type="ProtoUnit">node_base</Target>
 			</Effect>
-		
+		</Effects>
+	</Tech>
 	<Tech name="unsc_basic" type="Normal">
 		<DBID>1916</DBID>
 		<ResearchPoints>0</ResearchPoints>
