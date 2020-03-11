@@ -81,7 +81,9 @@
 		</LeaderPower>
 		<Mission>
 			<MissionType>Defend</MissionType>
-			<TargetType>_Gatherable</TargetType>
+			<TargetType>Unsc</TargetType>
+			<TargetType>Covenant</TargetType>
+			<Relation>Ally</Relation>
 			<TimeToWaitAtTarget>15</TimeToWaitAtTarget>
 			<SquadTypeToSend>cov_inf_atrioxchosen_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
@@ -135,6 +137,8 @@
 		<Mission>
 			<MissionType>Defend</MissionType>
 			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
+			<TargetType>Unsc</TargetType>
+			<TargetType>Covenant</TargetType>
 			<TimeToWaitAtTarget>15</TimeToWaitAtTarget>
 			<SquadTypeToSend>cov_inf_atrioxchosen_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
@@ -157,8 +161,6 @@
 		<Mission>
 			<MissionType>Attack</MissionType>
 			<TargetType>Unit</TargetType>
-			<FocusFireOnTarget>true</FocusFireOnTarget>
-			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<MissionID>1</MissionID>
 			<SquadTypeToSend>cov_inf_atrioxchosen_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
