@@ -227,25 +227,6 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="Cerberus" type="Normal">
-		<DBID>3000</DBID>
-		<ResearchPoints>0</ResearchPoints>
-		<Status>UNOBTAINABLE</Status>
-		<Flag>Shadow</Flag>
-		<Prereqs>
-			<TechStatus status="Active">Basic</TechStatus>
-		</Prereqs>
-		<Effects>
-					<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoUnit">node_base</Target>
-			</Effect>
-					<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">Cerberus Trooper</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_mongoose_01" relativity="Absolute">
-				<Target type="ProtoUnit">node_base</Target>
-			</Effect>
-		
 	<Tech name="unsc_basic" type="Normal">
 		<DBID>1916</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -374,6 +355,7 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
 			</Effect>
@@ -454,9 +436,6 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_mongoose_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_02</Target>
-			</Effect>
-				<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_mongoose_01" relativity="Absolute">
-				<Target type="ProtoUnit">Node_Base</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_mongoose_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_03</Target>
@@ -634,9 +613,6 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_battleapc_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_01_mp</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_battleapc_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_command_02_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_battleapc_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_command_02_mp</Target>
@@ -3879,6 +3855,23 @@
 			</Effect>
 			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-50" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="Cerberus" type="Normal">
+		<DBID>1917</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+		    <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">Node_Base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">Cerberus Trooper</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="Cerberus Trooper" relativity="Absolute">
+				<Target type="ProtoUnit">Node_Base</Target>
 			</Effect>
 		</Effects>
 	</Tech>
