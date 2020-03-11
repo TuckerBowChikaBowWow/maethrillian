@@ -332,6 +332,12 @@
 	<InfantryCorpseDecayTime>9999999999999</InfantryCorpseDecayTime>
 	<CorpseSinkingSpacing>3</CorpseSinkingSpacing>
 	<InfectionMap>
+		<InfectionMapEntry targetUnit="unsc_veh_jerome_mantis_01">
+			<Infected weight="1" infectedUnit="unsc_veh_jerome_mantis_01" infectedSquad="unsc_veh_jerome_mantis_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="cov_inf_gruntgoblin01">
+			<Infected weight="1" infectedUnit="cov_inf_gruntgoblin01" infectedSquad="cov_inf_gruntgoblin01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_inf_johnson_hero_01">
 			<Infected weight="1" infectedUnit="unsc_inf_johnson_hero_01" infectedSquad="unsc_inf_johnson_hero_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
@@ -372,7 +378,7 @@
 			<Infected weight="2" infectedUnit="flood_inf_infected_hellbr_01" infectedSquad="flood_inf_infected_hellbr_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_inf_cyclops_01">
-			<Infected weight="1" infectedUnit="flood_inf_infected_cyclops_01_base" infectedSquad="flood_inf_infected_cyclops_01_base" deathByInfectionAnim="Transform" />
+			<Infected weight="1" infectedUnit="unsc_inf_cyclops_01" infectedSquad="unsc_inf_cyclops_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_inf_serina_cryomarines_01">
 			<Infected weight="2" infectedUnit="flood_inf_infected_serina_cryomarines_01" infectedSquad="flood_inf_infected_serina_cryomarines_01" deathByInfectionAnim="Transform" />
@@ -408,7 +414,7 @@
 			<Infected weight="1" infectedUnit="flood_veh_infected_scorpion_01_base" infectedSquad="flood_veh_infected_scorpion_01_base" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_veh_grizzly_01">
-			<Infected weight="1" infectedUnit="flood_veh_infected_grizzlybase_01" infectedSquad="flood_veh_infected_grizzlybase_01" deathByInfectionAnim="DeathByInfection" />
+			<Infected weight="1" infectedUnit="unsc_veh_grizzly_01" infectedSquad="unsc_veh_grizzly_01" deathByInfectionAnim="DeathByInfection" />
 		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_veh_flamehog_01">
 			<Infected weight="1" infectedUnit="unsc_veh_flamehog_01" infectedSquad="unsc_veh_flamehog_01" deathByInfectionAnim="DeathByInfection" />
