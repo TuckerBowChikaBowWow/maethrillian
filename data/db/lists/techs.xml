@@ -9555,11 +9555,53 @@
             </Effect>
         </Effects>
     </Tech>
+    <Tech name="capturepoint_upgrade_toWraithAPC" type="Normal">
+        <DisplayNameID>26114</DisplayNameID>
+        <RolloverTextID>26115</RolloverTextID>
+        <PrereqTextID>367</PrereqTextID>
+        <Cost resourcetype="Supplies">0</Cost>
+        <ResearchPoints>30</ResearchPoints>
+        <ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Flag>UniqueProtoUnitInstance</Flag>
+        <Effects>
+            <Effect type="TransformUnit">hook_bldg_EnergyCapturePoint_01_squad</Effect>
+        </Effects>
+    </Tech>
+    <Tech name="capturepoint_upgrade_toHealing" type="Normal">
+        <DisplayNameID>26114</DisplayNameID>
+        <RolloverTextID>26115</RolloverTextID>
+        <PrereqTextID>367</PrereqTextID>
+        <Cost resourcetype="Supplies">0</Cost>
+        <ResearchPoints>30</ResearchPoints>
+        <ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Flag>UniqueProtoUnitInstance</Flag>
+        <Effects>
+            <Effect type="TransformUnit">hook_buff_healing_01</Effect>
+        </Effects>
+    </Tech>
+    <Tech name="capturepoint_upgrade_toWraithAPC" type="Normal">
+        <DisplayNameID>26114</DisplayNameID>
+        <RolloverTextID>26115</RolloverTextID>
+        <PrereqTextID>367</PrereqTextID>
+        <Cost resourcetype="Supplies">0</Cost>
+        <ResearchPoints>30</ResearchPoints>
+        <ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Flag>UniqueProtoUnitInstance</Flag>
+        <Effects>
+            <Effect type="TransformUnit">hook_bldg_EnergyCapturePoint_01_squad</Effect>
+        </Effects>
+    </Tech>
     <Tech name="capturepoint_upgrade_toSuppliesHardened" type="Normal">
         <DisplayNameID>26114</DisplayNameID>
         <RolloverTextID>26115</RolloverTextID>
         <PrereqTextID>367</PrereqTextID>
-        <Cost resourcetype="Supplies">100</Cost>
+        <Cost resourcetype="Supplies">0</Cost>
         <ResearchPoints>60</ResearchPoints>
         <ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
         <Status>OBTAINABLE</Status>
@@ -9573,7 +9615,7 @@
         <DisplayNameID>26116</DisplayNameID>
         <RolloverTextID>26117</RolloverTextID>
         <PrereqTextID>367</PrereqTextID>
-        <Cost resourcetype="Supplies">100</Cost>
+        <Cost resourcetype="Supplies">0</Cost>
         <ResearchPoints>60</ResearchPoints>
         <ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
         <Status>OBTAINABLE</Status>
@@ -9587,7 +9629,7 @@
         <DisplayNameID>26118</DisplayNameID>
         <RolloverTextID>26119</RolloverTextID>
         <PrereqTextID>367</PrereqTextID>
-        <Cost resourcetype="Supplies">100</Cost>
+        <Cost resourcetype="Supplies">0</Cost>
         <ResearchPoints>60</ResearchPoints>
         <ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
         <Status>OBTAINABLE</Status>
@@ -9601,7 +9643,7 @@
         <DisplayNameID>26120</DisplayNameID>
         <RolloverTextID>26121</RolloverTextID>
         <PrereqTextID>367</PrereqTextID>
-        <Cost resourcetype="Supplies">100</Cost>
+        <Cost resourcetype="Supplies">0</Cost>
         <ResearchPoints>20</ResearchPoints>
         <ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
         <Status>OBTAINABLE</Status>
@@ -9615,7 +9657,7 @@
         <DisplayNameID>26122</DisplayNameID>
         <RolloverTextID>26123</RolloverTextID>
         <PrereqTextID>367</PrereqTextID>
-        <Cost resourcetype="Supplies">100</Cost>
+        <Cost resourcetype="Supplies">0</Cost>
         <ResearchPoints>20</ResearchPoints>
         <ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
         <Status>OBTAINABLE</Status>
@@ -9629,7 +9671,7 @@
         <DisplayNameID>26124</DisplayNameID>
         <RolloverTextID>26125</RolloverTextID>
         <PrereqTextID>367</PrereqTextID>
-        <Cost resourcetype="Supplies">100</Cost>
+        <Cost resourcetype="Supplies">0</Cost>
         <ResearchPoints>20</ResearchPoints>
         <ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
         <Status>OBTAINABLE</Status>
@@ -9643,7 +9685,7 @@
         <DisplayNameID>26108</DisplayNameID>
         <RolloverTextID>26109</RolloverTextID>
         <PrereqTextID>367</PrereqTextID>
-        <Cost resourcetype="Supplies">100</Cost>
+        <Cost resourcetype="Supplies">0</Cost>
         <ResearchPoints>60</ResearchPoints>
         <ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
         <Status>OBTAINABLE</Status>
@@ -9657,7 +9699,7 @@
         <DisplayNameID>26110</DisplayNameID>
         <RolloverTextID>26111</RolloverTextID>
         <PrereqTextID>367</PrereqTextID>
-        <Cost resourcetype="Supplies">100</Cost>
+        <Cost resourcetype="Supplies">0</Cost>
         <ResearchPoints>60</ResearchPoints>
         <ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
         <Status>OBTAINABLE</Status>
