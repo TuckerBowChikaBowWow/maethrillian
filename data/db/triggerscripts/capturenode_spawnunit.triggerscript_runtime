@@ -120,7 +120,22 @@
 				</Effect>
 				<Effect ID="#01e07b3e-1a27-4398-8abe-f4419351febd" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
 			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse />
+			<TriggerEffectsOnFalse>
+						<Effect ID="#9c86e8a9-67f7-45c5-8cef-8071bb1de7ef" Type="CreateSquad" DBID="36" Version="7" CommentOut="false">
+							<Input Name="ProtoSquad" SigID="1" Optional="false">#8d2eefbf-2c21-4978-9feb-180c9975950b</Input>
+							<Input Name="CreateLocation" SigID="2" Optional="false">#6f6fe0fd-2dba-4daf-8010-568eaaf08dec</Input>
+							<Input Name="Facing" SigID="12" Optional="true">#3843ecbb-0781-4c8e-b7bf-7226203f2ccd</Input>
+							<Input Name="SquadOwner" SigID="3" Optional="false">#ff7e57a3-c8aa-4bd8-89b2-3b09d8eda94e</Input>
+							<Input Name="FlyInStart" SigID="8" Optional="true">#da1ca4f7-0ffd-46d9-b2c9-0cd5facdf777</Input>
+							<Input Name="FlyInEnd" SigID="9" Optional="true">#e7813a30-6731-4a41-bd77-a8e919944371</Input>
+							<Input Name="RallyPoint" SigID="10" Optional="true">#7fdc478c-b3f0-4879-b9e7-6df5a9b6afab</Input>
+							<Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">#a3744786-2915-4b77-b174-6a8f8e493d31</Input>
+							<Output Name="CreatedSquad" SigID="4" Optional="true">#1b386b46-9c4f-47ed-b66e-7b2626ea7c26</Output>
+							<Output Name="AddToSquadList" SigID="5" Optional="true">#fe798c1e-f7a3-45f8-80b2-8c43d3eecfc4</Output>
+							<Output Name="SquadListClearExisting" SigID="6" Optional="true">#31bb4536-413e-49d3-a464-57ce0b84730c</Output>
+						</Effect>
+						<Effect ID="#01e07b3e-1a27-4398-8abe-f4419351febd" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnFalse>
 		</Trigger>
 	</Triggers>
 </TriggerSystem>
