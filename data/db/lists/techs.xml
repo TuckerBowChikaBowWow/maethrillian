@@ -9559,21 +9559,21 @@
         <DisplayNameID>26114</DisplayNameID>
         <RolloverTextID>26115</RolloverTextID>
         <PrereqTextID>367</PrereqTextID>
-        <Cost resourcetype="Supplies">0</Cost>
+        <Cost resourcetype="Power">100</Cost>
         <ResearchPoints>30</ResearchPoints>
         <ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <Flag>UniqueProtoUnitInstance</Flag>
         <Effects>
-            <Effect type="TransformUnit">hook_bldg_EnergyCapturePoint_01_squad</Effect>
+            <Effect type="TransformUnit">cov_veh_wraithapc_01</Effect>
         </Effects>
     </Tech>
     <Tech name="capturepoint_upgrade_toHealing" type="Normal">
         <DisplayNameID>26114</DisplayNameID>
         <RolloverTextID>26115</RolloverTextID>
         <PrereqTextID>367</PrereqTextID>
-        <Cost resourcetype="Supplies">0</Cost>
+        <Cost resourcetype="Power">100</Cost>
         <ResearchPoints>30</ResearchPoints>
         <ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
         <Status>OBTAINABLE</Status>
