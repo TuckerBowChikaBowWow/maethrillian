@@ -73,8 +73,8 @@
 		<Resource Type="Power">400</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="gaia_bldg_lichspawner_spartan" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_omegateam_jerome_01</StartingSquad>
-        <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_flameMarine_01</StartingSquad>
-        <StartingSquad FlyIn="false" Offset="60,0,20">unsc_inf_flameMarine_01</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_odst_01</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,20">unsc_inf_odst_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
 		<RepairRate>1</RepairRate>
 		<RepairDelay>20</RepairDelay>
@@ -113,6 +113,33 @@
         <Pop Type="HonorGuard" Max="3">1</Pop>
         <Pop Type="Reactor" Max="20">0</Pop>
 	</Leader>
+    <Leader Name="Kinsano" Icon="ui\game\icon\unsc\leader\Captain Cutter" GUID="#DD63181D-371E-4FE5-8D25-77E88A27753F">
+        <Civ>UNSC</Civ>
+        <Tech>unsc_LeaderFire</Tech>
+        <NameID>7018</NameID>
+        <RichPresenceID>LEADER_KINSANO</RichPresenceID>
+        <DescriptionID>7019</DescriptionID>
+        <CmsId>8</CmsId>
+        <FlashImg>orbital</FlashImg>
+        <FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
+        <UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
+        <Resource Type="Supplies">600</Resource>
+        <Resource Type="Collectable">0</Resource>
+        <Resource Type="Power">400</Resource>
+        <StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+        <StartingSquad FlyIn="false" Offset="60,0,-20">unsc_inf_flamecyclops_01</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_flameMarine_01</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,20">unsc_inf_flameMarine_01</StartingSquad>
+        <RallyPointOffset>50,0,0</RallyPointOffset>
+        <RepairRate>1</RepairRate>
+        <RepairDelay>20</RepairDelay>
+        <RepairCost Type="Supplies">35</RepairCost>
+        <RepairTime>30</RepairTime>
+        <Pop Type="Unit" Max="500">30</Pop>
+        <Pop Type="Leader" Max="1">1</Pop>
+        <Pop Type="HonorGuard" Max="3">1</Pop>
+        <Pop Type="Reactor" Max="20">0</Pop>
+    </Leader>
 	<Leader Name="Atriox" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>UNSC</Civ>
 		<Tech>covLeaderAtriox</Tech>
