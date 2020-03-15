@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Rifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>300</DamagePerSecond>
+		<DamagePerSecond>140</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_needler_02</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GruntGoblinNeedlerImpact</ImpactEffect>
@@ -31,7 +31,7 @@
 	<Weapon>
 		<Name>MissileLauncher</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>600</DamagePerSecond>
+		<DamagePerSecond>200</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<Projectile>fx_proj_shardstorm</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GruntGoblinShardStormImpactImpact</ImpactEffect>
@@ -76,7 +76,7 @@
 	<Weapon>
 		<Name>Melee</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>500</DamagePerSecond>
+		<DamagePerSecond>160</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
 		<MaxRange>5</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
@@ -132,7 +132,7 @@
 			<Relations>
 				<Relation>Ally</Relation>
 			</Relations>
-			<Duration>5</Duration>
+			<Duration>1</Duration>
 		</SpecificData>
 		<ProtoObject />
 	</Action>
@@ -147,7 +147,7 @@
 			<Relations>
 				<Relation>Ally</Relation>
 			</Relations>
-			<Duration>5</Duration>
+			<Duration>1</Duration>
 		</SpecificData>
 		<ProtoObject />
 		<StartDisabled />
