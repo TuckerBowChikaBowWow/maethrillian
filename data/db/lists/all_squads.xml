@@ -6324,6 +6324,12 @@
 			<Unit count="1" role="normal">flood_air_airborneinfectoraom_01</Unit>
 		</Units>
 	</Squad>
+	<Squad name="flood_air_airborneinfectortimedaom_01" parent_element="flood_air_airborneinfector_01" dbid="15109720231782057791">
+		<BuildPoints>18</BuildPoints>
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">flood_air_airborneinfectortimedaom_01</Unit>
+		</Units>
+	</Squad>
 	<Squad name="flood_air_infected_banshee_01_base" parent_element="flood_air_infected_banshee_01_base_sp" dbid="11567213460730042908">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -6862,6 +6868,12 @@
 		<Counters>Marines_01</Counters>
 		<ObstructionTweaker>1</ObstructionTweaker>
 	</Squad>
+	<Squad name="flood_inf_infectfrmtimed_01" parent_element="flood_inf_infectfrm_01" dbid="15109720231782057791">
+		<BuildPoints>15</BuildPoints>
+		<Units override_type="absolute">
+			<Unit count="4" role="normal">flood_inf_infectfrmtimed_01</Unit>
+		</Units>
+	</Squad>
 	<Squad name="flood_inf_infectfrm_02" dbid="12411580469313219614" formationType="Flock">
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
@@ -7070,6 +7082,12 @@
 		<BuildPoints>15</BuildPoints>
 		<Units override_type="absolute">
 			<Unit count="1" role="normal">flood_inf_vehinfectoraom_01</Unit>
+		</Units>
+	</Squad>
+	<Squad name="flood_inf_vehinfectortimedaom_01" parent_element="flood_inf_vehinfector_01" dbid="15109720231782057791">
+		<BuildPoints>15</BuildPoints>
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">flood_inf_vehinfectortimedaom_01</Unit>
 		</Units>
 	</Squad>
 	<Squad name="flood_inf_infected_assaultrifle_01" dbid="16981444875662232232" parent_element="flood_inf_infected_assaultrifle_01_sp">
