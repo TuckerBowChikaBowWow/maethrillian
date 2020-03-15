@@ -230,13 +230,13 @@
 	<Action>
 		<Name>MedicHeal</Name>
 		<ActionType>Heal</ActionType>
-		<WorkRate>2.5</WorkRate>
-		<MinIdleDuration>5</MinIdleDuration>
+		<WorkRate>3</WorkRate>
+		<MinIdleDuration>2</MinIdleDuration>
 	</Action>
 	<Action>
 		<Name>SpawnDrone</Name>
 		<ActionType>SpawnSquad</ActionType>
-		<SquadType>creep_ressourcedrone_01</SquadType>
+		<SquadType>creep_ressourcedronenerfed_01</SquadType>
 		<WorkRate>0</WorkRate>
 		<Count>1</Count>
 		<DroneAttach />
