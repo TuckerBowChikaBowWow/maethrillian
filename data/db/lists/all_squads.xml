@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Squads>
+	<Squad name="creep_ressourcedrone_01" dbid="15156366382598061222">
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23944</DisplayNameID>
+		<RolloverTextID>23945</RolloverTextID>
+		<SubSelectSort>10007</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<BuildPoints>0</BuildPoints>
+		<Cost ResourceType="Supplies">1</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">creep_ressourcedrone_01</Unit>
+		</Units>
+		<Flag>InstantTrainWithRecharge</Flag>
+		<Flag>JoinAll</Flag>
+		<Flag>AlwaysAttackReviveUnits</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<AvoidanceMass>None</AvoidanceMass>
+	</Squad>
 	<Squad name="Flood" dbid="11545679860153930939" />
 	<Squad name="FlyingFlood" dbid="16256726101795934130" />
 	<Squad name="Forerunner" dbid="12943458503600554757" />

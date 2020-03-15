@@ -551,33 +551,15 @@
 		<MinIdleDuration>5</MinIdleDuration>
 	</Action>
 	<Action>
-		<Name>GatherPower</Name>
-		<ActionType>Gather</ActionType>
-		<Anim>Gather</Anim>
-		<Resource>Power</Resource>
-		<WorkRate>0.75</WorkRate>
-		<WorkRange>1.25</WorkRange>
-		<ShareResourcesWithTeam />
-		<RequireHavingGarrisonedSquads />
-	</Action>
-    <Action>
-        <Name>GatherSupplies</Name>
-        <ActionType>Gather</ActionType>
-        <Anim>Gather</Anim>
-        <Resource>Power</Resource>
-        <WorkRate>0.75</WorkRate>
-        <WorkRange>1.25</WorkRange>
-        <ShareResourcesWithTeam />
-        <RequireHavingGarrisonedSquads />
-    </Action>
-	<Action>
-		<Name>GatherSuppliesSquad</Name>
-		<ActionType>SquadActionGather</ActionType>
+		<Name>SpawnDrone</Name>
+		<ActionType>SpawnSquad</ActionType>
+		<SquadType>creep_ressourcedrone_01</SquadType>
+		<WorkRate>0</WorkRate>
+		<Count>1</Count>
+		<DroneAttach />
 	</Action>
 	<Tactic>
-		<PersistentAction>GatherPower</PersistentAction>
-        <PersistentAction>GatherSupplies</PersistentAction>
-		<PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
+	<PersistentAction>SpawnDrone</PersistentAction>
 		<PersistentAction>MedicHeal</PersistentAction>
 		<PersistentAction>ShieldAction</PersistentAction>
 		<TargetRule>
