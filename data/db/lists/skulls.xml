@@ -21,6 +21,9 @@
     <Skull id="13" name="Pestilence" objectdbid="3968" ui_name="Perstilence" mission="400">--&gt;<Effect power="SkullPestilence">PowerGrant</Effect>
         <Effect value="1.2">Score</Effect>
     </Skull>
+    <Skull id="11" name="Total Spam" objectdbid="3968" ui_name="TotalAnnihilation" mission="410">
+        <Effect value="0.8">Score</Effect>
+    </Skull>
     <Skull id="11" name="Total Annihilation" objectdbid="3968" ui_name="TotalAnnihilation" mission="410">--&gt;<Effect tech="_SKULL_TotalAnnihilation">ApplyTechToHumanPlayers</Effect>
         <Effect value="0.8">Score</Effect>
     </Skull>
@@ -41,6 +44,10 @@
     <Skull id="10" name="Firestarter" objectdbid="3968" ui_name="FireStarter" mission="500">
         <Effect power="SkullFirestarter">PowerGrant</Effect>
         <Effect value="0.8">Score</Effect>
+    </Skull>
+    <Skull id="12" name="Things that make you go boom" objectdbid="3968" ui_name="ThingsThatMakeYouGoBoom" mission="600">
+        <Effect power="SkullBoom">PowerGrant</Effect>
+        <Effect value="0.9">Score</Effect>
     </Skull>
     <Skull id="15" name="Wuv Woo" objectdbid="3966" ui_name="WuvWoo" mission="700">
         <Effect tech="_SKULL_WuvWoo">ApplyTechToAllPlayers</Effect>
