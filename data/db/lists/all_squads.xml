@@ -477,6 +477,41 @@
 		<Flag>KBAware</Flag>
 		<Flag>UseNameForAudio</Flag>
 	</Squad>
+	<Squad name="cov_bldg_shieldtower_01" dbid="4680447137525409079">
+		<CombatRank>5</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23632</DisplayNameID>
+		<RolloverTextID>23633</RolloverTextID>
+		<RoleTextID>516</RoleTextID>
+		<SubSelectSort>5075</SubSelectSort>
+		<LeashDistance>12.3000002</LeashDistance>
+		<LeashDeadzone>3.07500005</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>0</AggroDistance>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<BuildPoints>1</BuildPoints>
+		<Pop Type="Unit">0</Pop>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">0</Cost>
+		<HPBar offset="2,12,0">COV_Bldg_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<ActiveAbilityType>PlasmaShieldGen</ActiveAbilityType>
+		<Units>
+			<Unit count="1" role="normal">cov_bldg_shieldtower_01_mp</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+		</Selection>
+		<TurnRadius min="2" max="5" />
+	</Squad>
 	<Squad name="cov_bldg_grunt_shieldtower_01" dbid="4680447137525409079">
 		<CombatRank>5</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\bldg_turret_cannon</PortraitIcon>
