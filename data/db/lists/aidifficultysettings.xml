@@ -757,13 +757,13 @@
     </AIDifficultySetting>
     <AIDifficultySetting Name="DiffMaxMainBases" InputLabel="Difficulty" OutputLabel="Int" Comment="The maximum number of main bases the AI Agent can have">
         <PiecewiseFunc>
-            <DataPoint Input="0" Output="6" Comment="easy">
+            <DataPoint Input="0" Output="1" Comment="easy">
             </DataPoint>
-            <DataPoint Input="0.34" Output="6" Comment="normal">
+            <DataPoint Input="0.34" Output="1" Comment="normal">
             </DataPoint>
-            <DataPoint Input="0.67" Output="6" Comment="heroic">
+            <DataPoint Input="0.67" Output="2" Comment="heroic">
             </DataPoint>
-            <DataPoint Input="1" Output="10000" Comment="Legendary - unlimited">
+            <DataPoint Input="1" Output="3" Comment="Legendary - unlimited">
             </DataPoint>
         </PiecewiseFunc>
     </AIDifficultySetting>

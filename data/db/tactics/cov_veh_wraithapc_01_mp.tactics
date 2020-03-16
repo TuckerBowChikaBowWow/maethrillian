@@ -135,34 +135,7 @@
 		<Anim>TeleportIn</Anim>
 		<WorkRange>0</WorkRange>
 	</Action>
-	<Action>
-		<Name>GatherPower</Name>
-		<ActionType>Gather</ActionType>
-		<Anim>Gather</Anim>
-		<Resource>Power</Resource>
-		<WorkRate>0.75</WorkRate>
-		<WorkRange>1.25</WorkRange>
-		<ShareResourcesWithTeam />
-		<RequireHavingGarrisonedSquads />
-	</Action>
-    <Action>
-        <Name>GatherSupplies</Name>
-        <ActionType>Gather</ActionType>
-        <Anim>Gather</Anim>
-        <Resource>Supplies</Resource>
-        <WorkRate>0.75</WorkRate>
-        <WorkRange>1.25</WorkRange>
-        <ShareResourcesWithTeam />
-        <RequireHavingGarrisonedSquads />
-    </Action>
-	<Action>
-		<Name>GatherSuppliesSquad</Name>
-		<ActionType>SquadActionGather</ActionType>
-	</Action>
 	<Tactic>
-		<PersistentAction>GatherPower</PersistentAction>
-        <PersistentAction>GatherSupplies</PersistentAction>
-		<PersistentSquadAction>GatherSuppliesSquad</PersistentSquadAction>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>LeechBeamAttackAction</Action>
