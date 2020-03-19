@@ -341,33 +341,6 @@
 		<InfectionMapEntry targetUnit="unsc_inf_omegateam_robert_01">
 			<Infected weight="1" infectedUnit="unsc_inf_omegateam_robert_01" infectedSquad="unsc_inf_omegateam_robert_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="unsc_inf_flamecyclops_01">
-			<Infected weight="1" infectedUnit="unsc_inf_flamecyclops_01" infectedSquad="unsc_inf_flamecyclops_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="unsc_veh_jerome_mantis_01">
-			<Infected weight="1" infectedUnit="unsc_veh_jerome_mantis_01" infectedSquad="unsc_veh_jerome_mantis_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_inf_gruntgoblin01">
-			<Infected weight="1" infectedUnit="cov_inf_gruntgoblin01" infectedSquad="cov_inf_gruntgoblin01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="unsc_inf_johnson_hero_01">
-			<Infected weight="1" infectedUnit="unsc_inf_johnson_hero_01" infectedSquad="unsc_inf_johnson_hero_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="unsc_inf_omegateam_jerome_01">
-			<Infected weight="1" infectedUnit="unsc_inf_omegateam_jerome_01" infectedSquad="unsc_inf_omegateam_jerome_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="unsc_veh_serina_hero_01">
-			<Infected weight="2" infectedUnit="unsc_veh_serina_hero_01" infectedSquad="unsc_veh_serina_hero_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_inf_atrioxchosen_01">
-			<Infected weight="2" infectedUnit="cov_inf_atrioxchosen_01" infectedSquad="cov_inf_atrioxchosen_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_inf_impervioushunter_01">
-			<Infected weight="2" infectedUnit="cov_inf_impervioushunter_01" infectedSquad="cov_inf_impervioushunter_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
-		<InfectionMapEntry targetUnit="cov_inf_arbiter_01">
-			<Infected weight="2" infectedUnit="cov_inf_arbiter_01" infectedSquad="cov_inf_arbiter_01" deathByInfectionAnim="Transform" />
-		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="unsc_inf_generic_malemarine_01">
 			<Infected weight="1" infectedUnit="flood_inf_infected_assaultrifle_01" infectedSquad="flood_inf_infected_assaultrifle_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>
@@ -517,8 +490,8 @@
 	<CoopResourceSplitRate>0.600000024</CoopResourceSplitRate>
 	<GameOverDelay>5</GameOverDelay>
 	<HeroDownedLOS>5</HeroDownedLOS>
-	<HeroHPRegenTime>90</HeroHPRegenTime>
-	<HeroRevivalDistance>15</HeroRevivalDistance>
+	<HeroHPRegenTime>120</HeroHPRegenTime>
+	<HeroRevivalDistance>5</HeroRevivalDistance>
 	<HeroPercentHPRevivalThreshhold>0.5</HeroPercentHPRevivalThreshhold>
 	<MaxDeadHeroTransportDist>25</MaxDeadHeroTransportDist>
 	<TransportClearRadiusScale>3</TransportClearRadiusScale>
