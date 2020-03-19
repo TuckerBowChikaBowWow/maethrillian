@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>ShadeTurret</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>36</DamagePerSecond>
+		<DamagePerSecond>45</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">BanishedMissileExplosion</ImpactEffect>
@@ -18,11 +18,11 @@
 		<TargetPriority type="Flying">3</TargetPriority>
 		<TargetPriority type="Aircraft">3</TargetPriority>
 		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.20000005</PreAttackCooldownMax>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
 		<PostAttackCooldownMin>4</PostAttackCooldownMin>
-		<PostAttackCooldownMax>5.69999981</PostAttackCooldownMax>
-		<Slow TargetType="Unit" MovementModifier="0.5" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">2.2f</Slow>
+		<PostAttackCooldownMax>4</PostAttackCooldownMax>
+		<Slow TargetType="Unit" MovementModifier="0.5" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">2.0f</Slow>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
@@ -43,7 +43,7 @@
 	<Weapon>
 		<Name>Artillery</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>104</DamagePerSecond>
+		<DamagePerSecond>120</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_shadeplasma_01</Projectile>
 		<ImpactEffect size="Small">SmallPlasmaExplosion</ImpactEffect>
@@ -100,10 +100,10 @@
 		<TargetPriority type="Flying">3</TargetPriority>
 		<TargetPriority type="Aircraft">3</TargetPriority>
 		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.20000005</PreAttackCooldownMax>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
 		<PostAttackCooldownMin>4</PostAttackCooldownMin>
-		<PostAttackCooldownMax>5.69999981</PostAttackCooldownMax>
+		<PostAttackCooldownMax>4</PostAttackCooldownMax>
 		<Slow TargetType="Unit" MovementModifier="0.5" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">2.2f</Slow>
 		<AOEData>
 			<Hitbox>

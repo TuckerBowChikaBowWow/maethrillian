@@ -1955,10 +1955,16 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="GaussCannonAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="W2ArmorPierceAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_veh_warthog_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="MachinegunAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="GaussCannonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="W2ArmorPierceAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_warthogLCE_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="Warthog_02">
@@ -1977,6 +1983,9 @@
 				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="GaussCannonAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="W2ArmorPierceAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
 			</Effect>
 		</Effects>
