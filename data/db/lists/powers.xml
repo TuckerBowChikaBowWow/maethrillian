@@ -1903,6 +1903,53 @@
 			</DataLevel>
 		</Attributes>
 	</Power>
+	<Power name="Drop_Hunter_Upgrade">
+		<Attributes>
+			<PowerType>Gunship</PowerType>
+			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<Pop type="Unit">5</Pop>
+			<Cost Supplies="15" Power="190" />
+			<AutoRecharge>60000</AutoRecharge>
+			<UIRadius>4</UIRadius>
+			<Decal>Drop</Decal>
+			<ShowTransportArrows>true</ShowTransportArrows>
+			<ProcPowerName>Up_Hunter</ProcPowerName>
+			<ProcOnPowerGranted />
+			<DisplayNameID>5010</DisplayNameID>
+			<RolloverTextID>5011</RolloverTextID>
+			<PrereqTextID>5011</PrereqTextID>
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
+			<IconLocation>2</IconLocation>
+			<CameraZoomMin>150</CameraZoomMin>
+			<CameraZoomMax>150</CameraZoomMax>
+			<CameraPitchMin>55</CameraPitchMin>
+			<CameraPitchMax>55</CameraPitchMax>
+			<CameraEnableUserScroll>true</CameraEnableUserScroll>
+			<CameraEnableUserYaw>false</CameraEnableUserYaw>
+			<CameraEnableUserZoom>false</CameraEnableUserZoom>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+			</FlashUI>
+			<DataLevel level="0">
+				<Data type="sound" name="HudUpSound" />
+				<Data type="sound" name="HudAbortSound" />
+				<Data type="sound" name="HudFireSound" />
+				<Data type="sound" name="HudLastFireSound" />
+				<Data type="sound" name="HudStartEnvSound" />
+				<Data type="sound" name="HudStopEnvSound" />
+				<Data type="int" name="NumGunships">1</Data>
+				<Data type="float" name="WaitDuration">4</Data>
+				<Data type="protoobject" name="Gunship">cov_air_spirit_01</Data>
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_OFF_SpiritSupport</Data>
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>cov_inf_hunter_01</ProtoSquadID>
+					</Drop>
+				</Data>
+			</DataLevel>
+		</Attributes>
+	</Power>
 	<Power name="Drop_Skitter">
 		<Attributes>
 			<PowerType>Gunship</PowerType>
