@@ -54,9 +54,6 @@
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
-                <Target type="ProtoUnit">game_base_Socket_01</Target>
-            </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
             </Effect>
@@ -103,9 +100,6 @@
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
-                <Target type="ProtoUnit">game_base_Socket_01</Target>
-            </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
             </Effect>
@@ -149,9 +143,6 @@
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
-                <Target type="ProtoUnit">game_base_Socket_01</Target>
-            </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
             </Effect>
@@ -192,9 +183,6 @@
             <Effect type="UnlockableGodPower" tier="5">Jerome_Omegateam</Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
-                <Target type="ProtoUnit">game_base_Socket_01</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
@@ -244,12 +232,6 @@
             </Effect>
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
-                <Target type="ProtoUnit">game_base_Socket_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_builder_01" relativity="Absolute">
-                <Target type="ProtoUnit">game_base_Socket_01</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">cov_veh_ghost_01</Target>
@@ -378,12 +360,6 @@
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
-                <Target type="ProtoUnit">game_base_Socket_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_builder_01" relativity="Absolute">
-                <Target type="ProtoUnit">game_base_Socket_01</Target>
-            </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">cov_veh_ghost_01</Target>
             </Effect>
@@ -507,12 +483,6 @@
             </Effect>
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_bruteLeader_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
-                <Target type="ProtoUnit">game_base_Socket_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_builder_01" relativity="Absolute">
-                <Target type="ProtoUnit">game_base_Socket_01</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">cov_veh_ghost_01</Target>
@@ -638,12 +608,6 @@
             </Effect>
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_gruntgoblin01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="unsc_bldg_command_01" relativity="Absolute">
-                <Target type="ProtoUnit">game_base_Socket_01</Target>
-            </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_builder_01" relativity="Absolute">
-                <Target type="ProtoUnit">game_base_Socket_01</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">gamemode_reparent_protos_mp</Target>
