@@ -941,9 +941,9 @@
             </DataPoint>
             <DataPoint Input="0.34" Output="1" Comment="At diff 0.33, non-cheating (normal) supplies">
             </DataPoint>
-            <DataPoint Input="0.67" Output="1" Comment="At diff 0.67, non-cheating (normal) supplies">
+            <DataPoint Input="0.67" Output="1.33" Comment="At diff 0.67, non-cheating (normal) supplies">
             </DataPoint>
-            <DataPoint Input="1" Output="1.33" Comment="On legendary, AI gets 133% normal supplies">
+            <DataPoint Input="1" Output="1.66" Comment="On legendary, AI gets 133% normal supplies">
             </DataPoint>
             <DataPoint Input="2" Output="1" Comment="On hyper-legendary, AI gets 233% normal supplies">
             </DataPoint>
@@ -953,9 +953,9 @@
         <PiecewiseFunc>
             <DataPoint Input="0" Output="1" Comment="Damage given always normal...feature disabled">
             </DataPoint>
-            <DataPoint Input="0.67" Output="1" Comment="Damage given always normal...feature disabled">
+            <DataPoint Input="0.67" Output="1.33" Comment="Damage given always normal...feature disabled">
             </DataPoint>
-            <DataPoint Input="1" Output="1.33" Comment="33% Boost for Legendary">
+            <DataPoint Input="1" Output="1.66" Comment="33% Boost for Legendary">
             </DataPoint>
             <DataPoint Input="2" Output="1" Comment="133% Boost for Hyper-Legendary">
             </DataPoint>
@@ -967,9 +967,9 @@
             </DataPoint>
             <DataPoint Input="0.34" Output="1" Comment="At normal, normal damage">
             </DataPoint>
-            <DataPoint Input="0.67" Output="1" Comment="At hard, normal damage">
+            <DataPoint Input="0.67" Output="075" Comment="At hard, normal damage">
             </DataPoint>
-            <DataPoint Input="1" Output="0.75" Comment="On legendary, AI takes 75%% normal damage">
+            <DataPoint Input="1" Output="0.6" Comment="On legendary, AI takes 75%% normal damage">
             </DataPoint>
             <DataPoint Input="2" Output="1" Comment="On legendary, AI takes 40% normal damage">
             </DataPoint>
