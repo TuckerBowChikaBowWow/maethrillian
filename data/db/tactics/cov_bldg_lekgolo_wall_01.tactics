@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>AreaBuff</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>15</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="WormBuff" DamageMitigationScalar="0.9" DamageDealtModifier="1.1">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>Lekgolo</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Ally</Relation>
+			</Relations>
+		</SpecificData>
+		<ProtoObject>fx_MethaneAura1</ProtoObject>
+	</Action>
+	<Action>
+		<Name>AreaDebuff</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>15</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="WormDebuff" DamageMitigationScalar="1.1" SlowModifier="0.8">1.0f</BuffParams>
+			<TargetTypes>
+				<Type>Military</Type>
+			</TargetTypes>
+			<Relations>
+				<Relation>Enemy</Relation>
+			</Relations>
+		</SpecificData>
+	</Action>
+	<Tactic>
+		<PersistentAction>AreaBuff</PersistentAction>
+		<PersistentAction>AreaDebuff</PersistentAction>
+	</Tactic>
+</TacticData>
