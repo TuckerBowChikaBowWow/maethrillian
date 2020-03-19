@@ -289,6 +289,16 @@
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
 		</Mission>
 		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_veh_infected_grizzly_01_base</SquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_veh_infected_scorpion_01_base</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_veh_infected_wraith_01_base</AlternateSquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+		</Mission>
+		<Mission>
 			<MissionType>Reserves</MissionType>
 			<MissionID>4</MissionID>
 			<SquadTypeToSend>flood_inf_infected_humelee_01</SquadTypeToSend>
