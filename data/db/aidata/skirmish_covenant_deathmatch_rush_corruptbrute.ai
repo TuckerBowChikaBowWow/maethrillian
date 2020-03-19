@@ -94,7 +94,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Defend</MissionType>
-			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
+			<TargetType>_Building</TargetType>
 			<TimeToWaitAtTarget>15</TimeToWaitAtTarget>
 			<SquadTypeToSend>flood_inf_infected_humelee_01</SquadTypeToSend>
 			<AlternateSquadTypeToSend>flood_inf_infected_elitemelee_01</AlternateSquadTypeToSend>
@@ -173,6 +173,14 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_veh_infected_warthog_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
 			<SquadTypeToSend>flood_inf_infectfrm_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
@@ -200,7 +208,7 @@
 		</Mission>
 		<Mission>
 			<MissionType>Attack</MissionType>
-			<TargetType>_Hero</TargetType>
+			<TargetType>_Unit</TargetType>
 			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<TargetType>Unit</TargetType>
 			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
@@ -257,6 +265,15 @@
 		<Mission>
 			<MissionType>Forage</MissionType>
 			<SquadTypeToSend>flood_inf_spawner_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_veh_infected_wraith_01_base</SquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_veh_infected_scorpion_01_base</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
