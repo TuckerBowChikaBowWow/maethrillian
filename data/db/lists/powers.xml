@@ -12372,8 +12372,8 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">4</Pop>
-			<Cost Supplies="145" Power="180" />
-			<AutoRecharge>135000</AutoRecharge>
+			<Cost Supplies="170" Power="250" />
+			<AutoRecharge>150000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -12411,7 +12411,7 @@
 					<Drop>
 						<ProtoSquadID>unsc_inf_cyclops_01</ProtoSquadID>
 						<ProjectileOverride>unsc_air_odstPodcyclops_01</ProjectileOverride>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -13142,9 +13142,9 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>OrbBattleGroup</SoundName>
-			<Pop type="Unit">21</Pop>
-			<Cost Supplies="1750" Power="300" />
-			<AutoRecharge>330000</AutoRecharge>
+			<Pop type="Unit">24</Pop>
+			<Cost Supplies="1530" Power="310" />
+			<AutoRecharge>360000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -13187,32 +13187,34 @@
 				<Data type="bool" name="CanDropOnSquads">true</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
-						<ProtoObjectID>pow_gp_scatterbombDummy_01</ProtoObjectID>
-					</Drop>
-					<Drop>
 						<ProtoSquadID>unsc_veh_scorpion_01</ProtoSquadID>
 						<ProjectileOverride>unsc_air_vehiclepodhelldrop</ProjectileOverride>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>unsc_inf_flamemarine_01</ProtoSquadID>
+						<ProjectileOverride>unsc_air_odstPodhelldrop</ProjectileOverride>
 						<VeterancyLevel>2</VeterancyLevel>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>unsc_inf_flamemarine_01</ProtoSquadID>
 						<ProjectileOverride>unsc_air_odstPodhelldrop</ProjectileOverride>
-						<VeterancyLevel>3</VeterancyLevel>
+						<VeterancyLevel>2</VeterancyLevel>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>unsc_inf_flamemarine_01</ProtoSquadID>
 						<ProjectileOverride>unsc_air_odstPodhelldrop</ProjectileOverride>
-						<VeterancyLevel>3</VeterancyLevel>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>unsc_air_hornet_01</ProtoSquadID>
-						<ProjectileOverride>unsc_air_vehiclepodhelldrop</ProjectileOverride>
 						<VeterancyLevel>2</VeterancyLevel>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>unsc_air_hornet_01</ProtoSquadID>
 						<ProjectileOverride>unsc_air_vehiclepodhelldrop</ProjectileOverride>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>unsc_air_hornet_01</ProtoSquadID>
+						<ProjectileOverride>unsc_air_vehiclepodhelldrop</ProjectileOverride>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -13222,9 +13224,9 @@
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Cost Supplies="850" Power="0" />
+			<Cost Supplies="860" Power="100" />
 			<Pop type="Unit">12</Pop>
-			<AutoRecharge>150000</AutoRecharge>
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -14184,8 +14186,8 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">27</Pop>
-			<Cost Supplies="2550" Power="450" />
-			<AutoRecharge>330000</AutoRecharge>
+			<Cost Supplies="2475" Power="520" />
+			<AutoRecharge>360000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -16510,7 +16512,7 @@
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Cost Supplies="100" Power="60" />
+			<Cost Supplies="130" Power="140" />
 			<Pop type="Unit">3</Pop>
 			<AutoRecharge>110000</AutoRecharge>
 			<UIRadius>4</UIRadius>
@@ -16561,7 +16563,7 @@
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Cost Supplies="200" Power="120" />
+			<Cost Supplies="210" Power="180" />
 			<Pop type="Unit">6</Pop>
 			<AutoRecharge>110000</AutoRecharge>
 			<UIRadius>4</UIRadius>
@@ -16606,11 +16608,11 @@
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>unsc_inf_flamemarine_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>unsc_inf_flamemarine_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -25571,7 +25573,7 @@
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Cost Supplies="800" Power="0" />
+			<Cost Supplies="720" Power="100" />
 			<Pop type="Unit">12</Pop>
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
@@ -25806,8 +25808,8 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>OrbBattleGroup</SoundName>
-			<Pop type="Unit">27</Pop>
-			<Cost Supplies="1650" Power="625" />
+			<Pop type="Unit">23</Pop>
+			<Cost Supplies="1390" Power="520" />
 			<AutoRecharge>360000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
@@ -25850,19 +25852,15 @@
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>unsc_inf_odst_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>unsc_inf_odst_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>unsc_inf_cyclops_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>unsc_inf_cyclops_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>unsc_veh_scorpion_01</ProtoSquadID>
@@ -25872,7 +25870,7 @@
 					<Drop>
 						<ProtoSquadID>unsc_veh_wolverine_01</ProtoSquadID>
 						<ProjectileOverride>unsc_air_vehiclepod_01</ProjectileOverride>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -37894,9 +37892,9 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Pop type="Unit">12</Pop>
-			<Cost Supplies="1200" Power="0" />
-			<AutoRecharge>170000</AutoRecharge>
+			<Pop type="Unit">10</Pop>
+			<Cost Supplies="770" Power="150" />
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -37930,11 +37928,9 @@
 				<Data type="unitdrops" name="UnitDrops">
 					<Drop>
 						<ProtoSquadID>unsc_veh_foxcannon_01</ProtoSquadID>
-						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>unsc_veh_foxcannon_01</ProtoSquadID>
-						<VeterancyLevel>1</VeterancyLevel>
+						<ProtoSquadID>unsc_veh_warthog_01</ProtoSquadID>
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -37945,8 +37941,8 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">20</Pop>
-			<Cost Supplies="1700" Power="0" />
-			<AutoRecharge>170000</AutoRecharge>
+			<Cost Supplies="1540" Power="200" />
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -37988,11 +37984,11 @@
 					</Drop>
 					<Drop>
 						<ProtoSquadID>unsc_veh_foxcannon_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>unsc_veh_foxcannon_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>
