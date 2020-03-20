@@ -17237,14 +17237,14 @@
 			<Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-275" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_cloaktower_01</Target>
-			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="0.730000019" relativity="Percent">
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-50" relativity="Absolute">
 				<Target type="ProtoSquad">cov_air_shroud_01</Target>
 			</Effect>
-			<Effect type="Data" subtype="Cost" Resource="Power" amount="-40" relativity="Absolute">
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-20" relativity="Absolute">
 				<Target type="ProtoSquad">cov_air_shroud_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="CovInvisibleArmy" relativity="Absolute">
+				<Target type="Player" />
 			</Effect>
 		</Effects>
 	</Tech>
@@ -17261,6 +17261,15 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="AreaCloak_Advanced" relativity="Absolute">
 				<Target type="ProtoUnit">cov_air_shroud_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Supplies" amount="-50" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_shroud_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Cost" Resource="Power" amount="-20" relativity="Absolute">
+				<Target type="ProtoSquad">cov_air_shroud_01</Target>
+			</Effect>
+			<Effect type="Data" amount="2" subtype="PowerLevel" power="CovInvisibleArmy" relativity="Absolute">
+				<Target type="Player" />
 			</Effect>
 		</Effects>
 	</Tech>
