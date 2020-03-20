@@ -230,8 +230,8 @@
 	<Action>
 		<Name>MedicHeal</Name>
 		<ActionType>Heal</ActionType>
-		<WorkRate>3</WorkRate>
-		<MinIdleDuration>2</MinIdleDuration>
+		<WorkRate>1.5</WorkRate>
+		<MinIdleDuration>1</MinIdleDuration>
 	</Action>
 	<Action>
 		<Name>SpawnDrone</Name>
@@ -243,6 +243,7 @@
 	</Action>
 	<Tactic>
 		<PersistentAction>SpawnDrone</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Action>CovCommandAreaBuff</Action>

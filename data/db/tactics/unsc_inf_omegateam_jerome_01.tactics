@@ -275,7 +275,7 @@
 	<Action>
 		<Name>MedicHeal</Name>
 		<ActionType>Heal</ActionType>
-		<WorkRate>2.5</WorkRate>
+		<WorkRate>3</WorkRate>
 		<MinIdleDuration>1</MinIdleDuration>
 	</Action>
 	<Action>
@@ -288,6 +288,7 @@
 	</Action>
 	<Tactic>
 		<PersistentAction>SpawnDrone</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
 		<PersistentAction>ShieldAction</PersistentAction>
 		<PersistentAction>InspireAura</PersistentAction>
 		<PersistentAction>InspireAuraUpgrade</PersistentAction>

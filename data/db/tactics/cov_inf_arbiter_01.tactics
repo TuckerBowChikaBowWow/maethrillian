@@ -387,8 +387,8 @@
 	<Action>
 		<Name>MedicHeal</Name>
 		<ActionType>Heal</ActionType>
-		<WorkRate>2.5</WorkRate>
-		<MinIdleDuration>5</MinIdleDuration>
+		<WorkRate>3</WorkRate>
+		<MinIdleDuration>1</MinIdleDuration>
 	</Action>
 	<Action>
 		<Name>SpawnDrone</Name>
@@ -400,6 +400,7 @@
 	</Action>
 	<Tactic>
 		<PersistentAction>SpawnDrone</PersistentAction>
+		<PersistentAction>MedicHeal</PersistentAction>
 		<PersistentAction>ShieldAction</PersistentAction>
 		<PersistentAction>RageBuff</PersistentAction>
 		<PersistentSquadAction>FiendishReturn</PersistentSquadAction>
