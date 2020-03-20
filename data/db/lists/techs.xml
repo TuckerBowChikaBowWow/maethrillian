@@ -1,21 +1,4 @@
 <TechTree version="8">
-    <Tech name="unsc_instant_upgrade" type="Normal">
-        <DBID>2041</DBID>
-        <DisplayNameID>1072</DisplayNameID>
-        <RolloverTextID>1073</RolloverTextID>
-        <ResearchPoints>5</ResearchPoints>
-        <Status>OBTAINABLE</Status>
-        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-        <ResearchAnim>Upgrade</ResearchAnim>
-        <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
-        <Flag>UniqueProtoUnitInstance</Flag>
-        <Effects>
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_04" ToType="cov_bldg_builder_01_gamender" />
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_03" ToType="cov_bldg_builder_01_gamender" />
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_02" ToType="cov_bldg_builder_01_gamender" />
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_01" ToType="cov_bldg_builder_01_gamender" />
-        </Effects>
-    </Tech>
     <Tech name="cov_instant_upgrade" type="Normal">
         <DBID>2041</DBID>
         <DisplayNameID>1072</DisplayNameID>
@@ -51,9 +34,6 @@
             <Effect type="UnlockableGodPower" tier="4">Up_FlameHog</Effect>
             <Effect type="UnlockableGodPower" tier="5">UnscBloodlust1</Effect>
             <Effect type="UnlockableGodPower" tier="5">UnscUnstableCon2</Effect>
-            <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_instant_upgrade</Target>
-            </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
             </Effect>
@@ -97,9 +77,6 @@
             <Effect type="UnlockableGodPower" tier="4" prereq="Up_Mantis1">Up_Mantis2</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Cyclops</Effect>
             <Effect type="UnlockableGodPower" tier="5">DropFoxcannon</Effect>
-            <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_instant_upgrade</Target>
-            </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
             </Effect>
@@ -140,9 +117,6 @@
             <Effect type="UnlockableGodPower" tier="4" prereq="Up_CryoMarines">Up_Rabbi1</Effect>
             <Effect type="UnlockableGodPower" tier="5">DropScorpion</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Scorpion</Effect>
-            <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_instant_upgrade</Target>
-            </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
             </Effect>
@@ -181,9 +155,6 @@
             <Effect type="UnlockableGodPower" tier="4">Up_Hog</Effect>
             <Effect type="UnlockableGodPower" tier="5">Jerome_LowPopInspire1</Effect>
             <Effect type="UnlockableGodPower" tier="5">Jerome_Omegateam</Effect>
-            <Effect type="Data" subtype="Enable">
-                <Target type="Tech">unsc_instant_upgrade</Target>
-            </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
             </Effect>

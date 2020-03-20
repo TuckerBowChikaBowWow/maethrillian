@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="us-ascii"?>
-<TriggerSystem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="cryoleaderspawning.triggerscript" Type="TriggerScript" Tags="" External="false">
+<TriggerSystem xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="flood_egg_airinfector.triggerscript" Type="TriggerScript" Tags="" External="false">
 	<TriggerVars>
 		<TriggerVar ID="#6defd603-12fb-4a4b-88cb-271802756c1a" Type="Player" Name="ExternPlayerVar1" IsNull="true" />
 		<TriggerVar ID="#8d1cab24-bf88-422e-8ed8-f88cd5cce6b0" Type="Power" Name="ExternPowerVar1" IsNull="true" />
@@ -23,13 +23,13 @@
 		<TriggerVar ID="#1b386b46-9c4f-47ed-b66e-7b2626ea7c26" Type="Squad" Name="CreatedSquadVar1" IsNull="true" />
 		<TriggerVar ID="#fe798c1e-f7a3-45f8-80b2-8c43d3eecfc4" Type="SquadList" Name="AddToSquadListVar1" IsNull="true" />
 		<TriggerVar ID="#31bb4536-413e-49d3-a464-57ce0b84730c" Type="Bool" Name="SquadListClearExistingVar1" IsNull="true">False</TriggerVar>
-		<TriggerVar ID="#04a3861f-f9b3-418b-9c7b-c1e61af38f63" Type="ProtoSquad" Name="" IsNull="false">unsc_inf_serina_cryoleaderspawned_01</TriggerVar>
-		<TriggerVar ID="#369311e2-f805-4f99-889b-4918768884e7" Type="Trigger" Name="TriggerVar2" IsNull="false">#aa516117-8b00-4d5c-b057-41ebaf4bf763</TriggerVar>
+		<TriggerVar ID="#f8985bdc-f0ec-43ac-af8f-c70d4c51d36a" Type="ProtoSquad" Name="" IsNull="false">unsc_inf_serina_cryoleaderspawned_01</TriggerVar>
+		<TriggerVar ID="#0dfd2c06-d26a-410e-81dd-74ea8c78b7b1" Type="Trigger" Name="TriggerVar4" IsNull="false">#aa516117-8b00-4d5c-b057-41ebaf4bf763</TriggerVar>
 		<TriggerVar ID="#d8a93ec0-8438-4c77-8fa4-b8d2c551b14b" Type="Unit" Name="MyUnitVar1" IsNull="false" />
 		<TriggerVar ID="#6f6fe0fd-2dba-4daf-8010-568eaaf08dec" Type="Vector" Name="SpawnPosVar1" IsNull="false" />
 		<TriggerVar ID="#ff7e57a3-c8aa-4bd8-89b2-3b09d8eda94e" Type="Player" Name="OwnerVar1" IsNull="false" />
 		<TriggerVar ID="#8d2eefbf-2c21-4978-9feb-180c9975950b" Type="ProtoSquad" Name="ProtoSquadToSpawnVar1" IsNull="false" />
-		<TriggerVar ID="#c2fd8680-6f3d-43ea-b54e-d2d51fc134bc" Type="Trigger" Name="TriggerVar3" IsNull="false">#d9ebf445-2823-492a-ac0e-972cc14c96ae</TriggerVar>
+		<TriggerVar ID="#754e259b-914c-4251-8022-ddcc76510114" Type="Trigger" Name="TriggerVar5" IsNull="false">#30b23d20-1a99-4c34-b2fb-fc4133f148e4</TriggerVar>
 	</TriggerVars>
 	<Triggers>
 		<Trigger X="904" Y="384" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#db9d4692-e162-4afe-9485-84fc90cbc990" Name="WaitUntilDead0" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
@@ -51,8 +51,8 @@
 					<Input Name="Object" SigID="4" Optional="true">#a16ad879-dfe8-4ce2-b4e7-2e8324b4e77f</Input>
 					<Output Name="OutputLocation" SigID="3" Optional="false">#6f6fe0fd-2dba-4daf-8010-568eaaf08dec</Output>
 				</Effect>
-				<Effect ID="#2cc072d7-339d-4774-a52b-3e5db765ddf2" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">#c2fd8680-6f3d-43ea-b54e-d2d51fc134bc</Input>
+				<Effect ID="#459b168b-4d8a-4691-a91b-961c602d4d0e" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#754e259b-914c-4251-8022-ddcc76510114</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -85,17 +85,17 @@
 				<Effect ID="#deb48dd3-7655-4ca4-9bb3-236de53f1d01" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
 			</TriggerEffectsOnFalse>
 		</Trigger>
-		<Trigger X="1556" Y="292" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#d9ebf445-2823-492a-ac0e-972cc14c96ae" Name="Proto1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
+		<Trigger X="1555" Y="509" GroupID="#ffffffff-ffff-ffff-ffff-ffffffffffff" ID="#30b23d20-1a99-4c34-b2fb-fc4133f148e4" Name="Proto3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" Minimized="false" TemplateID="#ffffffff-ffff-ffff-ffff-ffffffffffff">
 			<TriggerConditions>
 				<And />
 			</TriggerConditions>
 			<TriggerEffectsOnTrue>
-				<Effect ID="#acf1c92d-182d-45f4-9dcb-d4ba1ea4d00e" Type="CopyProtoSquad" DBID="90" Version="1" CommentOut="false">
-					<Input Name="ProtoSquadSource" SigID="1" Optional="false">#04a3861f-f9b3-418b-9c7b-c1e61af38f63</Input>
+				<Effect ID="#008dea0b-fcc6-4848-9e42-8851da7d362c" Type="CopyProtoSquad" DBID="90" Version="1" CommentOut="false">
+					<Input Name="ProtoSquadSource" SigID="1" Optional="false">#f8985bdc-f0ec-43ac-af8f-c70d4c51d36a</Input>
 					<Output Name="ProtoSquadCopy" SigID="2" Optional="false">#8d2eefbf-2c21-4978-9feb-180c9975950b</Output>
 				</Effect>
-				<Effect ID="#9a5ea56b-2973-4388-9ef0-88581cc14622" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
-					<Input Name="Trigger" SigID="1" Optional="false">#369311e2-f805-4f99-889b-4918768884e7</Input>
+				<Effect ID="#b3d33ec2-fc45-4d09-acde-16654dbeeca3" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">#0dfd2c06-d26a-410e-81dd-74ea8c78b7b1</Input>
 				</Effect>
 			</TriggerEffectsOnTrue>
 			<TriggerEffectsOnFalse />
@@ -120,22 +120,7 @@
 				</Effect>
 				<Effect ID="#01e07b3e-1a27-4398-8abe-f4419351febd" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
 			</TriggerEffectsOnTrue>
-			<TriggerEffectsOnFalse>
-						<Effect ID="#9c86e8a9-67f7-45c5-8cef-8071bb1de7ef" Type="CreateSquad" DBID="36" Version="7" CommentOut="false">
-							<Input Name="ProtoSquad" SigID="1" Optional="false">#8d2eefbf-2c21-4978-9feb-180c9975950b</Input>
-							<Input Name="CreateLocation" SigID="2" Optional="false">#6f6fe0fd-2dba-4daf-8010-568eaaf08dec</Input>
-							<Input Name="Facing" SigID="12" Optional="true">#3843ecbb-0781-4c8e-b7bf-7226203f2ccd</Input>
-							<Input Name="SquadOwner" SigID="3" Optional="false">#ff7e57a3-c8aa-4bd8-89b2-3b09d8eda94e</Input>
-							<Input Name="FlyInStart" SigID="8" Optional="true">#da1ca4f7-0ffd-46d9-b2c9-0cd5facdf777</Input>
-							<Input Name="FlyInEnd" SigID="9" Optional="true">#e7813a30-6731-4a41-bd77-a8e919944371</Input>
-							<Input Name="RallyPoint" SigID="10" Optional="true">#7fdc478c-b3f0-4879-b9e7-6df5a9b6afab</Input>
-							<Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">#a3744786-2915-4b77-b174-6a8f8e493d31</Input>
-							<Output Name="CreatedSquad" SigID="4" Optional="true">#1b386b46-9c4f-47ed-b66e-7b2626ea7c26</Output>
-							<Output Name="AddToSquadList" SigID="5" Optional="true">#fe798c1e-f7a3-45f8-80b2-8c43d3eecfc4</Output>
-							<Output Name="SquadListClearExisting" SigID="6" Optional="true">#31bb4536-413e-49d3-a464-57ce0b84730c</Output>
-						</Effect>
-						<Effect ID="#01e07b3e-1a27-4398-8abe-f4419351febd" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
-			</TriggerEffectsOnFalse>
+			<TriggerEffectsOnFalse />
 		</Trigger>
 	</Triggers>
 </TriggerSystem>
