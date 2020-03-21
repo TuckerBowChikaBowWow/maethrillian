@@ -9,7 +9,12 @@
         <ResearchAnim>Upgrade</ResearchAnim>
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
         <Flag>UniqueProtoUnitInstance</Flag>
-        <Effects />
+        <Effects>
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_04" ToType="unsc_bldg_builder_01_unscgamender" />
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_03" ToType="unsc_bldg_builder_01_unscgamender" />
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_02" ToType="unsc_bldg_builder_01_unscgamender" />
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_01" ToType="unsc_bldg_builder_01_unscgamender" />
+        </Effects>
     </Tech>
     <Tech name="cov_instant_upgrade" type="Normal">
         <DBID>2041</DBID>
