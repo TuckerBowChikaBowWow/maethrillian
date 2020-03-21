@@ -9,12 +9,7 @@
         <ResearchAnim>Upgrade</ResearchAnim>
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
         <Flag>UniqueProtoUnitInstance</Flag>
-        <Effects>
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_04" ToType="cov_bldg_builder_01_gamender" />
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_03" ToType="cov_bldg_builder_01_gamender" />
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_02" ToType="cov_bldg_builder_01_gamender" />
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_01" ToType="cov_bldg_builder_01_gamender" />
-        </Effects>
+        <Effects />
     </Tech>
     <Tech name="cov_instant_upgrade" type="Normal">
         <DBID>2041</DBID>
@@ -26,12 +21,7 @@
         <ResearchAnim>Upgrade</ResearchAnim>
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
         <Flag>UniqueProtoUnitInstance</Flag>
-        <Effects>
-            <Effect type="ReparentProtoObject" FromType="cov_bldg_builder_04" ToType="cov_bldg_builder_01_gamender" />
-            <Effect type="ReparentProtoObject" FromType="cov_bldg_builder_03" ToType="cov_bldg_builder_01_gamender" />
-            <Effect type="ReparentProtoObject" FromType="cov_bldg_builder_02" ToType="cov_bldg_builder_01_gamender" />
-            <Effect type="ReparentProtoObject" FromType="cov_bldg_builder_01" ToType="cov_bldg_builder_01_gamender" />
-        </Effects>
+        <Effects />
     </Tech>
     <Tech name="unsc_LeaderFire" type="Normal">
         <DBID>1917</DBID>
