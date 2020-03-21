@@ -7,12 +7,7 @@
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
-        <Effects>
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_04" ToType="unsc_bldg_builder_01_unscgamender" />
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_03" ToType="unsc_bldg_builder_01_unscgamender" />
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_02" ToType="unsc_bldg_builder_01_unscgamender" />
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_01" ToType="unsc_bldg_builder_01_unscgamender" />
-        </Effects>
+        <Effects />
     </Tech>
     <Tech name="cov_instant_upgrade" type="Normal">
         <DBID>2041</DBID>
@@ -22,12 +17,7 @@
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
-        <Effects>
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_04" ToType="unsc_bldg_builder_01_gamender" />
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_03" ToType="unsc_bldg_builder_01_gamender" />
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_02" ToType="unsc_bldg_builder_01_gamender" />
-            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_01" ToType="unsc_bldg_builder_01_gamender" />
-        </Effects>
+        <Effects />
     </Tech>
     <Tech name="unsc_LeaderFire" type="Normal">
         <DBID>1917</DBID>
@@ -47,6 +37,9 @@
             <Effect type="UnlockableGodPower" tier="4">Up_FlameHog</Effect>
             <Effect type="UnlockableGodPower" tier="5">UnscBloodlust1</Effect>
             <Effect type="UnlockableGodPower" tier="5">UnscUnstableCon2</Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_base_upgrade1" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
             </Effect>
@@ -93,6 +86,9 @@
             <Effect type="UnlockableGodPower" tier="4" prereq="Up_Mantis1">Up_Mantis2</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Cyclops</Effect>
             <Effect type="UnlockableGodPower" tier="5">DropFoxcannon</Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_base_upgrade1" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
             </Effect>
@@ -136,6 +132,9 @@
             <Effect type="UnlockableGodPower" tier="4" prereq="Up_CryoMarines">Up_Rabbi1</Effect>
             <Effect type="UnlockableGodPower" tier="5">DropScorpion</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Scorpion</Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_base_upgrade1" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
             </Effect>
@@ -177,6 +176,9 @@
             <Effect type="UnlockableGodPower" tier="4">Up_Hog</Effect>
             <Effect type="UnlockableGodPower" tier="5">Jerome_LowPopInspire1</Effect>
             <Effect type="UnlockableGodPower" tier="5">Jerome_Omegateam</Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_base_upgrade1" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
             </Effect>
@@ -220,6 +222,9 @@
             <Effect type="UnlockableGodPower" tier="4">Up_JPack</Effect>
             <Effect type="UnlockableGodPower" tier="5">Drop_Wraith</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Wraith</Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_instant_upgrade</Target>
             </Effect>
@@ -344,6 +349,9 @@
             <Effect type="UnlockableGodPower" tier="4" prereq="Up_Goliath">Up_Hunter</Effect>
             <Effect type="UnlockableGodPower" tier="5">Drop_Skitter</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Skitter</Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_instant_upgrade</Target>
             </Effect>
@@ -471,6 +479,9 @@
             <Effect type="UnlockableGodPower" tier="4">Up_Ghost</Effect>
             <Effect type="UnlockableGodPower" tier="5">Drop_Prowler</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Prowler</Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_instant_upgrade</Target>
             </Effect>
@@ -596,6 +607,9 @@
             <Effect type="UnlockableGodPower" tier="4" prereq="Up_HeavyGrunt1">Up_HeavyGrunt2</Effect>
             <Effect type="UnlockableGodPower" tier="5">Drop_MeWagon</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_MethaneWagon</Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_instant_upgrade</Target>
             </Effect>
@@ -9789,15 +9803,15 @@
         <RolloverTextID>1001</RolloverTextID>
         <PrereqTextID>231</PrereqTextID>
         <Cost resourcetype="Supplies">0</Cost>
-        <Cost resourcetype="Power">400</Cost>
+        <Cost resourcetype="Power">0</Cost>
         <Cost resourcetype="HQLevel">0</Cost>
-        <ResearchPoints>50</ResearchPoints>
+        <ResearchPoints>25</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_upgrade_station</ResearchCompleteSound>
         <Flag>UniqueProtoUnitInstance</Flag>
         <Effects>
-            <Effect type="TransformUnit" IsBuildingUpgrade="true">unsc_bldg_command_02</Effect>
+            <Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_igc_unbreakablemegaturret_01</Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_base_upgrade2" type="Normal">
