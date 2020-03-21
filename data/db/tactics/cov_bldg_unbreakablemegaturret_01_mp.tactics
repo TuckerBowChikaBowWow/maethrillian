@@ -2,7 +2,7 @@
     <Weapon>
         <Name>MegaCannon</Name>
         <AttackRate>5</AttackRate>
-        <DamagePerSecond>200</DamagePerSecond>
+        <DamagePerSecond>20000000000</DamagePerSecond>
         <PreAttackCooldownMin>0</PreAttackCooldownMin>
         <PreAttackCooldownMax>0.8</PreAttackCooldownMax>
         <PostAttackCooldownMin>6</PostAttackCooldownMin>
@@ -13,7 +13,7 @@
         <ImpactAdvancedCameraShake fadein="0.01" duration="0.01" fadeout="1" yawpitchstrength="2" rollstrength="0.8" rotationfrequency="3" translationstrength="0" translationfrequency="6">
         </ImpactAdvancedCameraShake>
         <MaxVelocityLead>12.3</MaxVelocityLead>
-        <MaxRange>300</MaxRange>
+        <MaxRange>300000</MaxRange>
         <MinRange>50</MinRange>
         <Accuracy>1</Accuracy>
         <MaxDeviation>5</MaxDeviation>
@@ -24,23 +24,21 @@
         <AOEData>
             <Hitbox>
                 <Type>Circle</Type>
-                <Radius>12</Radius>
+                <Radius>1200</Radius>
                 <DamageRatio>100</DamageRatio>
                 <Origin>Target</Origin>
                 <FriendlyFire>false</FriendlyFire>
-                <TargetType>NonFlying</TargetType>
             </Hitbox>
             <Hitbox>
                 <Type>Circle</Type>
-                <Radius>17</Radius>
+                <Radius>1700</Radius>
                 <DamageRatio>50</DamageRatio>
                 <Origin>Target</Origin>
                 <FriendlyFire>false</FriendlyFire>
-                <TargetType>NonFlying</TargetType>
             </Hitbox>
             <Hitbox>
                 <Type>Circle</Type>
-                <Radius>22</Radius>
+                <Radius>2200</Radius>
                 <DamageRatio>25</DamageRatio>
                 <Origin>Target</Origin>
                 <FriendlyFire>false</FriendlyFire>
