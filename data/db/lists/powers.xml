@@ -2393,7 +2393,7 @@
 		<Attributes>
 			<PowerType>TechScript</PowerType>
 			<AIPowerUseType>Passive</AIPowerUseType>
-			<CloakDurationModifier>60</CloakDurationModifier>
+			<CloakDurationModifier>0</CloakDurationModifier>
 			<TechScript>_POWER_CovAdvancedCloaking2</TechScript>
 			<Cost Supplies="0" Power="0" />
 			<DisplayNameID>5012</DisplayNameID>
@@ -11104,9 +11104,9 @@
 				<Data type="bool" name="AffectsAllByFilterType">true</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
-				<Data type="float" name="BuffDuration">19</Data>
+				<Data type="float" name="BuffDuration">20</Data>
 				<Data type="float" name="SlowModifier">1.29999995</Data>
-				<Data type="float" name="LeechPercent">0.065</Data>
+				<Data type="float" name="LeechPercent">0.07</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -11118,9 +11118,9 @@
 				<Data type="bool" name="AffectsAllByFilterType">true</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
-				<Data type="float" name="BuffDuration">22</Data>
+				<Data type="float" name="BuffDuration">24</Data>
 				<Data type="float" name="SlowModifier">1.29999995</Data>
-				<Data type="float" name="LeechPercent">0.08</Data>
+				<Data type="float" name="LeechPercent">0.09</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
