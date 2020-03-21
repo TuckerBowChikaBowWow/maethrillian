@@ -21,7 +21,12 @@
         <ResearchAnim>Upgrade</ResearchAnim>
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
         <Flag>UniqueProtoUnitInstance</Flag>
-        <Effects />
+        <Effects>
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_04" ToType="unsc_bldg_builder_01_gamender" />
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_03" ToType="unsc_bldg_builder_01_gamender" />
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_02" ToType="unsc_bldg_builder_01_gamender" />
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_command_01" ToType="unsc_bldg_builder_01_gamender" />
+        </Effects>
     </Tech>
     <Tech name="unsc_LeaderFire" type="Normal">
         <DBID>1917</DBID>
