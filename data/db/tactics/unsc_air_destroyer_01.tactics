@@ -2,7 +2,7 @@
     <Weapon>
         <Name>MacCannon</Name>
         <AttackRate>3</AttackRate>
-        <DamagePerSecond>400</DamagePerSecond>
+        <DamagePerSecond>1300</DamagePerSecond>
         <WeaponType>Basic</WeaponType>
         <Projectile>fx_proj_cannon_03</Projectile>
         <ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>
@@ -33,7 +33,7 @@
     <Weapon>
         <Name>SpecialMacCannon</Name>
         <AttackRate>3</AttackRate>
-        <DamagePerSecond>9000</DamagePerSecond>
+        <DamagePerSecond>5000000</DamagePerSecond>
         <UseDPSasDPA>
         </UseDPSasDPA>
         <WeaponType>Ultimates</WeaponType>
@@ -45,19 +45,19 @@
         <PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
         <PhysicsForceMin>200</PhysicsForceMin>
         <PhysicsForceMax>400</PhysicsForceMax>
-        <MaxRange>95</MaxRange>
+        <MaxRange>300</MaxRange>
         <Hardpoint>MacCannon</Hardpoint>
         <AOEData>
             <Hitbox>
                 <Type>Circle</Type>
-                <Radius>6</Radius>
+                <Radius>25</Radius>
                 <DamageRatio>100</DamageRatio>
                 <Origin>Target</Origin>
                 <FriendlyFire>false</FriendlyFire>
             </Hitbox>
             <Hitbox>
                 <Type>Circle</Type>
-                <Radius>20</Radius>
+                <Radius>50</Radius>
                 <DamageRatio>50</DamageRatio>
                 <Origin>Target</Origin>
                 <FriendlyFire>false</FriendlyFire>
@@ -106,7 +106,7 @@
     <Weapon>
         <Name>FrontCentreGun</Name>
         <AttackRate>3</AttackRate>
-        <DamagePerSecond>250</DamagePerSecond>
+        <DamagePerSecond>600</DamagePerSecond>
         <WeaponType>Basic</WeaponType>
         <Projectile>fx_proj_spartanlaser_01</Projectile>
         <ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
@@ -129,7 +129,7 @@
     <Weapon>
         <Name>FrontRightGun</Name>
         <AttackRate>3</AttackRate>
-        <DamagePerSecond>250</DamagePerSecond>
+        <DamagePerSecond>600</DamagePerSecond>
         <WeaponType>Basic</WeaponType>
         <Projectile>fx_proj_spartanlaser_01</Projectile>
         <ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
@@ -152,7 +152,7 @@
     <Weapon>
         <Name>FrontLeftGun</Name>
         <AttackRate>3</AttackRate>
-        <DamagePerSecond>250</DamagePerSecond>
+        <DamagePerSecond>600</DamagePerSecond>
         <WeaponType>Basic</WeaponType>
         <Projectile>fx_proj_spartanlaser_01</Projectile>
         <ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
@@ -175,7 +175,7 @@
     <Weapon>
         <Name>RearRightGun</Name>
         <AttackRate>3</AttackRate>
-        <DamagePerSecond>250</DamagePerSecond>
+        <DamagePerSecond>600</DamagePerSecond>
         <WeaponType>Basic</WeaponType>
         <Projectile>fx_proj_spartanlaser_01</Projectile>
         <ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
@@ -198,7 +198,7 @@
     <Weapon>
         <Name>RearLeftGun</Name>
         <AttackRate>3</AttackRate>
-        <DamagePerSecond>250</DamagePerSecond>
+        <DamagePerSecond>600</DamagePerSecond>
         <WeaponType>Basic</WeaponType>
         <Projectile>fx_proj_spartanlaser_01</Projectile>
         <ImpactEffect size="Medium">SpartanLaserImpact</ImpactEffect>
