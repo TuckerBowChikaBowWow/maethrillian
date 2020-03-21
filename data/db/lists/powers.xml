@@ -24926,6 +24926,7 @@
 				<Data type="objecttype" name="FilterType3">TurretBuilding</Data>
 				<Data type="float" name="BuffDuration">9999999</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="bool" name="AffectsAllies">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageMitigationScalar">0.899999976</Data>
 				<Data type="float" name="LOS">1.2f</Data>
@@ -24974,6 +24975,7 @@
 				<Data type="objecttype" name="FilterType3">TurretBuilding</Data>
 				<Data type="float" name="BuffDuration">9999999</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="bool" name="AffectsAllies">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageMitigationScalar">0.899999976</Data>
 				<Data type="float" name="LOS">1.2f</Data>
@@ -25022,6 +25024,7 @@
 				<Data type="objecttype" name="FilterType3">TurretBuilding</Data>
 				<Data type="float" name="BuffDuration">9999999</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="bool" name="AffectsAllies">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageMitigationScalar">0.899999976</Data>
 				<Data type="float" name="LOS">1.2f</Data>
@@ -28080,7 +28083,7 @@
 				<Data type="float" name="MinTransportDistance">45</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
-				<Data type="float" name="MaxTransportDistance">550</Data>
+				<Data type="float" name="MaxTransportDistance">350</Data>
 			</DataLevel>
 		</Attributes>
 	</Power>
