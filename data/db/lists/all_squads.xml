@@ -1499,11 +1499,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">cov_inf_atrioxchosen_01</Unit>
-			<Unit count="2" role="normal">cov_inf_stormchosenspiker_01</Unit>
-			<Unit count="2" role="normal">cov_inf_jumppackwithbruteshot_01</Unit>
-			<Unit count="2" role="normal">cov_inf_jumppackwithchosenanimation_01</Unit>
-			<Unit count="2" role="leader">cov_inf_bruteMajor_01</Unit>
+			<Unit count="3" role="leader">cov_inf_bruteMajor_01</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
@@ -1520,6 +1516,11 @@
 		<AvoidanceMass>Light</AvoidanceMass>
 		<Counters>Grunts_01</Counters>
 		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
+	</Squad>
+	<Squad name="cov_inf_bruteCommandosMain_01" parent_element="cov_inf_bruteCommandos_01" dbid="14258138660473628435">
+		<Units override_type="absolute">
+			<Unit count="1" role="leader">cov_inf_brutemajorbruteshot_01</Unit>
+		</Units>
 	</Squad>
 	<Squad name="cov_inf_grunt_01" dbid="13564817270134799132" formationType="Flock" parent_element="cov_inf_grunt_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
