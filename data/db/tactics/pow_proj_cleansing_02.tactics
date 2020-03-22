@@ -2,15 +2,24 @@
 <TacticData>
 	<Weapon>
 		<Name>Cleansing</Name>
-		<DamagePerSecond>217</DamagePerSecond>
+		<DamagePerSecond>190</DamagePerSecond>
 		<WeaponType>leaderPower</WeaponType>
 		<Projectile>pow_proj_cleansing_02</Projectile>
 		<ImpactCameraShake duration="0.200000003" strength="0.150000006" />
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>12</Radius>
+				<Radius>6</Radius>
 				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>
+				<IgnoreY>true</IgnoreY>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>70</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<FriendlyFireRosterMode>false</FriendlyFireRosterMode>

@@ -22515,8 +22515,8 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">8</Pop>
-			<Cost Supplies="400" Power="175" />
-			<AutoRecharge>165000</AutoRecharge>
+			<Cost Supplies="350" Power="260" />
+			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -22564,9 +22564,9 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Pop type="Unit">31</Pop>
-			<Cost Supplies="1950" Power="980" />
-			<AutoRecharge>330000</AutoRecharge>
+			<Pop type="Unit">25</Pop>
+			<Cost Supplies="1380" Power="960" />
+			<AutoRecharge>360000</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -22601,10 +22601,6 @@
 				<Data type="unitdrops" name="UnitDrops">
 					<Drop>
 						<ProtoSquadID>cov_bldg_lekgolo_buffmine_01</ProtoSquadID>
-					</Drop>
-					<Drop>
-						<ProtoSquadID>cov_veh_wraith_01</ProtoSquadID>
-						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>cov_veh_wraith_01</ProtoSquadID>
@@ -33246,7 +33242,7 @@
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<Pop type="Unit">14</Pop>
-			<Cost Supplies="800" Power="500" />
+			<Cost Supplies="700" Power="465" />
 			<AutoRecharge>180000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
@@ -33289,11 +33285,11 @@
 					</Drop>
 					<Drop>
 						<ProtoSquadID>cov_inf_hunter_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>cov_inf_jackal_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 				</Data>
 			</DataLevel>
