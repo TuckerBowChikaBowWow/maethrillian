@@ -12189,9 +12189,8 @@
 		<Attributes>
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<BuffName>Invulnerability</BuffName>
-			<Cost Supplies="1200" Power="800" />
-			<AutoRecharge>333000</AutoRecharge>
+			<Cost Supplies="1000" Power="600" />
+			<AutoRecharge>300000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5000</DisplayNameID>
@@ -12216,10 +12215,11 @@
 			<DataLevel level="0">
 				<Data type="bool" name="AffectsAllByFilterType">true</Data>
 				<Data type="objecttype" name="FilterType">Unit</Data>
-				<Data type="float" name="BuffDuration">7</Data>
+				<Data type="float" name="BuffDuration">10</Data>
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="protoobject" name="BuffActivateFX">fx_invulnerability</Data>
+				<Data type="float" name="DamageMitigationScalar">0.3</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
