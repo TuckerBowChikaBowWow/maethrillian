@@ -651,6 +651,12 @@
 			<TechStatus status="Active">Basic</TechStatus>
 		</Prereqs>
 		<Effects>
+            <Effect type="Data" amount="0" subtype="Research" action="_POWER_Serina_FrostTechResearchable" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="Research" action="_POWER_LureBeaconResearchable" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
+            </Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_minibaseNoSocks</Target>
 			</Effect>
@@ -8464,72 +8470,89 @@
 		<Effects />
 	</Tech>
 	<Tech name="_POWER_Serina_FrostTech" type="Normal">
-		<DBID>1963</DBID>
-		<DisplayNameID>26016</DisplayNameID>
-		<RolloverTextID>26016</RolloverTextID>
-		<PrereqTextID>26016</PrereqTextID>
-		<ResearchPoints>0</ResearchPoints>
-		<Status>OBTAINABLE</Status>
-		<Effects>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="FoxyFireAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_veh_foxcannon_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="FoxyFireChillAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_veh_foxcannon_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="FoxyFireAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_siegegun_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="FoxyFireChillAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_siegegun_01</Target>
-			</Effect>
-			<Effect type="Data" amount="250" subtype="Shieldpoints" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_serina_cryomarines_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="ShieldAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_serina_cryomarines_01</Target>
-			</Effect>
-			<Effect type="Data" amount="250" subtype="Shieldpoints" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_serina_cryoleader_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="ShieldAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_serina_cryoleader_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_serina_cryoleader_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAuraAV" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_inf_serina_cryoleader_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
-				<Target type="ProtoUnit">hook_bldg_EnergyCapturePoint_base_01_base</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_turretAV_01_mp</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_turretAI_01_mp</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_turretAA_01_mp</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_turret_01_mp</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_watchtower_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_siegegun_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_dropturret_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_dropturret_02</Target>
-			</Effect>
-		</Effects>
-	</Tech>
+        <DBID>1963</DBID>
+        <DisplayNameID>26016</DisplayNameID>
+        <RolloverTextID>26016</RolloverTextID>
+        <PrereqTextID>26016</PrereqTextID>
+        <ResearchPoints>0</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Effects>
+            <Effect type="Data" amount="1" subtype="Research" action="_POWER_Serina_FrostTechResearchable" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="FoxyFireAction" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_siegegun_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="FoxyFireChillAction" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_siegegun_01</Target>
+            </Effect>
+            <Effect type="Data" amount="250" subtype="Shieldpoints" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_inf_serina_cryomarines_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ShieldAction" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_inf_serina_cryomarines_01</Target>
+            </Effect>
+            <Effect type="Data" amount="250" subtype="Shieldpoints" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_inf_serina_cryoleader_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ShieldAction" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_inf_serina_cryoleader_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_inf_serina_cryoleader_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAuraAV" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_inf_serina_cryoleader_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
+                <Target type="ProtoUnit">hook_bldg_EnergyCapturePoint_base_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_turretAV_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_turretAI_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_turretAA_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_turret_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_watchtower_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_siegegun_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_dropturret_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="ChillAura" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_dropturret_02</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="_POWER_Serina_FrostTechResearchable" type="Normal">
+        <DBID>2041</DBID>
+        <DisplayNameID>27478</DisplayNameID>
+        <RolloverTextID>27479</RolloverTextID>
+        <PrereqTextID>233</PrereqTextID>
+        <Cost resourcetype="Supplies">0</Cost>
+        <Cost resourcetype="Power">600</Cost>
+        <Cost resourcetype="HQLevel">4</Cost>
+        <ResearchPoints>45</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Flag>UniqueProtoUnitInstance</Flag>
+        <Effects>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="FoxyFireAction" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_veh_foxcannon_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="FoxyFireChillAction" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_veh_foxcannon_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
 	<Tech name="cov_LeaderSinglePlayer_Enemy" type="Normal">
 		<DBID>1917</DBID>
 		<ResearchPoints>0</ResearchPoints>
@@ -16559,27 +16582,44 @@
 		</Effects>
 	</Tech>
 	<Tech name="_POWER_LureBeacon" type="Normal">
-		<DBID>1963</DBID>
-		<DisplayNameID>26016</DisplayNameID>
-		<RolloverTextID>26016</RolloverTextID>
-		<PrereqTextID>26016</PrereqTextID>
-		<ResearchPoints>0</ResearchPoints>
-		<Status>OBTAINABLE</Status>
-		<Effects>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="FoxyFireAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_veh_foxcannon_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="LureBeaconAttackAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_veh_foxcannon_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="FoxyFireAction" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_siegegun_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="SiegegunLureBeaconAttack" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_siegegun_01</Target>
-			</Effect>
-		</Effects>
-	</Tech>
+        <DBID>1963</DBID>
+        <DisplayNameID>26016</DisplayNameID>
+        <RolloverTextID>26016</RolloverTextID>
+        <PrereqTextID>26016</PrereqTextID>
+        <ResearchPoints>0</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Effects>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="FoxyFireAction" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_siegegun_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="SiegegunLureBeaconAttack" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_siegegun_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Research" action="_POWER_LureBeaconResearchable" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="_POWER_LureBeaconResearchable" type="Normal">
+        <DBID>2041</DBID>
+        <DisplayNameID>27478</DisplayNameID>
+        <RolloverTextID>27479</RolloverTextID>
+        <PrereqTextID>233</PrereqTextID>
+        <Cost resourcetype="Supplies">0</Cost>
+        <Cost resourcetype="Power">800</Cost>
+        <Cost resourcetype="HQLevel">4</Cost>
+        <ResearchPoints>45</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Flag>UniqueProtoUnitInstance</Flag>
+        <Effects>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="FoxyFireAction" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_veh_foxcannon_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="LureBeaconAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_veh_foxcannon_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
 	<Tech name="_POWER_UnscTurretShields" type="Normal">
 		<DBID>1963</DBID>
 		<DisplayNameID>26016</DisplayNameID>
