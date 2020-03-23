@@ -33477,8 +33477,8 @@
 			<NotAffectedByCeasefire />
 			<PowerType>Transport</PowerType>
 			<AIPowerUseType>TransportAllies</AIPowerUseType>
-			<Cost Supplies="0" Power="200" />
-			<AutoRecharge>130000</AutoRecharge>
+			<Cost Supplies="200" Power="200" />
+			<AutoRecharge>120000</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -33499,7 +33499,7 @@
 				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
-				<Data type="bool" name="RequiresLOS">false</Data>
+				<Data type="bool" name="RequiresLOS">true</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound">PLAY_SFX_2D_UI_BAN_CHR_Teleport_Select</Data>
@@ -33516,7 +33516,7 @@
 				<Data type="bool" name="AffectsSelfOnly">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="bool" name="AffectsEnemiesOnly">false</Data>
-				<Data type="float" name="MaxTransportDistance">250</Data>
+				<Data type="float" name="MaxTransportDistance">300</Data>
 				<Data type="bool" name="LOSFreeTransport">true</Data>
 				<Data type="protoobject" name="TeleportInFX">fx_teleportIN_01</Data>
 				<Data type="protoobject" name="TeleportOutFX">fx_teleportOUT_01</Data>
