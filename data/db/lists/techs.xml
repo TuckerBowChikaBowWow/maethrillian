@@ -651,10 +651,10 @@
 			<TechStatus status="Active">Basic</TechStatus>
 		</Prereqs>
 		<Effects>
-            <Effect type="Data" amount="0" subtype="Research" action="_POWER_Serina_FrostTechResearchable" relativity="Absolute">
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" action="_POWER_Serina_FrostTechResearchable" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="Research" action="_POWER_LureBeaconResearchable" relativity="Absolute">
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" action="_POWER_LureBeaconResearchable" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
             </Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
@@ -8477,7 +8477,7 @@
         <ResearchPoints>0</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Effects>
-            <Effect type="Data" amount="1" subtype="Research" action="_POWER_Serina_FrostTechResearchable" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" action="_POWER_Serina_FrostTechResearchable" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
             </Effect>
             <Effect type="Data" amount="0" subtype="ActionEnable" action="FoxyFireAction" relativity="Absolute">
@@ -8540,8 +8540,8 @@
         <PrereqTextID>233</PrereqTextID>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">600</Cost>
-        <Cost resourcetype="HQLevel">4</Cost>
-        <ResearchPoints>45</ResearchPoints>
+        <Cost resourcetype="HQLevel">2</Cost>
+        <ResearchPoints>60</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Flag>UniqueProtoUnitInstance</Flag>
         <Effects>
@@ -16595,7 +16595,7 @@
             <Effect type="Data" amount="1" subtype="ActionEnable" action="SiegegunLureBeaconAttack" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_siegegun_01</Target>
             </Effect>
-            <Effect type="Data" amount="1" subtype="Research" action="_POWER_LureBeaconResearchable" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" action="_POWER_LureBeaconResearchable" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
             </Effect>
         </Effects>
@@ -16607,8 +16607,8 @@
         <PrereqTextID>233</PrereqTextID>
         <Cost resourcetype="Supplies">0</Cost>
         <Cost resourcetype="Power">800</Cost>
-        <Cost resourcetype="HQLevel">4</Cost>
-        <ResearchPoints>45</ResearchPoints>
+        <Cost resourcetype="HQLevel">2</Cost>
+        <ResearchPoints>60</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Flag>UniqueProtoUnitInstance</Flag>
         <Effects>
