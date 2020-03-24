@@ -3,12 +3,12 @@
 	<Weapon>
 		<Name>Artillery</Name>
 		<DamagePerSecond>400</DamagePerSecond>
-		<WeaponType>leaderpower</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>unsc_air_turretpod_01</Projectile>
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.800000012" yawpitchstrength="2" rollstrength="1" rotationfrequency="4" translationstrength="0" translationfrequency="6" />
 		<UseDPSasDPA />
 		<ImpactEffect size="Medium">ODSTUnitPod</ImpactEffect>
-		<Daze TargetType="NonFlying" MovementModifier="0" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
+		<Slow TargetType="NonFlying" MovementModifier="0.2" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Slow>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
@@ -19,7 +19,6 @@
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
-		<WeaponType>LeaderPower</WeaponType>
 	</Weapon>
 	<Action>
 		<Default>true</Default>
