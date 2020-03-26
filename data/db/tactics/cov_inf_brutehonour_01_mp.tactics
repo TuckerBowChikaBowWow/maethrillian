@@ -1,188 +1,430 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TacticData>
 	<Weapon>
-		<Name>Rifle</Name>
-		<AttackRate>2</AttackRate>
-		<DamagePerSecond>2000</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
-		<MaxVelocityLead>25</MaxVelocityLead>
-		<MaxRange>16</MaxRange>
-		<Accuracy>1</Accuracy>
-		<MaxDeviation>8</MaxDeviation>
-		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>12</MovingMaxDeviation>
-		<EnableHeightBonusDamage />
-		<VisualAmmo>12</VisualAmmo>
-		<Hardpoint>Torso</Hardpoint>
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+		<Name>Hammer</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>1250</DamagePerSecond>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>6</Radius>
+				<Radius>1</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>13</Radius>
-				<DamageRatio>50</DamageRatio>
+				<Radius>6</Radius>
+				<DamageRatio>25</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<Filter>Heavy</Filter>
+		<WeaponType>Hero</WeaponType>
+		<MaxRange>2</MaxRange>
+		<Hardpoint>Torso</Hardpoint>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
 		<PhysicsForceMin>500</PhysicsForceMin>
 		<PhysicsForceMax>800</PhysicsForceMax>
-		<TargetPriority type="_Hero">10</TargetPriority>
-		<TargetPriority type="Infantry">7</TargetPriority>
-		<TargetPriority type="GroundVehicle">7</TargetPriority>
-		<TargetPriority type="Flying">7</TargetPriority>
-		<TargetPriority type="TurretBuilding">6</TargetPriority>
-		<TargetPriority type="Building">5</TargetPriority>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
-		<Name>HammerShockwave</Name>
+		<Name>PullHammer</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>12000</DamagePerSecond>
-		<UseDPSasDPA />
-		<WeaponType>Hero</WeaponType>
-		<MaxRange>16</MaxRange>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>200</PhysicsForceMin>
-		<PhysicsForceMax>400</PhysicsForceMax>
-		<Hardpoint>Torso</Hardpoint>
+		<DamagePerSecond>515</DamagePerSecond>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>10</Radius>
+				<Radius>1</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>20</Radius>
-				<DamageRatio>50</DamageRatio>
+				<Radius>6</Radius>
+				<DamageRatio>25</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<Filter>Heavy</Filter>
-		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">6.0f</Daze>
+		<WeaponType>Hero</WeaponType>
+		<MaxRange>2</MaxRange>
+		<Hardpoint>Torso</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<PullUnits />
+		<MinPullRange>22</MinPullRange>
+		<MaxPullRange>70</MaxPullRange>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
-		<Name>StompAttackWeapon</Name>
-		<AttackRate>0.100000001</AttackRate>
-		<DamagePerSecond>800</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
-		<UseDPSasDPA />
-		<ImpactEffect size="Medium">ScarabStomp</ImpactEffect>
+		<Name>StunningPullHammer</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>515</DamagePerSecond>
 		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<WeaponType>Hero</WeaponType>
+		<MaxRange>2</MaxRange>
+		<Hardpoint>Torso</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<PullUnits />
+		<MinPullRange>22</MinPullRange>
+		<MaxPullRange>70</MaxPullRange>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">1.0f</Daze>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>HealingStunningPullHammer</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>2250</DamagePerSecond>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>6</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<WeaponType>Hero</WeaponType>
+		<MaxRange>2</MaxRange>
+		<Hardpoint>Torso</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<TargetPriority type="PaintTarget">10</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="GroundVehicle">6</TargetPriority>
+		<TargetPriority type="TurretBuilding">3</TargetPriority>
+		<TargetPriority type="Building">2</TargetPriority>
+		<PullUnits />
+		<MinPullRange>22</MinPullRange>
+		<MaxPullRange>70</MaxPullRange>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">1.0f</Daze>
+		<LifeStealRatio shield="false">0.699999988</LifeStealRatio>
+		<PreAttackCooldownMin>0.100000001</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.100000001</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.100000001</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.100000001</PostAttackCooldownMax>
+	</Weapon>
+	<Weapon>
+		<Name>HammerShockwave</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>30000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Hero</WeaponType>
+		<MaxRange>3</MaxRange>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Projectile>fx_proj_bruteshockdummy_01</Projectile>
+		<ImpactEffect doShockwaveAction="true" alwaysHorizontal="true">HammerPlasmaBurn</ImpactEffect>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
 				<Radius>12</Radius>
 				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>25</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>
 		</AOEData>
-		<ThrowUnits />
-		<ThrowDamageParts />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>600</PhysicsForceMin>
-		<PhysicsForceMax>900</PhysicsForceMax>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">6.0f</Daze>
 	</Weapon>
 	<Weapon>
-		<Name>Ram</Name>
-		<WeaponType>WarthogRam</WeaponType>
-		<MaxRange>3.07500005</MaxRange>
-		<AOERadius>24.6000004</AOERadius>
+		<Name>SelfHammerShockwave</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>30000</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>Hero</WeaponType>
+		<MaxRange>3</MaxRange>
 		<ThrowUnits />
-		<FlailThrownUnits />
-		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>30</PhysicsLaunchAngleMax>
-		<PhysicsLaunchAxial />
-		<PhysicsForceMin>1000</PhysicsForceMin>
-		<PhysicsForceMax>1400</PhysicsForceMax>
-		<ImpactCameraShake duration="0.400000006" strength="0.379999995" />
-		<Slow TargetType="NonFlying" MovementModifier="0.400000006" AOEEffect="false" AffectsBuildings="false" SmartTargeting="false">1.00f</Slow>
-		<MaxDamagePerRam>2000</MaxDamagePerRam>
-		<ReflectDamageFactor>0</ReflectDamageFactor>
-		<Filter>Medium</Filter>
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>200</PhysicsForceMin>
+		<PhysicsForceMax>400</PhysicsForceMax>
+		<Projectile>fx_proj_bruteshockdummy_01</Projectile>
+		<ImpactEffect doShockwaveAction="true">HammerPlasmaBurn</ImpactEffect>
+		<Hardpoint>Torso</Hardpoint>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>1</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>25</Radius>
+				<DamageRatio>25</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">6.0f</Daze>
+		<AlwaysReplaceTargetWithItsPosition />
 	</Weapon>
 	<Action>
-		<Name>MeleeAttackAction</Name>
+		<Name>Charge</Name>
+		<ActionType>Charge</ActionType>
+		<DamageCharge>15</DamageCharge>
+		<ChargeOnTaken />
+		<ChargeOnDealt />
+		<Anim>Pull</Anim>
+		<ProtoObject bone="bone_vfx_HammerPoint">fx_decimuspullcharged_01</ProtoObject>
+	</Action>
+	<Action>
+		<Name>HammerAttackAction</Name>
 		<ActionType>HandAttack</ActionType>
-		<Anim noInterrupt="true">Attack</Anim>
-		<Weapon>Rifle</Weapon>
-		<Strafing turnRate="180" trackingSpeed="60" />
+		<Anim noInterrupt="true">MeleeAttack</Anim>
+		<Weapon>Hammer</Weapon>
 		<FullBodyAttackAnim />
-		<FindBetterAction />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<VelocityScalar>40</VelocityScalar>
+		<ReactionAnim>Flail</ReactionAnim>
+		<Chargable />
+		<ProtoObject>fx_brutePullVictim</ProtoObject>
+		<InvalidTarget>UberUnit</InvalidTarget>
+		<Fatality attacker="fatality_brutehon01_v_brutehon01_attacker_01" target="fatality_brutehon01_v_brutehon01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteHonour_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_elitehon01_attacker_01" target="fatality_brutehon01_v_elitehon01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_eliteCommando_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_eliteranger01_attacker_01" target="fatality_brutehon01_v_eliteranger01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_jackal_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_brute01_attacker_01" target="fatality_brutehon01_v_brute01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteLeader_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_jpbrute01_attacker_01" target="fatality_brutehon01_v_jpbrute01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteJumpPack_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan03_attacker_01" target="fatality_brutehon01_v_spartan03_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanRocket_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan04_attacker_01" target="fatality_brutehon01_v_spartan04_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanSniper_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan05_attacker_01" target="fatality_brutehon01_v_spartan05_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanMG_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan05_attacker_01" target="fatality_brutehon01_v_spartan05_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_chaingun_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan04_attacker_01" target="fatality_brutehon01_v_spartan04_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_laser_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan03_attacker_01" target="fatality_brutehon01_v_spartan03_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_rocket_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan02_attacker_01" target="fatality_brutehon01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_mpjerome_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_engineer_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_engineer_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_marine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_malemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_flamer01_attacker_01" target="fatality_brutehon01_v_flamer01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_flamemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_fmarine01_attacker_01" target="fatality_brutehon01_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_femalemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_fmarine01_attacker_01" target="fatality_brutehon01_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_femalemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_odst01_attacker_01" target="fatality_brutehon01_v_odst01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_odst_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_sniper01_attacker_01" target="fatality_brutehon01_v_sniper01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_sniper_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan02_attacker_01" target="fatality_brutehon01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_spartan_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan02_attacker_01" target="fatality_brutehon01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_01</Fatality>
+		<StartDisabled />
 	</Action>
 	<Action>
-		<Name>AAMeleeAttackAction</Name>
+		<Name>PullHammerAttackAction</Name>
 		<ActionType>HandAttack</ActionType>
-		<Anim noInterrupt="true">AirAttack</Anim>
-		<Weapon>Rifle</Weapon>
-		<Strafing turnRate="180" trackingSpeed="60" />
+		<Anim noInterrupt="true">MeleeAttack</Anim>
+		<Weapon>PullHammer</Weapon>
 		<FullBodyAttackAnim />
-		<FindBetterAction />
+		<InvalidTarget>UberUnit</InvalidTarget>
+		<ReactionAnim>Flail</ReactionAnim>
+		<VelocityScalar>22</VelocityScalar>
+		<FollowTarget />
+		<FollowDistance>10</FollowDistance>
+		<MinRelativeHeight>6</MinRelativeHeight>
+		<MaxRelativeHeight>9</MaxRelativeHeight>
+		<Chargable />
+		<ProtoObject bone="bone_vfx_HammerPoint">fx_decimuspullbeam</ProtoObject>
+		<Strafing maxDistance="15" turnRate="90" trackingSpeed="40" />
+		<Fatality attacker="fatality_brutehon01_v_brutehon01_attacker_01" target="fatality_brutehon01_v_brutehon01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteHonour_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_elitehon01_attacker_01" target="fatality_brutehon01_v_elitehon01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_eliteCommando_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_eliteranger01_attacker_01" target="fatality_brutehon01_v_eliteranger01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_jackal_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_brute01_attacker_01" target="fatality_brutehon01_v_brute01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteLeader_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_jpbrute01_attacker_01" target="fatality_brutehon01_v_jpbrute01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteJumpPack_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan03_attacker_01" target="fatality_brutehon01_v_spartan03_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_rocket_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan04_attacker_01" target="fatality_brutehon01_v_spartan04_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_laser_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan05_attacker_01" target="fatality_brutehon01_v_spartan05_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_chaingun_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan03_attacker_01" target="fatality_brutehon01_v_spartan03_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanRocket_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan04_attacker_01" target="fatality_brutehon01_v_spartan04_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanSniper_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan05_attacker_01" target="fatality_brutehon01_v_spartan05_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanMG_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_engineer_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_engineer_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_marine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_malemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_flamer01_attacker_01" target="fatality_brutehon01_v_flamer01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_flamemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_fmarine01_attacker_01" target="fatality_brutehon01_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_femalemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_fmarine01_attacker_01" target="fatality_brutehon01_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_femalemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_odst01_attacker_01" target="fatality_brutehon01_v_odst01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_odst_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_sniper01_attacker_01" target="fatality_brutehon01_v_sniper01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_sniper_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan02_attacker_01" target="fatality_brutehon01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_spartan_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan02_attacker_01" target="fatality_brutehon01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_01</Fatality>
+		<StartDisabled />
 	</Action>
 	<Action>
-		<Name>StompAttack</Name>
-		<ActionType>CollisionAttack</ActionType>
-		<Weapon>StompAttackWeapon</Weapon>
-		<TrampleAttack />
+		<Name>StunningPullHammerAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim noInterrupt="true">MeleeAttack</Anim>
+		<Weapon>StunningPullHammer</Weapon>
+		<FullBodyAttackAnim />
+		<InvalidTarget>UberUnit</InvalidTarget>
+		<ReactionAnim>Flail</ReactionAnim>
+		<VelocityScalar>22</VelocityScalar>
+		<FollowTarget />
+		<FollowDistance>10</FollowDistance>
+		<MinRelativeHeight>6</MinRelativeHeight>
+		<MaxRelativeHeight>9</MaxRelativeHeight>
+		<Chargable />
+		<ProtoObject bone="bone_vfx_HammerPoint">fx_decimuspullbeam</ProtoObject>
+		<Strafing maxDistance="15" turnRate="90" trackingSpeed="40" />
+		<Fatality attacker="fatality_brutehon01_v_brutehon01_attacker_01" target="fatality_brutehon01_v_brutehon01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteHonour_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_elitehon01_attacker_01" target="fatality_brutehon01_v_elitehon01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_eliteCommando_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_eliteranger01_attacker_01" target="fatality_brutehon01_v_eliteranger01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_jackal_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_brute01_attacker_01" target="fatality_brutehon01_v_brute01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteLeader_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_jpbrute01_attacker_01" target="fatality_brutehon01_v_jpbrute01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteJumpPack_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan03_attacker_01" target="fatality_brutehon01_v_spartan03_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_rocket_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan04_attacker_01" target="fatality_brutehon01_v_spartan04_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_laser_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan05_attacker_01" target="fatality_brutehon01_v_spartan05_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_chaingun_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan03_attacker_01" target="fatality_brutehon01_v_spartan03_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanRocket_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan04_attacker_01" target="fatality_brutehon01_v_spartan04_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanSniper_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan05_attacker_01" target="fatality_brutehon01_v_spartan05_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanMG_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_engineer_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_engineer_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_marine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_malemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_flamer01_attacker_01" target="fatality_brutehon01_v_flamer01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_flamemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_fmarine01_attacker_01" target="fatality_brutehon01_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_femalemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_fmarine01_attacker_01" target="fatality_brutehon01_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_femalemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_odst01_attacker_01" target="fatality_brutehon01_v_odst01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_odst_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_sniper01_attacker_01" target="fatality_brutehon01_v_sniper01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_sniper_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan02_attacker_01" target="fatality_brutehon01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_spartan_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan02_attacker_01" target="fatality_brutehon01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_01</Fatality>
+		<StartDisabled />
 	</Action>
 	<Action>
-		<Name>PersistentCollisionAttack</Name>
-		<ActionType>CollisionAttack</ActionType>
-		<Weapon>Ram</Weapon>
+		<Name>HealingStunningPullHammerAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim noInterrupt="true">MeleeAttack</Anim>
+		<Weapon>HealingStunningPullHammer</Weapon>
+		<FullBodyAttackAnim />
+		<InvalidTarget>UberUnit</InvalidTarget>
+		<ReactionAnim>Flail</ReactionAnim>
+		<VelocityScalar>22</VelocityScalar>
+		<FollowTarget />
+		<FollowDistance>10</FollowDistance>
+		<MinRelativeHeight>6</MinRelativeHeight>
+		<MaxRelativeHeight>9</MaxRelativeHeight>
+		<Chargable />
+		<ProtoObject bone="bone_vfx_HammerPoint">fx_decimuspullbeam</ProtoObject>
+		<Strafing maxDistance="15" turnRate="90" trackingSpeed="40" />
+		<Fatality attacker="fatality_brutehon01_v_brutehon01_attacker_01" target="fatality_brutehon01_v_brutehon01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteHonour_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_elitehon01_attacker_01" target="fatality_brutehon01_v_elitehon01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_eliteCommando_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_eliteranger01_attacker_01" target="fatality_brutehon01_v_eliteranger01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_jackal_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_brute01_attacker_01" target="fatality_brutehon01_v_brute01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteLeader_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_jpbrute01_attacker_01" target="fatality_brutehon01_v_jpbrute01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cov_inf_bruteJumpPack_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan03_attacker_01" target="fatality_brutehon01_v_spartan03_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_rocket_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan04_attacker_01" target="fatality_brutehon01_v_spartan04_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_laser_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan05_attacker_01" target="fatality_brutehon01_v_spartan05_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_chaingun_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan03_attacker_01" target="fatality_brutehon01_v_spartan03_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanRocket_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan04_attacker_01" target="fatality_brutehon01_v_spartan04_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanSniper_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan05_attacker_01" target="fatality_brutehon01_v_spartan05_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">cpgn_inf_spartanMG_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_engineer_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_engineer_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_marine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_marine01_attacker_01" target="fatality_brutehon01_v_marine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_malemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_flamer01_attacker_01" target="fatality_brutehon01_v_flamer01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_flamemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_fmarine01_attacker_01" target="fatality_brutehon01_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_femalemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_fmarine01_attacker_01" target="fatality_brutehon01_v_fmarine01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_femalemarine_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_odst01_attacker_01" target="fatality_brutehon01_v_odst01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_odst_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_sniper01_attacker_01" target="fatality_brutehon01_v_sniper01_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_sniper_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan02_attacker_01" target="fatality_brutehon01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_generic_spartan_01</Fatality>
+		<Fatality attacker="fatality_brutehon01_v_spartan02_attacker_01" target="fatality_brutehon01_v_spartan02_victim_01" cooldown="0" orientationOffset="180" lastUnitOnly="true">unsc_inf_spartan_01</Fatality>
 	</Action>
 	<Action>
 		<Name>HammerShockwaveAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Anim noInterrupt="true">Slam</Anim>
+		<Anim noInterrupt="true">AreaAttack</Anim>
 		<Weapon>HammerShockwave</Weapon>
 		<FullBodyAttackAnim />
 		<DontAutoRestart />
 	</Action>
 	<Action>
-		<Name>RamAttack</Name>
+		<Name>SelfHammerShockwaveAction</Name>
 		<ActionType>RangedAttack</ActionType>
-		<Weapon>Ram</Weapon>
-	</Action>
-	<Action>
-		<Name>StompAttack</Name>
-		<ActionType>CollisionAttack</ActionType>
-		<Weapon>StompAttackWeapon</Weapon>
-		<TrampleAttack />
-	</Action>
-	<Action>
-		<Name>AreaBuff2</Name>
-		<ActionType>AreaBuff</ActionType>
-		<WorkRange>40</WorkRange>
-		<SpecificData>
-			<BuffParams BuffType="ForgehogHeavyMetal" SlowModifier="1.5" DamageMitigationScalar="0.800000012">0.5f</BuffParams>
-			<TargetTypes>
-				<Type>Flood</Type>
-			</TargetTypes>
-			<Relations>
-				<Relation>Ally</Relation>
-			</Relations>
-		</SpecificData>
-		<ProtoObject>vfx_episode2_units_FloodCommanderAura</ProtoObject>
+		<Anim noInterrupt="true">AreaAttack</Anim>
+		<Weapon>SelfHammerShockwave</Weapon>
+		<FullBodyAttackAnim />
+		<DontAutoRestart />
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -259,9 +501,14 @@
 		<WorkRate>1</WorkRate>
 		<WorkRange>4</WorkRange>
 	</Action>
+	<Action>
+		<Name>ShieldAction</Name>
+		<ActionType>EnergyShield</ActionType>
+		<ProtoObject>cov_locustshield</ProtoObject>
+	</Action>
 	<Tactic>
-		<PersistentAction>AreaBuff2</PersistentAction>
-		<PersistentAction>PersistentCollisionAttack</PersistentAction>
+		<PersistentAction>ShieldAction</PersistentAction>
+		<PersistentAction>Charge</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
@@ -286,8 +533,37 @@
 			<Action>Capture</Action>
 		</TargetRule>
 		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>HealingStunningPullHammerAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>StunningPullHammerAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>PullHammerAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>HammerAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Self</Relation>
+			<Action>SelfHammerShockwaveAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Relation>Enemy</Relation>
 			<TargetType>NonFlying</TargetType>
 			<Action>HammerShockwaveAction</Action>
 		</TargetRule>
@@ -296,31 +572,6 @@
 			<Relation>Any</Relation>
 			<TargetsGround />
 			<Action>HammerShockwaveAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>HammerShockwaveAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>GroundVehicle</TargetType>
-			<Action>HammerShockwaveAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>Infantry</TargetType>
-			<Action>MeleeAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>Flying</TargetType>
-			<Action>AAMeleeAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<Action>MeleeAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>
