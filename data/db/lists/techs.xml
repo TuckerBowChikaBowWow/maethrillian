@@ -17,7 +17,17 @@
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
-        <Effects />
+        <Effects>
+        	<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_inf_decimus_base</Target>
+            </Effect>
+        </Effects>
     </Tech>
     <Tech name="unsc_LeaderFire" type="Normal">
         <DBID>1917</DBID>
@@ -224,15 +234,6 @@
             <Effect type="UnlockableGodPower" tier="4">Up_JPack</Effect>
             <Effect type="UnlockableGodPower" tier="5">Drop_Wraith</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Wraith</Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">cov_veh_scarab_01</Target>
-            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_instant_upgrade</Target>
             </Effect>
@@ -359,15 +360,6 @@
             <Effect type="UnlockableGodPower" tier="4" prereq="Up_Goliath">Up_Hunter</Effect>
             <Effect type="UnlockableGodPower" tier="5">Drop_Skitter</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Skitter</Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">cov_veh_scarab_01</Target>
-            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_instant_upgrade</Target>
             </Effect>
@@ -497,15 +489,6 @@
             <Effect type="UnlockableGodPower" tier="4">Up_Ghost</Effect>
             <Effect type="UnlockableGodPower" tier="5">Drop_Prowler</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Prowler</Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">cov_veh_scarab_01</Target>
-            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_instant_upgrade</Target>
             </Effect>
@@ -631,15 +614,6 @@
             <Effect type="UnlockableGodPower" tier="4" prereq="Up_HeavyGrunt1">Up_HeavyGrunt2</Effect>
             <Effect type="UnlockableGodPower" tier="5">Drop_MeWagon</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_MethaneWagon</Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">cov_inf_mpdecimus_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">cov_veh_scarab_01</Target>
-            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_instant_upgrade</Target>
             </Effect>
