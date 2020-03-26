@@ -28,6 +28,7 @@
             <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
             <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
             <Effect type="UnlockableGodPower" tier="1">UnscHoloDecoy1_MP</Effect>
+            <Effect type="UnlockableGodPower" tier="1" prereq="UnscHoloDecoy1_MP">UnscHoloDecoy2_MP</Effect>
             <Effect type="UnlockableGodPower" tier="2">DropMarines</Effect>
             <Effect type="UnlockableGodPower" tier="2">Up_Kinsano1</Effect>
             <Effect type="UnlockableGodPower" tier="2" prereq="Up_Kinsano1">Up_Kinsano2</Effect>
@@ -13906,22 +13907,22 @@
         <ResearchPoints>0</ResearchPoints>
         <Status>OBTAINABLE</Status>
         <Effects>
-            <Effect type="Data" amount="1.5" subtype="LOS" allactions="1" relativity="Percent">
+            <Effect type="Data" amount="2.5" subtype="LOS" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">infantry</Target>
             </Effect>
-            <Effect type="Data" amount="1.5" subtype="LOS" allactions="1" relativity="Percent">
+            <Effect type="Data" amount="2.5" subtype="LOS" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">unsc_veh_wolverine_01</Target>
             </Effect>
-            <Effect type="Data" amount="1.5" subtype="LOS" allactions="1" relativity="Percent">
+            <Effect type="Data" amount="2.5" subtype="LOS" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
             </Effect>
-            <Effect type="Data" amount="1.5" subtype="LOS" allactions="1" relativity="Percent">
+            <Effect type="Data" amount="2.5" subtype="LOS" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">unsc_veh_foxcannon_01</Target>
             </Effect>
-            <Effect type="Data" amount="1.2" subtype="LOS" allactions="1" relativity="Percent">
+            <Effect type="Data" amount="2.2" subtype="LOS" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">unsc_veh_mongoose_01</Target>
             </Effect>
-            <Effect type="Data" amount="1.5" subtype="LOS" allactions="1" relativity="Percent">
+            <Effect type="Data" amount="2.5" subtype="LOS" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">AirCraft</Target>
             </Effect>
         </Effects>

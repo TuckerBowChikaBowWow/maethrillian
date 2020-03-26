@@ -17656,7 +17656,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="400" Power="100" />
+			<Cost Supplies="0" Power="225" />
 			<AutoRecharge>210000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
@@ -19776,7 +19776,7 @@
 			<NotAffectedByCeasefire />
 			<PowerType>HoloDecoy</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<Cost Supplies="100" Power="30" />
+			<Cost Supplies="0" Power="100" />
 			<AutoRecharge>110000</AutoRecharge>
 			<UIRadius>28</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -19817,7 +19817,7 @@
 			<NotAffectedByCeasefire />
 			<PowerType>HoloDecoy</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
-			<Cost Supplies="200" Power="50" />
+			<Cost Supplies="50" Power="125" />
 			<AutoRecharge>110000</AutoRecharge>
 			<UIRadius>34</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -24897,7 +24897,7 @@
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
-			<Cost Supplies="60" Power="30" />
+			<Cost Supplies="15" Power="130" />
 			<AutoRecharge>110000</AutoRecharge>
 			<UIRadius>9</UIRadius>
 			<Decal>AOE_Small</Decal>
@@ -24946,7 +24946,7 @@
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
-			<Cost Supplies="120" Power="60" />
+			<Cost Supplies="20" Power="150" />
 			<AutoRecharge>110000</AutoRecharge>
 			<UIRadius>17</UIRadius>
 			<Decal>AOE_Small</Decal>
@@ -24995,7 +24995,7 @@
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
-			<Cost Supplies="200" Power="100" />
+			<Cost Supplies="35" Power="200" />
 			<AutoRecharge>110000</AutoRecharge>
 			<UIRadius>24</UIRadius>
 			<Decal>AOE_Medium</Decal>
@@ -28046,7 +28046,7 @@
 			<NotAffectedByCeasefire />
 			<PowerType>Transport</PowerType>
 			<AIPowerUseType>TransportAllies</AIPowerUseType>
-			<Cost Supplies="0" Power="200" />
+			<Cost Supplies="0" Power="150" />
 			<UIRadius>32</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<AutoRecharge>100000</AutoRecharge>
@@ -32037,7 +32037,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>LotusMine</SoundName>
-			<Cost Supplies="100" Power="40" />
+			<Cost Supplies="0" Power="140" />
 			<AutoRecharge>140000</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
@@ -32092,7 +32092,7 @@
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<SoundName>TurretDrop</SoundName>
-			<Cost Supplies="140" Power="60" />
+			<Cost Supplies="10" Power="160" />
 			<AutoRecharge>140000</AutoRecharge>
 			<UIRadius>8</UIRadius>
 			<Decal>Drop</Decal>
@@ -33725,7 +33725,7 @@
 		<Attributes>
 			<PowerType>Transport</PowerType>
 			<AIPowerUseType>TransportAllies</AIPowerUseType>
-			<Cost Supplies="0" Power="800" />
+			<Cost Supplies="0" Power="400" />
 			<AutoRecharge>270000</AutoRecharge>
 			<UIRadius>16</UIRadius>
 			<Decal>Point</Decal>
@@ -33755,11 +33755,11 @@
 				<Data type="sound" name="HudStopEnvSound" />
 				<Data type="texture" name="Base">ui\flash\shared\textures\powers\TransportBase</Data>
 				<Data type="texture" name="Mover">ui\flash\shared\textures\powers\TransportMover</Data>
-				<Data type="bool" name="NotNearBasesOrSockets">true</Data>
+				<Data type="bool" name="NotNearBasesOrSockets">false</Data>
 				<Data type="bool" name="TeleportAndExtraction">false</Data>
 				<Data type="float" name="MinTransportDistance">45</Data>
 				<Data type="bool" name="SpawnTeleporters">true</Data>
-				<Data type="float" name="TeleporterLifespan">120</Data>
+				<Data type="float" name="TeleporterLifespan">60</Data>
 				<Data type="bool" name="AffectsEnemiesOnly">false</Data>
 				<Data type="bool" name="LOSFreeTransport">false</Data>
 				<Data type="protoobject" name="SourceTeleporter">pow_gp_slipstreamrift_01</Data>
