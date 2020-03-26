@@ -7707,7 +7707,7 @@
 				<Data type="float" name="MinBeamDistance">0</Data>
 				<Data type="float" name="MaxBeamDistance">35</Data>
 				<Data type="float" name="TickLength">0.100000001</Data>
-				<Data type="float" name="CommandInterval">0.200000003</Data>
+				<Data type="float" name="CommandInterval">0.1</Data>
 				<Data type="float" name="MaxBeamSpeed">17</Data>
 				<Data type="float" name="Duration">10</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
@@ -7741,7 +7741,7 @@
 				<Data type="float" name="MinBeamDistance">0</Data>
 				<Data type="float" name="MaxBeamDistance">35</Data>
 				<Data type="float" name="TickLength">0.100000001</Data>
-				<Data type="float" name="CommandInterval">0.200000003</Data>
+				<Data type="float" name="CommandInterval">0.1</Data>
 				<Data type="float" name="MaxBeamSpeed">17</Data>
 				<Data type="float" name="Duration">10</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
@@ -7775,7 +7775,7 @@
 				<Data type="float" name="MinBeamDistance">0</Data>
 				<Data type="float" name="MaxBeamDistance">35</Data>
 				<Data type="float" name="TickLength">0.100000001</Data>
-				<Data type="float" name="CommandInterval">0.200000003</Data>
+				<Data type="float" name="CommandInterval">0.1</Data>
 				<Data type="float" name="MaxBeamSpeed">17</Data>
 				<Data type="float" name="Duration">10</Data>
 				<Data type="bool" name="UsePlayerWaypoints">false</Data>
@@ -20221,7 +20221,7 @@
 				<Data type="objecttype" name="FilterType">Aircraft</Data>
 				<Data type="objecttype" name="FilterType2">GroundVehicle</Data>
 				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
-				<Data type="float" name="BuffDuration">15</Data>
+				<Data type="float" name="BuffDuration">16</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageDealtModifier">1.35</Data>
 				<Data type="sound" name="HudUpSound" />
@@ -20265,7 +20265,7 @@
 				<Data type="objecttype" name="FilterType">Aircraft</Data>
 				<Data type="objecttype" name="FilterType2">GroundVehicle</Data>
 				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
-				<Data type="float" name="BuffDuration">20</Data>
+				<Data type="float" name="BuffDuration">21</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageDealtModifier">1.45</Data>
 				<Data type="sound" name="HudUpSound" />
@@ -20309,7 +20309,7 @@
 				<Data type="objecttype" name="FilterType">Aircraft</Data>
 				<Data type="objecttype" name="FilterType2">GroundVehicle</Data>
 				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
-				<Data type="float" name="BuffDuration">17</Data>
+				<Data type="float" name="BuffDuration">19</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageDealtModifier">1.4</Data>
 				<Data type="sound" name="HudUpSound" />
@@ -20353,7 +20353,7 @@
 				<Data type="objecttype" name="FilterType">Aircraft</Data>
 				<Data type="objecttype" name="FilterType2">GroundVehicle</Data>
 				<Data type="objecttype" name="FilterExcludeType">Drone</Data>
-				<Data type="float" name="BuffDuration">22</Data>
+				<Data type="float" name="BuffDuration">24</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageDealtModifier">1.5</Data>
 				<Data type="sound" name="HudUpSound" />
@@ -22670,11 +22670,11 @@
 				<Data type="bool" name="NoDropNearBase">true</Data>
 				<Data type="bool" name="FailIfNotEnoughPop">false</Data>
 				<Data type="bool" name="LineDropMode">true</Data>
-				<Data type="float" name="LineDropInterval">8f</Data>
+				<Data type="float" name="LineDropInterval">4f</Data>
 				<Data type="float" name="LineDropMaxLength">70.0f</Data>
 				<Data type="bool" name="LineDropRandomOrient">true</Data>
 				<Data type="float" name="LineDropRandomZOffset">0.0f</Data>
-				<Data type="float" name="LineDropRandomXOffset">3.0f</Data>
+				<Data type="float" name="LineDropRandomXOffset">1.0f</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>dlc3_pack2_units_covenant_structure_lekgolowall</ProtoSquadID>

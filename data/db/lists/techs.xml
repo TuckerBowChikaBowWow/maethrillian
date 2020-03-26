@@ -4001,10 +4001,10 @@
 			<Effect type="Data" hpbar="Cov_HealthShield" subtype="HPBar" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
 			</Effect>
-			<Effect type="Data" amount="80" subtype="StealthDetectionRange" relativity="Absolute">
+			<Effect type="Data" amount="75" subtype="StealthDetectionRange" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="Ghost_02">
