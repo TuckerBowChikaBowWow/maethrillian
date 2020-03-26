@@ -180,14 +180,14 @@
             <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
             <Effect type="UnlockableGodPower" tier="1">Jerome_AdvancedOptics</Effect>
             <Effect type="UnlockableGodPower" tier="2">UnscOdstDrop</Effect>
-            <Effect type="UnlockableGodPower" tier="2">Up_Jerome1</Effect>
-            <Effect type="UnlockableGodPower" tier="2" prereq="Up_Jerome1">Up_Jerome2</Effect>
-            <Effect type="UnlockableGodPower" tier="3">UnscSniperDrop</Effect>
-            <Effect type="UnlockableGodPower" tier="3">Up_Sniper</Effect>
-            <Effect type="UnlockableGodPower" tier="4">UnscHogDrop</Effect>
-            <Effect type="UnlockableGodPower" tier="4">Up_Hog</Effect>
+            <Effect type="UnlockableGodPower" tier="2">UnscSniperDrop</Effect>
+            <Effect type="UnlockableGodPower" tier="3">UnscHogDrop</Effect>
+            <Effect type="UnlockableGodPower" tier="3">Jerome_Omegateam</Effect>
+            <Effect type="UnlockableGodPower" tier="4">Up_Jerome1</Effect>
+            <Effect type="UnlockableGodPower" tier="4" prereq="Up_Jerome1">Up_Jerome2</Effect>
+            <Effect type="UnlockableGodPower" tier="4">Up_Sniper</Effect>
+            <Effect type="UnlockableGodPower" tier="5">Up_Hog</Effect>
             <Effect type="UnlockableGodPower" tier="5">Jerome_LowPopInspire1</Effect>
-            <Effect type="UnlockableGodPower" tier="5">Jerome_Omegateam</Effect>
            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
@@ -224,15 +224,15 @@
             <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
             <Effect type="UnlockableGodPower" tier="1">CovSlipstreamRift</Effect>
             <Effect type="UnlockableGodPower" tier="2">Drop_Grunt</Effect>
-            <Effect type="UnlockableGodPower" tier="2">Up_Atriox1</Effect>
-            <Effect type="UnlockableGodPower" tier="2" prereq="Up_Atriox1">Up_Atriox2</Effect>
-            <Effect type="UnlockableGodPower" tier="2" prereq="Up_Atriox2">Up_Atriox3</Effect>
-            <Effect type="UnlockableGodPower" tier="3">Drop_JumpPack</Effect>
-            <Effect type="UnlockableGodPower" tier="3">Up_Grunt1</Effect>
-            <Effect type="UnlockableGodPower" tier="3" prereq="Up_Grunt1">Up_Grunt2</Effect>
-            <Effect type="UnlockableGodPower" tier="4">Drop_Jackal</Effect>
-            <Effect type="UnlockableGodPower" tier="4">Up_JPack</Effect>
-            <Effect type="UnlockableGodPower" tier="5">Drop_Wraith</Effect>
+            <Effect type="UnlockableGodPower" tier="2">Drop_JumpPack</Effect>
+            <Effect type="UnlockableGodPower" tier="3">Drop_Jackal</Effect>
+            <Effect type="UnlockableGodPower" tier="3">Drop_Wraith</Effect>
+            <Effect type="UnlockableGodPower" tier="4">Up_Atriox1</Effect>
+            <Effect type="UnlockableGodPower" tier="4" prereq="Up_Atriox1">Up_Atriox2</Effect>
+            <Effect type="UnlockableGodPower" tier="4" prereq="Up_Atriox2">Up_Atriox3</Effect>
+            <Effect type="UnlockableGodPower" tier="4">Up_Grunt1</Effect>
+            <Effect type="UnlockableGodPower" tier="4" prereq="Up_Grunt1">Up_Grunt2</Effect>
+            <Effect type="UnlockableGodPower" tier="5">Up_JPack</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Wraith</Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_instant_upgrade</Target>
