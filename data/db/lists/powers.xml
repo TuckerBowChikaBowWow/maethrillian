@@ -22656,7 +22656,7 @@
 			</FlashUI>
 			<DataLevel level="0">
 				<Data type="int" name="OverlayStringID">25023</Data>
-				<Data type="float" name="SquadSpawnDelay">1.25</Data>
+				<Data type="float" name="SquadSpawnDelay">1.0</Data>
 				<Data type="float" name="ProjectileSpawnDelay">0.200000003</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
@@ -22670,11 +22670,12 @@
 				<Data type="bool" name="NoDropNearBase">true</Data>
 				<Data type="bool" name="FailIfNotEnoughPop">false</Data>
 				<Data type="bool" name="LineDropMode">true</Data>
-				<Data type="float" name="LineDropInterval">4f</Data>
-				<Data type="float" name="LineDropMaxLength">70.0f</Data>
+				<Data type="float" name="LineDropInterval">8f</Data>
+				<Data type="float" name="LineDropMaxLength">50.0f</Data>
 				<Data type="bool" name="LineDropRandomOrient">true</Data>
 				<Data type="float" name="LineDropRandomZOffset">0.0f</Data>
 				<Data type="float" name="LineDropRandomXOffset">1.0f</Data>
+				<Data type="int" name="NumShots">2</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>dlc3_pack2_units_covenant_structure_lekgolowall</ProtoSquadID>
