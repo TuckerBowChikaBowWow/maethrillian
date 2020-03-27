@@ -1467,6 +1467,7 @@
 			<Effect type="UnlockableGodPower" tier="4">CovBoundlessRage</Effect>
 			<Effect type="UnlockableGodPower" tier="5">LekgoloEverlasting</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovBoundlessLeech</Effect>
+            <Effect type="UnlockableGodPower" tier="5" prereq="CovBoundlessLeech">CorruptedPull</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
 			</Effect>
