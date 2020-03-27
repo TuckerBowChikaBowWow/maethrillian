@@ -17,7 +17,7 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>2</Radius>
+				<Radius>3</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -53,7 +53,7 @@
 			<Hitbox>
 				<Type>Segment</Type>
 				<Length>ReachTarget</Length>
-				<Width>2</Width>
+				<Width>3</Width>
 				<DamageRatio>25</DamageRatio>
 				<Origin>Attacker</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -82,46 +82,6 @@
 		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
 		<PostAttackCooldownMax>0.899999976</PostAttackCooldownMax>
 	</Weapon>
-	<Weapon>
-		<Name>HammerShockwave</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>3000</DamagePerSecond>
-		<UseDPSasDPA />
-		<WeaponType>Hero</WeaponType>
-		<MaxRange>5</MaxRange>
-		<ThrowUnits />
-		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>200</PhysicsForceMin>
-		<PhysicsForceMax>400</PhysicsForceMax>
-		<Projectile>fx_proj_bruteshockdummy_01</Projectile>
-		<Hardpoint>Torso</Hardpoint>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>1</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>12</Radius>
-				<DamageRatio>50</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
-		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">6.0f</Daze>
-	</Weapon>
-	<Action>
-		<Name>HammerShockwaveAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim noInterrupt="true">Knockdown</Anim>
-		<Weapon>HammerShockwave</Weapon>
-		<FullBodyAttackAnim />
-		<DontAutoRestart />
-	</Action>
 	<Action>
 		<Name>FuelRodCannonAttackAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -166,7 +126,7 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>2</Radius>
+				<Radius>3</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -203,7 +163,7 @@
 			<Hitbox>
 				<Type>Segment</Type>
 				<Length>ReachTarget</Length>
-				<Width>2</Width>
+				<Width>3</Width>
 				<DamageRatio>25</DamageRatio>
 				<Origin>Attacker</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -337,18 +297,6 @@
 		<WorkRange>4</WorkRange>
 	</Action>
 	<Tactic>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>HammerShockwaveAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Any</Relation>
-			<TargetsGround />
-			<Action>HammerShockwaveAction</Action>
-		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>Garrison</TargetType>
