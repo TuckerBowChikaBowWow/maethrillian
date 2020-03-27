@@ -61,6 +61,26 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_inf_infected_odst_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>cov_inf_impervioushunter_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_inf_infectfrm_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>cov_inf_gruntgoblin01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
 			<SquadTypeToSend>flood_veh_infected_scorpion_01_base</SquadTypeToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
@@ -133,6 +153,8 @@
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Unsc</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
@@ -141,6 +163,8 @@
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>cov_inf_arbiter_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
@@ -149,6 +173,8 @@
 			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Covenant</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
@@ -157,6 +183,28 @@
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Unsc</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_inf_infected_elitecarbine_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Covenant</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_veh_infected_prowler_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Covenant</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
@@ -165,6 +213,8 @@
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Covenant</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
@@ -173,6 +223,8 @@
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Unsc</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
@@ -285,6 +337,8 @@
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Covenant</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
@@ -294,16 +348,18 @@
 			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Unsc</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
 			<SquadTypeToSend>flood_veh_infected_grizzly_01_base</SquadTypeToSend>
-			<AlternateSquadTypeToSend>flood_veh_infected_scorpion_01_base</AlternateSquadTypeToSend>
-			<AlternateSquadTypeToSend>flood_veh_infected_wraith_01_base</AlternateSquadTypeToSend>
-			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
-			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
-			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
-			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>cov_inf_impervioushunter_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
