@@ -1460,6 +1460,7 @@
 			<Effect type="UnlockableGodPower" tier="2">CovBuffRage3</Effect>
 			<Effect type="UnlockableGodPower" tier="2">LekgoloWormBuff3</Effect>
 			<Effect type="UnlockableGodPower" tier="3">ArbiterPlasmaBolt3</Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="ArbiterPlasmaBolt3">CorruptedPull</Effect>
 			<Effect type="UnlockableGodPower" tier="3">ArbiterConduitofRage1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="ArbiterConduitofRage1">ArbiterConduitofRage2</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="ArbiterConduitofRage2">ArbiterConduitofRage3</Effect>
@@ -1467,7 +1468,6 @@
 			<Effect type="UnlockableGodPower" tier="4">CovBoundlessRage</Effect>
 			<Effect type="UnlockableGodPower" tier="5">LekgoloEverlasting</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovBoundlessLeech</Effect>
-            <Effect type="UnlockableGodPower" tier="5" prereq="CovBoundlessLeech">CorruptedPull</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">cov_inf_hereticleader_01</Target>
 			</Effect>
