@@ -8,7 +8,33 @@
 		<Projectile>fx_proj_lightCannon_01</Projectile>
 		<ImpactEffect size="Small">GaussImpact</ImpactEffect>
 		<MaxVelocityLead>99</MaxVelocityLead>
+		<MinRange>35</MinRange>
 		<MaxRange>70</MaxRange>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Infantry">10</TargetPriority>
+		<TargetPriority type="Mine">1</TargetPriority>
+		<TargetPriority type="Aircraft">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">1</TargetPriority>
+		<TargetPriority type="Turretbuilding">1</TargetPriority>
+		<TargetPriority type="building">1</TargetPriority>
+		<VisualAmmo>1</VisualAmmo>
+		<Hardpoint>Torso</Hardpoint>
+		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.89999998</PostAttackCooldownMax>
+		<RequirePreciseAiming />
+	</Weapon>
+	<Weapon>
+		<Name>SniperRifleShort</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>48</DamagePerSecond>
+		<WeaponType>AntiInfantry</WeaponType>
+		<Projectile>fx_proj_lightCannon_01</Projectile>
+		<ImpactEffect size="Small">GaussImpact</ImpactEffect>
+		<MaxVelocityLead>99</MaxVelocityLead>
+		<MinRange>1</MinRange>
+		<MaxRange>35</MaxRange>
 		<EnableHeightBonusDamage />
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Mine">1</TargetPriority>
@@ -32,7 +58,7 @@
 		<Projectile>fx_proj_lightCannon_01</Projectile>
 		<ImpactEffect size="Small">GaussImpact</ImpactEffect>
 		<MaxVelocityLead>99</MaxVelocityLead>
-		<MaxRange>70</MaxRange>
+		<MaxRange>65</MaxRange>
 		<EnableHeightBonusDamage />
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Mine">1</TargetPriority>
@@ -55,6 +81,17 @@
 		<MoveAnim>AttackMove</MoveAnim>
 		<ReloadAnim>SniperRifleReload</ReloadAnim>
 		<Weapon>SniperRifle</Weapon>
+		<FullBodyAttackAnim />
+		<Strafing turnRate="180" trackingSpeed="60" />
+		<FindBetterAction />
+	</Action>
+	<Action>
+		<Name>SniperRifleShortAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>Attack</Anim>
+		<MoveAnim>AttackMove</MoveAnim>
+		<ReloadAnim>SniperRifleReload</ReloadAnim>
+		<Weapon>SniperRifleShort</Weapon>
 		<FullBodyAttackAnim />
 		<Strafing turnRate="180" trackingSpeed="60" />
 		<FindBetterAction />
@@ -166,11 +203,16 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Infantry</TargetType>
-			<Action>SniperRifleAttackAction</Action>
+			<Action>SniperRifleShortAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Mine</TargetType>
+			<Action>SniperRifleShortAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Infantry</TargetType>
 			<Action>SniperRifleAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
