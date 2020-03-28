@@ -1392,6 +1392,12 @@
 	<Squad name="cov_inf_eliteCommando_01_sp" parent_element="cov_inf_eliteCommando_01_base" dbid="7467523159594432857">
 		<LeashDistance>73</LeashDistance>
 	</Squad>
+	<Squad name="cov_inf_specialhonor_01" dbid="6601234486651109816" parent_element="cov_inf_eliteCommando_01_base">
+		<Pop Type="Unit">4</Pop>
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">cov_inf_specialhonor_01</Unit>
+		</Units>
+	</Squad>
 	<Squad name="cov_inf_engineer_01" dbid="2330547440322255353" formationType="Flock" parent_element="cov_inf_engineer_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
