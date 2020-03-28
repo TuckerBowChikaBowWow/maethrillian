@@ -9,7 +9,7 @@
 				<file>episode2/pack1/units/flood/vehicles/floodwarthog01/mesh_Warthog01</file>
 				<damagefile>episode2/pack1/units/flood/vehicles/floodwarthog01/warthog01</damagefile>
 			</asset>
-			<attach type="ModelRef" name="gauss_turret" tobone="socketbone_guass_turret" frombone="GrannyRootBone_guass_turret" syncanims="true" disregardorient="false" removeimmediately="false" />
+			<attach type="ModelRef" name="gauss_turret" tobone="socketbone_turret_root" frombone="GrannyRootBone_turret_root" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="turret" tobone="socketbone_turret_root" frombone="GrannyRootBone_turret_root" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="wheel01" tobone="socketbone_wheel_front_left" frombone="GrannyRootBone_wheel_front_left" syncanims="true" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="wheel02" tobone="socketbone_wheel_front_right" frombone="GrannyRootBone_wheel_front_right" syncanims="true" disregardorient="false" removeimmediately="false" />
