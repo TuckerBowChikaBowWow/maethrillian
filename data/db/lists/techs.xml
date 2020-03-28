@@ -2081,6 +2081,21 @@
             <Effect type="SquadCounter" NewCounterName="Warthog_02">
                 <Target type="ProtoSquad">unsc_veh_warthog_01</Target>
             </Effect>
+             <Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+                <Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+            </Effect>
+            <Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_veh_warthog_02">
+                <Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+            </Effect>
+            <Effect type="Data" subtype="Icon" iconType="unit" iconName="unsc_warthog_upgrade3">
+                <Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="MachinegunAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="GaussCannonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_flamehog_upgrade3" type="Normal">
@@ -4008,6 +4023,9 @@
         <Effects>
             <Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_veh_wraith_01</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
+                <Target type="ProtoUnit">flood_veh_infected_wraith_01_base</Target>
             </Effect>
             <Effect type="SquadCounter" NewCounterName="Wraith_02">
                 <Target type="ProtoSquad">cov_veh_wraith_01</Target>
@@ -6967,11 +6985,16 @@
             <Effect type="UnlockableGodPower" tier="1">FloodEggAOMDrop1</Effect>
             <Effect type="UnlockableGodPower" tier="1">Flood_Emerge_InfectorsAOM</Effect>
             <Effect type="UnlockableGodPower" tier="2">FloodRuptureEmerge</Effect>
+            <Effect type="UnlockableGodPower" tier="2">Up_Hog</Effect>
+            <Effect type="UnlockableGodPower" tier="3">Up_Wraith</Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">flood_instant_upgrade</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
+                <Target type="ProtoUnit">flood_veh_infected_wraith_01_base</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
