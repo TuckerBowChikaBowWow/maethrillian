@@ -332,6 +332,12 @@
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>SMGAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
 			<Action>GrenadeAttackAction</Action>
