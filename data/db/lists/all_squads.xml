@@ -1756,6 +1756,12 @@
 	<Squad name="cov_inf_hunter_01_sp" parent_element="cov_inf_hunter_01_base" dbid="1643513766021087358">
 		<LeashDistance>15</LeashDistance>
 	</Squad>
+	<Squad name="cov_inf_singlehunter_01" dbid="6601234486651109816" parent_element="cov_inf_hunter_01_base">
+		<Pop Type="Unit">-2</Pop>
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">cov_inf_singlehunter_01</Unit>
+		</Units>
+	</Squad>
 	<Squad name="cov_inf_impervioushunterm02_01" parent_element="cov_inf_impervioushunter_01" dbid="1258654387535083318">
 		<Units>
 			<Unit count="1" role="normal">dlc4_archetypes_m02impervioushunter_01</Unit>

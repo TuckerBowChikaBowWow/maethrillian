@@ -70,30 +70,6 @@
 		<Hardpoint>Torso</Hardpoint>
 	</Weapon>
 	<Weapon>
-		<Name>ThrownODSTMine</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>0</DamagePerSecond>
-		<WeaponType>Explosive</WeaponType>
-		<Projectile>fx_proj_grenade_03</Projectile>
-		<ImpactEffect size="Small">ODSTMineImpact</ImpactEffect>
-		<Mine>fx_mine_ODSTMine_01</Mine>
-		<AlwaysReplaceTargetWithItsPosition />
-		<MaxRange>30</MaxRange>
-		<MaxPlantRange>35</MaxPlantRange>
-	</Weapon>
-	<Weapon>
-		<Name>RM_ThrownODSTMine</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>0</DamagePerSecond>
-		<WeaponType>Explosive</WeaponType>
-		<Projectile>fx_proj_grenade_03</Projectile>
-		<ImpactEffect size="Small">ODSTMineImpact</ImpactEffect>
-		<Mine>fx_mine_ODSTMine_01_RM</Mine>
-		<AlwaysReplaceTargetWithItsPosition />
-		<MaxRange>30</MaxRange>
-		<MaxPlantRange>35</MaxPlantRange>
-	</Weapon>
-	<Weapon>
 		<Name>Grenade</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>75</DamagePerSecond>
@@ -228,27 +204,8 @@
 		<FullBodyAttackAnim />
 		<DontAutoRestart />
 		<FindBetterAction />
-		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
+		<MaxNumUnitsPerformAction>4</MaxNumUnitsPerformAction>
 		<Strafing turnRate="180" trackingSpeed="60" />
-	</Action>
-	<Action>
-		<Name>MineAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>Mine</Anim>
-		<Weapon>ThrownODSTMine</Weapon>
-		<FullBodyAttackAnim />
-		<DontAutoRestart />
-		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
-	</Action>
-	<Action>
-		<Name>RM_MineAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>Mine</Anim>
-		<Weapon>RM_ThrownODSTMine</Weapon>
-		<FullBodyAttackAnim />
-		<DontAutoRestart />
-		<MaxNumUnitsPerformAction>1</MaxNumUnitsPerformAction>
-		<StartDisabled />
 	</Action>
 	<Action>
 		<Name>GatherSupplies</Name>
@@ -365,11 +322,6 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<Action>GrenadeAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
 			<Action>InCoverSMGAttackAction</Action>
 			<SquadMode>Cover</SquadMode>
 		</TargetRule>
@@ -380,32 +332,9 @@
 			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>SMGAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Self</Relation>
-			<Action>MineAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>MineAttackAction</Action>
-			<Relation>Ally</Relation>
-		</TargetRule>
-		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>MineAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<TargetsGround />
-			<Action>MineAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
+			<Action>GrenadeAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<GaiaOwned />
@@ -429,28 +358,6 @@
 			<Relation>Self</Relation>
 			<TargetType>TeleportDropoff</TargetType>
 			<Action>UngarrisonTeleport</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Self</Relation>
-			<Action>RM_MineAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>RM_MineAttackAction</Action>
-			<Relation>Ally</Relation>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Relation>Enemy</Relation>
-			<TargetType>NonFlying</TargetType>
-			<Action>RM_MineAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<TargetsGround />
-			<Action>RM_MineAttackAction</Action>
-			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 	</Tactic>
 </TacticData>
