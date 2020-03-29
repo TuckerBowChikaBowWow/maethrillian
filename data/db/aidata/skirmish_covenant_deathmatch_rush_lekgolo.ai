@@ -15,7 +15,7 @@
 			<LeaderPowerType>CorruptedPillage1</LeaderPowerType>
 		</LeaderPower>
 		<LeaderPower>
-			<LeaderPowerType>Drop_Grunt</LeaderPowerType>
+			<LeaderPowerType>Drop_SingleHunter</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>1</AssignedMissionID>
 			<AssignedMissionID>2</AssignedMissionID>
@@ -59,16 +59,21 @@
 			<MinimumTargetPopToCast>0</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
+			<LeaderPowerType>LekgoloSwarmHeal1</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<MinimumHealPointsToHeal>8000</MinimumHealPointsToHeal>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
 			<LeaderPowerType>Up_IHunter1</LeaderPowerType>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>Up_IHunter2</LeaderPowerType>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>Up_Grunt1</LeaderPowerType>
-		</LeaderPower>
-		<LeaderPower>
-			<LeaderPowerType>Up_Grunt2</LeaderPowerType>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>Up_Goliath</LeaderPowerType>
