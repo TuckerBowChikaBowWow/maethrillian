@@ -5,7 +5,7 @@
 		<AttackRate>0.100000001</AttackRate>
 		<Corruption />
 		<ImpactEffect size="Medium" doShockwaveAction="true">CorruptionMedium</ImpactEffect>
-		<DamagePerSecond>1300</DamagePerSecond>
+		<DamagePerSecond>1800</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_Corruptedscarabbeam_mp</Projectile>
 		<DOTrate>60</DOTrate>
@@ -58,13 +58,21 @@
 		<LoopAttackAnim />
 	</Action>
 	<Action>
-		<Name>DisruptionField</Name>
-		<ActionType>DisruptionField</ActionType>
-		<Duration>8</Duration>
-		<WorkRange>25</WorkRange>
-		<WorkRate>0</WorkRate>
-		<ProtoObject>fx_scarabField</ProtoObject>
-		<AffectsOnlySelf />
+		<Name>OrbitalCleansingAction</Name>
+		<ActionType>OrbitalCleansing</ActionType>
+		<Anim>CombatIdle</Anim>
+		<Duration>3</Duration>
+		<SpecificData>
+			<CleansingBeams>
+				<Beam>
+					<PowerName>CorruptedCataclysm_MP</PowerName>
+					<Waypoints>
+						<wp x="7" z="0" />
+						<wp x="41" z="0" />
+					</Waypoints>
+				</Beam>
+			</CleansingBeams>
+		</SpecificData>
 	</Action>
 	<Action>
 		<Name>GarrisonHotDrop</Name>
@@ -93,23 +101,18 @@
 	<Tactic>
 		<TargetRule>
 			<Ability>Command</Ability>
-			<Action>DisruptionField</Action>
-			<Relation>Self</Relation>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>DisruptionField</Action>
-			<Relation>Ally</Relation>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>DisruptionField</Action>
 			<TargetsGround />
+			<Action>OrbitalCleansingAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
-			<Action>DisruptionField</Action>
+			<Relation>Self</Relation>
+			<Action>OrbitalCleansingAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
+			<Action>OrbitalCleansingAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>

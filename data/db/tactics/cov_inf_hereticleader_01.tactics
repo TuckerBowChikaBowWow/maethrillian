@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>PlasmaRifle</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>400</DamagePerSecond>
+		<DamagePerSecond>500</DamagePerSecond>
 		<WeaponType>BlastExplosive</WeaponType>
 		<Projectile>fx_proj_plasmaRifle_03</Projectile>
 		<ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
@@ -26,56 +26,25 @@
 	</Weapon>
 	<Weapon>
 		<Name>PlasmaCaster</Name>
-		<AttackRate>2</AttackRate>
-		<DamagePerSecond>600</DamagePerSecond>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>745</DamagePerSecond>
 		<WeaponType>Hero</WeaponType>
-		<Projectile>fx_proj_bruteshot_03</Projectile>
-		<ImpactEffect doShockwaveAction="true">BruteShotImpact3</ImpactEffect>
-		<MaxVelocityLead>22</MaxVelocityLead>
-		<MaxRange>60</MaxRange>
-		<Accuracy>1</Accuracy>
-		<MaxDeviation>1</MaxDeviation>
-		<MovingAccuracy>1</MovingAccuracy>
-		<MovingMaxDeviation>1</MovingMaxDeviation>
-		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
-		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
-		<PhysicsForceMin>300</PhysicsForceMin>
-		<PhysicsForceMax>500</PhysicsForceMax>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>2</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>4</Radius>
-				<DamageRatio>60</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>8</Radius>
-				<DamageRatio>25</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
-		<Slow TargetType="NonFlying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
-		<EnableHeightBonusDamage />
+		<Projectile>fx_proj_plasmaturret</Projectile>
+		<ImpactEffect size="Medium">MediumPlasmaCannonImpact</ImpactEffect>
+		<MaxVelocityLead>21</MaxVelocityLead>
+		<MaxRange>65</MaxRange>
 		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="GroundVehicle">9</TargetPriority>
-		<TargetPriority type="Infantry">4</TargetPriority>
-		<TargetPriority type="TurretBuilding">3</TargetPriority>
-		<TargetPriority type="Building">1</TargetPriority>
+		<TargetPriority type="Infantry">9</TargetPriority>
+		<TargetPriority type="Aircraft">-1</TargetPriority>
+		<TargetPriority type="GroundVehicle">-1</TargetPriority>
+		<TargetPriority type="TurretBuilding">-1</TargetPriority>
+		<TargetPriority type="Building">-1</TargetPriority>
+		<EnableHeightBonusDamage />
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PreAttackCooldownMax>0.200000003</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0.5</PostAttackCooldownMin>
 		<PostAttackCooldownMax>1</PostAttackCooldownMax>
-		<VisualAmmo>4</VisualAmmo>
+		<Slow TargetType="NonFlying" MovementModifier="0.200000003" AOEEffect="false" AffectsBuildings="true" SmartTargeting="false">1.5f</Slow>
 	</Weapon>
 	<Weapon>
 		<Name>Grenade</Name>

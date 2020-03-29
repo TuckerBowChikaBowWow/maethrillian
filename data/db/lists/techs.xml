@@ -6994,12 +6994,6 @@
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_air_traininglich_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_corruptedlich_01" relativity="Absolute">
-				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">cov_air_corruptedlich_01</Target>
-			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_eliteCommando_01</Target>
 			</Effect>
@@ -9237,6 +9231,15 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_hereticleader_01</Target>
 			</Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_scarab_01" relativity="Absolute">
+                <Target type="ProtoUnit">cov_bldg_temple_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_air_corruptedlich_01" relativity="Absolute">
+                <Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_air_corruptedlich_01</Target>
+            </Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_hereticleader_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
