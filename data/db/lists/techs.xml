@@ -51,6 +51,12 @@
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
             </Effect>
@@ -100,6 +106,12 @@
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
             </Effect>
@@ -145,6 +157,15 @@
             <Effect type="UnlockableGodPower" tier="5">Up_Scorpion</Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">pow_for_andersultimate_01</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
@@ -193,6 +214,12 @@
            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
             </Effect>
@@ -236,6 +263,15 @@
             <Effect type="UnlockableGodPower" tier="4" prereq="Up_Grunt1">Up_Grunt2</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_JPack</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Wraith</Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_instant_upgrade</Target>
             </Effect>
@@ -366,6 +402,15 @@
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_goliath_upgrade1</Target>
             </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_generic_arbiter_eliteLeader_01</Target>
             </Effect>
@@ -374,6 +419,9 @@
             </Effect>
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">cov_veh_corruptedscarab_01</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">cov_veh_ghost_01</Target>
@@ -497,6 +545,15 @@
             </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_ghost_upgrade1</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_generic_arbiter_eliteLeader_01</Target>
@@ -622,6 +679,15 @@
             <Effect type="UnlockableGodPower" tier="5">Up_MethaneWagon</Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_instant_upgrade</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_destroyer_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_heavygruntLeader_01</Target>

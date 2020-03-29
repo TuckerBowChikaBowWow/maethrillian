@@ -2,7 +2,7 @@
     <Weapon>
         <Name>BeamLeft</Name>
         <AttackRate>100</AttackRate>
-        <DamagePerSecond>300</DamagePerSecond>
+        <DamagePerSecond>3000</DamagePerSecond>
         <WeaponType>Basic</WeaponType>
         <Projectile>fx_proj_retrieversmallbeam_01</Projectile>
         <ImpactEffect size="Medium">RetreiverSmallLaserBeam</ImpactEffect>
@@ -27,7 +27,7 @@
     <Weapon>
         <Name>BeamRight</Name>
         <AttackRate>100</AttackRate>
-        <DamagePerSecond>300</DamagePerSecond>
+        <DamagePerSecond>3000</DamagePerSecond>
         <WeaponType>Basic</WeaponType>
         <Projectile>fx_proj_retrieversmallbeam_01</Projectile>
         <ImpactEffect size="Medium">RetreiverSmallLaserBeam</ImpactEffect>
@@ -52,7 +52,7 @@
     <Weapon>
         <Name>SuperSentinelBeam</Name>
         <AttackRate>0.1</AttackRate>
-        <DamagePerSecond>600</DamagePerSecond>
+        <DamagePerSecond>60000</DamagePerSecond>
         <WeaponType>Basic</WeaponType>
         <Projectile>fx_proj_retrieversuperbeam_01</Projectile>
         <ImpactEffect size="Medium">RetreiverSuperBeam</ImpactEffect>
@@ -94,7 +94,7 @@
     <Weapon>
         <Name>AirSuperSentinelBeam</Name>
         <AttackRate>0.1</AttackRate>
-        <DamagePerSecond>600</DamagePerSecond>
+        <DamagePerSecond>60000</DamagePerSecond>
         <WeaponType>Basic</WeaponType>
         <Projectile>fx_proj_retrieversuperbeam_01</Projectile>
         <ImpactEffect size="Medium">RetreiverSuperBeamAir</ImpactEffect>
@@ -136,7 +136,7 @@
     <Weapon>
         <Name>GraviticPulse</Name>
         <AttackRate>0.1</AttackRate>
-        <DamagePerSecond>6000</DamagePerSecond>
+        <DamagePerSecond>6000000</DamagePerSecond>
         <UseDPSasDPA>
         </UseDPSasDPA>
         <WeaponType>Ultimates</WeaponType>
@@ -156,21 +156,21 @@
         <AOEData>
             <Hitbox>
                 <Type>Circle</Type>
-                <Radius>4</Radius>
+                <Radius>40</Radius>
                 <DamageRatio>100</DamageRatio>
                 <Origin>Target</Origin>
                 <FriendlyFire>false</FriendlyFire>
             </Hitbox>
             <Hitbox>
                 <Type>Circle</Type>
-                <Radius>12</Radius>
+                <Radius>120</Radius>
                 <DamageRatio>75</DamageRatio>
                 <Origin>Target</Origin>
                 <FriendlyFire>false</FriendlyFire>
             </Hitbox>
             <Hitbox>
                 <Type>Circle</Type>
-                <Radius>25</Radius>
+                <Radius>250</Radius>
                 <DamageRatio>50</DamageRatio>
                 <Origin>Target</Origin>
                 <FriendlyFire>false</FriendlyFire>

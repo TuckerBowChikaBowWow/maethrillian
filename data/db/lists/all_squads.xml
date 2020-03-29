@@ -2833,7 +2833,7 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>30</AIAttackRank>
 		<ActiveAbilityType>ScarabDisruptionField</ActiveAbilityType>
-		<BuildPoints>100</BuildPoints>
+		<BuildPoints>25</BuildPoints>
 		<Pop Type="Reactor">1</Pop>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,12.915,0" sizeX="12.0f" sizeY="3.0f">COV_Health</HPBar>
@@ -6891,8 +6891,9 @@
 		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
 		<HealValue>3</HealValue>
 		<MinimapIcon size="8">Triangle</MinimapIcon>
-		<Pop Type="Unit">30</Pop>
-		<Pop Type="Retriever">1</Pop>
+		<BuildPoints>25</BuildPoints>
+		<Pop Type="Reactor">1</Pop>
+		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,3.07500005,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -6901,7 +6902,6 @@
 		</Units>
 		<Flag>DiesWhenFrozen</Flag>
 		<Flag>Repairable</Flag>
-		<Flag>InstantTrainWithRecharge</Flag>
 		<Flag>AlwaysAttackReviveUnits</Flag>
 		<Flag>KBAware</Flag>
 		<Flag>Forerunner</Flag>
