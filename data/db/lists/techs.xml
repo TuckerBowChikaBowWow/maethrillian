@@ -141,7 +141,6 @@
             <Effect type="UnlockableGodPower" tier="3" prereq="Up_Marine1">Up_Marine2</Effect>
             <Effect type="UnlockableGodPower" tier="4">DropJackRab</Effect>
             <Effect type="UnlockableGodPower" tier="4">Up_CryoMarines</Effect>
-            <Effect type="UnlockableGodPower" tier="4" prereq="Up_CryoMarines">Up_Rabbi1</Effect>
             <Effect type="UnlockableGodPower" tier="5">DropScorpion</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Scorpion</Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
@@ -149,6 +148,9 @@
             </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_mongoose_upgrade1</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
@@ -356,11 +358,13 @@
             <Effect type="UnlockableGodPower" tier="3">Drop_Hunter</Effect>
             <Effect type="UnlockableGodPower" tier="4">LekgoloSwarmHeal1</Effect>
             <Effect type="UnlockableGodPower" tier="4">Drop_Skitter</Effect>
-            <Effect type="UnlockableGodPower" tier="5">Up_Goliath</Effect>
-            <Effect type="UnlockableGodPower" tier="5" prereq="Up_Goliath">Up_Hunter</Effect>
+            <Effect type="UnlockableGodPower" tier="5">Up_Hunter</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Skitter</Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">cov_instant_upgrade</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">cov_goliath_upgrade1</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_generic_arbiter_eliteLeader_01</Target>
