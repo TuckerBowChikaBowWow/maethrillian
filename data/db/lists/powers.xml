@@ -23934,7 +23934,7 @@
 			<PowerType>AircraftPatrol</PowerType>
 			<AIPowerUseType>Healing</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
-			<Cost Supplies="125" Power="350" />
+			<Cost Supplies="125" Power="250" />
 			<AutoRecharge>150000</AutoRecharge>
 			<UIRadius>20</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -23964,12 +23964,12 @@
 				<Data type="bool" name="IgnorePlacement">true</Data>
 				<Data type="bool" name="RandomiseSpawnPoints">true</Data>
 				<Data type="bool" name="TargetStructuresOnly">false</Data>
-				<Data type="int" name="NumWaves">2</Data>
-				<Data type="float" name="TimeBetweenWaves">15</Data>
-				<Data type="int" name="NumAircraftPerWave">2</Data>
-				<Data type="float" name="SpawnRadius">16</Data>
+				<Data type="int" name="NumWaves">1</Data>
+				<Data type="float" name="TimeBetweenWaves">0</Data>
+				<Data type="int" name="NumAircraftPerWave">3</Data>
+				<Data type="float" name="SpawnRadius">8</Data>
 				<Data type="float" name="SpokeRotationOffset">0</Data>
-				<Data type="float" name="PatrolDuration">30</Data>
+				<Data type="float" name="PatrolDuration">20</Data>
 				<Data type="protosquad" name="AircraftSquad">cov_inf_lekgoloengineer_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_LekgoloHuragokSwarm_I</Data>
 			</DataLevel>
