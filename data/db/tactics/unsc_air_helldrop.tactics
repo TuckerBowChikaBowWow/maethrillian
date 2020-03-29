@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>BombingRunDamageOverTime</Name>
+		<DamagePerSecond>950</DamagePerSecond>
+		<WeaponType>LeaderPowerNonFlying</WeaponType>
+		<ThrowUnits />
+		<ThrowDamageParts />
+		<PhysicsLaunchAngleMin>10</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>20</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>1500</PhysicsForceMin>
+		<PhysicsForceMax>2000</PhysicsForceMax>
+		<ReapplyDamageOverArea />
+		<Shockwave duration="20" />
+		<AOERadius>10</AOERadius>
+	</Weapon>
+	<Weapon>
+		<Name>Artillery</Name>
+		<DamagePerSecond>300</DamagePerSecond>
+		<WeaponType>leaderpower</WeaponType>
+		<Projectile>unsc_air_odstPodhelldrop</Projectile>
+		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.5" yawpitchstrength="4" rollstrength="1.5" rotationfrequency="7" translationstrength="0" translationfrequency="6" />
+		<ImpactRumble leftRumbleType="Decline" leftStrength="1" rightRumbleType="Decline" rightStrength="1" duration="0.300000012" />
+		<UseDPSasDPA />
+		<ImpactEffect size="Medium" doShockwaveAction="true">NapalmL1Impact</ImpactEffect>
+		<Slow TargetType="NonFlying" MovementModifier="0.4" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">3.0f</Daze>
+		<MaxRange>92.25</MaxRange>
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>10</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Attacker</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+		</AOEData>
+	</Weapon>
+	<Action>
+		<Name>BombingRunDamageOverTimeAction</Name>
+		<Weapon>BombingRunDamageOverTime</Weapon>
+	</Action>
+	<Action>
+		<Default>true</Default>
+		<Name>GenericInfoAttackAction</Name>
+		<Weapon>Artillery</Weapon>
+	</Action>
+	<Tactic />
+</TacticData>
