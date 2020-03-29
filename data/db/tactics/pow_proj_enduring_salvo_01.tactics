@@ -2,9 +2,9 @@
 <TacticData>
 	<Weapon>
 		<Name>ScatterBomb</Name>
-		<DamagePerSecond>800</DamagePerSecond>
+		<DamagePerSecond>700</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>LeaderPowerEnduringsalvo</WeaponType>
+		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>pow_proj_returned_plasma_01</Projectile>
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.100000001" fadeout="0.300000012" yawpitchstrength="3" rollstrength="1.5" rotationfrequency="8" translationstrength="2" translationfrequency="3" />
 		<ImpactEffect size="Medium">enduringSalvoImpact</ImpactEffect>
@@ -19,8 +19,8 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>13</Radius>
-				<DamageRatio>60</DamageRatio>
+				<Radius>12</Radius>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<IgnoreY>true</IgnoreY>

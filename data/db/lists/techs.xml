@@ -163,70 +163,6 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="cov_grunt_drop_upgrade1" type="Normal">
-        <Flag>Shadow</Flag>
-        <DBID>1915</DBID>
-        <DisplayNameID>27806</DisplayNameID>
-        <RolloverTextID>27807</RolloverTextID>
-        <PrereqTextID>243</PrereqTextID>
-        <ResearchPoints>30</ResearchPoints>
-        <Status>OBTAINABLE</Status>
-        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-        <Prereqs>
-            <TechStatus status="Active">cov_grunt_upgrade2</TechStatus>
-        </Prereqs>
-        <Effects>
-            <Effect type="Data" amount="0" subtype="PowerLevel" power="CovSpiritGunship1" relativity="Absolute">
-                <Target type="Player" />
-            </Effect>
-            <Effect type="Data" amount="0" subtype="PowerLevel" power="CovSpiritGunship2" relativity="Absolute">
-                <Target type="Player" />
-            </Effect>
-        </Effects>
-    </Tech>
-    <Tech name="cov_jpb_drop_upgrade1" type="Normal">
-        <Flag>Shadow</Flag>
-        <DBID>1915</DBID>
-        <DisplayNameID>27806</DisplayNameID>
-        <RolloverTextID>27807</RolloverTextID>
-        <PrereqTextID>243</PrereqTextID>
-        <ResearchPoints>30</ResearchPoints>
-        <Status>OBTAINABLE</Status>
-        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-        <Prereqs>
-            <TechStatus status="Active">cov_bruteJumpPack_upgrade3</TechStatus>
-        </Prereqs>
-        <Effects>
-            <Effect type="Data" amount="2" subtype="PowerLevel" power="CovSpiritGunship1" relativity="Absolute">
-                <Target type="Player" />
-            </Effect>
-            <Effect type="Data" amount="2" subtype="PowerLevel" power="CovSpiritGunship2" relativity="Absolute">
-                <Target type="Player" />
-            </Effect>
-        </Effects>
-    </Tech>
-    <Tech name="cov_grunt_jpb_drop_upgrade1" type="Normal">
-        <Flag>Shadow</Flag>
-        <DBID>1915</DBID>
-        <DisplayNameID>27806</DisplayNameID>
-        <RolloverTextID>27807</RolloverTextID>
-        <PrereqTextID>243</PrereqTextID>
-        <ResearchPoints>30</ResearchPoints>
-        <Status>OBTAINABLE</Status>
-        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
-        <Prereqs>
-            <TechStatus status="Active">cov_grunt_drop_upgrade1</TechStatus>
-            <TechStatus status="Active">cov_jpb_drop_upgrade1</TechStatus>
-        </Prereqs>
-        <Effects>
-            <Effect type="Data" amount="3" subtype="PowerLevel" power="CovSpiritGunship1" relativity="Absolute">
-                <Target type="Player" />
-            </Effect>
-            <Effect type="Data" amount="3" subtype="PowerLevel" power="CovSpiritGunship2" relativity="Absolute">
-                <Target type="Player" />
-            </Effect>
-        </Effects>
-    </Tech>
 	<Tech name="unsc_isabel_nuke_buff_01" type="Normal">
 		<DisplayNameID>27088</DisplayNameID>
 		<RolloverTextID>27100</RolloverTextID>
@@ -10121,7 +10057,7 @@
 			</Effect>
 		</Effects>
 	</Tech>
-	<Tech name="_POWER_InstantNukeTech" type="Normal">
+	<Tech name="_POWER_InstantNukeTech_unsc" type="Normal">
 		<DBID>1963</DBID>
 		<DisplayNameID>26016</DisplayNameID>
 		<RolloverTextID>26016</RolloverTextID>
@@ -10320,6 +10256,160 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="_POWER_InstantNukeTech_covy" type="Normal">
+		<DBID>1963</DBID>
+		<DisplayNameID>26016</DisplayNameID>
+		<RolloverTextID>26016</RolloverTextID>
+		<PrereqTextID>26016</PrereqTextID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Effects>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="Unbrk_ScatterBeam1_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="Unbrk_ScatterBeam1_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="Unbrk_ScatterBeam1_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="Unbrk_ScatterBeam2_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="Unbrk_ScatterBeam2_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="Unbrk_ScatterBeam2_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="Unbrk_ScatterBeam3_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="Unbrk_ScatterBeam3_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="Unbrk_ScatterBeam3_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="CovCleansingBeamPath1_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="CovCleansingBeamPath1_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="CovCleansingBeamPath1_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="CovCleansingBeamPath2_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="CovCleansingBeamPath2_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="CovCleansingBeamPath2_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="CovCleansingBeamPath3_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="CovCleansingBeamPath3_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="CovCleansingBeamPath3_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="CorruptedVortex1_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="CorruptedVortex1_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="CorruptedVortex1_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="CorruptedVortex2_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="CorruptedVortex2_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="CorruptedVortex2_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="CorruptedVortex3_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="CorruptedVortex3_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="CorruptedVortex3_mp" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="CorruptedCataclysm_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="CorruptedCataclysm_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="CorruptedCataclysm_MP" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="CovPlanetaryCleansing" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="CovPlanetaryCleansing" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="CovPlanetaryCleansing" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="CovInvulnerability" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="CovInvulnerability" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="CovInvulnerability" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="CovBansheePatrol" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="CovBansheePatrol" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="CovBansheePatrol" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="ArbiterPlasmaBolt1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="ArbiterPlasmaBolt1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="ArbiterPlasmaBolt1" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="ArbiterPlasmaBolt2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="ArbiterPlasmaBolt2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="ArbiterPlasmaBolt2" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerRechargeTime" power="ArbiterPlasmaBolt3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Supplies" power="ArbiterPlasmaBolt3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="0.01" subtype="PowerCost" Resource="Power" power="ArbiterPlasmaBolt3" relativity="Percent">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="test_LeaderUNSC_nuke_upgrades" type="Normal">
 		<DBID>2041</DBID>
 		<DisplayNameID>1072</DisplayNameID>
@@ -10410,18 +10500,9 @@
 			<Effect type="UnlockableGodPower" tier="4">UnscArkDefense1</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="UnscArkDefense1">UnscArkDefense2</Effect>
 			<Effect type="UnlockableGodPower" tier="4" prereq="UnscArkDefense2">UnscArkDefense3</Effect>
-			<Effect type="UnlockableGodPower" tier="4">InstantNukeTech</Effect>
+			<Effect type="UnlockableGodPower" tier="4">InstantNukeTechUNSC</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscArkCleansing</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscImmolation</Effect>
-			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
-				<Target type="ProtoSquad">unsc_inf_operative_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_operative_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_operative_01" relativity="Absolute">
-				<Target type="ProtoUnit">unsc_bldg_fieldArmory_02</Target>
-			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpalice_01</Target>
 			</Effect>
@@ -10499,22 +10580,24 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
-			<Effect type="UnlockableGodPower" tier="1">CovRaidTech1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="CovRaidTech1">CovRaidTech2</Effect>
-			<Effect type="UnlockableGodPower" tier="1">CovTeleport1</Effect>
-			<Effect type="UnlockableGodPower" tier="2">CovScoutMine1</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="CovScoutMine1">CovScoutMine2</Effect>
-			<Effect type="UnlockableGodPower" tier="2">CovExtraction1</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="CovExtraction1">CovExtraction2</Effect>
+			<Effect type="UnlockableGodPower" tier="1">CovInvulnerability</Effect>
+			<Effect type="UnlockableGodPower" tier="1">ArbiterConduitofRage1</Effect>
+			<Effect type="UnlockableGodPower" tier="2">ArbiterPlasmaBolt1</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt1">ArbiterPlasmaBolt2</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt2">ArbiterPlasmaBolt3</Effect>
+			<Effect type="UnlockableGodPower" tier="2">CorruptedVortex1_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="CorruptedVortex1_mp">CorruptedVortex2_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="2" prereq="CorruptedVortex2_mp">CorruptedVortex3_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="3">CovCleansingBeamPath1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath1_MP">CovCleansingBeamPath2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="CovCleansingBeamPath2_MP">CovCleansingBeamPath3_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="3">CovAdvancedCloaking1</Effect>
-			<Effect type="UnlockableGodPower" tier="3" prereq="CovAdvancedCloaking1">CovAdvancedCloaking2</Effect>
-			<Effect type="UnlockableGodPower" tier="4">CovSpiritSupport1</Effect>
+			<Effect type="UnlockableGodPower" tier="3">Unbrk_ScatterBeam1_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam1_mp">Unbrk_ScatterBeam2_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam2_mp">Unbrk_ScatterBeam3_mp</Effect>
+			<Effect type="UnlockableGodPower" tier="4">CorruptedCataclysm_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="4">CovBansheePatrol</Effect>
-			<Effect type="UnlockableGodPower" tier="5">CovInvisibleArmy</Effect>
-			<Effect type="UnlockableGodPower" tier="5">CovSlipstreamRift</Effect>
+			<Effect type="UnlockableGodPower" tier="5">InstantNukeTechCovy</Effect>
+			<Effect type="UnlockableGodPower" tier="5">CovPlanetaryCleansing</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
 			</Effect>
@@ -10523,6 +10606,24 @@
 			</Effect>
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">cov_shipmaster_gruntsquad</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_brutegrenadier_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_brutegrenadier_upgrade1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_brutegrenadier_upgrade2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_generic_suicideGrunt" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_suicideGrunt_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_suicideGrunt_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_barracks_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_ghost_upgrade1" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_builder_01</Target>
@@ -18652,59 +18753,6 @@
 			</Effect>
 			<Effect type="Data" amount="2.20000005" subtype="Damage" relativity="Percent">
 				<Target type="ProtoUnit">Military</Target>
-			</Effect>
-		</Effects>
-	</Tech>
-	<Tech name="cpgn_M1_DecimusStopGarrison" type="Normal">
-		<DBID>1963</DBID>
-		<DisplayNameID>26016</DisplayNameID>
-		<RolloverTextID>26016</RolloverTextID>
-		<PrereqTextID>26016</PrereqTextID>
-		<ResearchPoints>0</ResearchPoints>
-		<Status>OBTAINABLE</Status>
-		<Effects>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="Garrison" relativity="Absolute">
-				<Target type="ProtoUnit">cov_inf_bruteHonour_01</Target>
-			</Effect>
-		</Effects>
-	</Tech>
-	<Tech name="enable_M02_hijack_tutorial" type="Normal">
-		<Effects>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="GroundPoundAction" relativity="Assign">
-				<Target type="ProtoUnit">cpgn_inf_spartanSniper_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="SpartanLaserAttackAction" relativity="Assign">
-				<Target type="ProtoUnit">cpgn_inf_spartanSniper_01</Target>
-			</Effect>
-		</Effects>
-	</Tech>
-	<Tech name="disable_M02_hijack_tutorial" type="Normal">
-		<Effects>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="GroundPoundAction" relativity="Assign">
-				<Target type="ProtoUnit">cpgn_inf_spartanSniper_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="SpartanLaserAttackAction" relativity="Assign">
-				<Target type="ProtoUnit">cpgn_inf_spartanSniper_01</Target>
-			</Effect>
-		</Effects>
-	</Tech>
-	<Tech name="M02_shortrange_groundpound_on" type="Normal">
-		<Effects>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="GroundPoundAction" relativity="Assign">
-				<Target type="ProtoUnit">cpgn_inf_spartanSniper_01</Target>
-			</Effect>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="ShortRangeGroundPoundAction" relativity="Assign">
-				<Target type="ProtoUnit">cpgn_inf_spartanSniper_01</Target>
-			</Effect>
-		</Effects>
-	</Tech>
-	<Tech name="M02_shortrange_groundpound_off" type="Normal">
-		<Effects>
-			<Effect type="Data" amount="1" subtype="ActionEnable" action="GroundPoundAction" relativity="Assign">
-				<Target type="ProtoUnit">cpgn_inf_spartanSniper_01</Target>
-			</Effect>
-			<Effect type="Data" amount="0" subtype="ActionEnable" action="ShortRangeGroundPoundAction" relativity="Assign">
-				<Target type="ProtoUnit">cpgn_inf_spartanSniper_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
