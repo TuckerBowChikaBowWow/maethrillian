@@ -6,7 +6,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="500" Power="150" />
 			<Pop type="Unit">13</Pop>
-			<AutoRecharge>60000</AutoRecharge>
+			<AutoRecharge>270000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -49,12 +49,27 @@
 				<Data type="float" name="AreaDropRandomPosOffset">10</Data>
 				<Data type="bool" name="OneProjectilePerUnit">true</Data>
 				<Data type="bool" name="CanDropOnSquads">true</Data>
-				<Data type="protoobject" name="Telegraph">vfx_miscvfx_telegraph_telegraphrad30m1-5s</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_OFF_Barrage_I</Data>
 				<Data type="bool" name="OverrideProjectileLaunchDir">true</Data>
 				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>flood_inf_infected_hellbr_01</ProtoSquadID>
+						<ProjectileOverride>pow_proj_bitsofship_01</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_assaultrifle_01</ProtoSquadID>
+						<ProjectileOverride>pow_proj_bitsofship_01</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_assaultrifle_01</ProtoSquadID>
+						<ProjectileOverride>pow_proj_bitsofship_01</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_assaultrifle_01</ProtoSquadID>
+						<ProjectileOverride>pow_proj_bitsofship_01</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_assaultrifle_01</ProtoSquadID>
 						<ProjectileOverride>pow_proj_bitsofship_01</ProjectileOverride>
 					</Drop>
 					<Drop>
@@ -66,11 +81,19 @@
 						<ProjectileOverride>pow_proj_floodbitsofship_02</ProjectileOverride>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infected_humelee_01</ProtoSquadID>
+						<ProtoSquadID>flood_inf_infected_assaultrifle_01</ProtoSquadID>
 						<ProjectileOverride>pow_proj_floodbitsofship_03</ProjectileOverride>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>flood_inf_infected_humelee_01</ProtoSquadID>
+						<ProtoSquadID>flood_inf_infected_assaultrifle_02</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbitsofship_04</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_assaultrifle_01</ProtoSquadID>
+						<ProjectileOverride>pow_proj_floodbitsofship_03</ProjectileOverride>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>flood_inf_infected_assaultrifle_02</ProtoSquadID>
 						<ProjectileOverride>pow_proj_floodbitsofship_04</ProjectileOverride>
 					</Drop>
 					<Drop>
@@ -260,7 +283,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="100" Power="0" />
 			<Pop type="Unit">0</Pop>
-			<AutoRecharge>350000</AutoRecharge>
+			<AutoRecharge>300000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
@@ -316,7 +339,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Pop type="Unit">8</Pop>
 			<Cost Supplies="600" Power="0" />
-			<AutoRecharge>330000</AutoRecharge>
+			<AutoRecharge>300000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -408,7 +431,7 @@
 			<SoundName>TurretDrop</SoundName>
 			<Cost Supplies="150" Power="0" />
 			<Pop type="Unit">0</Pop>
-			<AutoRecharge>470000</AutoRecharge>
+			<AutoRecharge>340000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5014</DisplayNameID>
