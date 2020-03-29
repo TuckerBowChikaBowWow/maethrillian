@@ -163,6 +163,70 @@
 			</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="cov_grunt_drop_upgrade1" type="Normal">
+        <Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>27806</DisplayNameID>
+        <RolloverTextID>27807</RolloverTextID>
+        <PrereqTextID>243</PrereqTextID>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Prereqs>
+            <TechStatus status="Active">cov_grunt_upgrade2</TechStatus>
+        </Prereqs>
+        <Effects>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="CovSpiritGunship1" relativity="Absolute">
+                <Target type="Player" />
+            </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="CovSpiritGunship2" relativity="Absolute">
+                <Target type="Player" />
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="cov_jpb_drop_upgrade1" type="Normal">
+        <Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>27806</DisplayNameID>
+        <RolloverTextID>27807</RolloverTextID>
+        <PrereqTextID>243</PrereqTextID>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Prereqs>
+            <TechStatus status="Active">cov_bruteJumpPack_upgrade3</TechStatus>
+        </Prereqs>
+        <Effects>
+            <Effect type="Data" amount="2" subtype="PowerLevel" power="CovSpiritGunship1" relativity="Absolute">
+                <Target type="Player" />
+            </Effect>
+            <Effect type="Data" amount="2" subtype="PowerLevel" power="CovSpiritGunship2" relativity="Absolute">
+                <Target type="Player" />
+            </Effect>
+        </Effects>
+    </Tech>
+    <Tech name="cov_grunt_jpb_drop_upgrade1" type="Normal">
+        <Flag>Shadow</Flag>
+        <DBID>1915</DBID>
+        <DisplayNameID>27806</DisplayNameID>
+        <RolloverTextID>27807</RolloverTextID>
+        <PrereqTextID>243</PrereqTextID>
+        <ResearchPoints>30</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <Prereqs>
+            <TechStatus status="Active">cov_grunt_drop_upgrade1</TechStatus>
+            <TechStatus status="Active">cov_jpb_drop_upgrade1</TechStatus>
+        </Prereqs>
+        <Effects>
+            <Effect type="Data" amount="3" subtype="PowerLevel" power="CovSpiritGunship1" relativity="Absolute">
+                <Target type="Player" />
+            </Effect>
+            <Effect type="Data" amount="3" subtype="PowerLevel" power="CovSpiritGunship2" relativity="Absolute">
+                <Target type="Player" />
+            </Effect>
+        </Effects>
+    </Tech>
 	<Tech name="unsc_isabel_nuke_buff_01" type="Normal">
 		<DisplayNameID>27088</DisplayNameID>
 		<RolloverTextID>27100</RolloverTextID>
@@ -5118,7 +5182,7 @@
         </Effects>
     </Tech>
     <Tech name="cov_bruteHonoursiphon_upgrade0" type="Normal">
-    <Flag>Shadow</Flag>
+    	<Flag>Shadow</Flag>
         <DBID>1915</DBID>
         <DisplayNameID>27806</DisplayNameID>
         <RolloverTextID>27807</RolloverTextID>
@@ -14327,10 +14391,10 @@
 			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.85000002" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.85000002" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_impervioushunter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="TauntAction" relativity="Absolute">
@@ -14759,10 +14823,10 @@
 			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_arbiter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.85000002" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_arbiter_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.85000002" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_arbiter_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="FiendishReturn" relativity="Absolute">
@@ -15395,10 +15459,10 @@
 			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_mortarwarlord_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.79999995" subtype="Hitpoints" relativity="Percent">
+			<Effect type="Data" amount="1.8" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_mortarwarlord_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.79999995" subtype="Shieldpoints" relativity="Percent">
+			<Effect type="Data" amount="1.8" subtype="Shieldpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_inf_mortarwarlord_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="RepairOther3" relativity="Absolute">

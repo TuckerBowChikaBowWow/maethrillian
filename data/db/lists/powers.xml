@@ -10912,7 +10912,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Circle</PatrolPatternType>
 			<Cost Supplies="600" Power="200" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>240000</AutoRecharge>
 			<UIRadius>35</UIRadius>
 			<Decal>AOE_Large</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -10944,7 +10944,6 @@
 				<Data type="int" name="NumWaves">1</Data>
 				<Data type="float" name="TimeBetweenWaves">0</Data>
 				<Data type="int" name="NumAircraftPerWave">7</Data>
-				<Data type="int" name="SentinelSynergyBonus">1</Data>
 				<Data type="float" name="SpawnRadius">35</Data>
 				<Data type="float" name="SpokeRotationOffset">10</Data>
 				<Data type="float" name="PatrolDuration">45</Data>
@@ -33049,9 +33048,9 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
-			<Pop type="Unit">4</Pop>
-			<Cost Supplies="240" Power="60" />
-			<AutoRecharge>165000</AutoRecharge>
+			<Pop type="Unit">10</Pop>
+			<Cost Supplies="530" Power="200" />
+			<AutoRecharge>20000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -33071,7 +33070,7 @@
 				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
 				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
 			</FlashUI>
-			<DataLevel level="0">
+			<BaseDataLevel>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -33079,15 +33078,76 @@
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
 				<Data type="int" name="NumGunships">1</Data>
-				<Data type="float" name="WaitDuration">3</Data>
-				<Data type="protoobject" name="Gunship">cov_air_spiritgunship_01</Data>
+				<Data type="float" name="WaitDuration">30</Data>
+				<Data type="protoobject" name="Gunship">cov_air_ShipmasterGunship_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_OFF_SpiritAssault_I</Data>
 				<Data type="unitdrops" name="UnitDrops">
+			</BaseDataLevel>
+			<DataLevel level="0">
 					<Drop>
-						<ProtoSquadID>cov_inf_suicidegrunt_01</ProtoSquadID>
+						<ProtoSquadID>cov_inf_grunt_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>cov_inf_suicidegrunt_01</ProtoSquadID>
+						<ProtoSquadID>cov_inf_grunt_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_01</ProtoSquadID>	
+					</Drop>
+				</Data>
+			</DataLevel>
+			<DataLevel level="1">
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_01</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_01</ProtoSquadID>	
+					</Drop>
+				</Data>
+			</DataLevel>
+			<DataLevel level="2">
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_02</ProtoSquadID>	
+					</Drop>
+				</Data>
+			</DataLevel>
+			<DataLevel level="3">
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_02</ProtoSquadID>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_02</ProtoSquadID>	
 					</Drop>
 				</Data>
 			</DataLevel>
@@ -33097,9 +33157,9 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>Orbital</AIPowerUseType>
-			<Pop type="Unit">7</Pop>
-			<Cost Supplies="375" Power="140" />
-			<AutoRecharge>165000</AutoRecharge>
+			<Pop type="Unit">15</Pop>
+			<Cost Supplies="630" Power="250" />
+			<AutoRecharge>20000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Drop</Decal>
 			<ShowTransportArrows>true</ShowTransportArrows>
@@ -33119,29 +33179,127 @@
 				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
 				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
 			</FlashUI>
-			<DataLevel level="0">
+			<BaseDataLevel>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
 				<Data type="sound" name="HudLastFireSound" />
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
-				<Data type="int" name="NumGunships">1</Data>
-				<Data type="float" name="WaitDuration">3</Data>
-				<Data type="protoobject" name="Gunship">cov_air_spiritgunship_01</Data>
+				<Data type="int" name="NumGunships">2</Data>
+				<Data type="float" name="WaitDuration">30</Data>
+				<Data type="protoobject" name="Gunship">cov_air_ShipmasterGunship_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_BAN_OFF_SpiritAssault_II</Data>
+			</BaseDataLevel>
+			<DataLevel level="0">
 				<Data type="unitdrops" name="UnitDrops">
 					<Drop>
-						<ProtoSquadID>cov_inf_suicidegrunt_02</ProtoSquadID>
+						<ProtoSquadID>cov_inf_grunt_01</ProtoSquadID>
 						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
-						<ProtoSquadID>cov_inf_suicidegrunt_02</ProtoSquadID>
+						<ProtoSquadID>cov_inf_grunt_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_01</ProtoSquadID>
 						<VeterancyLevel>1</VeterancyLevel>
 					</Drop>
 					<Drop>
 						<ProtoSquadID>cov_inf_bruteJumpPack_01</ProtoSquadID>
-						<VeterancyLevel>2</VeterancyLevel>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>	
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>	
+					</Drop>
+				</Data>
+			</DataLevel>
+			<DataLevel level="1">
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>	
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>	
+					</Drop>
+				</Data>
+			</DataLevel>
+			<DataLevel level="2">
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_01</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>	
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>	
+					</Drop>
+				</Data>
+			</DataLevel>
+			<DataLevel level="3">
+				<Data type="unitdrops" name="UnitDrops">
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_grunt_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>	
+					</Drop>
+					<Drop>
+						<ProtoSquadID>cov_inf_bruteJumpPack_02</ProtoSquadID>
+						<VeterancyLevel>1</VeterancyLevel>	
 					</Drop>
 				</Data>
 			</DataLevel>
