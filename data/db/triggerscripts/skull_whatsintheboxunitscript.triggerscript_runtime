@@ -41,7 +41,7 @@
 		<TriggerVar ID="#db9de462-debd-45d9-92a6-dc1dd4e07f7d" Type="Unit" Name="UnitVar2" IsNull="true" />
 		<TriggerVar ID="#d2f9cbaa-90ac-4c98-85e6-205e7f24c976" Type="Player" Name="PlayerToGift" IsNull="false" />
 		<TriggerVar ID="#d33cbb74-bf98-4518-a61e-dbea39b3cee4" Type="Trigger" Name="TriggerVar8" IsNull="false">#da06d942-0c77-4eac-be42-7c1ff999ca6f</TriggerVar>
-		<TriggerVar ID="#f4bbd5e1-41cb-4a68-93f8-0af31590ae1b" Type="Leader" Name="" IsNull="false">Anders</TriggerVar>
+		<TriggerVar ID="#f4bbd5e1-41cb-4a68-93f8-0af31590ae1b" Type="Leader" Name="" IsNull="false">Forge</TriggerVar>
 		<TriggerVar ID="#6cc90cdb-0670-4120-98e3-5154db18ac19" Type="Operator" Name="" IsNull="false">LessThan</TriggerVar>
 		<TriggerVar ID="#f9d68901-a7c5-47d7-a7c2-95714accd428" Type="Operator" Name="" IsNull="false">LessThan</TriggerVar>
 		<TriggerVar ID="#abb360ed-1c56-4d1c-b5ac-5317d6e01c00" Type="Trigger" Name="TriggerVar9" IsNull="false">#10339e9a-4452-4d35-bf4e-7c5f984138b7</TriggerVar>
@@ -107,7 +107,6 @@
 		<TriggerVar ID="#d4073aef-f939-4558-99e6-3e420772fb72" Type="Float" Name="AlphaVar1" IsNull="true" />
 		<TriggerVar ID="#2161922e-7b22-466a-bee3-3df3eb30f784" Type="Color" Name="ColorVar1" IsNull="true" />
 		<TriggerVar ID="#63448bfe-0760-47c4-9822-e5509b5f0b68" Type="Bool" Name="" IsNull="false">True</TriggerVar>
-		<TriggerVar ID="#forge" Type="Leader" Name="" IsNull="false">Forge</TriggerVar>
 		<TriggerVar ID="#93876be0-6d80-4ffd-890e-b1ea39f70b5e" Type="Leader" Name="" IsNull="false">Johnson</TriggerVar>
 		<TriggerVar ID="#e82e9515-4ce9-4a35-996a-7de139786157" Type="Leader" Name="" IsNull="false">LeaderJerome</TriggerVar>
 		<TriggerVar ID="#9f8ad34a-f3b4-4be0-813f-8ffdfc06986f" Type="Leader" Name="" IsNull="false">Serina</TriggerVar>
@@ -362,10 +361,6 @@
 					<Condition ID="#acd5ce5b-dfee-49d7-94bb-43f02dee2bb9" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
 						<Input Name="Player" SigID="1" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Input>
 						<Input Name="Leader" SigID="2" Optional="false">#c6a86284-24ab-4815-ab8e-1c68a361097a</Input>
-					</Condition>
-					<Condition ID="#forge-trigger" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
-						<Input Name="Player" SigID="1" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Input>
-						<Input Name="Leader" SigID="2" Optional="false">#forge</Input>
 					</Condition>
 				</Or>
 			</TriggerConditions>
