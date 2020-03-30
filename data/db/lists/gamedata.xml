@@ -332,6 +332,12 @@
 	<InfantryCorpseDecayTime>9999999999999</InfantryCorpseDecayTime>
 	<CorpseSinkingSpacing>3</CorpseSinkingSpacing>
 	<InfectionMap>
+		<InfectionMapEntry targetUnit="unsc_veh_forgehog_01">
+			<Infected weight="1" infectedUnit="unsc_veh_forgehog_01" infectedSquad="unsc_veh_forgehog_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
+		<InfectionMapEntry targetUnit="unsc_inf_forgespawn_01">
+			<Infected weight="1" infectedUnit="unsc_inf_forgespawn_01" infectedSquad="unsc_inf_forgespawn_01" deathByInfectionAnim="Transform" />
+		</InfectionMapEntry>
 		<InfectionMapEntry targetUnit="cov_inf_specialhonor_01">
 			<Infected weight="1" infectedUnit="cov_inf_specialhonor_01" infectedSquad="cov_inf_specialhonor_01" deathByInfectionAnim="Transform" />
 		</InfectionMapEntry>

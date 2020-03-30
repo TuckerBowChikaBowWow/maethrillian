@@ -112,6 +112,7 @@
 				<TriggerVar ID="#d4073aef-f939-4558-99e6-3e420772fb72" Type="Float" Name="AlphaVar1" IsNull="true" />
 				<TriggerVar ID="#2161922e-7b22-466a-bee3-3df3eb30f784" Type="Color" Name="ColorVar1" IsNull="true" />
 				<TriggerVar ID="#63448bfe-0760-47c4-9822-e5509b5f0b68" Type="Bool" Name="" IsNull="false">True</TriggerVar>
+				<TriggerVar ID="#forge" Type="Leader" Name="" IsNull="false">Forge</TriggerVar>
 				<TriggerVar ID="#93876be0-6d80-4ffd-890e-b1ea39f70b5e" Type="Leader" Name="" IsNull="false">Johnson</TriggerVar>
 				<TriggerVar ID="#e82e9515-4ce9-4a35-996a-7de139786157" Type="Leader" Name="" IsNull="false">LeaderJerome</TriggerVar>
 				<TriggerVar ID="#9f8ad34a-f3b4-4be0-813f-8ffdfc06986f" Type="Leader" Name="" IsNull="false">Serina</TriggerVar>
@@ -366,6 +367,10 @@
 							<Condition ID="#acd5ce5b-dfee-49d7-94bb-43f02dee2bb9" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
 								<Input Name="Player" SigID="1" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Input>
 								<Input Name="Leader" SigID="2" Optional="false">#c6a86284-24ab-4815-ab8e-1c68a361097a</Input>
+							</Condition>
+							<Condition ID="#forge-trigger" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+								<Input Name="Player" SigID="1" Optional="false">#d2f9cbaa-90ac-4c98-85e6-205e7f24c976</Input>
+								<Input Name="Leader" SigID="2" Optional="false">#forge</Input>
 							</Condition>
 						</Or>
 					</TriggerConditions>
