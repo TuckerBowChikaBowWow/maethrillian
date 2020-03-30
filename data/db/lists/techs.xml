@@ -29,6 +29,56 @@
             </Effect>
         </Effects>
     </Tech>
+     <Tech name="unsc_LeaderForge" type="Normal">
+        <DBID>1917</DBID>
+        <ResearchPoints>0</ResearchPoints>
+        <Status>UNOBTAINABLE</Status>
+        <Flag>Shadow</Flag>
+        <Effects>
+            <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
+            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
+            <Effect type="UnlockableGodPower" tier="1">UnscVehicleRecycle</Effect>
+            <Effect type="UnlockableGodPower" tier="2">DropMarines</Effect>
+            <Effect type="UnlockableGodPower" tier="2">Up_Marine1</Effect>
+            <Effect type="UnlockableGodPower" tier="2" prereq="Up_Marine1">Up_Marine2</Effect>
+            <Effect type="UnlockableGodPower" tier="3">UnscHogDrop</Effect>
+            <Effect type="UnlockableGodPower" tier="3">UnscSniperDrop</Effect>
+            <Effect type="UnlockableGodPower" tier="4">Jerome_LowPopInspire1</Effect>
+            <Effect type="UnlockableGodPower" tier="4">Up_Sniper</Effect>
+            <Effect type="UnlockableGodPower" tier="5">UnscGrizzlyBattalion</Effect>
+            <Effect type="UnlockableGodPower" tier="5">Up_Hog</Effect>
+           <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_veh_corruptedscarab_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="pow_for_andersultimate_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_instant_upgrade</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_omegateam_jerome_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_veh_serina_hero_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_veh_johnson_mantis_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+                <Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">gamemode_reparent_protos_mp</Target>
+            </Effect>
+        </Effects>
+    </Tech>
     <Tech name="unsc_LeaderFire" type="Normal">
         <DBID>1917</DBID>
         <ResearchPoints>0</ResearchPoints>
