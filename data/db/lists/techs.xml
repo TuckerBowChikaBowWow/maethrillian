@@ -13819,6 +13819,15 @@
 			<Effect type="Data" amount="1" subtype="MaxContained" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_veh_battleapc_01</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="ActionEnable" action="GunAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_veh_battleapc_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="GunUpgradeAttackAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_veh_battleapc_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="GunArmorPierceAction" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_veh_battleapc_01</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="unsc_serinahero_upgrade1" type="Normal">
@@ -15602,7 +15611,7 @@
 			<Effect type="SquadCounter" NewCounterName="WraithAPC_02">
 				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
 			</Effect>
-			<Effect type="Data" amount="4000" subtype="Shieldpoints" relativity="Absolute">
+			<Effect type="Data" amount="2500" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_wraithapc_01</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="LeechBeamAttackAction" relativity="Absolute">

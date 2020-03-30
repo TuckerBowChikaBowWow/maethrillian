@@ -29,21 +29,21 @@
 		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
 		<Filter>Medium</Filter>
 		<Slow TargetType="Military" MovementModifier="0.800000012" AOEEffect="false" SmartTargeting="false" AffectsBuildings="false">1.0f</Slow>
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1.29999995</PostAttackCooldownMax>
-		<LifeStealRatio shield="false">0.5</LifeStealRatio>
+		<PreAttackCooldownMin>0.5</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0</PostAttackCooldownMax>
+		<LifeStealRatio shield="false">0.4</LifeStealRatio>
 	</Weapon>
 	<Weapon>
 		<Name>LeechBeamUpgrade</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>95</DamagePerSecond>
+		<DamagePerSecond>110</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>vfx_episode2_units_leechBeam</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>65</MaxRange>
+		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>0</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
@@ -64,11 +64,11 @@
 		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
 		<Filter>Medium</Filter>
 		<Slow TargetType="Military" MovementModifier="0.800000012" AOEEffect="false" SmartTargeting="false" AffectsBuildings="false">1.0f</Slow>
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1.29999995</PostAttackCooldownMax>
-		<LifeStealRatio shield="false">0.75</LifeStealRatio>
+		<PreAttackCooldownMin>0.5</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0</PostAttackCooldownMax>
+		<LifeStealRatio shield="false">0.6</LifeStealRatio>
 	</Weapon>
 	<Weapon>
 		<Name>OnDeathDamageContained</Name>
