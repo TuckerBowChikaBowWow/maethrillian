@@ -11293,6 +11293,12 @@
 			<Effect type="UnlockableGodPower" tier="4">FloodGrizzlyBattalion</Effect>
 			<Effect type="UnlockableGodPower" tier="5">CovInvulnerability</Effect>
 			<Effect type="UnlockableGodPower" tier="5">FloodBuffAOM</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_ghost_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">flood_veh_infected_gorgon_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="AbilityDisabled" relativity="Absolute">
 				<Target type="ProtoUnit">flood_veh_infected_scorpion_01_base</Target>
 			</Effect>
