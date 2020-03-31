@@ -30,7 +30,7 @@
 	<Weapon>
 		<Name>GunUpgrade</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>65</DamagePerSecond>
+		<DamagePerSecond>1</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_chaingunapc_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -45,7 +45,6 @@
 		<EnableHeightBonusDamage />
 		<Hardpoint>Turret</Hardpoint>
 		<TargetPriority type="Infantry">7</TargetPriority>
-		<TargetPriority type="GroundVehicle">-1</TargetPriority>
 		<TargetPriority type="Aircraft">5</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<PreAttackCooldownMin>0.5</PreAttackCooldownMin>
@@ -57,10 +56,10 @@
 	<Weapon>
 		<Name>GunArmorPierce</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>91</DamagePerSecond>
+		<DamagePerSecond>900</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_chaingunapc_01</Projectile>
-		<ImpactEffect size="Small">GaussImpact</ImpactEffect>
+		<ImpactEffect size="Medium">CobraCannonImpact</ImpactEffect>
 		<MaxVelocityLead>27.6749992</MaxVelocityLead>
 		<MaxRange>50</MaxRange>
 		<MaxRangeThresholdFactor>1.10000002</MaxRangeThresholdFactor>
@@ -71,10 +70,7 @@
 		<MovingMaxDeviation>2</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Turret</Hardpoint>
-		<TargetPriority type="Infantry">-1</TargetPriority>
 		<TargetPriority type="GroundVehicle">10</TargetPriority>
-		<TargetPriority type="Aircraft">-1</TargetPriority>
-		<TargetPriority type="Building">-1</TargetPriority>
 		<PreAttackCooldownMin>0.5</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0</PostAttackCooldownMin>
