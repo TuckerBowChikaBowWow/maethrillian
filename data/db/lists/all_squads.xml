@@ -8588,6 +8588,100 @@
 		<RammingSpeedScalar>3</RammingSpeedScalar>
 		<RevvingSpeedThreshold>11</RevvingSpeedThreshold>
 	</Squad>
+	<Squad name="flood_veh_infected_ghost_01" dbid="16323274919161592429">
+		<CombatRank>2</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\veh_ghost</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3058</DisplayNameID>
+		<RolloverTextID>3059</RolloverTextID>
+		<RoleTextID>518</RoleTextID>
+		<PrereqTextID>240</PrereqTextID>
+		<SubSelectSort>705</SubSelectSort>
+		<LeashDistance>20</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>15.375</AggroDistance>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>2.20000005</AIAttackRank>
+		<ActiveAbilityType>Ram</ActiveAbilityType>
+		<Pop Type="Unit">3</Pop>
+		<Cost ResourceType="Supplies">180</Cost>
+		<Cost ResourceType="Power">10</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<BuildPoints>20</BuildPoints>
+		<HPBar offset="0,5.53499985,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_veh_infected_ghost_01</Unit>
+		</Units>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="0.100000001" max="4" />
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Ghost_01</Counters>
+		<RammingDistanceScalar>5</RammingDistanceScalar>
+		<RammingSpeedScalar>2</RammingSpeedScalar>
+		<RevvingSpeedThreshold>11</RevvingSpeedThreshold>
+		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
+	</Squad>
+	<Squad name="flood_veh_infected_gorgon_01" dbid="9688193681871967002">
+		<CombatRank>6</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>26140</DisplayNameID>
+		<RolloverTextID>26141</RolloverTextID>
+		<RoleTextID>505</RoleTextID>
+		<PrereqTextID>240</PrereqTextID>
+		<SubSelectSort>905</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>2.70000005</AIAttackRank>
+		<ActiveAbilityType>JumpAttack</ActiveAbilityType>
+		<Pop Type="Unit">5</Pop>
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+		<BuildPoints>22</BuildPoints>
+		<Cost ResourceType="Supplies">175</Cost>
+		<Cost ResourceType="Power">210</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
+		<HPBar offset="0,5.53499985,0">COV_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">flood_veh_infected_gorgon_01</Unit>
+		</Units>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="0.100000001" max="4" />
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Reaver_01</Counters>
+		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
+	</Squad>
 	<Squad name="flood_veh_infected_prowler_01_base" parent_element="flood_veh_infected_prowler_01_base_sp" dbid="10482678686722863570">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
