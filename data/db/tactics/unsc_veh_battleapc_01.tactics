@@ -30,7 +30,7 @@
 	<Weapon>
 		<Name>GunUpgrade</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>1</DamagePerSecond>
+		<DamagePerSecond>65</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_chaingunapc_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -47,6 +47,7 @@
 		<TargetPriority type="Infantry">7</TargetPriority>
 		<TargetPriority type="Aircraft">5</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
+		<TargetPriority type="GroundVehicle">-1</TargetPriority>
 		<PreAttackCooldownMin>0.5</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
 		<PostAttackCooldownMin>0</PostAttackCooldownMin>
@@ -56,7 +57,7 @@
 	<Weapon>
 		<Name>GunArmorPierce</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>900</DamagePerSecond>
+		<DamagePerSecond>78</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_chaingunapc_01</Projectile>
 		<ImpactEffect size="Medium">CobraCannonImpact</ImpactEffect>
@@ -80,13 +81,13 @@
 	<Weapon>
 		<Name>OnDeathDamageContained</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>5000</DamagePerSecond>
+		<DamagePerSecond>6500</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Explosive</WeaponType>
+		<WeaponType>Basic</WeaponType>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>10</Radius>
+				<Radius>12</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>true</FriendlyFire>
