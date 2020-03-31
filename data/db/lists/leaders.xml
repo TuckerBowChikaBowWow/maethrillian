@@ -29,6 +29,7 @@
         <Pop Type="Leader" Max="1">1</Pop>
         <Pop Type="HonorGuard" Max="3">1</Pop>
         <Pop Type="Reactor" Max="4">2</Pop>
+        <IsZeroCost>true</IsZeroCost>
     </Leader>
     <Leader Name="Forge" Icon="ui\game\icon\unsc\leader\Sergeant Forge" GUID="#18615C64-B6EB-4994-B2B0-3CDF739956BF">
         <Civ>UNSC</Civ>
@@ -45,7 +46,10 @@
         <Resource Type="Power">400</Resource>
         <StartingUnit Offset="0,0,0" BuildOther="gaia_bldg_lichspawner_johnson" DoppleOnStart="true">game_base_socket_01</StartingUnit>
         <StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_forgehog_01</StartingSquad>
-        <StartingSquad FlyIn="false" Offset="60,0,0">unsc_inf_forgespawn_02</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,0">cov_veh_ghost_01_base</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,0">cov_veh_ghost_01_base</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,0">cov_veh_gorgon_01_base</StartingSquad>
+        <StartingSquad FlyIn="false" Offset="60,0,0">cov_veh_gorgon_01_base</StartingSquad>
         <StartingSquad FlyIn="false" Offset="60,0,20">unsc_inf_forgespawn_01</StartingSquad>
         <RallyPointOffset>50,0,0</RallyPointOffset>
         <RepairRate>1</RepairRate>
