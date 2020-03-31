@@ -9,13 +9,10 @@
 				<file>units\covenant\vehicles\gorgon01\mesh_gorgon01</file>
 				<damagefile>units/covenant/vehicles/gorgon01/gorgon01</damagefile>
 			</asset>
-			<attach type="ModelRef" name="chopper01" tobone="bone_character_attach_0" frombone="GrannyRootBone_stormbruteleader01" syncanims="true" disregardorient="true" removeimmediately="false" />
-			<attach type="ModelRef" name="floodegg01" tobone="bone_character_attach_0" frombone="GrannyRootBone_stormbruteleader01" syncanims="true" disregardorient="true" removeimmediately="false" />
+			<attach type="ModelRef" name="prowler_turret" tobone="bone_character_attach_0" frombone="GrannyRootBone_stormbruteleader01" syncanims="true" disregardorient="true" removeimmediately="false" />
 			<attach type="ModelRef" name="RocketLauncher_Right" tobone="socketbone_rocket_right_0" frombone="GrannyRootBone_rocket_right_0" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="prowler_turret" tobone="socketbone_rocket_left_0" frombone="GrannyRootBone_rocket_left_0" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="ModelRef" name="AutocannonTurret" tobone="socketbone_cannon_turret_0" frombone="GrannyRootBone_cannon_turret_0" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="chopper01_gunleft" tobone="bone_vfx_LightCannon02" syncanims="false" disregardorient="false" removeimmediately="false" />
-			<attach type="ModelRef" name="chopper01_gunright" tobone="bone_vfx_LightCannon01" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="FoliageForceFile" name="Foliage/gorgon" tobone="bone_vfx_RightFootPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="FoliageForceFile" name="Foliage/gorgon" tobone="bone_vfx_LeftFootPoint" syncanims="false" disregardorient="false" removeimmediately="false" />
 			<attach type="LightFile" name="Lights/GorgonLightsCannon" tobone="bone_vfx_LightCannon01" syncanims="false" disregardorient="false" removeimmediately="false" />
