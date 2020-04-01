@@ -384,9 +384,9 @@
 	<Action>
 		<Name>SpawnSentinel1</Name>
 		<ActionType>SpawnSquad</ActionType>
-		<SquadType>unsc_air_forgedrone_01</SquadType>
+		<SquadType>unsc_veh_sniperdrone_01</SquadType>
 		<WorkRate>0</WorkRate>
-		<Count>2</Count>
+		<Count>1</Count>
 		<DroneAttach />
 	</Action>
 	<Tactic>
@@ -412,22 +412,8 @@
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
-			<TargetsGround />
-			<ContainsUnits />
-			<Action>UnloadContained</Action>
-			<SquadMode>Normal</SquadMode>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<ContainsUnits />
-			<Relation>Self</Relation>
-			<Action>UnloadContained</Action>
-			<SquadMode>Normal</SquadMode>
-		</TargetRule>
-		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>specialAttackAction</Action>
-			<RequireHavingGarrisonedSquads />
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>
