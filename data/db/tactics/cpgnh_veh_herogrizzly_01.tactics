@@ -4,9 +4,9 @@
 		<Name>LeftMachinegun</Name>
 		<AttackRate>0.25</AttackRate>
 		<DamagePerSecond>219</DamagePerSecond>
-		<WeaponType>GaussCannon</WeaponType>
-		<Projectile>fx_proj_guasschainGun_01</Projectile>
-		<ImpactEffect size="medium">GaussImpact</ImpactEffect>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_machineGun_01</Projectile>
+		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
 		<MaxVelocityLead>9.22500038</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -31,9 +31,9 @@
 		<Name>RightMachinegun</Name>
 		<AttackRate>0.25</AttackRate>
 		<DamagePerSecond>219</DamagePerSecond>
-		<WeaponType>GaussCannon</WeaponType>
-		<Projectile>fx_proj_guasschainGun_01</Projectile>
-		<ImpactEffect size="medium">GaussImpact</ImpactEffect>
+		<WeaponType>SmallArms</WeaponType>
+		<Projectile>fx_proj_machineGun_01</Projectile>
+		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
 		<MaxVelocityLead>9.22500038</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -58,9 +58,9 @@
 		<Name>LeftMissilePod</Name>
 		<AttackRate>0.25</AttackRate>
 		<DamagePerSecond>250</DamagePerSecond>
-		<WeaponType>Artillery</WeaponType>
-		<Projectile>fx_proj_foxcannon_01</Projectile>
-		<ImpactEffect size="Medium" alwaysHorizontal="true">LargeExplosionImpact</ImpactEffect>
+		<WeaponType>KinsanoGrenadeFire</WeaponType>
+		<Projectile>fx_proj_incendiarygrenade_01</Projectile>
+		<ImpactEffect doShockwaveAction="true" size="medium" alwaysHorizontal="true">IncendiaryGrenade</ImpactEffect>
 		<MaxVelocityLead>9.22500038</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -107,9 +107,9 @@
 		<Name>RightMissilePod</Name>
 		<AttackRate>0.25</AttackRate>
 		<DamagePerSecond>250</DamagePerSecond>
-		<WeaponType>Artillery</WeaponType>
-		<Projectile>fx_proj_foxcannon_01</Projectile>
-		<ImpactEffect size="Medium" alwaysHorizontal="true">LargeExplosionImpact</ImpactEffect>
+		<WeaponType>KinsanoGrenadeFire</WeaponType>
+		<Projectile>fx_proj_incendiarygrenade_01</Projectile>
+		<ImpactEffect doShockwaveAction="true" size="medium" alwaysHorizontal="true">IncendiaryGrenade</ImpactEffect>
 		<MaxVelocityLead>9.22500038</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -155,7 +155,7 @@
 	<Weapon>
 		<Name>LeftCannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>975</DamagePerSecond>
+		<DamagePerSecond>1250</DamagePerSecond>
 		<WeaponType>GrizzlyExplosive</WeaponType>
 		<Projectile>fx_proj_cannon_03</Projectile>
 		<ImpactEffect doShockwaveAction="true">NapalmFlameUpgrade</ImpactEffect>
@@ -198,7 +198,7 @@
 	<Weapon>
 		<Name>RightCannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>975</DamagePerSecond>
+		<DamagePerSecond>1250</DamagePerSecond>
 		<WeaponType>GrizzlyExplosive</WeaponType>
 		<Projectile>fx_proj_cannon_03</Projectile>
 		<ImpactEffect doShockwaveAction="true">NapalmFlameUpgrade</ImpactEffect>
@@ -241,11 +241,11 @@
 	<Weapon>
 		<Name>specialAttack</Name>
 		<AttackRate>30</AttackRate>
-		<DamagePerSecond>33500</DamagePerSecond>
+		<DamagePerSecond>55000</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>KinsanoGrenadeFire</WeaponType>
-		<Projectile>fx_proj_incendiarygrenade_01</Projectile>
-		<ImpactEffect doShockwaveAction="true" size="medium" alwaysHorizontal="true">IncendiaryGrenade</ImpactEffect>
+		<WeaponType>Ultimates</WeaponType>
+		<Projectile>fx_proj_vultureNuke_01</Projectile>
+		<ImpactEffect size="Large">LargeExplosionImpact</ImpactEffect>
 		<MaxVelocityLead>12.3000002</MaxVelocityLead>
 		<MinRange>3</MinRange>
 		<MaxRange>90</MaxRange>
@@ -288,7 +288,7 @@
 	<Action>
 		<Name>NapalmCharge</Name>
 		<ActionType>Charge</ActionType>
-		<DamageCharge>6</DamageCharge>
+		<DamageCharge>12</DamageCharge>
 	</Action>
 	<Action>
 		<Name>RightCannonAttackAction</Name>
@@ -316,6 +316,7 @@
 		<Weapon>RightMissilePod</Weapon>
 		<DontCheckOrientTolerance />
 		<CanOrientOwner>false</CanOrientOwner>
+		<ChargableDAOT />
 	</Action>
 	<Action>
 		<Name>LeftMissilePodAttackAction</Name>
@@ -324,6 +325,7 @@
 		<Weapon>LeftMissilePod</Weapon>
 		<DontCheckOrientTolerance />
 		<CanOrientOwner>false</CanOrientOwner>
+		<ChargableDAOT />
 	</Action>
 	<Action>
 		<Name>LeftMachinegunAttackAction</Name>

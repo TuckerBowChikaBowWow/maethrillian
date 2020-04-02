@@ -29,13 +29,13 @@
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
         <Effects>
             <Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="Percent">
-                <Target type="ProtoUnit">unsc_veh_forgehog_01</Target>
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
             </Effect>
             <Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_veh_forgehog_01</Target>
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
             </Effect>
             <Effect type="Data" amount="1.15" subtype="Shieldpoints" relativity="Percent">
-                <Target type="ProtoUnit">unsc_veh_forgehog_01</Target>
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
             </Effect>
         </Effects>
     </Tech>
@@ -11074,6 +11074,15 @@
             <Effect type="Data" amount="1" subtype="ActionEnable" action="SpawnSentinel1" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_veh_forgehog_01</Target>
             </Effect>
+            <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_forgehog_upgrade2" type="Normal">
@@ -11112,6 +11121,15 @@
             </Effect>
             <Effect type="Data" amount="1" subtype="ActionEnable" action="AreaBuff2" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_veh_forgehog_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
             </Effect>
         </Effects>
     </Tech>
@@ -11160,6 +11178,15 @@
             </Effect>
             <Effect type="SquadCounter" NewCounterName="Forgehog_02">
                 <Target type="ProtoSquad">unsc_veh_forgehog_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
             </Effect>
         </Effects>
     </Tech>
