@@ -138,6 +138,45 @@
 		<DamageModifiers damage="2" damageTaken="0.5" byCombatValue="false" />
 	</Action>
 	<Action>
+		<Name>VehicleTakeOver</Name>
+		<ActionType>Join</ActionType>
+		<WorkRange>3.07500005</WorkRange>
+		<MergeType>Ground</MergeType>
+		<ProtoObject>fx_hijacked</ProtoObject>
+		<JoinType revertDamagePct="0.5" veterancyOverride="true" levels="3" boardTime="8" unjoinMaxDist="25">Board</JoinType>
+		<DamageModifiers damage="2" damageTaken="0.5" byCombatValue="false" />
+		<Fatality attacker="HijackWraithIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_wraith_01</Fatality>
+		<Fatality attacker="HijackGhostIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_ghost_01</Fatality>
+		<Fatality attacker="HijackChopperIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_bruteChopper_01</Fatality>
+		<Fatality attacker="HijackGorgonIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_gorgon_01</Fatality>
+		<Fatality attacker="HijackLocustIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_locust_01</Fatality>
+		<Fatality attacker="HijackMarauderIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_prowler_01</Fatality>
+		<Fatality attacker="HijackMethaneWagonIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_grunt_methanewagon_01</Fatality>
+		<Fatality attacker="HijackLocustIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_rm_locust_02</Fatality>
+		<Fatality attacker="HijackWraithIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_rm_wraith_02</Fatality>
+		<Fatality attacker="HijackGhostIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_rm_ghost_01</Fatality>
+		<Fatality attacker="HijackChopperIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_rm_bruteChopper_02</Fatality>
+		<Fatality attacker="HijackMarauderIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_rm_prowler_01</Fatality>
+		<Fatality attacker="HijackMarauderIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_rm_prowler_02</Fatality>
+		<Fatality attacker="HijackMethaneWagonIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_rm_grunt_methanewagon_01</Fatality>
+		<Fatality attacker="HijackGrizzlyIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_grizzly_01</Fatality>
+		<Fatality attacker="HijackWarthogIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_warthog_01</Fatality>
+		<Fatality attacker="HijackWolverineIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_wolverine_01</Fatality>
+		<Fatality attacker="HijackScorpionIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_scorpion_01</Fatality>
+		<Fatality attacker="HijackJackrabbitIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_mongoose_01</Fatality>
+		<Fatality attacker="HijackKodiakIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_foxcannon_01</Fatality>
+		<Fatality attacker="HijackColossusIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_johnson_colossus_01</Fatality>
+		<Fatality attacker="HijackMantisIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_johnson_mantis_01</Fatality>
+		<Fatality attacker="HijackMastadonIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_battleapc_01</Fatality>
+		<Fatality attacker="HijackWarthogIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_rm_warthog_01</Fatality>
+		<Fatality attacker="HijackWarthogIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_rm_warthog_02</Fatality>
+		<Fatality attacker="HijackWarthogIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_rm_gausswarthog_01</Fatality>
+		<Fatality attacker="HijackScorpionIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_rm_scorpion_02</Fatality>
+		<Fatality attacker="HijackJackrabbitIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_rm_mongoose_02</Fatality>
+		<Fatality attacker="HijackWarthogIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">unsc_veh_flamehog_01</Fatality>
+		<Fatality attacker="HijackWraithInvaderIn" target="HijackIn" boarding="true" hijackSlam="true" toBoneRelative="true">cov_veh_wraithapc_01</Fatality>
+	</Action>
+	<Action>
 		<Name>GarrisonTeleport</Name>
 		<ActionType>Garrison</ActionType>
 		<Anim>TeleportOut</Anim>
@@ -224,7 +263,6 @@
 		<PersistentAction>MedicHeal</PersistentAction>
 		<PersistentAction>AreaBuff</PersistentAction>
 		<PersistentAction>AreaBuff2</PersistentAction>
-		<PersistentAction>SpawnSentinel1</PersistentAction>
 		<TargetRule>
 			<Relation>Ally</Relation>
 			<TargetType>Garrison</TargetType>
@@ -263,7 +301,7 @@
 		</TargetRule>
 		<TargetRule>
 			<Relation>Self</Relation>
-			<TargetType>cpgnh_veh_herogrizzly_01</TargetType>
+			<TargetType>GroundVehicle</TargetType>
 			<Action>VehicleJoin</Action>
 			<Ability>Command</Ability>
 		</TargetRule>

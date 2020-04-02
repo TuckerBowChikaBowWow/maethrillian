@@ -19,6 +19,26 @@
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
         <Effects />
     </Tech>
+    <Tech name="unsc_instant_forgebuff" type="Normal">
+        <DBID>2041</DBID>
+        <DisplayNameID>1072</DisplayNameID>
+        <RolloverTextID>1073</RolloverTextID>
+        <ResearchPoints>5</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+        <Effects>
+            <Effect type="Data" amount="1.35" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_veh_forgehog_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_veh_forgehog_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.15" subtype="Shieldpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_veh_forgehog_01</Target>
+            </Effect>
+        </Effects>
+    </Tech>
      <Tech name="unsc_LeaderForge" type="Normal">
         <DBID>1917</DBID>
         <ResearchPoints>0</ResearchPoints>
@@ -27,24 +47,29 @@
         <Effects>
             <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
             <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
-            <Effect type="UnlockableGodPower" tier="1">UnscVehicleRecycle</Effect>
+            <Effect type="UnlockableGodPower" tier="1">Up_Forge1</Effect>
+            <Effect type="UnlockableGodPower" tier="1" prereq="Up_Forge1">Up_Forge2</Effect>
+            <Effect type="UnlockableGodPower" tier="1" prereq="Up_Forge2">Up_Forge3</Effect>
             <Effect type="UnlockableGodPower" tier="2">DropMarines</Effect>
             <Effect type="UnlockableGodPower" tier="2">Up_Marine1</Effect>
             <Effect type="UnlockableGodPower" tier="2" prereq="Up_Marine1">Up_Marine2</Effect>
             <Effect type="UnlockableGodPower" tier="3">UnscHogDrop</Effect>
-            <Effect type="UnlockableGodPower" tier="3">UnscSniperDrop</Effect>
-            <Effect type="UnlockableGodPower" tier="4">Jerome_LowPopInspire1</Effect>
-            <Effect type="UnlockableGodPower" tier="4">Up_Sniper</Effect>
+            <Effect type="UnlockableGodPower" tier="3">Up_Hog</Effect>
+            <Effect type="UnlockableGodPower" tier="4"></Effect>
+            <Effect type="UnlockableGodPower" tier="4"></Effect>
             <Effect type="UnlockableGodPower" tier="5">UnscGrizzlyBattalion</Effect>
-            <Effect type="UnlockableGodPower" tier="5">Up_Hog</Effect>
-            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_veh_johnson_colossus_01" relativity="Absolute">
+            <Effect type="UnlockableGodPower" tier="5">Up_Grizzly</Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cpgnh_veh_herogrizzly_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
-                <Target type="ProtoSquad">unsc_veh_johnson_colossus_01</Target>
+                <Target type="ProtoSquad">cpgnh_veh_herogrizzly_01</Target>
             </Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">unsc_instant_upgrade</Target>
+            </Effect>
+            <Effect type="Data" subtype="Enable">
+                <Target type="Tech">unsc_instant_forgebuff</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
                 <Target type="ProtoSquad">unsc_inf_johnson_hero_01</Target>
@@ -997,6 +1022,9 @@
             <TechStatus status="Active">Basic</TechStatus>
         </Prereqs>
         <Effects>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cpgnh_veh_herogrizzly_01" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
+            </Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_mpdecimus_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>

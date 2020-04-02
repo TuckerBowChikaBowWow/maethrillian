@@ -4679,15 +4679,51 @@
 		<Flag>UseNameForSelectionIcon</Flag>
 		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
-	<Squad name="cpgnh_veh_herogrizzly_01" dbid="7911273927294794253" parent_element="unsc_veh_grizzlybase_01">
+	<Squad name="cpgnh_veh_herogrizzly_01" dbid="5194054811613372813">
+		<CombatRank>7</CombatRank>
+		<HealValue>2</HealValue>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_tiger</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3082</DisplayNameID>
+		<RolloverTextID>3083</RolloverTextID>
+		<StatsNameID>25680</StatsNameID>
+		<RoleTextID>501</RoleTextID>
+		<PrereqTextID>232</PrereqTextID>
+		<SubSelectSort>450</SubSelectSort>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<Pop Type="Unit">0</Pop>
+		<HPBar offset="0,8.61000061,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
+		<BuildPoints>25</BuildPoints>
+		<Pop Type="Reactor">1</Pop>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HealValue>3.25</HealValue>
 		<Units>
 			<Unit count="1" role="normal">cpgnh_veh_herogrizzly_01</Unit>
 		</Units>
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
 		<Flag>UseNameForMenuIcon</Flag>
-		<ActiveAbilityType>Garrison</ActiveAbilityType>
-		<Flag>HasAltGarrisonSlotIcon</Flag>
+		<SquadType>BasicVehicle_Tech</SquadType>
+		<FrozenThreshold>300</FrozenThreshold>
+		<ChillDecayPerSecond>60</ChillDecayPerSecond>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="0.5" max="8" />
+		<AvoidanceMass>Heavy</AvoidanceMass>
+		<Counters>Grizzly_01</Counters>
 	</Squad>
 	<Squad name="cpgnh_veh_m02colossus_01" dbid="9464052140855416148" parent_element="unsc_veh_johnson_colossus_01">
 		<Cost ResourceType="Supplies">800</Cost>
@@ -5457,7 +5493,46 @@
 		<Flag>DoNotMoveToAttackMe</Flag>
 		<Flag>IgnoreFlagDoNotMoveToAttackMe</Flag>
 	</Squad>
-	<Squad name="flood_inf_vehinfector_01" dbid="13896596634908817471" formationType="Flock">
+	<Squad name="flood_inf_vehinfector_01" dbid="9708419167251850208">
+		<CombatRank>2</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>27217</DisplayNameID>
+		<RolloverTextID>27216</RolloverTextID>
+		<StatsNameID>25679</StatsNameID>
+		<RoleTextID>503</RoleTextID>
+		<SubSelectSort>1100</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>2.5</AIAttackRank>
+		<ActiveAbilityType>Hijack</ActiveAbilityType>
+		<BuildPoints>25</BuildPoints>
+		<Cost ResourceType="Power">75</Cost>
+		<Cost ResourceType="Supplies">135</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_inf_forgespawn_01</Unit>
+		</Units>
+		<Flag>AlwaysRenderSelectionDecal</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>Sniper_01</Counters>
+	</Squad>
+	<Squad name="flood_inf_vehinfector_01_real" dbid="13896596634908817471" formationType="Flock">
 		<CombatRank>3</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\inf_marine</PortraitIcon>
 		<MinimapScale>1</MinimapScale>
@@ -5478,7 +5553,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">unsc_inf_forgespawn_01</Unit>
+			<Unit count="1" role="normal">flood_inf_vehinfector_01</Unit>
 		</Units>
 		<OverrideUnitSoundNames />
 		<Flag>Repairable</Flag>

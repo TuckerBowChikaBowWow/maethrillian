@@ -1700,8 +1700,8 @@ Has ground pound AoE attack</str>
     <str id="UIENT.FLOOD_INF_INFECTFRM_01.RADIALEDGE.ROLE">ANTI-INFANTRY</str>
     <str id="UIENT.FLOOD_INF_SPAWNER_01.RADIALEDGE.NAME">SPAWNER</str>
     <str id="UIENT.FLOOD_INF_SPAWNER_01.RADIALEDGE.ROLE" />
-    <str id="UIENT.FLOOD_INF_VEHINFECTOR_01.RADIALEDGE.NAME">INFESTER</str>
-    <str id="UIENT.FLOOD_INF_VEHINFECTOR_01.RADIALEDGE.ROLE">ANTI-VEHICLE</str>
+    <str id="UIENT.flood_inf_vehinfector_01_real.RADIALEDGE.NAME">INFESTER</str>
+    <str id="UIENT.flood_inf_vehinfector_01_real.RADIALEDGE.ROLE">ANTI-VEHICLE</str>
     <str id="UIENT.FLOOD_VEH_INFECTED_GHOST_01_BASE.RADIALEDGE.NAME">INFECTED VEHICLE</str>
     <str id="UIENT.FLOOD_VEH_INFECTED_GHOST_01_BASE.RADIALEDGE.ROLE" />
     <str id="UIENT.FOR_AIR_ENFORCER_01.RADIALEDGE.NAME">CONTROLLER SENTINEL</str>
@@ -3784,8 +3784,8 @@ Does not require vision.</str>
     <str id="UIENT.UNSCGRIZZLYBATTALION.RADIALCENTER.NAME">GRIZZLY BATTALION</str>
     <str id="UIENT.UNSCGRIZZLYBATTALION.RADIALEDGE.NAME">GRIZZLY BATTALION</str>
     <str id="UIENT.UNSCGRIZZLYBATTALION.RADIALEDGE.ROLE">ACTIVE POWER</str>
-    <str id="UIENT.UNSCGRIZZLYBATTALION.RADIALEDGE.SALESPITCH">Pelican Gunship drops-off 3 veteran Grizzlies.</str>
-    <str id="UIENT.UNSCGRIZZLYBATTALION.RADIALEDGE.SHORTDESCR">Activate to get a deployment of 3 veteran Grizzly tanks.</str>
+    <str id="UIENT.UNSCGRIZZLYBATTALION.RADIALEDGE.SALESPITCH">Pelican Gunship drops-off 1 Grizzlies.</str>
+    <str id="UIENT.UNSCGRIZZLYBATTALION.RADIALEDGE.SHORTDESCR">Activate to get a deployment of 1 Grizzly tanks.</str>
     <str id="UIENT.UnscHeavyMetal01.RadialCenter.Name">HEAVY METAL I</str>
     <str id="UIENT.UnscHeavyMetal01.RadialEdge.Name">HEAVY METAL I</str>
     <str id="UIENT.UNSCHEAVYMETAL01.RADIALEDGE.ROLE">ACTIVE POWER</str>
@@ -4823,4 +4823,51 @@ Very heavy armor
 Traverses all terrain</str>
     <str id="UIENT.cov_inf_mpdecimus_01.RadialCenter.Name">DECIMUS</str>
     <str id="UIENT.cov_inf_mpdecimus_01.RadialEdge.ShortDescr">Spawns with Warlord and Honor Guard</str>
+    <str id="UIENT.Up_Forge1.RADIALCENTER.NAME">ANVIL ROUND</str>
+    <str id="UIENT.Up_Forge1.RADIALEDGE.NAME">ANVIL ROUND</str>
+    <str id="UIENT.Up_Forge1.RADIALEDGE.ROLE">NEW ABILITY</str>
+    <str id="UIENT.Up_Forge1.RADIALEDGE.SHORTDESCR">Increases health and damage
+Adds ability to fire an Anvil Round
+Anvil Round damages enemy ground units and slows enemy vehicles</str>
+    <str id="UIENT.Up_Forge1.RADIALEDGE.UPGRADEPITCH">Increases health and damage
+Improves Nanobots
+Increases the speed of nearby allies</str>
+    <str id="UIENT.Up_Forge2.RADIALCENTER.NAME">DEFENSIVE AURA</str>
+    <str id="UIENT.Up_Forge2.RADIALEDGE.NAME">DEFENSIVE AURA</str>
+    <str id="UIENT.Up_Forge2.RADIALEDGE.ROLE">UNIT UPGRADE</str>
+    <str id="UIENT.Up_Forge2.RADIALEDGE.SHORTDESCR">Increases health and damage
+Improves Nanobots
+Increases the speed of nearby allies</str>
+    <str id="UIENT.Up_Forge2.RADIALEDGE.UPGRADEPITCH">Increases health and damage
+Upgrades Gauss Cannon
+Upgrades Anvil Round ability</str>
+    <str id="UIENT.Up_Forge3.RADIALCENTER.NAME">GAUSS OVERCHARGE</str>
+    <str id="UIENT.Up_Forge3.RADIALEDGE.NAME">GAUSS OVERCHARGE</str>
+    <str id="UIENT.Up_Forge3.RADIALEDGE.ROLE">WEAPON UPGRADE</str>
+    <str id="UIENT.Up_Forge3.RADIALEDGE.SHORTDESCR">Increases health and damage
+Upgrades Gauss Cannon
+Upgrades Anvil Round ability</str>
+    <str id="UIENT.Up_Forge3.RADIALEDGE.UPGRADEPITCH">Increases health and damage
+Faster movement speed</str>
+    <str id="UIENT.Up_Grizzly.RADIALCENTER.NAME">MISSILE BARRAGE</str>
+    <str id="UIENT.Up_Grizzly.RADIALEDGE.NAME">MISSILE BARRAGE</str>
+    <str id="UIENT.Up_Grizzly.RADIALEDGE.ROLE">NEW ABILITY</str>
+    <str id="UIENT.Up_Grizzly.RADIALEDGE.SHORTDESCR">Adds Missile Barrage ability
+Powerful targeted AoE attack</str>
+    <str id="UIENT.Up_Grizzly.RADIALEDGE.UPGRADEPITCH">Increases health and damage
+Faster movement speed</str>
+    <str id="UIENT.flood_inf_vehinfector_01.RADIALCENTER.NAME">VOLATILE LICH</str>
+    <str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.NAME">VOLATILE LICH</str>
+    <str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.ROLE">SUPER UNIT</str>
+    <str id="UIENT.flood_inf_vehinfector_01.RADIALEDGE.SHORTDESCR">Very high damage
+Beam creates pools of infused gel
+Very heavy armor
+Traverses all terrain</str>
+    <str id="UIENT.cpgnh_veh_herogrizzly_01.RADIALCENTER.NAME">EXPERIMENTAL GRIZZLY</str>
+    <str id="UIENT.cpgnh_veh_herogrizzly_01.RADIALEDGE.NAME">EXPERIMENTAL GRIZZLY</str>
+    <str id="UIENT.cpgnh_veh_herogrizzly_01.RADIALEDGE.ROLE">HEAVY TANK</str>
+    <str id="UIENT.cpgnh_veh_herogrizzly_01.RADIALEDGE.SHORTDESCR">Heavy damage
+Slow moving
+Medium range
+Heavy armor</str>
 </string_table>

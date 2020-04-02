@@ -3,10 +3,10 @@
 	<Weapon>
 		<Name>LeftMachinegun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>180</DamagePerSecond>
-		<WeaponType>SmallArms</WeaponType>
-		<Projectile>fx_proj_machineGun_01</Projectile>
-		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+		<DamagePerSecond>219</DamagePerSecond>
+		<WeaponType>GaussCannon</WeaponType>
+		<Projectile>fx_proj_guasschainGun_01</Projectile>
+		<ImpactEffect size="medium">GaussImpact</ImpactEffect>
 		<MaxVelocityLead>9.22500038</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -30,10 +30,10 @@
 	<Weapon>
 		<Name>RightMachinegun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>180</DamagePerSecond>
-		<WeaponType>SmallArms</WeaponType>
-		<Projectile>fx_proj_machineGun_01</Projectile>
-		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
+		<DamagePerSecond>219</DamagePerSecond>
+		<WeaponType>GaussCannon</WeaponType>
+		<Projectile>fx_proj_guasschainGun_01</Projectile>
+		<ImpactEffect size="medium">GaussImpact</ImpactEffect>
 		<MaxVelocityLead>9.22500038</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -57,10 +57,10 @@
 	<Weapon>
 		<Name>LeftMissilePod</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>115</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
-		<Projectile>fx_proj_grizzile_01</Projectile>
-		<ImpactEffect size="Medium">GrizzileExplosion</ImpactEffect>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>Artillery</WeaponType>
+		<Projectile>fx_proj_foxcannon_01</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">LargeExplosionImpact</ImpactEffect>
 		<MaxVelocityLead>9.22500038</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -68,6 +68,29 @@
 		<MovingAccuracy>1</MovingAccuracy>
 		<MovingMaxDeviation>6</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>18</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>15</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<TargetPriority type="PaintTarget">10</TargetPriority>
 		<TargetPriority type="Flying">9</TargetPriority>
 		<TargetPriority type="GroundVehicle">7</TargetPriority>
@@ -83,10 +106,10 @@
 	<Weapon>
 		<Name>RightMissilePod</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>115</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
-		<Projectile>fx_proj_grizzile_01</Projectile>
-		<ImpactEffect size="Medium">GrizzileExplosion</ImpactEffect>
+		<DamagePerSecond>250</DamagePerSecond>
+		<WeaponType>Artillery</WeaponType>
+		<Projectile>fx_proj_foxcannon_01</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">LargeExplosionImpact</ImpactEffect>
 		<MaxVelocityLead>9.22500038</MaxVelocityLead>
 		<MaxRange>70</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -94,6 +117,29 @@
 		<MovingAccuracy>1</MovingAccuracy>
 		<MovingMaxDeviation>6</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
+		<AOEData>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>18</Radius>
+				<DamageRatio>50</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>20</Radius>
+				<DamageRatio>15</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+		</AOEData>
 		<TargetPriority type="PaintTarget">10</TargetPriority>
 		<TargetPriority type="Flying">9</TargetPriority>
 		<TargetPriority type="GroundVehicle">7</TargetPriority>
@@ -109,10 +155,10 @@
 	<Weapon>
 		<Name>LeftCannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>520</DamagePerSecond>
+		<DamagePerSecond>975</DamagePerSecond>
 		<WeaponType>GrizzlyExplosive</WeaponType>
 		<Projectile>fx_proj_cannon_03</Projectile>
-		<ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>
+		<ImpactEffect doShockwaveAction="true">NapalmFlameUpgrade</ImpactEffect>
 		<MaxVelocityLead>12.3000002</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -152,10 +198,10 @@
 	<Weapon>
 		<Name>RightCannon</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>520</DamagePerSecond>
+		<DamagePerSecond>975</DamagePerSecond>
 		<WeaponType>GrizzlyExplosive</WeaponType>
 		<Projectile>fx_proj_cannon_03</Projectile>
-		<ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>
+		<ImpactEffect doShockwaveAction="true">NapalmFlameUpgrade</ImpactEffect>
 		<MaxVelocityLead>12.3000002</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -195,11 +241,11 @@
 	<Weapon>
 		<Name>specialAttack</Name>
 		<AttackRate>30</AttackRate>
-		<DamagePerSecond>33050</DamagePerSecond>
+		<DamagePerSecond>33500</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Explosive</WeaponType>
-		<Projectile>fx_proj_jerome_mech_missile_01</Projectile>
-		<ImpactEffect size="Medium" alwaysHorizontal="true">UNSCAntiAirExplosion</ImpactEffect>
+		<WeaponType>KinsanoGrenadeFire</WeaponType>
+		<Projectile>fx_proj_incendiarygrenade_01</Projectile>
+		<ImpactEffect doShockwaveAction="true" size="medium" alwaysHorizontal="true">IncendiaryGrenade</ImpactEffect>
 		<MaxVelocityLead>12.3000002</MaxVelocityLead>
 		<MinRange>3</MinRange>
 		<MaxRange>90</MaxRange>
@@ -239,27 +285,10 @@
 		<ProjectileLaunchDirY />
 		<Filter>Heavy</Filter>
 	</Weapon>
-	<Weapon>
-		<Name>OnDeathDamageContained</Name>
-		<AttackRate>5</AttackRate>
-		<DamagePerSecond>5000</DamagePerSecond>
-		<UseDPSasDPA />
-		<WeaponType>Explosive</WeaponType>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>10</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>true</FriendlyFire>
-			</Hitbox>
-		</AOEData>
-	</Weapon>
 	<Action>
-		<Name>OnDeathDamageContained</Name>
-		<ActionType>Detonate</ActionType>
-		<DetonateDamageContainedOnly />
-		<Weapon>OnDeathDamageContained</Weapon>
+		<Name>NapalmCharge</Name>
+		<ActionType>Charge</ActionType>
+		<DamageCharge>6</DamageCharge>
 	</Action>
 	<Action>
 		<Name>RightCannonAttackAction</Name>
@@ -268,6 +297,7 @@
 		<Weapon>RightCannon</Weapon>
 		<FullBodyAttackAnim />
 		<ForceAttachmentAnim />
+		<ChargableDAOT />
 	</Action>
 	<Action>
 		<Name>LeftCannonAttackAction</Name>
@@ -277,6 +307,7 @@
 		<Weapon>LeftCannon</Weapon>
 		<FullBodyAttackAnim />
 		<ForceAttachmentAnim />
+		<ChargableDAOT />
 	</Action>
 	<Action>
 		<Name>RightMissilePodAttackAction</Name>
@@ -317,6 +348,7 @@
 		<Weapon>specialAttack</Weapon>
 		<DontAutoRestart />
 		<FullBodyAttackAnim />
+		<ChargableDAOT />
 		<ForceAttachmentAnim />
 	</Action>
 	<Action>
@@ -356,43 +388,7 @@
 		<WorkRate>1</WorkRate>
 		<WorkRange>4</WorkRange>
 	</Action>
-	<Action>
-		<Name>UnloadContained</Name>
-		<ActionType>UnloadContained</ActionType>
-		<WorkRange>3.07500005</WorkRange>
-	</Action>
-	<Action>
-		<Name>ShieldAction</Name>
-		<ActionType>EnergyShield</ActionType>
-		<ProtoObject>cov_locustshield</ProtoObject>
-	</Action>
-	<Action>
-		<Name>AreaBuff2</Name>
-		<ActionType>AreaBuff</ActionType>
-		<WorkRange>30</WorkRange>
-		<SpecificData>
-			<BuffParams BuffType="ForgehogHeavyMetal" DamageMitigationScalar="0.850000024" SlowModifier="1.10000002" OverwritesSelf="true">1.0f</BuffParams>
-			<TargetTypes>
-				<Type>NonFlying</Type>
-			</TargetTypes>
-			<Relations>
-				<Relation>Ally</Relation>
-			</Relations>
-		</SpecificData>
-		<ProtoObject>fx_nanobots02</ProtoObject>
-	</Action>
-	<Action>
-		<Name>SpawnSentinel1</Name>
-		<ActionType>SpawnSquad</ActionType>
-		<SquadType>unsc_veh_sniperdrone_01</SquadType>
-		<WorkRate>0</WorkRate>
-		<Count>1</Count>
-		<DroneAttach />
-	</Action>
 	<Tactic>
-		<PersistentAction>AreaBuff2</PersistentAction>
-		<PersistentAction>SpawnSentinel1</PersistentAction>
-		<PersistentAction>ShieldAction</PersistentAction>
 		<TargetRule>
 			<GaiaOwned />
 			<TargetType>Collectable</TargetType>
@@ -401,19 +397,24 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>RightMachinegunAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>RightMissilePodAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>LeftMissilePodAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
 			<Action>specialAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Ally</Relation>

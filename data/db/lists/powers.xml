@@ -1,5 +1,77 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Powers>
+	<Power name="Up_Grizzly">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>unsc_grizzly_upgrade1</TechScript>
+			<Cost Supplies="0" Power="250" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+	</Power>
+	<Power name="Up_Forge1">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>unsc_forgehog_upgrade1</TechScript>
+			<Cost Supplies="0" Power="300" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+	</Power>
+	<Power name="Up_Forge2">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>unsc_forgehog_upgrade2</TechScript>
+			<Cost Supplies="100" Power="300" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+	</Power>
+	<Power name="Up_Forge3">
+		<Attributes>
+			<PowerType>TechScript</PowerType>
+			<AIPowerUseType>Passive</AIPowerUseType>
+			<TechScript>unsc_forgehog_upgrade3</TechScript>
+			<Cost Supplies="100" Power="300" />
+			<DisplayNameID>5012</DisplayNameID>
+			<RolloverTextID>5013</RolloverTextID>
+			<PrereqTextID>252</PrereqTextID>
+			<LeaderPower />
+			<NotAffectedByCeasefire />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<FlashUI>
+				<CircleMenuFrameIDNormal>12</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>13</CircleMenuFrameIDHighlight>
+			</FlashUI>
+		</Attributes>
+	</Power>
 	<Power name="FloodBanishedunitsDrop">
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
@@ -16741,8 +16813,8 @@
 		<Attributes>
 			<PowerType>Gunship</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Pop type="Unit">14</Pop>
-			<Cost Supplies="300" Power="1200" />
+			<Pop type="Unit">7</Pop>
+			<Cost Supplies="125" Power="650" />
 			<AutoRecharge>120000</AutoRecharge>
 			<UIRadius>30</UIRadius>
 			<Decal>AOE_Large</Decal>
@@ -16776,9 +16848,6 @@
 				<Data type="protoobject" name="Gunship">unsc_air_pelican_01</Data>
 				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_ULT_GrizzlyBattalion</Data>
 				<Data type="unitdrops" name="UnitDrops">
-					<Drop>
-						<ProtoSquadID>unsc_veh_grizzly_01</ProtoSquadID>
-					</Drop>
 					<Drop>
 						<ProtoSquadID>unsc_veh_grizzly_01</ProtoSquadID>
 					</Drop>
