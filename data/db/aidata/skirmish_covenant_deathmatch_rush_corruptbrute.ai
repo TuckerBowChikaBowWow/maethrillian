@@ -40,6 +40,16 @@
 			<MinimumTargetPopToCast>15</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
+			<LeaderPowerType>FloodBanishedunitsDrop</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>0</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
 			<LeaderPowerType>FloodUNSCunitsDrop</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
 			<AssignedMissionID>4</AssignedMissionID>
@@ -48,12 +58,51 @@
 			<MinimumTargetPopToCast>5</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
+			<LeaderPowerType>CovBuffRage1</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<NumberOfTimesToBeUsed>6</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>15</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>CovBuffRage2</LeaderPowerType>
+			<TargetType>_Unit</TargetType>
+			<AssignedMissionID>1</AssignedMissionID>
+			<AssignedMissionID>2</AssignedMissionID>
+			<AssignedMissionID>3</AssignedMissionID>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+			<NumberOfTimesToBeUsed>6</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Grunt_InfantryRecycle</LeaderPowerType>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
+			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
+			<AssignedMissionID>4</AssignedMissionID>
+			<AssignedMissionID>5</AssignedMissionID>
+		</LeaderPower>
+		<LeaderPower>
 			<LeaderPowerType>Up_Hog</LeaderPowerType>
 			<MinimumTargetPopToCast>15</MinimumTargetPopToCast>
 		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>Up_Wraith</LeaderPowerType>
 			<MinimumTargetPopToCast>20</MinimumTargetPopToCast>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Unbrk_OrbitalEye1</LeaderPowerType>
+			<TargetType>_Hero</TargetType>
+			<NumberOfTimesToBeUsed>1000</NumberOfTimesToBeUsed>
+		</LeaderPower>
+		<LeaderPower>
+			<LeaderPowerType>Unbrk_OrbitalEye2</LeaderPowerType>
+			<TargetType>_Base</TargetType>
+			<NumberOfTimesToBeUsed>10000</NumberOfTimesToBeUsed>
 		</LeaderPower>
 		<Mission>
 			<MissionType>Reserves</MissionType>

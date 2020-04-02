@@ -7108,8 +7108,14 @@
             <Effect type="UnlockableGodPower" tier="1">Flood_Emerge_InfectorsAOM</Effect>
             <Effect type="UnlockableGodPower" tier="2">FloodRuptureEmerge</Effect>
             <Effect type="UnlockableGodPower" tier="2">FloodUNSCunitsDrop</Effect>
+            <Effect type="UnlockableGodPower" tier="3">FloodBanishedunitsDrop</Effect>
             <Effect type="UnlockableGodPower" tier="3">Up_Hog</Effect>
-            <Effect type="UnlockableGodPower" tier="3">Up_Wraith</Effect>
+            <Effect type="UnlockableGodPower" tier="3" prereq="Up_Hog">Up_Wraith</Effect>
+            <Effect type="UnlockableGodPower" tier="4">Unbrk_OrbitalEye1_mp</Effect>
+            <Effect type="UnlockableGodPower" tier="4" prereq="Unbrk_OrbitalEye1_mp">Unbrk_OrbitalEye2_mp</Effect>
+            <Effect type="UnlockableGodPower" tier="5">CovBuffRage1</Effect>
+            <Effect type="UnlockableGodPower" tier="5" prereq="CovBuffRage1">CovBuffRage2</Effect>
+            <Effect type="UnlockableGodPower" tier="5">Grunt_InfantryRecycle</Effect>
             <Effect type="Data" subtype="Enable">
                 <Target type="Tech">gamemode_reparent_protos_mp</Target>
             </Effect>

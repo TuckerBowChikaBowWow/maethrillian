@@ -5593,6 +5593,11 @@
 	<Squad name="flood_inf_infected_brutespiker_01_sp" parent_element="flood_inf_infected_brutespiker_01_base" dbid="12168061578404338483">
 		<Flag>DoNotMoveToAttackMe</Flag>
 	</Squad>
+	<Squad name="flood_inf_infected_brutespiker_01_squad" dbid="6601234486651109816" parent_element="flood_inf_infected_brutespiker_01_base">
+		<Units override_type="absolute">
+			<Unit count="2" role="normal">flood_inf_infected_brutespiker_01</Unit>
+		</Units>
+	</Squad>
 	<Squad name="flood_inf_infected_elitecarbine_01" dbid="8078834042192632972" parent_element="flood_inf_infected_elitecarbine_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -5648,6 +5653,11 @@
 	<Squad name="flood_inf_infected_elitecarbine_01_single" parent_element="flood_inf_infected_elitecarbine_01_base" dbid="8003357481436730004">
 		<Units override_type="absolute">
 			<Unit count="1" role="normal">flood_inf_infected_elitecarbine_01</Unit>
+		</Units>
+	</Squad>
+	<Squad name="flood_inf_infected_elitecarbine_01_squad" dbid="6601234486651109816" parent_element="flood_inf_infected_elitecarbine_01_base">
+		<Units override_type="absolute">
+			<Unit count="2" role="normal">flood_inf_infected_eliteplasmacaster_01</Unit>
 		</Units>
 	</Squad>
 	<Squad name="flood_inf_infected_elitemelee_01" dbid="14479343186817846742" parent_element="flood_inf_infected_elitemelee_01_sp">
