@@ -124,7 +124,7 @@
 			</Hitbox>
 		</AOEData>
 		<Filter>Heavy</Filter>
-		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">6.0f</Daze>
+		<Daze TargetType="Military" MovementModifier="0" AOEEffect="true" SmartTargeting="false" AffectsBuildings="true">2.0f</Daze>
 	</Weapon>
 	<Weapon>
 		<Name>StompAttackWeapon</Name>
@@ -376,6 +376,7 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<TargetType>Infantry</TargetType>
+			<TargetType>GroundVehicle</TargetType>
 			<Action>MeleeAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
