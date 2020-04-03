@@ -2287,6 +2287,12 @@
             <Effect type="Data" amount="1" subtype="ActionEnable" action="GaussCannonAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">flood_veh_infected_warthog_01_base</Target>
             </Effect>
+             <Effect type="Data" amount="0" subtype="ActionEnable" action="MachinegunAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_veh_warthog_01_forge</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="GaussCannonAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_veh_warthog_01_forge</Target>
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_flamehog_upgrade3" type="Normal">
