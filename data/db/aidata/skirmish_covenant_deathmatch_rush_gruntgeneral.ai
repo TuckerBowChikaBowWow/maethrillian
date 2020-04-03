@@ -183,5 +183,12 @@
 			<StreamReplaceSquads>true</StreamReplaceSquads>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>cov_veh_methanescarab_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>1000</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>1000</NumberOfTimesToReplaceSquads>
+		</Mission>
 	</Table>
 </Tables>

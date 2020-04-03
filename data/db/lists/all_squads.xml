@@ -6430,7 +6430,7 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
-		<BuildPoints>44</BuildPoints>
+		<BuildPoints>74</BuildPoints>
 		<Pop Type="Unit">6</Pop>
 		<Cost ResourceType="Supplies">650</Cost>
 		<Cost ResourceType="Power">0</Cost>
@@ -6486,7 +6486,7 @@
 		<Cost ResourceType="Supplies">750</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
-		<BuildPoints>48</BuildPoints>
+		<BuildPoints>78</BuildPoints>
 		<HealValue>3.25</HealValue>
 		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -6589,7 +6589,7 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>7</AIAttackRank>
-		<BuildPoints>36</BuildPoints>
+		<BuildPoints>76</BuildPoints>
 		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">550</Cost>
 		<Cost ResourceType="Power">0</Cost>
@@ -10267,6 +10267,11 @@
 		<RammingSpeedScalar>2.5</RammingSpeedScalar>
 	</Squad>
 	<Squad name="unsc_veh_warthog_01_sp" parent_element="unsc_veh_warthog_01_base" dbid="16794430682394218283" />
+	<Squad name="unsc_veh_warthog_01_forge" parent_element="unsc_veh_warthog_01" dbid="9239998061677505903">
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">unsc_veh_warthog_01_forge</Unit>
+		</Units>
+	</Squad>
 	<Squad name="unsc_veh_wolverine_01" dbid="867071320328617462" parent_element="unsc_veh_wolverine_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
