@@ -37,6 +37,8 @@
             <Effect type="Data" amount="0.95" subtype="Shieldpoints" relativity="Percent">
                 <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
             </Effect>
+            <Effect type="ReparentProtoObject" FromType="sys_marker_rally_01" ToType="sys_marker_rally_forge">
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="flood_LegendaryAIBuff" type="Normal">
@@ -99,8 +101,7 @@
                 <Target type="Player">
                 </Target>
             </Effect>
-
-             <Effect type="Data" amount="1" subtype="PowerLevel" power="FloodBanishedunitsDrop" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="FloodBanishedunitsDrop" relativity="Absolute">
                 <Target type="Player">
                 </Target>
             </Effect>
