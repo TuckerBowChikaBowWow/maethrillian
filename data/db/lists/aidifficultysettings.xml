@@ -937,7 +937,7 @@
     </AIDifficultySetting>
     <AIDifficultySetting Name="EconMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="1.00 = no econ change, 0.0 means no supplies, 2.0 means double normal supplies">
         <PiecewiseFunc>
-            <DataPoint Input="0" Output="1" Comment="On easy, AI gets 50% normal supplies">
+            <DataPoint Input="0" Output="0.5" Comment="On easy, AI gets 50% normal supplies">
             </DataPoint>
             <DataPoint Input="0.34" Output="1" Comment="At diff 0.33, non-cheating (normal) supplies">
             </DataPoint>
@@ -951,7 +951,7 @@
     </AIDifficultySetting>
     <AIDifficultySetting Name="DamageGivenMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="2.0 means the AI&apos;s units inflict double damage">
         <PiecewiseFunc>
-            <DataPoint Input="0" Output="1" Comment="Damage given always normal...feature disabled">
+            <DataPoint Input="0" Output="0.5" Comment="Damage given always normal...feature disabled">
             </DataPoint>
             <DataPoint Input="0.67" Output="1.33" Comment="Damage given always normal...feature disabled">
             </DataPoint>
@@ -963,7 +963,7 @@
     </AIDifficultySetting>
     <AIDifficultySetting Name="DamageTakenMultiplier" InputLabel="Difficulty" OutputLabel="Multiplier" Comment="2.0 means the AI&apos;s units TAKE double damage.  High values are easy, low are hard.">
         <PiecewiseFunc>
-            <DataPoint Input="0" Output="1" Comment="On easy, takes 3x damage">
+            <DataPoint Input="0" Output="3" Comment="On easy, takes 3x damage">
             </DataPoint>
             <DataPoint Input="0.34" Output="1" Comment="At normal, normal damage">
             </DataPoint>
