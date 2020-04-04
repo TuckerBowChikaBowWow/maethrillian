@@ -37,8 +37,6 @@
             <Effect type="Data" amount="0.95" subtype="Shieldpoints" relativity="Percent">
                 <Target type="ProtoUnit">unsc_inf_forgespawn_01</Target>
             </Effect>
-            <Effect type="ReparentProtoObject" FromType="sys_marker_rally_01" ToType="sys_marker_rally_forge">
-            </Effect>
         </Effects>
     </Tech>
     <Tech name="flood_LegendaryAIBuff" type="Normal">
@@ -193,6 +191,9 @@
             <Effect type="UnlockableGodPower" tier="4">UnscBunkerDrop1_MP</Effect>
             <Effect type="UnlockableGodPower" tier="5">UnscGrizzlyBattalion</Effect>
             <Effect type="UnlockableGodPower" tier="5">Up_Grizzly</Effect>
+            <Effect type="Data" amount="1" subtype="CommandEnable" commandType="ReverseHotDrop" relativity="Absolute">
+                <Target type="ProtoUnit">sys_marker_rally_01</Target>
+            </Effect>
             <Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="cpgnh_veh_herogrizzly_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
@@ -1159,6 +1160,9 @@
             <TechStatus status="Active">Basic</TechStatus>
         </Prereqs>
         <Effects>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="ReverseHotDrop" relativity="Absolute">
+                <Target type="ProtoUnit">sys_marker_rally_01</Target>
+            </Effect>
             <Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cpgnh_veh_herogrizzly_01" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_bldg_command_01_base</Target>
             </Effect>
