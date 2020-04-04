@@ -39,6 +39,89 @@
             </Effect>
         </Effects>
     </Tech>
+    <Tech name="flood_LegendaryAIBuff" type="Normal">
+        <DBID>2041</DBID>
+        <DisplayNameID>1072</DisplayNameID>
+        <RolloverTextID>1073</RolloverTextID>
+        <ResearchPoints>5</ResearchPoints>
+        <Status>OBTAINABLE</Status>
+        <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+        <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
+        <Effects>
+            <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">_Flood</Target>
+            </Effect>
+            <Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">_Flood</Target>
+            </Effect>
+             <Effect type="Data" amount="0" subtype="ActionEnable" action="CarbineRifleAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="ActionEnable" action="CarbineRifleLegendaryAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
+            </Effect>
+             <Effect type="Data" amount="1" subtype="ActionEnable" action="CorruptedScorchMortarAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">flood_veh_infected_wraith_01_base</Target>
+            </Effect>
+            <Effect type="Data" amount="0" subtype="ActionEnable" action="ScorchMortarAttackAction" relativity="Absolute">
+                <Target type="ProtoUnit">flood_veh_infected_wraith_01_base</Target>
+            </Effect>
+             <Effect type="Data" amount="0.5" subtype="buildPoints" allactions="1" relativity="Percent">
+                <Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_grizzly_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_assaultrifle_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_assaultrifle_02</Target>
+                <Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_humelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_brutemelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infectfrm_01</Target>
+                <Target type="ProtoSquad">flood_inf_commander_01</Target>
+                <Target type="ProtoSquad">flood_inf_spawner_01</Target>
+                <Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
+            </Effect>
+            <Effect type="Data" subtype="PopCap" amount="15" popType="Unit" relativity="Absolute">
+                <Target type="Player">
+                </Target>
+            </Effect>
+            <Effect type="Data" subtype="PopCap" amount="3" popType="Reactor" relativity="Absolute">
+                <Target type="Player">
+                </Target>
+            </Effect>
+
+             <Effect type="Data" amount="1" subtype="PowerLevel" power="FloodBanishedunitsDrop" relativity="Absolute">
+                <Target type="Player">
+                </Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="FloodUNSCunitsDrop" relativity="Absolute">
+                <Target type="Player">
+                </Target>
+            </Effect>
+             <Effect type="Data" amount="1" subtype="PowerLevel" power="FloodEggAOMDrop1" relativity="Absolute">
+                <Target type="Player">
+                </Target>
+            </Effect>
+             <Effect type="Data" amount="1" subtype="PowerLevel" power="Flood_Emerge_InfectorsAOM" relativity="Absolute">
+                <Target type="Player">
+                </Target>
+            </Effect>
+             <Effect type="Data" amount="1" subtype="PowerLevel" power="FloodRuptureEmerge" relativity="Absolute">
+                <Target type="Player">
+                </Target>
+            </Effect>
+        </Effects>
+    </Tech>
      <Tech name="unsc_LeaderForge" type="Normal">
         <DBID>1917</DBID>
         <ResearchPoints>0</ResearchPoints>
@@ -7189,6 +7272,7 @@
             <Effect type="UnlockableGodPower" tier="3">FloodBanishedunitsDrop</Effect>
             <Effect type="UnlockableGodPower" tier="3">Up_Hog</Effect>
             <Effect type="UnlockableGodPower" tier="3" prereq="Up_Hog">Up_Wraith</Effect>
+            <Effect type="UnlockableGodPower" tier="4">LegendaryAIBuff</Effect>
             <Effect type="UnlockableGodPower" tier="4">Unbrk_OrbitalEye1_mp</Effect>
             <Effect type="UnlockableGodPower" tier="4" prereq="Unbrk_OrbitalEye1_mp">Unbrk_OrbitalEye2_mp</Effect>
             <Effect type="UnlockableGodPower" tier="5">CovBuffRage1</Effect>

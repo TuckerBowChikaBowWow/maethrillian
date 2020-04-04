@@ -10,8 +10,12 @@
 			<Reserved>false</Reserved>
 			<RallyPointMovementPopulationThreshold>10</RallyPointMovementPopulationThreshold>
 			<AutoAI>false</AutoAI>
+			<UsePullbackMicro>false</UsePullbackMicro>
 			<MaxDifficultyLevel>1</MaxDifficultyLevel>
 		</Settings>
+		<LeaderPower>
+			<LeaderPowerType>LegendaryAIBuff</LeaderPowerType>
+		</LeaderPower>
 		<LeaderPower>
 			<LeaderPowerType>FloodEggAOMDrop1</LeaderPowerType>
 			<TargetType>_Unit</TargetType>
@@ -118,18 +122,14 @@
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>Unsc</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
-			<SquadTypeToSend>flood_inf_infected_brutemelee_01</SquadTypeToSend>
+			<SquadTypeToSend>flood_inf_infected_hellbr_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>Covenant</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
@@ -138,8 +138,6 @@
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>cov_inf_impervioushunter_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
@@ -148,8 +146,6 @@
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>cov_inf_gruntgoblin01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
@@ -157,8 +153,6 @@
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>-1</NumberOfTimesToReplaceSquads>
-			<PrerequisiteSightingObjectType>unsc_veh_flamehog_01</PrerequisiteSightingObjectType>
-			<PrerequisiteSightingObjectCount>2</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Defend</MissionType>
@@ -180,7 +174,6 @@
 			<TargetType>_Hero</TargetType>
 			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<TargetType>Unit</TargetType>
-			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
 			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<MissionID>1</MissionID>
 			<SquadTypeToSend>flood_inf_infected_elitemelee_01</SquadTypeToSend>
