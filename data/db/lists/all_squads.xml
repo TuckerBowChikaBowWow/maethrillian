@@ -9679,6 +9679,53 @@
 		<RevvingSpeedThreshold>11</RevvingSpeedThreshold>
 		<ChillSlowModifier>0.600000024</ChillSlowModifier>
 	</Squad>
+	<Squad name="unsc_veh_frosthog_01" dbid="12134767209203897996">
+		<CombatRank>6</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3016</DisplayNameID>
+		<RolloverTextID>3017</RolloverTextID>
+		<RoleTextID>518</RoleTextID>
+		<PrereqTextID>230</PrereqTextID>
+		<SubSelectSort>701</SubSelectSort>
+		<LeashDistance>20</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>9.22500038</AggroDistance>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>3.5</AIAttackRank>
+		<BuildPoints>22</BuildPoints>
+		<Pop Type="Unit">4</Pop>
+		<Cost ResourceType="Supplies">280</Cost>
+		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_veh_frosthog_01</Unit>
+		</Units>
+		<Flag>Chatter</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="1.5" max="4" />
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Flamehog_01</Counters>
+		<RammingDistanceScalar>7</RammingDistanceScalar>
+		<RammingSpeedScalar>3</RammingSpeedScalar>
+		<RevvingSpeedThreshold>11</RevvingSpeedThreshold>
+		<ChillSlowModifier>0.600000024</ChillSlowModifier>
+	</Squad>
 	<Squad name="unsc_veh_floodscorpion01" dbid="10723768370281900789" parent_element="unsc_veh_scorpion_01_base">
 		<Units>
 			<Unit count="1" role="normal">unsc_veh_floodscorpion01</Unit>
