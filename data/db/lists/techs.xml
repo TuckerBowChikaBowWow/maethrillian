@@ -50,6 +50,56 @@
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
         <Effects>
+            <Effect type="Data" amount="0.7" subtype="Cost" Resource="Supplies" relativity="Percent">
+                <Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_grizzly_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_assaultrifle_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_assaultrifle_02</Target>
+                <Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_humelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_brutemelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infectfrm_01</Target>
+                <Target type="ProtoSquad">flood_inf_commander_01</Target>
+                <Target type="ProtoSquad">flood_inf_spawner_01</Target>
+                <Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
+            </Effect>
+             <Effect type="Data" amount="0.3" subtype="Cost" Resource="Power" relativity="Percent">
+                <Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_grizzly_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_rocket_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitecarbine_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_hellbr_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_assaultrifle_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_assaultrifle_02</Target>
+                <Target type="ProtoSquad">flood_inf_infected_eliteplasmarifle_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_odst_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infected_humelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_elitemelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_brutemelee_01</Target>
+                <Target type="ProtoSquad">flood_inf_infected_sniper_01_base</Target>
+                <Target type="ProtoSquad">flood_inf_infectfrm_01</Target>
+                <Target type="ProtoSquad">flood_inf_commander_01</Target>
+                <Target type="ProtoSquad">flood_inf_spawner_01</Target>
+                <Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
+                <Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
+            </Effect>
             <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">_Flood</Target>
             </Effect>
