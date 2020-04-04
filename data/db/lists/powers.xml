@@ -305,7 +305,7 @@
 		<Attributes>
 			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
-			<Pop type="Unit">4</Pop>
+			<Pop type="Unit">3</Pop>
 			<Cost Supplies="30" Power="180" />
 			<AutoRecharge>60000</AutoRecharge>
 			<UIRadius>5</UIRadius>
@@ -1577,44 +1577,49 @@
 	</Power>
 	<Power name="DropCyclops">
 		<Attributes>
-			<PowerType>Gunship</PowerType>
+			<PowerType>UnitDrop</PowerType>
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
+			<SoundName>OrbBattleGroup</SoundName>
 			<Pop type="Unit">3</Pop>
 			<Cost Supplies="15" Power="130" />
 			<AutoRecharge>60000</AutoRecharge>
 			<UIRadius>5</UIRadius>
 			<Decal>Drop</Decal>
-			<ShowTransportArrows>true</ShowTransportArrows>
-			<DisplayNameID>5010</DisplayNameID>
-			<RolloverTextID>5011</RolloverTextID>
-			<PrereqTextID>5011</PrereqTextID>
-			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\pelicandrp</Icon>
-			<IconLocation>2</IconLocation>
-			<CameraZoomMin>150</CameraZoomMin>
-			<CameraZoomMax>150</CameraZoomMax>
+			<DisplayNameID>5014</DisplayNameID>
+			<RolloverTextID>5015</RolloverTextID>
+			<ShowLimit />
+			<LeaderPower />
+			<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\odst_drop</Icon>
+			<IconLocation>4</IconLocation>
+			<CameraZoomMin>200</CameraZoomMin>
+			<CameraZoomMax>200</CameraZoomMax>
 			<CameraPitchMin>55</CameraPitchMin>
 			<CameraPitchMax>55</CameraPitchMax>
 			<CameraEnableUserScroll>true</CameraEnableUserScroll>
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<FlashUI>
-				<CircleMenuFrameIDNormal>18</CircleMenuFrameIDNormal>
-				<CircleMenuFrameIDHighlight>19</CircleMenuFrameIDHighlight>
+				<CircleMenuFrameIDNormal>14</CircleMenuFrameIDNormal>
+				<CircleMenuFrameIDHighlight>15</CircleMenuFrameIDHighlight>
 			</FlashUI>
 			<DataLevel level="0">
+				<Data type="bool" name="RequiresLOS">true</Data>
+				<Data type="bool" name="FailIfNotEnoughPop">false</Data>
+				<Data type="int" name="OverlayStringID">25023</Data>
+				<Data type="float" name="SquadSpawnDelay">2</Data>
+				<Data type="float" name="ProjectileSpawnDelay">0.200000003</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
 				<Data type="sound" name="HudLastFireSound" />
 				<Data type="sound" name="HudStartEnvSound" />
 				<Data type="sound" name="HudStopEnvSound" />
-				<Data type="int" name="NumGunships">1</Data>
-				<Data type="float" name="WaitDuration">4</Data>
-				<Data type="protoobject" name="Gunship">unsc_air_pelican_01</Data>
-				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_VehicleDrop_II</Data>
-				<Data type="unitdrops" name="UnitDrops">
+				<Data type="sound" name="FiredSound">PLAY_SFX_3D_LP_UNSC_CHR_ODCyclopsDropProjectile</Data>
+				<Data type="protoobject" name="Projectile">unsc_air_odstPod_01</Data>
+				<Data type="unitdrops" name="unitdrops">
 					<Drop>
 						<ProtoSquadID>unsc_inf_cyclops_01</ProtoSquadID>
+						<ProjectileOverride>unsc_air_odstPodcyclops_01</ProjectileOverride>
 					</Drop>
 				</Data>
 			</DataLevel>
