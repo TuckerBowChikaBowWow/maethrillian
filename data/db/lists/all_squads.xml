@@ -4,6 +4,130 @@
 	<Squad name="FlyingFlood" dbid="16256726101795934130" />
 	<Squad name="Forerunner" dbid="12943458503600554757" />
 	<Squad name="Rebel" dbid="10443232853206385951" />
+	<Squad name="cov_inf_arbiter_assaultteamsingleplasma_01" dbid="15571555391561239374">
+		<CombatRank>3</CombatRank>
+		<SubSelectSort>615</SubSelectSort>
+		<LeashDistance>20</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>1.20000005</AIAttackRank>
+		<ActiveAbilityType>StasisGrenade</ActiveAbilityType>
+		<BuildPoints>18</BuildPoints>
+		<Pop Type="Unit">1</Pop>
+		<Cost ResourceType="Supplies">110</Cost>
+		<Cost ResourceType="Power">60</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,4.92000008,0">UNSC_HealthShield</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_arbiter_assaultteam_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>Chatter</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>Units</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>AssaultElites_01</Counters>
+	</Squad>
+	<Squad name="cov_inf_singlehunter_01" dbid="15619671667343797920">
+		<CombatRank>0</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\inf_hunter</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3050</DisplayNameID>
+		<RolloverTextID>3051</RolloverTextID>
+		<RoleTextID>504</RoleTextID>
+		<PrereqTextID>242</PrereqTextID>
+		<SubSelectSort>1305</SubSelectSort>
+		<LeashDistance>0</LeashDistance>
+		<LeashDeadzone>9</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Circle</MinimapIcon>
+		<AIAttackRank>3.5</AIAttackRank>
+		<BuildPoints>20</BuildPoints>
+		<Pop Type="Unit">4</Pop>
+		<Cost ResourceType="Power">150</Cost>
+		<Cost ResourceType="Supplies">200</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,6.76499987,0">COV_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">cov_inf_singlehunter_01</Unit>
+			<Unit count="3" role="normal">cov_inf_heavygrunt_01</Unit>
+		</Units>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<AvoidanceMass>Light</AvoidanceMass>
+		<Counters>Hunters_01</Counters>
+		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
+	</Squad>
+	<Squad name="unsc_veh_frosthog_01" dbid="12134767209203897996">
+		<CombatRank>6</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>3016</DisplayNameID>
+		<RolloverTextID>3017</RolloverTextID>
+		<RoleTextID>518</RoleTextID>
+		<PrereqTextID>230</PrereqTextID>
+		<SubSelectSort>7105</SubSelectSort>
+		<LeashDistance>20</LeashDistance>
+		<LeashDeadzone>12</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<AggroDistance>9.22500038</AggroDistance>
+		<MinimapIcon size="8">Square</MinimapIcon>
+		<AIAttackRank>3.5</AIAttackRank>
+		<BuildPoints>22</BuildPoints>
+		<Pop Type="Unit">4</Pop>
+		<Cost ResourceType="Supplies">280</Cost>
+		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="HQLevel">0</Cost>
+		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
+		<Units>
+			<Unit count="1" role="normal">unsc_veh_frosthog_01</Unit>
+		</Units>
+		<Flag>Chatter</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Flag>UseNameForSelectionDecal</Flag>
+		<Flag>UseNameForSelectionIcon</Flag>
+		<Flag>UseNameForMenuIcon</Flag>
+		<Selection>
+			<ConformToTerrain>true</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>All</StencilType>
+			<WriteToMergeStencil>True</WriteToMergeStencil>
+		</Selection>
+		<Birth>Trained</Birth>
+		<TurnRadius min="1.5" max="4" />
+		<AvoidanceMass>Normal</AvoidanceMass>
+		<Counters>Flamehog_01</Counters>
+		<RammingDistanceScalar>7</RammingDistanceScalar>
+		<RammingSpeedScalar>3</RammingSpeedScalar>
+		<RevvingSpeedThreshold>11</RevvingSpeedThreshold>
+		<ChillSlowModifier>0.600000024</ChillSlowModifier>
+	</Squad>
 	<Squad name="creep_veh_mariokart_base" dbid="15770811218352086746">
 		<CombatRank>5</CombatRank>
 		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\veh_warthogROF</PortraitIcon>
