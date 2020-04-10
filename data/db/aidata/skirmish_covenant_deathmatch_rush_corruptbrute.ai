@@ -167,6 +167,14 @@
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
+			<SquadTypeToSend>flood_inf_infected_eliteplasmarifle_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>8</NumberOfSquadsToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
+		</Mission>
+		<Mission>
+			<MissionType>Reserves</MissionType>
 			<SquadTypeToSend>flood_veh_infected_scorpion_01_base</SquadTypeToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>0</NumberOfTimesToRepeatMission>
@@ -205,7 +213,7 @@
 		</Mission>
 		<Building>
 			<BuildingType>cov_bldg_builder_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>5</NumberOfBuildingTypeNeeded>
+			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
 		</Building>
 		<Mission>
 			<MissionType>Forage</MissionType>
@@ -422,6 +430,10 @@
 			<StreamReplaceSquads>true</StreamReplaceSquads>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
+		<Building>
+			<BuildingType>cov_bldg_builder_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>3</NumberOfBuildingTypeNeeded>
+		</Building>
 	</Table>
 	<Table>
 		<Settings>
@@ -1066,7 +1078,7 @@
 		</Mission>
 		<Building>
 			<BuildingType>cov_bldg_builder_01</BuildingType>
-			<NumberOfBuildingTypeNeeded>1</NumberOfBuildingTypeNeeded>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
 		</Building>
 		<Mission>
 			<MissionType>Forage</MissionType>
@@ -1111,6 +1123,16 @@
 		<Mission>
 			<MissionType>Forage</MissionType>
 			<SquadTypeToSend>flood_inf_infected_elitecarbine_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Covenant</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_veh_infected_prowler_01_base</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
@@ -1183,6 +1205,7 @@
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>10</NumberOfSquadsToSend>
 			<SquadTypeToSend>flood_veh_infected_bruteChopper_01_base</SquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_veh_infected_prowler_01_base</AlternateSquadTypeToSend>
 			<AlternateSquadTypeToSend>flood_veh_infected_warthog_01_base</AlternateSquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
@@ -1192,6 +1215,22 @@
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
 			<StreamReplaceSquads>true</StreamReplaceSquads>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
+		</Mission>
+		<Mission>
+			<MissionType>Attack</MissionType>
+			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
+			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
+			<SquadTypeToSend>flood_inf_infected_humelee_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_inf_infected_elitemelee_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_inf_infected_brutemelee_01</AlternateSquadTypeToSend>
+			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
@@ -1229,10 +1268,34 @@
 		<Mission>
 			<MissionType>Forage</MissionType>
 			<SquadTypeToSend>flood_veh_infected_wraith_01_base</SquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_veh_infected_scorpion_01_base</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Covenant</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_veh_infected_scorpion_01_base</SquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_veh_infected_wraith_01_base</AlternateSquadTypeToSend>
+			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Unsc</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_veh_infected_grizzly_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
+			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>cov_inf_impervioushunter_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
@@ -1278,6 +1341,9 @@
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<SquadTypeToSend>flood_inf_spawner_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
+			<SquadTypeToSend>flood_veh_infected_grizzly_01_base</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
 			<SquadTypeToSend>flood_veh_infected_scorpion_01_base</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
@@ -1400,10 +1466,10 @@
 		<Mission>
 			<MissionType>Attack</MissionType>
 			<TargetType>_Hero</TargetType>
-			<FocusFireOnTarget>false</FocusFireOnTarget>
+			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<TargetType>Unit</TargetType>
 			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
-			<FocusFireOnTarget>false</FocusFireOnTarget>
+			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<MissionID>1</MissionID>
 			<SquadTypeToSend>flood_inf_infected_humelee_01</SquadTypeToSend>
 			<AlternateSquadTypeToSend>flood_inf_infected_elitemelee_01</AlternateSquadTypeToSend>
@@ -1417,6 +1483,10 @@
 			<StreamReplaceSquads>true</StreamReplaceSquads>
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
+		<Building>
+			<BuildingType>cov_bldg_builder_01</BuildingType>
+			<NumberOfBuildingTypeNeeded>2</NumberOfBuildingTypeNeeded>
+		</Building>
 		<Mission>
 			<MissionType>Forage</MissionType>
 			<SquadTypeToSend>flood_inf_infected_humelee_01</SquadTypeToSend>
@@ -1469,12 +1539,32 @@
 		</Mission>
 		<Mission>
 			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_veh_infected_prowler_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Covenant</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
 			<SquadTypeToSend>flood_veh_infected_bruteChopper_01_base</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
 			<PrerequisiteSightingObjectType>Covenant</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_veh_infected_warthog_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Unsc</PrerequisiteSightingObjectType>
 			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
@@ -1507,7 +1597,7 @@
 		<Mission>
 			<MissionType>Attack</MissionType>
 			<TargetType>_Unit</TargetType>
-			<FocusFireOnTarget>false</FocusFireOnTarget>
+			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<MissionID>3</MissionID>
 			<SquadTypeToSend>flood_inf_infected_sniper_01_base</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
@@ -1522,6 +1612,7 @@
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>10</NumberOfSquadsToSend>
 			<SquadTypeToSend>flood_veh_infected_bruteChopper_01_base</SquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_veh_infected_prowler_01_base</AlternateSquadTypeToSend>
 			<AlternateSquadTypeToSend>flood_veh_infected_warthog_01_base</AlternateSquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
@@ -1533,6 +1624,22 @@
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
 		<Mission>
+			<MissionType>Attack</MissionType>
+			<TargetType>hook_bldg_EnergyCapturePoint_01</TargetType>
+			<TimeToWaitAtTarget>10</TimeToWaitAtTarget>
+			<SquadTypeToSend>flood_inf_infected_humelee_01</SquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_inf_infected_elitemelee_01</AlternateSquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_inf_infected_brutemelee_01</AlternateSquadTypeToSend>
+			<NumberOfSquadsToSend>6</NumberOfSquadsToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteObtainedObjectType>cov_bldg_builder_01</PrerequisiteObtainedObjectType>
+			<PrerequisiteObtainedObjectCount>2</PrerequisiteObtainedObjectCount>
+			<DontTakeSquadsFromThisMission>true</DontTakeSquadsFromThisMission>
+		</Mission>
+		<Mission>
 			<MissionType>Forage</MissionType>
 			<SquadTypeToSend>flood_inf_commander_01</SquadTypeToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
@@ -1541,12 +1648,61 @@
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
 		</Mission>
 		<Mission>
+			<MissionType>Attack</MissionType>
+			<TargetType>_Hero</TargetType>
+			<FocusFireOnTarget>true</FocusFireOnTarget>
+			<TargetType>unsc_bldg_command_01</TargetType>
+			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
+			<MissionID>4</MissionID>
+			<SquadTypeToSend>flood_inf_commander_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>10000</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<StreamReplaceSquads>true</StreamReplaceSquads>
+			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_inf_spawner_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+		</Mission>
+		<Mission>
 			<MissionType>Forage</MissionType>
 			<SquadTypeToSend>flood_veh_infected_wraith_01_base</SquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_veh_infected_scorpion_01_base</AlternateSquadTypeToSend>
 			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
 			<NumberOfTimesToRepeatMission>2</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
 			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Covenant</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_veh_infected_scorpion_01_base</SquadTypeToSend>
+			<AlternateSquadTypeToSend>flood_veh_infected_wraith_01_base</AlternateSquadTypeToSend>
+			<NumberOfSquadsToSend>2</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+			<PrerequisiteSightingObjectType>Unsc</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
+		</Mission>
+		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_veh_infected_grizzly_01_base</SquadTypeToSend>
+			<NumberOfSquadsToSend>4</NumberOfSquadsToSend>
+			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>3</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>1</NumberOfTimesToReplaceSquads>
+			<PrerequisiteSightingObjectType>cov_inf_impervioushunter_01</PrerequisiteSightingObjectType>
+			<PrerequisiteSightingObjectCount>1</PrerequisiteSightingObjectCount>
 		</Mission>
 		<Mission>
 			<MissionType>Reserves</MissionType>
@@ -1563,6 +1719,9 @@
 			<SquadTypeToSend>flood_inf_spawner_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_veh_infected_scorpion_01_base</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>5</NumberOfSquadsToSend>
 			<SquadTypeToSend>flood_inf_commander_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>0</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
@@ -1576,10 +1735,10 @@
 		<Mission>
 			<MissionType>Attack</MissionType>
 			<TargetType>_Unit</TargetType>
-			<FocusFireOnTarget>false</FocusFireOnTarget>
+			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<TargetType>_Hero</TargetType>
 			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
-			<FocusFireOnTarget>false</FocusFireOnTarget>
+			<FocusFireOnTarget>true</FocusFireOnTarget>
 			<TargetType>unsc_bldg_command_01</TargetType>
 			<SkipTargetIfPreviousTargetExists>true</SkipTargetIfPreviousTargetExists>
 			<TargetType>_Building</TargetType>
@@ -1589,6 +1748,12 @@
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<SquadTypeToSend>flood_inf_spawner_01</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>2</MinimumNumberOfSquadsToSend>
+			<SquadTypeToSend>flood_veh_infected_grizzly_01_base</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
+			<SquadTypeToSend>flood_veh_infected_scorpion_01_base</SquadTypeToSend>
+			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
+			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
 			<SquadTypeToSend>flood_veh_infected_wraith_01_base</SquadTypeToSend>
 			<MinimumNumberOfSquadsToSend>1</MinimumNumberOfSquadsToSend>
 			<NumberOfSquadsToSend>3</NumberOfSquadsToSend>
