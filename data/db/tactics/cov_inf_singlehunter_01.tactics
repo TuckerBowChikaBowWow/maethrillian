@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>BeamCannon</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
+		<DamagePerSecond>90</DamagePerSecond>
 		<WeaponType>SingleHunter</WeaponType>
 		<Projectile>vfx_episode2_units_leechBeam</Projectile>
 		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
@@ -18,7 +18,7 @@
 			<Hitbox>
 				<Type>Segment</Type>
 				<Length>ReachTarget</Length>
-				<Width>3</Width>
+				<Width>2</Width>
 				<DamageRatio>25</DamageRatio>
 				<Origin>Attacker</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -40,7 +40,6 @@
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<Hardpoint>Torso</Hardpoint>
-		<CausePhysicsExplosion particle="" victimType="GroundVehicle" />
 		<Filter>Medium</Filter>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
