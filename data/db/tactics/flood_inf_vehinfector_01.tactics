@@ -19,7 +19,7 @@
 			</Hitbox>
 		</AOEData>
 		<Filter>Medium</Filter>
-		<InfectionTargetType>GroundVehicle</InfectionTargetType>
+		<InfectionTargetType>Military</InfectionTargetType>
 		<TargetPriority type="GroundVehicle">10</TargetPriority>
 		<TargetPriority type="Infantry">-1</TargetPriority>
 		<TargetPriority type="TurretBuilding">-1</TargetPriority>
@@ -28,7 +28,7 @@
 	<Weapon>
 		<Name>Hammer</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>100</DamagePerSecond>
+		<DamagePerSecond>450</DamagePerSecond>
 		<WeaponType>Melee</WeaponType>
 		<MaxRange>3</MaxRange>
 		<Hardpoint>Torso</Hardpoint>
@@ -136,18 +136,11 @@
 		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Enemy</Relation>
-			<TargetType>GroundVehicle</TargetType>
 			<Action>Infect</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
-			<TargetType>GroundVehicle</TargetType>
-			<Action>Infect</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>Infantry</TargetType>
-			<TargetType>Building</TargetType>
+			<TargetType>NonFlying</TargetType>
 			<Action>HammerAttackAction</Action>
 		</TargetRule>
 	</Tactic>

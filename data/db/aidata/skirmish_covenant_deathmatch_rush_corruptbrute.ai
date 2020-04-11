@@ -302,6 +302,14 @@
 			<TakeSquadsFromOtherMissions>true</TakeSquadsFromOtherMissions>
 		</Mission>
 		<Mission>
+			<MissionType>Forage</MissionType>
+			<SquadTypeToSend>flood_inf_vehinfector_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>10000</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+		</Mission>
+		<Mission>
 			<MissionType>Attack</MissionType>
 			<TargetType>Military</TargetType>
 			<FocusFireOnTarget>true</FocusFireOnTarget>
