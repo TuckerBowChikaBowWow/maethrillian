@@ -104,12 +104,6 @@
             <Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
                 <Target type="ProtoUnit">_Flood</Target>
             </Effect>
-             <Effect type="Data" amount="0" subtype="ActionEnable" action="CarbineRifleAttackAction" relativity="Absolute">
-                <Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
-            </Effect>
-            <Effect type="Data" amount="1" subtype="ActionEnable" action="CarbineRifleLegendaryAttackAction" relativity="Absolute">
-                <Target type="ProtoUnit">flood_inf_infected_elitecarbine_01</Target>
-            </Effect>
              <Effect type="Data" amount="1" subtype="ActionEnable" action="CorruptedScorchMortarAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">flood_veh_infected_wraith_01_base</Target>
             </Effect>
@@ -178,7 +172,6 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
-            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
             <Effect type="UnlockableGodPower" tier="1">UnscForgePelicanTransport</Effect>
             <Effect type="UnlockableGodPower" tier="2">Up_Forge1</Effect>
             <Effect type="UnlockableGodPower" tier="2" prereq="Up_Forge1">Up_Forge2</Effect>
@@ -233,7 +226,6 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
-            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
             <Effect type="UnlockableGodPower" tier="1">UnscHoloDecoy1_MP</Effect>
             <Effect type="UnlockableGodPower" tier="1" prereq="UnscHoloDecoy1_MP">UnscHoloDecoy2_MP</Effect>
             <Effect type="UnlockableGodPower" tier="2">DropMarines</Effect>
@@ -281,7 +273,6 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
-            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
             <Effect type="UnlockableGodPower" tier="1">UnscForgePelicanTransport</Effect>
             <Effect type="UnlockableGodPower" tier="2">DropMarines</Effect>
             <Effect type="UnlockableGodPower" tier="2">Up_John1</Effect>
@@ -333,7 +324,6 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
-            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
             <Effect type="UnlockableGodPower" tier="1">Serina_IceBlock1</Effect>
             <Effect type="UnlockableGodPower" tier="1" prereq="Serina_IceBlock1">Serina_IceBlock2</Effect>
             <Effect type="UnlockableGodPower" tier="2">DropJackRab</Effect>
@@ -385,7 +375,6 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
-            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
             <Effect type="UnlockableGodPower" tier="1">Jerome_AdvancedOptics</Effect>
             <Effect type="UnlockableGodPower" tier="2">UnscOdstDrop</Effect>
             <Effect type="UnlockableGodPower" tier="2">UnscSniperDrop</Effect>
@@ -471,7 +460,6 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
-            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
             <Effect type="UnlockableGodPower" tier="1">CovSlipstreamRift</Effect>
             <Effect type="UnlockableGodPower" tier="2">Drop_Grunt</Effect>
             <Effect type="UnlockableGodPower" tier="2">Drop_JumpPack</Effect>
@@ -616,7 +604,6 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
-            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
             <Effect type="UnlockableGodPower" tier="1">LekgoloWormBuff1</Effect>
             <Effect type="UnlockableGodPower" tier="1" prereq="LekgoloWormBuff1">LekgoloWormBuff2</Effect>
             <Effect type="UnlockableGodPower" tier="1" prereq="LekgoloWormBuff2">LekgoloWormBuff3</Effect>
@@ -752,7 +739,6 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
-            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
             <Effect type="UnlockableGodPower" tier="1">ArbiterConduitofRage1</Effect>
             <Effect type="UnlockableGodPower" tier="1" prereq="ArbiterConduitofRage1">ArbiterConduitofRage2</Effect>
             <Effect type="UnlockableGodPower" tier="1" prereq="ArbiterConduitofRage2">ArbiterConduitofRage3</Effect>
@@ -887,7 +873,6 @@
         <Flag>Shadow</Flag>
         <Effects>
             <Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
-            <Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
             <Effect type="UnlockableGodPower" tier="1">Grunt_ShieldTower1</Effect>
             <Effect type="UnlockableGodPower" tier="2">Drop_Swarm</Effect>
             <Effect type="UnlockableGodPower" tier="2">Up_Goblin1</Effect>
