@@ -917,7 +917,8 @@
 	</Squad>
 	<Squad name="cov_inf_arbiter_assaultteam_02" parent_element="cov_inf_arbiter_assaultteam_01" dbid="15571554292049611163">
 		<Units override_type="additive">
-			<Unit count="1" role="normal">cov_inf_arbiter_assaultteamleader_01</Unit>
+			<Unit count="2" role="normal">cov_inf_arbiter_assaultteamleader_01</Unit>
+			<Unit count="1" role="normal">cov_inf_arbiter_assaultteam_01</Unit>
 		</Units>
 	</Squad>
 	<Squad name="cov_inf_arbiter_gruntsquad_01" dbid="7280116354519909504">
@@ -969,6 +970,13 @@
 		</Selection>
 		<FrozenThreshold>100</FrozenThreshold>
 		<ChillDecayPerSecond>20</ChillDecayPerSecond>
+	</Squad>
+	<Squad name="cov_inf_arbiter_gruntsquad_03" parent_element="cov_inf_arbiter_gruntsquad_01" dbid="7280119653054794137">
+		<Pop Type="Unit">-1</Pop>
+		<Units>
+			<Unit count="2" role="leader">cov_inf_generic_arbiter_eliteLeader_01</Unit>
+			<Unit count="4" role="normal">cov_inf_generic_elitegrunt_01</Unit>
+		</Units>
 	</Squad>
 	<Squad name="cov_inf_atrioxchosen_01" dbid="6581016391172346941" formationType="Line" parent_element="cov_inf_atrioxchosen_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
@@ -1198,6 +1206,9 @@
 	</Squad>
 	<Squad name="cov_inf_bruteJumpPack_01_sp" parent_element="cov_inf_bruteJumpPack_01_base" dbid="1889929119706753225">
 		<LeashDistance>73</LeashDistance>
+	</Squad>
+	<Squad name="cov_inf_bruteJumpPack_03" parent_element="cov_inf_bruteJumpPack_01_base" dbid="9550052725261081744">
+		<Pop Type="Unit">-2</Pop>
 	</Squad>
 	<Squad name="cov_inf_bruteJumpPack_02" dbid="17762396584411432240" formationType="Flock" parent_element="cov_inf_bruteJumpPack_02_sp" />
 	<Squad name="cov_inf_bruteJumpPack_02_base" parent_element="cov_inf_bruteJumpPack_01" dbid="10298302148551947952">
@@ -1743,6 +1754,9 @@
 	<Squad name="cov_inf_grunt_01_sp" parent_element="cov_inf_grunt_01_base" dbid="2951099546121161130">
 		<LeashDistance>50</LeashDistance>
 	</Squad>
+	<Squad name="cov_inf_grunt_03" parent_element="cov_inf_grunt_01_base" dbid="9550052725261081744">
+		<Pop Type="Unit">-1</Pop>
+	</Squad>
 	<Squad name="flood_inf_infected_gruntpistol_01" parent_element="cov_inf_grunt_01_base" dbid="2960665297284704580">
 		<Units override_type="absolute">
 			<Unit count="1" role="normal">flood_inf_infected_gruntpistol_01</Unit>
@@ -1814,6 +1828,14 @@
 			<WriteToMergeStencil>True</WriteToMergeStencil>
 		</Selection>
 	</Squad>
+	<Squad name="cov_inf_heavygrunt_03" parent_element="cov_inf_heavygrunt_01" dbid="2289008923150871706">
+		<Pop Type="Unit">-1.5</Pop>
+		<Units>
+			<Unit count="1" role="leader">cov_inf_heavygruntLeader_01</Unit>
+			<Unit count="3" role="normal">cov_inf_heavygrunt_01</Unit>
+			<Unit count="1" role="normal">cov_inf_heavygruntsubleader_01</Unit>
+		</Units>
+	</Squad>
 	<Squad name="flood_inf_infected_heavygruntpistol_01" parent_element="cov_inf_heavygrunt_01" dbid="2289008923150871706">
 		<Units override_type="absolute">
 			<Unit count="1" role="normal">flood_inf_infected_heavygruntpistol_01</Unit>
@@ -1880,6 +1902,9 @@
 	</Squad>
 	<Squad name="cov_inf_hunter_01_sp" parent_element="cov_inf_hunter_01_base" dbid="1643513766021087358">
 		<LeashDistance>15</LeashDistance>
+	</Squad>
+	<Squad name="cov_inf_hunter_02" parent_element="cov_inf_hunter_01_base" dbid="9550052725261081744">
+		<Pop Type="Unit">-2.5</Pop>
 	</Squad>
 	<Squad name="cov_inf_singlehunter_01" dbid="15619671667343797920">
 		<CombatRank>0</CombatRank>
@@ -8673,6 +8698,9 @@
 		<BuildPoints>20</BuildPoints>
 	</Squad>
 	<Squad name="unsc_inf_cyclops_01_sp" parent_element="unsc_inf_cyclops_01_base" dbid="4842002300556241126" />
+	<Squad name="unsc_inf_cyclops_02" parent_element="unsc_inf_cyclops_01_base" dbid="9550052725261081744">
+		<Pop Type="Unit">-2</Pop>
+	</Squad>
 	<Squad name="unsc_inf_flamecyclops_01" dbid="4590417787222477861">
 		<CombatRank>10</CombatRank>
 		<SubSelectSort>50</SubSelectSort>
@@ -8769,6 +8797,9 @@
 	</Squad>
 	<Squad name="unsc_inf_flameMarine_01_sp" parent_element="unsc_inf_flameMarine_01_base" dbid="11366132454356974694">
 		<DazeResist>0.5</DazeResist>
+	</Squad>
+	<Squad name="unsc_inf_flameMarine_03" parent_element="unsc_inf_flameMarine_01_base" dbid="9550052725261081744">
+		<Pop Type="Unit">-2</Pop>
 	</Squad>
 	<Squad name="unsc_inf_flameMarine_02" parent_element="unsc_inf_flameMarine_02_sp" dbid="5321188856006463425" />
 	<Squad name="unsc_inf_flameMarine_02_base" parent_element="unsc_inf_flameMarine_01" formationType="Flock" dbid="11269484153022237111">
@@ -8983,6 +9014,9 @@
 			<Unit count="1" role="leader">unsc_inf_generic_engineer_01</Unit>
 		</Units>
 		<Flag>UseNameForMenuIcon</Flag>
+	</Squad>
+	<Squad name="unsc_inf_marine_03" parent_element="unsc_inf_marine_01" dbid="9550052725261081744">
+		<Pop Type="Unit">-1</Pop>
 	</Squad>
 	<Squad name="unsc_inf_MPmarine_01" dbid="13650631658967175568" formationType="Flock" parent_element="unsc_inf_marine_01">
 		<FrozenThreshold>100</FrozenThreshold>
@@ -9291,6 +9325,9 @@
 		<AvoidanceMass>Light</AvoidanceMass>
 		<Counters>CryoTroopers_01</Counters>
 	</Squad>
+	<Squad name="unsc_inf_serina_cryomarines_02" parent_element="unsc_inf_serina_cryomarines_01" dbid="9550052725261081744">
+		<Pop Type="Unit">-2</Pop>
+	</Squad>
 	<Squad name="unsc_inf_sniper_01" dbid="4015673770955018048" parent_element="unsc_inf_sniper_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>
@@ -9341,6 +9378,9 @@
 		<BuildPoints>20</BuildPoints>
 	</Squad>
 	<Squad name="unsc_inf_sniper_01_sp" parent_element="unsc_inf_sniper_01_base" dbid="9578785163123814846" />
+	<Squad name="unsc_inf_sniper_02" parent_element="unsc_inf_sniper_01_base" dbid="9550052725261081744">
+		<Pop Type="Unit">-1.5</Pop>
+	</Squad>
 	<Squad name="unsc_inf_spartan_01" dbid="13960817158359654890">
 		<HealValue>1.29999995</HealValue>
 		<MinimapScale>1</MinimapScale>
@@ -10107,6 +10147,9 @@
 		<HealValue>1.39999998</HealValue>
 	</Squad>
 	<Squad name="unsc_veh_johnson_mantis_01_sp" parent_element="unsc_veh_johnson_mantis_01_base" dbid="18104910427526740873" />
+	<Squad name="unsc_veh_johnson_mantis_02" parent_element="unsc_veh_johnson_mantis_01_base" dbid="9550052725261081744">
+		<Pop Type="Unit">-2.5</Pop>
+	</Squad>
 	<Squad name="unsc_veh_mongoose_01" dbid="9010248538996267698" parent_element="unsc_veh_mongoose_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
 		<Flag>UseNameForSelectionIcon</Flag>

@@ -48,7 +48,7 @@
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
         <Effects>
-            <Effect type="Data" amount="0.7" subtype="Cost" Resource="Supplies" relativity="Percent">
+            <Effect type="Data" amount="0.85" subtype="Cost" Resource="Supplies" relativity="Percent">
                 <Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
                 <Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
                 <Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
@@ -98,10 +98,10 @@
                 <Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
                 <Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
             </Effect>
-            <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+            <Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
                 <Target type="ProtoUnit">_Flood</Target>
             </Effect>
-            <Effect type="Data" amount="1.3" subtype="Hitpoints" relativity="Percent">
+            <Effect type="Data" amount="1.2" subtype="Hitpoints" relativity="Percent">
                 <Target type="ProtoUnit">_Flood</Target>
             </Effect>
              <Effect type="Data" amount="1" subtype="ActionEnable" action="CorruptedScorchMortarAttackAction" relativity="Absolute">
@@ -110,7 +110,7 @@
             <Effect type="Data" amount="0" subtype="ActionEnable" action="ScorchMortarAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">flood_veh_infected_wraith_01_base</Target>
             </Effect>
-             <Effect type="Data" amount="0.5" subtype="buildPoints" allactions="1" relativity="Percent">
+             <Effect type="Data" amount="0.65" subtype="buildPoints" allactions="1" relativity="Percent">
                 <Target type="ProtoSquad">flood_veh_infected_prowler_01_base</Target>
                 <Target type="ProtoSquad">flood_veh_infected_warthog_01_base</Target>
                 <Target type="ProtoSquad">flood_veh_infected_wraith_01_base</Target>
@@ -135,11 +135,11 @@
                 <Target type="ProtoSquad">flood_veh_infected_bruteChopper_01_base</Target>
                 <Target type="ProtoSquad">flood_veh_infected_scorpion_01_base</Target>
             </Effect>
-            <Effect type="Data" subtype="PopCap" amount="15" popType="Unit" relativity="Absolute">
+            <Effect type="Data" subtype="PopCap" amount="10" popType="Unit" relativity="Absolute">
                 <Target type="Player">
                 </Target>
             </Effect>
-            <Effect type="Data" subtype="PopCap" amount="3" popType="Reactor" relativity="Absolute">
+            <Effect type="Data" subtype="PopCap" amount="1" popType="Reactor" relativity="Absolute">
                 <Target type="Player">
                 </Target>
             </Effect>
@@ -151,15 +151,15 @@
                 <Target type="Player">
                 </Target>
             </Effect>
-             <Effect type="Data" amount="1" subtype="PowerLevel" power="FloodEggAOMDrop1" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="FloodEggAOMDrop1" relativity="Absolute">
                 <Target type="Player">
                 </Target>
             </Effect>
-             <Effect type="Data" amount="1" subtype="PowerLevel" power="Flood_Emerge_InfectorsAOM" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="Flood_Emerge_InfectorsAOM" relativity="Absolute">
                 <Target type="Player">
                 </Target>
             </Effect>
-             <Effect type="Data" amount="1" subtype="PowerLevel" power="FloodRuptureEmerge" relativity="Absolute">
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="FloodRuptureEmerge" relativity="Absolute">
                 <Target type="Player">
                 </Target>
             </Effect>
@@ -2155,6 +2155,9 @@
             <Effect type="SquadCounter" NewCounterName="Marines_02">
                 <Target type="ProtoSquad">unsc_inf_marine_01</Target>
             </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="DropMarines" relativity="Absolute">
+                <Target type="Player" />
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_marine_upgrade2" type="Normal">
@@ -2287,6 +2290,9 @@
             <Effect type="Data" amount="1.1" subtype="Hitpoints" relativity="Percent">
                 <Target type="ProtoUnit">unsc_inf_flameMarine_01</Target>
             </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="UnscFlamerDrop" relativity="Absolute">
+                <Target type="Player" />
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_cyclops_upgrade1" type="Normal">
@@ -2357,6 +2363,9 @@
             <Effect type="SquadCounter" NewCounterName="Sniper_02">
                 <Target type="ProtoSquad">unsc_inf_sniper_01</Target>
             </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="UnscSniperDrop" relativity="Absolute">
+                <Target type="Player" />
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_warthog_upgrade3" type="Normal">
@@ -2413,6 +2422,12 @@
             <Effect type="Data" amount="1" subtype="ActionEnable" action="GaussCannonAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_veh_warthog_01_forge</Target>
             </Effect>
+            <Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_veh_warthog_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_veh_warthog_01_forge</Target>
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_flamehog_upgrade3" type="Normal">
@@ -2443,6 +2458,9 @@
             <Effect type="Data" amount="1" subtype="ActionEnable" action="IncendiaryGrenadeAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_veh_flamehog_01</Target>
             </Effect>
+            <Effect type="Data" amount="1.35" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_veh_flamehog_01</Target>
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_scorpion_upgrade2" type="Normal">
@@ -2465,6 +2483,12 @@
             </Effect>
             <Effect type="SquadCounter" NewCounterName="Scorpion_02">
                 <Target type="ProtoSquad">unsc_veh_scorpion_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_veh_scorpion_01</Target>
             </Effect>
         </Effects>
     </Tech>
@@ -4224,6 +4248,9 @@
             <Effect type="Data" amount="1" subtype="ActionEnable" action="JumpAttackBombLineAction" relativity="Absolute">
                 <Target type="ProtoUnit">cov_inf_bruteJumpPack_01</Target>
             </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="Drop_JumpPack" relativity="Absolute">
+                <Target type="Player" />
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="cov_hunter_upgrade1" type="Normal">
@@ -4251,6 +4278,9 @@
             </Effect>
             <Effect type="SquadCounter" NewCounterName="Hunters_02">
                 <Target type="ProtoSquad">cov_inf_hunter_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="Drop_Hunter" relativity="Absolute">
+                <Target type="Player" />
             </Effect>
         </Effects>
     </Tech>
@@ -4347,6 +4377,12 @@
             <Effect type="SquadCounter" NewCounterName="Wraith_02">
                 <Target type="ProtoSquad">cov_veh_wraith_01</Target>
             </Effect>
+            <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">cov_veh_wraith_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.4" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">cov_veh_wraith_01</Target>
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="cov_bruteChopper_upgrade4" type="Normal">
@@ -4397,6 +4433,12 @@
             </Effect>
             <Effect type="SquadCounter" NewCounterName="Marauder_02">
                 <Target type="ProtoSquad">cov_veh_prowler_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.315" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">cov_veh_prowler_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">cov_veh_prowler_01</Target>
             </Effect>
         </Effects>
     </Tech>
@@ -11341,6 +11383,12 @@
             <Effect type="Data" amount="0" subtype="AbilityDisabled" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
             </Effect>
+            <Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.25" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_veh_grizzly_01</Target>
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_forge_grizzlyLOS" type="Normal">
@@ -11787,6 +11835,9 @@
             </Effect>
             <Effect type="SquadCounter" NewCounterName="CryoTroopers_02">
                 <Target type="ProtoSquad">unsc_inf_serina_cryomarines_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="DropCryoFlamers" relativity="Absolute">
+                <Target type="Player" />
             </Effect>
         </Effects>
     </Tech>
@@ -12507,6 +12558,12 @@
             <Effect type="Data" amount="1" subtype="ActionEnable" action="MissilePodAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_veh_johnson_mantis_01</Target>
             </Effect>
+            <Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">unsc_veh_johnson_mantis_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
+                <Target type="ProtoUnit">unsc_veh_johnson_mantis_01</Target>
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="unsc_mantis_upgrade2" type="Normal">
@@ -12532,6 +12589,9 @@
             </Effect>
             <Effect type="Data" amount="1" subtype="ActionEnable" action="MantisLaserAttackAction" relativity="Absolute">
                 <Target type="ProtoUnit">unsc_veh_johnson_mantis_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="DropMantis" relativity="Absolute">
+                <Target type="Player" />
             </Effect>
         </Effects>
     </Tech>
@@ -12823,6 +12883,9 @@
             </Effect>
             <Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_inf_arbiter_gruntsquad_02">
                 <Target type="ProtoSquad">cov_inf_arbiter_gruntsquad_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="Drop_AGrunt" relativity="Absolute">
+                <Target type="Player" />
             </Effect>
         </Effects>
     </Tech>
@@ -13117,6 +13180,12 @@
                 <Target type="ProtoUnit">cov_veh_grunt_methanewagon_01</Target>
             </Effect>
             <Effect type="Data" amount="1" subtype="ActionEnable" action="AreaDebuffUpgrade" relativity="Absolute">
+                <Target type="ProtoUnit">cov_veh_grunt_methanewagon_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
+                <Target type="ProtoUnit">cov_veh_grunt_methanewagon_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1.55" subtype="Hitpoints" relativity="Percent">
                 <Target type="ProtoUnit">cov_veh_grunt_methanewagon_01</Target>
             </Effect>
         </Effects>
