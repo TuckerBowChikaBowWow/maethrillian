@@ -4181,6 +4181,9 @@
             <Effect type="SquadCounter" NewCounterName="Grunts_03">
                 <Target type="ProtoSquad">cov_inf_grunt_01</Target>
             </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="Drop_Grunt" relativity="Absolute">
+                <Target type="Player" />
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="cov_suicideGrunt_upgrade1" type="Normal">
@@ -13089,6 +13092,9 @@
             <Effect type="SquadCounter" NewCounterName="BruteRider_02">
                 <Target type="ProtoSquad">cov_inf_bruteRider_01</Target>
             </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="Drop_Rider" relativity="Absolute">
+                <Target type="Player" />
+            </Effect>
         </Effects>
     </Tech>
     <Tech name="cov_heavygrunt_upgrade1" type="Normal">
@@ -13143,6 +13149,9 @@
             </Effect>
             <Effect type="SquadCounter" NewCounterName="HeavyGrunt_03">
                 <Target type="ProtoSquad">cov_inf_heavygrunt_01</Target>
+            </Effect>
+            <Effect type="Data" amount="1" subtype="PowerLevel" power="Drop_HeavyGrunt" relativity="Absolute">
+                <Target type="Player" />
             </Effect>
         </Effects>
     </Tech>

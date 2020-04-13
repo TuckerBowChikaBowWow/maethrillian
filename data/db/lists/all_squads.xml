@@ -1207,8 +1207,11 @@
 	<Squad name="cov_inf_bruteJumpPack_01_sp" parent_element="cov_inf_bruteJumpPack_01_base" dbid="1889929119706753225">
 		<LeashDistance>73</LeashDistance>
 	</Squad>
-	<Squad name="cov_inf_bruteJumpPack_03" parent_element="cov_inf_bruteJumpPack_01_base" dbid="9550052725261081744">
+	<Squad name="cov_inf_bruteJumpPack_03" parent_element="cov_inf_bruteJumpPack_01" dbid="9550052725261081744">
 		<Pop Type="Unit">-2</Pop>
+		<Units override_type="additive">
+			<Unit count="1" role="normal">cov_inf_bruteJumpPack_01</Unit>
+		</Units>
 	</Squad>
 	<Squad name="cov_inf_bruteJumpPack_02" dbid="17762396584411432240" formationType="Flock" parent_element="cov_inf_bruteJumpPack_02_sp" />
 	<Squad name="cov_inf_bruteJumpPack_02_base" parent_element="cov_inf_bruteJumpPack_01" dbid="10298302148551947952">
@@ -1270,6 +1273,9 @@
 		<RammingDistanceScalar>10</RammingDistanceScalar>
 		<RammingSpeedScalar>2</RammingSpeedScalar>
 		<RevvingSpeedThreshold>10</RevvingSpeedThreshold>
+	</Squad>
+	<Squad name="cov_inf_bruteRider_02" parent_element="cov_inf_bruteRider_01" dbid="2289008923150871706">
+		<Pop Type="Unit">-1.5</Pop>
 	</Squad>
 	<Squad name="cov_inf_corruptedengineer_01" dbid="253221213771823101" formationType="Flock" parent_element="cov_inf_corruptedengineer_01_sp">
 		<Flag>UseNameForSelectionDecal</Flag>
@@ -1754,7 +1760,10 @@
 	<Squad name="cov_inf_grunt_01_sp" parent_element="cov_inf_grunt_01_base" dbid="2951099546121161130">
 		<LeashDistance>50</LeashDistance>
 	</Squad>
-	<Squad name="cov_inf_grunt_03" parent_element="cov_inf_grunt_01_base" dbid="9550052725261081744">
+	<Squad name="cov_inf_grunt_03" parent_element="cov_inf_grunt_01" dbid="9550052725261081744">
+		<Units override_type="additive">
+			<Unit count="1" role="normal">cov_inf_bruteSubLeader_01</Unit>
+		</Units>
 		<Pop Type="Unit">-1</Pop>
 	</Squad>
 	<Squad name="flood_inf_infected_gruntpistol_01" parent_element="cov_inf_grunt_01_base" dbid="2960665297284704580">
@@ -1903,7 +1912,7 @@
 	<Squad name="cov_inf_hunter_01_sp" parent_element="cov_inf_hunter_01_base" dbid="1643513766021087358">
 		<LeashDistance>15</LeashDistance>
 	</Squad>
-	<Squad name="cov_inf_hunter_02" parent_element="cov_inf_hunter_01_base" dbid="9550052725261081744">
+	<Squad name="cov_inf_hunter_02" parent_element="cov_inf_hunter_01" dbid="9550052725261081744">
 		<Pop Type="Unit">-2.5</Pop>
 	</Squad>
 	<Squad name="cov_inf_singlehunter_01" dbid="15619671667343797920">
@@ -9017,6 +9026,11 @@
 	</Squad>
 	<Squad name="unsc_inf_marine_03" parent_element="unsc_inf_marine_01" dbid="9550052725261081744">
 		<Pop Type="Unit">-1</Pop>
+		<Units override_type="absolute">
+			<Unit count="2" role="normal">unsc_inf_generic_malemarine_01</Unit>
+			<Unit count="2" role="normal">unsc_inf_generic_femalemarine_01</Unit>
+			<Unit count="1" role="leader">unsc_inf_generic_engineer_01</Unit>
+		</Units>
 	</Squad>
 	<Squad name="unsc_inf_MPmarine_01" dbid="13650631658967175568" formationType="Flock" parent_element="unsc_inf_marine_01">
 		<FrozenThreshold>100</FrozenThreshold>
@@ -9378,7 +9392,7 @@
 		<BuildPoints>20</BuildPoints>
 	</Squad>
 	<Squad name="unsc_inf_sniper_01_sp" parent_element="unsc_inf_sniper_01_base" dbid="9578785163123814846" />
-	<Squad name="unsc_inf_sniper_02" parent_element="unsc_inf_sniper_01_base" dbid="9550052725261081744">
+	<Squad name="unsc_inf_sniper_02" parent_element="unsc_inf_sniper_01" dbid="9550052725261081744">
 		<Pop Type="Unit">-1.5</Pop>
 	</Squad>
 	<Squad name="unsc_inf_spartan_01" dbid="13960817158359654890">
@@ -10147,7 +10161,7 @@
 		<HealValue>1.39999998</HealValue>
 	</Squad>
 	<Squad name="unsc_veh_johnson_mantis_01_sp" parent_element="unsc_veh_johnson_mantis_01_base" dbid="18104910427526740873" />
-	<Squad name="unsc_veh_johnson_mantis_02" parent_element="unsc_veh_johnson_mantis_01_base" dbid="9550052725261081744">
+	<Squad name="unsc_veh_johnson_mantis_02" parent_element="unsc_veh_johnson_mantis_01" dbid="9550052725261081744">
 		<Pop Type="Unit">-2.5</Pop>
 	</Squad>
 	<Squad name="unsc_veh_mongoose_01" dbid="9010248538996267698" parent_element="unsc_veh_mongoose_01_sp">
