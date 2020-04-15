@@ -338,42 +338,42 @@
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffUseBoomStrategies" InputLabel="Difficulty" OutputLabel="Bool" Comment="Should the AI use Boom strategies">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" />
-			<DataPoint Input="0.340000004" Output="1" />
-			<DataPoint Input="0.670000017" Output="1" />
-			<DataPoint Input="1" Output="1" />
+			<DataPoint Input="0" Output="0" />
+			<DataPoint Input="0.340000004" Output="0" />
+			<DataPoint Input="0.670000017" Output="0" />
+			<DataPoint Input="1" Output="0" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffUseFastTechStrategies" InputLabel="Difficulty" OutputLabel="Bool" Comment="Should the AI use FastTech strategies">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" />
-			<DataPoint Input="0.340000004" Output="1" />
-			<DataPoint Input="0.670000017" Output="1" />
-			<DataPoint Input="1" Output="1" />
+			<DataPoint Input="0" Output="0" />
+			<DataPoint Input="0.340000004" Output="0" />
+			<DataPoint Input="0.670000017" Output="0" />
+			<DataPoint Input="1" Output="0" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffUseTurtleStrategies" InputLabel="Difficulty" OutputLabel="Bool" Comment="Should the AI use Turtle strategies">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" />
-			<DataPoint Input="0.340000004" Output="1" />
-			<DataPoint Input="0.670000017" Output="1" />
-			<DataPoint Input="1" Output="1" />
+			<DataPoint Input="0" Output="0" />
+			<DataPoint Input="0.340000004" Output="0" />
+			<DataPoint Input="0.670000017" Output="0" />
+			<DataPoint Input="1" Output="0" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffUseMapControlStrategies" InputLabel="Difficulty" OutputLabel="Bool" Comment="Should the AI use MapControl strategies">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" />
-			<DataPoint Input="0.340000004" Output="1" />
-			<DataPoint Input="0.670000017" Output="1" />
-			<DataPoint Input="1" Output="1" />
+			<DataPoint Input="0" Output="0" />
+			<DataPoint Input="0.340000004" Output="0" />
+			<DataPoint Input="0.670000017" Output="0" />
+			<DataPoint Input="1" Output="0" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffUseBoomStrategiesInTeamGames" InputLabel="Difficulty" OutputLabel="Bool" Comment="Should the AI use Boom strategies in team games">
 		<PiecewiseFunc>
-			<DataPoint Input="0" Output="1" />
-			<DataPoint Input="0.340000004" Output="1" />
-			<DataPoint Input="0.670000017" Output="1" />
-			<DataPoint Input="1" Output="1" />
+			<DataPoint Input="0" Output="0" />
+			<DataPoint Input="0.340000004" Output="0" />
+			<DataPoint Input="0.670000017" Output="0" />
+			<DataPoint Input="1" Output="0" />
 		</PiecewiseFunc>
 	</AIDifficultySetting>
 	<AIDifficultySetting Name="DiffMaximumUberUnits" InputLabel="Difficulty" OutputLabel="Int" Comment="The maximum number of Uber units an AI Agent should have on the field at any one time">

@@ -522,6 +522,28 @@
 		<Pop Type="Decimus" Max="999">999</Pop>
 		<Pop Type="ShieldTower" Max="999">999</Pop>
 	</Leader>
+	<Leader Name="NOAI" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
+		<Civ>Covenant</Civ>
+		<Tech>covenant_LeaderDecimus</Tech>
+		<NameID>7014</NameID>
+		<RichPresenceID>LEADER_GRUNTLEADER</RichPresenceID>
+		<CmsId>14</CmsId>
+		<DescriptionID>7015</DescriptionID>
+		<FlashImg>prophet</FlashImg>
+		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\prophet.ddx</FlashPortrait>
+		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_prophet.ddx</UIControlBackground>
+		<Resource Type="Supplies">600</Resource>
+		<Resource Type="Collectable">0</Resource>
+		<Resource Type="Power">400</Resource>
+		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
+		<RallyPointOffset>50,0,0</RallyPointOffset>
+		<RepairRate>1</RepairRate>
+		<RepairDelay>20</RepairDelay>
+		<RepairCost Type="Supplies">35</RepairCost>
+		<RepairTime>30</RepairTime>
+		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
+		<Pop Type="Unit" Max="999">0</Pop>
+	</Leader>
 	<Leader Name="UNSC Single Player" Icon="ui\game\icon\unsc\leader\Captain Cutter" SinglePlayerOnly="true">
 		<Civ>UNSC</Civ>
 		<Tech>unsc_LeaderSinglePlayer</Tech>
