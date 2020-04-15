@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <TechTree version="8">
+	<Tech name="covenant_NoAi" type="Normal">
+		<DBID>2104</DBID>
+		<ResearchPoints>0</ResearchPoints>
+		<Status>UNOBTAINABLE</Status>
+		<Flag>Shadow</Flag>
+		<Effects>
+			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_turret_01</Target>
+			</Effect>
+			<Effect type="Data" subtype="Enable">
+				<Target type="Tech">unsc_multiplayer_marines1</Target>
+			</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="test_game_changes" type="Normal">
 		<DBID>1925</DBID>
 		<Status>OBTAINABLE</Status>
