@@ -1770,9 +1770,9 @@
 			<TechStatus status="Active">unsc_mongoose_upgrade1</TechStatus>
 		</Prereqs>
 		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">350</Cost>
-		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_gunner</ResearchCompleteSound>
@@ -1786,7 +1786,7 @@
 			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_mongoose_01</Target>
 			</Effect>
-			<Effect type="Data" amount="80" subtype="StealthDetectionRange" relativity="Absolute">
+			<Effect type="Data" amount="1.1" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_mongoose_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="SpawnSentinel" relativity="Absolute">
@@ -3982,9 +3982,9 @@
 		<RolloverTextID>22379</RolloverTextID>
 		<PrereqTextID>241</PrereqTextID>
 		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">350</Cost>
-		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_boostedram</ResearchCompleteSound>
@@ -4001,10 +4001,7 @@
 			<Effect type="Data" hpbar="Cov_HealthShield" subtype="HPBar" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_ghost_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
-			</Effect>
-			<Effect type="Data" amount="75" subtype="StealthDetectionRange" relativity="Absolute">
+			<Effect type="Data" amount="1.25" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_ghost_01</Target>
 			</Effect>
 			<Effect type="SquadCounter" NewCounterName="Ghost_02">
@@ -4092,9 +4089,9 @@
 		<RolloverTextID>22387</RolloverTextID>
 		<PrereqTextID>243</PrereqTextID>
 		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">350</Cost>
-		<Cost resourcetype="HQLevel">1</Cost>
-		<ResearchPoints>30</ResearchPoints>
+		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>40</ResearchPoints>
 		<Status>OBTAINABLE</Status>
 		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_tech_rammingtarge</ResearchCompleteSound>
@@ -4113,7 +4110,7 @@
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ExplosivePlasmaCannonLeftAttackAction" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 			</Effect>
-			<Effect type="Data" amount="75" subtype="StealthDetectionRange" relativity="Absolute">
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_bruteChopper_01</Target>
 			</Effect>
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="cov_veh_bruteChopper_02">
