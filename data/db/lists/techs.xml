@@ -651,11 +651,11 @@
 			<TechStatus status="Active">Basic</TechStatus>
 		</Prereqs>
 		<Effects>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" action="_POWER_Serina_FrostTechResearchable" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="_POWER_Serina_FrostTechResearchable" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
             </Effect>
-            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" action="_POWER_LureBeaconResearchable" relativity="Absolute">
-                <Target type="ProtoUnit">unsc_bldg_vehicledepot_01_base</Target>
+            <Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="_POWER_LureBeaconResearchable" relativity="Absolute">
+                <Target type="ProtoUnit">unsc_bldg_vehicledepot_01</Target>
             </Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_minibaseNoSocks</Target>
