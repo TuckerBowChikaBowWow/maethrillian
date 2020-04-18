@@ -81,9 +81,9 @@
 	<Weapon>
 		<Name>Grenade</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>400</DamagePerSecond>
+		<DamagePerSecond>440</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Grenade</WeaponType>
+		<WeaponType>SmallExplosive</WeaponType>
 		<Projectile>fx_proj_grenade_02</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>
 		<MaxVelocityLead>21</MaxVelocityLead>
@@ -103,7 +103,14 @@
 			<Hitbox>
 				<Type>Circle</Type>
 				<Radius>6</Radius>
-				<DamageRatio>50</DamageRatio>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>8</Radius>
+				<DamageRatio>40</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 			</Hitbox>

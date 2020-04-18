@@ -3,9 +3,9 @@
 	<Weapon>
 		<Name>BruteShrapnelMine</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>400</DamagePerSecond>
+		<DamagePerSecond>360</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>GruntMine</WeaponType>
+		<WeaponType>SmallExplosive</WeaponType>
 		<ImpactEffect size="Medium">BruteMineExplosion</ImpactEffect>
 		<Slow TargetType="Infantry" MovementModifier="0.899999976" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">4</Slow>
 		<Slow TargetType="GroundVehicle" MovementModifier="0.5" AOEEffect="true" AffectsBuildings="false" SmartTargeting="false">4</Slow>
@@ -19,7 +19,14 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>15</Radius>
+				<Radius>8</Radius>
+				<DamageRatio>60</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>12</Radius>
 				<DamageRatio>40</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
