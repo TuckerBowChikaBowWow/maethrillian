@@ -20,10 +20,10 @@
 		<TargetPriority type="Flying">4</TargetPriority>
 		<TargetPriority type="Building">3</TargetPriority>
 		<Hardpoint>MGTurret</Hardpoint>
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.400000006</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1.20000005</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<PreAttackCooldownMin>0.5</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.5</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
 		<Filter>Heavy</Filter>
 	</Weapon>
 	<Weapon>
@@ -74,7 +74,7 @@
 	<Weapon>
 		<Name>SpecialAttack</Name>
 		<AttackRate>45</AttackRate>
-		<DamagePerSecond>2000</DamagePerSecond>
+		<DamagePerSecond>2100</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>TankSpecial</WeaponType>
 		<Projectile>fx_proj_canistershell_01</Projectile>
@@ -101,7 +101,7 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>12</Radius>
+				<Radius>14</Radius>
 				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -118,7 +118,7 @@
 	<Weapon>
 		<Name>SpecialAttackScorpionTech</Name>
 		<AttackRate>45</AttackRate>
-		<DamagePerSecond>2200</DamagePerSecond>
+		<DamagePerSecond>2400</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>TankSpecial</WeaponType>
 		<Projectile>fx_proj_canistershell_01</Projectile>
