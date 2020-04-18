@@ -2364,7 +2364,7 @@
 	</Squad>
 	<Squad name="cov_veh_bruteChopper_01_mp" parent_element="cov_veh_bruteChopper_01_base" dbid="16923945883513138233">
 		<Cost ResourceType="Supplies">190</Cost>
-		<Cost ResourceType="Power">20</Cost>
+		<Cost ResourceType="Power">30</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<BuildPoints>20</BuildPoints>
 		<RammingDistanceScalar>10</RammingDistanceScalar>
@@ -2454,7 +2454,7 @@
 	</Squad>
 	<Squad name="cov_veh_ghost_01_mp" parent_element="cov_veh_ghost_01_base" dbid="17253699168979878397">
 		<Cost ResourceType="Supplies">180</Cost>
-		<Cost ResourceType="Power">20</Cost>
+		<Cost ResourceType="Power">30</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<BuildPoints>20</BuildPoints>
 		<RammingSpeedScalar>2</RammingSpeedScalar>
@@ -2908,13 +2908,13 @@
 	<Squad name="cov_veh_wraith_01_fromlich" dbid="5026051648233509920" parent_element="cov_veh_wraith_01">
 		<BuildPoints>20</BuildPoints>
 		<Cost ResourceType="Supplies">500</Cost>
-		<Cost ResourceType="Power">90</Cost>
+		<Cost ResourceType="Power">110</Cost>
 		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
 	<Squad name="cov_veh_wraith_01_mp" parent_element="cov_veh_wraith_01_base" dbid="7645627556186799249">
-		<BuildPoints>31</BuildPoints>
+		<BuildPoints>34</BuildPoints>
 		<Cost ResourceType="Supplies">500</Cost>
-		<Cost ResourceType="Power">90</Cost>
+		<Cost ResourceType="Power">110</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
 		<HealValue>2</HealValue>
 		<FrozenThreshold>300</FrozenThreshold>
@@ -9306,7 +9306,10 @@
 		<Counters>Cyclops_01</Counters>
 	</Squad>
 	<Squad name="unsc_inf_cyclops_01_mp" parent_element="unsc_inf_cyclops_01_base" dbid="4859466943255338600">
-		<BuildPoints>20</BuildPoints>
+		<BuildPoints>22</BuildPoints>
+		<Cost ResourceType="Supplies">140</Cost>
+		<Cost ResourceType="Power">170</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 	</Squad>
 	<Squad name="unsc_inf_cyclops_01_sp" parent_element="unsc_inf_cyclops_01_base" dbid="4842002300556241126" />
 	<Squad name="unsc_inf_flamecyclops_01" dbid="4590417787222477861">
@@ -10814,7 +10817,7 @@
 	<Squad name="unsc_veh_scorpion_01_mp" parent_element="unsc_veh_scorpion_01_base" dbid="16668385020543003166">
 		<BuildPoints>38</BuildPoints>
 		<Cost ResourceType="Supplies">550</Cost>
-		<Cost ResourceType="Power">90</Cost>
+		<Cost ResourceType="Power">120</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
 		<HealValue>2.20000005</HealValue>
 		<FrozenThreshold>300</FrozenThreshold>
