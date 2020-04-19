@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="base">
+	<model name="base">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/forerunner/structure/forerunner_aa_gun/mesh_aa_gun_base01</file>
+			</asset>
+			<attach type="ModelRef" name="gun" tobone="socketbone_gun01_0" frombone="GrannyRootBone_gun01_0" syncanims="true" disregardorient="false" removeimmediately="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/forerunner/structure/aa_gun01/small_idle_base01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/forerunner/structure/aa_gun01/small_attack_base01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LargeIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/forerunner/structure/aa_gun01/large_idle_base01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LargeAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/forerunner/structure/aa_gun01/large_attack_base01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="gun">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>units/forerunner/structure/forerunner_aa_gun/mesh_gun01_0</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/forerunner/structure/aa_gun01/small_idle_gun01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Transition" tweenTime="0" tweenToAnimation="Idle" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/forerunner/structure/aa_gun01/small_attack_gun01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.99000001" end="1" tobone="bone_gun_barrel_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" removeimmediately="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="LargeIdle" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/forerunner/structure/aa_gun01/large_idle_gun01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LargeAttack" exitAction="Loop" tweenTime="0" tweenToAnimation="" uvScrollSpeedX="0" uvScrollSpeedY="0">
+			<asset type="Anim">
+				<file>animations/forerunner/structure/aa_gun01/large_attack_gun01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>
