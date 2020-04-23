@@ -27,9 +27,15 @@
 	<Action>
 		<Name>DisruptionField</Name>
 		<ActionType>DisruptionField</ActionType>
-		<WorkRange>35</WorkRange>
+		<WorkRange>55</WorkRange>
 		<WorkRate>0.7</WorkRate>
 		<ProtoObject>cov_bldg_shield_01</ProtoObject>
+	</Action>
+	<Action>
+		<Name>AreaBuff</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>55</WorkRange>
+		<ProtoObject>fx_nanobots02</ProtoObject>
 	</Action>
 	<Tactic>
 		<TargetRule>
@@ -47,7 +53,7 @@
 			<Action>PlasmaShieldGen</Action>
 			<Relation>Enemy</Relation>
 		</TargetRule>
-		<PersistentAction>PlasmaShieldGen</PersistentAction>
+		<PersistentAction>AreaBuff</PersistentAction>
 		<PersistentAction>DisruptionField</PersistentAction>
 	</Tactic>
 </TacticData>
