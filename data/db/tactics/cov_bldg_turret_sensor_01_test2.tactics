@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>DeliverBuilding</Name>
+		<ActionType>AnimDeliver</ActionType>
+		<Hardpoint>Spirit</Hardpoint>
+		<Hardpoint2>Building</Hardpoint2>
+		<DeliveryType>Building</DeliveryType>
+		<DeliveryDelay>0.5</DeliveryDelay>
+		<AllowDuplicate />
+	</Action>
+	<Action>
+		<Name>BaseChild</Name>
+		<ActionType>BaseChild</ActionType>
+	</Action>
+	<Action>
+		<Name>AreaBuff</Name>
+		<ActionType>AreaBuff</ActionType>
+		<WorkRange>55</WorkRange>
+		<ProtoObject>fx_nanobots02</ProtoObject>
+	</Action>
+	<Tactic>
+		<PersistentAction>BaseChild</PersistentAction>
+		<PersistentAction>AreaBuff</PersistentAction>
+	</Tactic>
+</TacticData>

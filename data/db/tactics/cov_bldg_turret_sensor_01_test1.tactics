@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Action>
+		<Name>DeliverBuilding</Name>
+		<ActionType>AnimDeliver</ActionType>
+		<Hardpoint>Spirit</Hardpoint>
+		<Hardpoint2>Building</Hardpoint2>
+		<DeliveryType>Building</DeliveryType>
+		<DeliveryDelay>0.5</DeliveryDelay>
+		<AllowDuplicate />
+	</Action>
+	<Action>
+		<Name>BaseChild</Name>
+		<ActionType>BaseChild</ActionType>
+	</Action>
+	<Action>
+		<Name>DisruptionField</Name>
+		<ActionType>DisruptionField</ActionType>
+		<WorkRange>55</WorkRange>
+		<WorkRate>0.7</WorkRate>
+		<ProtoObject>cov_bldg_shield_01</ProtoObject>
+	</Action>
+	<Tactic>
+		<PersistentAction>BaseChild</PersistentAction>
+		<PersistentAction>DisruptionField</PersistentAction>
+	</Tactic>
+</TacticData>
