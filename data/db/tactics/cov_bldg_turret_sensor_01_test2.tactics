@@ -17,6 +17,13 @@
 		<Name>AreaBuff</Name>
 		<ActionType>AreaBuff</ActionType>
 		<WorkRange>55</WorkRange>
+		<SpecificData>
+			<BuffParams BuffType="ForgehogHeavyMetal" SlowModifier="1" DamageMitigationScalar="1">1f</BuffParams>
+			<TargetTypes />
+			<Relations>
+				<Relation>Ally</Relation>
+			</Relations>
+		</SpecificData>
 		<ProtoObject>fx_nanobots02</ProtoObject>
 	</Action>
 	<Tactic>
