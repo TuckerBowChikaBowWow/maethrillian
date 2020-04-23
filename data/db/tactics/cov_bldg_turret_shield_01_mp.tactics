@@ -38,21 +38,6 @@
 		<ProtoObject>fx_nanobots02</ProtoObject>
 	</Action>
 	<Tactic>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>PlasmaShieldGen</Action>
-			<Relation>Self</Relation>
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>PlasmaShieldGen</Action>
-			<TargetsGround />
-		</TargetRule>
-		<TargetRule>
-			<Ability>Command</Ability>
-			<Action>PlasmaShieldGen</Action>
-			<Relation>Enemy</Relation>
-		</TargetRule>
 		<PersistentAction>AreaBuff</PersistentAction>
 		<PersistentAction>DisruptionField</PersistentAction>
 	</Tactic>
