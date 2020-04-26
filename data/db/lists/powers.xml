@@ -5287,7 +5287,7 @@
 			<AIPowerUseType>Orbital</AIPowerUseType>
 			<PatrolPatternType>Spokes</PatrolPatternType>
 			<Cost Supplies="650" Power="450" />
-			<AutoRecharge>280000</AutoRecharge>
+			<AutoRecharge>300000</AutoRecharge>
 			<UIRadius>6</UIRadius>
 			<Decal>Point</Decal>
 			<DisplayNameID>5010</DisplayNameID>
@@ -16560,7 +16560,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="130" Power="140" />
 			<Pop type="Unit">3</Pop>
-			<AutoRecharge>11000</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -16611,7 +16611,7 @@
 			<AIPowerUseType>TurretDrop</AIPowerUseType>
 			<Cost Supplies="210" Power="180" />
 			<Pop type="Unit">6</Pop>
-			<AutoRecharge>11000</AutoRecharge>
+			<AutoRecharge>12000</AutoRecharge>
 			<UIRadius>4</UIRadius>
 			<Decal>Drop</Decal>
 			<DisplayNameID>5012</DisplayNameID>
@@ -35690,7 +35690,7 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">8</Data>
+				<Data type="float" name="AreaRadius">9</Data>
 				<Data type="objecttype" name="FilterType">Building</Data>
 				<Data type="objecttype" name="FilterType2">TurretBuilding</Data>
 				<Data type="objecttype" name="FilterType3">_ProductionBuilding</Data>
@@ -35703,7 +35703,7 @@
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="TurretDamageDealtScalar">1.2f</Data>
 				<Data type="float" name="ResourceRateScalar">1.1f</Data>
-				<Data type="float" name="ResearchProductionRateScalar">1.5f</Data>
+				<Data type="float" name="ResearchProductionRateScalar">0f</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />

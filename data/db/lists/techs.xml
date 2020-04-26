@@ -1783,10 +1783,10 @@
 			<Effect type="Data" subtype="MenuIconName" menu_icon_name="unsc_veh_mongoose_03">
 				<Target type="ProtoSquad">unsc_veh_mongoose_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.1" subtype="Damage" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_mongoose_01</Target>
 			</Effect>
-			<Effect type="Data" amount="1.1" subtype="Hitpoints" allactions="1" relativity="Percent">
+			<Effect type="Data" amount="1.15" subtype="Hitpoints" allactions="1" relativity="Percent">
 				<Target type="ProtoUnit">unsc_veh_mongoose_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="SpawnSentinel" relativity="Absolute">
@@ -7159,22 +7159,21 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
-			<Effect type="UnlockableGodPower" tier="1">Unbrk_MegaTurret</Effect>
+			<Effect type="UnlockableGodPower" tier="1">Unbrk_OrbitalEye1_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="1">Unbrk_Overcharge1_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="Unbrk_Overcharge1_mp">Unbrk_Overcharge2_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="Unbrk_Overcharge2_mp">Unbrk_Overcharge3_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="2">Unbrk_HealingArea1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="Unbrk_HealingArea1">Unbrk_HealingArea2</Effect>
+			<Effect type="UnlockableGodPower" tier="2">Unbrk_FullRecycle</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="Unbrk_HealingArea2">Unbrk_HealingArea3</Effect>
-			<Effect type="UnlockableGodPower" tier="2">Unbrk_OrbitalEye1_mp</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="Unbrk_OrbitalEye1_mp">Unbrk_OrbitalEye2_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Unbrk_ScatterBeam1_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam1_mp">Unbrk_ScatterBeam2_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_ScatterBeam2_mp">Unbrk_ScatterBeam3_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Unbrk_UltraMines1_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="Unbrk_UltraMines1_mp">Unbrk_UltraMines2_mp</Effect>
 			<Effect type="UnlockableGodPower" tier="4">Unbrk_WraithAPC</Effect>
-			<Effect type="UnlockableGodPower" tier="4">Unbrk_FullRecycle</Effect>
+			<Effect type="UnlockableGodPower" tier="4">Unbrk_MegaTurret</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Unbrk_InvulnerableStr</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Unbrk_LichAssault</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_eliteCommando_01" relativity="Absolute">
@@ -10577,7 +10576,7 @@
 			<Effect type="Data" subtype="Enable">
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
-			<Effect type="UnlockableGodPower" tier="1">CovInvulnerability</Effect>
+			<Effect type="UnlockableGodPower" tier="1">CovBoundlessLeech</Effect>
 			<Effect type="UnlockableGodPower" tier="1">ArbiterConduitofRage1</Effect>
 			<Effect type="UnlockableGodPower" tier="2">ArbiterPlasmaBolt1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt1">ArbiterPlasmaBolt2</Effect>

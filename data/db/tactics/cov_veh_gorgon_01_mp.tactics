@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>RocketLauncher_Left</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>88</DamagePerSecond>
+		<DamagePerSecond>100</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_rocket_01_mp</Projectile>
 		<MaxVelocityLead>6.1500001</MaxVelocityLead>
@@ -17,31 +17,11 @@
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.29999995</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2</PostAttackCooldownMax>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>4.5</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>7</Radius>
-				<DamageRatio>15</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 	</Weapon>
 	<Weapon>
 		<Name>RocketLauncher_Right</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>88</DamagePerSecond>
+		<DamagePerSecond>100</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_rocket_01_mp</Projectile>
 		<ImpactEffect size="Medium">BanishedMissileExplosion</ImpactEffect>
@@ -56,32 +36,12 @@
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.29999995</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2</PostAttackCooldownMax>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>4.5</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>7</Radius>
-				<DamageRatio>15</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 	</Weapon>
 	<Weapon>
 		<Name>Autocannon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>200</DamagePerSecond>
-		<WeaponType>ReaverAutocannon</WeaponType>
+		<DamagePerSecond>130</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaPistol_01</Projectile>
 		<ImpactEffect size="Medium">PlasmaPistolImpact</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
@@ -191,26 +151,6 @@
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.29999995</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2</PostAttackCooldownMax>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>4.5</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>7</Radius>
-				<DamageRatio>15</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 		<LifeStealRatio shield="false">0.5</LifeStealRatio>
 	</Weapon>
 	<Weapon>
@@ -231,33 +171,13 @@
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<ProjectileLaunchDirY />
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.29999995</PreAttackCooldownMax>
-		<PostAttackCooldownMin>1.70000005</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2</PostAttackCooldownMax>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>4.5</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>7</Radius>
-				<DamageRatio>15</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 		<LifeStealRatio shield="false">0.5</LifeStealRatio>
 	</Weapon>
 	<Weapon>
 		<Name>AutocannonSiphon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>200</DamagePerSecond>
-		<WeaponType>ReaverAutocannon</WeaponType>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_plasmaPistol_01</Projectile>
 		<ImpactEffect size="Medium">PlasmaPistolImpact</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>

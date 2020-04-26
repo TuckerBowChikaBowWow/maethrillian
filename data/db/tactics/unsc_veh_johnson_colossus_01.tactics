@@ -3,12 +3,12 @@
 	<Weapon>
 		<Name>Autocannon</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>225</DamagePerSecond>
+		<DamagePerSecond>200</DamagePerSecond>
 		<WeaponType>SmallArms</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
 		<MaxVelocityLead>25</MaxVelocityLead>
-		<MaxRange>100</MaxRange>
+		<MaxRange>90</MaxRange>
 		<Accuracy>0.100000001</Accuracy>
 		<MaxDeviation>1.5</MaxDeviation>
 		<MovingAccuracy>0.100000001</MovingAccuracy>
@@ -21,21 +21,21 @@
 		<TargetPriority type="Building">3</TargetPriority>
 		<MaxToTargetAngleWhileStationary>30</MaxToTargetAngleWhileStationary>
 		<Hardpoint>Autocannon</Hardpoint>
-		<PreAttackCooldownMin>0</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.300000012</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.300000012</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.5</PostAttackCooldownMax>
+		<PreAttackCooldownMin>0.2</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.4</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.4</PostAttackCooldownMax>
 		<Filter>Heavy</Filter>
 	</Weapon>
 	<Weapon>
 		<Name>Railgun</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>213</DamagePerSecond>
+		<DamagePerSecond>230</DamagePerSecond>
 		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
 		<MaxVelocityLead>25</MaxVelocityLead>
-		<MaxRange>100</MaxRange>
+		<MaxRange>90</MaxRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>7</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
@@ -66,17 +66,17 @@
 		<PhysicsForceMax>1200</PhysicsForceMax>
 		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
 		<Filter>Heavy</Filter>
-		<PreAttackCooldownMin>0.5</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.5</PreAttackCooldownMax>
+		<PreAttackCooldownMin>1</PreAttackCooldownMin>
+		<PreAttackCooldownMax>1</PreAttackCooldownMax>
 		<PostAttackCooldownMin>1</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2</PostAttackCooldownMax>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>StompWeapon</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>4600</DamagePerSecond>
+		<DamagePerSecond>2000</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Stomp</WeaponType>
+		<WeaponType>TankSpecial</WeaponType>
 		<MaxRange>4</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -88,7 +88,7 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>17</Radius>
+				<Radius>15</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -96,7 +96,7 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>23</Radius>
+				<Radius>25</Radius>
 				<DamageRatio>70</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -104,16 +104,8 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>30</Radius>
-				<DamageRatio>50</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>40</Radius>
-				<DamageRatio>30</DamageRatio>
+				<Radius>35</Radius>
+				<DamageRatio>40</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<TargetType>NonFlying</TargetType>
@@ -125,9 +117,9 @@
 	<Weapon>
 		<Name>SelfStompWeapon</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>4600</DamagePerSecond>
+		<DamagePerSecond>2000</DamagePerSecond>
 		<UseDPSasDPA />
-		<WeaponType>Stomp</WeaponType>
+		<WeaponType>TankSpecial</WeaponType>
 		<MaxRange>4</MaxRange>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
@@ -139,33 +131,25 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>17</Radius>
+				<Radius>15</Radius>
 				<DamageRatio>100</DamageRatio>
-				<Origin>Attacker</Origin>
+				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>23</Radius>
+				<Radius>25</Radius>
 				<DamageRatio>70</DamageRatio>
-				<Origin>Attacker</Origin>
+				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>30</Radius>
-				<DamageRatio>50</DamageRatio>
-				<Origin>Attacker</Origin>
-				<FriendlyFire>false</FriendlyFire>
-				<TargetType>NonFlying</TargetType>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>40</Radius>
-				<DamageRatio>30</DamageRatio>
-				<Origin>Attacker</Origin>
+				<Radius>35</Radius>
+				<DamageRatio>40</DamageRatio>
+				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>

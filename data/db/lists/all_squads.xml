@@ -492,6 +492,7 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<BuildPoints>1</BuildPoints>
 		<Pop Type="Unit">0</Pop>
+		<Pop Type="ShieldTower">1</Pop>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="2,12,0">COV_Bldg_Health</HPBar>
@@ -2830,7 +2831,7 @@
 		<Pop Type="Unit">5</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">100</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
