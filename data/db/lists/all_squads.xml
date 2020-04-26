@@ -653,6 +653,12 @@
 		</Selection>
 		<TurnRadius min="2" max="5" />
 	</Squad>
+	<Squad name="cov_bldg_unbreakablemegadropturret_01" parent_element="cov_bldg_rm_unbreakablemegadropturret_01" dbid="17229809521914788741">
+		<Pop Type="Unit" override_type="absolute">7</Pop>
+		<Units override_type="absolute">
+			<Unit count="1" role="normal">cov_bldg_unbreakablemegadropturret_01</Unit>
+		</Units>
+	</Squad>
 	<Squad name="cov_inf_arbiter_01" dbid="9331911634682025629">
 		<CombatRank>9</CombatRank>
 		<HealValue>1.4625</HealValue>
