@@ -3244,6 +3244,15 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_02" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_turret_unbreakablemegaturretupgrade_1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_turret_unbreakablemegaturretupgrade_2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_turret_unbreakablemegaturretupgrade_3" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="cov_supplyDepot_upgrade1" type="Normal">
@@ -3422,71 +3431,68 @@
 		</Effects>
 	</Tech>
 	<Tech name="cov_turret_unbreakablemegaturretupgrade_1" type="Normal">
-		<DBID>2041</DBID>
-		<DisplayNameID>27478</DisplayNameID>
-		<RolloverTextID>27479</RolloverTextID>
-		<PrereqTextID>233</PrereqTextID>
+		<DBID>1915</DBID>
+		<DisplayNameID>27494</DisplayNameID>
+		<RolloverTextID>27495</RolloverTextID>
 		<Cost resourcetype="Supplies">0</Cost>
 		<Cost resourcetype="Power">300</Cost>
-		<Cost resourcetype="HQLevel">2</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
 		<ResearchPoints>25</ResearchPoints>
 		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
-		<Flag>UniqueProtoUnitInstance</Flag>
-		<Flag>NotExclusive</Flag>
 		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_bldg_unbreakablemegadropturret_01</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="ActionEnable" action="MegaCannonAttack" relativity="Absolute">
-				<Target type="Unit" />
+				<Target type="ProtoUnit">cov_bldg_unbreakablemegadropturret_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="ActionEnable" action="ScorchMegaCannonAttack" relativity="Absolute">
-				<Target type="Unit" />
-			</Effect>
-			<Effect type="Data" amount="300" subtype="Cost" Resource="Power" relativity="Absolute">
-				<Target type="Unit" />
+				<Target type="ProtoUnit">cov_bldg_unbreakablemegadropturret_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="cov_turret_unbreakablemegaturretupgrade_2" type="Normal">
-		<DBID>2041</DBID>
-		<DisplayNameID>27478</DisplayNameID>
-		<RolloverTextID>27479</RolloverTextID>
-		<PrereqTextID>233</PrereqTextID>
+		<DBID>1915</DBID>
+		<DisplayNameID>27494</DisplayNameID>
+		<RolloverTextID>27495</RolloverTextID>
 		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">500</Cost>
-		<Cost resourcetype="HQLevel">3</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
 		<ResearchPoints>25</ResearchPoints>
 		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
-		<Flag>UniqueProtoUnitInstance</Flag>
-		<Flag>NotExclusive</Flag>
 		<Effects>
-			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
-				<Target type="Unit" />
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_bldg_unbreakablemegadropturret_01</Target>
 			</Effect>
-			<Effect type="Data" amount="500" subtype="Cost" Resource="Power" relativity="Absolute">
+			<Effect type="Data" amount="1.29999995" subtype="Damage" allactions="1" relativity="Percent">
 				<Target type="Unit" />
 			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="cov_turret_unbreakablemegaturretupgrade_3" type="Normal">
-		<DBID>2041</DBID>
-		<DisplayNameID>27478</DisplayNameID>
-		<RolloverTextID>27479</RolloverTextID>
-		<PrereqTextID>233</PrereqTextID>
+		<DBID>1915</DBID>
+		<DisplayNameID>27494</DisplayNameID>
+		<RolloverTextID>27495</RolloverTextID>
 		<Cost resourcetype="Supplies">0</Cost>
-		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="Power">900</Cost>
 		<Cost resourcetype="HQLevel">3</Cost>
 		<ResearchPoints>25</ResearchPoints>
 		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
 		<ResearchCompleteSound>play_vog_improve_turret</ResearchCompleteSound>
-		<Flag>UniqueProtoUnitInstance</Flag>
-		<Flag>NotExclusive</Flag>
 		<Effects>
+			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
+				<Target type="ProtoSquad">cov_bldg_unbreakablemegadropturret_01</Target>
+			</Effect>
 			<Effect type="Data" amount="10000" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="Unit" />
 			</Effect>
-			<Effect type="Data" amount="400" subtype="Cost" Resource="Power" relativity="Absolute">
-				<Target type="Unit" />
+			<Effect type="Data" amount="1" subtype="ActionEnable" action="ShieldAction" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_unbreakablemegadropturret_01</Target>
 			</Effect>
 		</Effects>
 	</Tech>
@@ -7186,6 +7192,15 @@
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_turret_unbreakablemegaturretupgrade_1" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_turret_unbreakablemegaturretupgrade_2" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_turret_unbreakablemegaturretupgrade_3" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_eliteCommando_01" relativity="Absolute">
