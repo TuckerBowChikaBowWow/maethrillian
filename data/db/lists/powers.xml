@@ -22873,7 +22873,7 @@
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
-			<Cost Supplies="60" Power="30" />
+			<Cost Supplies="120" Power="80" />
 			<AutoRecharge>110000</AutoRecharge>
 			<UIRadius>9</UIRadius>
 			<Decal>AOE_Small</Decal>
@@ -22896,12 +22896,11 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">8</Data>
+				<Data type="float" name="AreaRadius">12</Data>
 				<Data type="objecttype" name="FilterType">BasicVehicle</Data>
-				<Data type="objecttype" name="FilterType2">Building</Data>
-				<Data type="objecttype" name="FilterType3">TurretBuilding</Data>
 				<Data type="float" name="BuffDuration">9999999</Data>
-				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="bool" name="AffectsSelfOnly">false</Data>
+				<Data type="bool" name="AffectsAllies">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageMitigationScalar">0.899999976</Data>
 				<Data type="float" name="LOS">1.2f</Data>
@@ -22921,7 +22920,7 @@
 			<PowerType>AreaBuff</PowerType>
 			<AIPowerUseType>BuffAllies</AIPowerUseType>
 			<BuffName>LekgoloWorm</BuffName>
-			<Cost Supplies="120" Power="60" />
+			<Cost Supplies="200" Power="120" />
 			<AutoRecharge>110000</AutoRecharge>
 			<UIRadius>17</UIRadius>
 			<Decal>AOE_Small</Decal>
@@ -22944,12 +22943,11 @@
 			<CameraEnableUserYaw>false</CameraEnableUserYaw>
 			<CameraEnableUserZoom>false</CameraEnableUserZoom>
 			<DataLevel level="0">
-				<Data type="float" name="AreaRadius">16</Data>
+				<Data type="float" name="AreaRadius">18</Data>
 				<Data type="objecttype" name="FilterType">BasicVehicle</Data>
-				<Data type="objecttype" name="FilterType2">Building</Data>
-				<Data type="objecttype" name="FilterType3">TurretBuilding</Data>
 				<Data type="float" name="BuffDuration">9999999</Data>
-				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="bool" name="AffectsSelfOnly">false</Data>
+				<Data type="bool" name="AffectsAllies">true</Data>
 				<Data type="bool" name="AffectsEnemies">false</Data>
 				<Data type="float" name="DamageMitigationScalar">0.899999976</Data>
 				<Data type="float" name="LOS">1.2f</Data>
