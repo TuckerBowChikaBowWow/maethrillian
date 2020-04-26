@@ -3238,6 +3238,12 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_beam_buff_03" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
 			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
 		</Effects>
 	</Tech>
 	<Tech name="cov_supplyDepot_upgrade1" type="Normal">
@@ -7176,6 +7182,12 @@
 			<Effect type="UnlockableGodPower" tier="4">Unbrk_MegaTurretDrop</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Unbrk_InvulnerableStr</Effect>
 			<Effect type="UnlockableGodPower" tier="5">Unbrk_LichAssault</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="cov_leader_scatterbeam_buff_02" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_temple_01_mp</Target>
+			</Effect>
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="TrainSquad" CommandData="cov_inf_eliteCommando_01" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_temple_01</Target>
 			</Effect>
@@ -7241,6 +7253,66 @@
 			</Effect>
 			<Effect type="Data" amount="0" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">cov_inf_Brutehonour_01</Target>
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_leader_scatterbeam_buff_01" type="Normal">
+		<DisplayNameID>27088</DisplayNameID>
+		<RolloverTextID>27100</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<ResearchAnim>Research</ResearchAnim>
+		<Cost resourcetype="Supplies">400</Cost>
+		<Cost resourcetype="Power">400</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>60</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.05" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_01_mp</Target>
+				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_02_mp</Target>
+				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="Unbrk_ScatterBeam1_mp" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="Unbrk_ScatterBeam2_mp" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="Unbrk_ScatterBeam3_mp" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_leader_scatterbeam_buff_02" type="Normal">
+		<DisplayNameID>27089</DisplayNameID>
+		<RolloverTextID>27101</RolloverTextID>
+		<PrereqTextID>231</PrereqTextID>
+		<Prereqs>
+			<TechStatus status="Active">cov_leader_scatterbeam_buff_01</TechStatus>
+		</Prereqs>
+		<Cost resourcetype="Supplies">600</Cost>
+		<Cost resourcetype="Power">600</Cost>
+		<Cost resourcetype="HQLevel">2</Cost>
+		<ResearchPoints>80</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_tech_adrenaline</ResearchCompleteSound>
+		<Effects>
+			<Effect type="Data" amount="1.05" subtype="Damage" allactions="1" relativity="Percent">
+				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_01_mp</Target>
+				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_02_mp</Target>
+				<Target type="ProtoUnit">pow_gp_unbrk_scatterbeam_03_mp</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="Unbrk_ScatterBeam1_mp" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="Unbrk_ScatterBeam2_mp" relativity="Absolute">
+				<Target type="Player" />
+			</Effect>
+			<Effect type="Data" amount="1" subtype="PowerLevel" power="Unbrk_ScatterBeam3_mp" relativity="Absolute">
+				<Target type="Player" />
 			</Effect>
 		</Effects>
 	</Tech>
