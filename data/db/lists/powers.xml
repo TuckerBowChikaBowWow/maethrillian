@@ -6613,7 +6613,8 @@
 				<Data type="float" name="BuffDuration">10</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
-				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="bool" name="AffectsSelfOnly">false</Data>
+				<Data type="bool" name="AffectsAllies">true</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -6631,7 +6632,8 @@
 				<Data type="float" name="BuffDuration">10</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
-				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="bool" name="AffectsSelfOnly">false</Data>
+				<Data type="bool" name="AffectsAllies">true</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -6649,7 +6651,8 @@
 				<Data type="float" name="BuffDuration">10</Data>
 				<Data type="bool" name="StacksDuration">false</Data>
 				<Data type="objecttype" name="FilterType">Military</Data>
-				<Data type="bool" name="AffectsSelfOnly">true</Data>
+				<Data type="bool" name="AffectsSelfOnly">false</Data>
+				<Data type="bool" name="AffectsAllies">true</Data>
 				<Data type="sound" name="HudUpSound" />
 				<Data type="sound" name="HudAbortSound" />
 				<Data type="sound" name="HudFireSound" />
@@ -7769,7 +7772,7 @@
 				<Data type="float" name="TargetingDelay">-0.200000003</Data>
 				<Data type="float" name="AutoShotDelay">0</Data>
 				<Data type="float" name="AutoShotInnerRadius">5</Data>
-				<Data type="float" name="AutoShotOuterRadius">15</Data>
+				<Data type="float" name="AutoShotOuterRadius">10</Data>
 				<Data type="float" name="XOffset">0</Data>
 				<Data type="float" name="YOffset">65</Data>
 				<Data type="float" name="ZOffset">0</Data>
