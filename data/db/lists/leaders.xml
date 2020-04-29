@@ -25,7 +25,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="500">300</Pop>
-		<Pop Type="Spartan" Max="10">1</Pop>
+		<Pop Type="Spartan" Max="30">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 	</Leader>
 	<Leader Name="Isabel" Icon="ui\game\icon\unsc\leader\Sergeant Forge" GUID="#60FD5487-3211-4F2B-B1C2-95993FB3A55A">
@@ -50,7 +50,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="500">300</Pop>
-		<Pop Type="Spartan" Max="10">1</Pop>
+		<Pop Type="Spartan" Max="30">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 	</Leader>
 	<Leader Name="Anders" Icon="ui\game\icon\unsc\leader\Serina" Alpha="0" GUID="#2BBE175C-7DE4-44A3-A9DC-92571626BFA2">
@@ -75,9 +75,9 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="500">300</Pop>
-		<Pop Type="Spartan" Max="10">1</Pop>
+		<Pop Type="Spartan" Max="30">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="Retriever" Max="3">3</Pop>
+		<Pop Type="Retriever" Max="6">1</Pop>
 	</Leader>
 	<Leader Name="Atriox" Icon="ui\game\icon\covenant\leader\Brute General" Alpha="0" GUID="#7EE19946-2626-44FF-AB92-E9C09240DF37">
 		<Civ>Covenant</Civ>
@@ -104,7 +104,7 @@
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
 		<Pop Type="Unit" Max="500">300</Pop>
 		<Pop Type="Leader" Max="3">1</Pop>
-		<Pop Type="HonorGuard" Max="10">1</Pop>
+		<Pop Type="HonorGuard" Max="30">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 		<Pop Type="ShieldTower" Max="20">0</Pop>
 	</Leader>
@@ -134,7 +134,7 @@
 		<Pop Type="Unit" Max="500">300</Pop>
 		<Pop Type="Leader" Max="3">1</Pop>
 		<Pop Type="Decimus" Max="3">1</Pop>
-		<Pop Type="HonorGuard" Max="10">1</Pop>
+		<Pop Type="HonorGuard" Max="30">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 		<Pop Type="ShieldTower" Max="20">0</Pop>
 	</Leader>
@@ -163,7 +163,7 @@
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
 		<Pop Type="Unit" Max="500">300</Pop>
 		<Pop Type="Leader" Max="3">1</Pop>
-		<Pop Type="HonorGuard" Max="10">1</Pop>
+		<Pop Type="HonorGuard" Max="30">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 		<Pop Type="ShieldTower" Max="20">0</Pop>
 	</Leader>
@@ -311,7 +311,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="500">300</Pop>
-		<Pop Type="Spartan" Max="10">1</Pop>
+		<Pop Type="Spartan" Max="30">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
 		<IsZeroCost>true</IsZeroCost>
 	</Leader>
@@ -587,11 +587,11 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
-		<Pop Type="Unit" Max="500">80</Pop>
+		<Pop Type="Unit" Max="500">300</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
-		<Pop Type="HonorGuard" Max="3">3</Pop>
+		<Pop Type="HonorGuard" Max="30">1</Pop>
 		<Pop Type="Reactor" Max="20">0</Pop>
-		<Pop Type="Decimus" Max="5">3</Pop>
+		<Pop Type="Decimus" Max="5">1</Pop>
 	</Leader>
 	<Leader Name="ep2_sp_leader_m1y2y3" Icon="ui\game\icon\covenant\leader\Brute General" SinglePlayerOnly="true">
 		<Civ>Covenant</Civ>
