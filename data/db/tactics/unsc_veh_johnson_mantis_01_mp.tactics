@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>Chaingun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>132</DamagePerSecond>
+		<DamagePerSecond>140</DamagePerSecond>
 		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_chaingunmantis_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
@@ -30,8 +30,8 @@
 	<Weapon>
 		<Name>GaussChaingun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>169</DamagePerSecond>
-		<WeaponType>GaussCannon</WeaponType>
+		<DamagePerSecond>170</DamagePerSecond>
+		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_guasschainGun_01</Projectile>
 		<ImpactEffect size="medium">GaussImpact</ImpactEffect>
 		<MaxVelocityLead>9.22500038</MaxVelocityLead>
@@ -57,8 +57,8 @@
 	<Weapon>
 		<Name>MissilePodBasic</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>31</DamagePerSecond>
-		<WeaponType>Missile</WeaponType>
+		<DamagePerSecond>30</DamagePerSecond>
+		<WeaponType>MissileSmallArms</WeaponType>
 		<Projectile>fx_proj_johnson_mantis_missile_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">UNSCAntiAirExplosion</ImpactEffect>
 		<MaxVelocityLead>12.3000002</MaxVelocityLead>
@@ -97,17 +97,17 @@
 		<TargetPriority type="Infantry">3</TargetPriority>
 		<TargetPriority type="Flying">2</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.60000002</PreAttackCooldownMax>
-		<PostAttackCooldownMin>4</PostAttackCooldownMin>
-		<PostAttackCooldownMax>4.5</PostAttackCooldownMax>
+		<PreAttackCooldownMin>2</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
 		<Filter>Heavy</Filter>
 	</Weapon>
 	<Weapon>
 		<Name>MissilePod</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>72</DamagePerSecond>
-		<WeaponType>Missile</WeaponType>
+		<DamagePerSecond>60</DamagePerSecond>
+		<WeaponType>MissileSmallArms</WeaponType>
 		<Projectile>fx_proj_johnson_mantis_missile_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">UNSCAntiAirExplosion</ImpactEffect>
 		<MaxVelocityLead>12.3000002</MaxVelocityLead>
@@ -147,10 +147,10 @@
 		<TargetPriority type="Flying">2</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<Filter>Heavy</Filter>
-		<PreAttackCooldownMin>1</PreAttackCooldownMin>
-		<PreAttackCooldownMax>1.60000002</PreAttackCooldownMax>
-		<PostAttackCooldownMin>4</PostAttackCooldownMin>
-		<PostAttackCooldownMax>4.5</PostAttackCooldownMax>
+		<PreAttackCooldownMin>2</PreAttackCooldownMin>
+		<PreAttackCooldownMax>2</PreAttackCooldownMax>
+		<PostAttackCooldownMin>1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>MantisLaser</Name>

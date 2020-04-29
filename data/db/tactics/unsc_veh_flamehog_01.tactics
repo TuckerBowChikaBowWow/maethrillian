@@ -3,8 +3,8 @@
 	<Weapon>
 		<Name>Flamer</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>114</DamagePerSecond>
-		<WeaponType>KinsanoWarthogFire</WeaponType>
+		<DamagePerSecond>110</DamagePerSecond>
+		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_flamehogBeam_01</Projectile>
 		<MaxVelocityLead>27.6749992</MaxVelocityLead>
 		<MaxRange>35</MaxRange>
@@ -41,17 +41,17 @@
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
-		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.800000012</PostAttackCooldownMin>
-		<PostAttackCooldownMax>1</PostAttackCooldownMax>
+		<PreAttackCooldownMin>0.4</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.4</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.1</PostAttackCooldownMax>
 		<Filter>Medium</Filter>
 	</Weapon>
 	<Weapon>
 		<Name>IncendiaryGrenadeLauncher</Name>
 		<AttackRate>3</AttackRate>
 		<DamagePerSecond>130</DamagePerSecond>
-		<WeaponType>KinsanoGrenadeFire</WeaponType>
+		<WeaponType>MediumArms</WeaponType>
 		<Projectile>fx_proj_incendiarygrenade_01</Projectile>
 		<ImpactEffect doShockwaveAction="true" size="medium" alwaysHorizontal="true">IncendiaryGrenade</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
@@ -86,10 +86,10 @@
 		<TargetPriority type="GroundVehicle">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<TargetPriority type="Aircraft">-1</TargetPriority>
-		<PreAttackCooldownMin>0.400000006</PreAttackCooldownMin>
-		<PreAttackCooldownMax>0.600000024</PreAttackCooldownMax>
-		<PostAttackCooldownMin>0.600000024</PostAttackCooldownMin>
-		<PostAttackCooldownMax>0.800000012</PostAttackCooldownMax>
+		<PreAttackCooldownMin>0.4</PreAttackCooldownMin>
+		<PreAttackCooldownMax>0.4</PreAttackCooldownMax>
+		<PostAttackCooldownMin>0.1</PostAttackCooldownMin>
+		<PostAttackCooldownMax>0.1</PostAttackCooldownMax>
 		<Filter>Medium</Filter>
 	</Weapon>
 	<Weapon>
@@ -148,8 +148,8 @@
 	<Weapon>
 		<Name>RocketWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>72</DamagePerSecond>
-		<WeaponType>Missile</WeaponType>
+		<DamagePerSecond>40</DamagePerSecond>
+		<WeaponType>MissileSmallArms</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium">MissileImpact</ImpactEffect>
 		<MaxVelocityLead>2.46000004</MaxVelocityLead>
