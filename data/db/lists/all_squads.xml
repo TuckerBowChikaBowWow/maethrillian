@@ -48,10 +48,10 @@
 		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="cov_air_banshee_01_mp" parent_element="cov_air_banshee_01_base" dbid="17640904593416254281">
-		<BuildPoints>18</BuildPoints>
-		<Cost ResourceType="Supplies">250</Cost>
+		<BuildPoints>12</BuildPoints>
+		<Cost ResourceType="Supplies">100</Cost>
 		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
 	</Squad>
 	<Squad name="cov_air_banshee_01_sp" parent_element="cov_air_banshee_01_base" dbid="17638956258811442839">
 		<LeashDistance>25</LeashDistance>
@@ -77,7 +77,7 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>Lockdown</ActiveAbilityType>
-		<BuildPoints>35</BuildPoints>
+		<BuildPoints>12</BuildPoints>
 		<Pop Type="Unit">8</Pop>
 		<Cost ResourceType="Supplies">700</Cost>
 		<Cost ResourceType="Power">50</Cost>
@@ -105,9 +105,9 @@
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
 		<Pop Type="Unit">-1</Pop>
-		<Cost ResourceType="Supplies">600</Cost>
+		<Cost ResourceType="Supplies">230</Cost>
 		<Cost ResourceType="Power">50</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 	</Squad>
 	<Squad name="cov_air_blisterback_01_sp" parent_element="cov_air_blisterback_01_base" dbid="6365938055803573341">
 		<LeashDistance>25</LeashDistance>
@@ -242,7 +242,7 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>0</AIAttackRank>
 		<ActiveAbilityType>AreaCloak</ActiveAbilityType>
-		<BuildPoints>35</BuildPoints>
+		<BuildPoints>12</BuildPoints>
 		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">550</Cost>
 		<Cost ResourceType="Power">0</Cost>
@@ -267,9 +267,9 @@
 		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="cov_air_shroud_01_mp" parent_element="cov_air_shroud_01_base" dbid="17279204261236791850">
-		<Cost ResourceType="Supplies">400</Cost>
+		<Cost ResourceType="Supplies">140</Cost>
 		<Cost ResourceType="Power">60</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
 	</Squad>
 	<Squad name="cov_air_shroud_01_sp" parent_element="cov_air_shroud_01_base" dbid="17288770012400335300">
 		<LeashDistance>75</LeashDistance>
@@ -722,13 +722,13 @@
 		<UnlockableActiveAbilityType>PersonalStealthCloak</UnlockableActiveAbilityType>
 		<BuildPoints>13</BuildPoints>
 		<Pop Type="Unit">2</Pop>
-		<Cost ResourceType="Supplies">100</Cost>
+		<Cost ResourceType="Supplies">60</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="leader">cov_inf_generic_arbiter_eliteLeader_01</Unit>
+			<Unit count="3" role="leader">cov_inf_generic_arbiter_eliteLeader_01</Unit>
 			<Unit count="4" role="normal">cov_inf_generic_elitegrunt_01</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
@@ -1224,7 +1224,7 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>HandAttack</ActiveAbilityType>
-		<BuildPoints>40</BuildPoints>
+		<BuildPoints>12</BuildPoints>
 		<Pop Type="HonorGuard">1</Pop>
 		<Cost ResourceType="Supplies">450</Cost>
 		<Cost ResourceType="Power">400</Cost>
@@ -1233,7 +1233,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">cov_inf_eliteCommando_01</Unit>
+			<Unit count="4" role="normal">cov_inf_eliteCommando_01</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
@@ -1259,8 +1259,8 @@
 	<Squad name="cov_inf_eliteCommando_01_mp" parent_element="cov_inf_eliteCommando_01_base" dbid="7496255597457165959">
 		<BuildPoints>55</BuildPoints>
 		<HealValue>1.3</HealValue>
-		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power">275</Cost>
+		<Cost ResourceType="Supplies">130</Cost>
+		<Cost ResourceType="Power">175</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<FrozenThreshold>400</FrozenThreshold>
 		<ShatterThreshold>3000</ShatterThreshold>
@@ -1289,7 +1289,7 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>0</AIAttackRank>
 		<ActiveAbilityType>DisruptionField</ActiveAbilityType>
-		<BuildPoints>20</BuildPoints>
+		<BuildPoints>10</BuildPoints>
 		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">240</Cost>
 		<Cost ResourceType="Power">0</Cost>
@@ -1320,7 +1320,7 @@
 	</Squad>
 	<Squad name="cov_inf_engineer_01_mp" parent_element="cov_inf_engineer_01_base" dbid="2647843054051652391">
 		<HealValue>1.75</HealValue>
-		<Cost ResourceType="Supplies">200</Cost>
+		<Cost ResourceType="Supplies">120</Cost>
 		<Cost ResourceType="Power">30</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 	</Squad>
@@ -1461,15 +1461,15 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1</AIAttackRank>
 		<UnlockableActiveAbilityType>Mines</UnlockableActiveAbilityType>
-		<BuildPoints>13</BuildPoints>
+		<BuildPoints>10</BuildPoints>
 		<Pop Type="Unit">2</Pop>
-		<Cost ResourceType="Supplies">100</Cost>
+		<Cost ResourceType="Supplies">60</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="leader">cov_inf_bruteLeader_01</Unit>
+			<Unit count="3" role="leader">cov_inf_bruteLeader_01</Unit>
 			<Unit count="4" role="normal">cov_inf_grunt_01</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
@@ -1586,7 +1586,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="2" role="normal">cov_inf_hunter_01</Unit>
+			<Unit count="3" role="normal">cov_inf_hunter_01</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
 		<Flag>KBAware</Flag>
@@ -1608,7 +1608,7 @@
 		<Cost ResourceType="Supplies">140</Cost>
 		<Cost ResourceType="Power">180</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<BuildPoints>23</BuildPoints>
+		<BuildPoints>13</BuildPoints>
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
 	</Squad>
@@ -1729,13 +1729,13 @@
 	</Squad>
 	<Squad name="cov_inf_jackal_01_mp" parent_element="cov_inf_jackal_01_base" dbid="16210153980757319136">
 		<Cost ResourceType="Supplies">90</Cost>
-		<Cost ResourceType="Power">125</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
+		<Cost ResourceType="Power">8</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
 		<FrozenThreshold>100</FrozenThreshold>
 		<ChillDecayPerSecond>20</ChillDecayPerSecond>
-		<BuildPoints>20</BuildPoints>
+		<BuildPoints>12</BuildPoints>
 		<Units>
-			<Unit count="3" role="normal">cov_inf_jackal_01</Unit>
+			<Unit count="5" role="normal">cov_inf_jackal_01</Unit>
 		</Units>
 	</Squad>
 	<Squad name="cov_inf_jackal_01_sp" parent_element="cov_inf_jackal_01_base" dbid="16208205646152507694" />
@@ -2249,10 +2249,10 @@
 		<BuildPoints>9</BuildPoints>
 	</Squad>
 	<Squad name="cov_veh_bruteChopper_01_mp" parent_element="cov_veh_bruteChopper_01_base" dbid="16923945883513138233">
-		<Cost ResourceType="Supplies">190</Cost>
+		<Cost ResourceType="Supplies">90</Cost>
 		<Cost ResourceType="Power">10</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
-		<BuildPoints>20</BuildPoints>
+		<BuildPoints>10</BuildPoints>
 		<RammingDistanceScalar>10</RammingDistanceScalar>
 	</Squad>
 	<Squad name="cov_veh_bruteChopper_01_sp" parent_element="cov_veh_bruteChopper_01_base" dbid="16952678321375871335" />
@@ -2339,10 +2339,10 @@
 		<MaxConvertedtoDroneSlots>1</MaxConvertedtoDroneSlots>
 	</Squad>
 	<Squad name="cov_veh_ghost_01_mp" parent_element="cov_veh_ghost_01_base" dbid="17253699168979878397">
-		<Cost ResourceType="Supplies">180</Cost>
+		<Cost ResourceType="Supplies">80</Cost>
 		<Cost ResourceType="Power">10</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
-		<BuildPoints>20</BuildPoints>
+		<BuildPoints>10</BuildPoints>
 		<RammingSpeedScalar>2</RammingSpeedScalar>
 	</Squad>
 	<Squad name="cov_veh_ghost_01_sp" parent_element="cov_veh_ghost_01_base" dbid="17274779005911776739" />
@@ -2399,10 +2399,10 @@
 	<Squad name="cov_veh_gorgon_01_mp" parent_element="cov_veh_gorgon_01_base" dbid="8254375656621589818">
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
-		<BuildPoints>22</BuildPoints>
+		<BuildPoints>12</BuildPoints>
 		<Cost ResourceType="Supplies">175</Cost>
 		<Cost ResourceType="Power">210</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
 	</Squad>
 	<Squad name="cov_veh_gorgon_01_sp" parent_element="cov_veh_gorgon_01_base" dbid="8233260635317588724" />
 	<Squad name="cov_veh_grunt_bruteChopper_01" dbid="1131046361057567986" parent_element="cov_veh_bruteChopper_01">
@@ -2480,7 +2480,7 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>3</AIAttackRank>
-		<BuildPoints>25</BuildPoints>
+		<BuildPoints>15</BuildPoints>
 		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">150</Cost>
@@ -2515,8 +2515,8 @@
 		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
 	<Squad name="cov_veh_locust_01_mp" parent_element="cov_veh_locust_01_base" dbid="15137381069946717396">
-		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power">200</Cost>
+		<Cost ResourceType="Supplies">180</Cost>
+		<Cost ResourceType="Power">180</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
 		<Tactics>cov_veh_locust_01_mp.tactics</Tactics>
 	</Squad>
@@ -2578,12 +2578,12 @@
 	</Squad>
 	<Squad name="cov_veh_prowler_01_mp" parent_element="cov_veh_prowler_01_base" dbid="17976226261245907365">
 		<Pop Type="Unit">-1</Pop>
-		<Cost ResourceType="Supplies">320</Cost>
+		<Cost ResourceType="Supplies">120</Cost>
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
 		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
-		<BuildPoints>24</BuildPoints>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<BuildPoints>12</BuildPoints>
 		<HealValue>1.75</HealValue>
 	</Squad>
 	<Squad name="cov_veh_prowler_01_sp" parent_element="cov_veh_prowler_01_base" dbid="17981860158827725179" />
@@ -2798,10 +2798,10 @@
 		<Flag>UseNameForMenuIcon</Flag>
 	</Squad>
 	<Squad name="cov_veh_wraith_01_mp" parent_element="cov_veh_wraith_01_base" dbid="7645627556186799249">
-		<BuildPoints>31</BuildPoints>
-		<Cost ResourceType="Supplies">500</Cost>
+		<BuildPoints>12</BuildPoints>
+		<Cost ResourceType="Supplies">200</Cost>
 		<Cost ResourceType="Power">90</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HealValue>2</HealValue>
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
@@ -7974,10 +7974,10 @@
 		<Counters>Hornet_01</Counters>
 	</Squad>
 	<Squad name="unsc_air_hornet_01_mp" parent_element="unsc_air_hornet_01_base" dbid="9328773931232588362">
-		<BuildPoints>22</BuildPoints>
-		<Cost ResourceType="Supplies">300</Cost>
+		<BuildPoints>12</BuildPoints>
+		<Cost ResourceType="Supplies">100</Cost>
 		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
 	</Squad>
 	<Squad name="unsc_air_hornet_01_sp" parent_element="unsc_air_hornet_01_base" dbid="9338339682396131812" />
 	<Squad name="unsc_air_laserdrone_01" dbid="12259367060226954475" parent_element="unsc_air_laserdrone_01_sp" />
@@ -8070,7 +8070,7 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>0</AIAttackRank>
 		<ActiveAbilityType>SmokeBomb</ActiveAbilityType>
-		<BuildPoints>20</BuildPoints>
+		<BuildPoints>13</BuildPoints>
 		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">400</Cost>
 		<Cost ResourceType="Power">0</Cost>
@@ -8096,9 +8096,9 @@
 	</Squad>
 	<Squad name="unsc_air_nightingale_01_mp" parent_element="unsc_air_nightingale_01_base" dbid="17920170681381079272">
 		<HealValue>1.70000005</HealValue>
-		<Cost ResourceType="Supplies">350</Cost>
+		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">50</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
 	</Squad>
 	<Squad name="unsc_air_nightingale_01_sp" parent_element="unsc_air_nightingale_01_base" dbid="17902706038681981798">
 		<DazeResist>0.25</DazeResist>
@@ -8287,7 +8287,7 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>14</AIAttackRank>
 		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
-		<BuildPoints>40</BuildPoints>
+		<BuildPoints>20</BuildPoints>
 		<Pop Type="Unit">9</Pop>
 		<Cost ResourceType="Supplies">750</Cost>
 		<Cost ResourceType="Power">75</Cost>
@@ -8311,9 +8311,9 @@
 		<Counters>Vulture_01</Counters>
 	</Squad>
 	<Squad name="unsc_air_vulture_01_mp" parent_element="unsc_air_vulture_01_base" dbid="14030362448463887195">
-		<Cost ResourceType="Supplies">650</Cost>
+		<Cost ResourceType="Supplies">350</Cost>
 		<Cost ResourceType="Power">110</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
 	</Squad>
@@ -9027,7 +9027,7 @@
 		<Counters>Cyclops_01</Counters>
 	</Squad>
 	<Squad name="unsc_inf_cyclops_01_mp" parent_element="unsc_inf_cyclops_01_base" dbid="4859466943255338600">
-		<BuildPoints>20</BuildPoints>
+		<BuildPoints>12</BuildPoints>
 	</Squad>
 	<Squad name="unsc_inf_cyclops_01_sp" parent_element="unsc_inf_cyclops_01_base" dbid="4842002300556241126" />
 	<Squad name="unsc_inf_flamecyclops_01" dbid="4590417787222477861">
@@ -9123,7 +9123,7 @@
 		<Cost resourcetype="Supplies">80</Cost>
 		<Cost resourcetype="Power">40</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
-		<BuildPoints>14</BuildPoints>
+		<BuildPoints>10</BuildPoints>
 	</Squad>
 	<Squad name="unsc_inf_flameMarine_01_sp" parent_element="unsc_inf_flameMarine_01_base" dbid="11366132454356974694">
 		<DazeResist>0.5</DazeResist>
@@ -9306,16 +9306,16 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<UnlockableActiveAbilityType>Grenade</UnlockableActiveAbilityType>
-		<BuildPoints>18</BuildPoints>
+		<BuildPoints>10</BuildPoints>
 		<Pop Type="Unit">3</Pop>
-		<Cost ResourceType="Supplies">150</Cost>
+		<Cost ResourceType="Supplies">50</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="2" role="normal">unsc_inf_generic_malemarine_01</Unit>
-			<Unit count="2" role="normal">unsc_inf_generic_femalemarine_01</Unit>
+			<Unit count="4" role="normal">unsc_inf_generic_malemarine_01</Unit>
+			<Unit count="4" role="normal">unsc_inf_generic_femalemarine_01</Unit>
 		</Units>
 		<OverrideUnitSoundNames />
 		<LeaderDiesLast />
@@ -9354,10 +9354,10 @@
 		<UnlockableActiveAbilityType>Hijack</UnlockableActiveAbilityType>
 		<AggroDistance>9.22500038</AggroDistance>
 		<HealValue>1.3787878</HealValue>
-		<BuildPoints>55</BuildPoints>
+		<BuildPoints>15</BuildPoints>
 		<Pop Type="Spartan">1</Pop>
-		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power">275</Cost>
+		<Cost ResourceType="Supplies">200</Cost>
+		<Cost ResourceType="Power">175</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,4.92000008,0">UNSC_HealthShield</HPBar>
 		<Birth>Trained</Birth>
@@ -9680,7 +9680,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">unsc_inf_sniper_01</Unit>
+			<Unit count="4" role="normal">unsc_inf_sniper_01</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
@@ -9698,10 +9698,10 @@
 	<Squad name="unsc_inf_sniper_01_mp" parent_element="unsc_inf_sniper_01_base" dbid="9550052725261081744">
 		<FrozenThreshold>100</FrozenThreshold>
 		<ChillDecayPerSecond>20</ChillDecayPerSecond>
-		<BuildPoints>20</BuildPoints>
+		<BuildPoints>10</BuildPoints>
 		<Pop Type="Unit">-1</Pop>
 		<Cost ResourceType="Supplies">75</Cost>
-		<Cost ResourceType="Power">135</Cost>
+		<Cost ResourceType="Power">95</Cost>
 	</Squad>
 	<Squad name="unsc_inf_sniper_01_sp" parent_element="unsc_inf_sniper_01_base" dbid="9578785163123814846" />
 	<Squad name="unsc_inf_spartan_01" dbid="13960817158359654890">
@@ -10166,7 +10166,7 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>8</AIAttackRank>
 		<ActiveAbilityType>Lockdown</ActiveAbilityType>
-		<BuildPoints>35</BuildPoints>
+		<BuildPoints>12</BuildPoints>
 		<Pop Type="Unit">6</Pop>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Cost ResourceType="Power">0</Cost>
@@ -10192,7 +10192,7 @@
 	</Squad>
 	<Squad name="unsc_veh_foxcannon_01_mp" parent_element="unsc_veh_foxcannon_01_base" dbid="14393334463922147653">
 		<BuildPoints>36</BuildPoints>
-		<Cost ResourceType="Supplies">525</Cost>
+		<Cost ResourceType="Supplies">225</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
 	</Squad>
 	<Squad name="unsc_veh_foxcannon_01_sp" parent_element="unsc_veh_foxcannon_01_base" dbid="14399249836480787483" />
@@ -10230,11 +10230,11 @@
 		<Counters>Grizzly_01</Counters>
 	</Squad>
 	<Squad name="unsc_veh_grizzly_01" dbid="6098115684249566326" parent_element="unsc_veh_grizzlybase_01">
-		<Pop Type="Unit">9</Pop>
-		<Cost ResourceType="Supplies">750</Cost>
-		<Cost ResourceType="Power">140</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
-		<BuildPoints>48</BuildPoints>
+		<Pop Type="Unit">5</Pop>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Cost ResourceType="Power">100</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
+		<BuildPoints>15</BuildPoints>
 		<HealValue>3.25</HealValue>
 		<Units>
 			<Unit count="1" role="normal">unsc_veh_grizzly_01</Unit>
@@ -10475,11 +10475,11 @@
 		<Counters>Jackrabbit_01</Counters>
 	</Squad>
 	<Squad name="unsc_veh_mongoose_01_mp" parent_element="unsc_veh_mongoose_01_base" dbid="1251456188636653818">
-		<Cost ResourceType="Supplies">170</Cost>
+		<Cost ResourceType="Supplies">80</Cost>
 		<Cost ResourceType="Power">10</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<Pop Type="Unit">1</Pop>
-		<BuildPoints>20</BuildPoints>
+		<BuildPoints>10</BuildPoints>
 		<FrozenThreshold>100</FrozenThreshold>
 		<ChillDecayPerSecond>20</ChillDecayPerSecond>
 	</Squad>
@@ -10508,7 +10508,7 @@
 		<AIAttackRank>10</AIAttackRank>
 		<UnlockableActiveAbilityType>VehicleMissile</UnlockableActiveAbilityType>
 		<BuildPoints>44</BuildPoints>
-		<Pop Type="Unit">7</Pop>
+		<Pop Type="Unit">5</Pop>
 		<Cost ResourceType="Supplies">650</Cost>
 		<Cost ResourceType="Power">50</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -10533,9 +10533,9 @@
 	</Squad>
 	<Squad name="unsc_veh_scorpion_01_mp" parent_element="unsc_veh_scorpion_01_base" dbid="16668385020543003166">
 		<BuildPoints>38</BuildPoints>
-		<Cost ResourceType="Supplies">550</Cost>
-		<Cost ResourceType="Power">90</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
+		<Cost ResourceType="Supplies">200</Cost>
+		<Cost ResourceType="Power">50</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HealValue>2.20000005</HealValue>
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
@@ -10644,9 +10644,9 @@
 		<ActiveAbilityType>Ram</ActiveAbilityType>
 		<BuildPoints>24</BuildPoints>
 		<Pop Type="Unit">4</Pop>
-		<Cost ResourceType="Supplies">250</Cost>
+		<Cost ResourceType="Supplies">100</Cost>
 		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -10671,7 +10671,7 @@
 		<RevvingSpeedThreshold>11</RevvingSpeedThreshold>
 	</Squad>
 	<Squad name="unsc_veh_warthog_01_mp" parent_element="unsc_veh_warthog_01_base" dbid="16819477557279945013">
-		<BuildPoints>20</BuildPoints>
+		<BuildPoints>12</BuildPoints>
 		<RammingSpeedScalar>2.5</RammingSpeedScalar>
 	</Squad>
 	<Squad name="unsc_veh_warthog_01_sp" parent_element="unsc_veh_warthog_01_base" dbid="16794430682394218283" />
@@ -10721,10 +10721,10 @@
 	</Squad>
 	<Squad name="unsc_veh_wolverine_01_mp" parent_element="unsc_veh_wolverine_01_base" dbid="12198566607598359782">
 		<BuildPoints>20</BuildPoints>
-		<Cost ResourceType="HQLevel">2</Cost>
-		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="Power">180</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
+		<Cost ResourceType="Supplies">140</Cost>
+		<Cost ResourceType="Power">80</Cost>
+		<Cost ResourceType="HQLevel">1</Cost>
 	</Squad>
 	<Squad name="unsc_veh_wolverine_01_sp" parent_element="unsc_veh_wolverine_01_base" dbid="12216031250297457256" />
 	<Squad name="unsc_veh_rm_battleapc_01" parent_element="unsc_veh_battleapc_01" dbid="9239998061677505903">
