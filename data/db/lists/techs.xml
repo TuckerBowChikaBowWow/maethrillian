@@ -21,7 +21,10 @@
         <Status>OBTAINABLE</Status>
         <Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
         <ResearchCompleteSound>play_vog_upgrade_citadel</ResearchCompleteSound>
-        <Effects />
+        <Effects>
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase1sock_01" ToType="cov_bldg_minibase1sock_01" />
+            <Effect type="ReparentProtoObject" FromType="unsc_bldg_minibase2sock_01" ToType="cov_bldg_minibase2sock_01" />
+        </Effects>
     </Tech>
     <Tech name="unsc_instant_forgebuff" type="Normal">
         <DBID>2041</DBID>

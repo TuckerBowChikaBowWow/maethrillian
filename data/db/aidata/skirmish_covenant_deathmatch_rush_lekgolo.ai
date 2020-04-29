@@ -109,5 +109,17 @@
 			<NumberOfTimesToRepeatMission>1000</NumberOfTimesToRepeatMission>
 			<NumberOfTimesToReplaceSquads>1000</NumberOfTimesToReplaceSquads>
 		</Mission>
+		<Mission>
+			<MissionID>1</MissionID>
+			<MissionType>Attack</MissionType>
+			<TargetType>_Unit</TargetType>
+			<SquadTypeToSend>cov_veh_corruptedscarab_01</SquadTypeToSend>
+			<NumberOfSquadsToSend>1</NumberOfSquadsToSend>
+			<NumberOfTimesToRepeatMission>-1</NumberOfTimesToRepeatMission>
+			<NumberOfTimesToReplaceSquads>0</NumberOfTimesToReplaceSquads>
+			<TargetClosestObjectsToRandomEnemyFirst>true</TargetClosestObjectsToRandomEnemyFirst>
+			<StreamReplaceSquads>true</StreamReplaceSquads>
+			<ReturnToRallyPoint>false</ReturnToRallyPoint>
+		</Mission>
 	</Table>
 </Tables>
