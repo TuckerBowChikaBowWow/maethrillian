@@ -49,8 +49,8 @@
 	</Squad>
 	<Squad name="cov_air_banshee_01_mp" parent_element="cov_air_banshee_01_base" dbid="17640904593416254281">
 		<BuildPoints>18</BuildPoints>
-		<Cost ResourceType="Supplies">250</Cost>
-		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="Supplies">220</Cost>
+		<Cost ResourceType="Power">30</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
 	</Squad>
 	<Squad name="cov_air_banshee_01_sp" parent_element="cov_air_banshee_01_base" dbid="17638956258811442839">
@@ -1726,10 +1726,10 @@
 		<BuildPoints>12</BuildPoints>
 	</Squad>
 	<Squad name="cov_inf_hunter_01_mp" parent_element="cov_inf_hunter_01_base" dbid="1615062803135176272">
-		<Cost ResourceType="Supplies">140</Cost>
-		<Cost ResourceType="Power">180</Cost>
+		<Cost ResourceType="Supplies">170</Cost>
+		<Cost ResourceType="Power">190</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<BuildPoints>23</BuildPoints>
+		<BuildPoints>26</BuildPoints>
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
 	</Squad>
@@ -2521,8 +2521,8 @@
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
 		<BuildPoints>22</BuildPoints>
-		<Cost ResourceType="Supplies">175</Cost>
-		<Cost ResourceType="Power">210</Cost>
+		<Cost ResourceType="Supplies">190</Cost>
+		<Cost ResourceType="Power">220</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
 	</Squad>
 	<Squad name="cov_veh_gorgon_01_sp" parent_element="cov_veh_gorgon_01_base" dbid="8233260635317588724" />
@@ -2699,11 +2699,11 @@
 	</Squad>
 	<Squad name="cov_veh_prowler_01_mp" parent_element="cov_veh_prowler_01_base" dbid="17976226261245907365">
 		<Pop Type="Unit">-1</Pop>
-		<Cost ResourceType="Supplies">320</Cost>
+		<Cost ResourceType="Supplies">280</Cost>
+		<Cost ResourceType="Power">30</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
-		<Cost ResourceType="Power">0</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
 		<BuildPoints>24</BuildPoints>
 		<HealValue>1.75</HealValue>
 	</Squad>
@@ -8261,8 +8261,8 @@
 	</Squad>
 	<Squad name="unsc_air_hornet_01_mp" parent_element="unsc_air_hornet_01_base" dbid="9328773931232588362">
 		<BuildPoints>22</BuildPoints>
-		<Cost ResourceType="Supplies">300</Cost>
-		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="Supplies">250</Cost>
+		<Cost ResourceType="Power">40</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
 	</Squad>
 	<Squad name="unsc_air_hornet_01_sp" parent_element="unsc_air_hornet_01_base" dbid="9338339682396131812" />
@@ -9313,7 +9313,7 @@
 		<Counters>Cyclops_01</Counters>
 	</Squad>
 	<Squad name="unsc_inf_cyclops_01_mp" parent_element="unsc_inf_cyclops_01_base" dbid="4859466943255338600">
-		<BuildPoints>22</BuildPoints>
+		<BuildPoints>24</BuildPoints>
 		<Cost ResourceType="Supplies">140</Cost>
 		<Cost ResourceType="Power">170</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -10521,10 +10521,10 @@
 	</Squad>
 	<Squad name="unsc_veh_grizzly_01" dbid="6098115684249566326" parent_element="unsc_veh_grizzlybase_01">
 		<Pop Type="Unit">9</Pop>
-		<Cost ResourceType="Supplies">750</Cost>
-		<Cost ResourceType="Power">140</Cost>
+		<Cost ResourceType="Supplies">700</Cost>
+		<Cost ResourceType="Power">150</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
-		<BuildPoints>48</BuildPoints>
+		<BuildPoints>44</BuildPoints>
 		<HealValue>3.25</HealValue>
 		<Units>
 			<Unit count="1" role="normal">unsc_veh_grizzly_01</Unit>
@@ -10715,8 +10715,8 @@
 	</Squad>
 	<Squad name="unsc_veh_johnson_mantis_01_mp" parent_element="unsc_veh_johnson_mantis_01_base" dbid="18102962092921929431">
 		<BuildPoints>24</BuildPoints>
-		<Cost ResourceType="Supplies">325</Cost>
-		<Cost ResourceType="Power">0</Cost>
+		<Cost ResourceType="Supplies">270</Cost>
+		<Cost ResourceType="Power">40</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
 		<HealValue>1.39999998</HealValue>
 	</Squad>
@@ -10962,6 +10962,9 @@
 	</Squad>
 	<Squad name="unsc_veh_warthog_01_mp" parent_element="unsc_veh_warthog_01_base" dbid="16819477557279945013">
 		<BuildPoints>20</BuildPoints>
+		<Cost ResourceType="Supplies">230</Cost>
+		<Cost ResourceType="Power">20</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<RammingSpeedScalar>2.5</RammingSpeedScalar>
 	</Squad>
 	<Squad name="unsc_veh_warthog_01_sp" parent_element="unsc_veh_warthog_01_base" dbid="16794430682394218283" />
@@ -11010,11 +11013,10 @@
 		<Counters>Wolverine_01</Counters>
 	</Squad>
 	<Squad name="unsc_veh_wolverine_01_mp" parent_element="unsc_veh_wolverine_01_base" dbid="12198566607598359782">
-		<BuildPoints>20</BuildPoints>
+		<BuildPoints>26</BuildPoints>
 		<Cost ResourceType="HQLevel">2</Cost>
-		<Cost ResourceType="Supplies">150</Cost>
-		<Cost ResourceType="Power">180</Cost>
-		<Cost ResourceType="HQLevel">2</Cost>
+		<Cost ResourceType="Supplies">170</Cost>
+		<Cost ResourceType="Power">190</Cost>
 	</Squad>
 	<Squad name="unsc_veh_wolverine_01_sp" parent_element="unsc_veh_wolverine_01_base" dbid="12216031250297457256" />
 	<Squad name="unsc_veh_rm_battleapc_01" parent_element="unsc_veh_battleapc_01" dbid="9239998061677505903">
