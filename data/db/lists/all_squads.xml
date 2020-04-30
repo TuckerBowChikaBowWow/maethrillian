@@ -78,7 +78,7 @@
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>Lockdown</ActiveAbilityType>
 		<BuildPoints>12</BuildPoints>
-		<Pop Type="Unit">1</Pop>
+		<Pop Type="Unit">5</Pop>
 		<Cost ResourceType="Supplies">700</Cost>
 		<Cost ResourceType="Power">50</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -104,7 +104,7 @@
 	<Squad name="cov_air_blisterback_01_mp" parent_element="cov_air_blisterback_01_base" dbid="6387017892735471683">
 		<FrozenThreshold>300</FrozenThreshold>
 		<ChillDecayPerSecond>60</ChillDecayPerSecond>
-		<Pop Type="Unit">-1</Pop>
+		<Pop Type="Unit">0</Pop>
 		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">50</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -2610,7 +2610,7 @@
 		<AIAttackRank>30</AIAttackRank>
 		<ActiveAbilityType>ScarabDisruptionField</ActiveAbilityType>
 		<BuildPoints>120</BuildPoints>
-		<Pop Type="Unit">1</Pop>
+		<Pop Type="Unit">10</Pop>
 		<Cost ResourceType="Supplies">400</Cost>
 		<Cost ResourceType="Power">300</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -4881,7 +4881,7 @@
 		<AIAttackRank>3.5</AIAttackRank>
 		<BuildPoints>15</BuildPoints>
 		<Pop Type="Unit">1</Pop>
-		<Cost ResourceType="Supplies">100</Cost>
+		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
 		<HPBar offset="0,4.30499983,0">COV_Health</HPBar>
@@ -4929,9 +4929,9 @@
 		<MinimapIcon size="8">Triangle</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>Lockdown</ActiveAbilityType>
-		<BuildPoints>15</BuildPoints>
-		<Pop Type="Unit">1</Pop>
-		<Cost ResourceType="Supplies">250</Cost>
+		<BuildPoints>35</BuildPoints>
+		<Pop Type="Unit">7</Pop>
+		<Cost ResourceType="Supplies">650</Cost>
 		<Cost ResourceType="Power">50</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
 		<HPBar offset="0,4.30499983,0">COV_Health</HPBar>
@@ -5268,7 +5268,7 @@
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>20</BuildPoints>
 		<HealValue>4.5</HealValue>
-		<Pop Type="Unit">4</Pop>
+		<Pop Type="Unit">10</Pop>
 		<Cost ResourceType="Supplies">400</Cost>
 		<Cost ResourceType="Power">400</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -5460,7 +5460,7 @@
 		<MinimapIcon size="8">Circle</MinimapIcon>
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>12</BuildPoints>
-		<Pop Type="Unit">1</Pop>
+		<Pop Type="Unit">4</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">60</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -6087,7 +6087,7 @@
 		<Cost ResourceType="Supplies">90</Cost>
 		<Cost ResourceType="Power">50</Cost>
 		<Units>
-			<Unit count="1" role="normal">flood_inf_infected_elitemelee_01</Unit>
+			<Unit count="5" role="normal">flood_inf_infected_elitemelee_01</Unit>
 		</Units>
 	</Squad>
 	<Squad name="flood_inf_infected_elitemelee_01" dbid="14479343186817846742" parent_element="flood_inf_infected_elitemelee_01_sp">
@@ -6783,10 +6783,10 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>10</AIAttackRank>
-		<BuildPoints>14</BuildPoints>
+		<BuildPoints>38</BuildPoints>
 		<UnlockableActiveAbilityType>VehicleMissile</UnlockableActiveAbilityType>
-		<Pop Type="Unit">1</Pop>
-		<Cost ResourceType="Supplies">250</Cost>
+		<Pop Type="Unit">7</Pop>
+		<Cost ResourceType="Supplies">550</Cost>
 		<Cost ResourceType="Power">90</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
 		<HealValue>2.20000005</HealValue>
@@ -6890,9 +6890,9 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>3.5</AIAttackRank>
 		<ActiveAbilityType>Ram</ActiveAbilityType>
-		<BuildPoints>12</BuildPoints>
-		<Pop Type="Unit">1</Pop>
-		<Cost ResourceType="Supplies">150</Cost>
+		<BuildPoints>24</BuildPoints>
+		<Pop Type="Unit">4</Pop>
+		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,6.1500001,0">UNSC_Health</HPBar>
@@ -7834,7 +7834,7 @@
 		<AIAttackRank>35</AIAttackRank>
 		<ActiveAbilityType>UberTargetingVehicleMissiles</ActiveAbilityType>
 		<BuildPoints>120</BuildPoints>
-		<Pop Type="Unit">1</Pop>
+		<Pop Type="Unit">10</Pop>
 		<Cost ResourceType="Supplies">300</Cost>
 		<Cost ResourceType="Power">200</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -8288,7 +8288,7 @@
 		<AIAttackRank>14</AIAttackRank>
 		<ActiveAbilityType>VehicleMissile</ActiveAbilityType>
 		<BuildPoints>12</BuildPoints>
-		<Pop Type="Unit">1</Pop>
+		<Pop Type="Unit">5</Pop>
 		<Cost ResourceType="Supplies">750</Cost>
 		<Cost ResourceType="Power">75</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
