@@ -8,7 +8,7 @@
 		<Projectile>fx_proj_incendiarycannon_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<Accuracy>0.0500000007</Accuracy>
 		<MaxDeviation>3.5</MaxDeviation>
 		<EnableHeightBonusDamage />
@@ -39,32 +39,16 @@
 	<Weapon>
 		<Name>StandardGun</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>209</DamagePerSecond>
+		<DamagePerSecond>190</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<Accuracy>0.0500000007</Accuracy>
 		<MaxDeviation>3.5</MaxDeviation>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Turret</Hardpoint>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>2</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>7</Radius>
-				<DamageRatio>50</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 		<TargetPriority type="GroundVehicle">4</TargetPriority>
 		<TargetPriority type="Aircraft">4</TargetPriority>
 		<TargetPriority type="Turretbuilding">1</TargetPriority>
@@ -78,12 +62,12 @@
 	<Weapon>
 		<Name>ChaingunJohnson</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>137</DamagePerSecond>
+		<DamagePerSecond>110</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_incendiarycannon_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<Accuracy>0.0500000007</Accuracy>
 		<MaxDeviation>3.5</MaxDeviation>
 		<EnableHeightBonusDamage />
@@ -98,7 +82,7 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>7</Radius>
+				<Radius>6</Radius>
 				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -116,32 +100,16 @@
 	<Weapon>
 		<Name>StandardGunJohnson</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>230</DamagePerSecond>
+		<DamagePerSecond>209</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<Accuracy>0.0500000007</Accuracy>
 		<MaxDeviation>3.5</MaxDeviation>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Turret</Hardpoint>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>2</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>7</Radius>
-				<DamageRatio>50</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 		<TargetPriority type="GroundVehicle">4</TargetPriority>
 		<TargetPriority type="Aircraft">4</TargetPriority>
 		<TargetPriority type="Turretbuilding">1</TargetPriority>
@@ -157,12 +125,12 @@
 	<Weapon>
 		<Name>ChaingunJohnson1</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>137</DamagePerSecond>
+		<DamagePerSecond>110</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_incendiarycannon_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GrenadeExplosion</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<Accuracy>0.0500000007</Accuracy>
 		<MaxDeviation>3.5</MaxDeviation>
 		<EnableHeightBonusDamage />
@@ -177,7 +145,7 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>7</Radius>
+				<Radius>6</Radius>
 				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -195,32 +163,16 @@
 	<Weapon>
 		<Name>StandardGunJohnson1</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>230</DamagePerSecond>
+		<DamagePerSecond>209</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Small">MediumBallisticImpact</ImpactEffect>
 		<MaxVelocityLead>30</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<Accuracy>0.0500000007</Accuracy>
 		<MaxDeviation>3.5</MaxDeviation>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Turret</Hardpoint>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>2</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>7</Radius>
-				<DamageRatio>50</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 		<TargetPriority type="GroundVehicle">4</TargetPriority>
 		<TargetPriority type="Aircraft">4</TargetPriority>
 		<TargetPriority type="Turretbuilding">1</TargetPriority>

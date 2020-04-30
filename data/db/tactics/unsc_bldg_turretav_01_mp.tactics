@@ -3,12 +3,12 @@
 	<Weapon>
 		<Name>Railgun</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>185</DamagePerSecond>
+		<DamagePerSecond>170</DamagePerSecond>
 		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<MinRange>0</MinRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
@@ -16,15 +16,6 @@
 		<MovingMaxDeviation>5</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Turret</Hardpoint>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>5</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
@@ -36,12 +27,12 @@
 	<Weapon>
 		<Name>StandardGun</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>231</DamagePerSecond>
+		<DamagePerSecond>190</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<MinRange>0</MinRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
@@ -58,12 +49,12 @@
 	<Weapon>
 		<Name>RailgunJohnson</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>203</DamagePerSecond>
+		<DamagePerSecond>187</DamagePerSecond>
 		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<MinRange>0</MinRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
@@ -71,15 +62,6 @@
 		<MovingMaxDeviation>5</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Turret</Hardpoint>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>5</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
@@ -93,12 +75,12 @@
 	<Weapon>
 		<Name>StandardGunJohnson</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>254</DamagePerSecond>
+		<DamagePerSecond>209</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<MinRange>0</MinRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
@@ -117,12 +99,12 @@
 	<Weapon>
 		<Name>RailgunJohnson1</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>203</DamagePerSecond>
+		<DamagePerSecond>187</DamagePerSecond>
 		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">GaussImpact</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<MinRange>0</MinRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>
@@ -130,15 +112,6 @@
 		<MovingMaxDeviation>5</MovingMaxDeviation>
 		<EnableHeightBonusDamage />
 		<Hardpoint>Turret</Hardpoint>
-		<AOEData>
-			<Hitbox>
-				<Type>Circle</Type>
-				<Radius>5</Radius>
-				<DamageRatio>100</DamageRatio>
-				<Origin>Target</Origin>
-				<FriendlyFire>false</FriendlyFire>
-			</Hitbox>
-		</AOEData>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
@@ -152,12 +125,12 @@
 	<Weapon>
 		<Name>StandardGunJohnson1</Name>
 		<AttackRate>5</AttackRate>
-		<DamagePerSecond>254</DamagePerSecond>
+		<DamagePerSecond>209</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_gaussCannon_01</Projectile>
 		<ImpactEffect size="Medium">MediumBallisticImpact</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<MinRange>0</MinRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>3</MaxDeviation>

@@ -3,12 +3,12 @@
 	<Weapon>
 		<Name>StandardWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>198</DamagePerSecond>
+		<DamagePerSecond>190</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="Small">SpikerImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>1.5</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
@@ -24,12 +24,12 @@
 	<Weapon>
 		<Name>StandardWeaponAI</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>198</DamagePerSecond>
+		<DamagePerSecond>190</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile>fx_proj_bruteGun_01</Projectile>
 		<ImpactEffect size="Small">SpikerImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>1.5</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
@@ -45,12 +45,12 @@
 	<Weapon>
 		<Name>AntiInfantryWeapon</Name>
 		<AttackRate>0.25</AttackRate>
-		<DamagePerSecond>99</DamagePerSecond>
+		<DamagePerSecond>110</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_cannon_01</Projectile>
 		<ImpactEffect size="Medium">ExplosiveSpikeImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Aircraft">-1</TargetPriority>
 		<TargetPriority type="GroundVehicle">-1</TargetPriority>
@@ -62,12 +62,12 @@
 	<Weapon>
 		<Name>AntiVehicleWeapon</Name>
 		<AttackRate>4</AttackRate>
-		<DamagePerSecond>71.5</DamagePerSecond>
+		<DamagePerSecond>85</DamagePerSecond>
 		<WeaponType>AntiVehicle</WeaponType>
 		<Projectile>fx_proj_fuelRod_01</Projectile>
 		<ImpactEffect size="Medium">FuelRodCannonAirImpact</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
-		<MaxRange>85</MaxRange>
+		<MaxRange>70</MaxRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>1.5</MaxDeviation>
 		<MovingAccuracy>1</MovingAccuracy>
@@ -89,7 +89,7 @@
 	<Weapon>
 		<Name>AntiAirWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>71.5</DamagePerSecond>
+		<DamagePerSecond>85</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_rocket_01</Projectile>
 		<ImpactEffect size="Medium">BanishedMissileExplosion</ImpactEffect>
@@ -108,7 +108,7 @@
 			</Hitbox>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>10</Radius>
+				<Radius>6</Radius>
 				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -143,8 +143,7 @@
 	</Action>
 	<Action>
 		<Name>AntiInfantryAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<SlaveAttackAction>AntiVehicleAttackAction</SlaveAttackAction>
+		<ActionType>RangedAttack</ActionType>	
 		<Anim SoundLoopStartEvent="Play_SFX_3D_WPN_BAN_TurretAntiInfantry_FireLoop" SoundLoopEndEvent="Stop_SFX_3D_WPN_BAN_TurretAntiInfantry_FireLoop">Attack_AI</Anim>
 		<Weapon>AntiInfantryWeapon</Weapon>
 		<FullBodyAttackAnim />
@@ -154,6 +153,7 @@
 	<Action>
 		<Name>StandardAttackAIAction</Name>
 		<ActionType>RangedAttack</ActionType>
+		<SlaveAttackAction>AntiInfantryAttackAction</SlaveAttackAction>
 		<SlaveAttackAction>AntiVehicleAttackAction</SlaveAttackAction>
 		<Anim SoundLoopStartEvent="Play_SFX_3D_WPN_BAN_TurretStandard_FireLoop" SoundLoopEndEvent="Stop_SFX_3D_WPN_BAN_TurretStandard_FireLoop">Attack_AI</Anim>
 		<Weapon>StandardWeaponAI</Weapon>
@@ -174,11 +174,6 @@
 		<TargetRule>
 			<Relation>Enemy</Relation>
 			<Action>StandardAttackAction</Action>
-		</TargetRule>
-		<TargetRule>
-			<Relation>Enemy</Relation>
-			<TargetType>Infantry</TargetType>
-			<Action>AntiInfantryAttackAction</Action>
 		</TargetRule>
 		<TargetRule>
 			<Relation>Enemy</Relation>
