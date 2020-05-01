@@ -78,7 +78,7 @@
 		<AIAttackRank>10</AIAttackRank>
 		<ActiveAbilityType>Lockdown</ActiveAbilityType>
 		<BuildPoints>12</BuildPoints>
-		<Pop Type="Unit">4</Pop>
+		<Pop Type="Unit">3</Pop>
 		<Cost ResourceType="Supplies">700</Cost>
 		<Cost ResourceType="Power">50</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -243,7 +243,7 @@
 		<AIAttackRank>0</AIAttackRank>
 		<ActiveAbilityType>AreaCloak</ActiveAbilityType>
 		<BuildPoints>12</BuildPoints>
-		<Pop Type="Unit">3</Pop>
+		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">550</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -721,7 +721,7 @@
 		<AIAttackRank>1</AIAttackRank>
 		<UnlockableActiveAbilityType>PersonalStealthCloak</UnlockableActiveAbilityType>
 		<BuildPoints>13</BuildPoints>
-		<Pop Type="Unit">2</Pop>
+		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">55</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
@@ -1290,7 +1290,7 @@
 		<AIAttackRank>0</AIAttackRank>
 		<ActiveAbilityType>DisruptionField</ActiveAbilityType>
 		<BuildPoints>10</BuildPoints>
-		<Pop Type="Unit">2</Pop>
+		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">240</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>
@@ -1462,7 +1462,7 @@
 		<AIAttackRank>1</AIAttackRank>
 		<UnlockableActiveAbilityType>Mines</UnlockableActiveAbilityType>
 		<BuildPoints>10</BuildPoints>
-		<Pop Type="Unit">2</Pop>
+		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">55</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,4.92000008,0">COV_Health</HPBar>
@@ -1735,7 +1735,7 @@
 		<ChillDecayPerSecond>20</ChillDecayPerSecond>
 		<BuildPoints>12</BuildPoints>
 		<Units>
-			<Unit count="8" role="normal">cov_inf_jackal_01</Unit>
+			<Unit count="6" role="normal">cov_inf_jackal_01</Unit>
 		</Units>
 	</Squad>
 	<Squad name="cov_inf_jackal_01_sp" parent_element="cov_inf_jackal_01_base" dbid="16208205646152507694" />
@@ -2481,7 +2481,7 @@
 		<MinimapIcon size="8">Square</MinimapIcon>
 		<AIAttackRank>3</AIAttackRank>
 		<BuildPoints>12</BuildPoints>
-		<Pop Type="Unit">3</Pop>
+		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">150</Cost>
 		<Cost ResourceType="Power">150</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -2553,7 +2553,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<BuildPoints>14</BuildPoints>
-		<Pop Type="Unit">2</Pop>
+		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">400</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -2610,7 +2610,7 @@
 		<AIAttackRank>30</AIAttackRank>
 		<ActiveAbilityType>ScarabDisruptionField</ActiveAbilityType>
 		<BuildPoints>120</BuildPoints>
-		<Pop Type="Unit">10</Pop>
+		<Pop Type="Unit">6</Pop>
 		<Cost ResourceType="Supplies">400</Cost>
 		<Cost ResourceType="Power">300</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -2767,7 +2767,7 @@
 		<AIAttackRank>7</AIAttackRank>
 		<UnlockableActiveAbilityType>PreemptiveVehicleMissiles</UnlockableActiveAbilityType>
 		<BuildPoints>13</BuildPoints>
-		<Pop Type="Unit">3</Pop>
+		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">550</Cost>
 		<Cost ResourceType="Power">40</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -5045,15 +5045,15 @@
 		<AIAttackRank>1.5</AIAttackRank>
 		<UnlockableActiveAbilityType>Grenade</UnlockableActiveAbilityType>
 		<BuildPoints>10</BuildPoints>
-		<Pop Type="Unit">2</Pop>
+		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">60</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="5" role="leader">flood_inf_infected_eliteassaultteam_02</Unit>
-			<Unit count="5" role="normal">flood_inf_infected_assaultrifle_01</Unit>
+			<Unit count="6" role="leader">flood_inf_infected_eliteassaultteam_02</Unit>
+			<Unit count="6" role="normal">flood_inf_infected_assaultrifle_01</Unit>
 		</Units>
 		<OverrideUnitSoundNames />
 		<LeaderDiesLast />
@@ -5268,7 +5268,7 @@
 		<AIAttackRank>1.5</AIAttackRank>
 		<BuildPoints>20</BuildPoints>
 		<HealValue>4.5</HealValue>
-		<Pop Type="Unit">10</Pop>
+		<Pop Type="Unit">7</Pop>
 		<Cost ResourceType="Supplies">400</Cost>
 		<Cost ResourceType="Power">400</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -7830,7 +7830,7 @@
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<DazeResist>0.25</DazeResist>
 		<CryoPoints>150</CryoPoints>
-		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<MinimapIcon size="6">Triangle</MinimapIcon>
 		<AIAttackRank>35</AIAttackRank>
 		<ActiveAbilityType>UberTargetingVehicleMissiles</ActiveAbilityType>
 		<BuildPoints>20</BuildPoints>
@@ -9006,7 +9006,7 @@
 		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">120</Cost>
 		<Cost ResourceType="Power">150</Cost>
-		<Cost ResourceType="HQLevel">1</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,4.92000008,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -9104,7 +9104,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="9" role="normal">unsc_inf_flameMarine_01</Unit>
+			<Unit count="6" role="normal">unsc_inf_flameMarine_01</Unit>
 		</Units>
 		<Flag>Repairable</Flag>
 		<Flag>Chatter</Flag>
@@ -9307,7 +9307,7 @@
 		<AIAttackRank>1.5</AIAttackRank>
 		<UnlockableActiveAbilityType>Grenade</UnlockableActiveAbilityType>
 		<BuildPoints>10</BuildPoints>
-		<Pop Type="Unit">2</Pop>
+		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">50</Cost>
 		<Cost ResourceType="HQLevel">0</Cost>
 		<HPBar offset="0,5.53499985,0">UNSC_Health</HPBar>
@@ -10167,7 +10167,7 @@
 		<AIAttackRank>8</AIAttackRank>
 		<ActiveAbilityType>Lockdown</ActiveAbilityType>
 		<BuildPoints>12</BuildPoints>
-		<Pop Type="Unit">3</Pop>
+		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">500</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">2</Cost>
@@ -10211,7 +10211,7 @@
 		<LeashDeadzone>15</LeashDeadzone>
 		<LeashRecallDelay>2500</LeashRecallDelay>
 		<MinimapIcon size="8">Square</MinimapIcon>
-		<Pop Type="Unit">2</Pop>
+		<Pop Type="Unit">3</Pop>
 		<HPBar offset="0,8.61000061,0">UNSC_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -10508,7 +10508,7 @@
 		<AIAttackRank>10</AIAttackRank>
 		<UnlockableActiveAbilityType>VehicleMissile</UnlockableActiveAbilityType>
 		<BuildPoints>44</BuildPoints>
-		<Pop Type="Unit">3</Pop>
+		<Pop Type="Unit">2</Pop>
 		<Cost ResourceType="Supplies">650</Cost>
 		<Cost ResourceType="Power">50</Cost>
 		<Cost ResourceType="HQLevel">3</Cost>
@@ -10643,7 +10643,7 @@
 		<AIAttackRank>3.5</AIAttackRank>
 		<ActiveAbilityType>Ram</ActiveAbilityType>
 		<BuildPoints>24</BuildPoints>
-		<Pop Type="Unit">2</Pop>
+		<Pop Type="Unit">1</Pop>
 		<Cost ResourceType="Supplies">100</Cost>
 		<Cost ResourceType="Power">0</Cost>
 		<Cost ResourceType="HQLevel">1</Cost>

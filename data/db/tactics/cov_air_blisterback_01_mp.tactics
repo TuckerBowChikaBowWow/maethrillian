@@ -4,9 +4,9 @@
 		<Name>PlasmaCannon</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>325</DamagePerSecond>
-		<WeaponType>Basic</WeaponType>
-		<Projectile>fx_proj_smokeMissileMP_01</Projectile>
-		<ImpactEffect size="Medium" doShockwaveAction="true" alwaysHorizontal="true">NightgaleSmokeBomb</ImpactEffect>
+		<WeaponType>AntiVehicle</WeaponType>
+		<Projectile>fx_hunterbeam</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>50</MaxRange>
 		<ThrowUnits />
@@ -78,8 +78,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>BlisterbackArtillery</Name>
-		<AttackRate>5</AttackRate>
-		<DamagePerSecond>270</DamagePerSecond>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>300</DamagePerSecond>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>1</PreAttackCooldownMax>
 		<PostAttackCooldownMin>2.20000005</PostAttackCooldownMin>
@@ -189,7 +189,7 @@
 	<Weapon>
 		<Name>PlasmaCannonSiphon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>825</DamagePerSecond>
+		<DamagePerSecond>425</DamagePerSecond>
 		<WeaponType>Explosive</WeaponType>
 		<Projectile>fx_proj_shadeplasma_01</Projectile>
 		<ImpactEffect size="Medium">SmallPlasmaExplosion</ImpactEffect>
@@ -227,8 +227,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>BlisterbackArtillerySiphon</Name>
-		<AttackRate>5</AttackRate>
-		<DamagePerSecond>170</DamagePerSecond>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>370</DamagePerSecond>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>1</PreAttackCooldownMax>
 		<PostAttackCooldownMin>2.20000005</PostAttackCooldownMin>
