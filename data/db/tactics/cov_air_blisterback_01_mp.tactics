@@ -3,10 +3,10 @@
 	<Weapon>
 		<Name>PlasmaCannon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>325</DamagePerSecond>
-		<WeaponType>AntiVehicle</WeaponType>
-		<Projectile>fx_hunterbeam</Projectile>
-		<ImpactEffect size="Medium" alwaysHorizontal="true">MediumAirExplosion</ImpactEffect>
+		<DamagePerSecond>425</DamagePerSecond>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_impervioushunterbeam</Projectile>
+		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>50</MaxRange>
 		<ThrowUnits />
@@ -84,9 +84,9 @@
 		<PreAttackCooldownMax>1</PreAttackCooldownMax>
 		<PostAttackCooldownMin>2.20000005</PostAttackCooldownMin>
 		<PostAttackCooldownMax>3</PostAttackCooldownMax>
-		<WeaponType>Artillery</WeaponType>
-		<Projectile>fx_proj_blisterback_01</Projectile>
-		<ImpactEffect size="Medium" alwaysHorizontal="true">BlisterBackArtilleryImpact</ImpactEffect>
+		<WeaponType>Hero</WeaponType>
+		<Projectile>fx_proj_shardstorm</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">GruntGoblinShardStormImpactImpact</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
 		<MaxRange>170</MaxRange>
 		<MinRange>40</MinRange>
