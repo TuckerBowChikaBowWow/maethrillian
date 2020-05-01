@@ -16,7 +16,7 @@
 	<Weapon>
 		<Name>RightMissileLauncher</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>450.5</DamagePerSecond>
+		<DamagePerSecond>50.5</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_missile_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">MissileImpact</ImpactEffect>
@@ -47,7 +47,8 @@
 		<PhysicsForceMax>1200</PhysicsForceMax>
 		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
 		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Flying">9</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
 		<TargetPriority type="Infantry">7</TargetPriority>
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
 		<TargetPriority type="Building">3</TargetPriority>
@@ -60,9 +61,9 @@
 		<Name>RightCannon</Name>
 		<AttackRate>3</AttackRate>
 		<DamagePerSecond>370</DamagePerSecond>
-		<WeaponType>Explosive</WeaponType>
-		<Projectile>fx_proj_cannon_03</Projectile>
-		<ImpactEffect size="Medium">AutoCannonImpact</ImpactEffect>
+		<WeaponType>Ultimates</WeaponType>
+		<Projectile>fx_proj_condormac_01</Projectile>
+		<ImpactEffect size="Medium" alwaysHorizontal="true">CondorMacImpact</ImpactEffect>
 		<MaxVelocityLead>12.3000002</MaxVelocityLead>
 		<MaxRange>65</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -77,7 +78,8 @@
 		<PhysicsForceMax>1200</PhysicsForceMax>
 		<PhysicsForceMaxAngle>0.800000012</PhysicsForceMaxAngle>
 		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="GroundVehicle">9</TargetPriority>
+		<TargetPriority type="Flying">9</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
 		<TargetPriority type="Infantry">7</TargetPriority>
 		<TargetPriority type="TurretBuilding">5</TargetPriority>
 		<TargetPriority type="Building">3</TargetPriority>
