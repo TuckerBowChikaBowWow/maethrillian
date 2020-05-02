@@ -2,11 +2,11 @@
 <TacticData>
 	<Weapon>
 		<Name>FuelRodCannon</Name>
-		<AttackRate>4</AttackRate>
-		<DamagePerSecond>180</DamagePerSecond>
-		<WeaponType>AntiVehicle</WeaponType>
-		<Projectile>fx_proj_fuelRod_01</Projectile>
-		<ImpactEffect size="Medium">FuelRodCannonAirImpact</ImpactEffect>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>90</DamagePerSecond>
+		<WeaponType>Ultimates</WeaponType>
+		<Projectile>fx_proj_vultureNuke_01</Projectile>
+		<ImpactEffect size="Large">LargeExplosionImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -38,10 +38,10 @@
 	<Weapon>
 		<Name>BeamCannon</Name>
 		<AttackRate>1</AttackRate>
-		<DamagePerSecond>150</DamagePerSecond>
-		<WeaponType>AntiVehicle</WeaponType>
-		<Projectile>fx_hunterbeam</Projectile>
-		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<DamagePerSecond>100</DamagePerSecond>
+		<WeaponType>SmallArmsScouts</WeaponType>
+		<Projectile>fx_proj_skittererBeam_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -111,11 +111,11 @@
 	</Action>
 	<Weapon>
 		<Name>FuelRodCannonSiphon</Name>
-		<AttackRate>4</AttackRate>
-		<DamagePerSecond>190</DamagePerSecond>
-		<WeaponType>AntiVehicle</WeaponType>
-		<Projectile>fx_proj_fuelRod_01</Projectile>
-		<ImpactEffect size="Medium">FuelRodCannonAirImpact</ImpactEffect>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>130</DamagePerSecond>
+		<WeaponType>Ultimates</WeaponType>
+		<Projectile>fx_proj_vultureNuke_01</Projectile>
+		<ImpactEffect size="Large">LargeExplosionImpact</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
@@ -147,11 +147,11 @@
 	</Weapon>
 	<Weapon>
 		<Name>BeamCannonSiphon</Name>
-		<AttackRate>1</AttackRate>
-		<DamagePerSecond>210</DamagePerSecond>
-		<WeaponType>AntiVehicle</WeaponType>
-		<Projectile>fx_hunterbeam</Projectile>
-		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<AttackRate>1.5</AttackRate>
+		<DamagePerSecond>150</DamagePerSecond>
+		<WeaponType>SmallArmsScouts</WeaponType>
+		<Projectile>fx_proj_skittererBeam_01</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>1</Accuracy>
