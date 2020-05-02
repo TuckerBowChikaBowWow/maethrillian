@@ -4,9 +4,9 @@
 		<Name>PlasmaCannon</Name>
 		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>425</DamagePerSecond>
-		<WeaponType>Hero</WeaponType>
-		<Projectile>fx_impervioushunterbeam</Projectile>
-		<ImpactEffect size="Medium">fuelrod_01</ImpactEffect>
+		<WeaponType>LeaderPower</WeaponType>
+		<Projectile>pow_gp_megaTurret</Projectile>
+		<ImpactEffect size="Large">MediumPlasmaExplosion</ImpactEffect>
 		<MaxVelocityLead>40</MaxVelocityLead>
 		<MaxRange>50</MaxRange>
 		<ThrowUnits />
@@ -79,7 +79,7 @@
 	<Weapon>
 		<Name>BlisterbackArtillery</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>300</DamagePerSecond>
+		<DamagePerSecond>350</DamagePerSecond>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>1</PreAttackCooldownMax>
 		<PostAttackCooldownMin>2.20000005</PostAttackCooldownMin>
