@@ -46,6 +46,18 @@
 		<DontCheckOrientTolerance />
 	</Action>
 	<Action>
+		<Name>LeftChaingunAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>LeftChainGunAttack</Anim>
+		<SlaveAttackAction>RightChaingunAttackAction</SlaveAttackAction>
+		<Duration DurationSpread="0">2.29999995</Duration>
+		<Weapon>LeftChaingun</Weapon>
+		<Beam collideWithUnits="false" collideWithTerrain="false" />
+		<Strafing turnRate="90" trackingSpeed="40" jitter="20" />
+		<LoopAttackAnim />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
 		<Name>GarrisonTeleport</Name>
 		<ActionType>Garrison</ActionType>
 		<Anim>TeleportOut</Anim>

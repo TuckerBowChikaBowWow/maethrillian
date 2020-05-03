@@ -2,8 +2,8 @@
 <TacticData>
 	<Weapon>
 		<Name>PlasmaCannon</Name>
-		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>425</DamagePerSecond>
+		<AttackRate>1.5</AttackRate>
+		<DamagePerSecond>225</DamagePerSecond>
 		<WeaponType>LeaderPower</WeaponType>
 		<Projectile>pow_gp_megaTurret</Projectile>
 		<ImpactEffect size="Large">MediumPlasmaExplosion</ImpactEffect>
@@ -78,7 +78,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>BlisterbackArtillery</Name>
-		<AttackRate>3</AttackRate>
+		<AttackRate>0.1</AttackRate>
 		<DamagePerSecond>350</DamagePerSecond>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>1</PreAttackCooldownMax>
@@ -88,7 +88,7 @@
 		<Projectile>fx_proj_shardstorm</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">GruntGoblinShardStormImpactImpact</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
-		<MaxRange>170</MaxRange>
+		<MaxRange>130</MaxRange>
 		<MinRange>40</MinRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>0</MaxDeviation>
@@ -133,8 +133,8 @@
 	</Weapon>
 	<Weapon>
 		<Name>CorruptedBlisterbackArtillery</Name>
-		<AttackRate>5</AttackRate>
-		<DamagePerSecond>970</DamagePerSecond>
+		<AttackRate>0.1</AttackRate>
+		<DamagePerSecond>470</DamagePerSecond>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>1</PreAttackCooldownMax>
 		<PostAttackCooldownMin>2.20000005</PostAttackCooldownMin>
@@ -143,7 +143,7 @@
 		<Projectile>fx_proj_corruptedblisterback_01</Projectile>
 		<ImpactEffect size="Medium" doShockwaveAction="true">CorruptionMediumExp</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
-		<MaxRange>170</MaxRange>
+		<MaxRange>130</MaxRange>
 		<MinRange>40</MinRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>0</MaxDeviation>
@@ -227,7 +227,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>BlisterbackArtillerySiphon</Name>
-		<AttackRate>3</AttackRate>
+		<AttackRate>0.1</AttackRate>
 		<DamagePerSecond>370</DamagePerSecond>
 		<PreAttackCooldownMin>0</PreAttackCooldownMin>
 		<PreAttackCooldownMax>1</PreAttackCooldownMax>
@@ -237,7 +237,7 @@
 		<Projectile>fx_proj_blisterback_01</Projectile>
 		<ImpactEffect size="Medium" alwaysHorizontal="true">BlisterBackArtilleryImpact</ImpactEffect>
 		<MaxVelocityLead>20</MaxVelocityLead>
-		<MaxRange>170</MaxRange>
+		<MaxRange>130</MaxRange>
 		<MinRange>40</MinRange>
 		<Accuracy>1</Accuracy>
 		<MaxDeviation>0</MaxDeviation>

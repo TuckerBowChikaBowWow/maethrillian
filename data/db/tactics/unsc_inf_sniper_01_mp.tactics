@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>SniperRifle</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>100</DamagePerSecond>
+		<DamagePerSecond>80</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_lightCannon_01</Projectile>
 		<ImpactEffect size="Small">AutoCannonImpact</ImpactEffect>
@@ -27,12 +27,12 @@
 	<Weapon>
 		<Name>StanchionRifle</Name>
 		<AttackRate>3</AttackRate>
-		<DamagePerSecond>137</DamagePerSecond>
+		<DamagePerSecond>107</DamagePerSecond>
 		<WeaponType>AntiInfantry</WeaponType>
 		<Projectile>fx_proj_lightCannon_01</Projectile>
 		<ImpactEffect size="Small">GaussImpact</ImpactEffect>
 		<MaxVelocityLead>99</MaxVelocityLead>
-		<MaxRange>140</MaxRange>
+		<MaxRange>100</MaxRange>
 		<EnableHeightBonusDamage />
 		<TargetPriority type="Infantry">10</TargetPriority>
 		<TargetPriority type="Mine">1</TargetPriority>
