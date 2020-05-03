@@ -3,21 +3,29 @@
 	<Weapon>
 		<Name>LotusMine</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>1930</DamagePerSecond>
+		<DamagePerSecond>1800</DamagePerSecond>
 		<UseDPSasDPA />
 		<ImpactEffect size="Medium">ODSTMineExplosion</ImpactEffect>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>18</Radius>
+				<Radius>12</Radius>
 				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>18</Radius>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Mines</WeaponType>
-		<Apply>6</Apply>
+		<Apply>7</Apply>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
@@ -29,7 +37,7 @@
 	<Weapon>
 		<Name>LotusMineReduced</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>500</DamagePerSecond>
+		<DamagePerSecond>600</DamagePerSecond>
 		<UseDPSasDPA />
 		<ImpactEffect size="Medium">ODSTMineExplosion</ImpactEffect>
 		<AOEData>
@@ -43,7 +51,7 @@
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Mines</WeaponType>
-		<Apply>1.5</Apply>
+		<Apply>2</Apply>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
@@ -75,7 +83,7 @@
 		<Name>ExplosiveManager</Name>
 		<ActionType>ExplosiveManager</ActionType>
 		<FuseType>Proximity</FuseType>
-		<WorkRange>8</WorkRange>
+		<WorkRange>10</WorkRange>
 		<Weapon>LotusMine</Weapon>
 		<DontAutoRestart />
 	</Action>

@@ -13,7 +13,7 @@
 		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
 		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
 		<ReapplyDamageOverArea />
-		<Shockwave duration="70" />
+		<Shockwave duration="50" />
 		<AOERadius>30</AOERadius>
 		<Corruption overlap="0.9f" />
 		<Buff targetType="Infantry" buffType="CorruptionDebuff" slowModifier="0.800000012">0.5</Buff>
@@ -32,7 +32,7 @@
 		<DamageRatingOverride type="Building" halfKillCutoffFactor="10">1</DamageRatingOverride>
 		<DamageRatingOverride type="TurretBuilding" halfKillCutoffFactor="10">1</DamageRatingOverride>
 		<ReapplyDamageOverArea />
-		<Shockwave duration="36" />
+		<Shockwave duration="25" />
 		<AOERadius>30</AOERadius>
 		<Corruption overlap="0.9f" />
 		<Buff targetType="Infantry" buffType="CorruptionDebuff" slowModifier="0.75">0.5</Buff>
@@ -47,15 +47,23 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>24</Radius>
+				<Radius>16</Radius>
 				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>24</Radius>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Mines</WeaponType>
-		<Apply>6</Apply>
+		<Apply>7</Apply>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
@@ -65,21 +73,29 @@
 	<Weapon>
 		<Name>CorruptionMineReduced</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>100</DamagePerSecond>
+		<DamagePerSecond>1000</DamagePerSecond>
 		<UseDPSasDPA />
 		<ImpactEffect size="Medium" doShockwaveAction="true">CorruptionLargeMine</ImpactEffect>
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>24</Radius>
+				<Radius>16</Radius>
 				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
+				<Radius>24</Radius>
+				<DamageRatio>50</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
 				<TargetType>NonFlying</TargetType>
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Mines</WeaponType>
-		<Apply>1.5</Apply>
+		<Apply>2</Apply>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
@@ -117,7 +133,7 @@
 		<Name>ExplosiveManager</Name>
 		<ActionType>ExplosiveManager</ActionType>
 		<FuseType>Proximity</FuseType>
-		<WorkRange>18</WorkRange>
+		<WorkRange>12</WorkRange>
 		<Weapon>CorruptionMine</Weapon>
 		<DontAutoRestart />
 	</Action>

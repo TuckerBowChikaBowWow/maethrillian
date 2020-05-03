@@ -10,6 +10,14 @@
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
+				<Radius>12</Radius>
+				<DamageRatio>100</DamageRatio>
+				<Origin>Target</Origin>
+				<FriendlyFire>false</FriendlyFire>
+				<TargetType>NonFlying</TargetType>
+			</Hitbox>
+			<Hitbox>
+				<Type>Circle</Type>
 				<Radius>18</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
@@ -18,10 +26,10 @@
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Mines</WeaponType>
-		<Chill Amount="300" TargetType="Unit" />
-		<Chill Amount="300" TargetType="CryoBuilding" />
-		<Chill Amount="300" TargetType="TurretBuilding" />
-		<Apply>6</Apply>
+		<Chill Amount="350" TargetType="Unit" />
+		<Chill Amount="350" TargetType="CryoBuilding" />
+		<Chill Amount="350" TargetType="TurretBuilding" />
+		<Apply>7</Apply>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
@@ -31,14 +39,14 @@
 	<Weapon>
 		<Name>PlasmaMineReduced</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>400</DamagePerSecond>
+		<DamagePerSecond>600</DamagePerSecond>
 		<UseDPSasDPA />
 		<ImpactEffect size="Medium">CryoMine_01</ImpactEffect>
 		<ImpactAdvancedCameraShake fadein="0.00999999978" duration="0.00999999978" fadeout="0.899999976" yawpitchstrength="2.5" rollstrength="1" rotationfrequency="8" translationstrength="0" translationfrequency="4" />
 		<AOEData>
 			<Hitbox>
 				<Type>Circle</Type>
-				<Radius>14</Radius>
+				<Radius>12</Radius>
 				<DamageRatio>100</DamageRatio>
 				<Origin>Target</Origin>
 				<FriendlyFire>false</FriendlyFire>
@@ -46,10 +54,10 @@
 			</Hitbox>
 		</AOEData>
 		<WeaponType>Mines</WeaponType>
-		<Chill Amount="40" TargetType="Unit" />
-		<Chill Amount="40" TargetType="CryoBuilding" />
-		<Chill Amount="40" TargetType="TurretBuilding" />
-		<Apply>1.5</Apply>
+		<Chill Amount="100" TargetType="Unit" />
+		<Chill Amount="100" TargetType="CryoBuilding" />
+		<Chill Amount="100" TargetType="TurretBuilding" />
+		<Apply>2</Apply>
 		<ThrowUnits />
 		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
 		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
@@ -78,7 +86,7 @@
 		<Name>ExplosiveManager</Name>
 		<ActionType>ExplosiveManager</ActionType>
 		<FuseType>Proximity</FuseType>
-		<WorkRange>8</WorkRange>
+		<WorkRange>10</WorkRange>
 		<Weapon>PlasmaMine</Weapon>
 		<DontAutoRestart />
 	</Action>
