@@ -132,6 +132,10 @@
 			<Action>SmokeBombAction</Action>
 		</TargetRule>
 		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>LeftChaingunAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
 			<Ability>Command</Ability>
 			<Relation>Any</Relation>
 			<TargetsGround />
