@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>SpawnerAI</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>400</DamagePerSecond>
+		<DamagePerSecond>2000</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile isSpawnedSquad="true">flood_inf_infectfrm_01</Projectile>
 		<ImpactEffect size="small">MediumPlasmaExplosion</ImpactEffect>
@@ -25,7 +25,7 @@
 	<Weapon>
 		<Name>SpawnerAV</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>600</DamagePerSecond>
+		<DamagePerSecond>1600</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile isSpawnedSquad="true">flood_inf_vehinfector_01</Projectile>
 		<ImpactEffect size="small">VehicleInfectorExplosion</ImpactEffect>
@@ -47,7 +47,7 @@
 	<Weapon>
 		<Name>SpawnerAA</Name>
 		<AttackRate>2</AttackRate>
-		<DamagePerSecond>600</DamagePerSecond>
+		<DamagePerSecond>800</DamagePerSecond>
 		<WeaponType>Basic</WeaponType>
 		<Projectile isSpawnedSquad="true">flood_air_airborneinfector_01</Projectile>
 		<ImpactEffect size="small">MediumPlasmaExplosion</ImpactEffect>
@@ -68,7 +68,7 @@
 	</Weapon>
 	<Weapon>
 		<Name>Rifle</Name>
-		<AttackRate>2</AttackRate>
+		<AttackRate>0.5</AttackRate>
 		<DamagePerSecond>630</DamagePerSecond>
 		<WeaponType>TankExplosive</WeaponType>
 		<Projectile>episode2_pack1_units_flood_infantry_FloodSpawnerSpine</Projectile>
