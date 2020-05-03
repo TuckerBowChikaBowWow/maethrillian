@@ -12,29 +12,6 @@
 		<Hardpoint>SmokeGun</Hardpoint>
 		<AlwaysReplaceTargetWithItsPosition />
 	</Weapon>
-	<Weapon>
-		<Name>LeftChaingun</Name>
-		<AttackRate>0.525</AttackRate>
-		<DamagePerSecond>120</DamagePerSecond>
-		<WeaponType>HornetChaingun</WeaponType>
-		<Projectile>fx_proj_spartanlaser_01</Projectile>
-		<ImpactEffect size="Large">MediumPlasmaExplosion</ImpactEffect>
-		<MaxVelocityLead>0</MaxVelocityLead>
-		<Hardpoint>SmokeGun</Hardpoint>
-		<MaxRange>40</MaxRange>
-		<Accuracy>0.100000001</Accuracy>
-		<MaxDeviation>1.5</MaxDeviation>
-		<MovingAccuracy>0.100000001</MovingAccuracy>
-		<MovingMaxDeviation>2</MovingMaxDeviation>
-		<TargetPriority type="PaintTarget">10</TargetPriority>
-		<TargetPriority type="GroundVehicle">8</TargetPriority>
-		<TargetPriority type="Aircraft">9</TargetPriority>
-		<TargetPriority type="TurretBuilding">7</TargetPriority>
-		<TargetPriority type="Infantry">6</TargetPriority>
-		<TargetPriority type="Building">5</TargetPriority>
-		<PostAttackCooldownMin>2</PostAttackCooldownMin>
-		<PostAttackCooldownMax>2</PostAttackCooldownMax>
-	</Weapon>
 	<Action>
 		<Name>SmokeBombAction</Name>
 		<ActionType>RangedAttack</ActionType>
@@ -44,18 +21,6 @@
 		<ForceAttachmentAnim />
 		<DontAutoRestart />
 		<DontCheckOrientTolerance />
-	</Action>
-	<Action>
-		<Name>LeftChaingunAttackAction</Name>
-		<ActionType>RangedAttack</ActionType>
-		<Anim>LeftChainGunAttack</Anim>
-		<SlaveAttackAction>RightChaingunAttackAction</SlaveAttackAction>
-		<Duration DurationSpread="0">2.29999995</Duration>
-		<Weapon>LeftChaingun</Weapon>
-		<Beam collideWithUnits="false" collideWithTerrain="false" />
-		<Strafing turnRate="90" trackingSpeed="40" jitter="20" />
-		<LoopAttackAnim />
-		<PersistBetweenOpps />
 	</Action>
 	<Action>
 		<Name>GarrisonTeleport</Name>
