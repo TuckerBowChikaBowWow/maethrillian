@@ -4682,7 +4682,6 @@
 			<Effect type="UnlockableGodPower" tier="1">CutterBattleHardened1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="CutterBattleHardened1">CutterBattleHardened2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscLotusMines1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="UnscLotusMines1_MP">UnscLotusMines2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscMedDrones1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UnscMedDrones1_MP">UnscMedDrones2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="UnscMedDrones2_MP">UnscMedDrones3_MP</Effect>
@@ -4790,8 +4789,7 @@
 			<Effect type="Data" amount="0" subtype="CommandEnable" commandType="Research" CommandData="unsc_forgehog_upgrade3" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
 			</Effect>
-			<Effect type="UnlockableGodPower" tier="1">UnscHeavyMetal01</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHeavyMetal01">UnscHeavyMetal02</Effect>
+			<Effect type="UnlockableGodPower" tier="1">UnscLotusMines1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="1">UnscHoloDecoy1_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHoloDecoy1_MP">UnscHoloDecoy2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscVehicleTech1</Effect>
@@ -4803,8 +4801,8 @@
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscMacBlast1">UnscMacBlast2</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscMacBlast2">UnscMacBlast3</Effect>
 			<Effect type="UnlockableGodPower" tier="3">UnscForgePelicanTransport</Effect>
-			<Effect type="UnlockableGodPower" tier="4">UnscTurretDrop1</Effect>
-			<Effect type="UnlockableGodPower" tier="4" prereq="UnscTurretDrop1">UnscTurretDrop2</Effect>
+			<Effect type="UnlockableGodPower" tier="4">UnscHeavyMetal01</Effect>
+			<Effect type="UnlockableGodPower" tier="4" prereq="UnscHeavyMetal01">UnscHeavyMetal02</Effect>
 			<Effect type="UnlockableGodPower" tier="4">UnscScorpionTech</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscVehicleRecycle</Effect>
 			<Effect type="UnlockableGodPower" tier="5">UnscGhostInTheMachine</Effect>
@@ -4882,7 +4880,6 @@
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscMedDrones1_MP">UnscMedDrones2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscMedDrones2_MP">UnscMedDrones3_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscLotusMines1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="UnscLotusMines1_MP">UnscLotusMines2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UNSCAggressorSentinel</Effect>
 			<Effect type="UnlockableGodPower" tier="3">UnscArkDefense1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscArkDefense1">UnscArkDefense2</Effect>
@@ -5963,7 +5960,6 @@
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHeavyMetal01">UnscHeavyMetal02</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="UnscHeavyMetal02">UnscHeavyMetal03</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscLotusMines1_MP</Effect>
-			<Effect type="UnlockableGodPower" tier="2" prereq="UnscLotusMines1_MP">UnscLotusMines2_MP</Effect>
 			<Effect type="UnlockableGodPower" tier="2">UnscForgePelicanTransport</Effect>
 			<Effect type="UnlockableGodPower" tier="3">UnscScatterbomb1</Effect>
 			<Effect type="UnlockableGodPower" tier="3" prereq="UnscScatterbomb1">UnscScatterbomb2</Effect>
@@ -7424,7 +7420,6 @@
 				<Target type="Tech">unsc_multiplayer_marines1</Target>
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">CorruptedMines1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="CorruptedMines1">CorruptedMines2</Effect>
 			<Effect type="UnlockableGodPower" tier="1">CorruptedPillage1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="CorruptedPillage1">CorruptedPillage2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">CorruptedBrutedrop</Effect>
@@ -8057,7 +8052,6 @@
 			</Effect>
 			<Effect type="UnlockableGodPower" tier="1">CovTeleport1</Effect>
 			<Effect type="UnlockableGodPower" tier="1">ArbiterStasisMine1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="ArbiterStasisMine1">ArbiterStasisMine2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">ArbiterConduitofRage1</Effect>
 			<Effect type="UnlockableGodPower" tier="2">ArbiterPlasmaBolt1</Effect>
 			<Effect type="UnlockableGodPower" tier="2" prereq="ArbiterPlasmaBolt1">ArbiterPlasmaBolt2</Effect>
@@ -8485,7 +8479,6 @@
 			<Effect type="UnlockableGodPower" tier="1">Serina_IceBlock1</Effect>
 			<Effect type="UnlockableGodPower" tier="1" prereq="Serina_IceBlock1">Serina_IceBlock2</Effect>
 			<Effect type="UnlockableGodPower" tier="1">Serina_CryoMine1</Effect>
-			<Effect type="UnlockableGodPower" tier="1" prereq="Serina_CryoMine1">Serina_CryoMine2</Effect>
 			<Effect type="UnlockableGodPower" tier="2">Serina_FrostTech</Effect>
 			<Effect type="UnlockableGodPower" tier="2">Serina_Pegasus</Effect>
 			<Effect type="UnlockableGodPower" tier="3">Serina_SeismicCharge1</Effect>
