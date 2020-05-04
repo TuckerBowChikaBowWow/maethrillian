@@ -4083,7 +4083,13 @@
 		<Flag>Shadow</Flag>
 		<Effects>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoSquad">unsc_air_pelicangunship_01_base</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoSquad">unsc_inf_spartan_mpjerome_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_air_pelicangunship_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">unsc_bldg_airPad_01</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="unsc_inf_spartan_mpjerome_01" relativity="Absolute">
 				<Target type="ProtoUnit">unsc_bldg_fieldArmory_01</Target>
@@ -9360,6 +9366,18 @@
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_warthog_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_scorpion_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_infected_blisterback_01_base" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_air_infected_banshee_01_base" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_inf_generic_core" relativity="Absolute">
