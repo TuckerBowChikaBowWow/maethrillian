@@ -3,7 +3,7 @@
 	<Weapon>
 		<Name>RocketLauncher_Left</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>120</DamagePerSecond>
+		<DamagePerSecond>125</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_rocket_01_mp</Projectile>
 		<MaxVelocityLead>6.1500001</MaxVelocityLead>
@@ -17,11 +17,13 @@
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<ProjectileLaunchDirY />
+		<PostAttackCooldownMin>1.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>RocketLauncher_Right</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>120</DamagePerSecond>
+		<DamagePerSecond>125</DamagePerSecond>
 		<WeaponType>AntiAir</WeaponType>
 		<Projectile>fx_proj_rocket_01_mp</Projectile>
 		<ImpactEffect size="Medium">BanishedMissileExplosion</ImpactEffect>
@@ -36,6 +38,8 @@
 		<TargetPriority type="TurretBuilding">3</TargetPriority>
 		<TargetPriority type="Building">1</TargetPriority>
 		<ProjectileLaunchDirY />
+		<PostAttackCooldownMin>1.5</PostAttackCooldownMin>
+		<PostAttackCooldownMax>1.5</PostAttackCooldownMax>
 	</Weapon>
 	<Weapon>
 		<Name>Autocannon</Name>
