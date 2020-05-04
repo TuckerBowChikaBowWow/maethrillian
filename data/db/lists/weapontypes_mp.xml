@@ -189,16 +189,37 @@
 		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
 	</WeaponType>
 	<WeaponType>
+		<Name>AntiAir</Name>
+		<DamageModifier rating="1" type="Light">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="LightRush">1</DamageModifier>
+		<DamageModifier rating="1" type="LightArmored">1</DamageModifier>
+		<DamageModifier rating="1" type="SentinelLight">3</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeader">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumScout">1</DamageModifier>
+		<DamageModifier rating="1" type="Medium">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumHero">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAA">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">2.6</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">1.2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="CovenantLeaderInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Heavy">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
 		<Name>AntiInfantry</Name>
 		<DamageModifier rating="1" type="Light">4</DamageModifier>
 		<DamageModifier rating="1" type="LightInCover">1.8</DamageModifier>
 		<DamageModifier rating="1" type="LightRush">4</DamageModifier>
 		<DamageModifier rating="1" type="LightArmored">3</DamageModifier>
-		<DamageModifier rating="1" type="SentinelLight">0.600000024</DamageModifier>
+		<DamageModifier rating="1" type="SentinelLight">1</DamageModifier>
 		<DamageModifier rating="1" type="CovenantLeader">2.8</DamageModifier>
-		<DamageModifier rating="1" type="MediumScout">0.400000006</DamageModifier>
+		<DamageModifier rating="1" type="MediumScout">0.4</DamageModifier>
 		<DamageModifier rating="1" type="Medium">0.4</DamageModifier>
 		<DamageModifier rating="1" type="MediumHero">0.4</DamageModifier>
+		<DamageModifier rating="1" type="MediumAA">0.4</DamageModifier>
 		<DamageModifier rating="1" type="MediumAir">0.6</DamageModifier>
 		<DamageModifier rating="1" type="HeavyAir">0.6</DamageModifier>
 		<DamageModifier rating="1" type="HeavyInfantry">3.4</DamageModifier>
@@ -219,6 +240,8 @@
 		<DamageModifier rating="1" type="Medium">2.6</DamageModifier>
 		<DamageModifier rating="1" type="MediumHero">2</DamageModifier>
 		<DamageModifier rating="1" type="MediumAA">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">1</DamageModifier>
 		<DamageModifier rating="1" type="HeavyInfantry">1</DamageModifier>
 		<DamageModifier rating="1" type="HeavyInCover">0.6</DamageModifier>
 		<DamageModifier rating="1" type="CovenantLeaderInCover">0.6</DamageModifier>
