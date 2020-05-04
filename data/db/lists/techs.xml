@@ -4165,6 +4165,12 @@
 			<Effect type="Data" amount="1" subtype="Techlevel" allactions="1" relativity="Absolute">
 				<Target type="ProtoSquad">cov_veh_prowler_01</Target>
 			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" action="ShadeTurretAttackAction" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1.25" subtype="Damage" action="ShadeTurretSiphonAttackAction" relativity="Percent">
+				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1.39999998" subtype="Hitpoints" relativity="Percent">
 				<Target type="ProtoUnit">cov_veh_prowler_01</Target>
 			</Effect>
@@ -15685,6 +15691,9 @@
 		<Effects>
 			<Effect type="SquadCounter" NewCounterName="WraithAPC_02">
 				<Target type="ProtoSquad">cov_veh_wraithapc_01</Target>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="MaxContained" relativity="Absolute">
+				<Target type="ProtoUnit">cov_veh_wraithapc_01</Target>
 			</Effect>
 			<Effect type="Data" amount="2500" subtype="Shieldpoints" relativity="Absolute">
 				<Target type="ProtoUnit">cov_veh_wraithapc_01</Target>
