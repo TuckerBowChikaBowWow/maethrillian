@@ -4931,9 +4931,9 @@
 		<ActiveAbilityType>Lockdown</ActiveAbilityType>
 		<BuildPoints>35</BuildPoints>
 		<Pop Type="Unit">7</Pop>
-		<Cost ResourceType="Supplies">650</Cost>
+		<Cost ResourceType="Supplies">250</Cost>
 		<Cost ResourceType="Power">50</Cost>
-		<Cost ResourceType="HQLevel">3</Cost>
+		<Cost ResourceType="HQLevel">2</Cost>
 		<HPBar offset="0,4.30499983,0">COV_Health</HPBar>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
@@ -8146,12 +8146,44 @@
 	</Squad>
 	<Squad name="unsc_air_pelicangunship_01" dbid="7720381227858783404" parent_element="unsc_air_pelicangunship_01_sp" />
 	<Squad name="unsc_air_pelicangunship_01_base" dbid="1037580463349090612">
+		<CombatRank>6</CombatRank>
+		<PortraitIcon>ui\flash\HUD\hud_menu\hud_menu_icons\final_unsc\air_wasp</PortraitIcon>
+		<MinimapScale>1</MinimapScale>
+		<DisplayNameID>23675</DisplayNameID>
+		<RolloverTextID>23676</RolloverTextID>
+		<RoleTextID>509</RoleTextID>
+		<PrereqTextID>233</PrereqTextID>
+		<SubSelectSort>7300</SubSelectSort>
+		<HealValue>4.5</HealValue>
+		<CryoPoints>150</CryoPoints>
+		<LeashDistance>15</LeashDistance>
+		<LeashDeadzone>15</LeashDeadzone>
+		<LeashRecallDelay>2500</LeashRecallDelay>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<AIAttackRank>3.5</AIAttackRank>
+		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<BuildPoints>13</BuildPoints>
+		<Pop Type="Unit">4</Pop>
+		<Cost ResourceType="Supplies">210</Cost>
+		<Cost ResourceType="Power">120</Cost>
+		<Cost ResourceType="HQLevel">3</Cost>
 		<Units>
 			<Unit count="1" role="normal">unsc_air_pelicangunship_01</Unit>
 		</Units>
+		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
+		<Selection>
+			<ConformToTerrain>false</ConformToTerrain>
+			<AlignToCamera>true</AlignToCamera>
+			<StencilType>None</StencilType>
+		</Selection>
+		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<AvoidanceMass>None</AvoidanceMass>
 		<HPBar offset="0,3.07500005,0">UNSC_Health</HPBar>
-		<MinimapIcon size="8">Triangle</MinimapIcon>
+		<Flag>DiesWhenFrozen</Flag>
+		<Flag>Repairable</Flag>
+		<Flag>KBAware</Flag>
+		<Birth>FlyIn</Birth>
+		<AvoidanceMass>Normal</AvoidanceMass>
 	</Squad>
 	<Squad name="unsc_air_pelicangunship_01_mp" parent_element="unsc_air_pelicangunship_01_base" dbid="9043655082678658548" />
 	<Squad name="unsc_air_pelicangunship_01_sp" parent_element="unsc_air_pelicangunship_01_base" dbid="9064770103982659642" />

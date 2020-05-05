@@ -2783,6 +2783,37 @@
 			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_reactor_02</Effect>
 		</Effects>
 	</Tech>
+	<Tech name="cov_reactorflood_upgrade1" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>1180</DisplayNameID>
+		<RolloverTextID>1181</RolloverTextID>
+		<Cost resourcetype="Supplies">0</Cost>
+		<Cost resourcetype="Power">150</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>25</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_upgrade_reactor</ResearchCompleteSound>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects>
+			<Effect type="TransformUnit" IsBuildingUpgrade="true">cov_bldg_reactorflood_02</Effect>
+		</Effects>
+	</Tech>
+	<Tech name="cov_reactorflood_upgrade2" type="Normal">
+		<DBID>1962</DBID>
+		<DisplayNameID>1180</DisplayNameID>
+		<RolloverTextID>1181</RolloverTextID>
+		<Cost resourcetype="Supplies">700</Cost>
+		<Cost resourcetype="HQLevel">1</Cost>
+		<ResearchPoints>30</ResearchPoints>
+		<Status>OBTAINABLE</Status>
+		<Icon>ui\flash\HUD\hud_menu\hud_menu_icons\final_cov\placeholder</Icon>
+		<ResearchCompleteSound>play_vog_upgrade_reactor</ResearchCompleteSound>
+		<Flag>UniqueProtoUnitInstance</Flag>
+		<Effects>
+			<Effect type="TransformUnit">cov_bldg_reactor_03</Effect>
+		</Effects>
+	</Tech>
 	<Tech name="cov_reactor_upgrade2" type="Normal">
 		<DBID>1962</DBID>
 		<DisplayNameID>1180</DisplayNameID>
@@ -9368,6 +9399,9 @@
 			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_lightfactory_01_fl</Target>
 			</Effect>
+			<Effect type="Data" amount="1" subtype="Enable" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_reactorflood_01</Target>
+			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="TrainSquad" CommandData="flood_veh_infected_warthog_01_base" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_heavyfactory_01_fl</Target>
 			</Effect>
@@ -9406,6 +9440,10 @@
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="Research" CommandData="flood_tech_global_flood_03" relativity="Absolute">
 				<Target type="ProtoUnit">cov_bldg_barracks_01_fl</Target>
+			</Effect>
+			</Effect>
+			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_reactorflood_01" relativity="Absolute">
+				<Target type="ProtoUnit">cov_bldg_socket_01_fl</Target>
 			</Effect>
 			<Effect type="Data" amount="1" subtype="CommandEnable" commandType="BuildOther" CommandData="cov_bldg_builder_01_fl" relativity="Absolute">
 				<Target type="ProtoUnit">game_base_Socket_01</Target>
